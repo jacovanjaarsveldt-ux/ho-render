@@ -7,6 +7,7 @@ on:
       entry: { description: "entry .tsx inside that folder", required: true }
       comp: { description: "composition id", required: true }
       vbitrate: { description: "upload video bitrate", required: false, default: "3000k" }
+      mode: { description: "video = full render, stills = QA frames only", required: false, default: "video" }
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -18,19 +19,31 @@ jobs:
       - run: npm ci
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: npx remotion browser ensure
+      - name: QA stills
+        if: inputs.mode == 'stills'
+        run: node scripts/stills.mjs videos/${{ inputs.video }} ${{ inputs.entry }} ${{ inputs.comp }}
+      - uses: actions/upload-artifact@v4
+        if: inputs.mode == 'stills'
+        with:
+          name: ${{ inputs.video }}-stills
+          path: out/stills
+          retention-days: 7
       - name: Render
+        if: inputs.mode != 'stills'
         run: |
           V=videos/${{ inputs.video }}
           echo "cores: $(nproc)"
           npx remotion render $V/${{ inputs.entry }} ${{ inputs.comp }} out/raw.mp4 --public-dir=$V/public --crf=20 --concurrency=$(nproc) --log=info 2>&1 | grep -v "^Rendered\|^Encoded" || true
           test -s out/raw.mp4
       - name: Loudness + upload copy
+        if: inputs.mode != 'stills'
         run: |
           ffmpeg -v error -y -i out/raw.mp4 -c:v libx264 -preset medium -b:v ${{ inputs.vbitrate }} -maxrate 4000k -bufsize 8000k -pix_fmt yuv420p -movflags +faststart \
             -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:a aac -b:a 192k -ar 48000 out/${{ inputs.video }}-upload.mp4
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 out/${{ inputs.video }}-upload.mp4
           ffmpeg -nostats -i out/${{ inputs.video }}-upload.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -12
       - uses: actions/upload-artifact@v4
+        if: inputs.mode != 'stills'
         with:
           name: ${{ inputs.video }}
           path: out/${{ inputs.video }}-upload.mp4
