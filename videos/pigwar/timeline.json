@@ -1,0 +1,1618 @@
+{
+"end": 925.72,
+"shots": [
+{
+"a": 0.0,
+"kind": "img",
+"src": "img/I01.png",
+"b": 2.54
+},
+{
+"a": 2.54,
+"kind": "img",
+"src": "img/I02.png",
+"b": 4.3
+},
+{
+"a": 4.3,
+"kind": "img",
+"src": "img/I01.png",
+"z": [
+1.35,
+1.5
+],
+"o": "30% 35%",
+"b": 5.82
+},
+{
+"a": 5.82,
+"kind": "img",
+"src": "img/I03.png",
+"b": 6.86
+},
+{
+"a": 6.86,
+"kind": "img",
+"src": "img/I04.png",
+"b": 8.22
+},
+{
+"a": 8.22,
+"kind": "img",
+"src": "img/I05.png",
+"b": 9.58
+},
+{
+"a": 9.58,
+"kind": "card",
+"lines": [
+"JUNE 15, 1859",
+"TO",
+"AUGUST 31, 1859"
+],
+"style": "date",
+"b": 11.18
+},
+{
+"a": 11.18,
+"kind": "img",
+"src": "img/I06.png",
+"b": 15.22
+},
+{
+"a": 15.22,
+"kind": "img",
+"src": "img/I07.png",
+"b": 16.75
+},
+{
+"a": 16.75,
+"kind": "img",
+"src": "img/I08.png",
+"b": 19.02
+},
+{
+"a": 19.02,
+"kind": "img",
+"src": "img/I01.png",
+"z": [
+1.3,
+1.42
+],
+"o": "60% 40%",
+"b": 23.1
+},
+{
+"a": 23.1,
+"kind": "img",
+"src": "img/I09.png",
+"b": 24.78
+},
+{
+"a": 24.78,
+"kind": "img",
+"src": "img/I10.png",
+"b": 26.78
+},
+{
+"a": 26.78,
+"kind": "img",
+"src": "img/I11.png",
+"b": 28.9
+},
+{
+"a": 28.9,
+"kind": "img",
+"src": "img/I12.png",
+"b": 31.31
+},
+{
+"a": 31.31,
+"kind": "map",
+"src": "img/M_sanjuan.png",
+"view": [
+[
+960,
+543,
+1.0
+],
+[
+749,
+618,
+1.6
+]
+],
+"markers": [
+{
+"p": "M_sanjuan.sanjuan",
+"label": "SAN JUAN ISLAND",
+"at": 0.4,
+"c": "#E7C27A",
+"xy": [
+749,
+618
+]
+}
+],
+"b": 34.17
+},
+{
+"a": 34.17,
+"kind": "img",
+"src": "img/I13.png",
+"b": 36.41
+},
+{
+"a": 36.41,
+"kind": "img",
+"src": "img/I09.png",
+"z": [
+1.5,
+1.36
+],
+"o": "70% 40%",
+"b": 39.42
+},
+{
+"a": 39.42,
+"kind": "img",
+"src": "img/I14.png",
+"b": 44.14
+},
+{
+"a": 44.14,
+"kind": "map",
+"src": "img/M_na.png",
+"view": [
+[
+960,
+543,
+1.0
+],
+[
+378,
+310,
+2.6
+]
+],
+"markers": [
+{
+"p": "M_na.pnw",
+"label": "THE BORDER, 1846",
+"at": 2.5,
+"c": "#E10600",
+"xy": [
+378,
+310
+]
+}
+],
+"b": 51.02
+},
+{
+"a": 51.02,
+"kind": "map",
+"src": "img/M_sanjuan.png",
+"view": [
+[
+960,
+543,
+1.0
+],
+[
+860,
+600,
+1.15
+]
+],
+"markers": [
+{
+"p": "M_sanjuan.haro",
+"label": "CHANNEL 1",
+"at": 0.6,
+"c": "#E7C27A",
+"xy": [
+576,
+580
+]
+},
+{
+"p": "M_sanjuan.rosario",
+"label": "CHANNEL 2",
+"at": 1.4,
+"c": "#E7C27A",
+"left": true,
+"xy": [
+1146,
+580
+]
+}
+],
+"b": 53.54
+},
+{
+"a": 53.54,
+"kind": "img",
+"src": "img/I15.png",
+"b": 61.82
+},
+{
+"a": 61.82,
+"kind": "map",
+"src": "img/M_sanjuan.png",
+"view": [
+[
+860,
+600,
+1.15
+],
+[
+700,
+600,
+1.3
+]
+],
+"markers": [
+{
+"p": "M_sanjuan.haro",
+"label": "HARO STRAIT \u00b7 U.S. CLAIM",
+"at": 0.3,
+"c": "#3B82F6",
+"xy": [
+576,
+580
+]
+}
+],
+"b": 66.86
+},
+{
+"a": 66.86,
+"kind": "map",
+"src": "img/M_sanjuan.png",
+"view": [
+[
+700,
+600,
+1.3
+],
+[
+1000,
+600,
+1.3
+]
+],
+"markers": [
+{
+"p": "M_sanjuan.rosario",
+"label": "ROSARIO STRAIT \u00b7 BRITISH CLAIM",
+"at": 0.3,
+"c": "#E10600",
+"left": true,
+"xy": [
+1146,
+580
+]
+}
+],
+"b": 71.42
+},
+{
+"a": 71.42,
+"kind": "img",
+"src": "img/I16.png",
+"b": 76.35
+},
+{
+"a": 76.35,
+"kind": "img",
+"src": "img/I17.png",
+"b": 81.7
+},
+{
+"a": 81.7,
+"kind": "img",
+"src": "img/I17.png",
+"z": [
+1.35,
+1.5
+],
+"o": "50% 30%",
+"b": 89.5
+},
+{
+"a": 89.5,
+"kind": "card",
+"lines": [
+"ABOUT 1,300 SHEEP",
+"TO",
+"4,500+ SHEEP"
+],
+"sub": "in six years",
+"b": 95.95
+},
+{
+"a": 95.95,
+"kind": "img",
+"src": "img/N18.png",
+"b": 109.5
+},
+{
+"a": 109.5,
+"kind": "img",
+"src": "img/I17.png",
+"z": [
+1.5,
+1.36
+],
+"o": "35% 65%",
+"b": 115.22
+},
+{
+"a": 115.22,
+"kind": "img",
+"src": "img/I16.png",
+"z": [
+1.35,
+1.5
+],
+"o": "65% 60%",
+"b": 120.94
+},
+{
+"a": 120.94,
+"kind": "img",
+"src": "img/I18.png",
+"b": 132.86
+},
+{
+"a": 132.86,
+"kind": "img",
+"src": "img/I18.png",
+"z": [
+1.5,
+1.36
+],
+"o": "50% 50%",
+"b": 137.85
+},
+{
+"a": 137.85,
+"kind": "img",
+"src": "img/I02.png",
+"z": [
+1.35,
+1.5
+],
+"o": "30% 35%",
+"b": 144.22
+},
+{
+"a": 144.22,
+"kind": "img",
+"src": "img/I17.png",
+"z": [
+1.5,
+1.36
+],
+"o": "70% 40%",
+"b": 148.86
+},
+{
+"a": 148.86,
+"kind": "img",
+"src": "img/I01.png",
+"z": [
+1.35,
+1.5
+],
+"o": "50% 30%",
+"b": 150.67
+},
+{
+"a": 150.67,
+"kind": "img",
+"src": "img/I19.png",
+"b": 159.74
+},
+{
+"a": 159.74,
+"kind": "img",
+"src": "img/I20.png",
+"b": 164.58
+},
+{
+"a": 164.58,
+"kind": "img",
+"src": "img/I03.png",
+"z": [
+1.5,
+1.36
+],
+"o": "35% 65%",
+"b": 168.3
+},
+{
+"a": 168.3,
+"kind": "img",
+"src": "img/I05.png",
+"z": [
+1.35,
+1.5
+],
+"o": "65% 60%",
+"b": 170.06
+},
+{
+"a": 170.06,
+"kind": "img",
+"src": "img/I22.png",
+"b": 175.15
+},
+{
+"a": 175.15,
+"kind": "img",
+"src": "img/I17.png",
+"z": [
+1.5,
+1.36
+],
+"o": "50% 50%",
+"b": 177.66
+},
+{
+"a": 177.66,
+"kind": "img",
+"src": "img/I23.png",
+"b": 181.18
+},
+{
+"a": 181.18,
+"kind": "img",
+"src": "img/I21.png",
+"b": 185.38
+},
+{
+"a": 185.38,
+"kind": "card",
+"lines": [
+"$10",
+"OR",
+"$100?"
+],
+"sub": "the usual story",
+"b": 187.74
+},
+{
+"a": 187.74,
+"kind": "img",
+"src": "img/I24.png",
+"b": 191.26
+},
+{
+"a": 191.26,
+"kind": "img",
+"src": "img/I25.png",
+"b": 193.26
+},
+{
+"a": 193.26,
+"kind": "card",
+"lines": [
+"$10 IN 1859",
+"ABOUT $360 TODAY"
+],
+"b": 197.1
+},
+{
+"a": 197.1,
+"kind": "card",
+"lines": [
+"$100 IN 1859",
+"ABOUT $3,600 TODAY"
+],
+"sub": "for a pig",
+"b": 199.58
+},
+{
+"a": 199.58,
+"kind": "img",
+"src": "img/I20.png",
+"z": [
+1.35,
+1.5
+],
+"o": "30% 35%",
+"b": 201.1
+},
+{
+"a": 201.1,
+"kind": "img",
+"src": "img/I23.png",
+"z": [
+1.5,
+1.36
+],
+"o": "70% 40%",
+"b": 204.3
+},
+{
+"a": 204.3,
+"kind": "img",
+"src": "img/I26.png",
+"z": [
+1.35,
+1.5
+],
+"o": "50% 30%",
+"b": 217.74
+},
+{
+"a": 217.74,
+"kind": "card",
+"lines": [
+"\u201cPLAINLY",
+"RUM LAW.\u201d"
+],
+"sub": "Charles Griffin, 1854, as reported",
+"style": "quote",
+"b": 222.54
+},
+{
+"a": 222.54,
+"kind": "card",
+"lines": [
+"ABOUT 40 HOGS"
+],
+"sub": "on the same farm",
+"b": 227.02
+},
+{
+"a": 227.02,
+"kind": "img",
+"src": "img/I26.png",
+"b": 232.3
+},
+{
+"a": 232.3,
+"kind": "img",
+"src": "img/I23.png",
+"z": [
+1.5,
+1.36
+],
+"o": "35% 65%",
+"b": 238.46
+},
+{
+"a": 238.46,
+"kind": "card",
+"lines": [
+"\u201cKEEP YOUR POTATOES",
+"OUT OF MY PIG.\u201d"
+],
+"stamp": "PROBABLY MADE UP",
+"style": "quote",
+"b": 246.06
+},
+{
+"a": 246.06,
+"kind": "img",
+"src": "img/I27.png",
+"b": 251.34
+},
+{
+"a": 251.34,
+"kind": "img",
+"src": "img/I04.png",
+"z": [
+1.35,
+1.5
+],
+"o": "65% 60%",
+"b": 258.14
+},
+{
+"a": 258.14,
+"kind": "img",
+"src": "img/I28.png",
+"b": 260.51
+},
+{
+"a": 260.51,
+"kind": "img",
+"src": "img/I29.png",
+"b": 264.98
+},
+{
+"a": 264.98,
+"kind": "img",
+"src": "img/I29.png",
+"z": [
+1.5,
+1.36
+],
+"o": "50% 50%",
+"b": 277.18
+},
+{
+"a": 277.18,
+"kind": "img",
+"src": "img/I11.png",
+"z": [
+1.35,
+1.5
+],
+"o": "30% 35%",
+"b": 284.06
+},
+{
+"a": 284.06,
+"kind": "img",
+"src": "img/I30.png",
+"b": 294.2
+},
+{
+"a": 294.2,
+"kind": "img",
+"src": "img/I31.png",
+"b": 299.26
+},
+{
+"a": 299.26,
+"kind": "img",
+"src": "img/I32.png",
+"b": 307.0
+},
+{
+"a": 307.0,
+"kind": "img",
+"src": "img/I33.png",
+"b": 317.3
+},
+{
+"a": 317.3,
+"kind": "img",
+"src": "img/I34.png",
+"b": 325.26
+},
+{
+"a": 325.26,
+"kind": "img",
+"src": "img/I35.png",
+"b": 327.32
+},
+{
+"a": 327.32,
+"kind": "img",
+"src": "img/I36.png",
+"b": 333.58
+},
+{
+"a": 333.58,
+"kind": "img",
+"src": "img/I37.png",
+"b": 344.3
+},
+{
+"a": 344.3,
+"kind": "card",
+"lines": [
+"DEFEND YOURSELVES.",
+"DO NOT FIRE FIRST."
+],
+"sub": "orders to both sides",
+"style": "quote",
+"b": 355.98
+},
+{
+"a": 355.98,
+"kind": "img",
+"src": "img/I09.png",
+"z": [
+1.5,
+1.36
+],
+"o": "70% 40%",
+"b": 368.36
+},
+{
+"a": 368.36,
+"kind": "img",
+"src": "img/I39.png",
+"b": 378.02
+},
+{
+"a": 378.02,
+"kind": "card",
+"lines": [
+"AUGUST 10, 1859"
+],
+"style": "date",
+"b": 379.18
+},
+{
+"a": 379.18,
+"kind": "img",
+"src": "img/I40.png",
+"b": 389.31
+},
+{
+"a": 389.31,
+"kind": "vs",
+"left": [
+"461 SOLDIERS",
+"14 CANNONS"
+],
+"right": [
+"5 WARSHIPS",
+"2,000+ MEN"
+],
+"lt": "AMERICANS",
+"rt": "BRITISH",
+"b": 395.54
+},
+{
+"a": 395.54,
+"kind": "img",
+"src": "img/I41.png",
+"b": 402.7
+},
+{
+"a": 402.7,
+"kind": "img",
+"src": "img/I42.png",
+"b": 408.7
+},
+{
+"a": 408.7,
+"kind": "img",
+"src": "img/I43.png",
+"b": 416.68
+},
+{
+"a": 416.68,
+"kind": "img",
+"src": "img/I08.png",
+"z": [
+1.35,
+1.5
+],
+"o": "50% 30%",
+"b": 422.86
+},
+{
+"a": 422.86,
+"kind": "card",
+"lines": [
+"1 AMERICAN",
+"FOR EVERY",
+"5 BRITISH"
+],
+"sub": "roughly",
+"b": 435.34
+},
+{
+"a": 435.34,
+"kind": "img",
+"src": "img/I44.png",
+"b": 446.38
+},
+{
+"a": 446.38,
+"kind": "img",
+"src": "img/I45.png",
+"b": 461.1
+},
+{
+"a": 461.1,
+"kind": "img",
+"src": "img/I46.png",
+"b": 468.3
+},
+{
+"a": 468.3,
+"kind": "img",
+"src": "img/I47.png",
+"b": 471.82
+},
+{
+"a": 471.82,
+"kind": "img",
+"src": "img/I48.png",
+"b": 486.26
+},
+{
+"a": 486.26,
+"kind": "img",
+"src": "img/I49.png",
+"b": 497.1
+},
+{
+"a": 497.1,
+"kind": "img",
+"src": "img/I08.png",
+"z": [
+1.5,
+1.36
+],
+"o": "35% 65%",
+"b": 506.06
+},
+{
+"a": 506.06,
+"kind": "img",
+"src": "img/I49.png",
+"z": [
+1.35,
+1.5
+],
+"o": "65% 60%",
+"b": 509.95
+},
+{
+"a": 509.95,
+"kind": "img",
+"src": "img/I50.png",
+"b": 517.26
+},
+{
+"a": 517.26,
+"kind": "card",
+"lines": [
+"\u201cA WAR OVER A",
+"SQUABBLE ABOUT A PIG\u201d"
+],
+"sub": "Rear Admiral Baynes, as reported by the National Park Service",
+"style": "quote",
+"b": 525.66
+},
+{
+"a": 525.66,
+"kind": "img",
+"src": "img/I48.png",
+"z": [
+1.5,
+1.36
+],
+"o": "50% 50%",
+"b": 536.78
+},
+{
+"a": 536.78,
+"kind": "timeline",
+"items": [
+"JUN 15",
+"JUL 27",
+"AUG 10",
+"AUG 31",
+"OCT",
+"NOV"
+],
+"sub": "1859",
+"b": 541.98
+},
+{
+"a": 541.98,
+"kind": "img",
+"src": "img/I49.png",
+"z": [
+1.35,
+1.5
+],
+"o": "30% 35%",
+"b": 552.22
+},
+{
+"a": 552.22,
+"kind": "img",
+"src": "img/I51.png",
+"b": 561.33
+},
+{
+"a": 561.33,
+"kind": "img",
+"src": "img/I52.png",
+"b": 576.18
+},
+{
+"a": 576.18,
+"kind": "map",
+"src": "img/M_route.png",
+"view": [
+[
+960,
+543,
+1.0
+],
+[
+960,
+543,
+1.0
+]
+],
+"markers": [
+{
+"p": "M_route.ny",
+"label": "NEW YORK",
+"at": 0.3,
+"c": "#E7C27A",
+"xy": [
+1334,
+243
+]
+},
+{
+"p": "M_route.panama",
+"label": "PANAMA",
+"at": 1.6,
+"c": "#E7C27A",
+"xy": [
+1236,
+870
+]
+},
+{
+"p": "M_route.victoria",
+"label": "SAN JUAN ISLAND",
+"at": 2.9,
+"c": "#E10600",
+"xy": [
+454,
+90
+]
+}
+],
+"route": [
+[
+1334,
+243
+],
+[
+1308,
+415
+],
+[
+1338,
+582
+],
+[
+1272,
+750
+],
+[
+1229,
+862
+],
+[
+1236,
+870
+],
+[
+1085,
+849
+],
+[
+817,
+711
+],
+[
+621,
+553
+],
+[
+472,
+300
+],
+[
+420,
+178
+],
+[
+454,
+90
+]
+],
+"routeSub": "ABOUT 6 WEEKS",
+"b": 583.82
+},
+{
+"a": 583.82,
+"kind": "img",
+"src": "img/I53.png",
+"b": 591.34
+},
+{
+"a": 591.34,
+"kind": "img",
+"src": "img/I54.png",
+"z": [
+1.35,
+1.45
+],
+"o": "20% 60%",
+"b": 606.14
+},
+{
+"a": 606.14,
+"kind": "card",
+"lines": [
+"MAX 100 MEN",
+"EACH SIDE"
+],
+"b": 617.98
+},
+{
+"a": 617.98,
+"kind": "timeline",
+"items": [
+"1860",
+"1872"
+],
+"sub": "12 YEARS",
+"bar": true,
+"b": 620.13
+},
+{
+"a": 620.13,
+"kind": "img",
+"src": "img/I55.png",
+"b": 627.18
+},
+{
+"a": 627.18,
+"kind": "img",
+"src": "img/I56.png",
+"b": 636.14
+},
+{
+"a": 636.14,
+"kind": "map",
+"src": "img/M_sanjuan.png",
+"view": [
+[
+749,
+618,
+1.6
+],
+[
+760,
+620,
+2.2
+]
+],
+"markers": [
+{
+"p": "M_sanjuan.english",
+"label": "ENGLISH CAMP",
+"at": 0.3,
+"c": "#E10600",
+"xy": [
+663,
+515
+]
+},
+{
+"p": "M_sanjuan.american",
+"label": "AMERICAN CAMP",
+"at": 1.0,
+"c": "#3B82F6",
+"xy": [
+861,
+740
+]
+}
+],
+"b": 640.86
+},
+{
+"a": 640.86,
+"kind": "img",
+"src": "img/I57.png",
+"b": 645.77
+},
+{
+"a": 645.77,
+"kind": "img",
+"src": "img/I58.png",
+"b": 656.22
+},
+{
+"a": 656.22,
+"kind": "img",
+"src": "img/I59.png",
+"b": 661.82
+},
+{
+"a": 661.82,
+"kind": "img",
+"src": "img/I60.png",
+"b": 675.02
+},
+{
+"a": 675.02,
+"kind": "card",
+"lines": [
+"84 TIN MUGS",
+"36 TIN PLATES",
+"18 LANTERNS"
+],
+"sub": "the first shopping list",
+"style": "list",
+"b": 683.86
+},
+{
+"a": 683.86,
+"kind": "img",
+"src": "img/I56.png",
+"z": [
+1.5,
+1.36
+],
+"o": "70% 40%",
+"b": 692.46
+},
+{
+"a": 692.46,
+"kind": "img",
+"src": "img/I46.png",
+"z": [
+1.35,
+1.5
+],
+"o": "50% 30%",
+"b": 701.78
+},
+{
+"a": 701.78,
+"kind": "card",
+"lines": [
+"1867: ONE DESERTER"
+],
+"sub": "settled with letters, not guns",
+"b": 708.91
+},
+{
+"a": 708.91,
+"kind": "img",
+"src": "img/I55.png",
+"z": [
+1.5,
+1.36
+],
+"o": "35% 65%",
+"b": 721.24
+},
+{
+"a": 721.24,
+"kind": "timeline",
+"items": [
+"1860 \u00b7 HARNEY RELIEVED",
+"1862 \u00b7 GRIFFIN REPLACED",
+"1889 \u00b7 HARNEY DIES"
+],
+"b": 730.38
+},
+{
+"a": 730.38,
+"kind": "map",
+"src": "img/M_us.png",
+"view": [
+[
+960,
+543,
+1.0
+],
+[
+253,
+292,
+2.2
+]
+],
+"markers": [
+{
+"p": "M_us.harney",
+"label": "HARNEY COUNTY, OREGON",
+"at": 1.0,
+"c": "#E7C27A",
+"xy": [
+253,
+292
+]
+}
+],
+"b": 737.98
+},
+{
+"a": 737.98,
+"kind": "img",
+"src": "img/I17.png",
+"z": [
+1.35,
+1.5
+],
+"o": "65% 60%",
+"b": 749.47
+},
+{
+"a": 749.47,
+"kind": "img",
+"src": "img/I11.png",
+"z": [
+1.5,
+1.36
+],
+"o": "50% 50%",
+"b": 752.38
+},
+{
+"a": 752.38,
+"kind": "img",
+"src": "img/I61.png",
+"b": 762.11
+},
+{
+"a": 762.11,
+"kind": "card",
+"lines": [
+"JULY 3, 1863",
+"GETTYSBURG"
+],
+"style": "date",
+"b": 773.5
+},
+{
+"a": 773.5,
+"kind": "card",
+"lines": [
+"NEARLY 1 MILE",
+"OF OPEN FIELDS"
+],
+"b": 777.38
+},
+{
+"a": 777.38,
+"kind": "img",
+"src": "img/I62.png",
+"b": 789.98
+},
+{
+"a": 789.98,
+"kind": "img",
+"src": "img/I63.png",
+"b": 801.66
+},
+{
+"a": 801.66,
+"kind": "img",
+"src": "img/I32.png",
+"z": [
+1.35,
+1.5
+],
+"o": "30% 35%",
+"b": 808.78
+},
+{
+"a": 808.78,
+"kind": "img",
+"src": "img/I49.png",
+"z": [
+1.5,
+1.36
+],
+"o": "70% 40%",
+"b": 817.52
+},
+{
+"a": 817.52,
+"kind": "img",
+"src": "img/I13.png",
+"z": [
+1.35,
+1.5
+],
+"o": "50% 30%",
+"b": 821.23
+},
+{
+"a": 821.23,
+"kind": "img",
+"src": "img/I14.png",
+"z": [
+1.5,
+1.36
+],
+"o": "35% 65%",
+"b": 834.5
+},
+{
+"a": 834.5,
+"kind": "img",
+"src": "img/I64.png",
+"b": 839.1
+},
+{
+"a": 839.1,
+"kind": "img",
+"src": "img/I65.png",
+"b": 844.18
+},
+{
+"a": 844.18,
+"kind": "card",
+"lines": [
+"OCTOBER 21, 1872",
+"THE BORDER: HARO STRAIT"
+],
+"stamp": "DECIDED",
+"style": "quote",
+"b": 850.7
+},
+{
+"a": 850.7,
+"kind": "img",
+"src": "img/I66.png",
+"b": 860.38
+},
+{
+"a": 860.38,
+"kind": "img",
+"src": "img/I67.png",
+"b": 868.62
+},
+{
+"a": 868.62,
+"kind": "img",
+"src": "img/I66.png",
+"z": [
+1.4,
+1.52
+],
+"o": "30% 40%",
+"b": 877.58
+},
+{
+"a": 877.58,
+"kind": "map",
+"src": "img/M_us.png",
+"view": [
+[
+960,
+543,
+1.0
+],
+[
+330,
+260,
+1.8
+]
+],
+"markers": [
+{
+"p": "M_us.sanjuan",
+"label": "LAST PIECE, 1872",
+"at": 1.2,
+"c": "#E10600",
+"xy": [
+130,
+92
+]
+}
+],
+"b": 884.06
+},
+{
+"a": 884.06,
+"kind": "img",
+"src": "img/I68.png",
+"b": 889.22
+},
+{
+"a": 889.22,
+"kind": "img",
+"src": "img/I69.png",
+"b": 894.98
+},
+{
+"a": 894.98,
+"kind": "img",
+"src": "img/N70.png",
+"z": [
+1.4,
+1.48
+],
+"o": "100% 55%",
+"b": 905.3
+},
+{
+"a": 905.3,
+"kind": "img",
+"src": "img/N70.png",
+"z": [
+1.45,
+1.55
+],
+"o": "100% 55%",
+"b": 916.22
+},
+{
+"a": 916.22,
+"kind": "img",
+"src": "img/I13.png",
+"z": [
+1.35,
+1.5
+],
+"o": "65% 60%",
+"b": 921.74
+},
+{
+"a": 921.74,
+"kind": "img",
+"src": "img/I01.png",
+"z": [
+1.6,
+1.75
+],
+"o": "70% 45%",
+"b": 925.72
+}
+],
+"text": [
+{
+"a": 19.02,
+"b": 22.62,
+"t": "THE PIG WAR",
+"s": "title"
+},
+{
+"a": 150.67,
+"b": 153.77,
+"t": "TEN DOLLARS OR A HUNDRED",
+"s": "chapter"
+},
+{
+"a": 272.17,
+"b": 275.27,
+"t": "A BUNKER HILL OF IT",
+"s": "chapter"
+},
+{
+"a": 368.36,
+"b": 371.46,
+"t": "FOUR HUNDRED AND SIXTY-ONE",
+"s": "chapter"
+},
+{
+"a": 471.82,
+"b": 474.92,
+"t": "THE ADMIRAL WHO SAID NO",
+"s": "chapter"
+},
+{
+"a": 565.1,
+"b": 568.2,
+"t": "THE LONG WAY TO A PIG",
+"s": "chapter"
+},
+{
+"a": 620.13,
+"b": 623.23,
+"t": "THE TWELVE-YEAR SLEEPOVER",
+"s": "chapter"
+},
+{
+"a": 752.38,
+"b": 755.48,
+"t": "WHAT HAPPENED TO PICKETT",
+"s": "chapter"
+},
+{
+"a": 817.52,
+"b": 820.62,
+"t": "THE EMPEROR WHO SETTLED IT",
+"s": "chapter"
+},
+{
+"a": 884.06,
+"b": 887.16,
+"t": "THE ONLY ONE WHO PAID",
+"s": "chapter"
+},
+{
+"a": 153.5,
+"b": 156.9,
+"t": "Lyman Cutlar, farmer",
+"s": "label"
+},
+{
+"a": 180.38,
+"b": 183.78,
+"t": "Charles Griffin, farm manager",
+"s": "label"
+},
+{
+"a": 273.26,
+"b": 276.65999999999997,
+"t": "General William Harney",
+"s": "label"
+},
+{
+"a": 278.62,
+"b": 282.02,
+"t": "Captain George Pickett",
+"s": "label"
+},
+{
+"a": 329.02,
+"b": 332.41999999999996,
+"t": "Governor James Douglas",
+"s": "label"
+},
+{
+"a": 335.5,
+"b": 338.9,
+"t": "Captain Geoffrey Hornby",
+"s": "label"
+},
+{
+"a": 382.22,
+"b": 385.62,
+"t": "Lt. Col. Silas Casey",
+"s": "label"
+},
+{
+"a": 406.3,
+"b": 409.7,
+"t": "Lt. Henry Martyn Robert",
+"s": "label"
+},
+{
+"a": 461.9,
+"b": 465.29999999999995,
+"t": "Rear Admiral Baynes",
+"s": "label"
+},
+{
+"a": 552.98,
+"b": 556.38,
+"t": "President James Buchanan",
+"s": "label"
+},
+{
+"a": 563.78,
+"b": 567.18,
+"t": "General Winfield Scott",
+"s": "label"
+},
+{
+"a": 675.58,
+"b": 678.98,
+"t": "Captain George Bazalgette",
+"s": "label"
+},
+{
+"a": 833.02,
+"b": 836.42,
+"t": "Kaiser Wilhelm I",
+"s": "label"
+},
+{
+"a": 836.14,
+"b": 839.54,
+"t": "George Bancroft",
+"s": "label"
+}
+],
+"musicOff": [
+[
+484.42,
+488.17
+],
+[
+762.01,
+802.06
+]
+]
+}

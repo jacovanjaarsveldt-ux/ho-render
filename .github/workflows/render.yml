@@ -1,0 +1,38 @@
+name: render
+# Renders one History Outscaled video on GitHub's machines (not the laptop) and uploads it as an artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      video: { description: "folder under videos/", required: true }
+      entry: { description: "entry .tsx inside that folder", required: true }
+      comp: { description: "composition id", required: true }
+      vbitrate: { description: "upload video bitrate", required: false, default: "3000k" }
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: npx remotion browser ensure
+      - name: Render
+        run: |
+          V=videos/${{ inputs.video }}
+          echo "cores: $(nproc)"
+          npx remotion render $V/${{ inputs.entry }} ${{ inputs.comp }} out/raw.mp4 --public-dir=$V/public --crf=20 --concurrency=$(nproc) --log=info 2>&1 | grep -v "^Rendered\|^Encoded" || true
+          test -s out/raw.mp4
+      - name: Loudness + upload copy
+        run: |
+          ffmpeg -v error -y -i out/raw.mp4 -c:v libx264 -preset medium -b:v ${{ inputs.vbitrate }} -maxrate 4000k -bufsize 8000k -pix_fmt yuv420p -movflags +faststart \
+            -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:a aac -b:a 192k -ar 48000 out/${{ inputs.video }}-upload.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 out/${{ inputs.video }}-upload.mp4
+          ffmpeg -nostats -i out/${{ inputs.video }}-upload.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -12
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.video }}
+          path: out/${{ inputs.video }}-upload.mp4
+          retention-days: 7
+          compression-level: 0
