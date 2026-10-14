@@ -7,7 +7,8 @@ on:
       entry: { description: "entry .tsx inside that folder", required: true }
       comp: { description: "composition id", required: true }
       vbitrate: { description: "upload video bitrate", required: false, default: "3000k" }
-      mode: { description: "video = full render, stills = QA frames only", required: false, default: "video" }
+      mode: { description: "video = full render, stills = QA frames only, clips = 2 fps strips of AI clips only", required: false, default: "video" }
+      venc: { description: "x264 (default) or hevc, or x264-2pass", required: false, default: "x264" }
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -18,7 +19,17 @@ jobs:
         with: { node-version: 22, cache: npm }
       - run: npm ci
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Clip strips
+        if: inputs.mode == 'clips'
+        run: bash scripts/clipstrips.sh videos/${{ inputs.video }}/public/clips
+      - uses: actions/upload-artifact@v4
+        if: inputs.mode == 'clips'
+        with:
+          name: ${{ inputs.video }}-strips
+          path: out/strips
+          retention-days: 7
       - run: npx remotion browser ensure
+        if: inputs.mode != 'clips'
       - name: QA stills
         if: inputs.mode == 'stills'
         run: node scripts/stills.mjs videos/${{ inputs.video }} ${{ inputs.entry }} ${{ inputs.comp }}
@@ -29,21 +40,29 @@ jobs:
           path: out/stills
           retention-days: 7
       - name: Render
-        if: inputs.mode != 'stills'
+        if: inputs.mode == 'video'
         run: |
           V=videos/${{ inputs.video }}
           echo "cores: $(nproc)"
           npx remotion render $V/${{ inputs.entry }} ${{ inputs.comp }} out/raw.mp4 --public-dir=$V/public --crf=20 --concurrency=$(nproc) --log=info 2>&1 | grep -v "^Rendered\|^Encoded" || true
           test -s out/raw.mp4
       - name: Loudness + upload copy
-        if: inputs.mode != 'stills'
+        if: inputs.mode == 'video'
         run: |
-          ffmpeg -v error -y -i out/raw.mp4 -c:v libx264 -preset medium -b:v ${{ inputs.vbitrate }} -maxrate 4000k -bufsize 8000k -pix_fmt yuv420p -movflags +faststart \
-            -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:a aac -b:a 192k -ar 48000 out/${{ inputs.video }}-upload.mp4
+          V=${{ inputs.vbitrate }}
+          AF="loudnorm=I=-14:TP=-1.5:LRA=11"
+          if [ "${{ inputs.venc }}" = "hevc" ]; then
+            ffmpeg -v error -y -i out/raw.mp4 -c:v libx265 -preset medium -b:v $V -maxrate 5000k -bufsize 10000k -tag:v hvc1 -pix_fmt yuv420p -movflags +faststart -af $AF -c:a aac -b:a 192k -ar 48000 out/${{ inputs.video }}-upload.mp4
+          elif [ "${{ inputs.venc }}" = "x264-2pass" ]; then
+            ffmpeg -v error -y -i out/raw.mp4 -c:v libx264 -preset slow -b:v $V -pass 1 -an -f null /dev/null
+            ffmpeg -v error -y -i out/raw.mp4 -c:v libx264 -preset slow -b:v $V -maxrate 5000k -bufsize 10000k -pass 2 -pix_fmt yuv420p -movflags +faststart -af $AF -c:a aac -b:a 192k -ar 48000 out/${{ inputs.video }}-upload.mp4
+          else
+            ffmpeg -v error -y -i out/raw.mp4 -c:v libx264 -preset medium -b:v $V -maxrate 4000k -bufsize 8000k -pix_fmt yuv420p -movflags +faststart -af $AF -c:a aac -b:a 192k -ar 48000 out/${{ inputs.video }}-upload.mp4
+          fi
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 out/${{ inputs.video }}-upload.mp4
           ffmpeg -nostats -i out/${{ inputs.video }}-upload.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -12
       - uses: actions/upload-artifact@v4
-        if: inputs.mode != 'stills'
+        if: inputs.mode == 'video'
         with:
           name: ${{ inputs.video }}
           path: out/${{ inputs.video }}-upload.mp4
