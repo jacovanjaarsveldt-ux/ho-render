@@ -170,9 +170,9 @@
 ],
 "bars": [
 {
-"x": 1020,
+"x": 880,
 "y": 70,
-"w": 520,
+"w": 480,
 "h": 40,
 "at": 5.0,
 "end": 9.4,
@@ -180,7 +180,7 @@
 "label": "HEAT CREEPS IN SLOWLY",
 "ticks": [
 {
-"pos": 0.06,
+"pos": 0.14,
 "text": "MORNING"
 },
 {
@@ -188,7 +188,7 @@
 "text": "NOON"
 },
 {
-"pos": 0.94,
+"pos": 0.86,
 "text": "EVENING"
 }
 ]
