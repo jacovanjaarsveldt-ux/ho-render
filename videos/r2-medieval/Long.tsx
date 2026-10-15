@@ -4,7 +4,7 @@ import {
   Easing, continueRender, delayRender, registerRoot, Composition,
 } from "remotion";
 import TL from "./timeline.json";
-import words from "./words.json";
+import words from "./words_cap.json";
 import { SubscribePopup } from "./EndCard";
 
 // Medieval winter long (round 2 pilot) · 16:9 · painted stills + 8 AI clips + 6 coded paper-and-ink scenes.
@@ -371,9 +371,9 @@ const Chapter: React.FC<{ t: string; dur: number }> = ({ t, dur }) => {
   const fr = useCurrentFrame();
   const op = interpolate(fr, [0, 8, dur - 8, dur], [0, 1, 1, 0], clamp);
   return (
-    <AbsoluteFill style={{ alignItems: "center", paddingTop: 92, opacity: op, background: "linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,0) 38%)" }}>
-      <div style={{ fontFamily: "Cinzel", fontWeight: 900, fontSize: 76, textAlign: "center", color: C.cream, letterSpacing: "0.1em", textShadow: "0 6px 30px rgba(0,0,0,.8)" }}>{t}</div>
-      <div style={{ width: 420, height: 3, marginTop: 10, background: `linear-gradient(90deg, transparent, ${C.gold}, transparent)` }} />
+    <AbsoluteFill style={{ alignItems: "flex-start", paddingTop: 70, paddingLeft: 90, opacity: op, background: "linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0) 30%)" }}>
+      <div style={{ fontFamily: "Cinzel", fontWeight: 900, fontSize: 60, textAlign: "left", color: C.cream, letterSpacing: "0.1em", textShadow: "0 6px 30px rgba(0,0,0,.8)" }}>{t}</div>
+      <div style={{ width: 340, height: 3, marginTop: 8, background: `linear-gradient(90deg, ${C.gold}, transparent)` }} />
     </AbsoluteFill>
   );
 };
