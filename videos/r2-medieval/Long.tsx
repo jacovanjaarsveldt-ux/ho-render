@@ -231,8 +231,8 @@ const Heat: React.FC<{ s: Shot }> = ({ s }) => {
         </g>
       </svg>
       <Tag x={955} y={940} text="ABOUT 1 METRE FROM THE FIRE" p={popIn(t, 0.9)} c={C.mid} size={32} />
-      <Tag x={1230} y={300} text="FRONT: ABOUT 30 °C" p={popIn(t, P.t30)} c={C.orange} size={60} />
-      <Tag x={560} y={300} text="BACK: ABOUT 6 °C" p={popIn(t, P.t6)} c={C.blue} size={60} />
+      <Tag x={1500} y={300} text="FRONT: ABOUT 30 °C" p={popIn(t, P.t30)} c={C.orange} size={60} />
+      <Tag x={330} y={300} text="BACK: ABOUT 6 °C" p={popIn(t, P.t6)} c={C.blue} size={60} />
     </Paper>
   );
 };
