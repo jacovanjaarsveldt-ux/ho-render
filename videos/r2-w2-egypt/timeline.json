@@ -526,10 +526,10 @@
 {
 "a": 229.24,
 "kind": "img",
-"src": "img/s21.jpg",
+"src": "img/s09.jpg",
 "cam": "hold",
-"o": "15% 75%",
-"crop": 1.5,
+"o": "50% 50%",
+"crop": null,
 "b": 235.9,
 "dir": -1
 },
@@ -694,10 +694,10 @@
 {
 "a": 291.12,
 "kind": "img",
-"src": "img/s25.jpg",
+"src": "img/s22.jpg",
 "cam": "hold",
-"o": "20% 40%",
-"crop": 1.6,
+"o": "50% 50%",
+"crop": null,
 "b": 299.84,
 "dir": -1
 },
