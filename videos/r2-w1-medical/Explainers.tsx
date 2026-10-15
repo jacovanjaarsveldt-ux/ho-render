@@ -74,7 +74,7 @@ const Bar: React.FC<{ b: any; t: number; fr: number }> = ({ b, t, fr }) => {
   const x0 = b.x, w = b.w, y = b.y, h = b.h ?? 56;
   return (
     <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
-      <rect x={x0 - 14} y={y - 14} width={w + 28} height={h + 28} rx={10} fill="rgba(20,14,8,.72)" stroke={C.gold} strokeWidth="4" opacity={panel} />
+      <rect x={x0 - 14} y={y - 14} width={w + 28} height={h + 100} rx={10} fill="rgba(20,14,8,.78)" stroke={C.gold} strokeWidth="4" opacity={panel} />
       <rect x={x0} y={y} width={w * g} height={h} fill={b.color ?? "#3E2E26"} />
       {(b.ticks ?? []).map((k: any, i: number) => <g key={i} opacity={panel}><path d={`M${x0 + w * k.pos},${y + h + 14} v14`} stroke={C.cream} strokeWidth="4" /><text x={x0 + w * k.pos} y={y + h + 60} textAnchor="middle" fontFamily="Archivo" fontWeight={800} fontSize="28" fill={C.cream}>{k.text}</text></g>)}
       {b.label && <text x={x0 + 14} y={y + h / 2 + 11} fontFamily="Archivo" fontWeight={800} fontSize="32" fill={C.cream} letterSpacing="2" opacity={interpolate(t, [b.at + 0.4, b.at + 1.2], [0, 1], clamp)}>{b.label}</text>}
@@ -110,7 +110,7 @@ const Fills: React.FC<{ f: any; t: number; fr: number }> = ({ f, t, fr }) => {
           </g>
         );
       })}
-      {val !== null && <g><rect x={f.nx - 190} y={f.ny - 62} width={380} height={86} rx={10} fill="rgba(20,14,8,.82)" stroke={C.gold} strokeWidth="4" /><text x={f.nx} y={f.ny + 4} textAnchor="middle" fontFamily="Archivo" fontWeight={800} fontSize="58" fill={C.cream}>{f.prefix ?? ""}{val.toLocaleString("en-US")}{f.suffix ?? ""}</text></g>}
+      {val !== null && <g><rect x={f.nx - 260} y={f.ny - 62} width={520} height={86} rx={10} fill="rgba(20,14,8,.82)" stroke={C.gold} strokeWidth="4" /><text x={f.nx} y={f.ny + 4} textAnchor="middle" fontFamily="Archivo" fontWeight={800} fontSize="58" fill={C.cream}>{f.prefix ?? ""}{val.toLocaleString("en-US")}{f.suffix ?? ""}</text></g>}
     </svg>
   );
 };

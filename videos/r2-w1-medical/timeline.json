@@ -734,32 +734,32 @@
 "dy": -4,
 "stamps": [
 {
-"x": 520,
-"y": 330,
+"x": 430,
+"y": 340,
 "text": "1898",
-"size": 120,
+"size": 84,
 "at": 0.4,
 "sub": "THE CLAIM"
 },
 {
-"x": 800,
-"y": 330,
+"x": 720,
+"y": 340,
 "text": "1906",
-"size": 120,
+"size": 84,
 "at": 1.1,
-"sub": "THE AMA APPROVES"
+"sub": "AMA APPROVES"
 },
 {
-"x": 1080,
-"y": 330,
+"x": 1010,
+"y": 340,
 "text": "1913",
-"size": 120,
+"size": 84,
 "at": 2.15,
 "sub": "BAYER STOPS"
 },
 {
-"x": 1080,
-"y": 500,
+"x": 980,
+"y": 520,
 "text": "STOPPED",
 "size": 90,
 "at": 3.83,
