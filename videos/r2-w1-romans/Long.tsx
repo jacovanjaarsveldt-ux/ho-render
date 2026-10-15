@@ -21,7 +21,7 @@ const Still: React.FC<{ s: Shot }> = ({ s }) => {
   const t = interpolate(fr, [0, dur], [0, 1], { ...clamp, easing: Easing.inOut(Easing.sin) });
   const cam = s.cam ?? "hold"; let scale = 1, tx = 0;
   if (cam === "push") scale = 1 + 0.04 * t; else if (cam === "pull") scale = 1.04 - 0.04 * t; else if (cam === "pan") { scale = 1.06; tx = (s.dir ?? 1) * (t - 0.5) * 70; }
-  return <AbsoluteFill style={{ overflow: "hidden", background: C.ink }}><Img src={staticFile(s.src!)} style={{ width: "100%", height: "100%", objectFit: "cover", transformOrigin: s.o ?? "50% 50%", transform: `translateX(${tx}px) scale(${scale})` }} /></AbsoluteFill>;
+  return <AbsoluteFill style={{ overflow: "hidden", background: C.ink }}><Img src={staticFile(s.src!)} style={{ width: "100%", height: "100%", objectFit: "cover", transformOrigin: s.o ?? "50% 50%", transform: `translateX(${tx}px) scale(${scale * ((s as any).crop ?? 1)})` }} /></AbsoluteFill>;
 };
 const Clip: React.FC<{ s: Shot }> = ({ s }) => <AbsoluteFill style={{ background: C.ink }}><OffthreadVideo src={staticFile(s.src!)} muted playbackRate={s.rate ?? 1} startFrom={f((s.use ?? [0])[0])} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "contrast(1.04) saturate(1.05)" }} /></AbsoluteFill>;
 
