@@ -115,6 +115,39 @@ const Fills: React.FC<{ f: any; t: number; fr: number }> = ({ f, t, fr }) => {
   );
 };
 
+
+// grid of coins that appear one by one (coin comparison cards)
+const Coins: React.FC<{ c: any; t: number; fr: number }> = ({ c, t }) => {
+  const n = c.n ?? 100, cols = c.cols ?? 10, r = c.r ?? 22;
+  const prog = interpolate(t, [c.at, c.end ?? c.at + 0.6], [0, n], { ...clamp, easing: Easing.inOut(Easing.quad) });
+  return (
+    <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
+      <defs><radialGradient id="coinG" cx="40%" cy="35%" r="70%"><stop offset="0" stopColor="#F2D58A" /><stop offset="0.7" stopColor="#C9973A" /><stop offset="1" stopColor="#8A6420" /></radialGradient></defs>
+      {Array.from({ length: n }).map((_, i) => {
+        const on = interpolate(prog, [i, i + 0.7], [0, 1], clamp); if (on <= 0) return null;
+        const cx = c.x + (i % cols) * (r * 2.15) + (c.dx ?? 0), cy = c.y + Math.floor(i / cols) * (r * 0.62 * (c.squash ?? 1)) * -1;
+        return <g key={i} transform={`translate(${cx},${cy + (1 - on) * -30})`} opacity={on}><ellipse rx={r} ry={r * 0.55} fill="url(#coinG)" stroke={C.ink} strokeWidth="3" /><ellipse rx={r * 0.6} ry={r * 0.3} fill="none" stroke="#8A6420" strokeWidth="2" /></g>;
+      })}
+    </svg>
+  );
+};
+// coloured wedges of a dial lighting in order (a0..a1 are hours 0..12, clockwise from the top)
+const Wedges: React.FC<{ w: any; t: number; fr: number }> = ({ w, t }) => {
+  const pt = (a: number, rad: number) => [w.cx + Math.sin((a / 12) * Math.PI * 2) * rad, w.cy - Math.cos((a / 12) * Math.PI * 2) * rad];
+  return (
+    <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
+      <g transform={`translate(${w.cx},${w.cy}) scale(1,${w.sy ?? 1}) translate(${-w.cx},${-w.cy})`}>
+      {(w.items ?? []).map((it: any, i: number) => {
+        const on = interpolate(t, [it.at, it.at + 0.5], [0, 1], clamp); if (on <= 0) return null;
+        const [x0, y0] = pt(it.a0, w.r), [x1, y1] = pt(it.a1, w.r), large = it.a1 - it.a0 > 6 ? 1 : 0;
+        return <path key={i} d={`M${w.cx},${w.cy} L${x0},${y0} A${w.r},${w.r} 0 ${large} 1 ${x1},${y1} Z`} fill={it.color} opacity={0.62 * on} stroke={C.ink} strokeWidth="3" />;
+      })}
+      </g>
+      {(w.items ?? []).map((it: any, i: number) => { const on = interpolate(t, [it.at, it.at + 0.5], [0, 1], clamp); if (on <= 0 || !it.text) return null; const [x, y] = pt((it.a0 + it.a1) / 2, w.r * 1.2); return <text key={i} x={x} y={y} textAnchor={x > w.cx ? "start" : "end"} fontFamily="Archivo" fontWeight={800} fontSize="30" fill={C.cream} stroke={C.ink} strokeWidth="7" paintOrder="stroke" opacity={on}>{it.text}</text>; })}
+    </svg>
+  );
+};
+
 export const Explainer: React.FC<{ s: any }> = ({ s }) => {
   const cfg = s.cfg ?? {};
   const fr = useCurrentFrame(); const dur = Math.max(1, (s.b - s.a) * FPS);
@@ -134,6 +167,8 @@ export const Explainer: React.FC<{ s: any }> = ({ s }) => {
         <div style={layer(1.45)}>
           {(cfg.fills ?? []).map((g: any, i: number) => <Fills key={i} f={{ id: i, ...g }} t={t} fr={fr} />)}
           {(cfg.bars ?? []).map((g: any, i: number) => <Bar key={i} b={g} t={t} fr={fr} />)}
+          {(cfg.coins ?? []).map((g: any, i: number) => <Coins key={i} c={g} t={t} fr={fr} />)}
+          {(cfg.wedges ?? []).map((g: any, i: number) => <Wedges key={i} w={g} t={t} fr={fr} />)}
           {(cfg.stamps ?? []).map((g: any, i: number) => <Stamp key={i} t={t} {...g} />)}
         </div>
         <div style={layer(1.6)}>{(cfg.labels ?? []).map((g: any, i: number) => <Label key={i} t={t} {...g} />)}</div>
