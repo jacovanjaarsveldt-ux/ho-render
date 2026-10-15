@@ -304,7 +304,7 @@ export const NightBar: React.FC<{ s: S }> = ({ s }) => {
             <div style={layer(1.6)}>
               <Label x={X0 + 8.1 * hr} y={Y - 56} tx={X0 + 8.1 * hr} ty={Y} text="NIGHT: ABOUT 16 HOURS" at={Math.max(P.label, 3.0)} t={tt} color="#8FA7E8" from="up" size={30} />
               <Label x={X0 + 20.1 * hr} y={Y - 56} tx={X0 + 20.1 * hr} ty={Y} text="DAYLIGHT: UNDER 8 HOURS" at={4.0} t={tt} color="#E8B84A" from="up" size={30} />
-              <Label x={X0 + 190} y={Y - 128} tx={X0 + 9} ty={Y - 60} text="ONE RUSHLIGHT: UNDER AN HOUR" at={5.0} t={tt} color={C.orange} from="left" size={26} />
+              <Label x={X0 + 360} y={Y - 128} tx={X0 + 9} ty={Y - 60} text="ONE RUSHLIGHT: UNDER AN HOUR" at={5.0} t={tt} color={C.orange} from="left" size={26} />
               <Label x={800} y={70} text="MIDWINTER, SOUTHERN ENGLAND" at={0.3} t={tt} color={C.gold} from="up" size={26} />
             </div>
           </>
