@@ -695,17 +695,10 @@
  "shots": [
   {
    "a": 0.0,
-   "b": 2.4,
+   "b": 4.5,
    "kind": "clip",
    "src": "clips/a.mp4",
-   "rate": 1.0
-  },
-  {
-   "a": 2.4,
-   "b": 4.5,
-   "kind": "img",
-   "src": "img/2.jpg",
-   "mv": "static"
+   "rate": 0.9
   },
   {
    "a": 4.5,
@@ -756,7 +749,7 @@
    "kind": "img",
    "src": "img/8.jpg",
    "mv": "pan",
-   "dir": -1
+   "dir": 1
   },
   {
    "a": 23.68,

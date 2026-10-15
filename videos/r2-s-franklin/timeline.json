@@ -415,17 +415,10 @@
  "shots": [
   {
    "a": 0.0,
-   "b": 2.4,
+   "b": 4.22,
    "kind": "clip",
    "src": "clips/a.mp4",
-   "rate": 1.0
-  },
-  {
-   "a": 2.4,
-   "b": 4.22,
-   "kind": "img",
-   "src": "img/2.jpg",
-   "mv": "static"
+   "rate": 0.96
   },
   {
    "a": 4.22,
@@ -447,7 +440,7 @@
    "kind": "img",
    "src": "img/5.jpg",
    "mv": "pan",
-   "dir": -1
+   "dir": 1
   },
   {
    "a": 15.88,
@@ -476,7 +469,7 @@
    "kind": "img",
    "src": "img/9.jpg",
    "mv": "pan",
-   "dir": -1
+   "dir": 1
   },
   {
    "a": 25.84,
