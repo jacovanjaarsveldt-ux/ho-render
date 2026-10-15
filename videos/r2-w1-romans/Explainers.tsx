@@ -136,11 +136,13 @@ const Wedges: React.FC<{ w: any; t: number; fr: number }> = ({ w, t }) => {
   const pt = (a: number, rad: number) => [w.cx + Math.sin((a / 12) * Math.PI * 2) * rad, w.cy - Math.cos((a / 12) * Math.PI * 2) * rad];
   return (
     <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
+      <g transform={`translate(${w.cx},${w.cy}) scale(1,${w.sy ?? 1}) translate(${-w.cx},${-w.cy})`}>
       {(w.items ?? []).map((it: any, i: number) => {
         const on = interpolate(t, [it.at, it.at + 0.5], [0, 1], clamp); if (on <= 0) return null;
         const [x0, y0] = pt(it.a0, w.r), [x1, y1] = pt(it.a1, w.r), large = it.a1 - it.a0 > 6 ? 1 : 0;
         return <path key={i} d={`M${w.cx},${w.cy} L${x0},${y0} A${w.r},${w.r} 0 ${large} 1 ${x1},${y1} Z`} fill={it.color} opacity={0.62 * on} stroke={C.ink} strokeWidth="3" />;
       })}
+      </g>
       {(w.items ?? []).map((it: any, i: number) => { const on = interpolate(t, [it.at, it.at + 0.5], [0, 1], clamp); if (on <= 0 || !it.text) return null; const [x, y] = pt((it.a0 + it.a1) / 2, w.r * 1.2); return <text key={i} x={x} y={y} textAnchor={x > w.cx ? "start" : "end"} fontFamily="Archivo" fontWeight={800} fontSize="30" fill={C.cream} stroke={C.ink} strokeWidth="7" paintOrder="stroke" opacity={on}>{it.text}</text>; })}
     </svg>
   );

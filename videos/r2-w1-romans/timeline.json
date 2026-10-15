@@ -345,19 +345,19 @@
 {
 "x": 120,
 "y": 46,
-"w": 640,
+"w": 900,
 "h": 46,
 "at": 9.87,
 "end": 12.06,
 "color": "#3C5A86",
-"label": "WINTER: 12 HOURS, EACH ABOUT 45 MINUTES",
+"label": "WINTER: EACH HOUR ABOUT 45 MINUTES",
 "ticks": [
 {
 "pos": 0.0417,
 "text": "1"
 },
 {
-"pos": 0.2917,
+"pos": 0.5,
 "text": "6"
 },
 {
@@ -369,19 +369,19 @@
 {
 "x": 120,
 "y": 176,
-"w": 1240,
+"w": 1360,
 "h": 46,
 "at": 13.85,
 "end": 15.22,
 "color": "#C98A2B",
-"label": "MIDSUMMER: 12 HOURS, EACH ABOUT 75 MINUTES",
+"label": "MIDSUMMER: EACH HOUR ABOUT 75 MINUTES",
 "ticks": [
 {
 "pos": 0.0417,
 "text": "1"
 },
 {
-"pos": 0.2917,
+"pos": 0.5,
 "text": "6"
 },
 {
@@ -536,37 +536,37 @@
 ],
 "labels": [
 {
-"x": 1450,
+"x": 1440,
 "y": 130,
-"tx": 1280,
+"tx": 1285,
 "ty": 60,
-"text": "70 ROMAN FEET UNDER AUGUSTUS",
+"text": "70 ROMAN FEET",
 "at": 5.83,
 "color": "#E7C27A",
 "from": "right",
-"size": 28
+"size": 26
 },
 {
-"x": 1450,
+"x": 1440,
 "y": 340,
-"tx": 1280,
+"tx": 1285,
 "ty": 310,
 "text": "60 UNDER TRAJAN",
 "at": 9.93,
 "color": "#4E7A3A",
 "from": "right",
-"size": 28
+"size": 26
 },
 {
-"x": 220,
-"y": 690,
-"tx": 330,
+"x": 330,
+"y": 700,
+"tx": 430,
 "ty": 640,
 "text": "SHOPS ON THE GROUND FLOOR",
 "at": 0.6,
 "color": "#C9C3B6",
 "from": "left",
-"size": 26
+"size": 24
 }
 ]
 },
@@ -1449,69 +1449,133 @@
 "wedges": [
 {
 "cx": 710,
-"cy": 430,
-"r": 330,
+"cy": 435,
+"r": 300,
 "items": [
 {
 "a0": 0,
 "a1": 2,
 "at": 2.59,
 "color": "#E7C27A",
-"text": "THE GREETING"
+"text": ""
 },
 {
 "a0": 2,
 "a1": 3,
 "at": 8.05,
 "color": "#B3322B",
-"text": "THE COURTS"
+"text": ""
 },
 {
 "a0": 3,
 "a1": 5,
 "at": 10.75,
 "color": "#4E7A3A",
-"text": "WORK"
+"text": ""
 },
 {
 "a0": 5,
 "a1": 6,
 "at": 14.53,
 "color": "#6F6759",
-"text": "REST"
+"text": ""
 },
 {
 "a0": 6,
 "a1": 7,
 "at": 16.51,
 "color": "#C98A2B",
-"text": "WORK ENDS"
+"text": ""
 },
 {
 "a0": 7,
 "a1": 8,
 "at": 19.09,
 "color": "#4F86C6",
-"text": "BATHS"
+"text": ""
 },
 {
 "a0": 8,
 "a1": 9,
 "at": 22.19,
 "color": "#8A2F6A",
-"text": "DINNER"
+"text": ""
 }
-]
+],
+"sy": 0.82
 }
 ],
 "labels": [
 {
-"x": 1250,
-"y": 110,
-"text": "MARTIAL'S DAY, A POEM, NOT A TIMETABLE",
+"x": 900,
+"y": 55,
+"text": "MARTIAL'S DAY: A POEM, NOT A TIMETABLE",
 "at": 0.5,
 "color": "#E7C27A",
 "from": "up",
+"size": 26
+},
+{
+"x": 1330,
+"y": 170,
+"text": "THE GREETING",
+"at": 2.59,
+"color": "#E7C27A",
+"from": "right",
+"size": 28
+},
+{
+"x": 1330,
+"y": 248,
+"text": "THE COURTS",
+"at": 8.05,
+"color": "#B3322B",
+"from": "right",
+"size": 28
+},
+{
+"x": 1330,
+"y": 326,
+"text": "WORK",
+"at": 10.75,
+"color": "#4E7A3A",
+"from": "right",
+"size": 28
+},
+{
+"x": 1330,
+"y": 404,
+"text": "REST",
+"at": 14.53,
+"color": "#6F6759",
+"from": "right",
+"size": 28
+},
+{
+"x": 1330,
+"y": 482,
+"text": "WORK ENDS",
+"at": 16.51,
+"color": "#C98A2B",
+"from": "right",
+"size": 28
+},
+{
+"x": 1330,
+"y": 560,
+"text": "BATHS",
+"at": 19.09,
+"color": "#4F86C6",
+"from": "right",
+"size": 28
+},
+{
+"x": 1330,
+"y": 638,
+"text": "DINNER",
+"at": 22.19,
+"color": "#8A2F6A",
+"from": "right",
 "size": 28
 }
 ]
