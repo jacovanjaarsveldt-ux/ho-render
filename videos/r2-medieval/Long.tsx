@@ -43,7 +43,7 @@ const Still: React.FC<{ s: Shot }> = ({ s }) => {
   else if (cam === "pan") { scale = 1.06; tx = (s.dir ?? 1) * (t - 0.5) * 70; }
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: C.ink }}>
-      <Img src={staticFile(s.src!)} style={{ width: "100%", height: "100%", objectFit: "cover", transformOrigin: s.o ?? "50% 50%", transform: `translateX(${tx}px) scale(${scale})` }} />
+      <Img src={staticFile(s.src!)} style={{ width: "100%", height: "100%", objectFit: "cover", transformOrigin: s.o ?? "50% 50%", transform: `translateX(${tx}px) scale(${scale * ((s as any).crop ?? 1)})` }} />
     </AbsoluteFill>
   );
 };
