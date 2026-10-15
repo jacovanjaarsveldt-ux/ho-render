@@ -136,8 +136,8 @@ export const Cutaway: React.FC<{ s: S }> = ({ s }) => {
             <div style={layer(1.6)}>
               <Label x={410} y={110} tx={468} ty={160} text="SMOKE LEAVES THROUGH THE THATCH" at={P.cross + 1.2} t={tt} from="left" size={26} color="#C9C3B6" />
               <Label x={330} y={745} tx={340} ty={620} text="FAMILY" at={P.fam} t={tt} color={C.blue} from="down" />
-              <Label x={700} y={745} tx={790} ty={640} text="CROSS-PASSAGE" at={P.cross} t={tt} color={C.gold} from="down" />
-              <Label x={1020} y={745} tx={1030} ty={600} text="SHIPPON (CATTLE)" at={P.ship} t={tt} color={C.red} from="down" />
+              <Label x={640} y={745} tx={790} ty={640} text="CROSS-PASSAGE" at={P.cross} t={tt} color={C.gold} from="down" />
+              <Label x={1090} y={745} tx={1030} ty={600} text="SHIPPON (CATTLE)" at={P.ship} t={tt} color={C.red} from="down" />
               <Label x={1250} y={790} tx={1160} ty={668} text="DRAIN" at={P.drain} t={tt} color="#6FA3D8" from="down" />
               <Label x={1470} y={700} tx={1405} ty={578} text="DUNG HOLE" at={P.dung} t={tt} color={C.gold} from="down" />
             </div>
@@ -273,7 +273,7 @@ export const NightBar: React.FC<{ s: S }> = ({ s }) => {
     <Stage src="paint/night.jpg" s={s} z0={1.0} z1={1.05} dx={-40} dy={-6} origin="30% 50%">
       {({ fr, t, layer }) => {
         const tt = t * (s.b - s.a);
-        const X0 = 120, W = 1360, hr = W / 24, Y = 150, H = 62;
+        const X0 = 120, W = 1360, hr = W / 24, Y = 270, H = 62;
         const grow = interpolate(tt, [0.5, 3.4], [0, 1], { ...clamp, easing: Easing.inOut(Easing.quad) });
         const day = interpolate(tt, [3.4, 4.2], [0, 1], clamp);
         const burn = interpolate(tt, [4.6, 7.2], [0, 1], { ...clamp, easing: Easing.linear });
@@ -305,7 +305,7 @@ export const NightBar: React.FC<{ s: S }> = ({ s }) => {
               <Label x={X0 + 8.1 * hr} y={Y - 56} tx={X0 + 8.1 * hr} ty={Y} text="NIGHT: ABOUT 16 HOURS" at={Math.max(P.label, 3.0)} t={tt} color="#8FA7E8" from="up" size={30} />
               <Label x={X0 + 20.1 * hr} y={Y - 56} tx={X0 + 20.1 * hr} ty={Y} text="DAYLIGHT: UNDER 8 HOURS" at={4.0} t={tt} color="#E8B84A" from="up" size={30} />
               <Label x={X0 + 190} y={Y - 128} tx={X0 + 9} ty={Y - 60} text="ONE RUSHLIGHT: UNDER AN HOUR" at={5.0} t={tt} color={C.orange} from="left" size={26} />
-              <Label x={800} y={90} text="MIDWINTER, SOUTHERN ENGLAND" at={0.3} t={tt} color={C.gold} from="up" size={26} />
+              <Label x={800} y={70} text="MIDWINTER, SOUTHERN ENGLAND" at={0.3} t={tt} color={C.gold} from="up" size={26} />
             </div>
           </>
         );
@@ -337,7 +337,7 @@ export const Gap: React.FC<{ s: S }> = ({ s }) => {
             <div style={layer(1.1)}>
               <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
                 <defs><pattern id="hatch2" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="16" stroke="#7A2E22" strokeWidth="5" opacity="0.75" /></pattern></defs>
-                <rect x={X0 - 56} y={YT - 64} width={mx(10) - X0 + 100} height={Y0 - YT + 180} rx={14} fill="rgba(244,235,216,.78)" stroke={C.brown} strokeWidth="5" opacity={panel} />
+                <rect x={X0 - 56} y={YT - 64} width={mx(10) - X0 + 100} height={Y0 - YT + 180} rx={14} fill="rgba(244,235,216,.6)" stroke={C.brown} strokeWidth="5" opacity={panel} />
                 <rect x={mx(5)} y={YT - 16} width={(mx(8) - mx(5)) * band} height={Y0 - YT + 16} fill="url(#hatch2)" stroke="#7A2E22" strokeWidth="4" opacity={band} />
                 <path d={`M${X0 - 22},${Y0} H${mx(10)} M${X0 - 22},${YT - 20} V${Y0}`} stroke={C.brown} strokeWidth="7" fill="none" strokeLinecap="round" opacity={panel} />
                 {MS.map((m, i) => <text key={m} x={mx(i) + MW / 2} y={Y0 + 44} textAnchor="middle" fontFamily="Archivo" fontWeight={800} fontSize="28" fill={C.brown} opacity={panel}>{m}</text>)}
