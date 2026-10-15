@@ -134,12 +134,12 @@ export const Cutaway: React.FC<{ s: S }> = ({ s }) => {
               <Flow path={[[505, 215], [520, 170], [470, 120], [490, 70]]} fr={fr} c="#C9C3B6" at={P.cross + 1.6} t={tt} w={7} />
             </div>
             <div style={layer(1.6)}>
-              <Label x={300} y={120} tx={468} ty={160} text="SMOKE LEAVES THROUGH THE THATCH" at={P.cross + 1.2} t={tt} from="left" size={26} color="#C9C3B6" />
-              <Label x={330} y={790} tx={340} ty={620} text="FAMILY" at={P.fam} t={tt} color={C.blue} from="down" />
-              <Label x={660} y={830} tx={790} ty={640} text="CROSS-PASSAGE" at={P.cross} t={tt} color={C.gold} from="down" />
-              <Label x={1020} y={790} tx={1030} ty={600} text="SHIPPON (CATTLE)" at={P.ship} t={tt} color={C.red} from="down" />
-              <Label x={1250} y={835} tx={1160} ty={668} text="DRAIN" at={P.drain} t={tt} color="#6FA3D8" from="down" />
-              <Label x={1470} y={760} tx={1405} ty={578} text="DUNG HOLE" at={P.dung} t={tt} color={C.gold} from="down" />
+              <Label x={410} y={110} tx={468} ty={160} text="SMOKE LEAVES THROUGH THE THATCH" at={P.cross + 1.2} t={tt} from="left" size={26} color="#C9C3B6" />
+              <Label x={330} y={745} tx={340} ty={620} text="FAMILY" at={P.fam} t={tt} color={C.blue} from="down" />
+              <Label x={700} y={745} tx={790} ty={640} text="CROSS-PASSAGE" at={P.cross} t={tt} color={C.gold} from="down" />
+              <Label x={1020} y={745} tx={1030} ty={600} text="SHIPPON (CATTLE)" at={P.ship} t={tt} color={C.red} from="down" />
+              <Label x={1250} y={790} tx={1160} ty={668} text="DRAIN" at={P.drain} t={tt} color="#6FA3D8" from="down" />
+              <Label x={1470} y={700} tx={1405} ty={578} text="DUNG HOLE" at={P.dung} t={tt} color={C.gold} from="down" />
             </div>
           </>
         );
@@ -189,11 +189,11 @@ export const Heat: React.FC<{ s: S }> = ({ s }) => {
               <Label x={1090} y={235} tx={870} ty={420} text="FRONT: ABOUT 30 °C" at={P.t30} t={tt} color={C.orange} from="right" size={34} />
               <Label x={350} y={235} tx={650} ty={430} text="BACK: ABOUT 6 °C" at={P.t6} t={tt} color={C.blue} from="left" size={34} />
               <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible", opacity: interpolate(tt, [0.6, 1.4], [0, 1], clamp) }}>
-                <path d="M935,805 H1130 M935,790 v30 M1130,790 v30" stroke={C.ink} strokeWidth="10" fill="none" strokeLinecap="round" opacity={0.6} />
-                <path d="M935,805 H1130 M935,790 v30 M1130,790 v30" stroke={C.cream} strokeWidth="5" fill="none" strokeLinecap="round" />
+                <path d="M935,745 H1130 M935,730 v30 M1130,730 v30" stroke={C.ink} strokeWidth="10" fill="none" strokeLinecap="round" opacity={0.6} />
+                <path d="M935,745 H1130 M935,730 v30 M1130,730 v30" stroke={C.cream} strokeWidth="5" fill="none" strokeLinecap="round" />
               </svg>
-              <Label x={1032} y={855} text="ABOUT 1 METRE FROM THE FIRE" at={0.9} t={tt} color={C.cream} from="up" size={26} />
-              <Label x={780} y={760} text="TURNING LIKE A CHICKEN ON A SPIT" at={P.turn + 0.2} t={tt} color={C.gold} from="down" size={24} />
+              <Label x={1032} y={790} text="ABOUT 1 METRE FROM THE FIRE" at={0.9} t={tt} color={C.cream} from="up" size={26} />
+              <Label x={780} y={705} text="TURNING LIKE A CHICKEN ON A SPIT" at={P.turn + 0.2} t={tt} color={C.gold} from="down" size={24} />
             </div>
           </>
         );
@@ -256,7 +256,7 @@ export const Calendar: React.FC<{ s: S }> = ({ s }) => {
               </svg>
             </div>
             <div style={layer(1.6)}>
-              <Label x={1428} y={825} text="GRAIN" at={0.8} t={tt} color={C.gold} from="up" size={26} />
+              <Label x={1428} y={815} text="GRAIN" at={0.8} t={tt} color={C.gold} from="up" size={26} />
               <Label x={500} y={140} tx={462} ty={282} text="MARTINMAS: 11 NOVEMBER" at={P.mart} t={tt} color={C.red} from="up" size={28} />
             </div>
           </>
