@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  AbsoluteFill, Audio, Sequence, continueRender, delayRender, interpolate,
+  AbsoluteFill, Sequence, continueRender, delayRender, interpolate,
   spring, staticFile, useCurrentFrame, useVideoConfig, Easing,
 } from "remotion";
 
@@ -110,10 +110,6 @@ export const ShortEndCard: React.FC = () => {
           <div style={{ position: "absolute", left: "55%", top: "55%", opacity: curOp, transform: `translate(${curX}px, ${curY}px) scale(${fr >= CLICK - 2 && fr <= CLICK + 3 ? 0.88 : 1})` }}><Cursor size={76} /></div>
         </div>
       </div>
-      <Audio src={staticFile("whoosh.mp3")} volume={0.35} />
-      <Sequence from={22}><Audio src={staticFile("sfx_pop.wav")} volume={0.5} /></Sequence>
-      <Sequence from={CLICK}><Audio src={staticFile("sfx_click.wav")} volume={0.7} /></Sequence>
-      <Sequence from={CLICK + 1}><Audio src={staticFile("sfx_bell.wav")} volume={0.35} /></Sequence>
     </AbsoluteFill>
   );
 };
@@ -142,11 +138,6 @@ export const SubscribePopup: React.FC<{ sfx?: boolean }> = ({ sfx = true }) => {
           <div style={{ position: "absolute", left: "50%", top: "50%", opacity: curOp, transform: `translate(${curX}px, ${curY}px) scale(${fr >= CLICK - 2 && fr <= CLICK + 3 ? 0.88 : 1})` }}><Cursor size={40} /></div>
         </div>
       </div>
-      {sfx && <>
-        <Sequence from={0}><Audio src={staticFile("whoosh.mp3")} volume={0.25} /></Sequence>
-        <Sequence from={CLICK}><Audio src={staticFile("sfx_click.wav")} volume={0.55} /></Sequence>
-        <Sequence from={CLICK + 1}><Audio src={staticFile("sfx_bell.wav")} volume={0.25} /></Sequence>
-      </>}
     </AbsoluteFill>
   );
 };
