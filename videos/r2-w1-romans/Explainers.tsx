@@ -119,7 +119,7 @@ const Fills: React.FC<{ f: any; t: number; fr: number }> = ({ f, t, fr }) => {
 // grid of coins that appear one by one (coin comparison cards)
 const Coins: React.FC<{ c: any; t: number; fr: number }> = ({ c, t }) => {
   const n = c.n ?? 100, cols = c.cols ?? 10, r = c.r ?? 22;
-  const prog = interpolate(t, [c.at, c.end], [0, n], { ...clamp, easing: Easing.inOut(Easing.quad) });
+  const prog = interpolate(t, [c.at, c.end ?? c.at + 0.6], [0, n], { ...clamp, easing: Easing.inOut(Easing.quad) });
   return (
     <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
       <defs><radialGradient id="coinG" cx="40%" cy="35%" r="70%"><stop offset="0" stopColor="#F2D58A" /><stop offset="0.7" stopColor="#C9973A" /><stop offset="1" stopColor="#8A6420" /></radialGradient></defs>
