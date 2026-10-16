@@ -128,18 +128,18 @@
 "from": "right"
 },
 {
-"x": 760,
-"y": 830,
-"tx": 900,
-"ty": 745,
+"x": 720,
+"y": 620,
+"tx": 890,
+"ty": 735,
 "text": "GRAHAM CRACKER",
 "at": 2.4,
 "color": "#E7C27A",
 "from": "left"
 },
 {
-"x": 1420,
-"y": 560,
+"x": 1285,
+"y": 600,
 "tx": 1330,
 "ty": 700,
 "text": "ONE BLACK DRESS",
@@ -261,23 +261,35 @@
 "at": 0.8,
 "end": 3.0,
 "color": "#4A5B73",
-"label": "IN TRUST: INCOME ONLY"
+"label": "IN TRUST: INCOME ONLY",
+"ticks": [
+{
+"pos": 0.5,
+"text": "ABOUT $5 MILLION"
+}
+]
 },
 {
 "x": 800,
 "y": 250,
-"w": 117,
+"w": 140,
 "h": 46,
 "at": 0.8,
 "end": 1.6,
-"color": "#C98A2B"
+"color": "#C98A2B",
+"ticks": [
+{
+"pos": 0.5,
+"text": "$1M"
+}
+]
 }
 ],
 "labels": [
 {
 "x": 1200,
 "y": 335,
-"tx": 917,
+"tx": 940,
 "ty": 273,
 "text": "FREE: $1 MILLION",
 "at": 2.2,
@@ -439,8 +451,8 @@
 {
 "x": 1080,
 "y": 580,
-"tx": 700,
-"ty": 330,
+"tx": 760,
+"ty": 690,
 "text": "BOUGHT CHEAP, WHEN NOBODY WANTED THEM",
 "at": 0.5,
 "color": "#E7C27A",
