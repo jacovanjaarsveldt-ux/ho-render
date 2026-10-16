@@ -1,0 +1,1205 @@
+{
+"end": 642.21,
+"vo_end": 638.21,
+"shots": [
+{
+"a": 0.0,
+"kind": "clip",
+"src": "clips/clip1.mp4",
+"use": [
+0.0
+],
+"b": 5.46,
+"rate": 0.723
+},
+{
+"a": 5.46,
+"kind": "img",
+"src": "img/g02.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 14.84,
+"dir": -1
+},
+{
+"a": 14.84,
+"kind": "img",
+"src": "img/g03.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 19.88,
+"dir": -1
+},
+{
+"a": 19.88,
+"kind": "img",
+"src": "img/g04.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 25.36,
+"dir": -1
+},
+{
+"a": 25.36,
+"kind": "img",
+"src": "img/g05.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 28.5,
+"dir": -1
+},
+{
+"a": 28.5,
+"kind": "img",
+"src": "img/g06.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 40.56,
+"dir": -1
+},
+{
+"a": 40.56,
+"kind": "clip",
+"src": "clips/clip2.mp4",
+"use": [
+0.0
+],
+"b": 44.46,
+"rate": 1.0
+},
+{
+"a": 44.46,
+"kind": "img",
+"src": "img/g09.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 52.4,
+"dir": -1
+},
+{
+"a": 52.4,
+"kind": "img",
+"src": "img/g50.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 56.04,
+"dir": -1
+},
+{
+"a": 56.04,
+"kind": "expl",
+"cfg": {
+"base": "paint/b1.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"counters": [
+{
+"x": 1130,
+"y": 160,
+"w": 780,
+"h": 150,
+"size": 92,
+"from": 0,
+"to": 100,
+"prefix": "$",
+"suffix": " MILLION",
+"at": 0.6,
+"end": 4.6
+}
+],
+"labels": [
+{
+"x": 1250,
+"y": 400,
+"tx": 1230,
+"ty": 560,
+"text": "KEYS ON A CHAIN",
+"at": 1.0,
+"color": "#E7C27A",
+"from": "right"
+},
+{
+"x": 760,
+"y": 830,
+"tx": 900,
+"ty": 745,
+"text": "GRAHAM CRACKER",
+"at": 2.4,
+"color": "#E7C27A",
+"from": "left"
+},
+{
+"x": 1420,
+"y": 560,
+"tx": 1330,
+"ty": 700,
+"text": "ONE BLACK DRESS",
+"at": 5.85,
+"color": "#E7C27A",
+"from": "right"
+}
+]
+},
+"cues": {},
+"id": "ledger",
+"b": 64.48
+},
+{
+"a": 64.48,
+"kind": "img",
+"src": "img/g10.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 68.16,
+"dir": -1
+},
+{
+"a": 68.16,
+"kind": "img",
+"src": "img/g11.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 73.9,
+"dir": -1
+},
+{
+"a": 73.9,
+"kind": "img",
+"src": "img/g13.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 79.32,
+"dir": -1
+},
+{
+"a": 79.32,
+"kind": "clip",
+"src": "clips/clip3.mp4",
+"use": [
+0.0
+],
+"b": 83.74,
+"rate": 0.894
+},
+{
+"a": 83.74,
+"kind": "img",
+"src": "img/g14.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 86.78,
+"dir": -1
+},
+{
+"a": 86.78,
+"kind": "img",
+"src": "img/g15.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 98.08,
+"dir": -1
+},
+{
+"a": 98.08,
+"kind": "img",
+"src": "img/g16.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 101.92,
+"dir": -1
+},
+{
+"a": 101.92,
+"kind": "img",
+"src": "img/g17.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 108.54,
+"dir": -1
+},
+{
+"a": 108.54,
+"kind": "img",
+"src": "img/g18.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 114.0,
+"dir": -1
+},
+{
+"a": 114.0,
+"kind": "expl",
+"cfg": {
+"base": "paint/b2.jpg",
+"z0": 1.0,
+"z1": 1.035,
+"dx": -16,
+"dy": -4,
+"bars": [
+{
+"x": 800,
+"y": 70,
+"w": 700,
+"h": 46,
+"at": 0.8,
+"end": 3.0,
+"color": "#4A5B73",
+"label": "IN TRUST: INCOME ONLY"
+},
+{
+"x": 800,
+"y": 250,
+"w": 117,
+"h": 46,
+"at": 0.8,
+"end": 1.6,
+"color": "#C98A2B"
+}
+],
+"labels": [
+{
+"x": 1200,
+"y": 335,
+"tx": 917,
+"ty": 273,
+"text": "FREE: $1 MILLION",
+"at": 2.2,
+"color": "#E7C27A",
+"from": "right"
+}
+]
+},
+"cues": {},
+"id": "trust",
+"b": 122.28
+},
+{
+"a": 122.28,
+"kind": "img",
+"src": "img/g19.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 127.58,
+"dir": -1
+},
+{
+"a": 127.58,
+"kind": "img",
+"src": "img/g20.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 138.04,
+"dir": -1
+},
+{
+"a": 138.04,
+"kind": "img",
+"src": "img/g21.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 139.48,
+"dir": -1
+},
+{
+"a": 139.48,
+"kind": "img",
+"src": "img/g22.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 154.58,
+"dir": -1
+},
+{
+"a": 154.58,
+"kind": "img",
+"src": "img/g23.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 159.32,
+"dir": -1
+},
+{
+"a": 159.32,
+"kind": "clip",
+"src": "clips/clip4.mp4",
+"use": [
+0.0
+],
+"b": 164.72,
+"rate": 0.731
+},
+{
+"a": 164.72,
+"kind": "img",
+"src": "img/g18.jpg",
+"cam": "hold",
+"o": "25% 40%",
+"crop": 1.5,
+"b": 172.16,
+"dir": -1
+},
+{
+"a": 172.16,
+"kind": "img",
+"src": "img/g16.jpg",
+"cam": "hold",
+"o": "70% 40%",
+"crop": 1.5,
+"b": 175.78,
+"dir": -1
+},
+{
+"a": 175.78,
+"kind": "img",
+"src": "img/g26.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 180.78,
+"dir": -1
+},
+{
+"a": 180.78,
+"kind": "img",
+"src": "img/g26.jpg",
+"cam": "hold",
+"o": "85% 35%",
+"crop": 1.5,
+"b": 187.28,
+"dir": -1
+},
+{
+"a": 187.28,
+"kind": "img",
+"src": "img/g27.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 189.92,
+"dir": -1
+},
+{
+"a": 189.92,
+"kind": "expl",
+"cfg": {
+"base": "paint/b3.jpg",
+"z0": 1.0,
+"z1": 1.035,
+"dx": -16,
+"dy": -4,
+"flows": [
+{
+"path": [
+[
+680,
+330
+],
+[
+820,
+520
+],
+[
+1050,
+200
+],
+[
+1450,
+120
+]
+],
+"c": "#E7C27A",
+"at": 1.8,
+"w": 10,
+"speed": 1.4
+}
+],
+"labels": [
+{
+"x": 1080,
+"y": 580,
+"tx": 700,
+"ty": 330,
+"text": "BOUGHT CHEAP, WHEN NOBODY WANTED THEM",
+"at": 0.5,
+"color": "#E7C27A",
+"from": "left",
+"size": 28
+},
+{
+"x": 1230,
+"y": 245,
+"tx": 1430,
+"ty": 135,
+"text": "1875: BACKED BY GOLD",
+"at": 2.19,
+"color": "#E7C27A",
+"from": "right"
+}
+]
+},
+"cues": {},
+"id": "greenbacks",
+"b": 198.42
+},
+{
+"a": 198.42,
+"kind": "img",
+"src": "img/g28.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 211.22,
+"dir": -1
+},
+{
+"a": 211.22,
+"kind": "img",
+"src": "img/g32.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 217.14,
+"dir": -1
+},
+{
+"a": 217.14,
+"kind": "img",
+"src": "img/g30.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 222.46,
+"dir": -1
+},
+{
+"a": 222.46,
+"kind": "img",
+"src": "img/g31.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 231.44,
+"dir": -1
+},
+{
+"a": 231.44,
+"kind": "img",
+"src": "img/g32.jpg",
+"cam": "hold",
+"o": "30% 55%",
+"crop": 1.5,
+"b": 237.2,
+"dir": -1
+},
+{
+"a": 237.2,
+"kind": "img",
+"src": "img/g33.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 243.2,
+"dir": -1
+},
+{
+"a": 243.2,
+"kind": "img",
+"src": "img/g34.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 251.36,
+"dir": -1
+},
+{
+"a": 251.36,
+"kind": "img",
+"src": "img/g35.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 255.4,
+"dir": -1
+},
+{
+"a": 255.4,
+"kind": "img",
+"src": "img/g36.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 264.16,
+"dir": -1
+},
+{
+"a": 264.16,
+"kind": "img",
+"src": "img/g37.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 271.26,
+"dir": -1
+},
+{
+"a": 271.26,
+"kind": "img",
+"src": "img/g38.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 281.22,
+"dir": -1
+},
+{
+"a": 281.22,
+"kind": "img",
+"src": "img/g40.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 282.9,
+"dir": -1
+},
+{
+"a": 282.9,
+"kind": "clip",
+"src": "clips/clip5.mp4",
+"use": [
+0.0
+],
+"b": 287.66,
+"rate": 0.83
+},
+{
+"a": 287.66,
+"kind": "img",
+"src": "img/g41.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 291.98,
+"dir": -1
+},
+{
+"a": 291.98,
+"kind": "img",
+"src": "img/g42.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 302.96,
+"dir": -1
+},
+{
+"a": 302.96,
+"kind": "img",
+"src": "img/g43.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 315.1,
+"dir": -1
+},
+{
+"a": 315.1,
+"kind": "img",
+"src": "img/g45.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 321.04,
+"dir": -1
+},
+{
+"a": 321.04,
+"kind": "img",
+"src": "img/g06.jpg",
+"cam": "hold",
+"o": "20% 60%",
+"crop": 1.5,
+"b": 328.72,
+"dir": -1
+},
+{
+"a": 328.72,
+"kind": "clip",
+"src": "clips/clip6.mp4",
+"use": [
+0.0
+],
+"b": 331.5,
+"rate": 1.0
+},
+{
+"a": 331.5,
+"kind": "img",
+"src": "img/g46.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 341.28,
+"dir": -1
+},
+{
+"a": 341.28,
+"kind": "img",
+"src": "img/g48.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 353.0,
+"dir": -1
+},
+{
+"a": 353.0,
+"kind": "img",
+"src": "img/g05.jpg",
+"cam": "hold",
+"o": "15% 45%",
+"crop": 1.5,
+"b": 359.14,
+"dir": -1
+},
+{
+"a": 359.14,
+"kind": "img",
+"src": "img/g02.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 364.94,
+"dir": -1
+},
+{
+"a": 364.94,
+"kind": "img",
+"src": "img/g13.jpg",
+"cam": "hold",
+"o": "20% 60%",
+"crop": 1.5,
+"b": 377.53,
+"dir": -1
+},
+{
+"a": 377.53,
+"kind": "img",
+"src": "img/g50.jpg",
+"cam": "hold",
+"o": "30% 70%",
+"crop": 1.5,
+"b": 391.67,
+"dir": -1
+},
+{
+"a": 391.67,
+"kind": "expl",
+"cfg": {
+"base": "paint/b4.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"flows": [
+{
+"path": [
+[
+330,
+330
+],
+[
+600,
+420
+],
+[
+900,
+600
+],
+[
+1230,
+610
+]
+],
+"c": "#E7C27A",
+"at": 3.61,
+"w": 9
+}
+],
+"labels": [
+{
+"x": 360,
+"y": 175,
+"tx": 330,
+"ty": 330,
+"text": "HOBOKEN, FROM 1898",
+"at": 0.6,
+"color": "#E7C27A",
+"from": "up"
+},
+{
+"x": 1190,
+"y": 440,
+"tx": 1230,
+"ty": 610,
+"text": "OFFICE AT CHEMICAL BANK",
+"at": 8.17,
+"color": "#E7C27A",
+"from": "right"
+}
+]
+},
+"cues": {},
+"id": "map",
+"b": 403.39
+},
+{
+"a": 403.39,
+"kind": "clip",
+"src": "clips/clip7.mp4",
+"use": [
+0.0
+],
+"b": 406.25,
+"rate": 1.0
+},
+{
+"a": 406.25,
+"kind": "img",
+"src": "img/g54.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 422.45,
+"dir": -1
+},
+{
+"a": 422.45,
+"kind": "img",
+"src": "img/g56.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 429.31,
+"dir": -1
+},
+{
+"a": 429.31,
+"kind": "img",
+"src": "img/g57.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 436.49,
+"dir": -1
+},
+{
+"a": 436.49,
+"kind": "img",
+"src": "img/g58.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 448.61,
+"dir": -1
+},
+{
+"a": 448.61,
+"kind": "img",
+"src": "img/g59.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 459.71,
+"dir": -1
+},
+{
+"a": 459.71,
+"kind": "img",
+"src": "img/g60.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 466.89,
+"dir": -1
+},
+{
+"a": 466.89,
+"kind": "img",
+"src": "img/g58.jpg",
+"cam": "hold",
+"o": "70% 40%",
+"crop": 1.5,
+"b": 477.01,
+"dir": -1
+},
+{
+"a": 477.01,
+"kind": "img",
+"src": "img/g61.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 484.97,
+"dir": -1
+},
+{
+"a": 484.97,
+"kind": "img",
+"src": "img/g62.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 495.55,
+"dir": -1
+},
+{
+"a": 495.55,
+"kind": "img",
+"src": "img/g65.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 511.49,
+"dir": -1
+},
+{
+"a": 511.49,
+"kind": "img",
+"src": "img/g63.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 518.09,
+"dir": -1
+},
+{
+"a": 518.09,
+"kind": "img",
+"src": "img/g64.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 528.07,
+"dir": -1
+},
+{
+"a": 528.07,
+"kind": "img",
+"src": "img/g04.jpg",
+"cam": "hold",
+"o": "30% 50%",
+"crop": 1.5,
+"b": 535.17,
+"dir": -1
+},
+{
+"a": 535.17,
+"kind": "expl",
+"cfg": {
+"base": "paint/b5.jpg",
+"z0": 1.0,
+"z1": 1.035,
+"dx": -16,
+"dy": -4,
+"flows": [
+{
+"path": [
+[
+780,
+640
+],
+[
+600,
+560
+],
+[
+480,
+520
+],
+[
+380,
+440
+]
+],
+"c": "#E7C27A",
+"at": 0.9,
+"w": 9
+},
+{
+"path": [
+[
+820,
+640
+],
+[
+1000,
+600
+],
+[
+1150,
+520
+],
+[
+1260,
+470
+]
+],
+"c": "#8DBF8D",
+"at": 1.6,
+"w": 9
+}
+],
+"labels": [
+{
+"x": 330,
+"y": 230,
+"tx": 350,
+"ty": 400,
+"text": "NED",
+"at": 2.4,
+"color": "#E7C27A",
+"from": "up"
+},
+{
+"x": 1320,
+"y": 270,
+"tx": 1300,
+"ty": 440,
+"text": "SYLVIA",
+"at": 3.0,
+"color": "#E7C27A",
+"from": "up"
+}
+]
+},
+"cues": {},
+"id": "fork",
+"b": 541.63
+},
+{
+"a": 541.63,
+"kind": "img",
+"src": "img/g66.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 554.83,
+"dir": -1
+},
+{
+"a": 554.83,
+"kind": "img",
+"src": "img/g73.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 559.55,
+"dir": -1
+},
+{
+"a": 559.55,
+"kind": "clip",
+"src": "clips/clip8.mp4",
+"use": [
+0.0
+],
+"b": 564.83,
+"rate": 0.748
+},
+{
+"a": 564.83,
+"kind": "img",
+"src": "img/g68.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 567.13,
+"dir": -1
+},
+{
+"a": 567.13,
+"kind": "img",
+"src": "img/g60.jpg",
+"cam": "hold",
+"o": "60% 50%",
+"crop": 1.5,
+"b": 573.81,
+"dir": -1
+},
+{
+"a": 573.81,
+"kind": "img",
+"src": "img/g69.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 584.27,
+"dir": -1
+},
+{
+"a": 584.27,
+"kind": "img",
+"src": "img/g70.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 591.49,
+"dir": -1
+},
+{
+"a": 591.49,
+"kind": "img",
+"src": "img/g71.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 605.67,
+"dir": -1
+},
+{
+"a": 605.67,
+"kind": "img",
+"src": "img/g03.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 611.51,
+"dir": -1
+},
+{
+"a": 611.51,
+"kind": "img",
+"src": "img/g66.jpg",
+"cam": "hold",
+"o": "30% 50%",
+"crop": 1.5,
+"b": 615.43,
+"dir": -1
+},
+{
+"a": 615.43,
+"kind": "img",
+"src": "img/g71.jpg",
+"cam": "hold",
+"o": "70% 45%",
+"crop": 1.5,
+"b": 620.73,
+"dir": -1
+},
+{
+"a": 620.73,
+"kind": "img",
+"src": "img/g72.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 629.83,
+"dir": -1
+},
+{
+"a": 629.83,
+"kind": "img",
+"src": "img/g72.jpg",
+"cam": "push",
+"o": "70% 60%",
+"crop": 1.4,
+"b": 642.21,
+"dir": -1
+}
+],
+"text": [],
+"subs": [
+92.02,
+347.78,
+599.55
+],
+"music": [
+{
+"src": "music_dusty.mp3",
+"mood": "dusty",
+"a": 0.06,
+"b": 64.48
+},
+{
+"src": "music_sad.mp3",
+"mood": "sad",
+"a": 495.55,
+"b": 641.71
+}
+],
+"drops": [
+[
+148.18,
+149.68
+],
+[
+510.29,
+511.79
+],
+[
+628.33,
+630.33
+]
+],
+"sfx": [
+{
+"at": 0.06,
+"src": "sfx_office.mp3",
+"note": "You are Hetty Green"
+}
+],
+"extra": [
+56.88,
+58.57,
+60.26,
+61.95,
+63.8,
+114.83,
+116.48,
+118.14,
+119.8,
+121.62,
+190.77,
+192.47,
+194.17,
+195.87,
+197.74,
+392.84,
+395.19,
+397.53,
+399.87,
+402.45,
+535.82,
+537.11,
+538.4,
+539.69,
+541.11,
+95.02,
+350.78,
+602.55,
+641.21
+],
+"stillScale": 0.5
+}
