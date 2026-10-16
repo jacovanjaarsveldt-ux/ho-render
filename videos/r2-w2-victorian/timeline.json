@@ -438,30 +438,40 @@
 "dy": -3,
 "bars": [
 {
-"x": 800,
-"y": 150,
-"w": 700,
+"x": 700,
+"y": 50,
+"w": 840,
 "h": 44,
 "at": 0.4,
 "end": 2.4,
 "color": "#C98A2B",
-"label": "3 TO 4 SHILLINGS"
+"ticks": [
+{
+"pos": 0.5,
+"text": "3 TO 4 SHILLINGS"
+}
+]
 },
 {
-"x": 800,
-"y": 300,
-"w": 190,
+"x": 700,
+"y": 230,
+"w": 240,
 "h": 44,
 "at": 4.8,
 "end": 5.5,
 "color": "#4A5B73",
-"label": "THEN 1 SHILLING"
+"ticks": [
+{
+"pos": 0.5,
+"text": "1 SHILLING"
+}
+]
 }
 ],
 "counters": [
 {
-"x": 1180,
-"y": 455,
+"x": 1120,
+"y": 480,
 "w": 600,
 "h": 110,
 "size": 64,
