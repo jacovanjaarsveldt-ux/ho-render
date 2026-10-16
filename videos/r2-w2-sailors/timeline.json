@@ -1,0 +1,1699 @@
+{
+"end": 612.43,
+"vo_end": 608.428,
+"shots": [
+{
+"a": 0.0,
+"kind": "clip",
+"src": "clips/clip1.mp4",
+"use": [
+0.0
+],
+"b": 4.12,
+"rate": 0.959
+},
+{
+"a": 4.12,
+"kind": "img",
+"src": "img/s01.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 6.14,
+"dir": -1
+},
+{
+"a": 6.14,
+"kind": "img",
+"src": "img/s02.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 7.92,
+"dir": -1
+},
+{
+"a": 7.92,
+"kind": "img",
+"src": "img/s03.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 13.46,
+"dir": -1
+},
+{
+"a": 13.46,
+"kind": "img",
+"src": "img/s04.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 18.82,
+"dir": -1
+},
+{
+"a": 18.82,
+"kind": "img",
+"src": "img/s05.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 21.92,
+"dir": -1
+},
+{
+"a": 21.92,
+"kind": "img",
+"src": "img/s30.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 27.48,
+"dir": -1
+},
+{
+"a": 27.48,
+"kind": "clip",
+"src": "clips/clip2.mp4",
+"use": [
+0.0
+],
+"b": 33.1,
+"rate": 0.703
+},
+{
+"a": 33.1,
+"kind": "img",
+"src": "img/s06.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 35.54,
+"dir": -1
+},
+{
+"a": 35.54,
+"kind": "img",
+"src": "img/s08.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 41.1,
+"dir": -1
+},
+{
+"a": 41.1,
+"kind": "img",
+"src": "img/s23.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 50.84,
+"dir": -1
+},
+{
+"a": 50.84,
+"kind": "img",
+"src": "img/s20.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 55.64,
+"dir": -1
+},
+{
+"a": 55.64,
+"kind": "img",
+"src": "img/s01.jpg",
+"cam": "hold",
+"o": "85% 70%",
+"crop": 1.5,
+"b": 60.92,
+"dir": -1
+},
+{
+"a": 60.92,
+"kind": "img",
+"src": "img/s11.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 70.72,
+"dir": -1
+},
+{
+"a": 70.72,
+"kind": "img",
+"src": "img/s04.jpg",
+"cam": "hold",
+"o": "20% 40%",
+"crop": 1.5,
+"b": 72.84,
+"dir": -1
+},
+{
+"a": 72.84,
+"kind": "img",
+"src": "img/s12.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 77.86,
+"dir": -1
+},
+{
+"a": 77.86,
+"kind": "expl",
+"cfg": {
+"base": "paint/b1.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"glows": [
+{
+"x": 810,
+"y": 840,
+"r": 150,
+"c": "255,215,140",
+"k": 0.6,
+"at": 0.3
+}
+],
+"labels": [
+{
+"x": 1010,
+"y": 340,
+"tx": 920,
+"ty": 650,
+"text": "TUESDAY AND SATURDAY: SALT BEEF",
+"at": 1.3,
+"color": "#E7C27A",
+"from": "right",
+"size": 26
+},
+{
+"x": 640,
+"y": 240,
+"tx": 690,
+"ty": 650,
+"text": "SUNDAY AND THURSDAY: SALT PORK AND PEAS",
+"at": 4.5,
+"color": "#E7C27A",
+"from": "left",
+"size": 26
+},
+{
+"x": 800,
+"y": 440,
+"tx": 810,
+"ty": 745,
+"text": "MONDAY, WEDNESDAY, FRIDAY: OATMEAL, BUTTER, CHEESE",
+"at": 8.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 24
+}
+]
+},
+"cues": {},
+"id": "table",
+"b": 93.38
+},
+{
+"a": 93.38,
+"kind": "img",
+"src": "img/s14.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 99.54,
+"dir": -1
+},
+{
+"a": 99.54,
+"kind": "img",
+"src": "img/s13.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 104.92,
+"dir": -1
+},
+{
+"a": 104.92,
+"kind": "img",
+"src": "img/s12.jpg",
+"cam": "hold",
+"o": "80% 55%",
+"crop": 1.5,
+"b": 110.56,
+"dir": -1
+},
+{
+"a": 110.56,
+"kind": "img",
+"src": "img/s15.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 115.3,
+"dir": -1
+},
+{
+"a": 115.3,
+"kind": "img",
+"src": "img/s16.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 118.92,
+"dir": -1
+},
+{
+"a": 118.92,
+"kind": "clip",
+"src": "clips/clip3.mp4",
+"use": [
+0.0
+],
+"b": 123.92,
+"rate": 0.79
+},
+{
+"a": 123.92,
+"kind": "img",
+"src": "img/s17.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 129.78,
+"dir": -1
+},
+{
+"a": 129.78,
+"kind": "img",
+"src": "img/s18.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 137.64,
+"dir": -1
+},
+{
+"a": 137.64,
+"kind": "expl",
+"cfg": {
+"base": "paint/b2.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"glows": [
+{
+"x": 580,
+"y": 425,
+"r": 90,
+"c": "255,170,70",
+"k": 1.0,
+"at": 5.2
+}
+],
+"smokes": [
+{
+"path": [
+[
+585,
+395
+],
+[
+595,
+350
+],
+[
+570,
+330
+],
+[
+585,
+300
+]
+],
+"n": 6,
+"size": 16,
+"at": 5.8
+}
+],
+"flows": [
+{
+"path": [
+[
+700,
+735
+],
+[
+650,
+690
+],
+[
+610,
+650
+],
+[
+595,
+620
+]
+],
+"c": "#E7C27A",
+"at": 1.4,
+"w": 8
+},
+{
+"path": [
+[
+585,
+585
+],
+[
+560,
+530
+],
+[
+575,
+475
+],
+[
+580,
+445
+]
+],
+"c": "#E7C27A",
+"at": 4.2,
+"w": 8
+},
+{
+"path": [
+[
+565,
+405
+],
+[
+540,
+375
+],
+[
+510,
+350
+],
+[
+495,
+335
+]
+],
+"c": "#E7C27A",
+"at": 7.0,
+"w": 8
+}
+],
+"labels": [
+{
+"x": 1410,
+"y": 805,
+"tx": 1010,
+"ty": 745,
+"text": "SALT MEAT IN BARRELS",
+"at": 0.8,
+"color": "#E7C27A",
+"from": "right",
+"size": 22
+},
+{
+"x": 1410,
+"y": 695,
+"tx": 665,
+"ty": 600,
+"text": "SOAKED IN A TUB",
+"at": 3.6,
+"color": "#E7C27A",
+"from": "right",
+"size": 22
+},
+{
+"x": 880,
+"y": 60,
+"tx": 585,
+"ty": 420,
+"text": "BOILED IN A COPPER",
+"at": 6.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 22
+},
+{
+"x": 470,
+"y": 60,
+"tx": 490,
+"ty": 330,
+"text": "SERVED TO THE MESS",
+"at": 9.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 22
+}
+]
+},
+"cues": {},
+"id": "route",
+"b": 150.38
+},
+{
+"a": 150.38,
+"kind": "img",
+"src": "img/s61.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 153.76,
+"dir": -1
+},
+{
+"a": 153.76,
+"kind": "clip",
+"src": "clips/clip4.mp4",
+"use": [
+0.0
+],
+"b": 156.38,
+"rate": 1.0
+},
+{
+"a": 156.38,
+"kind": "img",
+"src": "img/s20.jpg",
+"cam": "hold",
+"o": "25% 55%",
+"crop": 1.5,
+"b": 158.5,
+"dir": -1
+},
+{
+"a": 158.5,
+"kind": "img",
+"src": "img/s25.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 161.84,
+"dir": -1
+},
+{
+"a": 161.84,
+"kind": "img",
+"src": "img/s23.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 167.64,
+"dir": -1
+},
+{
+"a": 167.64,
+"kind": "img",
+"src": "img/s13.jpg",
+"cam": "hold",
+"o": "70% 25%",
+"crop": 1.5,
+"b": 173.2,
+"dir": -1
+},
+{
+"a": 173.2,
+"kind": "img",
+"src": "img/s19.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 176.98,
+"dir": -1
+},
+{
+"a": 176.98,
+"kind": "img",
+"src": "img/s69.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 180.58,
+"dir": -1
+},
+{
+"a": 180.58,
+"kind": "img",
+"src": "img/s39.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 184.08,
+"dir": -1
+},
+{
+"a": 184.08,
+"kind": "img",
+"src": "img/s05.jpg",
+"cam": "hold",
+"o": "15% 70%",
+"crop": 1.5,
+"b": 186.14,
+"dir": -1
+},
+{
+"a": 186.14,
+"kind": "img",
+"src": "img/s27.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 191.74,
+"dir": -1
+},
+{
+"a": 191.74,
+"kind": "img",
+"src": "img/s27.jpg",
+"cam": "hold",
+"o": "30% 60%",
+"crop": 1.5,
+"b": 197.48,
+"dir": -1
+},
+{
+"a": 197.48,
+"kind": "img",
+"src": "img/s23.jpg",
+"cam": "hold",
+"o": "15% 70%",
+"crop": 1.5,
+"b": 199.92,
+"dir": -1
+},
+{
+"a": 199.92,
+"kind": "img",
+"src": "img/s28.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 205.3,
+"dir": -1
+},
+{
+"a": 205.3,
+"kind": "img",
+"src": "img/s28.jpg",
+"cam": "hold",
+"o": "85% 40%",
+"crop": 1.5,
+"b": 210.88,
+"dir": -1
+},
+{
+"a": 210.88,
+"kind": "img",
+"src": "img/s12.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 214.78,
+"dir": -1
+},
+{
+"a": 214.78,
+"kind": "img",
+"src": "img/s30.jpg",
+"cam": "hold",
+"o": "70% 55%",
+"crop": 1.5,
+"b": 218.94,
+"dir": -1
+},
+{
+"a": 218.94,
+"kind": "img",
+"src": "img/s16.jpg",
+"cam": "push",
+"o": "70% 50%",
+"crop": 1.4,
+"b": 222.54,
+"dir": -1
+},
+{
+"a": 222.54,
+"kind": "clip",
+"src": "clips/clip5.mp4",
+"use": [
+0.0
+],
+"b": 226.26,
+"rate": 1.0
+},
+{
+"a": 226.26,
+"kind": "img",
+"src": "img/s32.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 230.6,
+"dir": -1
+},
+{
+"a": 230.6,
+"kind": "img",
+"src": "img/s17.jpg",
+"cam": "pull",
+"o": "80% 50%",
+"crop": 1.5,
+"b": 235.06,
+"dir": -1
+},
+{
+"a": 235.06,
+"kind": "img",
+"src": "img/s58.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 237.1,
+"dir": -1
+},
+{
+"a": 237.1,
+"kind": "img",
+"src": "img/s33.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 243.02,
+"dir": -1
+},
+{
+"a": 243.02,
+"kind": "img",
+"src": "img/s34.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 244.92,
+"dir": -1
+},
+{
+"a": 244.92,
+"kind": "img",
+"src": "img/s35.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 249.6,
+"dir": -1
+},
+{
+"a": 249.6,
+"kind": "expl",
+"cfg": {
+"base": "paint/b3.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"fills": [
+{
+"n": 1,
+"x": 170,
+"w": 110,
+"y": 600,
+"vw": 80,
+"vh": 170,
+"liquid": "#A5501E",
+"at": 1.2,
+"end": 2.4
+},
+{
+"n": 4,
+"x": 440,
+"w": 440,
+"y": 600,
+"vw": 70,
+"vh": 170,
+"liquid": "#6FA3C7",
+"at": 3.4,
+"end": 7.0
+}
+],
+"flows": [
+{
+"path": [
+[
+890,
+520
+],
+[
+960,
+470
+],
+[
+1030,
+430
+],
+[
+1100,
+405
+]
+],
+"c": "#E7C27A",
+"at": 7.6,
+"w": 8
+}
+],
+"labels": [
+{
+"x": 225,
+"y": 330,
+"tx": 225,
+"ty": 440,
+"text": "ONE PART RUM",
+"at": 0.9,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 660,
+"y": 330,
+"tx": 660,
+"ty": 440,
+"text": "FOUR PARTS WATER",
+"at": 3.1,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+}
+]
+},
+"cues": {},
+"id": "grog",
+"b": 260.66
+},
+{
+"a": 260.66,
+"kind": "img",
+"src": "img/s35.jpg",
+"cam": "hold",
+"o": "25% 60%",
+"crop": 1.6,
+"b": 268.34,
+"dir": -1
+},
+{
+"a": 268.34,
+"kind": "img",
+"src": "img/s36.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 270.4,
+"dir": -1
+},
+{
+"a": 270.4,
+"kind": "img",
+"src": "img/s14.jpg",
+"cam": "hold",
+"o": "20% 85%",
+"crop": 1.5,
+"b": 278.74,
+"dir": -1
+},
+{
+"a": 278.74,
+"kind": "img",
+"src": "img/s03.jpg",
+"cam": "hold",
+"o": "15% 45%",
+"crop": 1.5,
+"b": 283.78,
+"dir": -1
+},
+{
+"a": 283.78,
+"kind": "img",
+"src": "img/s39.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 287.96,
+"dir": -1
+},
+{
+"a": 287.96,
+"kind": "img",
+"src": "img/s39.jpg",
+"cam": "hold",
+"o": "20% 35%",
+"crop": 1.6,
+"b": 294.08,
+"dir": -1
+},
+{
+"a": 294.08,
+"kind": "img",
+"src": "img/s41.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 298.54,
+"dir": -1
+},
+{
+"a": 298.54,
+"kind": "img",
+"src": "img/s41.jpg",
+"cam": "hold",
+"o": "70% 80%",
+"crop": 1.6,
+"b": 304.78,
+"dir": -1
+},
+{
+"a": 304.78,
+"kind": "img",
+"src": "img/s30.jpg",
+"cam": "hold",
+"o": "25% 50%",
+"crop": 1.6,
+"b": 310.66,
+"dir": -1
+},
+{
+"a": 310.66,
+"kind": "img",
+"src": "img/s42.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 313.72,
+"dir": -1
+},
+{
+"a": 313.72,
+"kind": "img",
+"src": "img/s45.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 316.0,
+"dir": -1
+},
+{
+"a": 316.0,
+"kind": "clip",
+"src": "clips/clip6.mp4",
+"use": [
+0.0
+],
+"b": 319.6,
+"rate": 1.0
+},
+{
+"a": 319.6,
+"kind": "img",
+"src": "img/s44.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 328.82,
+"dir": -1
+},
+{
+"a": 328.82,
+"kind": "img",
+"src": "img/s43.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 330.36,
+"dir": -1
+},
+{
+"a": 330.36,
+"kind": "expl",
+"cfg": {
+"base": "paint/b4.jpg",
+"z0": 1.0,
+"z1": 1.035,
+"dx": -16,
+"dy": -4,
+"glows": [
+{
+"x": 1377,
+"y": 590,
+"r": 190,
+"c": "255,215,120",
+"k": 0.9,
+"at": 19.9
+}
+],
+"labels": [
+{
+"x": 205,
+"y": 220,
+"tx": 205,
+"ty": 590,
+"text": "CIDER",
+"at": 8.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 433,
+"y": 300,
+"tx": 433,
+"ty": 590,
+"text": "ELIXIR OF VITRIOL",
+"at": 11.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 700,
+"y": 140,
+"tx": 700,
+"ty": 590,
+"text": "VINEGAR",
+"at": 13.9,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 913,
+"y": 300,
+"tx": 913,
+"ty": 590,
+"text": "SEA WATER",
+"at": 15.3,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 1150,
+"y": 220,
+"tx": 1150,
+"ty": 590,
+"text": "A SPICY PASTE",
+"at": 17.0,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 1340,
+"y": 140,
+"tx": 1377,
+"ty": 590,
+"text": "TWO ORANGES AND A LEMON",
+"at": 19.8,
+"color": "#F6E3A1",
+"from": "up",
+"size": 26
+}
+]
+},
+"cues": {},
+"id": "lind",
+"b": 354.9
+},
+{
+"a": 354.9,
+"kind": "img",
+"src": "img/s47.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 358.96,
+"dir": -1
+},
+{
+"a": 358.96,
+"kind": "img",
+"src": "img/s43.jpg",
+"cam": "hold",
+"o": "10% 40%",
+"crop": 1.6,
+"b": 366.09,
+"dir": -1
+},
+{
+"a": 366.09,
+"kind": "img",
+"src": "img/s47.jpg",
+"cam": "hold",
+"o": "80% 50%",
+"crop": 1.5,
+"b": 369.71,
+"dir": -1
+},
+{
+"a": 369.71,
+"kind": "img",
+"src": "img/s56.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 373.09,
+"dir": -1
+},
+{
+"a": 373.09,
+"kind": "img",
+"src": "img/s49.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 378.51,
+"dir": -1
+},
+{
+"a": 378.51,
+"kind": "img",
+"src": "img/s49.jpg",
+"cam": "hold",
+"o": "30% 70%",
+"crop": 1.5,
+"b": 384.65,
+"dir": -1
+},
+{
+"a": 384.65,
+"kind": "img",
+"src": "img/s41.jpg",
+"cam": "pull",
+"o": "40% 50%",
+"crop": 1.2,
+"b": 389.57,
+"dir": -1
+},
+{
+"a": 389.57,
+"kind": "img",
+"src": "img/s16.jpg",
+"cam": "hold",
+"o": "15% 60%",
+"crop": 1.5,
+"b": 393.41,
+"dir": -1
+},
+{
+"a": 393.41,
+"kind": "img",
+"src": "img/s14.jpg",
+"cam": "hold",
+"o": "15% 80%",
+"crop": 1.5,
+"b": 395.47,
+"dir": -1
+},
+{
+"a": 395.47,
+"kind": "img",
+"src": "img/s56.jpg",
+"cam": "hold",
+"o": "85% 60%",
+"crop": 1.5,
+"b": 399.79,
+"dir": -1
+},
+{
+"a": 399.79,
+"kind": "img",
+"src": "img/s55.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 402.95,
+"dir": -1
+},
+{
+"a": 402.95,
+"kind": "img",
+"src": "img/s52.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 409.95,
+"dir": -1
+},
+{
+"a": 409.95,
+"kind": "img",
+"src": "img/s54.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 411.85,
+"dir": -1
+},
+{
+"a": 411.85,
+"kind": "img",
+"src": "img/s55.jpg",
+"cam": "hold",
+"o": "70% 30%",
+"crop": 1.5,
+"b": 415.93,
+"dir": -1
+},
+{
+"a": 415.93,
+"kind": "img",
+"src": "img/s53.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 423.37,
+"dir": -1
+},
+{
+"a": 423.37,
+"kind": "img",
+"src": "img/s53.jpg",
+"cam": "hold",
+"o": "15% 40%",
+"crop": 1.5,
+"b": 426.31,
+"dir": -1
+},
+{
+"a": 426.31,
+"kind": "img",
+"src": "img/s54.jpg",
+"cam": "hold",
+"o": "75% 55%",
+"crop": 1.5,
+"b": 430.09,
+"dir": -1
+},
+{
+"a": 430.09,
+"kind": "img",
+"src": "img/s52.jpg",
+"cam": "hold",
+"o": "70% 80%",
+"crop": 1.5,
+"b": 435.13,
+"dir": -1
+},
+{
+"a": 435.13,
+"kind": "img",
+"src": "img/s52.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 437.47,
+"dir": -1
+},
+{
+"a": 437.47,
+"kind": "img",
+"src": "img/s55.jpg",
+"cam": "hold",
+"o": "20% 40%",
+"crop": 1.5,
+"b": 440.73,
+"dir": -1
+},
+{
+"a": 440.73,
+"kind": "img",
+"src": "img/s58.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 452.25,
+"dir": -1
+},
+{
+"a": 452.25,
+"kind": "img",
+"src": "img/s56.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 462.61,
+"dir": -1
+},
+{
+"a": 462.61,
+"kind": "img",
+"src": "img/s57.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 467.87,
+"dir": -1
+},
+{
+"a": 467.87,
+"kind": "img",
+"src": "img/s11.jpg",
+"cam": "hold",
+"o": "70% 40%",
+"crop": 1.4,
+"b": 473.71,
+"dir": -1
+},
+{
+"a": 473.71,
+"kind": "img",
+"src": "img/s23.jpg",
+"cam": "hold",
+"o": "80% 60%",
+"crop": 1.5,
+"b": 477.07,
+"dir": -1
+},
+{
+"a": 477.07,
+"kind": "img",
+"src": "img/s20.jpg",
+"cam": "hold",
+"o": "80% 55%",
+"crop": 1.5,
+"b": 479.69,
+"dir": -1
+},
+{
+"a": 479.69,
+"kind": "img",
+"src": "img/s59.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 484.09,
+"dir": -1
+},
+{
+"a": 484.09,
+"kind": "img",
+"src": "img/s63.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 490.87,
+"dir": -1
+},
+{
+"a": 490.87,
+"kind": "clip",
+"src": "clips/clip7.mp4",
+"use": [
+0.0
+],
+"b": 494.93,
+"rate": 0.973
+},
+{
+"a": 494.93,
+"kind": "img",
+"src": "img/s61.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": 1.0,
+"b": 500.67,
+"dir": -1
+},
+{
+"a": 500.67,
+"kind": "img",
+"src": "img/s61.jpg",
+"cam": "hold",
+"o": "40% 90%",
+"crop": 1.6,
+"b": 502.71,
+"dir": -1
+},
+{
+"a": 502.71,
+"kind": "img",
+"src": "img/s61.jpg",
+"cam": "hold",
+"o": "25% 75%",
+"crop": 1.5,
+"b": 505.49,
+"dir": -1
+},
+{
+"a": 505.49,
+"kind": "expl",
+"cfg": {
+"base": "paint/b5.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"glows": [
+{
+"x": 1240,
+"y": 520,
+"r": 130,
+"c": "255,190,100",
+"k": 0.7,
+"at": 0.2
+}
+],
+"labels": [
+{
+"x": 650,
+"y": 330,
+"tx": 650,
+"ty": 440,
+"text": "16",
+"at": 0.9,
+"color": "#E7C27A",
+"from": "up",
+"size": 40
+},
+{
+"x": 975,
+"y": 300,
+"tx": 975,
+"ty": 435,
+"text": "14",
+"at": 5.2,
+"color": "#E7C27A",
+"from": "up",
+"size": 40
+},
+{
+"x": 800,
+"y": 150,
+"tx": 975,
+"ty": 440,
+"text": "THE PURSER KEEPS AN EIGHTH",
+"at": 6.9,
+"color": "#E7C27A",
+"from": "up",
+"size": 30
+}
+]
+},
+"cues": {},
+"id": "scales",
+"b": 517.33
+},
+{
+"a": 517.33,
+"kind": "img",
+"src": "img/s17.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 522.77,
+"dir": -1
+},
+{
+"a": 522.77,
+"kind": "img",
+"src": "img/s64.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 532.43,
+"dir": -1
+},
+{
+"a": 532.43,
+"kind": "img",
+"src": "img/s64.jpg",
+"cam": "hold",
+"o": "20% 40%",
+"crop": 1.5,
+"b": 536.65,
+"dir": -1
+},
+{
+"a": 536.65,
+"kind": "img",
+"src": "img/s69.jpg",
+"cam": "hold",
+"o": "80% 50%",
+"crop": 1.4,
+"b": 541.51,
+"dir": -1
+},
+{
+"a": 541.51,
+"kind": "img",
+"src": "img/s65.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 549.63,
+"dir": -1
+},
+{
+"a": 549.63,
+"kind": "img",
+"src": "img/s65.jpg",
+"cam": "hold",
+"o": "70% 45%",
+"crop": 1.5,
+"b": 553.31,
+"dir": -1
+},
+{
+"a": 553.31,
+"kind": "img",
+"src": "img/s64.jpg",
+"cam": "hold",
+"o": "85% 60%",
+"crop": 1.5,
+"b": 557.05,
+"dir": -1
+},
+{
+"a": 557.05,
+"kind": "img",
+"src": "img/s67.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 559.89,
+"dir": -1
+},
+{
+"a": 559.89,
+"kind": "img",
+"src": "img/s68.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 561.55,
+"dir": -1
+},
+{
+"a": 561.55,
+"kind": "img",
+"src": "img/s70.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 565.59,
+"dir": -1
+},
+{
+"a": 565.59,
+"kind": "img",
+"src": "img/s25.jpg",
+"cam": "pan",
+"o": "80% 55%",
+"crop": 1.5,
+"b": 567.19,
+"dir": -1
+},
+{
+"a": 567.19,
+"kind": "img",
+"src": "img/s30.jpg",
+"cam": "hold",
+"o": "60% 40%",
+"crop": 1.6,
+"b": 571.15,
+"dir": -1
+},
+{
+"a": 571.15,
+"kind": "img",
+"src": "img/s70.jpg",
+"cam": "hold",
+"o": "80% 40%",
+"crop": 1.5,
+"b": 575.05,
+"dir": -1
+},
+{
+"a": 575.05,
+"kind": "img",
+"src": "img/s06.jpg",
+"cam": "hold",
+"o": "20% 60%",
+"crop": 1.5,
+"b": 582.79,
+"dir": -1
+},
+{
+"a": 582.79,
+"kind": "img",
+"src": "img/s04.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 585.11,
+"dir": -1
+},
+{
+"a": 585.11,
+"kind": "img",
+"src": "img/s44.jpg",
+"cam": "hold",
+"o": "30% 55%",
+"crop": 1.5,
+"b": 593.13,
+"dir": -1
+},
+{
+"a": 593.13,
+"kind": "img",
+"src": "img/s05.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 596.47,
+"dir": -1
+},
+{
+"a": 596.47,
+"kind": "img",
+"src": "img/s68.jpg",
+"cam": "hold",
+"o": "20% 60%",
+"crop": 1.5,
+"b": 600.17,
+"dir": -1
+},
+{
+"a": 600.17,
+"kind": "clip",
+"src": "clips/clip8.mp4",
+"use": [
+0.0
+],
+"b": 605.49,
+"rate": 0.742
+},
+{
+"a": 605.49,
+"kind": "img",
+"src": "img/s72.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 612.43,
+"dir": -1
+}
+],
+"text": [],
+"subs": [
+99.54,
+462.61,
+575.05
+],
+"music": [
+{
+"src": "music_bed.mp3",
+"mood": "bed",
+"a": 0.08,
+"b": 93.38
+},
+{
+"src": "music_strike.mp3",
+"mood": "strike",
+"a": 553.31,
+"b": 611.93
+}
+],
+"drops": [
+[
+564.59,
+566.59
+]
+],
+"sfx": [
+{
+"at": 0.08,
+"src": "sfx_timbers.mp3",
+"note": "You are an"
+},
+{
+"at": 27.48,
+"src": "sfx_tap.mp3",
+"note": "So you tap"
+},
+{
+"at": 153.76,
+"src": "sfx_boil.mp3",
+"note": "and you carry"
+},
+{
+"at": 607.19,
+"src": "sfx_tap.mp3",
+"note": "You tap it"
+}
+],
+"extra": [
+79.41,
+82.52,
+85.62,
+88.72,
+92.14,
+138.91,
+141.46,
+144.01,
+146.56,
+149.36,
+250.71,
+252.92,
+255.13,
+257.34,
+259.78,
+332.81,
+337.72,
+342.63,
+347.54,
+352.94,
+506.67,
+509.04,
+511.41,
+513.78,
+516.38,
+102.54,
+465.61,
+578.05,
+611.43
+],
+"stillScale": 0.5
+}
