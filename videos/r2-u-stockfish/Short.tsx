@@ -4,11 +4,11 @@ import {
   Easing, continueRender, delayRender, registerRoot, Composition,
 } from "remotion";
 import TL from "./timeline.json";
-import { ShortEndCard } from "./EndCard";
+import { ShortPopup } from "./EndCard";
 
 // History Outscaled Short, round 2 (pilot). One timeline.json per Short (build.py).
 // Rules baked in: first cut by 2.5 s, top text only 2-3 moments at y >= 300, word-synced Anton captions in the safe zone,
-// no whooshes on cuts (a few real sound effects only), no music unless the timeline has it, last line -> beat -> 3 s end card.
+// no whooshes on cuts (a few real sound effects only), no music unless the timeline has it, ends on the bridge line (loop), small Subscribe pop-up mid-video, hook label from frame 1.
 const FPS = 30;
 const f = (s: number) => Math.round(s * FPS);
 const C = { gold: "#FFC83D", ink: "#15110C" };
@@ -19,7 +19,7 @@ const DISPLAY: React.CSSProperties = { fontFamily: "Anton, Impact, sans-serif", 
 type Shot = { a: number; b: number; kind: string; src: string; z?: number[]; o?: string; rate?: number };
 type Wd = { w: string; s: number; e: number };
 const words = (TL as any).words as Wd[];
-const END = (TL as any).end as number; // end of the story part; the 3 s end card follows
+const END = (TL as any).end as number; // the video ends 0.2 s after the bridge line so it loops; no end card
 
 const Still: React.FC<{ s: Shot }> = ({ s }) => {
   const fr = useCurrentFrame();
@@ -41,6 +41,16 @@ const Big: React.FC<{ t: string; c: string; dur: number; instant?: boolean }> = 
   const out = interpolate(fr - (instant ? 30 : 0), [dur - 6, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return <AbsoluteFill style={{ alignItems: "center", paddingTop: 330 }}>
     <div style={{ ...DISPLAY, fontSize: 118, lineHeight: 0.95, textAlign: "center", maxWidth: 900, color: c === "gold" ? C.gold : "#fff", opacity: Math.min(1, fr / 3) * out, transform: `scale(${interpolate(sp, [0, 1], [1.8, 1])}) rotate(${interpolate(sp, [0, 1], [-6, -2])}deg)`, WebkitTextStroke: "7px #15110C", paintOrder: "stroke fill", textShadow: "0 7px 0 rgba(0,0,0,.6), 0 0 30px rgba(0,0,0,.5)" }}>{t}</div>
+  </AbsoluteFill>;
+};
+const Label: React.FC<{ t: string; dx: number; dy: number }> = ({ t, dx, dy }) => {
+  // Hook pass: white rounded question label from frame 1 (no fade-in), top y = 330, full until 2.5 s, gone by 3.0 s. dx/dy are the measured optical-centre corrections (scripts/check-label-centre.py).
+  const fr = useCurrentFrame();
+  const op = interpolate(fr, [75, 90], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return <AbsoluteFill style={{ alignItems: "center", paddingTop: 330, opacity: op }}>
+    <div style={{ height: 112, padding: "0 46px", borderRadius: 20, background: "#FBF9F3", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 6px 18px rgba(0,0,0,.35)" }}>
+      <span style={{ fontFamily: "Archivo, Arial Black, sans-serif", fontWeight: 900, fontSize: 70, lineHeight: 1, color: "#15110C", whiteSpace: "nowrap", transform: `translate(${dx}px, ${dy}px)` }}>{t}</span>
+    </div>
   </AbsoluteFill>;
 };
 const Captions: React.FC = () => {
@@ -68,9 +78,10 @@ const Reel: React.FC = () => {
       <AbsoluteFill style={{ pointerEvents: "none", background: "radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 60%, rgba(8,6,2,.30) 100%)" }} />
       {(tl.text as any[]).map((x, i) => <Sequence key={`t${i}`} from={f(x.a)} durationInFrames={f(x.b) - f(x.a)}><Big t={x.t} c={x.c} dur={f(x.b) - f(x.a)} instant={x.a === 0} /></Sequence>)}
       <Captions />
+      {tl.label && <Sequence from={0} durationInFrames={90}><Label t={tl.label.t} dx={tl.label.dx} dy={tl.label.dy} /></Sequence>}
+      {tl.popup && <Sequence from={f(tl.popup.a)} durationInFrames={75}><ShortPopup /></Sequence>}
     </Sequence>
-        <Sequence from={D} durationInFrames={90}><ShortEndCard /></Sequence>
   </AbsoluteFill>;
 };
 
-registerRoot(() => <Composition id="Short" component={Reel} durationInFrames={f((TL as any).end) + 90} fps={FPS} width={1080} height={1920} />);
+registerRoot(() => <Composition id="Short" component={Reel} durationInFrames={f((TL as any).end)} fps={FPS} width={1080} height={1920} />);
