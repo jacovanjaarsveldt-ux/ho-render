@@ -864,8 +864,8 @@
  "sfx": [],
  "label": {
   "t": "Fish as hard as wood?",
-  "dx": 0,
-  "dy": 0
+  "dx": -1,
+  "dy": 2
  },
  "popup": {
   "a": 26.7,
