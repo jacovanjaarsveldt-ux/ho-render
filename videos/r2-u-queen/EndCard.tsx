@@ -142,7 +142,7 @@ export const SubscribePopup: React.FC<{ sfx?: boolean }> = ({ sfx = true }) => {
   );
 };
 
-// 2.5 s (75 frames) Subscribe pop-up for 1080x1920 Shorts, mid-video: the longs' pill (crest, name, red button, cursor click, SUBSCRIBED), slides in from the right, centred at y 610, clear of the label, top texts and captions.
+// 2.5 s (75 frames) Subscribe pop-up for 1080x1920 Shorts, mid-video: the longs' pill (crest, name, red button, cursor click, SUBSCRIBED), slides in from the right, centred at y 400, clear of the label, top texts and captions.
 export const ShortPopup: React.FC = () => {
   const fr = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -155,7 +155,7 @@ export const ShortPopup: React.FC = () => {
   const curOp = interpolate(fr, [16, 20, 52, 58], [0, 1, 1, 0], clamp);
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 0, width: 1080, top: 610, display: "flex", justifyContent: "center" }}>
+      <div style={{ position: "absolute", left: 0, width: 1080, top: 400, display: "flex", justifyContent: "center" }}>
         <div style={{ transform: `translateX(${x}px) scale(0.84)`, display: "flex", alignItems: "center", gap: 22,
           padding: "16px 22px 16px 16px", borderRadius: 999, background: "rgba(13,21,48,0.9)", border: `3px solid ${P.gold}`, boxShadow: "0 14px 40px rgba(0,0,0,0.5)" }}>
           <Crest size={104} t={fr - 2} />

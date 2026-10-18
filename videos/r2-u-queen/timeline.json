@@ -851,8 +851,8 @@
  "sfx": [],
  "label": {
   "t": "The Queen fixed trucks?",
-  "dx": 0,
-  "dy": 0
+  "dx": 1,
+  "dy": 2
  },
  "popup": {
   "a": 28.0,
