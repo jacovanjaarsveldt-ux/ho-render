@@ -455,89 +455,81 @@
 ],
 "bars": [
 {
-"x": 600,
+"x": 640,
 "y": 60,
-"w": 880,
+"w": 860,
 "h": 58,
 "at": 2.61,
 "end": 4.2,
 "color": "#C98A2B",
-"label": "A WEEK: 7 SHILLINGS 6 PENCE",
+"label": "A WEEK: 90 PENCE",
 "ticks": [
 {
 "pos": 0.5,
-"text": "90 PENCE"
+"text": "7 SHILLINGS 6 PENCE"
 }
 ]
 },
 {
 "x": 640,
-"y": 330,
-"w": 290,
+"y": 270,
+"w": 268,
+"pw": 430,
 "h": 58,
-"at": 13.01,
-"end": 13.82,
+"at": 8.87,
+"end": 12.82,
 "color": "#A8432B",
-"label": "BED: 28 PENCE",
 "ticks": [
 {
-"pos": 0.5,
-"text": "7 x 4"
+"pos": 0.75,
+"text": "BED: 4 PENCE A NIGHT"
 }
 ]
 }
 ],
 "labels": [
 {
-"x": 1060,
-"y": 545,
-"tx": 480,
-"ty": 470,
-"text": "A BED: 4 PENCE A NIGHT",
-"at": 7.03,
-"color": "#E7C27A",
-"size": 28,
-"from": "right"
-},
-{
-"x": 1260,
-"y": 475,
-"text": "ALMOST A THIRD OF THE WEEK",
+"x": 1340,
+"y": 330,
+"text": "ALMOST A THIRD OF HIS PAY",
 "at": 13.01,
+"until": 18.84,
 "color": "#E7C27A",
 "size": 28,
 "from": "up"
 },
 {
-"x": 1060,
-"y": 610,
+"x": 1300,
+"y": 330,
 "text": "MEN LEAVE AT 2 A.M. FOR THE MARKETS",
 "at": 18.79,
+"until": 23.72,
 "color": "#E7C27A",
 "size": 24,
-"from": "right"
+"from": "up"
 },
 {
-"x": 1060,
-"y": 675,
+"x": 1340,
+"y": 330,
 "text": "BED LET OUT AGAIN",
 "at": 23.67,
 "color": "#E7C27A",
 "size": 28,
-"from": "right"
+"from": "up"
 }
 ],
 "counters": [
 {
-"x": 1260,
-"y": 370,
-"w": 560,
+"x": 1340,
+"y": 330,
+"w": 470,
 "h": 84,
-"size": 38,
+"size": 36,
 "prefix": "7 NIGHTS = ",
 "suffix": " PENCE",
-"at": 13.01,
-"end": 13.38,
+"at": 8.87,
+"end": 12.82,
+"until": 13.06,
 "from": 0,
 "to": 28
 }

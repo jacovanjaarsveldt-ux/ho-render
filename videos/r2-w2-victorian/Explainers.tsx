@@ -37,8 +37,9 @@ const Flow: React.FC<{ path: number[][]; fr: number; t: number; c: string; at: n
     </svg>
   );
 };
-const Label: React.FC<{ x: number; y: number; tx?: number; ty?: number; text: string; at: number; t: number; color?: string; size?: number; from?: string }> = ({ x, y, tx, ty, text, at, t, color = C.gold, size = 30, from = "up" }) => {
-  const p = interpolate(t, [at, at + 0.45], [0, 1], { ...clamp, easing: eo });
+const Label: React.FC<{ x: number; y: number; tx?: number; ty?: number; text: string; at: number; t: number; color?: string; size?: number; from?: string; until?: number }> = ({ x, y, tx, ty, text, at, t, color = C.gold, size = 30, from = "up", until }) => {
+  const fo = until !== undefined ? interpolate(t, [until, until + 0.4], [1, 0], clamp) : 1;
+  const p = interpolate(t, [at, at + 0.45], [0, 1], { ...clamp, easing: eo }) * fo;
   if (p <= 0) return null;
   const off = (1 - p) * 70; const ox = from === "left" ? -off : from === "right" ? off : 0; const oy = from === "up" ? -off : from === "down" ? off : 0;
   const line = interpolate(t, [at + 0.2, at + 0.75], [0, 1], { ...clamp, easing: eo });
@@ -74,7 +75,7 @@ const Bar: React.FC<{ b: any; t: number; fr: number }> = ({ b, t, fr }) => {
   const x0 = b.x, w = b.w, y = b.y, h = b.h ?? 56;
   return (
     <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
-      <rect x={x0 - 14} y={y - 14} width={w + 28} height={h + 100} rx={10} fill="rgba(20,14,8,.78)" stroke={C.gold} strokeWidth="4" opacity={panel} />
+      <rect x={x0 - 14} y={y - 14} width={b.pw ?? w + 28} height={h + 100} rx={10} fill="rgba(20,14,8,.78)" stroke={C.gold} strokeWidth="4" opacity={panel} />
       <rect x={x0} y={y} width={w * g} height={h} fill={b.color ?? "#3E2E26"} />
       {(b.ticks ?? []).map((k: any, i: number) => <g key={i} opacity={panel}><path d={`M${x0 + w * k.pos},${y + h + 14} v14`} stroke={C.cream} strokeWidth="4" /><text x={x0 + w * k.pos} y={y + h + 60} textAnchor="middle" fontFamily="Archivo" fontWeight={800} fontSize="28" fill={C.cream}>{k.text}</text></g>)}
       {b.label && <text x={x0 + 14} y={y + h / 2 + 11} fontFamily="Archivo" fontWeight={800} fontSize="32" fill={C.cream} letterSpacing="2" opacity={interpolate(t, [b.at + 0.4, b.at + 1.2], [0, 1], clamp)}>{b.label}</text>}
@@ -151,7 +152,7 @@ const Wedges: React.FC<{ w: any; t: number; fr: number }> = ({ w, t }) => {
 
 // big running number in a paper plate (money counters): from -> to with ease, plus a pop-in
 const Counter: React.FC<{ c: any; t: number }> = ({ c, t }) => {
-  const pop = interpolate(t, [c.at - 0.3, c.at], [0, 1], clamp);
+  const pop = interpolate(t, [c.at - 0.3, c.at], [0, 1], clamp) * (c.until !== undefined ? interpolate(t, [c.until, c.until + 0.4], [1, 0], clamp) : 1);
   if (pop <= 0) return null;
   const v = Math.round(interpolate(t, [c.at, c.end], [c.from ?? 0, c.to], { ...clamp, easing: Easing.inOut(Easing.quad) }));
   const w = c.w ?? 620, h = c.h ?? 150;
