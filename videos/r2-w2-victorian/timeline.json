@@ -210,8 +210,8 @@
 "from": "up"
 },
 {
-"x": 700,
-"y": 240,
+"x": 760,
+"y": 330,
 "tx": 560,
 "ty": 482,
 "text": "THE RIVER",
@@ -220,8 +220,8 @@
 "from": "up"
 },
 {
-"x": 330,
-"y": 810,
+"x": 250,
+"y": 715,
 "tx": 325,
 "ty": 648,
 "text": "UNDER THE STREET",
@@ -230,48 +230,48 @@
 "from": "down"
 },
 {
-"x": 470,
-"y": 230,
+"x": 420,
+"y": 130,
 "tx": 125,
 "ty": 360,
 "text": "THE WHOLE CITY STARTS TO STINK",
 "at": 5.43,
 "color": "#B8C45A",
-"from": "up",
-"size": 26
+"size": 26,
+"from": "up"
 },
 {
-"x": 1250,
-"y": 235,
+"x": 1190,
+"y": 225,
 "text": "BIGGEST CITY ON EARTH",
 "at": 15.65,
 "color": "#E7C27A",
-"from": "up",
-"size": 30
+"size": 30,
+"from": "up"
 },
 {
-"x": 1250,
-"y": 300,
+"x": 1190,
+"y": 290,
 "text": "MOST OF THEM ARE POOR",
 "at": 17.77,
 "color": "#E7C27A",
-"from": "up",
-"size": 30
+"size": 30,
+"from": "up"
 }
 ],
 "counters": [
 {
-"x": 1250,
+"x": 1170,
 "y": 120,
-"w": 760,
-"h": 118,
-"size": 60,
-"from": 0,
-"to": 2000000,
+"w": 700,
+"h": 100,
+"size": 48,
 "prefix": "OVER ",
 "suffix": " PEOPLE",
 "at": 12.23,
-"end": 12.94
+"end": 12.94,
+"from": 0,
+"to": 2000000
 }
 ]
 },
@@ -342,31 +342,20 @@
 "at": 2.67,
 "color": "#E7C27A",
 "from": "right"
-},
-{
-"x": 640,
-"y": 330,
-"tx": 540,
-"ty": 640,
-"text": "THEY BUY IT BY THE BUCKET",
-"at": 5.29,
-"color": "#E7C27A",
-"from": "left",
-"size": 26
 }
 ],
 "counters": [
 {
-"x": 1150,
-"y": 310,
-"w": 760,
-"h": 104,
-"size": 54,
-"from": 8,
-"to": 14,
+"x": 430,
+"y": 150,
+"w": 640,
+"h": 100,
+"size": 48,
 "suffix": " PENCE A BUCKET",
 "at": 7.39,
-"end": 12.76
+"end": 12.76,
+"from": 8,
+"to": 14
 }
 ],
 "stamps": []
@@ -466,9 +455,9 @@
 ],
 "bars": [
 {
-"x": 640,
-"y": 110,
-"w": 860,
+"x": 600,
+"y": 60,
+"w": 880,
 "h": 58,
 "at": 2.61,
 "end": 4.2,
@@ -488,59 +477,61 @@
 ],
 "labels": [
 {
-"x": 900,
-"y": 270,
-"tx": 520,
-"ty": 500,
+"x": 1060,
+"y": 545,
+"tx": 480,
+"ty": 470,
 "text": "A BED: 4 PENCE A NIGHT",
 "at": 7.03,
 "color": "#E7C27A",
-"from": "up",
-"size": 28
+"size": 28,
+"from": "right"
 },
 {
-"x": 1150,
-"y": 450,
+"x": 1260,
+"y": 475,
 "text": "ALMOST A THIRD OF THE WEEK",
 "at": 13.01,
 "color": "#E7C27A",
-"from": "up",
-"size": 28
+"size": 28,
+"from": "up"
 },
 {
-"x": 980,
-"y": 540,
-"tx": 420,
-"ty": 600,
+"x": 1060,
+"y": 610,
+"tx": 450,
+"ty": 490,
 "text": "MEN LEAVE AT 2 A.M. FOR THE MARKETS",
 "at": 18.79,
 "color": "#E7C27A",
-"from": "right",
-"size": 24
+"size": 24,
+"from": "right"
 },
 {
-"x": 1080,
-"y": 620,
+"x": 1060,
+"y": 675,
+"tx": 430,
+"ty": 500,
 "text": "BED LET OUT AGAIN",
 "at": 23.67,
 "color": "#E7C27A",
-"from": "right",
-"size": 28
+"size": 28,
+"from": "right"
 }
 ],
 "counters": [
 {
-"x": 1180,
-"y": 215,
-"w": 620,
+"x": 1260,
+"y": 370,
+"w": 560,
 "h": 84,
-"size": 40,
-"from": 0,
-"to": 28,
+"size": 38,
 "prefix": "7 NIGHTS = ",
 "suffix": " PENCE",
 "at": 13.01,
-"end": 13.38
+"end": 13.38,
+"from": 0,
+"to": 28
 }
 ]
 },
@@ -642,14 +633,14 @@
 {
 "x": 1120,
 "y": 470,
-"w": 640,
-"h": 104,
-"size": 56,
-"from": 1,
-"to": 20,
+"w": 820,
+"h": 100,
+"size": 44,
 "suffix": " PEOPLE FOR EACH ONE",
 "at": 9.39,
-"end": 10.18
+"end": 10.18,
+"from": 1,
+"to": 20
 }
 ],
 "labels": [
@@ -799,63 +790,63 @@
 "dy": -3,
 "labels": [
 {
-"x": 508,
-"y": 200,
+"x": 520,
+"y": 185,
 "tx": 508,
 "ty": 470,
 "text": "IRON: 1 PENNY FOR 5 LB",
 "at": 2.51,
 "color": "#E7C27A",
-"from": "up",
-"size": 26
+"size": 26,
+"from": "up"
 },
 {
-"x": 760,
-"y": 320,
+"x": 860,
+"y": 275,
 "tx": 742,
 "ty": 520,
 "text": "BONES: 1 PENNY FOR 3 LB",
 "at": 4.97,
 "color": "#E7C27A",
-"from": "up",
-"size": 26
+"size": 26,
+"from": "up"
 },
 {
 "x": 1150,
-"y": 240,
+"y": 215,
 "tx": 1150,
 "ty": 620,
 "text": "COPPER NAILS: 4 PENCE A LB",
 "at": 7.55,
 "color": "#E7C27A",
-"from": "up",
-"size": 26
+"size": 26,
+"from": "up"
 },
 {
-"x": 360,
-"y": 330,
+"x": 300,
+"y": 355,
 "tx": 317,
 "ty": 430,
 "text": "COAL: 1 PENNY A POT",
 "at": 10.19,
 "color": "#E7C27A",
-"from": "up",
-"size": 26
+"size": 26,
+"from": "up"
 }
 ],
 "counters": [
 {
-"x": 1230,
-"y": 120,
-"w": 640,
+"x": 1280,
+"y": 100,
+"w": 600,
 "h": 96,
-"size": 48,
-"from": 0,
-"to": 3,
+"size": 46,
 "prefix": "ABOUT ",
 "suffix": " PENCE A DAY",
 "at": 13.39,
-"end": 15.86
+"end": 15.86,
+"from": 0,
+"to": 3
 }
 ]
 },
@@ -1050,42 +1041,51 @@
 ],
 "labels": [
 {
-"x": 820,
-"y": 130,
+"x": 830,
+"y": 610,
 "tx": 980,
-"ty": 690,
+"ty": 705,
 "text": "THE POLICE PROTECT YOUR CROSSING",
 "at": 2.15,
 "color": "#E7C27A",
+"from": "up"
+},
+{
+"x": 800,
+"y": 330,
+"text": "THE DAILY MAN KEEPS IT",
+"at": 17.64,
+"color": "#9BC47A",
+"size": 34,
 "from": "up"
 }
 ],
 "counters": [
 {
-"x": 560,
-"y": 250,
-"w": 700,
-"h": 92,
-"size": 44,
-"from": 0,
-"to": 1,
+"x": 800,
+"y": 110,
+"w": 760,
+"h": 86,
+"size": 40,
 "prefix": "SUNDAYS ONLY: ",
 "suffix": " DAY A WEEK",
 "at": 12.96,
-"end": 13.91
+"end": 13.91,
+"from": 0,
+"to": 1
 },
 {
-"x": 1060,
-"y": 360,
-"w": 720,
-"h": 92,
-"size": 44,
-"from": 0,
-"to": 7,
+"x": 800,
+"y": 215,
+"w": 760,
+"h": 86,
+"size": 40,
 "prefix": "EVERY DAY: ",
 "suffix": " DAYS A WEEK",
 "at": 15.4,
-"end": 16.01
+"end": 16.01,
+"from": 1,
+"to": 7
 }
 ],
 "stamps": []
