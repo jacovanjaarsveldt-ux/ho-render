@@ -43,13 +43,15 @@ const Big: React.FC<{ t: string; c: string; dur: number; instant?: boolean }> = 
     <div style={{ ...DISPLAY, fontSize: 118, lineHeight: 0.95, textAlign: "center", maxWidth: 900, color: c === "gold" ? C.gold : "#fff", opacity: Math.min(1, fr / 3) * out, transform: `scale(${interpolate(sp, [0, 1], [1.8, 1])}) rotate(${interpolate(sp, [0, 1], [-6, -2])}deg)`, WebkitTextStroke: "7px #15110C", paintOrder: "stroke fill", textShadow: "0 7px 0 rgba(0,0,0,.6), 0 0 30px rgba(0,0,0,.5)" }}>{t}</div>
   </AbsoluteFill>;
 };
-const Label: React.FC<{ t: string; dx: number; dy: number }> = ({ t, dx, dy }) => {
-  // Hook pass: white rounded question label from frame 1 (no fade-in), top y = 330, full until 2.5 s, gone by 3.0 s. dx/dy are the measured optical-centre corrections (scripts/check-label-centre.py).
+const Label: React.FC<{ t: string; dx: number; dy: number; fs?: number }> = ({ t, dx, dy, fs = 70 }) => {
+  // Hook pass: white rounded label from frame 1 (no fade-in), top y = 330, full until 2.5 s, gone by 3.0 s. dx/dy are the measured optical-centre corrections (scripts/check-label-centre.py).
+  // fs = font size (reduced when the text is long, so the box stays inside the safe zone x 110-970); a "\n" in t makes two lines.
   const fr = useCurrentFrame();
   const op = interpolate(fr, [75, 90], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const lines = t.split("\n");
   return <AbsoluteFill style={{ alignItems: "center", paddingTop: 330, opacity: op }}>
-    <div style={{ height: 112, padding: "0 46px", borderRadius: 20, background: "#FBF9F3", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 6px 18px rgba(0,0,0,.35)" }}>
-      <span style={{ fontFamily: "Archivo, Arial Black, sans-serif", fontWeight: 900, fontSize: 70, lineHeight: 1, color: "#15110C", whiteSpace: "nowrap", transform: `translate(${dx}px, ${dy}px)` }}>{t}</span>
+    <div style={{ minHeight: 112, padding: lines.length > 1 ? "22px 46px" : "0 46px", borderRadius: 20, background: "#FBF9F3", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 6px 18px rgba(0,0,0,.35)" }}>
+      <span style={{ fontFamily: "Archivo, Arial Black, sans-serif", fontWeight: 900, fontSize: fs, lineHeight: lines.length > 1 ? 1.14 : 1, color: "#15110C", whiteSpace: "pre", textAlign: "center", transform: `translate(${dx}px, ${dy}px)` }}>{t}</span>
     </div>
   </AbsoluteFill>;
 };
@@ -78,7 +80,7 @@ const Reel: React.FC = () => {
       <AbsoluteFill style={{ pointerEvents: "none", background: "radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 60%, rgba(8,6,2,.30) 100%)" }} />
       {(tl.text as any[]).map((x, i) => <Sequence key={`t${i}`} from={f(x.a)} durationInFrames={f(x.b) - f(x.a)}><Big t={x.t} c={x.c} dur={f(x.b) - f(x.a)} instant={x.a === 0} /></Sequence>)}
       <Captions />
-      {tl.label && <Sequence from={0} durationInFrames={90}><Label t={tl.label.t} dx={tl.label.dx} dy={tl.label.dy} /></Sequence>}
+      {tl.label && <Sequence from={0} durationInFrames={90}><Label t={tl.label.t} dx={tl.label.dx} dy={tl.label.dy} fs={tl.label.fs} /></Sequence>}
       {tl.popup && <Sequence from={f(tl.popup.a)} durationInFrames={75}><ShortPopup /></Sequence>}
     </Sequence>
   </AbsoluteFill>;

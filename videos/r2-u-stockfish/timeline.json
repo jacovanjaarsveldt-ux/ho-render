@@ -865,7 +865,8 @@
  "label": {
   "t": "Fish as hard as wood?",
   "dx": -1,
-  "dy": 2
+  "dy": 2,
+  "fs": 56
  },
  "popup": {
   "a": 26.7,
