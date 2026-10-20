@@ -867,7 +867,7 @@
  "label": {
   "t": "Bacon fat lit their homes",
   "dx": 0,
-  "dy": 0,
+  "dy": 1.5,
   "fs": 54
  },
  "popup": {
