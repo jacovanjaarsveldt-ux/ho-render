@@ -142,3 +142,30 @@ export const SubscribePopup: React.FC<{ sfx?: boolean }> = ({ sfx = true }) => {
   );
 };
 
+// 2.5 s (75 frames) Subscribe pop-up for 1080x1920 Shorts, mid-video: the longs' pill (crest, name, red button, cursor click, SUBSCRIBED), slides in from the right, centred at y 400, clear of the label, top texts and captions.
+export const ShortPopup: React.FC = () => {
+  const fr = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const CLICK = 36;
+  const slide = spring({ frame: fr, fps, config: { damping: 15, stiffness: 140 } });
+  const leave = interpolate(fr, [60, 74], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
+  const x = (1 - slide) * 900 + leave * 900;
+  const curX = interpolate(fr, [16, CLICK - 2], [260, 30], { ...clamp, easing: ease });
+  const curY = interpolate(fr, [16, CLICK - 2], [180, 22], { ...clamp, easing: ease });
+  const curOp = interpolate(fr, [16, 20, 52, 58], [0, 1, 1, 0], clamp);
+  return (
+    <AbsoluteFill>
+      <div style={{ position: "absolute", left: 0, width: 1080, top: 400, display: "flex", justifyContent: "center" }}>
+        <div style={{ transform: `translateX(${x}px) scale(0.84)`, display: "flex", alignItems: "center", gap: 22,
+          padding: "16px 22px 16px 16px", borderRadius: 999, background: "rgba(13,21,48,0.9)", border: `3px solid ${P.gold}`, boxShadow: "0 14px 40px rgba(0,0,0,0.5)" }}>
+          <Crest size={104} t={fr - 2} />
+          <div style={{ fontFamily: "Cinzel", fontWeight: 900, fontSize: 30, letterSpacing: "0.07em", color: P.cream, lineHeight: 1.05 }}>HISTORY OUTSCALED</div>
+          <div style={{ position: "relative" }}>
+            <Sequence from={8} layout="none"><SubButton t={fr - 8} click={CLICK - 8} s={0.8} /></Sequence>
+            <div style={{ position: "absolute", left: "50%", top: "50%", opacity: curOp, transform: `translate(${curX}px, ${curY}px) scale(${fr >= CLICK - 2 && fr <= CLICK + 3 ? 0.88 : 1})` }}><Cursor size={40} /></div>
+          </div>
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
