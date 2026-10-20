@@ -489,7 +489,7 @@
 ],
 "labels": [
 {
-"x": 1340,
+"x": 1270,
 "y": 330,
 "text": "ALMOST A THIRD OF HIS PAY",
 "at": 13.01,
@@ -499,7 +499,7 @@
 "from": "up"
 },
 {
-"x": 1300,
+"x": 1270,
 "y": 330,
 "text": "MEN LEAVE AT 2 A.M. FOR THE MARKETS",
 "at": 18.79,
@@ -509,7 +509,7 @@
 "from": "up"
 },
 {
-"x": 1340,
+"x": 1270,
 "y": 330,
 "text": "BED LET OUT AGAIN",
 "at": 23.67,
@@ -520,7 +520,7 @@
 ],
 "counters": [
 {
-"x": 1340,
+"x": 1270,
 "y": 330,
 "w": 470,
 "h": 84,
