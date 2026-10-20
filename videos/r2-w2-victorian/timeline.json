@@ -462,7 +462,13 @@
 "at": 2.61,
 "end": 4.2,
 "color": "#C98A2B",
-"label": "A WEEK: 7 SHILLINGS 6 PENCE"
+"label": "A WEEK: 7 SHILLINGS 6 PENCE",
+"ticks": [
+{
+"pos": 0.5,
+"text": "90 PENCE"
+}
+]
 },
 {
 "x": 640,
@@ -472,7 +478,13 @@
 "at": 13.01,
 "end": 13.82,
 "color": "#A8432B",
-"label": "BED: 28 PENCE"
+"label": "BED: 28 PENCE",
+"ticks": [
+{
+"pos": 0.5,
+"text": "7 x 4"
+}
+]
 }
 ],
 "labels": [
@@ -499,8 +511,6 @@
 {
 "x": 1060,
 "y": 610,
-"tx": 450,
-"ty": 490,
 "text": "MEN LEAVE AT 2 A.M. FOR THE MARKETS",
 "at": 18.79,
 "color": "#E7C27A",
@@ -510,8 +520,6 @@
 {
 "x": 1060,
 "y": 675,
-"tx": 430,
-"ty": 500,
 "text": "BED LET OUT AGAIN",
 "at": 23.67,
 "color": "#E7C27A",
@@ -1084,7 +1092,7 @@
 "suffix": " DAYS A WEEK",
 "at": 15.4,
 "end": 16.01,
-"from": 1,
+"from": 2,
 "to": 7
 }
 ],
