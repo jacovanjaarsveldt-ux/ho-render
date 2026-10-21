@@ -490,7 +490,8 @@
   "t": "Why was Egypt\noff-limits?",
   "dx": 0,
   "dy": 0,
-  "fs": 62
+  "fs": 62,
+  "shade": true
  },
  "popup": {
   "a": 15.7,

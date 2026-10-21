@@ -55,6 +55,12 @@ const Label: React.FC<{ t: string; dx: number; dy: number; fs?: number }> = ({ t
     </div>
   </AbsoluteFill>;
 };
+const Shade: React.FC = () => {
+  // soft dark band behind the hook label for pale openings (sky, snow) so the white label keeps its contrast; fades out with the label
+  const fr = useCurrentFrame();
+  const op = interpolate(fr, [75, 90], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return <AbsoluteFill style={{ pointerEvents: "none", opacity: op, background: "linear-gradient(180deg, rgba(20,14,8,0) 200px, rgba(20,14,8,.5) 300px, rgba(20,14,8,.5) 580px, rgba(20,14,8,0) 720px)" }} />;
+};
 const Captions: React.FC = () => {
   const t = useCurrentFrame() / FPS;
   if (t >= END) return null;
@@ -80,6 +86,7 @@ const Reel: React.FC = () => {
       <AbsoluteFill style={{ pointerEvents: "none", background: "radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 60%, rgba(8,6,2,.30) 100%)" }} />
       {(tl.text as any[]).map((x, i) => <Sequence key={`t${i}`} from={f(x.a)} durationInFrames={f(x.b) - f(x.a)}><Big t={x.t} c={x.c} dur={f(x.b) - f(x.a)} instant={x.a === 0} /></Sequence>)}
       <Captions />
+      {tl.label && tl.label.shade && <Sequence from={0} durationInFrames={90}><Shade /></Sequence>}
       {tl.label && <Sequence from={0} durationInFrames={90}><Label t={tl.label.t} dx={tl.label.dx} dy={tl.label.dy} fs={tl.label.fs} /></Sequence>}
       {tl.popup && <Sequence from={f(tl.popup.a)} durationInFrames={75}><ShortPopup /></Sequence>}
     </Sequence>
