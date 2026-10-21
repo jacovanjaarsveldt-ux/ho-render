@@ -39,18 +39,18 @@
 "cam": "push",
 "o": "50% 50%",
 "crop": null,
-"b": 25.22,
+"b": 27.5,
 "dir": -1
 },
 {
-"a": 25.22,
+"a": 27.5,
 "kind": "clip",
 "src": "clips/clip2.mp4",
 "use": [
 0.0
 ],
 "b": 31.16,
-"rate": 0.665
+"rate": 1.0
 },
 {
 "a": 31.16,
@@ -438,18 +438,18 @@
 "cam": "pull",
 "o": "50% 50%",
 "crop": null,
-"b": 131.28,
+"b": 133.2,
 "dir": -1
 },
 {
-"a": 131.28,
+"a": 133.2,
 "kind": "clip",
 "src": "clips/clip4.mp4",
 "use": [
 0.0
 ],
 "b": 137.8,
-"rate": 0.606
+"rate": 0.859
 },
 {
 "a": 137.8,
@@ -635,11 +635,11 @@
 "cam": "pan",
 "o": "50% 50%",
 "crop": null,
-"b": 170.86,
+"b": 175.52,
 "dir": -1
 },
 {
-"a": 170.86,
+"a": 175.52,
 "kind": "img",
 "src": "img/st15.jpg",
 "cam": "push",
@@ -899,7 +899,7 @@
 {
 "a": 280.6,
 "kind": "img",
-"src": "img/st29.jpg",
+"src": "img/st24.jpg",
 "cam": "pan",
 "o": "50% 50%",
 "crop": null,
@@ -994,29 +994,43 @@
 "size": 26,
 "from": "up",
 "tx": 860,
+"ty": 620,
+"until": 21.2
+},
+{
+"x": 1180,
+"y": 330,
+"text": "OFTEN CALLED THE OLDEST STANDING WOODEN BUILDING",
+"at": 21.15,
+"color": "#E7C27A",
+"size": 24,
+"from": "up",
+"tx": 860,
+"ty": 620,
+"until": 25.32
+},
+{
+"x": 1180,
+"y": 330,
+"text": "BRONZE BOWLS AND A FUNERAL FEAST",
+"at": 25.27,
+"color": "#E7C27A",
+"size": 26,
+"from": "up",
+"tx": 860,
 "ty": 620
 }
 ]
 },
 "cues": {},
 "id": "gordion",
-"b": 319.94
-},
-{
-"a": 319.94,
-"kind": "img",
-"src": "img/st27.jpg",
-"cam": "push",
-"o": "50% 50%",
-"crop": null,
-"b": 329.56,
-"dir": -1
+"b": 329.56
 },
 {
 "a": 329.56,
 "kind": "img",
-"src": "img/st24.jpg",
-"cam": "pull",
+"src": "img/st27.jpg",
+"cam": "push",
 "o": "50% 50%",
 "crop": null,
 "b": 343.14,
@@ -1029,11 +1043,21 @@
 "cam": "push",
 "o": "50% 50%",
 "crop": null,
-"b": 353.28,
+"b": 355.42,
 "dir": -1
 },
 {
-"a": 353.28,
+"a": 355.42,
+"kind": "img",
+"src": "img/st29.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 359.66,
+"dir": -1
+},
+{
+"a": 359.66,
 "kind": "img",
 "src": "img/st30.jpg",
 "cam": "pull",
@@ -1220,18 +1244,18 @@
 "cam": "push",
 "o": "50% 50%",
 "crop": null,
-"b": 433.59,
+"b": 435.03,
 "dir": -1
 },
 {
-"a": 433.59,
+"a": 435.03,
 "kind": "clip",
 "src": "clips/clip8.mp4",
 "use": [
 0.0
 ],
 "b": 439.81,
-"rate": 0.635
+"rate": 0.826
 },
 {
 "a": 439.81,
@@ -1376,7 +1400,7 @@
 "x": 560,
 "y": 150,
 "text": "EARLY BRONZE AGE, ABOUT 2500 BC",
-"at": 21.21,
+"at": 21.99,
 "color": "#E7C27A",
 "size": 26,
 "from": "up",
@@ -1504,11 +1528,11 @@
 223.89,
 229.13,
 234.89,
-300.93,
-305.16,
-309.38,
-313.6,
-318.25,
+301.89,
+308.04,
+314.19,
+320.34,
+327.1,
 398.48,
 403.69,
 408.9,
