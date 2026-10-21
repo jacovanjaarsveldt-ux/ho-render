@@ -926,7 +926,7 @@
   {
    "a": 35.94,
    "b": 37.44,
-   "t": "ABOUT 100 ARRIVED",
+   "t": "100 ARRIVED",
    "c": "gold"
   },
   {
@@ -941,7 +941,8 @@
   "t": "Free ice for a year?",
   "dx": 0,
   "dy": 0,
-  "fs": 64
+  "fs": 64,
+  "shade": true
  },
  "popup": {
   "a": 28.5,
