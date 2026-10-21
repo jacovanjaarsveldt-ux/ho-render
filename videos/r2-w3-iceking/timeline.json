@@ -135,16 +135,16 @@
 720
 ],
 [
-1120,
+1180,
 640
 ],
 [
-1200,
-520
+1270,
+540
 ],
 [
-1262,
-445
+1335,
+425
 ]
 ],
 "at": 4.45,
@@ -165,10 +165,10 @@
 "from": "up"
 },
 {
-"x": 1130,
-"y": 600,
-"tx": 1262,
-"ty": 445,
+"x": 1120,
+"y": 610,
+"tx": 1335,
+"ty": 425,
 "text": "CALCUTTA, SEPTEMBER 1833",
 "at": 5.59,
 "color": "#E7C27A",
@@ -586,7 +586,7 @@
 ],
 "labels": [
 {
-"x": 1340,
+"x": 1230,
 "y": 440,
 "tx": 950,
 "ty": 520,
@@ -597,7 +597,7 @@
 "from": "right"
 },
 {
-"x": 1340,
+"x": 1230,
 "y": 170,
 "tx": 850,
 "ty": 150,
@@ -686,7 +686,7 @@
 {
 "a": 188.02,
 "kind": "img",
-"src": "img/i24.jpg",
+"src": "img/n40.jpg",
 "cam": "pan",
 "o": "50% 50%",
 "crop": null,
@@ -720,18 +720,28 @@
 "cam": "push",
 "o": "50% 50%",
 "crop": null,
-"b": 215.48,
+"b": 212.38,
 "dir": -1
 },
 {
-"a": 215.48,
+"a": 212.38,
 "kind": "clip",
 "src": "clips/clip6.mp4",
 "use": [
 0.0
 ],
+"b": 214.76,
+"rate": 1.0
+},
+{
+"a": 214.76,
+"kind": "img",
+"src": "img/i03.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
 "b": 220.6,
-"rate": 0.771
+"dir": -1
 },
 {
 "a": 220.6,
@@ -795,7 +805,7 @@
 ],
 "labels": [
 {
-"x": 260,
+"x": 520,
 "y": 150,
 "text": "BOSTON, MAY",
 "at": 0.03,
@@ -805,7 +815,7 @@
 "from": "up"
 },
 {
-"x": 260,
+"x": 520,
 "y": 150,
 "text": "CALCUTTA, SEPTEMBER",
 "at": 2.93,
@@ -831,7 +841,7 @@
 {
 "a": 229.48,
 "kind": "img",
-"src": "img/i11.jpg",
+"src": "img/n41.jpg",
 "cam": "push",
 "o": "50% 50%",
 "crop": null,
@@ -1200,24 +1210,18 @@
 ],
 "bars": [
 {
-"x": 140,
+"x": 110,
 "y": 180,
-"w": 720,
+"w": 800,
 "h": 64,
 "at": 0.03,
 "end": 5.02,
 "color": "#4E7A3A",
-"label": "PROFITS OVER 20 YEARS",
+"label": "20 YEARS OF PROFITS",
 "marks": [
 {
 "pos": 0.909,
 "color": "#B3322B"
-}
-],
-"ticks": [
-{
-"pos": 0.96,
-"text": "ABOUT $220,000"
 }
 ]
 }
@@ -1226,13 +1230,27 @@
 {
 "x": 640,
 "y": 100,
-"tx": 794,
-"ty": 160,
+"tx": 837,
+"ty": 150,
 "text": "DEBT IN 1833: ABOUT $200,000",
 "at": 0.03,
 "color": "#E7C27A",
 "size": 28,
 "from": "up"
+}
+],
+"counters": [
+{
+"x": 520,
+"y": 390,
+"w": 560,
+"h": 92,
+"size": 48,
+"prefix": "ABOUT $",
+"at": 0.03,
+"end": 5.02,
+"from": 0,
+"to": 220000
 }
 ]
 },
@@ -1307,9 +1325,9 @@
 "note": "You are in the"
 },
 {
-"at": 215.48,
+"at": 212.38,
 "src": "sfx_sail.mp3",
-"note": "William Rogers is"
+"note": "so this cargo"
 }
 ],
 "extra": [
