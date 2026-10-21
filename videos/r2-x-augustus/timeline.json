@@ -489,7 +489,7 @@
  "label": {
   "t": "Why was Egypt\noff-limits?",
   "dx": 0,
-  "dy": 0,
+  "dy": 1.5,
   "fs": 62,
   "shade": true
  },
