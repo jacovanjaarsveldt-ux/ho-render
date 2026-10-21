@@ -1025,7 +1025,7 @@
  "label": {
   "t": "Why buy a whole\nTV station?",
   "dx": 0,
-  "dy": 0,
+  "dy": 1.5,
   "fs": 62
  },
  "popup": {
