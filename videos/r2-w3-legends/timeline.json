@@ -998,9 +998,9 @@
 "until": 21.2
 },
 {
-"x": 1180,
+"x": 980,
 "y": 330,
-"text": "OFTEN CALLED THE OLDEST STANDING WOODEN BUILDING",
+"text": "OFTEN CALLED THE OLDEST WOODEN BUILDING",
 "at": 21.15,
 "color": "#E7C27A",
 "size": 24,
@@ -1207,10 +1207,10 @@
 {
 "x": 1000,
 "y": 560,
-"text": "STONE STATUE OF THE NILE GOD HAPI",
+"text": "A LARGE STONE STATUE",
 "at": 9.33,
 "color": "#E7C27A",
-"size": 24,
+"size": 26,
 "from": "up",
 "tx": 650,
 "ty": 700,
@@ -1412,7 +1412,7 @@
 "x": 600,
 "y": 150,
 "text": "THE DESTRUCTION LAYER",
-"at": 27.17,
+"at": 28.65,
 "color": "#E7C27A",
 "size": 28,
 "from": "up",
