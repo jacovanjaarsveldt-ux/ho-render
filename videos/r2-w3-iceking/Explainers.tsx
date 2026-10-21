@@ -54,9 +54,9 @@ const Grid: React.FC<{ g: any; t: number }> = ({ g, t }) => {
   const p = interpolate(t, [g.at, g.end], [0, 1], { ...clamp, easing: Easing.inOut(Easing.quad) });
   if (p <= 0) return null;
   const cols = g.cols ?? 8, rows = g.rows ?? 4, tot = cols + rows;
-  const quad = (u: number, v: number) => [g.x + u * g.w + (v - 0.5) * (g.skew ?? 0), g.y + v * g.h];
+  const quad = (u: number, v: number) => { const sc = 1 - (g.persp ?? 0) * (1 - v); return [g.x + g.w / 2 + (u - 0.5) * g.w * sc + (v - 0.5) * (g.skew ?? 0), g.y + v * g.h]; };
   const lines: React.ReactElement[] = [];
-  for (let i = 0; i <= cols; i++) { const q = interpolate(p * tot, [i, i + 1], [0, 1], clamp); if (q <= 0) continue; const [x0, y0] = quad(i / cols, 0), [x1, y1] = quad(i / cols, q); lines.push(<g key={`c${i}`}><line x1={x0} y1={y0} x2={x1} y2={y1} stroke={C.ink} strokeWidth="7" opacity={0.35} /><line x1={x0} y1={y0} x2={x1} y2={y1} stroke="#2E4A66" strokeWidth="3.5" /></g>); }
+  for (let i = 0; i <= cols; i++) { const q = interpolate(p * tot, [i, i + 1], [0, 1], clamp); if (q <= 0) continue; const [x0, y0] = quad(i / cols, 0), [x1, y1] = quad(i / cols, q); lines.push(<g key={`c${i}`}><line x1={x0} y1={y0} x2={x1} y2={y1} stroke={C.ink} strokeWidth="7" opacity={0.35} /><line x1={x0} y1={y0} x2={x1} y2={y1} stroke="#3F6A8F" strokeWidth="3" /></g>); }
   for (let j = 0; j <= rows; j++) { const q = interpolate(p * tot, [cols + j, cols + j + 1], [0, 1], clamp); if (q <= 0) continue; const [x0, y0] = quad(0, j / rows), [x1, y1] = quad(q, j / rows); lines.push(<g key={`r${j}`}><line x1={x0} y1={y0} x2={x1} y2={y1} stroke={C.ink} strokeWidth="7" opacity={0.35} /><line x1={x0} y1={y0} x2={x1} y2={y1} stroke="#2E4A66" strokeWidth="3.5" /></g>); }
   return <svg width={1600} height={894} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>{lines}</svg>;
 };
