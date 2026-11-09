@@ -852,7 +852,7 @@
  "label": {
   "t": "Toilet with\nyour friends?",
   "dx": 0,
-  "dy": 0,
+  "dy": 1,
   "fs": 62
  },
  "popup": {
