@@ -883,7 +883,7 @@
  "label": {
   "t": "A clock made\nof stars?",
   "dx": 0,
-  "dy": 0,
+  "dy": -3,
   "fs": 62
  },
  "popup": {
