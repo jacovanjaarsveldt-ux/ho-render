@@ -1,0 +1,1619 @@
+{
+"end": 604.48,
+"vo_end": 600.478,
+"shots": [
+{
+"a": 0.0,
+"kind": "clip",
+"src": "clips/clip1.mp4",
+"use": [
+0.0
+],
+"b": 5.48,
+"rate": 0.729
+},
+{
+"a": 5.48,
+"kind": "img",
+"src": "img/s01.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 7.49,
+"dir": -1
+},
+{
+"a": 7.49,
+"kind": "img",
+"src": "img/s03.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 9.53,
+"dir": -1
+},
+{
+"a": 9.53,
+"kind": "img",
+"src": "img/s04.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 15.27,
+"dir": -1
+},
+{
+"a": 15.27,
+"kind": "img",
+"src": "img/s02.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 19.05,
+"dir": -1
+},
+{
+"a": 19.05,
+"kind": "img",
+"src": "img/s05.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 22.21,
+"dir": -1
+},
+{
+"a": 22.21,
+"kind": "img",
+"src": "img/s30.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 27.88,
+"dir": -1
+},
+{
+"a": 27.88,
+"kind": "clip",
+"src": "clips/clip2.mp4",
+"use": [
+0.0
+],
+"b": 33.5,
+"rate": 0.711
+},
+{
+"a": 33.5,
+"kind": "img",
+"src": "img/s06.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 35.94,
+"dir": -1
+},
+{
+"a": 35.94,
+"kind": "img",
+"src": "img/s08.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 41.5,
+"dir": -1
+},
+{
+"a": 41.5,
+"kind": "img",
+"src": "img/s13.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 51.24,
+"dir": -1
+},
+{
+"a": 51.24,
+"kind": "img",
+"src": "img/n03.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 56.04,
+"dir": -1
+},
+{
+"a": 56.04,
+"kind": "img",
+"src": "img/n01.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 61.32,
+"dir": -1
+},
+{
+"a": 61.32,
+"kind": "clip",
+"src": "clips/clip9.mp4",
+"use": [
+0.0
+],
+"b": 66.72,
+"rate": 0.74
+},
+{
+"a": 66.72,
+"kind": "img",
+"src": "img/n02.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 73.24,
+"dir": -1
+},
+{
+"a": 73.24,
+"kind": "img",
+"src": "img/s12.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 78.26,
+"dir": -1
+},
+{
+"a": 78.26,
+"kind": "expl",
+"cfg": {
+"base": "paint/b1.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"glows": [
+{
+"x": 810,
+"y": 840,
+"r": 150,
+"c": "255,215,140",
+"k": 0.6,
+"at": 0.3
+}
+],
+"labels": [
+{
+"x": 1010,
+"y": 340,
+"tx": 920,
+"ty": 650,
+"text": "TUESDAY AND SATURDAY: SALT BEEF",
+"at": 1.3,
+"color": "#E7C27A",
+"from": "right",
+"size": 26
+},
+{
+"x": 640,
+"y": 240,
+"tx": 690,
+"ty": 650,
+"text": "SUNDAY AND THURSDAY: SALT PORK AND PEAS",
+"at": 4.5,
+"color": "#E7C27A",
+"from": "left",
+"size": 26
+},
+{
+"x": 800,
+"y": 440,
+"tx": 810,
+"ty": 745,
+"text": "MONDAY, WEDNESDAY, FRIDAY: OATMEAL, BUTTER, CHEESE",
+"at": 8.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 24
+}
+]
+},
+"cues": {},
+"id": "table",
+"b": 93.78
+},
+{
+"a": 93.78,
+"kind": "img",
+"src": "img/s14.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 99.93,
+"dir": -1
+},
+{
+"a": 99.93,
+"kind": "img",
+"src": "img/s15.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 105.57,
+"dir": -1
+},
+{
+"a": 105.57,
+"kind": "img",
+"src": "img/s16.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 113.93,
+"dir": -1
+},
+{
+"a": 113.93,
+"kind": "clip",
+"src": "clips/clip3.mp4",
+"use": [
+0.0
+],
+"b": 118.93,
+"rate": 0.799
+},
+{
+"a": 118.93,
+"kind": "img",
+"src": "img/s17.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 124.79,
+"dir": -1
+},
+{
+"a": 124.79,
+"kind": "img",
+"src": "img/s18.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 132.65,
+"dir": -1
+},
+{
+"a": 132.65,
+"kind": "expl",
+"cfg": {
+"base": "paint/b2.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"glows": [
+{
+"x": 580,
+"y": 425,
+"r": 90,
+"c": "255,170,70",
+"k": 1.0,
+"at": 5.2
+}
+],
+"smokes": [
+{
+"path": [
+[
+585,
+395
+],
+[
+595,
+350
+],
+[
+570,
+330
+],
+[
+585,
+300
+]
+],
+"n": 6,
+"size": 16,
+"at": 5.8
+}
+],
+"flows": [
+{
+"path": [
+[
+700,
+735
+],
+[
+650,
+690
+],
+[
+610,
+650
+],
+[
+595,
+620
+]
+],
+"c": "#E7C27A",
+"at": 1.4,
+"w": 8
+},
+{
+"path": [
+[
+585,
+585
+],
+[
+560,
+530
+],
+[
+575,
+475
+],
+[
+580,
+445
+]
+],
+"c": "#E7C27A",
+"at": 4.2,
+"w": 8
+},
+{
+"path": [
+[
+565,
+405
+],
+[
+540,
+375
+],
+[
+510,
+350
+],
+[
+495,
+335
+]
+],
+"c": "#E7C27A",
+"at": 7.0,
+"w": 8
+}
+],
+"labels": [
+{
+"x": 1410,
+"y": 805,
+"tx": 1010,
+"ty": 745,
+"text": "SALT MEAT IN BARRELS",
+"at": 0.8,
+"color": "#E7C27A",
+"from": "right",
+"size": 22
+},
+{
+"x": 1410,
+"y": 695,
+"tx": 665,
+"ty": 600,
+"text": "SOAKED IN A TUB",
+"at": 3.6,
+"color": "#E7C27A",
+"from": "right",
+"size": 22
+},
+{
+"x": 880,
+"y": 60,
+"tx": 585,
+"ty": 420,
+"text": "BOILED IN A COPPER",
+"at": 6.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 22
+},
+{
+"x": 470,
+"y": 60,
+"tx": 490,
+"ty": 330,
+"text": "SERVED TO THE MESS",
+"at": 9.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 22
+}
+]
+},
+"cues": {},
+"id": "route",
+"b": 145.39
+},
+{
+"a": 145.39,
+"kind": "img",
+"src": "img/s61.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 148.77,
+"dir": -1
+},
+{
+"a": 148.77,
+"kind": "clip",
+"src": "clips/clip4.mp4",
+"use": [
+0.0
+],
+"b": 151.39,
+"rate": 1.0
+},
+{
+"a": 151.39,
+"kind": "expl",
+"cfg": {
+"base": "paint/b6.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"glows": [
+{
+"x": 793,
+"y": 215,
+"r": 140,
+"c": "255,215,140",
+"k": 0.5,
+"at": 0.3
+}
+],
+"halos": [
+{
+"x": 370,
+"y": 185,
+"r": 125,
+"ry": 160,
+"at": 2.15,
+"until": 4.14,
+"k": 0.75,
+"c": "255,214,130"
+},
+{
+"x": 370,
+"y": 185,
+"r": 125,
+"ry": 160,
+"at": 4.09,
+"until": 5.54,
+"k": 0.75,
+"c": "255,214,130"
+},
+{
+"x": 370,
+"y": 185,
+"r": 125,
+"ry": 160,
+"at": 5.49,
+"until": 11.34,
+"k": 0.75,
+"c": "255,214,130"
+},
+{
+"x": 370,
+"y": 185,
+"r": 125,
+"ry": 160,
+"at": 11.29,
+"until": 16.9,
+"k": 0.75,
+"c": "255,214,130"
+}
+],
+"rings": [
+{
+"x": 365,
+"y": 565,
+"rx": 70,
+"ry": 150,
+"at": 4.09,
+"until": 16.9,
+"c": "#E7C27A",
+"w": 7
+},
+{
+"x": 735,
+"y": 530,
+"rx": 95,
+"ry": 150,
+"at": 5.49,
+"until": 16.9,
+"c": "#E7C27A",
+"w": 7
+},
+{
+"x": 1210,
+"y": 550,
+"rx": 80,
+"ry": 195,
+"at": 11.29,
+"until": 16.9,
+"c": "#E7C27A",
+"w": 7
+}
+],
+"counters": [
+{
+"x": 1210,
+"y": 190,
+"w": 720,
+"h": 120,
+"size": 58,
+"suffix": " CALORIES A DAY",
+"at": 16.85,
+"end": 19.74,
+"from": 0,
+"to": 5000
+}
+],
+"labels": [
+{
+"x": 735,
+"y": 750,
+"text": "WOODEN DISHES",
+"at": 0.6,
+"color": "#E7C27A",
+"size": 26,
+"from": "down",
+"tx": 735,
+"ty": 600,
+"until": 2.2
+},
+{
+"x": 370,
+"y": 750,
+"text": "BREAKFAST: EARLY",
+"at": 4.09,
+"color": "#E7C27A",
+"size": 26,
+"from": "down",
+"tx": 372,
+"ty": 595
+},
+{
+"x": 735,
+"y": 750,
+"text": "DINNER: NOON",
+"at": 5.49,
+"color": "#E7C27A",
+"size": 26,
+"from": "down",
+"tx": 735,
+"ty": 605
+},
+{
+"x": 1190,
+"y": 750,
+"text": "SUPPER: 4 IN THE AFTERNOON",
+"at": 11.29,
+"color": "#E7C27A",
+"size": 26,
+"from": "down",
+"tx": 1200,
+"ty": 610
+},
+{
+"x": 650,
+"y": 70,
+"text": "THE SHIP'S BELL",
+"at": 2.15,
+"color": "#E7C27A",
+"size": 26,
+"from": "up",
+"tx": 410,
+"ty": 170
+}
+]
+},
+"cues": {},
+"id": "day",
+"b": 175.59
+},
+{
+"a": 175.59,
+"kind": "img",
+"src": "img/s69.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 183.36,
+"dir": -1
+},
+{
+"a": 183.36,
+"kind": "img",
+"src": "img/s27.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 191.02,
+"dir": -1
+},
+{
+"a": 191.02,
+"kind": "img",
+"src": "img/n06.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 199.2,
+"dir": -1
+},
+{
+"a": 199.2,
+"kind": "img",
+"src": "img/s28.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 204.58,
+"dir": -1
+},
+{
+"a": 204.58,
+"kind": "img",
+"src": "img/n07.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 210.16,
+"dir": -1
+},
+{
+"a": 210.16,
+"kind": "img",
+"src": "img/n08.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 218.22,
+"dir": -1
+},
+{
+"a": 218.22,
+"kind": "img",
+"src": "img/s32.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 221.82,
+"dir": -1
+},
+{
+"a": 221.82,
+"kind": "img",
+"src": "img/c5s.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 229.88,
+"dir": -1
+},
+{
+"a": 229.88,
+"kind": "img",
+"src": "img/n10.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 234.34,
+"dir": -1
+},
+{
+"a": 234.34,
+"kind": "img",
+"src": "img/s33.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 242.3,
+"dir": -1
+},
+{
+"a": 242.3,
+"kind": "img",
+"src": "img/s34.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 248.55,
+"dir": -1
+},
+{
+"a": 248.55,
+"kind": "img",
+"src": "img/s35.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 253.23,
+"dir": -1
+},
+{
+"a": 253.23,
+"kind": "expl",
+"cfg": {
+"base": "paint/b3.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"glows": [
+{
+"x": 1012,
+"y": 717,
+"r": 108,
+"c": "255,200,120",
+"k": 0.7,
+"at": 7.0
+}
+],
+"flows": [
+{
+"path": [
+[
+467,
+533
+],
+[
+583,
+617
+],
+[
+750,
+675
+],
+[
+925,
+692
+]
+],
+"c": "#E7C27A",
+"at": 1.6,
+"w": 8
+},
+{
+"path": [
+[
+1108,
+617
+],
+[
+1088,
+650
+],
+[
+1071,
+679
+],
+[
+1054,
+708
+]
+],
+"c": "#E7C27A",
+"at": 4.2,
+"w": 8
+}
+],
+"labels": [
+{
+"x": 292,
+"y": 200,
+"tx": 292,
+"ty": 385,
+"text": "ONE PART RUM",
+"at": 0.9,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 1300,
+"y": 125,
+"tx": 1300,
+"ty": 285,
+"text": "FOUR PARTS WATER",
+"at": 3.1,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+}
+]
+},
+"cues": {},
+"id": "grog",
+"b": 264.29
+},
+{
+"a": 264.29,
+"kind": "img",
+"src": "img/s36.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 274.03,
+"dir": -1
+},
+{
+"a": 274.03,
+"kind": "img",
+"src": "img/n13.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 282.37,
+"dir": -1
+},
+{
+"a": 282.37,
+"kind": "img",
+"src": "img/n15.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 287.41,
+"dir": -1
+},
+{
+"a": 287.41,
+"kind": "img",
+"src": "img/s39.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 297.71,
+"dir": -1
+},
+{
+"a": 297.71,
+"kind": "img",
+"src": "img/s41.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 307.13,
+"dir": -1
+},
+{
+"a": 307.13,
+"kind": "img",
+"src": "img/n14.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 314.25,
+"dir": -1
+},
+{
+"a": 314.25,
+"kind": "img",
+"src": "img/s42.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 318.79,
+"dir": -1
+},
+{
+"a": 318.79,
+"kind": "img",
+"src": "img/c6s.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 324.67,
+"dir": -1
+},
+{
+"a": 324.67,
+"kind": "img",
+"src": "img/s44.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 330.75,
+"dir": -1
+},
+{
+"a": 330.75,
+"kind": "img",
+"src": "img/s43.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 335.43,
+"dir": -1
+},
+{
+"a": 335.43,
+"kind": "expl",
+"cfg": {
+"base": "paint/b4.jpg",
+"z0": 1.0,
+"z1": 1.035,
+"dx": -16,
+"dy": -4,
+"glows": [
+{
+"x": 1377,
+"y": 590,
+"r": 190,
+"c": "255,215,120",
+"k": 0.9,
+"at": 19.9
+}
+],
+"labels": [
+{
+"x": 205,
+"y": 220,
+"tx": 205,
+"ty": 590,
+"text": "CIDER",
+"at": 8.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 433,
+"y": 300,
+"tx": 433,
+"ty": 590,
+"text": "ELIXIR OF VITRIOL",
+"at": 11.4,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 700,
+"y": 140,
+"tx": 700,
+"ty": 590,
+"text": "VINEGAR",
+"at": 13.9,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 913,
+"y": 300,
+"tx": 913,
+"ty": 590,
+"text": "SEA WATER",
+"at": 15.3,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 1150,
+"y": 220,
+"tx": 1150,
+"ty": 590,
+"text": "A SPICY PASTE",
+"at": 17.0,
+"color": "#E7C27A",
+"from": "up",
+"size": 26
+},
+{
+"x": 1340,
+"y": 140,
+"tx": 1377,
+"ty": 590,
+"text": "TWO ORANGES AND A LEMON",
+"at": 19.8,
+"color": "#F6E3A1",
+"from": "up",
+"size": 26
+}
+]
+},
+"cues": {},
+"id": "lind",
+"b": 359.97
+},
+{
+"a": 359.97,
+"kind": "img",
+"src": "img/s45.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 364.03,
+"dir": -1
+},
+{
+"a": 364.03,
+"kind": "img",
+"src": "img/s47.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 371.16,
+"dir": -1
+},
+{
+"a": 371.16,
+"kind": "img",
+"src": "img/n17.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 378.16,
+"dir": -1
+},
+{
+"a": 378.16,
+"kind": "img",
+"src": "img/s49.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 389.72,
+"dir": -1
+},
+{
+"a": 389.72,
+"kind": "img",
+"src": "img/n18.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 400.54,
+"dir": -1
+},
+{
+"a": 400.54,
+"kind": "img",
+"src": "img/s56.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 408.02,
+"dir": -1
+},
+{
+"a": 408.02,
+"kind": "img",
+"src": "img/s52.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 415.02,
+"dir": -1
+},
+{
+"a": 415.02,
+"kind": "img",
+"src": "img/s54.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 421.0,
+"dir": -1
+},
+{
+"a": 421.0,
+"kind": "img",
+"src": "img/s53.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 428.44,
+"dir": -1
+},
+{
+"a": 428.44,
+"kind": "img",
+"src": "img/n21.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 435.16,
+"dir": -1
+},
+{
+"a": 435.16,
+"kind": "img",
+"src": "img/s55.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 445.8,
+"dir": -1
+},
+{
+"a": 445.8,
+"kind": "expl",
+"cfg": {
+"base": "paint/b7.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"halos": [
+{
+"x": 1100,
+"y": 430,
+"r": 560,
+"ry": 300,
+"at": 11.55,
+"k": 0.35,
+"c": "255,214,120"
+}
+],
+"flows": [
+{
+"path": [
+[
+330,
+400
+],
+[
+560,
+320
+],
+[
+900,
+320
+],
+[
+1180,
+400
+]
+],
+"c": "#E7C27A",
+"at": 11.55,
+"w": 9
+}
+],
+"rings": [
+{
+"x": 1252,
+"y": 815,
+"rx": 42,
+"ry": 100,
+"at": 18.97,
+"c": "#E7C27A",
+"w": 7
+}
+],
+"counters": [
+{
+"x": 560,
+"y": 205,
+"w": 470,
+"h": 100,
+"size": 54,
+"suffix": " YEARS",
+"at": 13.33,
+"end": 17.08,
+"from": 0,
+"to": 48
+}
+],
+"labels": [
+{
+"x": 270,
+"y": 90,
+"text": "1747: LIND'S TRIAL",
+"at": 1.2,
+"color": "#E7C27A",
+"size": 26,
+"from": "up",
+"tx": 190,
+"ty": 310
+},
+{
+"x": 860,
+"y": 90,
+"text": "1794: SUFFOLK, NO SERIOUS SCURVY",
+"at": 4.59,
+"color": "#E7C27A",
+"size": 26,
+"from": "up",
+"tx": 1010,
+"ty": 435
+},
+{
+"x": 1385,
+"y": 90,
+"text": "1795: THE WHOLE FLEET",
+"at": 11.55,
+"color": "#E7C27A",
+"size": 26,
+"from": "up",
+"tx": 1420,
+"ty": 300
+},
+{
+"x": 720,
+"y": 770,
+"text": "THREE QUARTERS OF AN OUNCE OF LEMON JUICE A DAY",
+"at": 18.97,
+"color": "#E7C27A",
+"size": 24,
+"from": "down",
+"tx": 1215,
+"ty": 812
+}
+]
+},
+"cues": {},
+"id": "wait",
+"b": 467.63
+},
+{
+"a": 467.63,
+"kind": "img",
+"src": "img/n31.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 471.97,
+"dir": -1
+},
+{
+"a": 471.97,
+"kind": "img",
+"src": "img/n24.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 479.45,
+"dir": -1
+},
+{
+"a": 479.45,
+"kind": "img",
+"src": "img/s59.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"crop": null,
+"b": 483.85,
+"dir": -1
+},
+{
+"a": 483.85,
+"kind": "img",
+"src": "img/s63.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 490.63,
+"dir": -1
+},
+{
+"a": 490.63,
+"kind": "img",
+"src": "img/s70.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 494.69,
+"dir": -1
+},
+{
+"a": 494.69,
+"kind": "img",
+"src": "img/c7s.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 505.25,
+"dir": -1
+},
+{
+"a": 505.25,
+"kind": "expl",
+"cfg": {
+"base": "paint/b5.jpg",
+"z0": 1.0,
+"z1": 1.03,
+"dx": -14,
+"dy": -3,
+"glows": [
+{
+"x": 1240,
+"y": 520,
+"r": 130,
+"c": "255,190,100",
+"k": 0.7,
+"at": 0.2
+}
+],
+"labels": [
+{
+"x": 650,
+"y": 330,
+"tx": 650,
+"ty": 440,
+"text": "16",
+"at": 0.9,
+"color": "#E7C27A",
+"from": "up",
+"size": 40
+},
+{
+"x": 975,
+"y": 300,
+"tx": 975,
+"ty": 435,
+"text": "14",
+"at": 5.2,
+"color": "#E7C27A",
+"from": "up",
+"size": 40
+},
+{
+"x": 800,
+"y": 150,
+"tx": 975,
+"ty": 440,
+"text": "THE PURSER KEEPS AN EIGHTH",
+"at": 6.9,
+"color": "#E7C27A",
+"from": "up",
+"size": 30
+}
+]
+},
+"cues": {},
+"id": "scales",
+"b": 517.09
+},
+{
+"a": 517.09,
+"kind": "img",
+"src": "img/n25.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 522.53,
+"dir": -1
+},
+{
+"a": 522.53,
+"kind": "img",
+"src": "img/s64.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 532.19,
+"dir": -1
+},
+{
+"a": 532.19,
+"kind": "img",
+"src": "img/s65.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 536.41,
+"dir": -1
+},
+{
+"a": 536.41,
+"kind": "img",
+"src": "img/s68.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 541.27,
+"dir": -1
+},
+{
+"a": 541.27,
+"kind": "img",
+"src": "img/n26.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 549.39,
+"dir": -1
+},
+{
+"a": 549.39,
+"kind": "img",
+"src": "img/n27.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 553.07,
+"dir": -1
+},
+{
+"a": 553.07,
+"kind": "img",
+"src": "img/n28.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 556.81,
+"dir": -1
+},
+{
+"a": 556.81,
+"kind": "img",
+"src": "img/s67.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 565.35,
+"dir": -1
+},
+{
+"a": 565.35,
+"kind": "img",
+"src": "img/n30.jpg",
+"cam": "hold",
+"o": "50% 50%",
+"crop": null,
+"b": 574.84,
+"dir": -1
+},
+{
+"a": 574.84,
+"kind": "img",
+"src": "img/n32.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 583.36,
+"dir": -1
+},
+{
+"a": 583.36,
+"kind": "img",
+"src": "img/n33.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"crop": null,
+"b": 588.52,
+"dir": -1
+},
+{
+"a": 588.52,
+"kind": "img",
+"src": "img/n34.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 597.54,
+"dir": -1
+},
+{
+"a": 597.54,
+"kind": "img",
+"src": "img/s72.jpg",
+"cam": "push",
+"o": "50% 50%",
+"crop": null,
+"b": 604.48,
+"dir": -1
+}
+],
+"text": [],
+"subs": [
+103.26,
+467.63,
+574.84
+],
+"music": [
+{
+"src": "music_bed.mp3",
+"mood": "bed",
+"a": 0.04,
+"b": 79.74
+},
+{
+"src": "music_strike.mp3",
+"mood": "strike",
+"a": 553.07,
+"b": 597.54
+}
+],
+"drops": [
+[
+564.35,
+566.35
+]
+],
+"sfx": [
+{
+"at": 0.04,
+"src": "sfx_timbers.mp3",
+"note": "You are on"
+},
+{
+"at": 27.88,
+"src": "sfx_tap.mp3",
+"note": "So you tap"
+},
+{
+"at": 148.77,
+"src": "sfx_boil.mp3",
+"note": "and you carry"
+},
+{
+"at": 599.24,
+"src": "sfx_tap.mp3",
+"note": "You tap it"
+}
+],
+"extra": [
+79.81,
+82.92,
+86.02,
+89.12,
+92.54,
+133.92,
+136.47,
+139.02,
+141.57,
+144.37,
+153.81,
+158.65,
+163.49,
+168.33,
+173.65,
+254.34,
+256.55,
+258.76,
+260.97,
+263.41,
+337.88,
+342.79,
+347.7,
+352.61,
+358.01,
+447.98,
+452.35,
+456.72,
+461.08,
+465.88,
+506.43,
+508.8,
+511.17,
+513.54,
+516.14,
+106.26,
+470.63,
+577.84,
+603.48
+],
+"stillScale": 0.5
+}
