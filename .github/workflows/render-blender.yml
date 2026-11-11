@@ -1,0 +1,85 @@
+name: render-blender
+# Renders a code-built Blender scene (videos/<video>/scene.py) in parallel chunks on GitHub's machines,
+# then joins the frames, burns captions from captions.txt (start|end|text) and uploads one MP4.
+on:
+  workflow_dispatch:
+    inputs:
+      video: { description: "folder under videos/", required: true }
+      frames: { description: "last frame number", required: true, default: "270" }
+      chunks: { description: "parallel jobs", required: false, default: "6" }
+      res: { description: "width in px (9:16)", required: false, default: "720" }
+      samples: { description: "EEVEE samples", required: false, default: "16" }
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        run: |
+          python3 - <<'PY' >> $GITHUB_OUTPUT
+          import json, math
+          n, c = int("${{ inputs.frames }}"), int("${{ inputs.chunks }}")
+          size = math.ceil(n / c)
+          print("matrix=" + json.dumps({"chunk": [{"i": i, "start": i * size + 1, "end": min(n, (i + 1) * size)} for i in range(c) if i * size + 1 <= n]}))
+          PY
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        id: bl
+        with: { path: blender, key: blender-5.2.1-linux-x64 }
+      - if: steps.bl.outputs.cache-hit != 'true'
+        run: |
+          curl -sL https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o b.tar.xz
+          mkdir blender && tar -xf b.tar.xz -C blender --strip-components=1 && rm b.tar.xz
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq xvfb libegl1 libgl1 libglx-mesa0 libgl1-mesa-dri libxi6 libxkbcommon0 libsm6 libxrender1 libxfixes3 libxxf86vm1 fonts-dejavu-core
+      - name: Render frames ${{ matrix.chunk.start }}-${{ matrix.chunk.end }}
+        env: { LIBGL_ALWAYS_SOFTWARE: "1", GALLIUM_DRIVER: llvmpipe }
+        run: |
+          echo "cores: $(nproc)"
+          V=videos/${{ inputs.video }}
+          xvfb-run -a -s "-screen 0 1280x1024x24" blender/blender -b --gpu-backend opengl -P $V/scene.py -- \
+            --start ${{ matrix.chunk.start }} --end ${{ matrix.chunk.end }} --res ${{ inputs.res }} --samples ${{ inputs.samples }} \
+            --font /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf --out out 2>&1 | grep -E "ANIM|Error|error|Traceback|BLOOM|GPU|backend|Saved" | tail -40
+          ls out/frames | wc -l
+      - uses: actions/upload-artifact@v4
+        with:
+          name: frames-${{ matrix.chunk.i }}
+          path: out/frames
+          retention-days: 3
+          compression-level: 0
+  join:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: frames, pattern: frames-*, merge-multiple: true }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - run: |
+          V=videos/${{ inputs.video }}
+          ls frames | wc -l
+          F=""
+          if [ -f $V/captions.txt ]; then
+            i=0
+            while IFS='|' read -r a b t; do
+              printf '%s' "$t" > cap_$i.txt
+              F="$F,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=cap_$i.txt:fontsize=h/26:fontcolor=white:borderw=h/260:bordercolor=black:x=(w-text_w)/2:y=h*0.70:enable='between(t,$a,$b)'"
+              i=$((i+1))
+            done < $V/captions.txt
+          fi
+          ffmpeg -v error -y -framerate 30 -start_number 1 -i frames/f_%04d.jpg -vf "format=yuv420p$F" -c:v libx264 -preset slow -crf 17 -movflags +faststart out.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 out.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.video }}
+          path: out.mp4
+          retention-days: 7
+          compression-level: 0
