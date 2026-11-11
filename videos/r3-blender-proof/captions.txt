@@ -1,9 +1,0 @@
-0.2|0.9|Rome is
-0.9|1.6|burning.
-1.7|2.5|And Crassus
-2.5|3.4|is not here to help.
-3.6|4.5|He is here
-4.5|5.2|to buy your house.
-5.2|5.9|Cheap.
-6.1|7.2|Block by block,
-7.4|9.0|he bought Rome.

@@ -71,7 +71,7 @@ jobs:
             i=0
             while IFS='|' read -r a b t; do
               printf '%s' "$t" > cap_$i.txt
-              F="$F,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=cap_$i.txt:fontsize=h/26:fontcolor=white:borderw=h/260:bordercolor=black:x=(w-text_w)/2:y=h*0.70:enable='between(t,$a,$b)'"
+              F="$F,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile=cap_$i.txt:fontsize=h/26:fontcolor=white:borderw=5:bordercolor=black:x=(w-text_w)/2:y=h*0.70:enable='between(t,$a,$b)'"
               i=$((i+1))
             done < $V/captions.txt
           fi
