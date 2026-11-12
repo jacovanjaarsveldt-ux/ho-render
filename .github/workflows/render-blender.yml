@@ -9,6 +9,8 @@ on:
       chunks: { description: "parallel jobs", required: false, default: "6" }
       res: { description: "width in px (9:16)", required: false, default: "720" }
       samples: { description: "EEVEE samples", required: false, default: "16" }
+      first: { description: "first frame to render (re-render a range only)", required: false, default: "1" }
+      reuse_run: { description: "run id whose frames fill the frames not rendered here", required: false, default: "" }
 jobs:
   plan:
     runs-on: ubuntu-latest
@@ -19,9 +21,9 @@ jobs:
         run: |
           python3 - <<'PY' >> $GITHUB_OUTPUT
           import json, math
-          n, c = int("${{ inputs.frames }}"), int("${{ inputs.chunks }}")
-          size = math.ceil(n / c)
-          print("matrix=" + json.dumps({"chunk": [{"i": i, "start": i * size + 1, "end": min(n, (i + 1) * size)} for i in range(c) if i * size + 1 <= n]}))
+          a, n, c = int("${{ inputs.first }}"), int("${{ inputs.frames }}"), int("${{ inputs.chunks }}")
+          size = math.ceil((n - a + 1) / c)
+          print("matrix=" + json.dumps({"chunk": [{"i": i, "start": a + i * size, "end": min(n, a + (i + 1) * size - 1)} for i in range(c) if a + i * size <= n]}))
           PY
   render:
     needs: plan
@@ -58,8 +60,12 @@ jobs:
   join:
     needs: render
     runs-on: ubuntu-latest
+    permissions: { actions: read, contents: read }
     steps:
       - uses: actions/checkout@v4
+      - if: inputs.reuse_run != ''
+        uses: actions/download-artifact@v4
+        with: { path: frames, pattern: frames-*, merge-multiple: true, run-id: "${{ inputs.reuse_run }}", github-token: "${{ github.token }}" }
       - uses: actions/download-artifact@v4
         with: { path: frames, pattern: frames-*, merge-multiple: true }
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core

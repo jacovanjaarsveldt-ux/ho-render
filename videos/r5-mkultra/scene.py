@@ -438,13 +438,13 @@ def build_camera(ctx, sh):
 
 def flash_overlay(ctx, times):
     w, h, gd = ctx.ov_size
-    fm = emit_mat("flash", "#fff6e0", 6.0, alpha=0.0)
+    fm = emit_mat("flash", "#fff6e0", 1.0, alpha=0.0)
     o = plane("flash", w, h, fm, loc=(0, 0, -gd + 0.01), parent=ctx.camobj, plane="xy")
     mixn = [n for n in fm.node_tree.nodes if n.type == "MIX_SHADER"][0]
     skey(mixn.inputs[0], ctx.f0, 0.0)
     for t in times:
         f = F(t)
-        skey(mixn.inputs[0], f - 1, 0.0); skey(mixn.inputs[0], f, 0.55); skey(mixn.inputs[0], f + 2, 0.3); skey(mixn.inputs[0], f + 7, 0.0)
+        skey(mixn.inputs[0], f - 1, 0.0); skey(mixn.inputs[0], f, 0.16); skey(mixn.inputs[0], f + 2, 0.08); skey(mixn.inputs[0], f + 6, 0.0)
 
 
 # ---------------------------------------------------------------- plates
