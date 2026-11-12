@@ -1,0 +1,1028 @@
+"""History Outscaled 3D style test, STYLE B: smooth white ball heads with big dark eyes and real 3D hair,
+thin jointed dark limbs with visible joints and hands, soft daylight, soft shadows, clean simple sets.
+
+15-second MKUltra opening, five shots, 450 frames at 30 fps, 720x1280. Built entirely by code.
+Shot structure, timing and render arguments match style A so the three clips line up shot for shot.
+  blender -b -P scene.py -- --stills 30,120,200 --res 540
+  blender -b -P scene.py -- --start 1 --end 450 --res 720 --samples 16 --font F.ttf --out out
+"""
+import bpy, bmesh, math, random, sys, os
+from mathutils import Vector, Matrix, Quaternion
+
+argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
+
+
+def arg(name, default=None):
+    return argv[argv.index(name) + 1] if name in argv else default
+
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = arg("--out", os.path.join(HERE, "out"))
+RES = int(arg("--res", "720"))
+START, END = int(arg("--start", "1")), int(arg("--end", "450"))
+STILLS = arg("--stills")
+SAMPLES = int(arg("--samples", "16"))
+FONT = arg("--font", "/System/Library/Fonts/Supplemental/Arial Black.ttf")
+LAST = 450
+random.seed(7)
+
+bpy.ops.wm.read_factory_settings(use_empty=True)
+scene = bpy.context.scene
+COL = scene.collection
+
+
+# ---------------------------------------------------------------- helpers
+def lin(c):
+    return c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4
+
+
+def hx(h):
+    h = h.lstrip("#")
+    return tuple(lin(int(h[i:i + 2], 16) / 255) for i in (0, 2, 4))
+
+
+def M(name, hexcol, rough=0.6, emit=0.0, spec=0.4):
+    m = bpy.data.materials.get(name)
+    if m:
+        return m
+    m = bpy.data.materials.new(name)
+    b = m.node_tree.nodes["Principled BSDF"]
+    b.inputs["Base Color"].default_value = (*hx(hexcol), 1)
+    b.inputs["Roughness"].default_value = rough
+    b.inputs["Specular IOR Level"].default_value = spec
+    if emit:
+        b.inputs["Emission Color"].default_value = (*hx(hexcol), 1)
+        b.inputs["Emission Strength"].default_value = emit
+    return m
+
+
+def link(o, parent=None, loc=(0, 0, 0), rot=(0, 0, 0), scale=(1, 1, 1), mat=None):
+    COL.objects.link(o)
+    if parent:
+        o.parent = parent
+    o.location, o.rotation_euler, o.scale = loc, rot, scale
+    if o.type == "MESH" and mat:
+        o.data.materials.append(mat)
+    return o
+
+
+def from_bm(name, bm, smooth=True):
+    """Smooth shading with sharp edges above ~40 degrees: clean soft forms, flat faces stay flat."""
+    if smooth:
+        for f in bm.faces:
+            f.smooth = True
+        for e in bm.edges:
+            a = e.calc_face_angle(None)
+            e.smooth = a is not None and a < 0.7
+    me = bpy.data.meshes.new(name)
+    bm.to_mesh(me)
+    bm.free()
+    return bpy.data.objects.new(name, me)
+
+
+def empty(name, **kw):
+    return link(bpy.data.objects.new(name, None), **kw)
+
+
+def blk(name, size, taper=(1.0, 1.0), chamfer=0.0, seg=3, top=False, **kw):
+    """Rounded box (soft bevel). top=True puts the origin at the top centre."""
+    bm = bmesh.new()
+    bmesh.ops.create_cube(bm, size=1)
+    for v in bm.verts:
+        if v.co.z > 0:
+            v.co.x *= taper[0]; v.co.y *= taper[1]
+        v.co.x *= size[0]; v.co.y *= size[1]; v.co.z *= size[2]
+        if top:
+            v.co.z -= size[2] / 2
+    if chamfer > 0:
+        bmesh.ops.bevel(bm, geom=bm.edges[:], offset=chamfer, segments=seg, affect="EDGES", profile=0.5)
+    return link(from_bm(name, bm), **kw)
+
+
+def cyl(name, r, depth, seg=20, r2=None, top=False, **kw):
+    bm = bmesh.new()
+    bmesh.ops.create_cone(bm, cap_ends=True, cap_tris=False, segments=seg,
+                          radius1=r, radius2=r if r2 is None else r2, depth=depth)
+    if top:
+        for v in bm.verts:
+            v.co.z -= depth / 2
+    return link(from_bm(name, bm), **kw)
+
+
+def sph(name, r, seg=24, **kw):
+    bm = bmesh.new()
+    bmesh.ops.create_uvsphere(bm, u_segments=seg, v_segments=max(8, seg // 2), radius=r)
+    return link(from_bm(name, bm), **kw)
+
+
+def poly(name, pts, depth, **kw):
+    bm = bmesh.new()
+    vs = [bm.verts.new((x, y, 0)) for x, y in pts]
+    f = bm.faces.new(vs)
+    if f.normal.z < 0:
+        f.normal_flip()
+    ext = bmesh.ops.extrude_face_region(bm, geom=[f])
+    for v in ext["geom"]:
+        if isinstance(v, bmesh.types.BMVert):
+            v.co.z += depth
+    bmesh.ops.recalc_face_normals(bm, faces=bm.faces[:])
+    return link(from_bm(name, bm), **kw)
+
+
+def text(name, body, size, mat, extrude=0.02, **kw):
+    cu = bpy.data.curves.new(name, "FONT")
+    cu.body = body
+    cu.align_x, cu.align_y = "CENTER", "CENTER"
+    cu.size, cu.extrude = size, extrude
+    cu.bevel_depth = extrude * 0.3
+    if os.path.exists(FONT):
+        cu.font = bpy.data.fonts.load(FONT, check_existing=True)
+    cu.materials.append(mat)
+    return link(bpy.data.objects.new(name, cu), **kw)
+
+
+def key(o, path, frame, value=None):
+    if value is not None:
+        setattr(o, path, value)
+    o.keyframe_insert(path, frame=frame)
+
+
+def vis(o, f_on, f_off):
+    for ob in [o] + list(o.children_recursive):
+        key(ob, "hide_render", 1, f_on > 1)
+        if f_on > 1:
+            key(ob, "hide_render", f_on, False)
+        if f_off < LAST:
+            key(ob, "hide_render", f_off + 1, True)
+
+
+def ease(t):
+    t = max(0.0, min(1.0, t))
+    return t * t * (3 - 2 * t)
+
+
+def ease_out(t):
+    t = max(0.0, min(1.0, t))
+    return 1 - (1 - t) ** 3
+
+
+def lerp(a, b, t):
+    return a + (b - a) * t
+
+
+def vlerp(a, b, t):
+    return Vector(a).lerp(Vector(b), t)
+
+
+def pop(o, f, s=1.0, over=1.35):
+    key(o, "scale", f - 1, (0.001,) * 3)
+    key(o, "scale", f + 2, (s * over,) * 3)
+    key(o, "scale", f + 4, (s * 0.88,) * 3)
+    key(o, "scale", f + 6, (s,) * 3)
+
+
+def rot(o, f, x=0.0, y=0.0, z=0.0):
+    key(o, "rotation_euler", f, (x, y, z))
+
+
+# ---------------------------------------------------------------- character kit (style B)
+HEAD_R = 0.215
+HEADM = M("head_white", "#f3f1ec", rough=0.38, spec=0.5)
+LIMB = M("limb_dark", "#2d2c31", rough=0.42, spec=0.5)
+JOINT = M("joint_dark", "#232227", rough=0.35, spec=0.5)
+SHOE = M("shoe", "#16141a", rough=0.25, spec=0.6)
+SHIRT = M("shirt_white", "#f4f3ef", rough=0.7)
+FACE_MATS = {}
+
+
+def face_mat(expr):
+    if expr in FACE_MATS:
+        return FACE_MATS[expr]
+    m = bpy.data.materials.new("face_" + expr)
+    nt = m.node_tree
+    b = nt.nodes["Principled BSDF"]
+    tex = nt.nodes.new("ShaderNodeTexImage")
+    tex.image = bpy.data.images.load(os.path.join(HERE, "faces", expr + ".png"))
+    tex.extension = "CLIP"
+    nt.links.new(tex.outputs["Color"], b.inputs["Base Color"])
+    nt.links.new(tex.outputs["Alpha"], b.inputs["Alpha"])
+    b.inputs["Roughness"].default_value = 0.22
+    b.inputs["Specular IOR Level"].default_value = 0.6
+    FACE_MATS[expr] = m
+    return m
+
+
+def face_cap(name, expr, parent):
+    """Front spherical cap just above the head surface, UV = planar (x, z) projection."""
+    R = HEAD_R * 1.006
+    bm = bmesh.new()
+    bmesh.ops.create_uvsphere(bm, u_segments=48, v_segments=24, radius=R)
+    bmesh.ops.delete(bm, geom=[v for v in bm.verts if v.co.y > -R * 0.12], context="VERTS")
+    uv = bm.loops.layers.uv.new("UV")
+    for f in bm.faces:
+        for l in f.loops:
+            l[uv].uv = (l.vert.co.x / (2 * HEAD_R) + 0.5, l.vert.co.z / (2 * HEAD_R) + 0.5)
+    o = link(from_bm(name, bm), parent=parent, mat=face_mat(expr))
+    o.visible_shadow = False
+    return o
+
+
+def hairline(n):
+    """Lowest z (unit sphere) the hair may reach at this direction: high on the forehead, low at the back."""
+    f = max(0.0, -n.y)
+    return lerp(-0.42, 0.62, f ** 1.3)
+
+
+def hair(name, parent, style, mat):
+    """Real 3D hair: one mesh of tapered locks flowing out from a crown point, on a matching scalp cap."""
+    R = HEAD_R
+    rng = random.Random(hash(name) & 0xffff)
+    bm = bmesh.new()
+    # scalp cap
+    cap = bmesh.new()
+    bmesh.ops.create_uvsphere(cap, u_segments=32, v_segments=16, radius=R * 1.02)
+    if style == "bald":
+        kill = [v for v in cap.verts if not (v.co.normalized().z < 0.25 and v.co.normalized().y > -0.35
+                                             and v.co.normalized().z > -0.45)]
+    else:
+        kill = [v for v in cap.verts if v.co.normalized().z < hairline(v.co.normalized()) + 0.04]
+    bmesh.ops.delete(cap, geom=kill, context="VERTS")
+    me = bpy.data.meshes.new("tmp"); cap.to_mesh(me); cap.free(); bm.from_mesh(me); bpy.data.meshes.remove(me)
+    crown = {"messy": Vector((0, 0.35, 0.95)), "slick": Vector((0.25, -1.0, 0.25)),
+             "bald": Vector((0, 0.2, 1.0))}[style].normalized()
+    n_locks = {"messy": 46, "slick": 44, "bald": 30}[style]
+    made, tries = 0, 0
+    while made < n_locks and tries < 5000:
+        tries += 1
+        n = Vector((rng.uniform(-1, 1), rng.uniform(-1, 1), rng.uniform(-1, 1)))
+        if n.length < 0.05 or n.length > 1:
+            continue
+        n.normalize()
+        if style == "bald":
+            if not (-0.4 < n.z < 0.2 and n.y > -0.3 and abs(n.x) > 0.55):
+                continue
+        elif n.z < hairline(n) + 0.06 or (style == "slick" and n.y < -0.5 and n.z < 0.75) \
+                or (style == "messy" and n.y < -0.25 and n.z < 0.45):
+            continue
+        flow = (n - crown) - n * (n - crown).dot(n)
+        if flow.length < 1e-3:
+            flow = Vector((0, -1, 0)) - n * (-n.y)
+        flow.normalize()
+        front = max(0.0, -n.y)
+        if style == "messy":
+            lift, L, rb = rng.uniform(0.18, 0.4), rng.uniform(0.10, 0.14) * (1 - 0.3 * front), rng.uniform(0.06, 0.075)
+        elif style == "slick":
+            lift, L, rb = rng.uniform(0.0, 0.06), rng.uniform(0.16, 0.22), rng.uniform(0.08, 0.095)
+        else:
+            lift, L, rb = rng.uniform(0.15, 0.3), rng.uniform(0.06, 0.09), rng.uniform(0.03, 0.04)
+        d = (n * lift + flow * (1 - lift) + Vector((rng.uniform(-1, 1), rng.uniform(-1, 1), rng.uniform(-1, 1))) * 0.12)
+        d.normalize()
+        q = d.to_track_quat("Z", "Y")
+        q = q @ Quaternion((0, 0, 1), rng.uniform(0, 6.28))
+        flat = {"messy": 0.5, "slick": 0.32, "bald": 0.8}[style]
+        mtx = (Matrix.Translation(n * R * 0.93) @ q.to_matrix().to_4x4() @ Matrix.Translation((0, 0, L / 2))
+               @ Matrix.Diagonal((1.0, flat, 1.0, 1.0)))
+        bmesh.ops.create_cone(bm, cap_ends=True, cap_tris=False, segments=7, radius1=rb, radius2=0.004,
+                              depth=L, matrix=mtx)
+        made += 1
+    o = link(from_bm(name, bm), parent=parent, mat=mat)
+    for p in o.data.polygons:
+        p.use_smooth = True
+    return o
+
+
+def limb(name, parent, r, length, mat=LIMB):
+    """Thin dark tube hanging down from a pivot."""
+    return cyl(name, r, length, seg=14, r2=r * 0.92, top=True, parent=parent, mat=mat)
+
+
+def joint(name, parent, r, loc=(0, 0, 0)):
+    return sph(name, r, seg=16, parent=parent, loc=loc, mat=JOINT)
+
+
+def hand(name, parent, side):
+    hd = empty(name, parent=parent)
+    blk(name + "_palm", (0.075, 0.04, 0.075), chamfer=0.018, seg=2, parent=hd, loc=(0, 0, 0.0), mat=LIMB)
+    for i, x in enumerate((-0.027, -0.009, 0.009, 0.027)):
+        ln = (0.058, 0.066, 0.064, 0.052)[i]
+        cyl(name + "_fing", 0.0105, ln, seg=8, r2=0.009, top=True, parent=hd, loc=(x, -0.004, -0.032),
+            rot=(0.18, 0, 0), mat=LIMB)
+    cyl(name + "_thumb", 0.012, 0.05, seg=8, top=True, parent=hd, loc=(-side * 0.03, -0.02, -0.0),
+        rot=(0.6, side * 0.5, 0), mat=LIMB)
+    return hd
+
+
+def person(name, suit, hair_col, faces, loc=(0, 0, 0), rz=0.0, s=1.0, hair_style="messy", vest=None,
+           tie="#8e2b25", wide=1.0, shirt=None):
+    """Ball-head person facing -y. Same pivot layout as style A (pelvis, hips/knees, shoulders/elbows, neck)."""
+    root = empty(name, loc=loc, rot=(0, 0, rz), scale=(s, s, s))
+    pel = empty(name + "_pel", parent=root, loc=(0, 0, 0.80))
+    sm = M(name + "_suit", suit, rough=0.75)
+    torso = blk(name + "_torso", (0.38 * wide, 0.23, 0.58), taper=(1.18, 1.1), chamfer=0.075, seg=4,
+                parent=pel, loc=(0, 0, 0.29), mat=sm)
+    if shirt:
+        torso.data.materials[0] = M(name + "_shirt", shirt, rough=0.75)
+    # shirt V, tie, buttons; or a sweater vest panel over a shirt
+    blk(name + "_shirtv", (0.13, 0.03, 0.21), taper=(1.9, 1), chamfer=0.008, seg=2, parent=pel,
+        loc=(0, -0.112, 0.475), mat=SHIRT)
+    blk(name + "_tie", (0.045, 0.03, 0.25), taper=(0.62, 1), chamfer=0.01, seg=2, parent=pel,
+        loc=(0, -0.122, 0.45), mat=M("tie_" + tie, tie, rough=0.5))
+    sph(name + "_knot", 0.025, seg=10, parent=pel, loc=(0, -0.13, 0.565), scale=(1, 0.7, 0.8),
+        mat=M("tie_" + tie, tie))
+    if vest:
+        blk(name + "_vest", (0.37 * wide, 0.03, 0.32), chamfer=0.02, seg=2, parent=pel, loc=(0, -0.107, 0.20),
+            mat=M(name + "_vest", vest, rough=0.85))
+    else:
+        for z in (0.24, 0.12):
+            sph(name + "_btn", 0.016, seg=8, parent=pel, loc=(0.0, -0.118, z), mat=JOINT)
+        for sx in (1, -1):  # lapels
+            blk(name + "_lapel", (0.06, 0.02, 0.2), chamfer=0.008, seg=2, parent=pel,
+                loc=(sx * 0.075, -0.115, 0.44), rot=(0, sx * 0.38, 0), mat=M(name + "_lapel", suit, rough=0.55))
+    cyl(name + "_collar", 0.055, 0.05, seg=16, parent=pel, loc=(0, -0.01, 0.6), mat=SHIRT)
+    # legs: thin dark tubes, ball joints, rounded shoes
+    legs_d = {}
+    for side, sx in (("L", 1), ("R", -1)):
+        hip = empty(name + "_hip" + side, parent=pel, loc=(sx * 0.10 * wide, 0, 0))
+        joint(name + "_hipj" + side, hip, 0.062)
+        limb(name + "_thigh" + side, hip, 0.042, 0.35)
+        knee = empty(name + "_knee" + side, parent=hip, loc=(0, 0, -0.38))
+        joint(name + "_kneej" + side, knee, 0.056)
+        limb(name + "_shin" + side, knee, 0.037, 0.33)
+        joint(name + "_ankle" + side, knee, 0.042, loc=(0, 0, -0.335))
+        sph(name + "_shoe" + side, 0.075, seg=18, parent=knee, loc=(0, -0.055, -0.385), scale=(0.85, 1.55, 0.62),
+            mat=SHOE)
+        legs_d[side] = (hip, knee)
+    # arms: jacket sleeve cap over the shoulder ball, then thin dark tubes and jointed hands
+    arms = {}
+    for side, sx in (("L", 1), ("R", -1)):
+        sh = empty(name + "_sh" + side, parent=pel, loc=(sx * (0.215 * wide + 0.03), 0, 0.53))
+        sph(name + "_shcap" + side, 0.056, seg=16, parent=sh, loc=(0, 0, 0.0), scale=(1, 1, 1.15),
+            mat=torso.data.materials[0])
+        cyl(name + "_sleeve" + side, 0.05, 0.09, seg=16, r2=0.052, top=True, parent=sh, loc=(0, 0, -0.02),
+            mat=torso.data.materials[0])
+        limb(name + "_ua" + side, sh, 0.033, 0.30)
+        el = empty(name + "_el" + side, parent=sh, loc=(0, 0, -0.31))
+        joint(name + "_elj" + side, el, 0.048)
+        limb(name + "_fa" + side, el, 0.03, 0.26)
+        joint(name + "_wr" + side, el, 0.036, loc=(0, 0, -0.27))
+        hd = hand(name + "_hand" + side, el, sx)
+        hd.location = (0, 0, -0.32)
+        sh.rotation_euler = (0, sx * 0.08, 0)
+        arms[side] = (sh, el, hd)
+    neck = empty(name + "_neck", parent=pel, loc=(0, 0, 0.60))
+    cyl(name + "_neckm", 0.038, 0.16, seg=14, parent=neck, loc=(0, 0, 0.05), mat=HEADM)
+    head = empty(name + "_head", parent=neck, loc=(0, 0, 0.25))
+    sph(name + "_headm", HEAD_R, seg=40, parent=head, mat=HEADM)
+    hair(name + "_hair", head, hair_style, M(name + "_hairm", hair_col, rough=0.62, spec=0.25))
+    fp = {}
+    for i, f in enumerate(faces):
+        o = face_cap(name + "_face_" + f, f, head)
+        o.hide_render = i != 0
+        fp[f] = o
+    return dict(root=root, pel=pel, torso=torso, neck=neck, head=head, faces=fp, arms=arms, legs=legs_d,
+                base=Vector(loc), rz=rz)
+
+
+def show_face(ch, expr, frame):
+    for f, o in ch["faces"].items():
+        key(o, "hide_render", frame - 1)
+        key(o, "hide_render", frame, f != expr)
+
+
+def seat(ch):
+    for side in ("L", "R"):
+        hip, knee = ch["legs"][side]
+        hip.rotation_euler = (-math.pi / 2, 0, 0)
+        knee.rotation_euler = (math.pi / 2, 0, 0)
+
+
+def breathe(ch, f0, f1, amp=0.012, per=40):
+    for f in range(f0, f1 + 1, 4):
+        key(ch["pel"], "location", f, (0, 0, 0.80 + amp * math.sin(f / per * 2 * math.pi)))
+
+
+# ---------------------------------------------------------------- soft daylight
+world = bpy.data.worlds.new("sky")
+scene.world = world
+bg = world.node_tree.nodes["Background"]
+bg.inputs["Color"].default_value = (*hx("#e6edf2"), 1)
+bg.inputs["Strength"].default_value = float(os.environ.get("WORLD", "0.55"))
+
+sun = bpy.data.lights.new("sun", "SUN")
+sun.energy, sun.color, sun.angle = float(os.environ.get("SUNE", "4.2")), hx("#fff3e2"), math.radians(14)
+link(bpy.data.objects.new("sun", sun), rot=(math.radians(50), 0, math.radians(-28)))
+
+
+def fill_light(loc, energy, col="#f4f1ea", size=4):
+    l = bpy.data.lights.new("fill", "AREA")
+    l.energy, l.color, l.size = energy, hx(col), size
+    o = link(bpy.data.objects.new("fill", l), loc=loc)
+    return o, l
+
+
+# ---------------------------------------------------------------- sets: clean 1950s government office
+FLOOR = M("floor_lino", "#b7ab97", rough=0.55)
+FLOOR_L = M("floor_line", "#a49680", rough=0.55)
+WALL = M("wall_sage", "#d7dccb", rough=0.9, spec=0.2)
+PANEL = M("panel_green", "#7f9886", rough=0.6)
+TRIM = M("trim", "#5f7566", rough=0.5)
+CAB = M("cabinet", "#9aa59a", rough=0.4)
+CAB_D = M("cabinet_d", "#8a958a", rough=0.4)
+DESK = M("desk", "#a8764b", rough=0.45)
+DESK_D = M("desk_d", "#8e6140", rough=0.5)
+PAPER = M("paper", "#f7f4ec", rough=0.8)
+MANILA = M("manila", "#e6c98c", rough=0.75)
+BRASS = M("chrome", "#c9ccd0", rough=0.2, spec=0.8)
+RED = M("stamp_red", "#c8322a", rough=0.6)
+
+
+def room(ox, oy, w=6.0, back=1.7, h=3.4, sides=True):
+    blk("floor", (w + 4, 8, 0.1), loc=(ox, oy - 2, -0.05), mat=FLOOR)
+    for i in range(12):
+        blk("floor_seam", (0.012, 8, 0.003), loc=(ox - 5 + i * 0.9, oy - 2, 0.001), mat=FLOOR_L)
+    for j in range(9):
+        blk("floor_seam", (w + 4, 0.012, 0.003), loc=(ox, oy + 1.7 - j * 0.9, 0.001), mat=FLOOR_L)
+    blk("wall", (w + 4, 0.2, h), loc=(ox, oy + back, h / 2), mat=WALL)
+    blk("wainscot", (w + 4, 0.06, 0.95), chamfer=0.01, seg=2, loc=(ox, oy + back - 0.12, 0.475), mat=PANEL)
+    blk("rail", (w + 4, 0.08, 0.05), chamfer=0.015, seg=2, loc=(ox, oy + back - 0.14, 0.97), mat=TRIM)
+    blk("skirting", (w + 4, 0.08, 0.1), loc=(ox, oy + back - 0.15, 0.05), mat=TRIM)
+    if sides:
+        for sx in (-1, 1):
+            blk("side_wall", (0.2, 5, h), loc=(ox + sx * (w / 2 + 0.6), oy + back - 2.5, h / 2), mat=WALL)
+
+
+def cabinet(x, y, ry=0.0):
+    c = blk("cab", (0.55, 0.6, 1.35), chamfer=0.035, loc=(x, y, 0.675), rot=(0, 0, ry), mat=CAB)
+    for i in range(4):
+        blk("drawer", (0.47, 0.03, 0.27), chamfer=0.012, parent=c, loc=(0, -0.305, -0.48 + i * 0.32), mat=CAB_D)
+        blk("handle", (0.14, 0.035, 0.03), chamfer=0.01, seg=2, parent=c, loc=(0, -0.33, -0.42 + i * 0.32), mat=BRASS)
+        blk("label", (0.09, 0.01, 0.05), parent=c, loc=(0, -0.322, -0.36 + i * 0.32), mat=PAPER)
+    return c
+
+
+def desk(x, y, w=1.5, d=0.75, h=0.76):
+    top = blk("desk_top", (w, d, 0.05), chamfer=0.018, loc=(x, y, h - 0.025), mat=DESK)
+    for sx in (-1, 1):
+        blk("desk_ped", (0.42, d - 0.08, h - 0.05), chamfer=0.02, loc=(x + sx * (w / 2 - 0.24), y, (h - 0.05) / 2),
+            mat=DESK_D)
+        for i in range(3):
+            dr = blk("desk_drw", (0.36, 0.02, 0.18), chamfer=0.008, seg=2,
+                     loc=(x + sx * (w / 2 - 0.24), y - d / 2 + 0.035, 0.14 + i * 0.22), mat=DESK)
+            blk("desk_knob", (0.06, 0.03, 0.02), parent=dr, loc=(0, -0.02, 0.0), mat=BRASS)
+    blk("desk_front", (w - 0.9, 0.04, 0.38), chamfer=0.01, seg=2, loc=(x, y - d / 2 + 0.07, h - 0.24), mat=DESK_D)
+    return top
+
+
+def seal(x, y, z, r=0.42):
+    """Plain eagle seal: disc + a soft eagle silhouette, no text."""
+    d = cyl("seal", r, 0.05, seg=40, loc=(x, y, z), rot=(math.pi / 2, 0, 0), mat=BRASS)
+    cyl("seal_in", r * 0.86, 0.06, seg=40, parent=d, mat=M("seal_blue", "#3e5170", rough=0.5))
+    E = M("eagle", "#f0e6cc", rough=0.5)
+    e = empty("eagle", loc=(x, y - 0.05, z))
+    blk("eagle_body", (0.11, 0.03, 0.26), taper=(0.7, 1), chamfer=0.012, seg=2, parent=e, loc=(0, 0, -0.02), mat=E)
+    sph("eagle_head", 0.045, seg=12, parent=e, loc=(0, 0, 0.15), scale=(1, 0.5, 1), mat=E)
+    for sx in (1, -1):
+        blk("eagle_wing", (0.2, 0.03, 0.08), chamfer=0.012, seg=2, parent=e, loc=(sx * 0.14, 0, 0.06),
+            rot=(0, -sx * 0.45, 0), mat=E)
+        blk("eagle_wing2", (0.14, 0.03, 0.055), chamfer=0.012, seg=2, parent=e, loc=(sx * 0.22, 0, -0.04),
+            rot=(0, -sx * 0.9, 0), mat=E)
+    blk("eagle_tail", (0.12, 0.03, 0.07), taper=(1.6, 1), chamfer=0.01, seg=2, parent=e, loc=(0, 0, -0.17), mat=E)
+    return d, e
+
+
+def calendar(x, y, z, year):
+    c = blk("cal", (0.42, 0.03, 0.52), chamfer=0.008, seg=2, loc=(x, y, z), mat=PAPER)
+    blk("cal_top", (0.42, 0.035, 0.12), chamfer=0.008, seg=2, parent=c, loc=(0, -0.002, 0.2), mat=RED)
+    text("cal_year", year, 0.11, M("ink", "#2a2a30"), extrude=0.005, parent=c, loc=(0, -0.02, 0.05),
+         rot=(math.pi / 2, 0, 0))
+    for r_ in range(3):
+        for k in range(5):
+            blk("cal_day", (0.05, 0.005, 0.04), parent=c, loc=(-0.14 + k * 0.07, -0.02, -0.08 - r_ * 0.06),
+                mat=M("cal_grid", "#c4c8cc"))
+    return c
+
+
+def window(x, y, z, w=1.0, h=1.3):
+    f = blk("win_frame", (w + 0.12, 0.1, h + 0.12), chamfer=0.02, seg=2, loc=(x, y, z), mat=M("win_white", "#eeeeea"))
+    blk("win_glass", (w, 0.12, h), parent=f, mat=M("sky_glass", "#d8ecf6", emit=1.4))
+    for i in range(9):
+        blk("blind", (w, 0.13, 0.05), parent=f, loc=(0, -0.01, -h / 2 + 0.1 + i * 0.14), rot=(0.5, 0, 0),
+            mat=M("blind", "#f2efe6"))
+    return f
+
+
+def books(x, y, z, n=5, rz=0.0):
+    out = []
+    cols = ["#8e2b25", "#3f6a6a", "#d7a446", "#44506e", "#7a5a3a"]
+    for i in range(n):
+        out.append(blk("book", (0.22, 0.16, 0.045), chamfer=0.008, seg=2, loc=(x, y, z + 0.025 + i * 0.047),
+                       rot=(0, 0, rz + random.uniform(-0.15, 0.15)), mat=M("book%d" % (i % 5), cols[i % 5])))
+    return out
+
+
+# ================================================================ SHOT 1 + 2: CIA office, 1953
+room(0, 0)
+cabinet(-1.6, 1.25); cabinet(-1.0, 1.25)
+cabinet(1.75, 1.25)
+SEAL = seal(0.25, 1.58, 2.25)
+calendar(-1.3, 1.58, 2.15, "1953")
+window(1.35, 1.58, 2.0)
+DESK_TOP = desk(-0.15, 0.2)
+shelf = blk("shelf", (1.6, 0.35, 0.05), chamfer=0.012, seg=2, loc=(-0.35, 1.45, 1.55), mat=DESK)
+floaters = []
+floaters += books(-0.95, 1.45, 1.58, n=4, rz=0.1)
+floaters += books(-0.5, 1.45, 1.58, n=3, rz=-0.2)
+glob = empty("globe", loc=(0.05, 1.45, 1.58))
+sph("globe_ball", 0.12, seg=24, parent=glob, loc=(0, 0, 0.17), mat=M("globe", "#6f9aa8", rough=0.35))
+cyl("globe_stand", 0.06, 0.04, seg=16, parent=glob, loc=(0, 0, 0.02), mat=BRASS)
+floaters.append(glob)
+for i in range(3):
+    floaters.append(blk("binder", (0.08, 0.26, 0.32), chamfer=0.012, seg=2, loc=(0.35 + i * 0.1, 1.45, 1.74),
+                        mat=M("binder%d" % i, ["#44506e", "#8e2b25", "#d7a446"][i])))
+for i in range(2):
+    floaters.append(blk("drawer_file", (0.3, 0.22, 0.03), chamfer=0.006, seg=2, loc=(-1.6 + i * 0.6, 1.2, 1.40),
+                        mat=MANILA))
+lamp = empty("lamp", loc=(-0.72, 0.38, 0.76))
+cyl("lamp_base", 0.09, 0.03, seg=20, parent=lamp, loc=(0, 0, 0.015), mat=BRASS)
+cyl("lamp_arm", 0.012, 0.4, seg=8, parent=lamp, loc=(0, 0, 0.2), mat=BRASS)
+cyl("lamp_shade", 0.05, 0.14, seg=20, r2=0.11, parent=lamp, loc=(0, -0.05, 0.42), rot=(0.9, 0, 0),
+    mat=M("lamp_shade", "#3f6a5a", rough=0.35))
+papers = []
+for i in range(3):
+    papers.append(blk("paper", (0.24, 0.32, 0.006), loc=(-0.55 + i * 0.05, 0.05 + i * 0.02, 0.763 + i * 0.006),
+                      rot=(0, 0, 0.3 + i * 0.12), mat=PAPER))
+phone = blk("phone", (0.18, 0.2, 0.08), chamfer=0.03, loc=(0.4, 0.42, 0.80), mat=M("bakelite", "#1e1c20", rough=0.2))
+blk("phone_rx", (0.24, 0.06, 0.05), chamfer=0.02, parent=phone, loc=(0, 0, 0.07), mat=M("bakelite", "#1e1c20"))
+floaters += [lamp, phone]
+
+CUPM = M("cup", "#f4f1ea", rough=0.25, spec=0.6)
+COFFEE = M("coffee", "#4a2a17", rough=0.15)
+CUP_POS = Vector((0.33, 0.04, 0.76))
+cup1 = empty("cup1", loc=CUP_POS, scale=(1.35, 1.35, 1.35))
+cyl("saucer", 0.09, 0.012, seg=24, parent=cup1, loc=(0, 0, 0.006), mat=CUPM)
+cyl("cup_body", 0.045, 0.09, seg=24, r2=0.058, parent=cup1, loc=(0, 0, 0.057), mat=CUPM)
+cyl("cup_coffee", 0.054, 0.004, seg=24, parent=cup1, loc=(0, 0, 0.098), mat=COFFEE)
+cyl("cup_handle", 0.022, 0.012, seg=12, parent=cup1, loc=(0.066, 0, 0.06), rot=(math.pi / 2, 0, 0), mat=CUPM)
+vis(cup1, 1, 90)
+
+chair = empty("chair", loc=(-0.25, 0.8, 0))
+blk("chair_seat", (0.5, 0.48, 0.07), chamfer=0.025, parent=chair, loc=(0, 0, 0.45), mat=M("leather", "#6b3a2a", rough=0.4))
+blk("chair_back", (0.5, 0.08, 0.6), chamfer=0.03, parent=chair, loc=(0, 0.22, 0.8), mat=M("leather", "#6b3a2a"))
+cyl("chair_post", 0.03, 0.4, seg=10, parent=chair, loc=(0, 0, 0.22), mat=BRASS)
+
+# colleague (scientist): pale-blue shirt, mustard sweater vest, messy hair; looks away at papers
+col = person("colleague", "#cfdcea", "#3a2a22", ("reading", "sip", "wide", "spiral"),
+             loc=(-0.25, 0.68, -0.28), vest="#d4a24a", hair_style="messy", tie="#44506e")
+seat(col)
+# agent: grey-blue 1950s suit, slicked hair
+AGENT_SUIT, AGENT_HAIR = "#56637a", "#2a211c"
+agent = person("agent", AGENT_SUIT, AGENT_HAIR, ("sly",), loc=(0.95, 0.52, 0), rz=-0.55, hair_style="slick")
+vis(agent["root"], 1, 90)
+
+cn = col["neck"]
+rot(cn, 1, 0.32, 0, -0.75); rot(cn, 90, 0.38, 0, -0.85)
+cs_l, ce_l, ch_l = col["arms"]["L"]
+cs_r, ce_r, ch_r = col["arms"]["R"]
+rot(cs_r, 1, -0.55, 0.25, 0); rot(ce_r, 1, -0.9, 0, 0)
+for f in range(1, 91, 10):
+    rot(cs_l, f, -0.55, -0.15 + 0.08 * math.sin(f * 0.3), 0)
+    rot(ce_l, f, -1.0 + 0.12 * math.sin(f * 0.3), 0, 0)
+breathe(col, 1, 90)
+breathe(agent, 1, 90)
+a_s, a_e, a_h = agent["arms"]["R"]
+rot(a_s, 1, -0.35, -0.05, 0); rot(a_e, 1, -0.3, 0, 0)
+AX, AY, AE = [float(v) for v in os.environ.get("APOSE", "-0.68 -0.28 -0.85").split()]
+rot(a_s, 16, AX, AY, 0); rot(a_e, 16, AE, 0, 0)
+for f in range(20, 91, 6):
+    rot(a_s, f, AX + 0.03 * math.sin(f * 0.7), AY, 0)
+    rot(a_e, f, AE + 0.05 * math.sin(f * 0.9), 0, 0)
+la_s, la_e, la_h = agent["arms"]["L"]
+rot(la_s, 1, 0.1, 0.12, 0); rot(la_e, 1, -0.2, 0, 0)
+rot(agent["neck"], 1, 0.25, 0, 0.15); rot(agent["neck"], 40, 0.28, 0, 0.0); rot(agent["neck"], 70, 0.25, 0, 0.35)
+rot(agent["neck"], 90, 0.25, 0, 0.35)
+dropper = empty("dropper", parent=a_h)
+GLASS = M("glass", "#d8ecef", rough=0.1)
+bulb = sph("bulb", 0.042, seg=14, parent=dropper, loc=(0, 0, 0.0), scale=(1, 1, 1.3), mat=M("rubber", "#b8322a", rough=0.4))
+cyl("pipette", 0.016, 0.22, seg=10, r2=0.008, parent=dropper, loc=(0, 0, -0.15), mat=GLASS)
+tip = empty("dropper_tip", parent=dropper, loc=(0, 0, -0.27))
+for f in range(20, 91, 7):
+    key(bulb, "scale", f, (1, 1, 1.3)); key(bulb, "scale", f + 2, (1.25, 1.25, 0.95)); key(bulb, "scale", f + 4, (1, 1, 1.3))
+
+# ================================================================ SHOT 3: corridor (x = 100)
+CX = 100.0
+cor_w = 2.6
+blk("cor_floor", (cor_w + 0.4, 60, 0.1), loc=(CX, -15, -0.05), mat=M("cor_floor", "#cfc5b2", rough=0.35))
+for i in range(60):
+    for k in range(3):
+        if (i + k) % 2 == 0:
+            blk("tile", (cor_w / 3, 1.0, 0.004), loc=(CX - cor_w / 3 + k * cor_w / 3, -45 + i, 0.002),
+                mat=M("tile_d", "#8f9f92", rough=0.35))
+CEIL = blk("cor_ceil", (cor_w + 0.4, 60, 0.1), loc=(CX, -15, 3.0), mat=M("ceil", "#f2f0ea"))
+CEIL.visible_shadow = False
+for sx in (-1, 1):
+    w_ = blk("cor_wall", (0.2, 60, 3.1), loc=(CX + sx * (cor_w / 2 + 0.1), -15, 1.55), mat=WALL)
+    w_.visible_shadow = False
+    blk("cor_wains", (0.06, 60, 0.95), loc=(CX + sx * (cor_w / 2 - 0.02), -15, 0.475), mat=PANEL)
+    blk("cor_rail", (0.08, 60, 0.05), loc=(CX + sx * (cor_w / 2 - 0.04), -15, 0.97), mat=TRIM)
+    for j in range(16):
+        y = -40 + j * 3.2 + (1.6 if sx > 0 else 0)
+        d = blk("door", (0.08, 1.0, 2.15), chamfer=0.012, seg=2, loc=(CX + sx * (cor_w / 2 - 0.04), y, 1.075), mat=DESK)
+        blk("door_glass", (0.1, 0.6, 0.6), parent=d, loc=(0, 0, 0.55), mat=M("frost", "#eef3f2", emit=0.5))
+        sph("door_knob", 0.04, seg=12, parent=d, loc=(-sx * 0.06, 0.35, -0.05), mat=BRASS)
+        blk("door_frame", (0.06, 1.16, 2.25), loc=(CX + sx * (cor_w / 2 - 0.01), y, 1.125), mat=TRIM)
+        blk("plate", (0.1, 0.22, 0.08), loc=(CX + sx * (cor_w / 2 - 0.05), y - 0.75, 1.55), mat=BRASS)
+for j in range(30):
+    blk("ceil_light", (0.9, 0.5, 0.06), chamfer=0.01, seg=2, loc=(CX, -40 + j * 2.0, 2.96),
+        mat=M("light_panel", "#fffaf0", emit=2.6))
+blk("cor_end", (cor_w + 0.4, 0.2, 3.1), loc=(CX, 14, 1.55), mat=WALL)
+window(CX, 13.85, 1.7, 1.2, 1.5)
+for k in range(4):
+    l = bpy.data.lights.new("cor_l", "POINT")
+    l.energy, l.color, l.shadow_soft_size = 170, hx("#fff4e4"), 0.9
+    link(bpy.data.objects.new("cor_l", l), loc=(CX, 10 - k * 3.2, 2.6))
+
+walker = person("walker", AGENT_SUIT, AGENT_HAIR, ("stern",), loc=(CX, 8.0, 0), hair_style="slick")
+w_s, w_e, w_h = walker["arms"]["R"]
+folder = empty("folder", parent=w_h, loc=(-0.02, -0.03, -0.12))
+blk("folder_m", (0.40, 0.025, 0.31), chamfer=0.006, seg=2, parent=folder, mat=MANILA)
+blk("folder_tab", (0.10, 0.026, 0.04), chamfer=0.005, seg=2, parent=folder, loc=(0.08, 0, 0.165), mat=MANILA)
+stamp = empty("stamp", parent=folder, loc=(0, -0.016, 0), scale=(1.5, 1.5, 1.5))
+for (sx_, sz, x, z) in ((0.22, 0.02, 0, 0.065), (0.22, 0.02, 0, -0.065), (0.02, 0.15, -0.1, 0), (0.02, 0.15, 0.1, 0)):
+    blk("stamp_frame", (sx_, 0.005, sz), parent=stamp, loc=(x, 0, z), mat=RED)
+blk("stamp_bar1", (0.16, 0.005, 0.035), parent=stamp, loc=(0, 0, 0.02), mat=RED)
+blk("stamp_bar2", (0.12, 0.005, 0.025), parent=stamp, loc=(0, 0, -0.03), mat=RED)
+stamp.rotation_euler = (0, -0.12, 0)
+
+W_F0, W_F1 = 181, 285
+PERIOD, SPEED = 22, 0.058
+for f in range(W_F0 - 2, W_F1 + 3):
+    t = f - W_F0
+    ph = 2 * math.pi * t / PERIOD
+    key(walker["root"], "location", f, (CX, 8.0 - SPEED * t, 0))
+    key(walker["pel"], "location", f, (0, 0, 0.80 + 0.04 * math.cos(2 * ph) - 0.012))
+    rot(walker["pel"], f, 0, 0.035 * math.sin(ph), 0.10 * math.sin(ph))
+    for side, sg in (("L", 1), ("R", -1)):
+        hip, knee = walker["legs"][side]
+        s = math.sin(ph) * sg
+        rot(hip, f, -0.5 * s, 0, 0)
+        rot(knee, f, 0.12 + 0.9 * max(0.0, sg * math.cos(ph)) ** 1.3, 0, 0)
+    for side, sg in (("L", 1), ("R", -1)):
+        sh, el, hd = walker["arms"][side]
+        s = math.sin(ph) * sg
+        amp = 0.5 if side == "L" else 0.3
+        rot(sh, f, 0.55 * s * (amp / 0.5), sg * 0.10, 0)
+        rot(el, f, -0.3 - 0.25 * max(0, -s), 0, 0)
+    rot(walker["neck"], f, 0.05, 0, -0.09 * math.sin(ph))
+    rot(folder, f, -0.12 * math.sin(ph + 0.6), 0, 0)
+
+# ================================================================ SHOT 4: map table (x = 200)
+MX = 200.0
+blk("table", (12, 18, 0.2), loc=(MX, 0, -0.1), mat=DESK)
+for i in range(13):
+    blk("table_plank", (0.015, 18, 0.004), loc=(MX - 6 + i, 0, 0.001), mat=DESK_D)
+blk("map_sheet", (8.6, 7.6, 0.02), chamfer=0.006, seg=2, loc=(MX, 0.2, 0.01), mat=M("sea", "#86b0c6", rough=0.7))
+blk("map_border", (8.9, 7.9, 0.012), loc=(MX, 0.2, 0.004), mat=M("map_border", "#f4efe2"))
+NA = [(-165, 65), (-161, 70), (-150, 71), (-140, 70), (-128, 70), (-115, 69), (-105, 68), (-95, 69), (-88, 68),
+      (-82, 70), (-75, 68), (-68, 63), (-62, 58), (-58, 53), (-56, 50), (-61, 46), (-65, 44), (-70, 42),
+      (-74, 40), (-76, 37), (-76, 34), (-81, 31), (-80, 27), (-80.5, 25), (-82, 26), (-83, 29), (-86, 30),
+      (-90, 29.5), (-94, 29.5), (-97, 27), (-97.5, 22), (-96, 19), (-92, 18.5), (-90.5, 21), (-87, 21.5),
+      (-88, 16), (-84, 15), (-83.5, 11), (-80, 8.5), (-78, 8), (-80, 7.4), (-85.5, 10), (-88, 13), (-92, 14.5),
+      (-96, 15.7), (-101, 17.5), (-105.5, 20), (-106, 23), (-109, 26), (-112, 29), (-113.5, 31), (-117, 32.5),
+      (-120, 34.5), (-123.5, 38), (-124.2, 42), (-124, 46.5), (-125, 49), (-128, 51), (-131, 54.5),
+      (-135, 57.5), (-140, 59.8), (-147, 60.5), (-152, 59), (-158, 57), (-163, 55), (-160, 58.5), (-164, 60),
+      (-166, 62.5)]
+HUDSON = [(-94.5, 59), (-92, 57), (-87, 55.5), (-82, 54.5), (-79, 56), (-78, 59), (-78, 62.5), (-82, 64),
+          (-87, 64), (-92, 62.5)]
+K = 0.072
+
+
+def proj(lon, lat):
+    return (MX + (lon + 105) * K * 0.78, 0.2 + (lat - 42) * K)
+
+
+poly("land", [proj(*p) for p in NA], 0.06, loc=(0, 0, 0.02), mat=M("land", "#e9cf98", rough=0.8))
+poly("hudson", [proj(*p) for p in HUDSON], 0.065, loc=(0, 0, 0.025), mat=M("sea", "#a7c7d6"))
+
+
+def inside(pt, poly_):
+    x, y = pt
+    c = False
+    for i in range(len(poly_)):
+        x1, y1 = poly_[i]; x2, y2 = poly_[i - 1]
+        if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
+            c = not c
+    return c
+
+
+pins_ll = []
+random.seed(21)
+tries = 0
+while len(pins_ll) < 80:
+    tries += 1
+    gap = 6.8 if tries < 20000 else 3.0
+    if len(pins_ll) < 70:
+        lo, la_ = random.uniform(-122, -71), random.uniform(29, 48)
+    else:
+        lo, la_ = random.uniform(-123, -64), random.uniform(43, 53)
+    if inside((lo, la_), NA) and all((lo - a) ** 2 + (la_ - b) ** 2 > gap for a, b in pins_ll):
+        pins_ll.append((lo, la_))
+pins_ll.sort(key=lambda p: -p[0] + random.uniform(-6, 6))
+PIN_HEAD = M("pin_head", "#d23a2e", rough=0.25, spec=0.7)
+P_F0, P_F1 = 293, 352
+pop_frames = []
+for i, (lo, la_) in enumerate(pins_ll):
+    x, y = proj(lo, la_)
+    p = empty("pin", loc=(x, y, 0.08))
+    cyl("pin_post", 0.012, 0.16, seg=8, parent=p, loc=(0, 0, 0.07), mat=BRASS)
+    sph("pin_head", 0.07, seg=14, parent=p, loc=(0, 0, 0.19), mat=PIN_HEAD)
+    f = int(round(P_F0 + (P_F1 - P_F0) * i / 79))
+    pop(p, f, 1.0, 1.6)
+    pop_frames.append(f + 1)
+plaque = blk("plaque", (2.2, 1.5, 0.16), chamfer=0.06, loc=(MX, 4.2, 0.08), mat=M("plaque", "#2f4a44", rough=0.4))
+blk("plaque_rim", (2.35, 1.65, 0.1), chamfer=0.04, loc=(MX, 4.2, 0.05), mat=BRASS)
+DIG = M("digit", "#fff8e8", emit=0.5)
+digits = {}
+for place, dx in (("t", -0.42), ("o", 0.42)):
+    for n in range(10):
+        digits[(place, n)] = text("d%s%d" % (place, n), str(n), 1.25, DIG, extrude=0.03, loc=(MX + dx, 4.2, 0.17))
+count_at = {f: sum(1 for pf in pop_frames if pf <= f) for f in range(286, LAST + 1)}
+for (place, n), o in digits.items():
+    key(o, "hide_render", 1, True)
+    prev = None
+    for f in range(286, 376):
+        c = count_at[f]
+        on = (c >= 10 and c // 10 == n) if place == "t" else (c % 10 == n)
+        if on != prev:
+            key(o, "hide_render", f, not on)
+            prev = on
+    key(o, "hide_render", 376, True)
+key(plaque, "scale", 352, (1, 1, 1)); key(plaque, "scale", 355, (1.15, 1.15, 1.3)); key(plaque, "scale", 359, (1, 1, 1))
+for (place, n), o in digits.items():
+    key(o, "scale", 352, (1, 1, 1)); key(o, "scale", 355, (1.25, 1.25, 1.25)); key(o, "scale", 359, (1, 1, 1))
+fill_light((MX, 0, 9), 500, size=12)
+
+# ================================================================ SHOT 5: the shredder, 1973 (x = 300)
+SX = 300.0
+room(SX, 0)
+cabinet(SX - 1.7, 1.25); cabinet(SX - 1.1, 1.25); cabinet(SX + 1.8, 1.25)
+calendar(SX + 1.0, 1.58, 2.15, "1973")
+seal(SX - 0.4, 1.58, 2.35)
+desk(SX - 0.42, 0.15, w=1.6)
+for k in range(3):
+    for i in range(7 + k * 2):
+        blk("file", (0.30, 0.38, 0.035), chamfer=0.006, seg=2,
+            loc=(SX - 0.85 + k * 0.36 + random.uniform(-0.02, 0.02), 0.12, 0.79 + i * 0.037),
+            rot=(0, 0, random.uniform(-0.08, 0.08)), mat=MANILA if i % 3 else M("manila2", "#d9b878"))
+SHR = Vector((SX + 0.68, -0.32, 0))
+bin_ = blk("bin", (0.5, 0.4, 0.62), taper=(1.06, 1.06), chamfer=0.04, loc=(SHR.x, SHR.y, 0.31),
+           mat=M("bin", "#9aa59a", rough=0.4))
+head_ = blk("shred_head", (0.56, 0.44, 0.2), chamfer=0.05, loc=(SHR.x, SHR.y, 0.72), mat=M("shred", "#e9e4d6", rough=0.35))
+blk("shred_slot", (0.40, 0.05, 0.02), loc=(SHR.x, SHR.y, 0.825), mat=M("slot", "#0e0b09"))
+sph("shred_btn", 0.03, seg=12, loc=(SHR.x + 0.2, SHR.y - 0.21, 0.75), mat=M("btn_red", "#d23a2e", emit=1.5))
+SLOT = Vector((SHR.x, SHR.y, 0.84))
+for f in range(376, 451, 2):
+    key(head_, "location", f, (SHR.x + random.uniform(-0.008, 0.008), SHR.y, 0.72 + random.uniform(-0.006, 0.006)))
+
+boss = person("boss", "#6b5140", "#bfbab2", ("grin",), loc=(SX + 0.38, 0.42, 0), rz=-0.32,
+              s=1.04, hair_style="bald", wide=1.15, tie="#c8322a")
+breathe(boss, 376, 450, amp=0.018, per=18)
+b_s, b_e, b_h = boss["arms"]["L"]
+br_s, br_e, br_h = boss["arms"]["R"]
+rot(br_s, 376, -0.55, -0.15, 0); rot(br_e, 376, -0.9, 0, 0)
+for f in range(376, 451, 6):
+    rot(br_s, f, -0.6 + 0.08 * math.sin(f * 0.4), -0.2, 0)
+feed = empty("feed_file", parent=b_h, loc=(0, -0.05, -0.12))
+ffile = blk("feed_file_m", (0.30, 0.03, 0.38), chamfer=0.006, seg=2, parent=feed, mat=MANILA)
+FEED = 15
+DX, DY, DE = [float(v) for v in os.environ.get("DPOSE", "-0.35 -0.45 -0.6").split()]
+for c in range(6):
+    f = 376 + c * FEED - 3
+    rot(b_s, f, -0.8, -0.5, 0); rot(b_e, f, -0.7, 0, 0)
+    rot(b_s, f + 8, DX, DY, 0); rot(b_e, f + 8, DE, 0, 0)
+    rot(b_s, f + FEED, -0.8, -0.5, 0); rot(b_e, f + FEED, -0.7, 0, 0)
+    key(ffile, "scale", f + 6, (1, 1, 1)); key(ffile, "scale", f + 9, (1, 1, 0.15))
+    key(ffile, "scale", f + 10, (0.001, 0.001, 0.001)); key(ffile, "scale", f + 12, (1, 1, 1))
+rot(boss["neck"], 376, 0.25, 0, -0.05); rot(boss["neck"], 420, 0.2, 0, -0.1); rot(boss["neck"], 450, 0.05, 0, 0.12)
+STRIP = M("strip", "#fbf8f0")
+STRIP2 = M("strip2", "#ead29c")
+random.seed(5)
+for i in range(42):
+    o = blk("strip", (0.022, 0.006, 0.22), mat=STRIP if i % 3 else STRIP2)
+    o.visible_shadow = False
+    per = random.randint(18, 28)
+    f = 376 - random.randint(0, per)
+    dx, dy = random.uniform(0.1, 1.5), random.uniform(-2.6, -1.4)
+    up = random.uniform(0.05, 0.35)
+    r0 = Vector((random.uniform(0, 6), random.uniform(0, 6), random.uniform(0, 6)))
+    while f <= LAST:
+        p0 = SLOT + Vector((random.uniform(-0.15, 0.15), 0, 0))
+        key(o, "location", f, p0); key(o, "scale", f, (0.2, 0.2, 0.2)); key(o, "rotation_euler", f, r0)
+        key(o, "scale", f + 3, (1, 1, 1))
+        key(o, "location", f + per // 2, p0 + Vector((dx * 0.5, dy * 0.5, up)))
+        key(o, "location", f + per - 1, p0 + Vector((dx, dy, up * 0.4 - 0.2)))
+        key(o, "rotation_euler", f + per - 1, r0 + Vector((7, 5, 3)))
+        key(o, "scale", f + per - 1, (1, 1, 1)); key(o, "scale", f + per, (0.001,) * 3)
+        f += per
+
+# ================================================================ cameras: one per shot, keyed every frame
+CAMS = []
+
+
+def camera(name, f0, f1, fn):
+    cd = bpy.data.cameras.new(name)
+    cd.clip_start, cd.clip_end = 0.05, 300
+    co = link(bpy.data.objects.new(name, cd))
+    co.rotation_mode = "QUATERNION"
+    for f in range(f0, f1 + 1):
+        t = (f - f0) / max(1, f1 - f0)
+        p, tg, roll, lens = fn(f, t)
+        p, tg = Vector(p), Vector(tg)
+        q = (tg - p).to_track_quat("-Z", "Y")
+        q = q @ Quaternion((0, 0, 1), roll)
+        key(co, "location", f, p)
+        key(co, "rotation_quaternion", f, q)
+        cd.lens = lens
+        cd.keyframe_insert("lens", frame=f)
+    m = scene.timeline_markers.new(name, frame=f0)
+    m.camera = co
+    CAMS.append((f0, co))
+    return co
+
+
+camera("cam1", 1, 90, lambda f, t: (vlerp((0.9, -3.3, 1.85), (0.55, -2.25, 1.62), ease(t)),
+                                    vlerp((0.0, 0.5, 1.12), (0.12, 0.4, 1.05), ease(t)), 0.0, 32))
+
+
+def cam2(f, t):
+    roll = math.radians(22) * ease((f - 118) / 50) + math.radians(3) * math.sin(f * 0.25) * ease((f - 140) / 20)
+    p = vlerp((0.55, -1.15, 1.42), (0.42, -0.95, 1.38), ease(t))
+    return p, (-0.22, 0.65, 1.18), roll, 30
+
+
+camera("cam2", 91, 180, cam2)
+
+
+def cam3(f, t):
+    wy = 8.0 - SPEED * (f - W_F0)
+    d = lerp(3.5, 2.6, ease(t))
+    return (CX + 0.25, wy - d, 1.25), (CX, wy, 1.05), 0.0, 30
+
+
+camera("cam3", 181, 285, cam3)
+
+
+def cam4(f, t):
+    a = ease_out((f - 286) / 22)
+    z = lerp(2.4, 10.4, a) + 0.7 * t
+    tx, ty = lerp(MX - 0.3, MX - 0.4, a), lerp(-0.4, 0.5, a)
+    p = (tx, ty - 0.02 - 0.6 * a, z)
+    return p, (tx, ty, 0), math.radians(lerp(-8, 0, a) + 2 * t), 30
+
+
+camera("cam4", 286, 375, cam4)
+
+
+def cam5(f, t):
+    z = ease((f - 418) / 12)
+    head = Vector((SX + 0.38, 0.42, 1.70))
+    p = vlerp((SX + 0.35, -2.9, 1.5), (SX + 0.32, -2.55, 1.6), ease((f - 376) / 74))
+    tg = vlerp((SX + 0.4, 0.3, 1.18), head + Vector((0, 0, -0.05)), z)
+    return p, tg, 0.0, lerp(28, 70, z)
+
+
+camera("cam5", 376, 450, cam5)
+
+# ---------------------------------------------------------------- drops follow the real dropper tip
+scene.render.fps = 30
+GLASSD = M("drop", "#cfe9f2", rough=0.05)
+CUP_TOP = CUP_POS + Vector((0, 0, 0.13))
+for i in range(5):
+    d = sph("drop", 0.022, seg=10, loc=(0, 0, -50), mat=GLASSD)
+    d.scale = (1, 1, 1.5)
+    f = 22 + i * 7
+    while f <= 86:
+        scene.frame_set(f)
+        tp = tip.matrix_world.translation.copy()
+        key(d, "location", f - 1, (tp.x, tp.y, -50))
+        key(d, "location", f, tp)
+        key(d, "location", f + 6, (CUP_TOP.x, CUP_TOP.y, CUP_TOP.z + 0.01))
+        key(d, "location", f + 7, (CUP_TOP.x, CUP_TOP.y, -50))
+        f += 35
+for f in range(1, 91, 2):  # keep the dropper upright whatever the arm does
+    scene.frame_set(f)
+    hm = a_h.matrix_world.to_quaternion()
+    dropper.rotation_mode = "QUATERNION"
+    dropper.rotation_quaternion = hm.inverted() @ Quaternion((0, 1, 0), 0.25)
+    dropper.keyframe_insert("rotation_quaternion", frame=f)
+
+# ---------------------------------------------------------------- shot 2 animation (91-180)
+c2 = empty("cup2_in", parent=ch_l, loc=(0, 0.12, -0.08), scale=(1.4, 1.4, 1.4))
+cyl("cup2_body", 0.045, 0.09, seg=24, r2=0.058, parent=c2, mat=CUPM)
+cyl("cup2_coffee", 0.054, 0.004, seg=24, parent=c2, loc=(0, 0, 0.044), mat=COFFEE)
+cyl("cup2_handle", 0.022, 0.012, seg=12, parent=c2, loc=(0.066, 0, 0.0), rot=(math.pi / 2, 0, 0), mat=CUPM)
+vis(c2, 91, 180)
+for f, loc in ((91, (0, -0.10, -0.02)), (99, (0, 0.12, -0.08)), (114, (0, 0.12, -0.08)), (124, (0, -0.10, -0.02))):
+    key(c2, "location", f, loc)  # cup sits in front of the hand at rest, at the lips while drinking
+rot(cn, 91, 0.05, 0, 0.12); rot(cn, 112, 0.0, 0, 0.12); rot(cn, 120, -0.06, 0, 0.0)
+for f in range(124, 181, 4):
+    rot(cn, f, -0.04 + 0.04 * math.sin(f * 0.5), 0.12 * math.sin(f * 0.35), 0.1 * math.sin(f * 0.27))
+rot(cs_l, 91, -0.75, -0.35, 0); rot(ce_l, 91, -1.0, 0, 0)
+rot(cs_l, 102, -0.85, -0.7, 0); rot(ce_l, 102, -2.45, 0, 0)
+rot(cs_l, 111, -0.9, -0.7, 0); rot(ce_l, 111, -2.55, 0, 0)
+rot(cs_l, 124, -0.75, -0.3, 0); rot(ce_l, 124, -1.0, 0, 0)
+rot(cs_l, 180, -0.75, -0.3, 0); rot(ce_l, 180, -1.0, 0, 0)
+key(c2, "rotation_euler", 91, (0, 0, 0)); key(c2, "rotation_euler", 104, (0.5, 0, 0))
+key(c2, "rotation_euler", 111, (0.6, 0, 0)); key(c2, "rotation_euler", 124, (0, 0, 0))
+rot(cs_r, 91, -0.55, 0.25, 0); rot(ce_r, 91, -0.9, 0, 0)
+rot(cs_r, 124, -0.55, 0.25, 0)
+for f in range(130, 181, 6):
+    rot(cs_r, f, -0.6 + 0.05 * math.sin(f), 0.25, 0)
+show_face(col, "sip", 91)
+show_face(col, "wide", 121)
+show_face(col, "spiral", 146)
+breathe(col, 91, 180, amp=0.02, per=12)
+for i, o in enumerate(floaters):
+    base = o.location.copy()
+    r0 = Vector(o.rotation_euler)
+    f0 = 132 + (i * 3) % 18
+    key(o, "location", 1, base); key(o, "location", f0, base)
+    key(o, "rotation_euler", f0, r0)
+    up = random.uniform(0.35, 0.8)
+    key(o, "location", 180, base + Vector((random.uniform(-0.15, 0.15), -0.1, up)))
+    key(o, "rotation_euler", 180, r0 + Vector((random.uniform(-0.8, 0.8), random.uniform(-0.8, 0.8), random.uniform(-1, 1))))
+for p in papers:
+    base = p.location.copy()
+    key(p, "location", 140, base); key(p, "location", 180, base + Vector((0, 0, random.uniform(0.15, 0.3))))
+    key(p, "rotation_euler", 140); p.rotation_euler.x += random.uniform(-0.6, 0.6); key(p, "rotation_euler", 180)
+for f in range(140, 181, 4):
+    key(SEAL[1], "rotation_euler", f, (0, 0.15 * math.sin(f * 0.3) * ease((f - 140) / 20), 0))
+    key(SEAL[0], "location", f, (0.25, 1.58, 2.25 + 0.04 * math.sin(f * 0.4) * ease((f - 140) / 20)))
+
+
+def colour_shift(mat, cols, frames):
+    b = mat.node_tree.nodes["Principled BSDF"]
+    for c, f in zip(cols, frames):
+        b.inputs["Base Color"].default_value = (*hx(c), 1)
+        b.inputs["Base Color"].keyframe_insert("default_value", frame=f)
+
+
+colour_shift(WALL, ["#d7dccb", "#d7dccb", "#f0a8c8", "#a8e0c0", "#c8a8f0", "#d7dccb"], [1, 128, 142, 156, 170, 181])
+colour_shift(PANEL, ["#7f9886", "#7f9886", "#9a5aa0", "#4aa08a", "#7f9886"], [1, 132, 148, 164, 181])
+colour_shift(FLOOR, ["#b7ab97", "#b7ab97", "#8a7ab8", "#b7ab97"], [1, 136, 166, 181])
+wob = fill_light((0.3, -1.4, 2.4), 0, "#ff7ad0", size=2)[1]
+for f, e, c in ((1, 0, "#ff7ad0"), (128, 0, "#ff7ad0"), (145, 140, "#ff7ad0"), (160, 140, "#7affd8"),
+                (175, 160, "#c47aff"), (181, 0, "#ff7ad0")):
+    wob.energy, wob.color = e, hx(c)
+    wob.keyframe_insert("energy", frame=f); wob.keyframe_insert("color", frame=f)
+FILL_E = float(os.environ.get("FILLE", "110"))
+fill_light((-0.5, -2.5, 2.8), FILL_E, size=5)
+fill_light((SX, -2.5, 2.8), FILL_E, size=5)
+
+# ---------------------------------------------------------------- render setup
+r = scene.render
+r.engine = "BLENDER_EEVEE"
+r.resolution_x, r.resolution_y, r.resolution_percentage = RES, RES * 16 // 9, 100
+r.fps = 30
+scene.frame_start, scene.frame_end = 1, LAST
+scene.eevee.taa_render_samples = SAMPLES
+scene.eevee.use_shadows = True
+scene.eevee.shadow_ray_count = 2
+scene.eevee.shadow_step_count = 8
+r.use_motion_blur = True
+r.motion_blur_shutter = 0.35
+try:
+    scene.view_settings.view_transform = os.environ.get("VIEW", "AgX")
+    scene.view_settings.look = os.environ.get("LOOK", "AgX - Medium High Contrast")
+except Exception as e:
+    print("VIEWERR", e)
+print("VIEW", scene.view_settings.view_transform, scene.view_settings.look)
+os.makedirs(OUT, exist_ok=True)
+r.image_settings.file_format = "JPEG"
+r.image_settings.quality = 93
+
+
+def cam_for(f):
+    c = CAMS[0][1]
+    for f0, co in CAMS:
+        if f >= f0:
+            c = co
+    return c
+
+
+if STILLS:
+    import time
+    for f in [int(x) for x in STILLS.split(",")]:
+        t = time.time()
+        scene.frame_set(f)
+        scene.camera = cam_for(f)
+        r.filepath = os.path.join(OUT, f"still_{f:04d}.jpg")
+        bpy.ops.render.render(write_still=True)
+        print(f"STILL {f} {time.time() - t:.1f}s")
+else:
+    import time
+    t = time.time()
+    scene.frame_start, scene.frame_end = START, END
+    scene.camera = cam_for(START)
+    r.filepath = os.path.join(OUT, "frames", "f_")
+    bpy.ops.render.render(animation=True)
+    print(f"ANIM {START}-{END} {time.time() - t:.1f}s  {(time.time() - t) / (END - START + 1):.2f}s/frame")
