@@ -918,8 +918,8 @@
  "sfx": [],
  "label": {
   "t": "Sold the\nWorld Series?",
-  "dx": 0,
-  "dy": 0,
+  "dx": 2,
+  "dy": -1,
   "fs": 66
  },
  "popup": {
