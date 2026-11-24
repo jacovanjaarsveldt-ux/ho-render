@@ -831,7 +831,7 @@
  "sfx": [],
  "label": {
   "t": "Punched out\nof the ring",
-  "dx": 0,
+  "dx": -2,
   "dy": -5,
   "fs": 66
  },
