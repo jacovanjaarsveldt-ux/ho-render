@@ -832,7 +832,7 @@
  "label": {
   "t": "Punched out\nof the ring",
   "dx": 0,
-  "dy": 0,
+  "dy": -5,
   "fs": 66
  },
  "popup": {
