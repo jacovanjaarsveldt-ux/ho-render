@@ -4,7 +4,7 @@ import {
   Easing, continueRender, delayRender, registerRoot, Composition,
 } from "remotion";
 import TL from "./timeline.json";
-import { ShortPopup } from "./EndCard";
+
 
 // History Outscaled Short, round 2 (pilot). One timeline.json per Short (build.py).
 // Rules baked in: first cut by 2.5 s, top text only 2-3 moments at y >= 300, word-synced Anton captions in the safe zone,
@@ -81,7 +81,6 @@ const Reel: React.FC = () => {
       {(tl.text as any[]).map((x, i) => <Sequence key={`t${i}`} from={f(x.a)} durationInFrames={f(x.b) - f(x.a)}><Big t={x.t} c={x.c} dur={f(x.b) - f(x.a)} instant={x.a === 0} /></Sequence>)}
       <Captions />
       {tl.label && <Sequence from={0} durationInFrames={90}><Label t={tl.label.t} dx={tl.label.dx} dy={tl.label.dy} fs={tl.label.fs} /></Sequence>}
-      {tl.popup && <Sequence from={f(tl.popup.a)} durationInFrames={75}><ShortPopup /></Sequence>}
     </Sequence>
   </AbsoluteFill>;
 };
