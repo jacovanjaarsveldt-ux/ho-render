@@ -879,7 +879,7 @@
  "label": {
   "t": "Down for\n13 seconds",
   "dx": 0,
-  "dy": 0,
+  "dy": -5,
   "fs": 66
  },
  "popup": {
