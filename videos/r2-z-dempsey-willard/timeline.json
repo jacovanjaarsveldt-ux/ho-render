@@ -918,7 +918,7 @@
  "label": {
   "t": "7 knockdowns,\n1 round",
   "dx": 0,
-  "dy": 0,
+  "dy": -5,
   "fs": 62
  },
  "popup": {
