@@ -32,7 +32,8 @@ const Still: React.FC<{ s: Shot }> = ({ s }) => {
   let ty = 0;
   if (m) { scl = m[0] + (m[1] - m[0]) * t; tx = m[2] + (m[3] - m[2]) * t; ty = m[4] + (m[5] - m[4]) * t; }
   return <AbsoluteFill style={{ overflow: "hidden", background: C.ink }}>
-    <Img src={staticFile(s.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transformOrigin: s.o ?? "50% 50%", transform: `translate(${tx}px, ${ty}px) scale(${scl})` }} />
+    {m ? <Img src={staticFile(s.src)} style={{ position: "absolute", left: "50%", top: "50%", width: m[6], height: m[7], marginLeft: -m[6] / 2, marginTop: -m[7] / 2, transform: `translate(${tx}px, ${ty}px) scale(${scl})` }} />
+      : <Img src={staticFile(s.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transformOrigin: s.o ?? "50% 50%", transform: `translate(${tx}px, ${ty}px) scale(${scl})` }} />}
   </AbsoluteFill>;
 };
 const Clip: React.FC<{ s: Shot }> = ({ s }) => <AbsoluteFill style={{ background: C.ink }}>
