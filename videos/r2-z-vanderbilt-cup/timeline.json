@@ -951,7 +951,7 @@
    "a": 21.64,
    "b": 23.94,
    "kind": "img",
-   "src": "img/c_p13.jpg",
+   "src": "img/c_p13b.jpg",
    "mv": "push",
    "m": [
     1.1,
@@ -1002,7 +1002,7 @@
    "a": 32.02,
    "b": 34.82,
    "kind": "img",
-   "src": "img/c_p15.jpg",
+   "src": "img/c_p15b.jpg",
    "mv": "push",
    "m": [
     1.0,
@@ -1036,7 +1036,7 @@
    "a": 38.38,
    "b": 40.52,
    "kind": "img",
-   "src": "img/c_p7.jpg",
+   "src": "img/c_p11.jpg",
    "mv": "push",
    "m": [
     1.1,
@@ -1077,11 +1077,11 @@
    "a": 46.86,
    "b": 49.56,
    "kind": "img",
-   "src": "img/c_p9.jpg",
+   "src": "img/c_p16.jpg",
    "mv": "push",
    "m": [
-    1.1,
     1.0,
+    1.1,
     0,
     0,
     0,
