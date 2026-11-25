@@ -702,22 +702,22 @@
   {
    "a": 5.0,
    "b": 6.9,
-   "kind": "clip",
-   "src": "clips/s02.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/thresher61.jpg",
+   "mv": "push"
   },
   {
    "a": 6.9,
    "b": 8.52,
    "kind": "img",
-   "src": "img/thresher61.jpg",
+   "src": "img/scorpion60.jpg",
    "mv": "push"
   },
   {
    "a": 8.52,
    "b": 10.5,
    "kind": "img",
-   "src": "img/scorpion60.jpg",
+   "src": "img/thresher_uw.jpg",
    "mv": "push"
   },
   {
@@ -745,15 +745,15 @@
    "a": 16.4,
    "b": 18.62,
    "kind": "img",
-   "src": "img/thr_debris.jpg",
+   "src": "img/scorp_bowT.jpg",
    "mv": "push"
   },
   {
    "a": 18.62,
    "b": 21.24,
-   "kind": "img",
-   "src": "img/thr_search.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s09.mp4",
+   "rate": 1.0
   },
   {
    "a": 21.24,
@@ -772,9 +772,9 @@
   {
    "a": 25.22,
    "b": 27.32,
-   "kind": "clip",
-   "src": "clips/s12.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/steamship.jpg",
+   "mv": "push"
   },
   {
    "a": 27.32,
@@ -800,9 +800,9 @@
   {
    "a": 33.94,
    "b": 35.5,
-   "kind": "img",
-   "src": "img/rusticles.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s16.mp4",
+   "rate": 1.0
   },
   {
    "a": 35.5,
@@ -815,7 +815,7 @@
    "a": 38.2,
    "b": 40.72,
    "kind": "img",
-   "src": "img/olyboilers.jpg",
+   "src": "img/cradle.jpg",
    "mv": "push"
   },
   {
@@ -828,9 +828,9 @@
   {
    "a": 43.86,
    "b": 46.42,
-   "kind": "clip",
-   "src": "clips/s20.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/icegrave.jpg",
+   "mv": "push"
   }
  ],
  "text": [
