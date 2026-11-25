@@ -1122,7 +1122,7 @@
    "a": 9.18,
    "b": 10.58,
    "t": "AGE 19",
-   "c": "white"
+   "c": "gold"
   },
   {
    "a": 46.52,
@@ -1135,7 +1135,7 @@
  "label": {
   "t": "Called Bonehead\nfor life",
   "dx": 0,
-  "dy": -5,
+  "dy": 0,
   "fs": 66
  },
  "popup": {
