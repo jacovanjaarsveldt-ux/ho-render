@@ -1015,7 +1015,7 @@
  "label": {
   "t": "Stabbed\non court",
   "dx": 0,
-  "dy": 2,
+  "dy": -2,
   "fs": 66
  },
  "popup": {
