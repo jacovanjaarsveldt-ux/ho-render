@@ -1130,7 +1130,7 @@
  "text": [
   {
    "a": 9.6,
-   "b": 11.2,
+   "b": 10.7,
    "t": "6 WIMBLEDON TITLES",
    "c": "gold"
   },
@@ -1145,7 +1145,7 @@
  "label": {
   "t": "She snubbed\nthe Queen?",
   "dx": 0,
-  "dy": -5,
+  "dy": -1,
   "fs": 66
  },
  "popup": {
