@@ -1039,7 +1039,7 @@
  "label": {
   "t": "Almost 12 hours,\nno gold",
   "dx": 0,
-  "dy": -5,
+  "dy": 0,
   "fs": 66
  },
  "popup": {
