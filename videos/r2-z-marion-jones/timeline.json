@@ -952,7 +952,7 @@
  "label": {
   "t": "Five medals,\none lie",
   "dx": 0,
-  "dy": 1,
+  "dy": -5,
   "fs": 66
  },
  "popup": {
