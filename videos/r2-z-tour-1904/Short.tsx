@@ -39,12 +39,12 @@ const Still: React.FC<{ s: Shot }> = ({ s }) => {
 const Clip: React.FC<{ s: Shot }> = ({ s }) => <AbsoluteFill style={{ background: C.ink }}>
   <OffthreadVideo src={staticFile(s.src)} muted playbackRate={s.rate ?? 1} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "contrast(1.05) saturate(1.06)" }} />
 </AbsoluteFill>;
-const Big: React.FC<{ t: string; c: string; dur: number; instant?: boolean }> = ({ t, c, dur, instant }) => {
+const Big: React.FC<{ t: string; c: string; dur: number; instant?: boolean; y?: number; fs?: number }> = ({ t, c, dur, instant, y = 330, fs = 118 }) => {
   const fr = useCurrentFrame() + (instant ? 30 : 0);
   const sp = spring({ frame: fr, fps: FPS, config: { damping: 11, stiffness: 240 } });
   const out = interpolate(fr - (instant ? 30 : 0), [dur - 6, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  return <AbsoluteFill style={{ alignItems: "center", paddingTop: 330 }}>
-    <div style={{ ...DISPLAY, fontSize: 118, lineHeight: 0.95, textAlign: "center", maxWidth: 900, color: c === "gold" ? C.gold : "#fff", opacity: Math.min(1, fr / 3) * out, transform: `scale(${interpolate(sp, [0, 1], [1.8, 1])}) rotate(${interpolate(sp, [0, 1], [-6, -2])}deg)`, WebkitTextStroke: "7px #15110C", paintOrder: "stroke fill", textShadow: "0 7px 0 rgba(0,0,0,.6), 0 0 30px rgba(0,0,0,.5)" }}>{t}</div>
+  return <AbsoluteFill style={{ alignItems: "center", paddingTop: y }}>
+    <div style={{ ...DISPLAY, fontSize: fs, lineHeight: 0.95, textAlign: "center", maxWidth: 900, color: c === "gold" ? C.gold : "#fff", opacity: Math.min(1, fr / 3) * out, transform: `scale(${interpolate(sp, [0, 1], [1.8, 1])}) rotate(${interpolate(sp, [0, 1], [-6, -2])}deg)`, WebkitTextStroke: "7px #15110C", paintOrder: "stroke fill", textShadow: "0 7px 0 rgba(0,0,0,.6), 0 0 30px rgba(0,0,0,.5)" }}>{t}</div>
   </AbsoluteFill>;
 };
 const Label: React.FC<{ t: string; dx: number; dy: number; fs?: number }> = ({ t, dx, dy, fs = 70 }) => {
@@ -82,7 +82,7 @@ const Reel: React.FC = () => {
     <Sequence from={0} durationInFrames={D}>
       {(tl.shots as Shot[]).map((s, i) => <Sequence key={i} from={f(s.a)} durationInFrames={f(s.b) - f(s.a)}>{s.kind === "clip" ? <Clip s={s} /> : <Still s={s} />}</Sequence>)}
       <AbsoluteFill style={{ pointerEvents: "none", background: "radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 60%, rgba(8,6,2,.30) 100%)" }} />
-      {(tl.text as any[]).map((x, i) => <Sequence key={`t${i}`} from={f(x.a)} durationInFrames={f(x.b) - f(x.a)}><Big t={x.t} c={x.c} dur={f(x.b) - f(x.a)} instant={x.a === 0} /></Sequence>)}
+      {(tl.text as any[]).map((x, i) => <Sequence key={`t${i}`} from={f(x.a)} durationInFrames={f(x.b) - f(x.a)}><Big t={x.t} c={x.c} dur={f(x.b) - f(x.a)} instant={x.a === 0} y={x.y} fs={x.fs} /></Sequence>)}
       <Captions />
       {tl.label && <Sequence from={0} durationInFrames={90}><Label t={tl.label.t} dx={tl.label.dx} dy={tl.label.dy} fs={tl.label.fs} /></Sequence>}
     </Sequence>
