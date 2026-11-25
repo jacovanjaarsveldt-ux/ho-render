@@ -64,7 +64,7 @@ const Captions: React.FC = () => {
   if (t >= END) return null;
   const groups: Wd[][] = [];
   let cur: Wd[] = [];
-  for (const w of words) { cur.push(w); if (cur.length >= 3 || /[.,!?…:]$/.test(w.w)) { groups.push(cur); cur = []; } }
+  for (const w of words) { cur.push(w); if (cur.length >= 3 || /[.,!?…:]$/.test(w.w) || (w as any).br) { groups.push(cur); cur = []; } }
   if (cur.length) groups.push(cur);
   const g = groups.find((gr, i) => t >= gr[0].s - 0.05 && t < Math.min(groups[i + 1]?.[0].s ?? 1e9, gr[gr.length - 1].e + 0.6));
   if (!g) return null;

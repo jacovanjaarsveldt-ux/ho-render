@@ -441,7 +441,8 @@
   {
    "w": "years",
    "s": 29.14,
-   "e": 29.5
+   "e": 29.5,
+   "br": true
   },
   {
    "w": "booed",
@@ -841,7 +842,7 @@
    "a": 2.02,
    "b": 5.24,
    "kind": "img",
-   "src": "img/c_p3.jpg",
+   "src": "img/c_p1.jpg",
    "mv": "push",
    "m": [
     1.0,
@@ -858,7 +859,7 @@
    "a": 5.24,
    "b": 7.76,
    "kind": "img",
-   "src": "img/c_p1.jpg",
+   "src": "img/c_p3.jpg",
    "mv": "push",
    "m": [
     1.12,
@@ -1045,10 +1046,10 @@
    "a": 39.0,
    "b": 42.78,
    "kind": "img",
-   "src": "img/c_p16.jpg",
+   "src": "img/c_p16b.jpg",
    "mv": "push",
    "m": [
-    1.12,
+    1.06,
     1.0,
     0,
     0,
@@ -1079,7 +1080,7 @@
    "a": 46.7,
    "b": 48.52,
    "kind": "img",
-   "src": "img/c_p8b.jpg",
+   "src": "img/c_p8d.jpg",
    "mv": "push",
    "m": [
     1.0,
