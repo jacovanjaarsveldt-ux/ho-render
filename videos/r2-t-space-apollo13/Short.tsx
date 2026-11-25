@@ -11,7 +11,7 @@ import TL from "./timeline.json";
 // no whooshes on cuts (a few real sound effects only), no music unless the timeline has it, ends on the bridge line (loop), small Subscribe pop-up mid-video, hook label from frame 1.
 const FPS = 30;
 const f = (s: number) => Math.round(s * FPS);
-const C = { gold: "#FFC83D", ink: "#15110C" };
+const C = { gold: "#FFC83D", ink: "#15110C", blue: "#2F6FA3" }; // blue = History Outscaled caption highlight (steel blue from the channel banner tint)
 const h = delayRender("font");
 new FontFace("Anton", `url(${staticFile("Anton.woff2")}) format("woff2")`).load().then((ff) => { (document.fonts as any).add(ff); continueRender(h); });
 const DISPLAY: React.CSSProperties = { fontFamily: "Anton, Impact, sans-serif", textTransform: "uppercase", letterSpacing: "0.01em" };
@@ -40,7 +40,7 @@ const Big: React.FC<{ t: string; c: string; dur: number; instant?: boolean }> = 
   const sp = spring({ frame: fr, fps: FPS, config: { damping: 11, stiffness: 240 } });
   const out = interpolate(fr - (instant ? 30 : 0), [dur - 6, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return <AbsoluteFill style={{ alignItems: "center", paddingTop: 330 }}>
-    <div style={{ ...DISPLAY, fontSize: 118, lineHeight: 0.95, textAlign: "center", maxWidth: 900, color: c === "gold" ? C.gold : "#fff", opacity: Math.min(1, fr / 3) * out, transform: `scale(${interpolate(sp, [0, 1], [1.8, 1])}) rotate(${interpolate(sp, [0, 1], [-6, -2])}deg)`, WebkitTextStroke: "7px #15110C", paintOrder: "stroke fill", textShadow: "0 7px 0 rgba(0,0,0,.6), 0 0 30px rgba(0,0,0,.5)" }}>{t}</div>
+    <div style={{ ...DISPLAY, fontSize: 118, lineHeight: 0.95, textAlign: "center", maxWidth: 900, color: "#fff", opacity: Math.min(1, fr / 3) * out, transform: `scale(${interpolate(sp, [0, 1], [1.8, 1])}) rotate(${interpolate(sp, [0, 1], [-6, -2])}deg)`, WebkitTextStroke: "7px #15110C", paintOrder: "stroke fill", textShadow: "0 7px 0 rgba(0,0,0,.6), 0 0 30px rgba(0,0,0,.5)" }}>{t}</div>
   </AbsoluteFill>;
 };
 const Label: React.FC<{ t: string; dx: number; dy: number; fs?: number }> = ({ t, dx, dy, fs = 70 }) => {
@@ -66,7 +66,7 @@ const Captions: React.FC = () => {
   if (!g) return null;
   return <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 430 }}>
     <div style={{ ...DISPLAY, fontSize: 58, textAlign: "center", maxWidth: 780, lineHeight: 1.1 }}>
-      {g.map((w, i) => <span key={i} style={{ color: t >= w.s - 0.03 && t < w.e + 0.05 ? C.gold : "#fff", textShadow: "0 4px 0 #000, 0 0 16px rgba(0,0,0,.85)", marginRight: 16 }}>{w.w}</span>)}
+      {g.map((w, i) => { const on = t >= w.s - 0.03 && t < w.e + 0.05; return <span key={i} style={{ color: "#fff", background: on ? C.blue : "transparent", borderRadius: 12, padding: "2px 12px 6px", margin: "0 2px", boxShadow: on ? "0 4px 0 rgba(0,0,0,.55)" : "none", textShadow: on ? "0 3px 0 rgba(0,0,0,.6)" : "0 4px 0 #000, 0 0 16px rgba(0,0,0,.85)", boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone" }}>{w.w}</span>; })}
     </div>
   </AbsoluteFill>;
 };
