@@ -905,7 +905,7 @@
  "label": {
   "t": "His team\nwalked out",
   "dx": 0,
-  "dy": 0,
+  "dy": -5,
   "fs": 66
  },
  "popup": {
