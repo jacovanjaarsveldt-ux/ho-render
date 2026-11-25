@@ -585,7 +585,7 @@
   },
   {
    "w": "1940",
-   "s": 42.1,
+   "s": 43.8,
    "e": 42.8
   },
   {
@@ -801,7 +801,7 @@
    "a": 17.46,
    "b": 22.34,
    "kind": "img",
-   "src": "img/c_v14.jpg",
+   "src": "img/c_v14b.jpg",
    "mv": "push",
    "m": [
     1.0,
@@ -818,7 +818,7 @@
    "a": 22.34,
    "b": 26.84,
    "kind": "img",
-   "src": "img/c_n14.jpg",
+   "src": "img/c_n14b.jpg",
    "mv": "push",
    "m": [
     1.0,
@@ -835,7 +835,7 @@
    "a": 26.84,
    "b": 29.22,
    "kind": "img",
-   "src": "img/c_v13.jpg",
+   "src": "img/c_v13b.jpg",
    "mv": "push",
    "m": [
     1.12,
@@ -886,7 +886,7 @@
    "a": 34.08,
    "b": 37.38,
    "kind": "img",
-   "src": "img/c_n30.jpg",
+   "src": "img/c_n30b.jpg",
    "mv": "push",
    "m": [
     1.0,
@@ -918,7 +918,7 @@
   },
   {
    "a": 39.78,
-   "b": 41.38,
+   "b": 43.14,
    "kind": "img",
    "src": "img/c_ford.jpg",
    "mv": "push",
@@ -934,10 +934,10 @@
    ]
   },
   {
-   "a": 41.38,
+   "a": 43.14,
    "b": 44.64,
    "kind": "img",
-   "src": "img/c_1937.jpg",
+   "src": "img/c_1937b.jpg",
    "mv": "push",
    "m": [
     1.0,
@@ -971,7 +971,7 @@
    "a": 48.12,
    "b": 50.62,
    "kind": "img",
-   "src": "img/c_clip.jpg",
+   "src": "img/c_clipb.jpg",
    "mv": "push",
    "m": [
     1.12,
@@ -1002,7 +1002,7 @@
  "sfx": [],
  "label": {
   "t": "The real\nMcCoy",
-  "dx": 0,
+  "dx": 2,
   "dy": -5,
   "fs": 66
  },
