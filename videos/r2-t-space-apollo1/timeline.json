@@ -764,7 +764,7 @@
    "a": 18.32,
    "b": 20.48,
    "kind": "img",
-   "src": "img/burned.jpg",
+   "src": "img/cm.jpg",
    "mv": "push"
   },
   {
@@ -805,16 +805,16 @@
   {
    "a": 32.22,
    "b": 33.86,
-   "kind": "img",
-   "src": "img/hatch.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s16.mp4",
+   "rate": 1.0
   },
   {
    "a": 33.86,
    "b": 35.9,
-   "kind": "clip",
-   "src": "clips/s17.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/burned.jpg",
+   "mv": "push"
   },
   {
    "a": 35.9,
@@ -834,7 +834,7 @@
    "a": 39.66,
    "b": 41.52,
    "kind": "img",
-   "src": "img/cm.jpg",
+   "src": "img/csm.jpg",
    "mv": "push"
   },
   {
