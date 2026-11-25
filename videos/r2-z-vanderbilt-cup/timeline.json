@@ -1113,7 +1113,7 @@
    "a": 19.42,
    "b": 21.02,
    "t": "ABOUT 200,000",
-   "c": "white"
+   "c": "gold"
   },
   {
    "a": 32.44,
@@ -1126,7 +1126,7 @@
  "label": {
   "t": "He built his\nown highway",
   "dx": 0,
-  "dy": -5,
+  "dy": 0,
   "fs": 66
  },
  "popup": {
