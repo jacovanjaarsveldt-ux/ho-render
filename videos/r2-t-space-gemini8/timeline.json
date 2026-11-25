@@ -853,23 +853,16 @@
   },
   {
    "a": 24.48,
-   "b": 26.9,
-   "kind": "img",
-   "src": "img/g_agena3.jpg",
-   "mv": "push"
-  },
-  {
-   "a": 26.9,
    "b": 28.3,
    "kind": "img",
-   "src": "img/g_agena4.jpg",
+   "src": "img/g_agena3.jpg",
    "mv": "push"
   },
   {
    "a": 28.3,
    "b": 30.68,
    "kind": "clip",
-   "src": "clips/s15.mp4",
+   "src": "clips/s14.mp4",
    "rate": 1.0
   },
   {
@@ -883,7 +876,7 @@
    "a": 33.38,
    "b": 35.88,
    "kind": "clip",
-   "src": "clips/s17.mp4",
+   "src": "clips/s16.mp4",
    "rate": 1.0
   },
   {
@@ -896,9 +889,9 @@
   {
    "a": 38.52,
    "b": 41.02,
-   "kind": "img",
-   "src": "img/g_agena6.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s18.mp4",
+   "rate": 1.0
   },
   {
    "a": 41.02,
