@@ -1,0 +1,2229 @@
+{
+"end": 711.73,
+"vo_end": 711.23,
+"fps": 30,
+"shots": [
+{
+"a": 0.0,
+"b": 7.88,
+"kind": "clip",
+"src": "clips/c_34bbb5ae0f.mp4"
+},
+{
+"a": 7.88,
+"b": 12.26,
+"kind": "card",
+"card": {
+"t": "1967  \u00b7  1986  \u00b7  2003",
+"sub": "three disasters, each one warned about on paper",
+"style": "number"
+}
+},
+{
+"a": 12.26,
+"b": 19.76,
+"kind": "clip",
+"src": "clips/c_e5375473f9.mp4"
+},
+{
+"a": 19.76,
+"b": 23.64,
+"kind": "card",
+"card": {
+"t": "1.67 LB",
+"sub": "foam block fired at about 530 mph, July 2003",
+"style": "number"
+}
+},
+{
+"a": 23.64,
+"b": 27.18,
+"kind": "img",
+"src": "img/i_963ed0ff13.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 27.18,
+"b": 31.12,
+"kind": "clip",
+"src": "clips/c_2bf80fc16e.mp4"
+},
+{
+"a": 31.12,
+"b": 37.68,
+"kind": "clip",
+"src": "clips/c_6750b0ba5f.mp4"
+},
+{
+"a": 37.68,
+"b": 44.98,
+"kind": "img",
+"src": "img/i_e5e629118a.jpg",
+"mv": "pull",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 44.98,
+"b": 48.86,
+"kind": "clip",
+"src": "clips/c_ac8d90be33.mp4"
+},
+{
+"a": 48.86,
+"b": 53.24,
+"kind": "clip",
+"src": "clips/c_37d550a513.mp4"
+},
+{
+"a": 53.24,
+"b": 56.72,
+"kind": "card",
+"card": {
+"t": "LAUNCH COMPLEX 34, CAPE KENNEDY",
+"sub": "27 January 1967, plugs-out launch rehearsal",
+"style": "doc"
+}
+},
+{
+"a": 56.72,
+"b": 60.26,
+"kind": "img",
+"src": "img/i_b6ead7fdc2.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 60.26,
+"b": 67.62,
+"kind": "img",
+"src": "img/i_b0ccaf2fe4.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 67.62,
+"b": 71.28,
+"kind": "img",
+"src": "img/i_2b61732bae.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 71.28,
+"b": 74.72,
+"kind": "img",
+"src": "img/i_9b35fd35a9.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 74.72,
+"b": 79.36,
+"kind": "clip",
+"src": "clips/c_46d72cb18f.mp4"
+},
+{
+"a": 79.36,
+"b": 85.32,
+"kind": "clip",
+"src": "clips/c_969cc4c9f2.mp4"
+},
+{
+"a": 85.32,
+"b": 91.1,
+"kind": "card",
+"card": {
+"t": "16.7 PSI",
+"sub": "pure oxygen inside the cabin, against 14.7 psi of air outside",
+"style": "number"
+}
+},
+{
+"a": 91.1,
+"b": 97.26,
+"kind": "clip",
+"src": "clips/c_357ef49f35.mp4"
+},
+{
+"a": 97.26,
+"b": 101.76,
+"kind": "clip",
+"src": "clips/c_100f5a8397.mp4"
+},
+{
+"a": 101.76,
+"b": 105.86,
+"kind": "img",
+"src": "img/i_52eb59fe3a.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 105.86,
+"b": 110.82,
+"kind": "clip",
+"src": "clips/c_8ee0bcbaf7.mp4"
+},
+{
+"a": 110.82,
+"b": 119.72,
+"kind": "card",
+"card": {
+"t": "...NASA and the contractor were completely unprepared for it despite the amount of documentation of fire hazards ... in pure oxygen environments.",
+"sub": "Senate report on the Apollo 204 accident, 1968",
+"style": "quote"
+}
+},
+{
+"a": 119.72,
+"b": 122.86,
+"kind": "clip",
+"src": "clips/c_3e3a461b40.mp4"
+},
+{
+"a": 122.86,
+"b": 130.68,
+"kind": "card",
+"card": {
+"t": "PHILLIPS REVIEW, NOV-DEC 1965",
+"sub": "\"NAA quality is not up to NASA required standards.\"",
+"style": "doc"
+}
+},
+{
+"a": 130.68,
+"b": 137.46,
+"kind": "img",
+"src": "img/i_714588438a.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 137.46,
+"b": 142.1,
+"kind": "card",
+"card": {
+"t": "THOMAS BARON",
+"sub": "quality inspector, North American Aviation, Cape Kennedy",
+"style": "doc"
+}
+},
+{
+"a": 142.1,
+"b": 147.2,
+"kind": "card",
+"card": {
+"t": "55 PAGES",
+"sub": "on poor workmanship and safety violations",
+"style": "number"
+}
+},
+{
+"a": 147.2,
+"b": 153.86,
+"kind": "card",
+"card": {
+"t": "FIRED: 5 JANUARY 1967",
+"sub": "22 days before the fire",
+"style": "doc"
+}
+},
+{
+"a": 153.86,
+"b": 160.5,
+"kind": "card",
+"card": {
+"t": "About half of the charges were well-grounded.",
+"sub": "company officials, testifying before Congress (NASA History Office)",
+"style": "quote"
+}
+},
+{
+"a": 160.5,
+"b": 163.5,
+"kind": "img",
+"src": "img/i_bf913f950d.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 163.5,
+"b": 168.84,
+"kind": "img",
+"src": "img/i_10c11e76f1.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 168.84,
+"b": 175.3,
+"kind": "img",
+"src": "img/i_8e68316c18.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 175.3,
+"b": 182.02,
+"kind": "img",
+"src": "img/i_be2c775ccb.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 182.02,
+"b": 187.98,
+"kind": "card",
+"card": {
+"t": "6:31 PM",
+"sub": "\"a fire in the cockpit\" reported on the radio, 27 January 1967",
+"style": "number"
+}
+},
+{
+"a": 187.98,
+"b": 192.66,
+"kind": "clip",
+"src": "clips/c_9acd50b328.mp4"
+},
+{
+"a": 192.66,
+"b": 195.96,
+"kind": "img",
+"src": "img/i_7f2e50ba3e.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 195.96,
+"b": 203.5,
+"kind": "card",
+"card": {
+"t": "ABOUT 5 MINUTES",
+"sub": "to open all the hatches",
+"style": "number"
+}
+},
+{
+"a": 203.5,
+"b": 210.24,
+"kind": "img",
+"src": "img/i_6505153fec.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 210.24,
+"b": 219.48,
+"kind": "card",
+"card": {
+"t": "NASA's long history of successes ... with pure oxygen environments led to overconfidence and complacency.",
+"sub": "Senate report on the Apollo 204 accident, 1968",
+"style": "quote"
+}
+},
+{
+"a": 219.48,
+"b": 225.9,
+"kind": "img",
+"src": "img/i_1ecb6f877c.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 225.9,
+"b": 230.58,
+"kind": "img",
+"src": "img/i_ab44b8eb19.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 230.58,
+"b": 236.16,
+"kind": "img",
+"src": "img/i_4ac316dc75.jpg",
+"mv": "pull",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 236.16,
+"b": 239.64,
+"kind": "clip",
+"src": "clips/c_da89afc568.mp4"
+},
+{
+"a": 239.64,
+"b": 243.8,
+"kind": "clip",
+"src": "clips/c_6eaf426ec9.mp4"
+},
+{
+"a": 243.8,
+"b": 250.22,
+"kind": "img",
+"src": "img/i_4979dc5dfb.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 250.22,
+"b": 256.02,
+"kind": "card",
+"card": {
+"t": "2 INCHES",
+"sub": "how far the oxygen tank was dropped, long before the flight",
+"style": "number"
+}
+},
+{
+"a": 256.02,
+"b": 261.88,
+"kind": "card",
+"card": {
+"t": "65 VOLTS",
+"sub": "for about 8 hours, through heater switches built for 28",
+"style": "number"
+}
+},
+{
+"a": 261.88,
+"b": 267.14,
+"kind": "img",
+"src": "img/i_895ded7080.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 267.14,
+"b": 273.7,
+"kind": "card",
+"card": {
+"t": "APOLLO 13 REVIEW BOARD",
+"sub": "The switch discrepancy \"was not detected by NASA, NR, or Beech in their review of documentation.\"",
+"style": "doc"
+}
+},
+{
+"a": 273.7,
+"b": 277.98,
+"kind": "clip",
+"src": "clips/c_8e17812f72.mp4"
+},
+{
+"a": 277.98,
+"b": 281.54,
+"kind": "img",
+"src": "img/i_27352e73e0.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 281.54,
+"b": 284.18,
+"kind": "img",
+"src": "img/i_a9dc71b1e0.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 284.18,
+"b": 287.66,
+"kind": "card",
+"card": {
+"t": "DIANE VAUGHAN, SOCIOLOGIST",
+"sub": "The Challenger Launch Decision, 1996",
+"style": "doc"
+}
+},
+{
+"a": 287.66,
+"b": 292.62,
+"kind": "clip",
+"src": "clips/c_510e1da8fc.mp4"
+},
+{
+"a": 292.62,
+"b": 296.64,
+"kind": "card",
+"card": {
+"t": "The normalization of deviance.",
+"sub": "Diane Vaughan, The Challenger Launch Decision (1996)",
+"style": "quote"
+}
+},
+{
+"a": 296.64,
+"b": 301.24,
+"kind": "clip",
+"src": "clips/c_3aa1a50f84.mp4"
+},
+{
+"a": 301.24,
+"b": 305.44,
+"kind": "img",
+"src": "img/i_fb0e4a1c1b.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 305.44,
+"b": 311.44,
+"kind": "card",
+"card": {
+"t": "ALMOST 16 YEARS",
+"sub": "without losing a crew in flight, 1970 to 1986",
+"style": "number"
+}
+},
+{
+"a": 311.44,
+"b": 317.74,
+"kind": "img",
+"src": "img/i_9a16a1307a.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 317.74,
+"b": 321.58,
+"kind": "clip",
+"src": "clips/c_3d31ae4920.mp4"
+},
+{
+"a": 321.58,
+"b": 325.94,
+"kind": "img",
+"src": "img/i_9da9712c04.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 325.94,
+"b": 332.2,
+"kind": "img",
+"src": "img/i_29cba65fb8.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 332.2,
+"b": 337.54,
+"kind": "img",
+"src": "img/i_cdfb7a38fe.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 337.54,
+"b": 342.92,
+"kind": "img",
+"src": "img/i_8ccad7936c.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 342.92,
+"b": 347.06,
+"kind": "img",
+"src": "img/i_f46e5c3607.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 347.06,
+"b": 353.68,
+"kind": "img",
+"src": "img/i_f6392e0027.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 353.68,
+"b": 357.8,
+"kind": "card",
+"card": {
+"t": "MEMO, 31 JULY 1985",
+"sub": "R. M. Boisjoly to R. K. Lund, Vice President, Engineering, Morton Thiokol",
+"style": "doc"
+}
+},
+{
+"a": 357.8,
+"b": 365.36,
+"kind": "card",
+"card": {
+"t": "The result would be a catastrophe of the highest order - loss of human life.",
+"sub": "Roger Boisjoly, memo, 31 July 1985",
+"style": "quote"
+}
+},
+{
+"a": 365.36,
+"b": 368.97,
+"kind": "img",
+"src": "img/i_d9e62a01cd.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 368.97,
+"b": 373.11,
+"kind": "clip",
+"src": "clips/c_6079e27c8f.mp4"
+},
+{
+"a": 373.11,
+"b": 376.43,
+"kind": "card",
+"card": {
+"t": "BELOW FREEZING",
+"sub": "forecast for launch morning, 28 Jan 1986. Coldest launch so far: 53 F",
+"style": "number"
+}
+},
+{
+"a": 376.43,
+"b": 381.63,
+"kind": "img",
+"src": "img/i_51982a132f.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 381.63,
+"b": 388.47,
+"kind": "card",
+"card": {
+"t": "27 JANUARY 1986, EVENING",
+"sub": "Thiokol engineers: do not launch below 53 F",
+"style": "doc"
+}
+},
+{
+"a": 388.47,
+"b": 392.63,
+"kind": "img",
+"src": "img/i_e93450b741.jpg",
+"mv": "pan",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 392.63,
+"b": 395.49,
+"kind": "img",
+"src": "img/i_1f9ca612f6.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 395.49,
+"b": 401.05,
+"kind": "img",
+"src": "img/i_2f85c9be00.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 401.05,
+"b": 407.63,
+"kind": "card",
+"card": {
+"t": "Take off your engineering hat and put on your management hat.",
+"sub": "a Thiokol senior manager to the head of engineering, as Boisjoly told the Rogers Commission",
+"style": "quote"
+}
+},
+{
+"a": 407.63,
+"b": 411.69,
+"kind": "img",
+"src": "img/i_2aa9826a4e.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 411.69,
+"b": 414.99,
+"kind": "img",
+"src": "img/i_ba1d0f66ce.jpg",
+"mv": "pan",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 414.99,
+"b": 421.39,
+"kind": "card",
+"card": {
+"t": "to prove that it was not safe to launch, rather than proving it was safe.",
+"sub": "Rogers Commission, 1986",
+"style": "quote"
+}
+},
+{
+"a": 421.39,
+"b": 424.85,
+"kind": "img",
+"src": "img/i_bca034d7bc.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 424.85,
+"b": 429.31,
+"kind": "clip",
+"src": "clips/c_10bc730727.mp4"
+},
+{
+"a": 429.31,
+"b": 434.41,
+"kind": "card",
+"card": {
+"t": "36 F",
+"sub": "at liftoff: 15 degrees colder than any launch before (Rogers Commission)",
+"style": "number"
+}
+},
+{
+"a": 434.41,
+"b": 439.39,
+"kind": "img",
+"src": "img/i_7abcf0f839.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 439.39,
+"b": 443.31,
+"kind": "clip",
+"src": "clips/c_7fa5d12ed0.mp4"
+},
+{
+"a": 443.31,
+"b": 447.95,
+"kind": "img",
+"src": "img/i_e7a9c8e924.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 447.95,
+"b": 452.71,
+"kind": "img",
+"src": "img/i_225e162707.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 452.71,
+"b": 458.13,
+"kind": "card",
+"card": {
+"t": "11,000",
+"sub": "applicants to be the first teacher in space",
+"style": "number"
+}
+},
+{
+"a": 458.13,
+"b": 462.11,
+"kind": "card",
+"card": {
+"t": "STS-51L, 28 JANUARY 1986",
+"sub": "Dick Scobee  \u00b7  Michael Smith  \u00b7  Judith Resnik  \u00b7  Ellison Onizuka  \u00b7  Ronald McNair  \u00b7  Gregory Jarvis  \u00b7  Christa McAuliffe",
+"style": "doc"
+}
+},
+{
+"a": 462.11,
+"b": 467.79,
+"kind": "card",
+"card": {
+"t": "RICHARD FEYNMAN, PHYSICIST",
+"sub": "Rogers Commission, televised hearing, 1986",
+"style": "doc"
+}
+},
+{
+"a": 467.79,
+"b": 472.09,
+"kind": "img",
+"src": "img/i_a6462f9f04.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 472.09,
+"b": 481.51,
+"kind": "card",
+"card": {
+"t": "For a successful technology, reality must take precedence over public relations, for nature cannot be fooled.",
+"sub": "Richard Feynman, Rogers Commission report, vol 2, appendix F",
+"style": "quote"
+}
+},
+{
+"a": 481.51,
+"b": 487.11,
+"kind": "img",
+"src": "img/i_bbc309823b.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 487.11,
+"b": 490.93,
+"kind": "clip",
+"src": "clips/c_2ff6a72336.mp4"
+},
+{
+"a": 490.93,
+"b": 497.91,
+"kind": "clip",
+"src": "clips/c_b8c0601e29.mp4"
+},
+{
+"a": 497.91,
+"b": 502.09,
+"kind": "card",
+"card": {
+"t": "Early in the Space Shuttle Program, foam loss was considered a dangerous problem.",
+"sub": "Columbia Accident Investigation Board, 2003",
+"style": "quote"
+}
+},
+{
+"a": 502.09,
+"b": 506.31,
+"kind": "clip",
+"src": "clips/c_2066db2408.mp4"
+},
+{
+"a": 506.31,
+"b": 510.91,
+"kind": "card",
+"card": {
+"t": "STS-112, ATLANTIS, 7 OCTOBER 2002",
+"sub": "foam from the left bipod ramp hit a booster ring",
+"style": "doc"
+}
+},
+{
+"a": 510.91,
+"b": 515.45,
+"kind": "img",
+"src": "img/i_7eb8c205d5.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 515.45,
+"b": 519.13,
+"kind": "card",
+"card": {
+"t": "6TH",
+"sub": "known foam loss from that spot",
+"style": "number"
+}
+},
+{
+"a": 519.13,
+"b": 522.61,
+"kind": "clip",
+"src": "clips/c_3482374810.mp4"
+},
+{
+"a": 522.61,
+"b": 528.37,
+"kind": "clip",
+"src": "clips/c_5d0c4afd84.mp4"
+},
+{
+"a": 528.37,
+"b": 531.67,
+"kind": "clip",
+"src": "clips/c_e832298a94.mp4"
+},
+{
+"a": 531.67,
+"b": 535.97,
+"kind": "clip",
+"src": "clips/c_6a3490a8de.mp4"
+},
+{
+"a": 535.97,
+"b": 539.27,
+"kind": "img",
+"src": "img/i_e307cfe8d0.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 539.27,
+"b": 542.77,
+"kind": "clip",
+"src": "clips/c_cd67fd3f76.mp4"
+},
+{
+"a": 542.77,
+"b": 548.83,
+"kind": "card",
+"card": {
+"t": "3 REQUESTS",
+"sub": "for pictures of the wing in orbit. None went through.",
+"style": "number"
+}
+},
+{
+"a": 548.83,
+"b": 556.53,
+"kind": "card",
+"card": {
+"t": "Even if we saw something, we couldn't do anything about it.",
+"sub": "personal notes quoted by the Columbia Accident Investigation Board",
+"style": "quote"
+}
+},
+{
+"a": 556.53,
+"b": 559.45,
+"kind": "clip",
+"src": "clips/c_146cd21f79.mp4"
+},
+{
+"a": 559.45,
+"b": 564.19,
+"kind": "img",
+"src": "img/i_c9c31d0f7b.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 564.19,
+"b": 569.27,
+"kind": "card",
+"card": {
+"t": "3 CUBIC INCHES",
+"sub": "the largest debris the model was checked against",
+"style": "number"
+}
+},
+{
+"a": 569.27,
+"b": 574.53,
+"kind": "card",
+"card": {
+"t": "ABOUT 1,200 CUBIC INCHES",
+"sub": "the Board's best estimate of the foam: 400 times bigger",
+"style": "number"
+}
+},
+{
+"a": 574.53,
+"b": 582.19,
+"kind": "card",
+"card": {
+"t": "DRAFT EMAIL, RODNEY ROCHA, JANUARY 2003",
+"sub": "\"...the wrong (and bordering on irresponsible) answer ... not to request additional imaging help from any outside source.\"",
+"style": "doc"
+}
+},
+{
+"a": 582.19,
+"b": 588.09,
+"kind": "card",
+"card": {
+"t": "If it's not safe, say so.",
+"sub": "NASA safety poster, quoted in Rocha's draft",
+"style": "quote"
+}
+},
+{
+"a": 588.09,
+"b": 591.85,
+"kind": "card",
+"card": {
+"t": "Yes, it's that serious.",
+"sub": "Rodney Rocha, draft email, never sent (CAIB vol 1)",
+"style": "quote"
+}
+},
+{
+"a": 591.85,
+"b": 598.47,
+"kind": "clip",
+"src": "clips/c_2b20844c97.mp4"
+},
+{
+"a": 598.47,
+"b": 605.75,
+"kind": "card",
+"card": {
+"t": "EMAIL FROM MISSION CONTROL",
+"sub": "to Commander Rick Husband and Pilot William McCool, about the foam strike",
+"style": "doc"
+}
+},
+{
+"a": 605.75,
+"b": 609.57,
+"kind": "card",
+"card": {
+"t": "absolutely no concern for entry",
+"sub": "Mission Control email to the crew, quoted by the CAIB",
+"style": "quote"
+}
+},
+{
+"a": 609.57,
+"b": 615.65,
+"kind": "img",
+"src": "img/i_e63ed00d84.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 615.65,
+"b": 619.11,
+"kind": "clip",
+"src": "clips/c_a154952775.mp4"
+},
+{
+"a": 619.11,
+"b": 622.97,
+"kind": "img",
+"src": "img/i_d579283ccd.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 622.97,
+"b": 626.95,
+"kind": "img",
+"src": "img/i_f3f7327bce.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 626.95,
+"b": 630.21,
+"kind": "card",
+"card": {
+"t": "STS-107, 1 FEBRUARY 2003",
+"sub": "Rick Husband  \u00b7  William McCool  \u00b7  Michael Anderson  \u00b7  Kalpana Chawla  \u00b7  David Brown  \u00b7  Laurel Clark  \u00b7  Ilan Ramon",
+"style": "doc"
+}
+},
+{
+"a": 630.21,
+"b": 636.91,
+"kind": "clip",
+"src": "clips/c_afa9450d9a.mp4"
+},
+{
+"a": 636.91,
+"b": 642.25,
+"kind": "card",
+"card": {
+"t": "The NASA organizational culture had as much to do with this accident as the foam.",
+"sub": "Columbia Accident Investigation Board, 2003",
+"style": "quote"
+}
+},
+{
+"a": 642.25,
+"b": 646.33,
+"kind": "img",
+"src": "img/i_e3bfc5cd51.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 646.33,
+"b": 650.55,
+"kind": "card",
+"card": {
+"t": "27 JAN  \u00b7  28 JAN  \u00b7  1 FEB",
+"sub": "Apollo 1, Challenger, Columbia",
+"style": "number"
+}
+},
+{
+"a": 650.55,
+"b": 656.07,
+"kind": "img",
+"src": "img/i_c60a500dad.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 656.07,
+"b": 659.71,
+"kind": "img",
+"src": "img/i_9ca4141fc0.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 659.71,
+"b": 663.15,
+"kind": "clip",
+"src": "clips/c_70d92d3ca8.mp4"
+},
+{
+"a": 663.15,
+"b": 668.65,
+"kind": "clip",
+"src": "clips/c_c029d035bd.mp4"
+},
+{
+"a": 668.65,
+"b": 674.69,
+"kind": "card",
+"card": {
+"t": "Operations must be proved safe, rather than the other way around. NASA inverted this burden of proof.",
+"sub": "Columbia Accident Investigation Board, vol 1",
+"style": "quote"
+}
+},
+{
+"a": 674.69,
+"b": 680.81,
+"kind": "clip",
+"src": "clips/c_1ce7d32613.mp4"
+},
+{
+"a": 680.81,
+"b": 685.55,
+"kind": "card",
+"card": {
+"t": "GENE KRANZ, FLIGHT DIRECTOR",
+"sub": "as he later recalled it",
+"style": "doc"
+}
+},
+{
+"a": 685.55,
+"b": 693.53,
+"kind": "card",
+"card": {
+"t": "TOUGH AND COMPETENT",
+"sub": "two words on every blackboard in Mission Control",
+"style": "number"
+}
+},
+{
+"a": 693.53,
+"b": 698.49,
+"kind": "card",
+"card": {
+"t": "Tough means we are forever accountable for what we do or what we fail to do.",
+"sub": "Gene Kranz, Failure Is Not an Option (2000)",
+"style": "quote"
+}
+},
+{
+"a": 698.49,
+"b": 704.75,
+"kind": "clip",
+"src": "clips/c_1ccbd09955.mp4"
+},
+{
+"a": 704.75,
+"b": 711.73,
+"kind": "clip",
+"src": "clips/c_9430e0c482.mp4"
+}
+],
+"chapters": [
+{
+"a": 0.0,
+"b": 3.5,
+"n": "Chapter 1",
+"t": "They were warned"
+},
+{
+"a": 44.98,
+"b": 48.86,
+"n": "Chapter 2",
+"t": "Apollo 1, 1967"
+},
+{
+"a": 236.16,
+"b": 239.64,
+"n": "Chapter 3",
+"t": "The near miss"
+},
+{
+"a": 317.74,
+"b": 321.34,
+"n": "Chapter 4",
+"t": "Challenger, 1986"
+},
+{
+"a": 490.93,
+"b": 494.93,
+"n": "Chapter 5",
+"t": "Columbia, 2003"
+},
+{
+"a": 656.07,
+"b": 659.57,
+"n": "Chapter 6",
+"t": "Why the warnings lost"
+}
+],
+"caps": [
+{
+"a": 0.07,
+"b": 3.99,
+"t": "Seventeen astronauts have\ndied in three NASA disasters,"
+},
+{
+"a": 3.99,
+"b": 7.91,
+"t": "and before each one, the\ndanger was already on paper."
+},
+{
+"a": 7.91,
+"b": 12.12,
+"t": "Each time, the person who gave\nthe warning lost the argument."
+},
+{
+"a": 12.29,
+"b": 18.49,
+"t": "In July 2003, investigators fired a block\nof foam at a real piece of shuttle wing,"
+},
+{
+"a": 18.49,
+"b": 20.9,
+"t": "at about five hundred miles an hour."
+},
+{
+"a": 20.91,
+"b": 23.64,
+"t": "The foam weighed less than two pounds."
+},
+{
+"a": 23.67,
+"b": 27.12,
+"t": "It left a hole about\nsixteen inches across."
+},
+{
+"a": 27.21,
+"b": 31.15,
+"t": "Six months earlier, foam like\nthat had hit the shuttle Columbia,"
+},
+{
+"a": 31.15,
+"b": 36.05,
+"t": "and engineers had asked for pictures of\nthe wing while the crew was still in orbit."
+},
+{
+"a": 36.05,
+"b": 37.66,
+"t": "They didn't get them."
+},
+{
+"a": 37.71,
+"b": 42.11,
+"t": "The first warnings NASA ignored were\nwritten nearly forty years earlier,"
+},
+{
+"a": 42.11,
+"b": 45.01,
+"t": "about a capsule on a\nlaunch pad in Florida."
+},
+{
+"a": 45.01,
+"b": 46.98,
+"t": "On the afternoon of 27 January"
+},
+{
+"a": 47.25,
+"b": 53.27,
+"t": "1967, three men climbed into the first\nApollo capsule built to carry a crew,"
+},
+{
+"a": 53.27,
+"b": 56.75,
+"t": "on Launch Complex 34 at Cape Kennedy."
+},
+{
+"a": 56.75,
+"b": 59.83,
+"t": "Gus Grissom had been the\nsecond American in space,"
+},
+{
+"a": 59.83,
+"b": 64.63,
+"t": "and he was so fed up with the mismatch\nbetween his simulator and the real spacecraft"
+},
+{
+"a": 64.63,
+"b": 67.65,
+"t": "that he had hung a lemon on the simulator."
+},
+{
+"a": 67.65,
+"b": 71.28,
+"t": "Ed White had been the first\nAmerican to walk in space."
+},
+{
+"a": 71.31,
+"b": 74.75,
+"t": "Roger Chaffee was getting\nready for his first flight."
+},
+{
+"a": 74.75,
+"b": 79.39,
+"t": "It was a launch rehearsal, and the\nrocket under them had no fuel in it."
+},
+{
+"a": 79.39,
+"b": 83.97,
+"t": "The review board later found that neither\nNASA nor the builder had classed the test"
+},
+{
+"a": 83.97,
+"b": 85.35,
+"t": "as hazardous."
+},
+{
+"a": 85.35,
+"b": 88.01,
+"t": "The cabin was filled with pure oxygen,"
+},
+{
+"a": 88.01,
+"b": 91.13,
+"t": "pumped a little above the\npressure of the air outside."
+},
+{
+"a": 91.13,
+"b": 97.28,
+"t": "In pure oxygen, things that barely\nsmoulder in normal air burn fast and hot."
+},
+{
+"a": 97.29,
+"b": 101.78,
+"t": "Nobody had kept a close count of\nwhat in that cabin could burn."
+},
+{
+"a": 101.79,
+"b": 105.89,
+"t": "The hatch opened inward, so the\npressure inside held it shut,"
+},
+{
+"a": 105.89,
+"b": 110.85,
+"t": "and even under ideal conditions it\ntook at least ninety seconds to open."
+},
+{
+"a": 110.85,
+"b": 115.73,
+"t": "A Senate committee later said the fire\nhazards of pure oxygen were well documented,"
+},
+{
+"a": 115.73,
+"b": 119.75,
+"t": "yet NASA and the contractor\nwere completely unprepared."
+},
+{
+"a": 119.75,
+"b": 122.89,
+"t": "Other warnings were about\nthe spacecraft itself."
+},
+{
+"a": 122.89,
+"b": 127.59,
+"t": "In late 1965, a review led by\nthe Apollo program director,"
+},
+{
+"a": 127.59,
+"b": 130.71,
+"t": "General Samuel Phillips,\nfound that the builder,"
+},
+{
+"a": 130.71,
+"b": 136.47,
+"t": "North American Aviation, had quality below\nNASA's standards and deadlines that kept"
+},
+{
+"a": 136.47,
+"b": 137.49,
+"t": "slipping."
+},
+{
+"a": 137.49,
+"b": 139.53,
+"t": "A quality inspector at the Cape,"
+},
+{
+"a": 139.53,
+"b": 142.02,
+"t": "Thomas Baron, went further."
+},
+{
+"a": 142.13,
+"b": 147.23,
+"t": "He wrote a fifty-five page paper on\npoor workmanship and safety violations,"
+},
+{
+"a": 147.23,
+"b": 151.93,
+"t": "and North American fired\nhim on 5 January 1967."
+},
+{
+"a": 151.93,
+"b": 153.89,
+"t": "The company denied most of it,"
+},
+{
+"a": 153.89,
+"b": 158.45,
+"t": "though some company officials later testified\nbefore Congress that about half of the"
+},
+{
+"a": 158.45,
+"b": 160.53,
+"t": "charges were well-grounded."
+},
+{
+"a": 160.53,
+"b": 163.5,
+"t": "Those warnings lost to the schedule."
+},
+{
+"a": 163.53,
+"b": 167.31,
+"t": "The Phillips report stayed\ninside NASA until after the fire,"
+},
+{
+"a": 167.31,
+"b": 171.85,
+"t": "Baron was out of a job, and the program\nwas racing to reach the Moon before the end"
+},
+{
+"a": 171.85,
+"b": 175.33,
+"t": "of the decade, as President\nKennedy had promised."
+},
+{
+"a": 175.33,
+"b": 177.91,
+"t": "The fire itself took less than a minute,"
+},
+{
+"a": 177.91,
+"b": 182.05,
+"t": "and what came next was a\nfive-minute fight to reach the crew."
+},
+{
+"a": 182.05,
+"b": 187.96,
+"t": "At about 6:31 in the evening, a voice on\nthe radio reported a fire in the cockpit."
+},
+{
+"a": 188.01,
+"b": 192.66,
+"t": "The pressure inside rose so fast\nthat the hatch could not be opened."
+},
+{
+"a": 192.69,
+"b": 195.99,
+"t": "Seconds later, the capsule's wall split."
+},
+{
+"a": 195.99,
+"b": 200.27,
+"t": "The pad crew fought through smoke\nand heat to open all the hatches."
+},
+{
+"a": 200.27,
+"b": 203.53,
+"t": "By then, nothing could be\ndone for the three men."
+},
+{
+"a": 203.53,
+"b": 208.35,
+"t": "The review board found the most likely cause\nwas a spark from wiring near the floor,"
+},
+{
+"a": 208.35,
+"b": 210.26,
+"t": "close to Grissom's seat."
+},
+{
+"a": 210.27,
+"b": 212.44,
+"t": "A Senate committee went further."
+},
+{
+"a": 212.61,
+"b": 217.91,
+"t": "It said NASA's long run of success with\npure oxygen had led to overconfidence and"
+},
+{
+"a": 217.91,
+"b": 219.42,
+"t": "complacency."
+},
+{
+"a": 219.51,
+"b": 224.75,
+"t": "NASA rebuilt the capsule with a hatch that\nopened outward and a safer cabin air mix"
+},
+{
+"a": 224.75,
+"b": 225.93,
+"t": "on the pad."
+},
+{
+"a": 225.93,
+"b": 230.61,
+"t": "In July 1969, Apollo\n11 landed on the Moon."
+},
+{
+"a": 230.61,
+"b": 234.79,
+"t": "The hardware was fixed, but that wasn't\nthe end of the complacency the Senate"
+},
+{
+"a": 234.79,
+"b": 236.06,
+"t": "described."
+},
+{
+"a": 236.19,
+"b": 239.67,
+"t": "Some warnings come from\nthings that almost go wrong."
+},
+{
+"a": 239.67,
+"b": 243.83,
+"t": "In April 1970, two days\ninto the flight to the Moon,"
+},
+{
+"a": 243.83,
+"b": 247.59,
+"t": "an oxygen tank exploded on Apollo 13."
+},
+{
+"a": 247.59,
+"b": 250.2,
+"t": "The trouble had started on the ground."
+},
+{
+"a": 250.25,
+"b": 254.31,
+"t": "The tank had been dropped about two\ninches while it was being taken out of an"
+},
+{
+"a": 254.31,
+"b": 256.05,
+"t": "earlier spacecraft."
+},
+{
+"a": 256.05,
+"b": 261.86,
+"t": "Later, in a ground test, its heaters ran\nfor about eight hours on sixty-five volts."
+},
+{
+"a": 261.91,
+"b": 265.26,
+"t": "Its safety switches were\nbuilt for only twenty-eight."
+},
+{
+"a": 265.29,
+"b": 269.91,
+"t": "That probably ruined them, and the review\nboard found that NASA and both companies"
+},
+{
+"a": 269.91,
+"b": 273.73,
+"t": "involved had missed the\nmismatch in their paperwork."
+},
+{
+"a": 273.73,
+"b": 278.01,
+"t": "The crew came home alive, using\nthe lunar module as a lifeboat,"
+},
+{
+"a": 278.01,
+"b": 281.57,
+"t": "and NASA called the mission\na successful failure."
+},
+{
+"a": 281.57,
+"b": 284.21,
+"t": "But there was a problem\nwith an escape like that,"
+},
+{
+"a": 284.21,
+"b": 287.69,
+"t": "as the sociologist Diane\nVaughan later showed."
+},
+{
+"a": 287.69,
+"b": 292.64,
+"t": "She studied Challenger and named what a\nrun of escapes does to an organization:"
+},
+{
+"a": 292.65,
+"b": 295.19,
+"t": "the normalization of deviance."
+},
+{
+"a": 295.19,
+"b": 298.39,
+"t": "A problem turns up,\nnothing terrible happens,"
+},
+{
+"a": 298.39,
+"b": 301.27,
+"t": "and slowly the problem becomes normal."
+},
+{
+"a": 301.27,
+"b": 305.47,
+"t": "Each safe return makes the\nnext one easier to believe in."
+},
+{
+"a": 305.47,
+"b": 311.46,
+"t": "The run of safe crewed flights after\nApollo 13 went on for almost sixteen years,"
+},
+{
+"a": 311.47,
+"b": 313.27,
+"t": "but it did not last."
+},
+{
+"a": 313.27,
+"b": 317.76,
+"t": "By then, it was already happening\ninside the space shuttle's boosters."
+},
+{
+"a": 317.77,
+"b": 321.41,
+"t": "The shuttle's two solid rocket\nboosters were built in sections,"
+},
+{
+"a": 321.41,
+"b": 325.94,
+"t": "and each joint was sealed by\ntwo rubber rings called O-rings."
+},
+{
+"a": 325.97,
+"b": 329.33,
+"t": "Hot gas was never supposed\nto reach those rings."
+},
+{
+"a": 329.33,
+"b": 332.22,
+"t": "On flight after flight, it did."
+},
+{
+"a": 332.23,
+"b": 335.57,
+"t": "Rings came back scorched\nand partly eaten away,"
+},
+{
+"a": 335.57,
+"b": 337.57,
+"t": "and the damage was accepted."
+},
+{
+"a": 337.57,
+"b": 342.75,
+"t": "In January 1985, a shuttle launched\non the coldest morning so far,"
+},
+{
+"a": 342.75,
+"b": 347.06,
+"t": "and hot gas got past the first\nring in one of those joints."
+},
+{
+"a": 347.09,
+"b": 350.15,
+"t": "Roger Boisjoly, an engineer\nat the booster maker,"
+},
+{
+"a": 350.15,
+"b": 353.71,
+"t": "Morton Thiokol, found\nthat flight alarming."
+},
+{
+"a": 353.71,
+"b": 357.82,
+"t": "That July, he wrote a memo to his\ncompany's head of engineering."
+},
+{
+"a": 357.83,
+"b": 362.61,
+"t": "If a joint failed, he warned, the result\nwould be a catastrophe of the highest"
+},
+{
+"a": 362.61,
+"b": 365.36,
+"t": "order, loss of human life."
+},
+{
+"a": 365.39,
+"b": 367.38,
+"t": "The shuttle kept flying."
+},
+{
+"a": 367.38,
+"b": 368.65,
+"t": "On 27 January"
+},
+{
+"a": 369.0,
+"b": 373.14,
+"t": "1986, the night before\nChallenger was due to launch,"
+},
+{
+"a": 373.14,
+"b": 376.46,
+"t": "the forecast at the Cape\ndropped below freezing."
+},
+{
+"a": 376.46,
+"b": 378.91,
+"t": "Cold makes rubber stiff."
+},
+{
+"a": 378.92,
+"b": 381.66,
+"t": "A stiff ring is slow to seal."
+},
+{
+"a": 381.66,
+"b": 383.38,
+"t": "On a conference call that evening,"
+},
+{
+"a": 383.38,
+"b": 387.52,
+"t": "Thiokol's engineers recommended against\nlaunching below fifty-three degrees"
+},
+{
+"a": 387.52,
+"b": 392.65,
+"t": "Fahrenheit, the temperature of the joints\non that cold flight a year earlier."
+},
+{
+"a": 392.66,
+"b": 395.51,
+"t": "NASA's managers pushed back hard."
+},
+{
+"a": 395.52,
+"b": 397.96,
+"t": "Thiokol went off the line to talk."
+},
+{
+"a": 397.96,
+"b": 401.08,
+"t": "In that break, Boisjoly\nlater told the commission,"
+},
+{
+"a": 401.08,
+"b": 405.7,
+"t": "a senior manager asked the head of engineering\nto take off his engineering hat and"
+},
+{
+"a": 405.7,
+"b": 407.66,
+"t": "put on his management hat."
+},
+{
+"a": 407.66,
+"b": 411.69,
+"t": "When the call started again,\nThiokol recommended the launch."
+},
+{
+"a": 411.72,
+"b": 414.0,
+"t": "The commission later found that NASA had,"
+},
+{
+"a": 414.0,
+"b": 419.0,
+"t": "in effect, asked its contractor to\nprove it was not safe to launch,"
+},
+{
+"a": 419.0,
+"b": 421.41,
+"t": "rather than proving that it was safe."
+},
+{
+"a": 421.42,
+"b": 424.77,
+"t": "The next morning, ice\ncovered the launch tower."
+},
+{
+"a": 424.88,
+"b": 429.34,
+"t": "At 11:38, Challenger lifted\noff in thirty-six degree air,"
+},
+{
+"a": 429.34,
+"b": 434.44,
+"t": "which the commission said was fifteen\ndegrees colder than any launch before it."
+},
+{
+"a": 434.44,
+"b": 439.42,
+"t": "In the first second, smoke puffed from a\njoint near the bottom of the right booster."
+},
+{
+"a": 439.42,
+"b": 441.5,
+"t": "At about seventy-three seconds,"
+},
+{
+"a": 441.5,
+"b": 443.31,
+"t": "the shuttle broke apart."
+},
+{
+"a": 443.34,
+"b": 446.62,
+"t": "Seven people were on board,\nled by the commander,"
+},
+{
+"a": 446.62,
+"b": 447.98,
+"t": "Dick Scobee."
+},
+{
+"a": 447.98,
+"b": 450.28,
+"t": "One of them was Christa McAuliffe,"
+},
+{
+"a": 450.28,
+"b": 452.74,
+"t": "a high school teacher from New Hampshire."
+},
+{
+"a": 452.74,
+"b": 457.16,
+"t": "She had been picked from about eleven\nthousand applicants to be the first teacher in"
+},
+{
+"a": 457.16,
+"b": 462.14,
+"t": "space, and children in classrooms\nacross America were watching."
+},
+{
+"a": 462.14,
+"b": 466.98,
+"t": "At a televised hearing, the physicist\nRichard Feynman clamped a piece of O-ring"
+},
+{
+"a": 466.98,
+"b": 469.54,
+"t": "rubber, dropped it in ice water,"
+},
+{
+"a": 469.54,
+"b": 472.12,
+"t": "and showed it no longer sprang back."
+},
+{
+"a": 472.12,
+"b": 475.58,
+"t": "He wrote in the report that\nfor a successful technology,"
+},
+{
+"a": 475.58,
+"b": 479.12,
+"t": "reality must take precedence\nover public relations,"
+},
+{
+"a": 479.12,
+"b": 481.54,
+"t": "for nature cannot be fooled."
+},
+{
+"a": 481.54,
+"b": 487.13,
+"t": "NASA grounded the shuttle, redesigned the\njoints and promised that it had changed."
+},
+{
+"a": 487.14,
+"b": 490.96,
+"t": "Seventeen years later, the\npattern came back with foam."
+},
+{
+"a": 490.96,
+"b": 494.7,
+"t": "The shuttle's orange fuel tank\nwas covered in foam insulation,"
+},
+{
+"a": 494.7,
+"b": 497.93,
+"t": "and pieces of it often\nbroke off during launch."
+},
+{
+"a": 497.94,
+"b": 502.03,
+"t": "Early on, engineers saw\nfalling foam as a danger."
+},
+{
+"a": 502.12,
+"b": 506.34,
+"t": "As the shuttles kept landing, it\ncame to be treated as routine."
+},
+{
+"a": 506.34,
+"b": 511.66,
+"t": "In October 2002, a chunk came off the\nsame spot on the tank during the launch of"
+},
+{
+"a": 511.66,
+"b": 515.47,
+"t": "Atlantis and hit a ring\non one of its boosters."
+},
+{
+"a": 515.48,
+"b": 519.16,
+"t": "It was the sixth known time\nfoam had come off that spot,"
+},
+{
+"a": 519.16,
+"b": 522.63,
+"t": "and managers chose not to\ntreat it as a flight problem."
+},
+{
+"a": 522.64,
+"b": 525.03,
+"t": "Three months later, on 16 January"
+},
+{
+"a": 525.32,
+"b": 528.4,
+"t": "2003, Columbia lifted off."
+},
+{
+"a": 528.4,
+"b": 530.78,
+"t": "About eighty-two seconds into the flight,"
+},
+{
+"a": 530.78,
+"b": 536.0,
+"t": "a piece of foam broke off the tank and\nstruck the front edge of the left wing."
+},
+{
+"a": 536.0,
+"b": 539.3,
+"t": "Engineers spotted the strike on\nthe launch film the next day,"
+},
+{
+"a": 539.3,
+"b": 542.8,
+"t": "and wanted the military to\nphotograph the wing in orbit."
+},
+{
+"a": 542.8,
+"b": 546.93,
+"t": "By the investigators' count, there\nwere three separate requests."
+},
+{
+"a": 546.96,
+"b": 548.69,
+"t": "None of them went through."
+},
+{
+"a": 548.86,
+"b": 553.5,
+"t": "Personal notes quoted by the board say the\nrequest was dropped because even if they"
+},
+{
+"a": 553.5,
+"b": 556.56,
+"t": "saw something, they couldn't\ndo anything about it."
+},
+{
+"a": 556.56,
+"b": 559.48,
+"t": "Engineers ran a computer model instead."
+},
+{
+"a": 559.48,
+"b": 564.22,
+"t": "The board found they concluded from it\nthat there was no safety-of-flight issue."
+},
+{
+"a": 564.22,
+"b": 569.25,
+"t": "The model had been checked against pieces\nof debris of up to three cubic inches."
+},
+{
+"a": 569.3,
+"b": 574.51,
+"t": "The board's best estimate was that Columbia's\nfoam was four hundred times bigger."
+},
+{
+"a": 574.56,
+"b": 579.72,
+"t": "One engineer, Rodney Rocha, wrote an\nemail saying it was wrong not to ask for"
+},
+{
+"a": 579.72,
+"b": 582.22,
+"t": "outside help to get the pictures."
+},
+{
+"a": 582.22,
+"b": 585.56,
+"t": "He reminded them of the NASA\nsafety posters that said,"
+},
+{
+"a": 585.56,
+"b": 588.12,
+"t": "if it's not safe, say so."
+},
+{
+"a": 588.12,
+"b": 591.85,
+"t": "Then he wrote, yes, it's that serious."
+},
+{
+"a": 591.88,
+"b": 595.58,
+"t": "He never sent it, because,\nhe told investigators,"
+},
+{
+"a": 595.58,
+"b": 598.5,
+"t": "he didn't want to go\nover his managers' heads."
+},
+{
+"a": 598.5,
+"b": 600.86,
+"t": "Mission Control did email the commander,"
+},
+{
+"a": 600.86,
+"b": 604.12,
+"t": "Rick Husband, and the\npilot, William McCool,"
+},
+{
+"a": 604.12,
+"b": 605.78,
+"t": "about the foam strike."
+},
+{
+"a": 605.78,
+"b": 609.59,
+"t": "It told them there was\nabsolutely no concern for entry."
+},
+{
+"a": 609.6,
+"b": 610.91,
+"t": "On 1 February,"
+},
+{
+"a": 611.02,
+"b": 615.68,
+"t": "as Columbia came home, hot gas\ngot in through the broken wing."
+},
+{
+"a": 615.68,
+"b": 619.14,
+"t": "Over Texas, about sixteen\nminutes before landing,"
+},
+{
+"a": 619.14,
+"b": 623.0,
+"t": "Columbia broke apart with\nseven astronauts on board."
+},
+{
+"a": 623.0,
+"b": 625.06,
+"t": "Among them were Kalpana Chawla,"
+},
+{
+"a": 625.06,
+"b": 628.22,
+"t": "who was born in India, and Ilan Ramon,"
+},
+{
+"a": 628.22,
+"b": 630.24,
+"t": "Israel's first astronaut."
+},
+{
+"a": 630.24,
+"b": 634.98,
+"t": "That July, the investigators fired their\nfoam at a wing panel and made the hole from"
+},
+{
+"a": 634.98,
+"b": 636.85,
+"t": "the start of this video."
+},
+{
+"a": 636.94,
+"b": 642.28,
+"t": "Their report said NASA's culture had as\nmuch to do with the accident as the foam."
+},
+{
+"a": 642.28,
+"b": 646.23,
+"t": "It called the repeating patterns\nthe echoes of Challenger."
+},
+{
+"a": 646.36,
+"b": 650.58,
+"t": "All three disasters fell within six\ndays of each other on the calendar,"
+},
+{
+"a": 650.58,
+"b": 656.1,
+"t": "and every January, NASA remembers them\ntogether on one Day of Remembrance."
+},
+{
+"a": 656.1,
+"b": 659.63,
+"t": "The board also said why\nthe warnings kept losing."
+},
+{
+"a": 659.74,
+"b": 661.8,
+"t": "In both Challenger and Columbia,"
+},
+{
+"a": 661.8,
+"b": 666.06,
+"t": "it said, engineers were asked to\nprove that it was unsafe to fly,"
+},
+{
+"a": 666.06,
+"b": 668.68,
+"t": "instead of having to\nprove that it was safe."
+},
+{
+"a": 668.68,
+"b": 672.75,
+"t": "NASA, it wrote, had inverted\nthe burden of proof."
+},
+{
+"a": 672.84,
+"b": 676.96,
+"t": "Add a schedule that had to be met\nand a long run of safe returns,"
+},
+{
+"a": 676.96,
+"b": 680.75,
+"t": "and a warning had to win an\nargument it was set up to lose."
+},
+{
+"a": 680.84,
+"b": 685.58,
+"t": "After the first of the three, as flight\ndirector Gene Kranz later recalled it,"
+},
+{
+"a": 685.58,
+"b": 689.81,
+"t": "he told his flight controllers to\nwrite two words on their blackboards:"
+},
+{
+"a": 689.86,
+"b": 692.02,
+"t": "tough and competent."
+},
+{
+"a": 692.02,
+"b": 696.46,
+"t": "Tough, he said, meant being forever\naccountable for what they did,"
+},
+{
+"a": 696.46,
+"b": 698.52,
+"t": "and for what they failed to do."
+},
+{
+"a": 698.52,
+"b": 702.0,
+"t": "He told them those words\nwould never be erased."
+},
+{
+"a": 702.0,
+"b": 704.75,
+"t": "He said it in 1967."
+},
+{
+"a": 704.78,
+"b": 707.7,
+"t": "Fourteen more astronauts were lost anyway,"
+},
+{
+"a": 707.7,
+"b": 711.83,
+"t": "and each time, someone inside\nhad already seen it coming."
+}
+],
+"subs": [],
+"grain": true,
+"grainOpacity": 0.07,
+"parts": 4
+}
