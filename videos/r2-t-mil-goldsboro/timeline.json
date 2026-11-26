@@ -727,9 +727,9 @@
   {
    "a": 3.62,
    "b": 5.9,
-   "kind": "clip",
-   "src": "clips/s02.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/gbombs.jpg",
+   "mv": "static"
   },
   {
    "a": 5.9,
@@ -796,20 +796,13 @@
   },
   {
    "a": 25.5,
-   "b": 27.54,
-   "kind": "img",
-   "src": "img/g2.jpg",
-   "mv": "push"
-  },
-  {
-   "a": 27.54,
-   "b": 29.14,
+   "b": 28.18,
    "kind": "img",
    "src": "img/g7.jpg",
    "mv": "push"
   },
   {
-   "a": 29.14,
+   "a": 28.18,
    "b": 31.46,
    "kind": "img",
    "src": "img/g8.jpg",
@@ -819,21 +812,14 @@
    "a": 31.46,
    "b": 33.2,
    "kind": "clip",
-   "src": "clips/s15.mp4",
+   "src": "clips/s14.mp4",
    "rate": 1.0
   },
   {
    "a": 33.2,
-   "b": 36.34,
-   "kind": "clip",
-   "src": "clips/s16.mp4",
-   "rate": 1.0
-  },
-  {
-   "a": 36.34,
    "b": 38.36,
    "kind": "clip",
-   "src": "clips/s17.mp4",
+   "src": "clips/s15.mp4",
    "rate": 1.0
   },
   {
@@ -845,20 +831,13 @@
   },
   {
    "a": 41.18,
-   "b": 43.58,
-   "kind": "img",
-   "src": "img/g4.jpg",
-   "mv": "push"
-  },
-  {
-   "a": 43.58,
-   "b": 45.48,
+   "b": 43.88,
    "kind": "img",
    "src": "img/g9.jpg",
    "mv": "push"
   },
   {
-   "a": 45.48,
+   "a": 43.88,
    "b": 47.12,
    "kind": "img",
    "src": "img/g10.jpg",
@@ -880,12 +859,6 @@
   }
  ],
  "text": [
-  {
-   "a": 4.08,
-   "b": 5.48,
-   "t": "2 H-BOMBS",
-   "c": "white"
-  },
   {
    "a": 22.36,
    "b": 23.76,
