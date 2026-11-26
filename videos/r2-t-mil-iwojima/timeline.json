@@ -842,9 +842,9 @@
   {
    "a": 28.5,
    "b": 30.4,
-   "kind": "clip",
-   "src": "clips/s12.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/p8.jpg",
+   "mv": "push"
   },
   {
    "a": 30.4,
@@ -906,7 +906,7 @@
    "a": 49.34,
    "b": 52.38,
    "kind": "img",
-   "src": "img/p9.jpg",
+   "src": "img/p10.jpg",
    "mv": "push"
   }
  ],
