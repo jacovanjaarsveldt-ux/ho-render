@@ -34,13 +34,9 @@
 {
 "a": 12.6,
 "b": 15.84,
-"kind": "comp",
-"src": "img/wrestling-1912/p12.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": 1,
-"line": "That race is number one of eight, and on the way there's a wrestling match that ran nearly twelve hours, a boy who won gold and vanished, and a marathon that took fifty-four years to finish.",
-"pic": "wrestling-1912/p12"
+"kind": "card",
+"text": "A WRESTLING MATCH\nNEARLY TWELVE HOURS",
+"line": "That race is number one of eight, and on the way there's a wrestling match that ran nearly twelve hours, a boy who won gold and vanished, and a marathon that took fifty-four years to finish."
 },
 {
 "a": 15.84,
@@ -278,25 +274,21 @@
 },
 {
 "a": 120.82,
-"b": 125.5,
+"b": 122.72,
+"kind": "card",
+"text": "11 HOURS\n40 MINUTES",
+"line": "Eleven hours and forty minutes is how long two Olympic wrestlers fought, and the man who won was too wrecked to wrestle for the gold."
+},
+{
+"a": 122.72,
+"b": 129.4,
 "kind": "comp",
 "src": "img/wrestling-1912/p7.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": -1,
-"line": "Eleven hours and forty minutes is how long two Olympic wrestlers fought, and the man who won was too wrecked to wrestle for the gold.",
-"pic": "wrestling-1912/p7"
-},
-{
-"a": 125.5,
-"b": 129.4,
-"kind": "comp",
-"src": "img/wrestling-1912/p10.jpg",
-"cam": "pan",
-"o": "50% 50%",
 "dir": 1,
 "line": "Eleven hours and forty minutes is how long two Olympic wrestlers fought, and the man who won was too wrecked to wrestle for the gold.",
-"pic": "wrestling-1912/p10"
+"pic": "wrestling-1912/p7"
 },
 {
 "a": 129.4,
@@ -364,7 +356,7 @@
 "a": 152.2,
 "b": 156.98,
 "kind": "card",
-"text": "11 HOURS\n40 MINUTES",
+"text": "KLEIN\nFINALLY WON",
 "line": "After eleven hours and forty minutes, Klein finally beat him."
 },
 {
