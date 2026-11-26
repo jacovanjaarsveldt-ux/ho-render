@@ -799,9 +799,9 @@
   {
    "a": 8.58,
    "b": 10.78,
-   "kind": "clip",
-   "src": "clips/s03.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/p7.jpg",
+   "mv": "push"
   },
   {
    "a": 10.78,
@@ -911,9 +911,9 @@
   {
    "a": 45.36,
    "b": 47.3,
-   "kind": "clip",
-   "src": "clips/s19.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/p8.jpg",
+   "mv": "push"
   },
   {
    "a": 47.3,
@@ -939,9 +939,9 @@
   {
    "a": 54.44,
    "b": 56.32,
-   "kind": "clip",
-   "src": "clips/s23.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/p9.jpg",
+   "mv": "push"
   }
  ],
  "text": [
