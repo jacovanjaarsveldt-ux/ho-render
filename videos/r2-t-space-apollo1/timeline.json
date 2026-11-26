@@ -735,9 +735,9 @@
   {
    "a": 10.92,
    "b": 12.56,
-   "kind": "img",
-   "src": "img/chamber.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s06.mp4",
+   "rate": 1.0
   },
   {
    "a": 12.56,
@@ -763,9 +763,9 @@
   {
    "a": 18.32,
    "b": 20.48,
-   "kind": "img",
-   "src": "img/cm.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s10.mp4",
+   "rate": 1.0
   },
   {
    "a": 20.48,
@@ -784,9 +784,9 @@
   {
    "a": 26.04,
    "b": 28.8,
-   "kind": "clip",
-   "src": "clips/s13.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/chamber.jpg",
+   "mv": "push"
   },
   {
    "a": 28.8,
@@ -798,9 +798,9 @@
   {
    "a": 30.12,
    "b": 32.22,
-   "kind": "clip",
-   "src": "clips/s15.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/cm.jpg",
+   "mv": "push"
   },
   {
    "a": 32.22,
@@ -820,7 +820,7 @@
    "a": 35.9,
    "b": 37.76,
    "kind": "img",
-   "src": "img/stack.jpg",
+   "src": "img/csm.jpg",
    "mv": "push"
   },
   {
@@ -833,16 +833,16 @@
   {
    "a": 39.66,
    "b": 41.52,
-   "kind": "img",
-   "src": "img/csm.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s20.mp4",
+   "rate": 1.0
   },
   {
    "a": 41.52,
    "b": 43.96,
-   "kind": "clip",
-   "src": "clips/s21.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/hatch.jpg",
+   "mv": "push"
   },
   {
    "a": 43.96,
@@ -869,7 +869,7 @@
    "a": 50.44,
    "b": 53.04,
    "kind": "img",
-   "src": "img/saturn.jpg",
+   "src": "img/stack.jpg",
    "mv": "push"
   }
  ],
