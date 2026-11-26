@@ -33,7 +33,7 @@ const Comp: React.FC<{ s: Shot }> = ({ s }) => {
   return <AbsoluteFill style={{ overflow: "hidden", background: C.ink }}>
     <Img src={staticFile(s.src!)} style={{ position: "absolute", inset: -60, width: "calc(100% + 120px)", height: "calc(100% + 120px)", objectFit: "cover", filter: "blur(38px) brightness(0.42) saturate(0.8)" }} />
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-      <Img src={staticFile(s.src!)} style={{ maxWidth: "92%", maxHeight: "100%", objectFit: "contain", transformOrigin: s.o ?? "50% 50%", transform: `translateX(${tx}px) scale(${scale})`, boxShadow: "0 18px 60px rgba(0,0,0,.65)" }} />
+      <Img src={staticFile(s.src!)} style={{ width: "92%", height: "100%", objectFit: "contain", transformOrigin: s.o ?? "50% 50%", transform: `translateX(${tx}px) scale(${scale})`, filter: "drop-shadow(0 18px 40px rgba(0,0,0,.65))" }} />
     </AbsoluteFill>
   </AbsoluteFill>;
 };
