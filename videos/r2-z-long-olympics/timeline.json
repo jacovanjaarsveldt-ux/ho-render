@@ -1,0 +1,11263 @@
+{
+"end": 675.0,
+"vo_end": 673.4,
+"shots": [
+{
+"a": 0.0,
+"b": 4.05,
+"kind": "comp",
+"src": "img/crop/marathon-1904_p2.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "An Olympic marathon winner was kept on his feet with strychnine, the stuff in rat poison, and it isn't even the only strange thing about that race.",
+"pic": "marathon-1904/p2"
+},
+{
+"a": 4.05,
+"b": 9.89,
+"kind": "card",
+"text": "STRYCHNINE\nTHE STUFF IN RAT POISON",
+"line": "An Olympic marathon winner was kept on his feet with strychnine, the stuff in rat poison, and it isn't even the only strange thing about that race."
+},
+{
+"a": 9.89,
+"b": 13.11,
+"kind": "comp",
+"src": "img/wrestling-1912/p3.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"dir": -1,
+"line": "These are eight true stories from the early Olympics, and some of them sound made up, but every one is in the record books.",
+"pic": "wrestling-1912/p3"
+},
+{
+"a": 13.11,
+"b": 17.84,
+"kind": "card",
+"text": "THE STRANGEST THINGS\nTHAT EVER HAPPENED\nAT THE OLYMPICS",
+"line": "These are eight true stories from the early Olympics, and some of them sound made up, but every one is in the record books."
+},
+{
+"a": 17.84,
+"b": 19.88,
+"kind": "count",
+"num": "8",
+"title": "Paris 1900",
+"line": "Number eight."
+},
+{
+"a": 19.88,
+"b": 22.46,
+"kind": "comp",
+"src": "img/p2.png",
+"cam": "push",
+"o": "50% 20%",
+"dir": 1,
+"line": "Paris once ran an Olympics so loosely that some champions went home without knowing they'd been in one.",
+"pic": "p2"
+},
+{
+"a": 22.46,
+"b": 26.04,
+"kind": "comp",
+"src": "img/p3.jpg",
+"cam": "push",
+"o": "50% 10%",
+"dir": -1,
+"line": "Paris once ran an Olympics so loosely that some champions went home without knowing they'd been in one.",
+"pic": "p3"
+},
+{
+"a": 26.04,
+"b": 29.59,
+"kind": "comp",
+"src": "img/p36.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The Games were tacked onto the World's Fair and spread over five months, with no opening ceremony and no closing one.",
+"pic": "p36"
+},
+{
+"a": 29.59,
+"b": 33.17,
+"kind": "img",
+"src": "img/p37.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "The Games were tacked onto the World's Fair and spread over five months, with no opening ceremony and no closing one.",
+"pic": "p37"
+},
+{
+"a": 33.17,
+"b": 35.43,
+"kind": "img",
+"src": "img/p7.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "The swimming was in the river Seine, where the current ran so strong that the times came out far too fast.",
+"pic": "p7"
+},
+{
+"a": 35.43,
+"b": 40.3,
+"kind": "comp",
+"src": "img/p8.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The swimming was in the river Seine, where the current ran so strong that the times came out far too fast.",
+"pic": "p8"
+},
+{
+"a": 40.3,
+"b": 44.17,
+"kind": "comp",
+"src": "img/p9.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "One swimming race made the men climb over a row of boats and then swim under another.",
+"pic": "p9"
+},
+{
+"a": 44.17,
+"b": 46.13,
+"kind": "comp",
+"src": "img/p10.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": -1,
+"line": "One swimming race made the men climb over a row of boats and then swim under another.",
+"pic": "p10"
+},
+{
+"a": 46.13,
+"b": 48.39,
+"kind": "comp",
+"src": "img/p35.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "An Australian called Fred Lane won it, and he won the two hundred metres freestyle as well.",
+"pic": "p35"
+},
+{
+"a": 48.39,
+"b": 51.97,
+"kind": "card",
+"text": "THE 200 METRES\nFREESTYLE TOO",
+"line": "An Australian called Fred Lane won it, and he won the two hundred metres freestyle as well."
+},
+{
+"a": 51.97,
+"b": 55.85,
+"kind": "comp",
+"src": "img/p12.jpg",
+"cam": "push",
+"o": "50% 45%",
+"dir": 1,
+"line": "In the rowing, a Dutch pair decided their cox was too heavy, so they picked a French boy out of the crowd to steer the final.",
+"pic": "p12"
+},
+{
+"a": 55.85,
+"b": 60.72,
+"kind": "comp",
+"src": "img/crop/p11.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "In the rowing, a Dutch pair decided their cox was too heavy, so they picked a French boy out of the crowd to steer the final.",
+"pic": "p11"
+},
+{
+"a": 60.72,
+"b": 63.97,
+"kind": "card",
+"text": "THEIR USUAL COX\nSTEERED THE SEMI-FINAL",
+"line": "Their usual cox had steered them through the semi-final."
+},
+{
+"a": 63.97,
+"b": 70.13,
+"kind": "comp",
+"src": "img/p11.jpg",
+"cam": "push",
+"o": "52% 62%",
+"dir": -1,
+"line": "They won by a whisker, the boy posed for a photo, and then he walked off into Paris.",
+"pic": "p11"
+},
+{
+"a": 70.13,
+"b": 74.36,
+"kind": "card",
+"text": "WHO WAS HE?\nHOW OLD WAS HE?",
+"line": "Nobody has ever proved who he was or how old he was."
+},
+{
+"a": 74.36,
+"b": 80.84,
+"kind": "card",
+"text": "THE YOUNGEST\nOLYMPIC CHAMPION EVER?",
+"line": "He may be the youngest Olympic champion of all time, and there's no name to put in the record."
+},
+{
+"a": 80.84,
+"b": 85.71,
+"kind": "comp",
+"src": "img/p14.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": 1,
+"line": "Then there's Margaret Abbott, an American art student living in Paris with her mother.",
+"pic": "p14"
+},
+{
+"a": 85.71,
+"b": 90.9,
+"kind": "img",
+"src": "img/p13.png",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "She entered a women's golf tournament and won it, going round nine holes in forty-seven.",
+"pic": "p13"
+},
+{
+"a": 90.9,
+"b": 97.71,
+"kind": "img",
+"src": "img/crop/p15.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"dir": 1,
+"line": "Her mother, Mary, played in the same event, and no mother and daughter have done that at one Olympics since.",
+"pic": "p15"
+},
+{
+"a": 97.71,
+"b": 100.96,
+"kind": "card",
+"text": "A PORCELAIN BOWL\nNOT A MEDAL",
+"line": "Margaret's prize was a porcelain bowl, not a medal."
+},
+{
+"a": 100.96,
+"b": 107.12,
+"kind": "comp",
+"src": "img/p33.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "As far as anyone knows, she died in 1955 never knowing she was America's first woman Olympic champion.",
+"pic": "p33"
+},
+{
+"a": 107.12,
+"b": 111.53,
+"kind": "card",
+"text": "AMERICA'S FIRST\nWOMAN OLYMPIC CHAMPION",
+"line": "Her children only found out decades later, when a historian tracked them down."
+},
+{
+"a": 111.53,
+"b": 113.56,
+"kind": "count",
+"num": "7",
+"title": "The longest match",
+"line": "Number seven."
+},
+{
+"a": 113.56,
+"b": 116.79,
+"kind": "comp",
+"src": "img/wrestling-1912/p7.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Two Olympic wrestlers fought for eleven hours and forty minutes, and the man who won was too wrecked to wrestle for the gold.",
+"pic": "wrestling-1912/p7"
+},
+{
+"a": 116.79,
+"b": 121.34,
+"kind": "comp",
+"src": "img/wrestling-1912/p10.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Two Olympic wrestlers fought for eleven hours and forty minutes, and the man who won was too wrecked to wrestle for the gold.",
+"pic": "wrestling-1912/p10"
+},
+{
+"a": 121.34,
+"b": 124.24,
+"kind": "comp",
+"src": "img/wrestling-1912/p0.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": -1,
+"line": "Martin Klein was an Estonian on Russia's team, and Alfred Asikainen of Finland was the world champion.",
+"pic": "wrestling-1912/p0"
+},
+{
+"a": 124.24,
+"b": 127.18,
+"kind": "img",
+"src": "img/wrestling-1912/p2.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Martin Klein was an Estonian on Russia's team, and Alfred Asikainen of Finland was the world champion.",
+"pic": "wrestling-1912/p2"
+},
+{
+"a": 127.18,
+"b": 131.72,
+"kind": "comp",
+"src": "img/wrestling-1912/p4.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "They met in the semi-final in Stockholm, outdoors, under a hot July sun.",
+"pic": "wrestling-1912/p4"
+},
+{
+"a": 131.72,
+"b": 135.6,
+"kind": "comp",
+"src": "img/wrestling-1912/p17.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "There was no time limit, just half-hour rounds with a short break, and in theory you kept going until somebody won.",
+"pic": "wrestling-1912/p17"
+},
+{
+"a": 135.6,
+"b": 138.85,
+"kind": "comp",
+"src": "img/wrestling-1912/p5.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "There was no time limit, just half-hour rounds with a short break, and in theory you kept going until somebody won.",
+"pic": "wrestling-1912/p5"
+},
+{
+"a": 138.85,
+"b": 142.43,
+"kind": "comp",
+"src": "img/wrestling-1912/p6.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "So they kept going, one hour, then five, then ten.",
+"pic": "wrestling-1912/p6"
+},
+{
+"a": 142.43,
+"b": 147.97,
+"kind": "card",
+"text": "11 HOURS\n40 MINUTES",
+"line": "After eleven hours and forty minutes, Klein finally beat him."
+},
+{
+"a": 147.97,
+"b": 153.14,
+"kind": "img",
+"src": "img/wrestling-1912/p15.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Klein was so spent he couldn't take part in the final, so the Swede waiting there, Claes Johansson, got the gold without a fight.",
+"pic": "wrestling-1912/p15"
+},
+{
+"a": 153.14,
+"b": 156.07,
+"kind": "comp",
+"src": "img/wrestling-1912/p8.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": -1,
+"line": "Klein was so spent he couldn't take part in the final, so the Swede waiting there, Claes Johansson, got the gold without a fight.",
+"pic": "wrestling-1912/p8"
+},
+{
+"a": 156.07,
+"b": 159.0,
+"kind": "comp",
+"src": "img/wrestling-1912/p12.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "And it got stranger one weight class up.",
+"pic": "wrestling-1912/p12"
+},
+{
+"a": 159.0,
+"b": 161.58,
+"kind": "comp",
+"src": "img/wrestling-1912/p9.jpg",
+"cam": "push",
+"o": "50% 20%",
+"dir": -1,
+"line": "That final, between Anders Ahlgren of Sweden and Ivar B\u00f6hling of Finland, went on for about nine hours, and nobody won.",
+"pic": "wrestling-1912/p9"
+},
+{
+"a": 161.58,
+"b": 166.13,
+"kind": "comp",
+"src": "img/wrestling-1912/p14.jpg",
+"cam": "push",
+"o": "50% 20%",
+"dir": 1,
+"line": "That final, between Anders Ahlgren of Sweden and Ivar B\u00f6hling of Finland, went on for about nine hours, and nobody won.",
+"pic": "wrestling-1912/p14"
+},
+{
+"a": 166.13,
+"b": 170.68,
+"kind": "comp",
+"src": "img/wrestling-1912/p11.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "There was no gold at all, and both men went home with silver.",
+"pic": "wrestling-1912/p11"
+},
+{
+"a": 170.68,
+"b": 176.69,
+"kind": "comp",
+"src": "img/wrestling-1912/p19.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "From 1924 on, Olympic wrestling had time limits, and Klein's match is still the longest in Olympic history.",
+"pic": "wrestling-1912/p19"
+},
+{
+"a": 176.69,
+"b": 178.73,
+"kind": "count",
+"num": "6",
+"title": "The final run by one man",
+"line": "Number six."
+},
+{
+"a": 178.73,
+"b": 182.93,
+"kind": "comp",
+"src": "img/p16.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "A British army officer won Olympic gold by running the final completely alone, because the other three men were either thrown out or told not to start.",
+"pic": "p16"
+},
+{
+"a": 182.93,
+"b": 187.8,
+"kind": "card",
+"text": "THE FINAL\nCOMPLETELY ALONE",
+"line": "A British army officer won Olympic gold by running the final completely alone, because the other three men were either thrown out or told not to start."
+},
+{
+"a": 187.8,
+"b": 193.29,
+"kind": "comp",
+"src": "img/p17.jpg",
+"cam": "push",
+"o": "45% 40%",
+"dir": 1,
+"line": "Wyndham Halswelle, a Highland Light Infantry officer, set an Olympic record in the four hundred metre semi-final at London in 1908.",
+"pic": "p17"
+},
+{
+"a": 193.29,
+"b": 194.93,
+"kind": "comp",
+"src": "img/p25.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Wyndham Halswelle, a Highland Light Infantry officer, set an Olympic record in the four hundred metre semi-final at London in 1908.",
+"pic": "p25"
+},
+{
+"a": 194.93,
+"b": 199.15,
+"kind": "comp",
+"src": "img/p27.png",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The final was Halswelle against three Americans, and there were no lanes.",
+"pic": "p27"
+},
+{
+"a": 199.15,
+"b": 202.38,
+"kind": "comp",
+"src": "img/p18.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": -1,
+"line": "Coming into the home straight, John Carpenter kept drifting wider, and British officials said he pushed Halswelle almost to the edge of the track.",
+"pic": "p18"
+},
+{
+"a": 202.38,
+"b": 207.25,
+"kind": "card",
+"text": "ALMOST TO THE EDGE\nOF THE TRACK",
+"line": "Coming into the home straight, John Carpenter kept drifting wider, and British officials said he pushed Halswelle almost to the edge of the track."
+},
+{
+"a": 207.25,
+"b": 213.73,
+"kind": "comp",
+"src": "img/p24.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "An official on the bend waved at the judges, and they broke the finishing tape before anyone got there.",
+"pic": "p24"
+},
+{
+"a": 213.73,
+"b": 215.35,
+"kind": "comp",
+"src": "img/p19.jpg",
+"cam": "push",
+"o": "55% 35%",
+"dir": 1,
+"line": "That evening Carpenter was disqualified, and the final was ordered run again two days later, with strings marking out lanes.",
+"pic": "p19"
+},
+{
+"a": 215.35,
+"b": 220.54,
+"kind": "card",
+"text": "RUN AGAIN\nTWO DAYS LATER",
+"line": "That evening Carpenter was disqualified, and the final was ordered run again two days later, with strings marking out lanes."
+},
+{
+"a": 220.54,
+"b": 222.83,
+"kind": "comp",
+"src": "img/p20.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": 1,
+"line": "That wasn't the end of it.",
+"pic": "p20"
+},
+{
+"a": 222.83,
+"b": 227.69,
+"kind": "card",
+"text": "TOLD\nNOT TO RUN",
+"line": "American officials told the other two, William Robbins and John Taylor, not to run."
+},
+{
+"a": 227.69,
+"b": 232.89,
+"kind": "comp",
+"src": "img/p26.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "So Halswelle ran one lap on his own and won gold in about fifty seconds.",
+"pic": "p26"
+},
+{
+"a": 232.89,
+"b": 236.46,
+"kind": "comp",
+"src": "img/p28.jpg",
+"cam": "push",
+"o": "50% 45%",
+"dir": -1,
+"line": "No Olympic track final has been won that way since.",
+"pic": "p28"
+},
+{
+"a": 236.46,
+"b": 242.63,
+"kind": "card",
+"text": "ONE FAREWELL RACE\nTHEN HE QUIT",
+"line": "Halswelle was so sour about it that he ran one farewell race that year and quit the sport."
+},
+{
+"a": 242.63,
+"b": 246.85,
+"kind": "card",
+"text": "KILLED IN FRANCE\nAT THIRTY-TWO",
+"line": "In 1915 he was killed in the war in France, at thirty-two."
+},
+{
+"a": 246.85,
+"b": 249.43,
+"kind": "comp",
+"src": "img/p22.jpg",
+"cam": "push",
+"o": "30% 30%",
+"dir": 1,
+"line": "And John Taylor, who sat out the re-run, won gold in the medley relay that very day, the first African American to win Olympic gold.",
+"pic": "p22"
+},
+{
+"a": 249.43,
+"b": 255.27,
+"kind": "comp",
+"src": "img/p23.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "And John Taylor, who sat out the re-run, won gold in the medley relay that very day, the first African American to win Olympic gold.",
+"pic": "p23"
+},
+{
+"a": 255.27,
+"b": 258.7,
+"kind": "comp",
+"src": "img/p21.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": 1,
+"line": "Five months later he died of typhoid fever, at twenty-six.",
+"pic": "p21"
+},
+{
+"a": 258.7,
+"b": 260.74,
+"kind": "count",
+"num": "5",
+"title": "Jim Thorpe",
+"line": "Number five."
+},
+{
+"a": 260.74,
+"b": 266.23,
+"kind": "comp",
+"src": "img/thorpe-1912/p0.jpg",
+"cam": "push",
+"o": "50% 20%",
+"dir": 1,
+"line": "The man a king supposedly called the greatest athlete in the world lost his Olympic gold medals because he'd once been paid to play summer baseball.",
+"pic": "thorpe-1912/p0"
+},
+{
+"a": 266.23,
+"b": 269.49,
+"kind": "comp",
+"src": "img/thorpe-1912/p10.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The man a king supposedly called the greatest athlete in the world lost his Olympic gold medals because he'd once been paid to play summer baseball.",
+"pic": "thorpe-1912/p10"
+},
+{
+"a": 269.49,
+"b": 274.65,
+"kind": "comp",
+"src": "img/thorpe-1912/p11.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "Jim Thorpe, a member of the Sac and Fox Nation from Oklahoma, was a football star at the Carlisle Indian School in Pennsylvania.",
+"pic": "thorpe-1912/p11"
+},
+{
+"a": 274.65,
+"b": 277.26,
+"kind": "comp",
+"src": "img/thorpe-1912/p18.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Jim Thorpe, a member of the Sac and Fox Nation from Oklahoma, was a football star at the Carlisle Indian School in Pennsylvania.",
+"pic": "thorpe-1912/p18"
+},
+{
+"a": 277.26,
+"b": 281.48,
+"kind": "comp",
+"src": "img/thorpe-1912/p3.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "At the Stockholm Olympics he won both the pentathlon and the decathlon.",
+"pic": "thorpe-1912/p3"
+},
+{
+"a": 281.48,
+"b": 288.96,
+"kind": "comp",
+"src": "img/thorpe-1912/p13.jpg",
+"cam": "push",
+"o": "45% 35%",
+"dir": -1,
+"line": "The story goes that Sweden's king told him, you, sir, are the greatest athlete in the world.",
+"pic": "thorpe-1912/p13"
+},
+{
+"a": 288.96,
+"b": 293.48,
+"kind": "comp",
+"src": "img/thorpe-1912/p4.jpeg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "Early in 1913 a newspaper reported he'd played minor league baseball in North Carolina, for a few dollars a game.",
+"pic": "thorpe-1912/p4"
+},
+{
+"a": 293.48,
+"b": 295.77,
+"kind": "card",
+"text": "A FEW DOLLARS\nA GAME",
+"line": "Early in 1913 a newspaper reported he'd played minor league baseball in North Carolina, for a few dollars a game."
+},
+{
+"a": 295.77,
+"b": 297.73,
+"kind": "img",
+"src": "img/thorpe-1912/p14.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Olympians had to be amateurs.",
+"pic": "thorpe-1912/p14"
+},
+{
+"a": 297.73,
+"b": 303.57,
+"kind": "comp",
+"src": "img/thorpe-1912/p2.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Thorpe wrote to the officials and said he hadn't been wise to the ways of the world.",
+"pic": "thorpe-1912/p2"
+},
+{
+"a": 303.57,
+"b": 307.12,
+"kind": "comp",
+"src": "img/thorpe-1912/p24.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He said lots of college men had done the same thing, they just didn't use their own names.",
+"pic": "thorpe-1912/p24"
+},
+{
+"a": 307.12,
+"b": 309.73,
+"kind": "comp",
+"src": "img/thorpe-1912/p17.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He said lots of college men had done the same thing, they just didn't use their own names.",
+"pic": "thorpe-1912/p17"
+},
+{
+"a": 309.73,
+"b": 313.31,
+"kind": "card",
+"text": "MEDALS TAKEN\nNAME ERASED",
+"line": "The committee took his medals and erased his name anyway."
+},
+{
+"a": 313.31,
+"b": 317.18,
+"kind": "comp",
+"src": "img/thorpe-1912/p21.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Within weeks he'd signed to play baseball for the New York Giants, and later he played pro football for the Canton Bulldogs.",
+"pic": "thorpe-1912/p21"
+},
+{
+"a": 317.18,
+"b": 320.76,
+"kind": "comp",
+"src": "img/thorpe-1912/p22.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "Within weeks he'd signed to play baseball for the New York Giants, and later he played pro football for the Canton Bulldogs.",
+"pic": "thorpe-1912/p22"
+},
+{
+"a": 320.76,
+"b": 325.28,
+"kind": "comp",
+"src": "img/thorpe-1912/p8.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "In 1983, thirty years after he died, the IOC gave his family replica medals but still listed him as a co-champion.",
+"pic": "thorpe-1912/p8"
+},
+{
+"a": 325.28,
+"b": 327.89,
+"kind": "card",
+"text": "STILL LISTED AS\nCO-CHAMPION",
+"line": "In 1983, thirty years after he died, the IOC gave his family replica medals but still listed him as a co-champion."
+},
+{
+"a": 327.89,
+"b": 330.8,
+"kind": "comp",
+"src": "img/thorpe-1912/p5.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Only in 2022, a hundred and ten years late, was he named the sole winner of both events again.",
+"pic": "thorpe-1912/p5"
+},
+{
+"a": 330.8,
+"b": 334.23,
+"kind": "img",
+"src": "img/thorpe-1912/p1.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Only in 2022, a hundred and ten years late, was he named the sole winner of both events again.",
+"pic": "thorpe-1912/p1"
+},
+{
+"a": 334.23,
+"b": 336.27,
+"kind": "count",
+"num": "4",
+"title": "Shizo Kanakuri",
+"line": "Number four."
+},
+{
+"a": 336.27,
+"b": 341.76,
+"kind": "img",
+"src": "img/kanakuri-1912/p1.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Japan's first Olympic marathon runner quit halfway through the race in Sweden, went home without telling anyone, and came back to finish it fifty-four years later.",
+"pic": "kanakuri-1912/p1"
+},
+{
+"a": 341.76,
+"b": 345.01,
+"kind": "comp",
+"src": "img/kanakuri-1912/p10.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Japan's first Olympic marathon runner quit halfway through the race in Sweden, went home without telling anyone, and came back to finish it fifty-four years later.",
+"pic": "kanakuri-1912/p10"
+},
+{
+"a": 345.01,
+"b": 347.59,
+"kind": "comp",
+"src": "img/kanakuri-1912/p8.png",
+"cam": "push",
+"o": "70% 40%",
+"dir": 1,
+"line": "Shizo Kanakuri was a Tokyo student who'd run what Japan claimed was a world record.",
+"pic": "kanakuri-1912/p8"
+},
+{
+"a": 347.59,
+"b": 350.2,
+"kind": "comp",
+"src": "img/kanakuri-1912/p15.png",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Shizo Kanakuri was a Tokyo student who'd run what Japan claimed was a world record.",
+"pic": "kanakuri-1912/p15"
+},
+{
+"a": 350.2,
+"b": 352.79,
+"kind": "img",
+"src": "img/kanakuri-1912/p19.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "The trip to Stockholm took about eighteen days, by ship and then on the Trans-Siberian Railway.",
+"pic": "kanakuri-1912/p19"
+},
+{
+"a": 352.79,
+"b": 355.72,
+"kind": "card",
+"text": "BY SHIP, THEN THE\nTRANS-SIBERIAN RAILWAY",
+"line": "The trip to Stockholm took about eighteen days, by ship and then on the Trans-Siberian Railway."
+},
+{
+"a": 355.72,
+"b": 360.59,
+"kind": "img",
+"src": "img/kanakuri-1912/p2.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Race day was close to ninety degrees, and about half the field never finished.",
+"pic": "kanakuri-1912/p2"
+},
+{
+"a": 360.59,
+"b": 366.1,
+"kind": "img",
+"src": "img/kanakuri-1912/p4.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "About thirty kilometres in, Kanakuri turned off into a family's garden, where people were drinking juice.",
+"pic": "kanakuri-1912/p4"
+},
+{
+"a": 366.1,
+"b": 371.3,
+"kind": "card",
+"text": "HE SLEPT UNTIL\nTHE NEXT MORNING",
+"line": "They gave him a drink, he sat down, and he slept until the next morning."
+},
+{
+"a": 371.3,
+"b": 376.49,
+"kind": "img",
+"src": "img/kanakuri-1912/p16.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He was so ashamed that he went home without a word to a single official.",
+"pic": "kanakuri-1912/p16"
+},
+{
+"a": 376.49,
+"b": 381.03,
+"kind": "img",
+"src": "img/kanakuri-1912/p3.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "In Sweden he turned into a small legend, the Japanese runner who vanished.",
+"pic": "kanakuri-1912/p3"
+},
+{
+"a": 381.03,
+"b": 383.32,
+"kind": "card",
+"text": "FIFTY-FOUR\nYEARS",
+"line": "What happened next took fifty-four years."
+},
+{
+"a": 383.32,
+"b": 386.55,
+"kind": "comp",
+"src": "img/kanakuri-1912/p0.jpg",
+"cam": "push",
+"o": "38% 30%",
+"dir": 1,
+"line": "He ran two more Olympic marathons, in 1920 and 1924, and back home he helped start the Hakone relay, which millions still watch on TV.",
+"pic": "kanakuri-1912/p0"
+},
+{
+"a": 386.55,
+"b": 389.45,
+"kind": "comp",
+"src": "img/kanakuri-1912/p13.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He ran two more Olympic marathons, in 1920 and 1924, and back home he helped start the Hakone relay, which millions still watch on TV.",
+"pic": "kanakuri-1912/p13"
+},
+{
+"a": 389.45,
+"b": 391.74,
+"kind": "comp",
+"src": "img/p38.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He ran two more Olympic marathons, in 1920 and 1924, and back home he helped start the Hakone relay, which millions still watch on TV.",
+"pic": "p38"
+},
+{
+"a": 391.74,
+"b": 396.29,
+"kind": "img",
+"src": "img/kanakuri-1912/p14.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "In 1967 Swedish television found him and asked if he'd like to finish.",
+"pic": "kanakuri-1912/p14"
+},
+{
+"a": 396.29,
+"b": 401.48,
+"kind": "comp",
+"src": "img/kanakuri-1912/p7.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "At seventy-five, in a coat, he jogged into the Stockholm stadium and crossed the line.",
+"pic": "kanakuri-1912/p7"
+},
+{
+"a": 401.48,
+"b": 406.99,
+"kind": "card",
+"text": "54 YEARS, 8 MONTHS, 6 DAYS\n5 HOURS, 32 MINUTES\n20 SECONDS",
+"line": "His time was fifty-four years, eight months, six days, five hours, thirty-two minutes and twenty seconds."
+},
+{
+"a": 406.99,
+"b": 414.3,
+"kind": "comp",
+"src": "img/kanakuri-1912/p9.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "He said it had been a long trip, and along the way he'd got married and had six children and ten grandchildren.",
+"pic": "kanakuri-1912/p9"
+},
+{
+"a": 414.3,
+"b": 416.34,
+"kind": "count",
+"num": "3",
+"title": "Dorando Pietri",
+"line": "Number three."
+},
+{
+"a": 416.34,
+"b": 423.47,
+"kind": "comp",
+"src": "img/pietri/p0.jpg",
+"cam": "push",
+"o": "50% 45%",
+"dir": 1,
+"line": "A little Italian runner crossed the Olympic marathon finish line first, and the gold medal went to the man behind him.",
+"pic": "pietri/p0"
+},
+{
+"a": 423.47,
+"b": 428.02,
+"kind": "comp",
+"src": "img/pietri/p5.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": -1,
+"line": "Dorando Pietri was a cake-maker from Carpi, a small town in northern Italy.",
+"pic": "pietri/p5"
+},
+{
+"a": 428.02,
+"b": 433.21,
+"kind": "comp",
+"src": "img/pietri/p7.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "The 1908 London marathon ran from Windsor Castle into the new stadium at White City.",
+"pic": "pietri/p7"
+},
+{
+"a": 433.21,
+"b": 439.05,
+"kind": "card",
+"text": "26 MILES\n385 YARDS",
+"line": "That race gave us the distance marathons still use, twenty-six miles and three hundred and eighty-five yards."
+},
+{
+"a": 439.05,
+"b": 445.53,
+"kind": "comp",
+"src": "img/pietri/p1.jpg",
+"cam": "push",
+"o": "60% 35%",
+"dir": 1,
+"line": "Pietri took the lead late, on a hot afternoon, and by the stadium he was in a bad way.",
+"pic": "pietri/p1"
+},
+{
+"a": 445.53,
+"b": 452.01,
+"kind": "img",
+"src": "img/pietri/p8.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "He turned the wrong way on the track, and then he went down, five times on that last lap.",
+"pic": "pietri/p8"
+},
+{
+"a": 452.01,
+"b": 458.82,
+"kind": "comp",
+"src": "img/pietri/p2.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "In the end a doctor and the race organiser, Jack Andrew, held him up and helped him over the line.",
+"pic": "pietri/p2"
+},
+{
+"a": 458.82,
+"b": 465.98,
+"kind": "comp",
+"src": "img/pietri/p12.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": -1,
+"line": "Johnny Hayes, an American, came in about half a minute later, on his own legs.",
+"pic": "pietri/p12"
+},
+{
+"a": 465.98,
+"b": 471.17,
+"kind": "card",
+"text": "PIETRI\nDISQUALIFIED",
+"line": "The Americans protested, and they won, so Pietri was disqualified and Hayes got the gold."
+},
+{
+"a": 471.17,
+"b": 474.1,
+"kind": "comp",
+"src": "img/pietri/p4.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "But the crowd had already picked a side.",
+"pic": "pietri/p4"
+},
+{
+"a": 474.1,
+"b": 476.36,
+"kind": "comp",
+"src": "img/pietri/p11.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "The next day Queen Alexandra gave Pietri a gold cup of her own.",
+"pic": "pietri/p11"
+},
+{
+"a": 476.36,
+"b": 478.65,
+"kind": "comp",
+"src": "img/pietri/p10.jpg",
+"cam": "push",
+"o": "40% 50%",
+"dir": -1,
+"line": "The next day Queen Alexandra gave Pietri a gold cup of her own.",
+"pic": "pietri/p10"
+},
+{
+"a": 478.65,
+"b": 480.91,
+"kind": "comp",
+"src": "img/p31.png",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "Arthur Conan Doyle, the man who wrote Sherlock Holmes, had watched the finish from the stands for the Daily Mail.",
+"pic": "p31"
+},
+{
+"a": 480.91,
+"b": 485.45,
+"kind": "comp",
+"src": "img/p39.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Arthur Conan Doyle, the man who wrote Sherlock Holmes, had watched the finish from the stands for the Daily Mail.",
+"pic": "p39"
+},
+{
+"a": 485.45,
+"b": 490.97,
+"kind": "card",
+"text": "READERS SENT IN\nHUNDREDS OF POUNDS",
+"line": "He started a collection for Pietri in the paper, and readers sent in hundreds of pounds."
+},
+{
+"a": 490.97,
+"b": 496.48,
+"kind": "img",
+"src": "img/p32.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "That November the two men raced again as professionals, at Madison Square Garden in New York.",
+"pic": "p32"
+},
+{
+"a": 496.48,
+"b": 497.34,
+"kind": "card",
+"text": "PIETRI WON",
+"line": "Pietri won."
+},
+{
+"a": 497.34,
+"b": 499.37,
+"kind": "count",
+"num": "2",
+"title": "Jesse Owens",
+"line": "Number two."
+},
+{
+"a": 499.37,
+"b": 503.57,
+"kind": "comp",
+"src": "img/owens-1936/p13.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "The fastest man in the world won four gold medals in Hitler's Germany, but the snub he talked about for the rest of his life came from his own country.",
+"pic": "owens-1936/p13"
+},
+{
+"a": 503.57,
+"b": 509.41,
+"kind": "comp",
+"src": "img/owens-1936/p14.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "The fastest man in the world won four gold medals in Hitler's Germany, but the snub he talked about for the rest of his life came from his own country.",
+"pic": "owens-1936/p14"
+},
+{
+"a": 509.41,
+"b": 513.61,
+"kind": "comp",
+"src": "img/owens-1936/p16.jpg",
+"cam": "push",
+"o": "35% 30%",
+"dir": 1,
+"line": "Jesse Owens, a sharecropper's son from Alabama, won the hundred, the two hundred, the long jump and the relay in Berlin.",
+"pic": "owens-1936/p16"
+},
+{
+"a": 513.61,
+"b": 516.54,
+"kind": "comp",
+"src": "img/owens-1936/p6.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Jesse Owens, a sharecropper's son from Alabama, won the hundred, the two hundred, the long jump and the relay in Berlin.",
+"pic": "owens-1936/p6"
+},
+{
+"a": 516.54,
+"b": 521.41,
+"kind": "comp",
+"src": "img/owens-1936/p4.jpg",
+"cam": "push",
+"o": "55% 35%",
+"dir": 1,
+"line": "You've probably heard that Hitler refused to shake his hand, and that's mostly myth.",
+"pic": "owens-1936/p4"
+},
+{
+"a": 521.41,
+"b": 524.63,
+"kind": "comp",
+"src": "img/owens-1936/p3.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Olympic officials told Hitler to congratulate every winner or none, and he chose none.",
+"pic": "owens-1936/p3"
+},
+{
+"a": 524.63,
+"b": 526.28,
+"kind": "comp",
+"src": "img/owens-1936/p1.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Olympic officials told Hitler to congratulate every winner or none, and he chose none.",
+"pic": "owens-1936/p1"
+},
+{
+"a": 526.28,
+"b": 530.47,
+"kind": "comp",
+"src": "img/owens-1936/p5.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "The man who threw an arm around Owens in front of the crowd was a German, Luz Long, the long jumper he'd just beaten.",
+"pic": "owens-1936/p5"
+},
+{
+"a": 530.47,
+"b": 534.37,
+"kind": "comp",
+"src": "img/owens-1936/p7.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": 1,
+"line": "The man who threw an arm around Owens in front of the crowd was a German, Luz Long, the long jumper he'd just beaten.",
+"pic": "owens-1936/p7"
+},
+{
+"a": 534.37,
+"b": 539.57,
+"kind": "comp",
+"src": "img/owens-1936/p15.jpg",
+"cam": "push",
+"o": "45% 40%",
+"dir": -1,
+"line": "They wrote to each other after the Games, until Long was killed in the war.",
+"pic": "owens-1936/p15"
+},
+{
+"a": 539.57,
+"b": 541.53,
+"kind": "comp",
+"src": "img/owens-1936/p2.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "At home it got worse.",
+"pic": "owens-1936/p2"
+},
+{
+"a": 541.53,
+"b": 547.37,
+"kind": "comp",
+"src": "img/owens-1936/p8.jpg",
+"cam": "pull",
+"o": "50% 40%",
+"dir": -1,
+"line": "New York threw him a reception at the Waldorf-Astoria, one of the grandest hotels in the country.",
+"pic": "owens-1936/p8"
+},
+{
+"a": 547.37,
+"b": 550.27,
+"kind": "card",
+"text": "NOT THROUGH\nTHE FRONT DOOR",
+"line": "He said he wasn't allowed through the front door and had to ride the freight elevator up to his own party."
+},
+{
+"a": 550.27,
+"b": 554.5,
+"kind": "card",
+"text": "THE FREIGHT\nELEVATOR",
+"line": "He said he wasn't allowed through the front door and had to ride the freight elevator up to his own party."
+},
+{
+"a": 554.5,
+"b": 557.11,
+"kind": "comp",
+"src": "img/owens-1936/p11.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "President Roosevelt never called to congratulate him.",
+"pic": "owens-1936/p11"
+},
+{
+"a": 557.11,
+"b": 561.98,
+"kind": "img",
+"src": "img/p34.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Forty years later, in 1976, Gerald Ford gave him the Presidential Medal of Freedom.",
+"pic": "p34"
+},
+{
+"a": 561.98,
+"b": 567.67,
+"kind": "comp",
+"src": "img/owens-1936/p0.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": 1,
+"line": "As Owens put it, Hitler didn't invite him to shake hands, but neither did the White House.",
+"pic": "owens-1936/p0"
+},
+{
+"a": 567.67,
+"b": 569.71,
+"kind": "count",
+"num": "1",
+"title": "The 1904 marathon",
+"line": "Number one."
+},
+{
+"a": 569.71,
+"b": 574.23,
+"kind": "img",
+"src": "img/marathon-1904/p0.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "The man who won the Olympic marathon in St. Louis was kept going on strychnine and brandy, and he wasn't even the first man to cross the line.",
+"pic": "marathon-1904/p0"
+},
+{
+"a": 574.23,
+"b": 579.1,
+"kind": "card",
+"text": "STRYCHNINE\nAND BRANDY",
+"line": "The man who won the Olympic marathon in St. Louis was kept going on strychnine and brandy, and he wasn't even the first man to cross the line."
+},
+{
+"a": 579.1,
+"b": 586.55,
+"kind": "comp",
+"src": "img/marathon-1904/p1.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "It was around ninety degrees, on dirt roads, with officials' cars kicking up so much dust the runners nearly choked on it.",
+"pic": "marathon-1904/p1"
+},
+{
+"a": 586.55,
+"b": 591.07,
+"kind": "card",
+"text": "ONE WATER STOP\nA WELL AT 12 MILES",
+"line": "There was one water stop on the whole course, a well at twelve miles, and the organiser reportedly wanted to see what going without did to a man."
+},
+{
+"a": 591.07,
+"b": 595.94,
+"kind": "comp",
+"src": "img/marathon-1904/p5.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "There was one water stop on the whole course, a well at twelve miles, and the organiser reportedly wanted to see what going without did to a man.",
+"pic": "marathon-1904/p5"
+},
+{
+"a": 595.94,
+"b": 599.17,
+"kind": "comp",
+"src": "img/p29.jpg",
+"cam": "push",
+"o": "45% 35%",
+"dir": -1,
+"line": "A Cuban runner, Andar\u00edn Carvajal, turned up in long trousers, and they were cut off at the knee for him before the start.",
+"pic": "p29"
+},
+{
+"a": 599.17,
+"b": 603.71,
+"kind": "card",
+"text": "CUT OFF\nAT THE KNEE",
+"line": "A Cuban runner, Andar\u00edn Carvajal, turned up in long trousers, and they were cut off at the knee for him before the start."
+},
+{
+"a": 603.71,
+"b": 608.9,
+"kind": "comp",
+"src": "img/p30.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "He stopped to eat apples from an orchard, got stomach cramps, and still came fourth.",
+"pic": "p30"
+},
+{
+"a": 608.9,
+"b": 612.13,
+"kind": "comp",
+"src": "img/marathon-1904/p7.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "Len Tau, a Tswana man from South Africa, was reportedly chased a mile off course by dogs and still finished ninth.",
+"pic": "marathon-1904/p7"
+},
+{
+"a": 612.13,
+"b": 617.67,
+"kind": "comp",
+"src": "img/marathon-1904/p6.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "Len Tau, a Tswana man from South Africa, was reportedly chased a mile off course by dogs and still finished ninth.",
+"pic": "marathon-1904/p6"
+},
+{
+"a": 617.67,
+"b": 622.54,
+"kind": "comp",
+"src": "img/marathon-1904/p3.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "Fred Lorz, an American, dropped out around mile nine and climbed into a car.",
+"pic": "marathon-1904/p3"
+},
+{
+"a": 622.54,
+"b": 628.7,
+"kind": "comp",
+"src": "img/marathon-1904/p4.png",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "When it broke down, he got out, jogged into the stadium first, and was cheered as the winner.",
+"pic": "marathon-1904/p4"
+},
+{
+"a": 628.7,
+"b": 633.57,
+"kind": "card",
+"text": "\"IT WAS\nA JOKE\"",
+"line": "Then people found out about the car, and Lorz said it was a joke."
+},
+{
+"a": 633.57,
+"b": 639.06,
+"kind": "card",
+"text": "STRYCHNINE IN EGG WHITE\nTHEN BRANDY",
+"line": "Meanwhile Thomas Hicks was falling apart, so his trainers gave him strychnine in egg white, then brandy, and in the end they held him up."
+},
+{
+"a": 639.06,
+"b": 641.99,
+"kind": "img",
+"src": "img/marathon-1904/p2.jpg",
+"cam": "push",
+"o": "50% 45%",
+"dir": 1,
+"line": "Meanwhile Thomas Hicks was falling apart, so his trainers gave him strychnine in egg white, then brandy, and in the end they held him up.",
+"pic": "marathon-1904/p2"
+},
+{
+"a": 641.99,
+"b": 647.51,
+"kind": "card",
+"text": "3 HOURS 28 MINUTES\nTHE SLOWEST EVER",
+"line": "He won in three hours and twenty-eight minutes, the slowest winning time in Olympic marathon history."
+},
+{
+"a": 647.51,
+"b": 652.67,
+"kind": "card",
+"text": "BANNED FOR LIFE\nTHEN LET BACK IN",
+"line": "And Fred Lorz, the man in the car, was banned for life, then let back in, and the next spring he won the Boston Marathon."
+},
+{
+"a": 652.67,
+"b": 655.79,
+"kind": "card",
+"text": "THE NEXT SPRING\nBOSTON MARATHON WINNER",
+"line": "And Fred Lorz, the man in the car, was banned for life, then let back in, and the next spring he won the Boston Marathon."
+},
+{
+"a": 655.79,
+"b": 661.35,
+"kind": "img",
+"src": "img/wrestling-1912/p18.png",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "So that's eight: a boy nobody can name, a final run by one man, a race finished after fifty-four years, and a winner on rat poison.",
+"pic": "wrestling-1912/p18"
+},
+{
+"a": 661.35,
+"b": 665.57,
+"kind": "img",
+"src": "img/wrestling-1912/p1.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "So that's eight: a boy nobody can name, a final run by one man, a race finished after fifty-four years, and a winner on rat poison.",
+"pic": "wrestling-1912/p1"
+},
+{
+"a": 665.57,
+"b": 669.8,
+"kind": "card",
+"text": "WHICH ONE IS\nTHE STRANGEST?",
+"line": "Tell us in the comments which one you think is the strangest."
+},
+{
+"a": 669.8,
+"b": 675.0,
+"kind": "card",
+"text": "SUBSCRIBE\nFOR MORE TRUE SPORTS STORIES",
+"line": "And subscribe for more true sports stories that sound made up."
+}
+],
+"words": [
+{
+"w": "An",
+"s": 0.9,
+"e": 1.2
+},
+{
+"w": "Olympic",
+"s": 1.22,
+"e": 1.52
+},
+{
+"w": "marathon",
+"s": 1.55,
+"e": 1.85
+},
+{
+"w": "winner",
+"s": 1.87,
+"e": 2.17
+},
+{
+"w": "was",
+"s": 2.19,
+"e": 2.49
+},
+{
+"w": "kept",
+"s": 2.51,
+"e": 2.81
+},
+{
+"w": "on",
+"s": 2.84,
+"e": 3.14
+},
+{
+"w": "his",
+"s": 3.16,
+"e": 3.46
+},
+{
+"w": "feet",
+"s": 3.48,
+"e": 3.78
+},
+{
+"w": "with",
+"s": 3.81,
+"e": 4.11
+},
+{
+"w": "strychnine,",
+"s": 4.13,
+"e": 4.43
+},
+{
+"w": "the",
+"s": 4.45,
+"e": 4.75
+},
+{
+"w": "stuff",
+"s": 4.77,
+"e": 5.07
+},
+{
+"w": "in",
+"s": 5.1,
+"e": 5.4
+},
+{
+"w": "rat",
+"s": 5.42,
+"e": 5.72
+},
+{
+"w": "poison,",
+"s": 5.74,
+"e": 6.04
+},
+{
+"w": "and",
+"s": 6.06,
+"e": 6.36
+},
+{
+"w": "it",
+"s": 6.39,
+"e": 6.69
+},
+{
+"w": "isn't",
+"s": 6.71,
+"e": 7.01
+},
+{
+"w": "even",
+"s": 7.03,
+"e": 7.33
+},
+{
+"w": "the",
+"s": 7.36,
+"e": 7.66
+},
+{
+"w": "only",
+"s": 7.68,
+"e": 7.98
+},
+{
+"w": "strange",
+"s": 8.0,
+"e": 8.3
+},
+{
+"w": "thing",
+"s": 8.32,
+"e": 8.62
+},
+{
+"w": "about",
+"s": 8.65,
+"e": 8.95
+},
+{
+"w": "that",
+"s": 8.97,
+"e": 9.27
+},
+{
+"w": "race.",
+"s": 9.29,
+"e": 9.59
+},
+{
+"w": "These",
+"s": 9.97,
+"e": 10.27
+},
+{
+"w": "are",
+"s": 10.29,
+"e": 10.59
+},
+{
+"w": "eight",
+"s": 10.61,
+"e": 10.91
+},
+{
+"w": "true",
+"s": 10.93,
+"e": 11.23
+},
+{
+"w": "stories",
+"s": 11.26,
+"e": 11.56
+},
+{
+"w": "from",
+"s": 11.58,
+"e": 11.88
+},
+{
+"w": "the",
+"s": 11.9,
+"e": 12.2
+},
+{
+"w": "early",
+"s": 12.23,
+"e": 12.53
+},
+{
+"w": "Olympics,",
+"s": 12.55,
+"e": 12.85
+},
+{
+"w": "and",
+"s": 12.87,
+"e": 13.17
+},
+{
+"w": "some",
+"s": 13.19,
+"e": 13.49
+},
+{
+"w": "of",
+"s": 13.52,
+"e": 13.82
+},
+{
+"w": "them",
+"s": 13.84,
+"e": 14.14
+},
+{
+"w": "sound",
+"s": 14.16,
+"e": 14.46
+},
+{
+"w": "made",
+"s": 14.49,
+"e": 14.79
+},
+{
+"w": "up,",
+"s": 14.81,
+"e": 15.11
+},
+{
+"w": "but",
+"s": 15.13,
+"e": 15.43
+},
+{
+"w": "every",
+"s": 15.45,
+"e": 15.75
+},
+{
+"w": "one",
+"s": 15.78,
+"e": 16.08
+},
+{
+"w": "is",
+"s": 16.1,
+"e": 16.4
+},
+{
+"w": "in",
+"s": 16.42,
+"e": 16.72
+},
+{
+"w": "the",
+"s": 16.74,
+"e": 17.04
+},
+{
+"w": "record",
+"s": 17.07,
+"e": 17.37
+},
+{
+"w": "books.",
+"s": 17.39,
+"e": 17.69
+},
+{
+"w": "Number",
+"s": 18.96,
+"e": 19.26
+},
+{
+"w": "eight.",
+"s": 19.29,
+"e": 19.59
+},
+{
+"w": "Paris",
+"s": 19.96,
+"e": 20.26
+},
+{
+"w": "once",
+"s": 20.28,
+"e": 20.58
+},
+{
+"w": "ran",
+"s": 20.6,
+"e": 20.9
+},
+{
+"w": "an",
+"s": 20.93,
+"e": 21.23
+},
+{
+"w": "Olympics",
+"s": 21.25,
+"e": 21.55
+},
+{
+"w": "so",
+"s": 21.57,
+"e": 21.87
+},
+{
+"w": "loosely",
+"s": 21.9,
+"e": 22.2
+},
+{
+"w": "that",
+"s": 22.22,
+"e": 22.52
+},
+{
+"w": "some",
+"s": 22.54,
+"e": 22.84
+},
+{
+"w": "champions",
+"s": 22.86,
+"e": 23.16
+},
+{
+"w": "went",
+"s": 23.19,
+"e": 23.49
+},
+{
+"w": "home",
+"s": 23.51,
+"e": 23.81
+},
+{
+"w": "without",
+"s": 23.83,
+"e": 24.13
+},
+{
+"w": "knowing",
+"s": 24.16,
+"e": 24.46
+},
+{
+"w": "they'd",
+"s": 24.48,
+"e": 24.78
+},
+{
+"w": "been",
+"s": 24.8,
+"e": 25.1
+},
+{
+"w": "in",
+"s": 25.12,
+"e": 25.42
+},
+{
+"w": "one.",
+"s": 25.45,
+"e": 25.75
+},
+{
+"w": "The",
+"s": 26.12,
+"e": 26.42
+},
+{
+"w": "Games",
+"s": 26.44,
+"e": 26.74
+},
+{
+"w": "were",
+"s": 26.76,
+"e": 27.06
+},
+{
+"w": "tacked",
+"s": 27.09,
+"e": 27.39
+},
+{
+"w": "onto",
+"s": 27.41,
+"e": 27.71
+},
+{
+"w": "the",
+"s": 27.73,
+"e": 28.03
+},
+{
+"w": "World's",
+"s": 28.06,
+"e": 28.36
+},
+{
+"w": "Fair",
+"s": 28.38,
+"e": 28.68
+},
+{
+"w": "and",
+"s": 28.7,
+"e": 29.0
+},
+{
+"w": "spread",
+"s": 29.02,
+"e": 29.32
+},
+{
+"w": "over",
+"s": 29.35,
+"e": 29.65
+},
+{
+"w": "five",
+"s": 29.67,
+"e": 29.97
+},
+{
+"w": "months,",
+"s": 29.99,
+"e": 30.29
+},
+{
+"w": "with",
+"s": 30.32,
+"e": 30.62
+},
+{
+"w": "no",
+"s": 30.64,
+"e": 30.94
+},
+{
+"w": "opening",
+"s": 30.96,
+"e": 31.26
+},
+{
+"w": "ceremony",
+"s": 31.28,
+"e": 31.58
+},
+{
+"w": "and",
+"s": 31.61,
+"e": 31.91
+},
+{
+"w": "no",
+"s": 31.93,
+"e": 32.23
+},
+{
+"w": "closing",
+"s": 32.25,
+"e": 32.55
+},
+{
+"w": "one.",
+"s": 32.58,
+"e": 32.88
+},
+{
+"w": "The",
+"s": 33.25,
+"e": 33.55
+},
+{
+"w": "swimming",
+"s": 33.57,
+"e": 33.87
+},
+{
+"w": "was",
+"s": 33.89,
+"e": 34.19
+},
+{
+"w": "in",
+"s": 34.22,
+"e": 34.52
+},
+{
+"w": "the",
+"s": 34.54,
+"e": 34.84
+},
+{
+"w": "river",
+"s": 34.86,
+"e": 35.16
+},
+{
+"w": "Seine,",
+"s": 35.19,
+"e": 35.49
+},
+{
+"w": "where",
+"s": 35.51,
+"e": 35.81
+},
+{
+"w": "the",
+"s": 35.83,
+"e": 36.13
+},
+{
+"w": "current",
+"s": 36.15,
+"e": 36.45
+},
+{
+"w": "ran",
+"s": 36.48,
+"e": 36.78
+},
+{
+"w": "so",
+"s": 36.8,
+"e": 37.1
+},
+{
+"w": "strong",
+"s": 37.12,
+"e": 37.42
+},
+{
+"w": "that",
+"s": 37.44,
+"e": 37.74
+},
+{
+"w": "the",
+"s": 37.77,
+"e": 38.07
+},
+{
+"w": "times",
+"s": 38.09,
+"e": 38.39
+},
+{
+"w": "came",
+"s": 38.41,
+"e": 38.71
+},
+{
+"w": "out",
+"s": 38.74,
+"e": 39.04
+},
+{
+"w": "far",
+"s": 39.06,
+"e": 39.36
+},
+{
+"w": "too",
+"s": 39.38,
+"e": 39.68
+},
+{
+"w": "fast.",
+"s": 39.7,
+"e": 40.0
+},
+{
+"w": "One",
+"s": 40.38,
+"e": 40.68
+},
+{
+"w": "swimming",
+"s": 40.7,
+"e": 41.0
+},
+{
+"w": "race",
+"s": 41.02,
+"e": 41.32
+},
+{
+"w": "made",
+"s": 41.35,
+"e": 41.65
+},
+{
+"w": "the",
+"s": 41.67,
+"e": 41.97
+},
+{
+"w": "men",
+"s": 41.99,
+"e": 42.29
+},
+{
+"w": "climb",
+"s": 42.31,
+"e": 42.61
+},
+{
+"w": "over",
+"s": 42.64,
+"e": 42.94
+},
+{
+"w": "a",
+"s": 42.96,
+"e": 43.26
+},
+{
+"w": "row",
+"s": 43.28,
+"e": 43.58
+},
+{
+"w": "of",
+"s": 43.61,
+"e": 43.91
+},
+{
+"w": "boats",
+"s": 43.93,
+"e": 44.23
+},
+{
+"w": "and",
+"s": 44.25,
+"e": 44.55
+},
+{
+"w": "then",
+"s": 44.57,
+"e": 44.87
+},
+{
+"w": "swim",
+"s": 44.9,
+"e": 45.2
+},
+{
+"w": "under",
+"s": 45.22,
+"e": 45.52
+},
+{
+"w": "another.",
+"s": 45.54,
+"e": 45.84
+},
+{
+"w": "An",
+"s": 46.21,
+"e": 46.51
+},
+{
+"w": "Australian",
+"s": 46.54,
+"e": 46.84
+},
+{
+"w": "called",
+"s": 46.86,
+"e": 47.16
+},
+{
+"w": "Fred",
+"s": 47.18,
+"e": 47.48
+},
+{
+"w": "Lane",
+"s": 47.51,
+"e": 47.81
+},
+{
+"w": "won",
+"s": 47.83,
+"e": 48.13
+},
+{
+"w": "it,",
+"s": 48.15,
+"e": 48.45
+},
+{
+"w": "and",
+"s": 48.47,
+"e": 48.77
+},
+{
+"w": "he",
+"s": 48.8,
+"e": 49.1
+},
+{
+"w": "won",
+"s": 49.12,
+"e": 49.42
+},
+{
+"w": "the",
+"s": 49.44,
+"e": 49.74
+},
+{
+"w": "two",
+"s": 49.77,
+"e": 50.07
+},
+{
+"w": "hundred",
+"s": 50.09,
+"e": 50.39
+},
+{
+"w": "metres",
+"s": 50.41,
+"e": 50.71
+},
+{
+"w": "freestyle",
+"s": 50.73,
+"e": 51.03
+},
+{
+"w": "as",
+"s": 51.06,
+"e": 51.36
+},
+{
+"w": "well.",
+"s": 51.38,
+"e": 51.68
+},
+{
+"w": "In",
+"s": 52.05,
+"e": 52.35
+},
+{
+"w": "the",
+"s": 52.38,
+"e": 52.68
+},
+{
+"w": "rowing,",
+"s": 52.7,
+"e": 53.0
+},
+{
+"w": "a",
+"s": 53.02,
+"e": 53.32
+},
+{
+"w": "Dutch",
+"s": 53.34,
+"e": 53.64
+},
+{
+"w": "pair",
+"s": 53.67,
+"e": 53.97
+},
+{
+"w": "decided",
+"s": 53.99,
+"e": 54.29
+},
+{
+"w": "their",
+"s": 54.31,
+"e": 54.61
+},
+{
+"w": "cox",
+"s": 54.64,
+"e": 54.94
+},
+{
+"w": "was",
+"s": 54.96,
+"e": 55.26
+},
+{
+"w": "too",
+"s": 55.28,
+"e": 55.58
+},
+{
+"w": "heavy,",
+"s": 55.6,
+"e": 55.9
+},
+{
+"w": "so",
+"s": 55.93,
+"e": 56.23
+},
+{
+"w": "they",
+"s": 56.25,
+"e": 56.55
+},
+{
+"w": "picked",
+"s": 56.57,
+"e": 56.87
+},
+{
+"w": "a",
+"s": 56.89,
+"e": 57.19
+},
+{
+"w": "French",
+"s": 57.22,
+"e": 57.52
+},
+{
+"w": "boy",
+"s": 57.54,
+"e": 57.84
+},
+{
+"w": "out",
+"s": 57.86,
+"e": 58.16
+},
+{
+"w": "of",
+"s": 58.19,
+"e": 58.49
+},
+{
+"w": "the",
+"s": 58.51,
+"e": 58.81
+},
+{
+"w": "crowd",
+"s": 58.83,
+"e": 59.13
+},
+{
+"w": "to",
+"s": 59.15,
+"e": 59.45
+},
+{
+"w": "steer",
+"s": 59.48,
+"e": 59.78
+},
+{
+"w": "the",
+"s": 59.8,
+"e": 60.1
+},
+{
+"w": "final.",
+"s": 60.12,
+"e": 60.42
+},
+{
+"w": "Their",
+"s": 60.8,
+"e": 61.1
+},
+{
+"w": "usual",
+"s": 61.12,
+"e": 61.42
+},
+{
+"w": "cox",
+"s": 61.44,
+"e": 61.74
+},
+{
+"w": "had",
+"s": 61.76,
+"e": 62.06
+},
+{
+"w": "steered",
+"s": 62.09,
+"e": 62.39
+},
+{
+"w": "them",
+"s": 62.41,
+"e": 62.71
+},
+{
+"w": "through",
+"s": 62.73,
+"e": 63.03
+},
+{
+"w": "the",
+"s": 63.06,
+"e": 63.36
+},
+{
+"w": "semi-final.",
+"s": 63.38,
+"e": 63.68
+},
+{
+"w": "They",
+"s": 64.05,
+"e": 64.35
+},
+{
+"w": "won",
+"s": 64.37,
+"e": 64.67
+},
+{
+"w": "by",
+"s": 64.7,
+"e": 65.0
+},
+{
+"w": "a",
+"s": 65.02,
+"e": 65.32
+},
+{
+"w": "whisker,",
+"s": 65.34,
+"e": 65.64
+},
+{
+"w": "the",
+"s": 65.66,
+"e": 65.96
+},
+{
+"w": "boy",
+"s": 65.99,
+"e": 66.29
+},
+{
+"w": "posed",
+"s": 66.31,
+"e": 66.61
+},
+{
+"w": "for",
+"s": 66.63,
+"e": 66.93
+},
+{
+"w": "a",
+"s": 66.96,
+"e": 67.26
+},
+{
+"w": "photo,",
+"s": 67.28,
+"e": 67.58
+},
+{
+"w": "and",
+"s": 67.6,
+"e": 67.9
+},
+{
+"w": "then",
+"s": 67.92,
+"e": 68.22
+},
+{
+"w": "he",
+"s": 68.25,
+"e": 68.55
+},
+{
+"w": "walked",
+"s": 68.57,
+"e": 68.87
+},
+{
+"w": "off",
+"s": 68.89,
+"e": 69.19
+},
+{
+"w": "into",
+"s": 69.22,
+"e": 69.52
+},
+{
+"w": "Paris.",
+"s": 69.54,
+"e": 69.84
+},
+{
+"w": "Nobody",
+"s": 70.21,
+"e": 70.51
+},
+{
+"w": "has",
+"s": 70.53,
+"e": 70.83
+},
+{
+"w": "ever",
+"s": 70.86,
+"e": 71.16
+},
+{
+"w": "proved",
+"s": 71.18,
+"e": 71.48
+},
+{
+"w": "who",
+"s": 71.5,
+"e": 71.8
+},
+{
+"w": "he",
+"s": 71.83,
+"e": 72.13
+},
+{
+"w": "was",
+"s": 72.15,
+"e": 72.45
+},
+{
+"w": "or",
+"s": 72.47,
+"e": 72.77
+},
+{
+"w": "how",
+"s": 72.79,
+"e": 73.09
+},
+{
+"w": "old",
+"s": 73.12,
+"e": 73.42
+},
+{
+"w": "he",
+"s": 73.44,
+"e": 73.74
+},
+{
+"w": "was.",
+"s": 73.76,
+"e": 74.06
+},
+{
+"w": "He",
+"s": 74.44,
+"e": 74.74
+},
+{
+"w": "may",
+"s": 74.76,
+"e": 75.06
+},
+{
+"w": "be",
+"s": 75.08,
+"e": 75.38
+},
+{
+"w": "the",
+"s": 75.4,
+"e": 75.7
+},
+{
+"w": "youngest",
+"s": 75.73,
+"e": 76.03
+},
+{
+"w": "Olympic",
+"s": 76.05,
+"e": 76.35
+},
+{
+"w": "champion",
+"s": 76.37,
+"e": 76.67
+},
+{
+"w": "of",
+"s": 76.69,
+"e": 76.99
+},
+{
+"w": "all",
+"s": 77.02,
+"e": 77.32
+},
+{
+"w": "time,",
+"s": 77.34,
+"e": 77.64
+},
+{
+"w": "and",
+"s": 77.66,
+"e": 77.96
+},
+{
+"w": "there's",
+"s": 77.99,
+"e": 78.29
+},
+{
+"w": "no",
+"s": 78.31,
+"e": 78.61
+},
+{
+"w": "name",
+"s": 78.63,
+"e": 78.93
+},
+{
+"w": "to",
+"s": 78.95,
+"e": 79.25
+},
+{
+"w": "put",
+"s": 79.28,
+"e": 79.58
+},
+{
+"w": "in",
+"s": 79.6,
+"e": 79.9
+},
+{
+"w": "the",
+"s": 79.92,
+"e": 80.22
+},
+{
+"w": "record.",
+"s": 80.25,
+"e": 80.55
+},
+{
+"w": "Then",
+"s": 80.92,
+"e": 81.22
+},
+{
+"w": "there's",
+"s": 81.24,
+"e": 81.54
+},
+{
+"w": "Margaret",
+"s": 81.56,
+"e": 81.86
+},
+{
+"w": "Abbott,",
+"s": 81.89,
+"e": 82.19
+},
+{
+"w": "an",
+"s": 82.21,
+"e": 82.51
+},
+{
+"w": "American",
+"s": 82.53,
+"e": 82.83
+},
+{
+"w": "art",
+"s": 82.86,
+"e": 83.16
+},
+{
+"w": "student",
+"s": 83.18,
+"e": 83.48
+},
+{
+"w": "living",
+"s": 83.5,
+"e": 83.8
+},
+{
+"w": "in",
+"s": 83.82,
+"e": 84.12
+},
+{
+"w": "Paris",
+"s": 84.15,
+"e": 84.45
+},
+{
+"w": "with",
+"s": 84.47,
+"e": 84.77
+},
+{
+"w": "her",
+"s": 84.79,
+"e": 85.09
+},
+{
+"w": "mother.",
+"s": 85.11,
+"e": 85.41
+},
+{
+"w": "She",
+"s": 85.79,
+"e": 86.09
+},
+{
+"w": "entered",
+"s": 86.11,
+"e": 86.41
+},
+{
+"w": "a",
+"s": 86.43,
+"e": 86.73
+},
+{
+"w": "women's",
+"s": 86.76,
+"e": 87.06
+},
+{
+"w": "golf",
+"s": 87.08,
+"e": 87.38
+},
+{
+"w": "tournament",
+"s": 87.4,
+"e": 87.7
+},
+{
+"w": "and",
+"s": 87.72,
+"e": 88.02
+},
+{
+"w": "won",
+"s": 88.05,
+"e": 88.35
+},
+{
+"w": "it,",
+"s": 88.37,
+"e": 88.67
+},
+{
+"w": "going",
+"s": 88.69,
+"e": 88.99
+},
+{
+"w": "round",
+"s": 89.02,
+"e": 89.32
+},
+{
+"w": "nine",
+"s": 89.34,
+"e": 89.64
+},
+{
+"w": "holes",
+"s": 89.66,
+"e": 89.96
+},
+{
+"w": "in",
+"s": 89.98,
+"e": 90.28
+},
+{
+"w": "forty-seven.",
+"s": 90.31,
+"e": 90.61
+},
+{
+"w": "Her",
+"s": 90.98,
+"e": 91.28
+},
+{
+"w": "mother,",
+"s": 91.3,
+"e": 91.6
+},
+{
+"w": "Mary,",
+"s": 91.63,
+"e": 91.93
+},
+{
+"w": "played",
+"s": 91.95,
+"e": 92.25
+},
+{
+"w": "in",
+"s": 92.27,
+"e": 92.57
+},
+{
+"w": "the",
+"s": 92.59,
+"e": 92.89
+},
+{
+"w": "same",
+"s": 92.92,
+"e": 93.22
+},
+{
+"w": "event,",
+"s": 93.24,
+"e": 93.54
+},
+{
+"w": "and",
+"s": 93.56,
+"e": 93.86
+},
+{
+"w": "no",
+"s": 93.89,
+"e": 94.19
+},
+{
+"w": "mother",
+"s": 94.21,
+"e": 94.51
+},
+{
+"w": "and",
+"s": 94.53,
+"e": 94.83
+},
+{
+"w": "daughter",
+"s": 94.85,
+"e": 95.15
+},
+{
+"w": "have",
+"s": 95.18,
+"e": 95.48
+},
+{
+"w": "done",
+"s": 95.5,
+"e": 95.8
+},
+{
+"w": "that",
+"s": 95.82,
+"e": 96.12
+},
+{
+"w": "at",
+"s": 96.14,
+"e": 96.44
+},
+{
+"w": "one",
+"s": 96.47,
+"e": 96.77
+},
+{
+"w": "Olympics",
+"s": 96.79,
+"e": 97.09
+},
+{
+"w": "since.",
+"s": 97.11,
+"e": 97.41
+},
+{
+"w": "Margaret's",
+"s": 97.79,
+"e": 98.09
+},
+{
+"w": "prize",
+"s": 98.11,
+"e": 98.41
+},
+{
+"w": "was",
+"s": 98.43,
+"e": 98.73
+},
+{
+"w": "a",
+"s": 98.75,
+"e": 99.05
+},
+{
+"w": "porcelain",
+"s": 99.08,
+"e": 99.38
+},
+{
+"w": "bowl,",
+"s": 99.4,
+"e": 99.7
+},
+{
+"w": "not",
+"s": 99.72,
+"e": 100.02
+},
+{
+"w": "a",
+"s": 100.05,
+"e": 100.35
+},
+{
+"w": "medal.",
+"s": 100.37,
+"e": 100.67
+},
+{
+"w": "As",
+"s": 101.04,
+"e": 101.34
+},
+{
+"w": "far",
+"s": 101.36,
+"e": 101.66
+},
+{
+"w": "as",
+"s": 101.69,
+"e": 101.99
+},
+{
+"w": "anyone",
+"s": 102.01,
+"e": 102.31
+},
+{
+"w": "knows,",
+"s": 102.33,
+"e": 102.63
+},
+{
+"w": "she",
+"s": 102.66,
+"e": 102.96
+},
+{
+"w": "died",
+"s": 102.98,
+"e": 103.28
+},
+{
+"w": "in",
+"s": 103.3,
+"e": 103.6
+},
+{
+"w": "1955",
+"s": 103.62,
+"e": 103.92
+},
+{
+"w": "never",
+"s": 103.95,
+"e": 104.25
+},
+{
+"w": "knowing",
+"s": 104.27,
+"e": 104.57
+},
+{
+"w": "she",
+"s": 104.59,
+"e": 104.89
+},
+{
+"w": "was",
+"s": 104.91,
+"e": 105.21
+},
+{
+"w": "America's",
+"s": 105.24,
+"e": 105.54
+},
+{
+"w": "first",
+"s": 105.56,
+"e": 105.86
+},
+{
+"w": "woman",
+"s": 105.88,
+"e": 106.18
+},
+{
+"w": "Olympic",
+"s": 106.21,
+"e": 106.51
+},
+{
+"w": "champion.",
+"s": 106.53,
+"e": 106.83
+},
+{
+"w": "Her",
+"s": 107.2,
+"e": 107.5
+},
+{
+"w": "children",
+"s": 107.52,
+"e": 107.82
+},
+{
+"w": "only",
+"s": 107.85,
+"e": 108.15
+},
+{
+"w": "found",
+"s": 108.17,
+"e": 108.47
+},
+{
+"w": "out",
+"s": 108.49,
+"e": 108.79
+},
+{
+"w": "decades",
+"s": 108.82,
+"e": 109.12
+},
+{
+"w": "later,",
+"s": 109.14,
+"e": 109.44
+},
+{
+"w": "when",
+"s": 109.46,
+"e": 109.76
+},
+{
+"w": "a",
+"s": 109.78,
+"e": 110.08
+},
+{
+"w": "historian",
+"s": 110.11,
+"e": 110.41
+},
+{
+"w": "tracked",
+"s": 110.43,
+"e": 110.73
+},
+{
+"w": "them",
+"s": 110.75,
+"e": 111.05
+},
+{
+"w": "down.",
+"s": 111.08,
+"e": 111.38
+},
+{
+"w": "Number",
+"s": 112.65,
+"e": 112.95
+},
+{
+"w": "seven.",
+"s": 112.97,
+"e": 113.27
+},
+{
+"w": "Two",
+"s": 113.64,
+"e": 113.94
+},
+{
+"w": "Olympic",
+"s": 113.97,
+"e": 114.27
+},
+{
+"w": "wrestlers",
+"s": 114.29,
+"e": 114.59
+},
+{
+"w": "fought",
+"s": 114.61,
+"e": 114.91
+},
+{
+"w": "for",
+"s": 114.94,
+"e": 115.24
+},
+{
+"w": "eleven",
+"s": 115.26,
+"e": 115.56
+},
+{
+"w": "hours",
+"s": 115.58,
+"e": 115.88
+},
+{
+"w": "and",
+"s": 115.9,
+"e": 116.2
+},
+{
+"w": "forty",
+"s": 116.23,
+"e": 116.53
+},
+{
+"w": "minutes,",
+"s": 116.55,
+"e": 116.85
+},
+{
+"w": "and",
+"s": 116.87,
+"e": 117.17
+},
+{
+"w": "the",
+"s": 117.19,
+"e": 117.49
+},
+{
+"w": "man",
+"s": 117.52,
+"e": 117.82
+},
+{
+"w": "who",
+"s": 117.84,
+"e": 118.14
+},
+{
+"w": "won",
+"s": 118.16,
+"e": 118.46
+},
+{
+"w": "was",
+"s": 118.49,
+"e": 118.79
+},
+{
+"w": "too",
+"s": 118.81,
+"e": 119.11
+},
+{
+"w": "wrecked",
+"s": 119.13,
+"e": 119.43
+},
+{
+"w": "to",
+"s": 119.45,
+"e": 119.75
+},
+{
+"w": "wrestle",
+"s": 119.78,
+"e": 120.08
+},
+{
+"w": "for",
+"s": 120.1,
+"e": 120.4
+},
+{
+"w": "the",
+"s": 120.42,
+"e": 120.72
+},
+{
+"w": "gold.",
+"s": 120.75,
+"e": 121.05
+},
+{
+"w": "Martin",
+"s": 121.42,
+"e": 121.72
+},
+{
+"w": "Klein",
+"s": 121.74,
+"e": 122.04
+},
+{
+"w": "was",
+"s": 122.06,
+"e": 122.36
+},
+{
+"w": "an",
+"s": 122.39,
+"e": 122.69
+},
+{
+"w": "Estonian",
+"s": 122.71,
+"e": 123.01
+},
+{
+"w": "on",
+"s": 123.03,
+"e": 123.33
+},
+{
+"w": "Russia's",
+"s": 123.36,
+"e": 123.66
+},
+{
+"w": "team,",
+"s": 123.68,
+"e": 123.98
+},
+{
+"w": "and",
+"s": 124.0,
+"e": 124.3
+},
+{
+"w": "Alfred",
+"s": 124.32,
+"e": 124.62
+},
+{
+"w": "Asikainen",
+"s": 124.65,
+"e": 124.95
+},
+{
+"w": "of",
+"s": 124.97,
+"e": 125.27
+},
+{
+"w": "Finland",
+"s": 125.29,
+"e": 125.59
+},
+{
+"w": "was",
+"s": 125.61,
+"e": 125.91
+},
+{
+"w": "the",
+"s": 125.94,
+"e": 126.24
+},
+{
+"w": "world",
+"s": 126.26,
+"e": 126.56
+},
+{
+"w": "champion.",
+"s": 126.58,
+"e": 126.88
+},
+{
+"w": "They",
+"s": 127.26,
+"e": 127.56
+},
+{
+"w": "met",
+"s": 127.58,
+"e": 127.88
+},
+{
+"w": "in",
+"s": 127.9,
+"e": 128.2
+},
+{
+"w": "the",
+"s": 128.22,
+"e": 128.52
+},
+{
+"w": "semi-final",
+"s": 128.55,
+"e": 128.85
+},
+{
+"w": "in",
+"s": 128.87,
+"e": 129.17
+},
+{
+"w": "Stockholm,",
+"s": 129.19,
+"e": 129.49
+},
+{
+"w": "outdoors,",
+"s": 129.52,
+"e": 129.82
+},
+{
+"w": "under",
+"s": 129.84,
+"e": 130.14
+},
+{
+"w": "a",
+"s": 130.16,
+"e": 130.46
+},
+{
+"w": "hot",
+"s": 130.48,
+"e": 130.78
+},
+{
+"w": "July",
+"s": 130.81,
+"e": 131.11
+},
+{
+"w": "sun.",
+"s": 131.13,
+"e": 131.43
+},
+{
+"w": "There",
+"s": 131.8,
+"e": 132.1
+},
+{
+"w": "was",
+"s": 132.13,
+"e": 132.43
+},
+{
+"w": "no",
+"s": 132.45,
+"e": 132.75
+},
+{
+"w": "time",
+"s": 132.77,
+"e": 133.07
+},
+{
+"w": "limit,",
+"s": 133.09,
+"e": 133.39
+},
+{
+"w": "just",
+"s": 133.42,
+"e": 133.72
+},
+{
+"w": "half-hour",
+"s": 133.74,
+"e": 134.04
+},
+{
+"w": "rounds",
+"s": 134.06,
+"e": 134.36
+},
+{
+"w": "with",
+"s": 134.39,
+"e": 134.69
+},
+{
+"w": "a",
+"s": 134.71,
+"e": 135.01
+},
+{
+"w": "short",
+"s": 135.03,
+"e": 135.33
+},
+{
+"w": "break,",
+"s": 135.35,
+"e": 135.65
+},
+{
+"w": "and",
+"s": 135.68,
+"e": 135.98
+},
+{
+"w": "in",
+"s": 136.0,
+"e": 136.3
+},
+{
+"w": "theory",
+"s": 136.32,
+"e": 136.62
+},
+{
+"w": "you",
+"s": 136.64,
+"e": 136.94
+},
+{
+"w": "kept",
+"s": 136.97,
+"e": 137.27
+},
+{
+"w": "going",
+"s": 137.29,
+"e": 137.59
+},
+{
+"w": "until",
+"s": 137.61,
+"e": 137.91
+},
+{
+"w": "somebody",
+"s": 137.94,
+"e": 138.24
+},
+{
+"w": "won.",
+"s": 138.26,
+"e": 138.56
+},
+{
+"w": "So",
+"s": 138.93,
+"e": 139.23
+},
+{
+"w": "they",
+"s": 139.25,
+"e": 139.55
+},
+{
+"w": "kept",
+"s": 139.58,
+"e": 139.88
+},
+{
+"w": "going,",
+"s": 139.9,
+"e": 140.2
+},
+{
+"w": "one",
+"s": 140.22,
+"e": 140.52
+},
+{
+"w": "hour,",
+"s": 140.55,
+"e": 140.85
+},
+{
+"w": "then",
+"s": 140.87,
+"e": 141.17
+},
+{
+"w": "five,",
+"s": 141.19,
+"e": 141.49
+},
+{
+"w": "then",
+"s": 141.51,
+"e": 141.81
+},
+{
+"w": "ten.",
+"s": 141.84,
+"e": 142.14
+},
+{
+"w": "After",
+"s": 142.51,
+"e": 142.81
+},
+{
+"w": "eleven",
+"s": 142.83,
+"e": 143.13
+},
+{
+"w": "hours",
+"s": 143.16,
+"e": 143.46
+},
+{
+"w": "and",
+"s": 143.48,
+"e": 143.78
+},
+{
+"w": "forty",
+"s": 143.8,
+"e": 144.1
+},
+{
+"w": "minutes,",
+"s": 144.12,
+"e": 144.42
+},
+{
+"w": "Klein",
+"s": 144.45,
+"e": 144.75
+},
+{
+"w": "finally",
+"s": 144.77,
+"e": 145.07
+},
+{
+"w": "beat",
+"s": 145.09,
+"e": 145.39
+},
+{
+"w": "him.",
+"s": 145.41,
+"e": 145.71
+},
+{
+"w": "But",
+"s": 146.09,
+"e": 146.39
+},
+{
+"w": "there",
+"s": 146.41,
+"e": 146.71
+},
+{
+"w": "was",
+"s": 146.73,
+"e": 147.03
+},
+{
+"w": "a",
+"s": 147.06,
+"e": 147.36
+},
+{
+"w": "problem.",
+"s": 147.38,
+"e": 147.68
+},
+{
+"w": "Klein",
+"s": 148.05,
+"e": 148.35
+},
+{
+"w": "was",
+"s": 148.37,
+"e": 148.67
+},
+{
+"w": "so",
+"s": 148.7,
+"e": 149.0
+},
+{
+"w": "spent",
+"s": 149.02,
+"e": 149.32
+},
+{
+"w": "he",
+"s": 149.34,
+"e": 149.64
+},
+{
+"w": "couldn't",
+"s": 149.67,
+"e": 149.97
+},
+{
+"w": "take",
+"s": 149.99,
+"e": 150.29
+},
+{
+"w": "part",
+"s": 150.31,
+"e": 150.61
+},
+{
+"w": "in",
+"s": 150.63,
+"e": 150.93
+},
+{
+"w": "the",
+"s": 150.96,
+"e": 151.26
+},
+{
+"w": "final,",
+"s": 151.28,
+"e": 151.58
+},
+{
+"w": "so",
+"s": 151.6,
+"e": 151.9
+},
+{
+"w": "the",
+"s": 151.93,
+"e": 152.23
+},
+{
+"w": "Swede",
+"s": 152.25,
+"e": 152.55
+},
+{
+"w": "waiting",
+"s": 152.57,
+"e": 152.87
+},
+{
+"w": "there,",
+"s": 152.89,
+"e": 153.19
+},
+{
+"w": "Claes",
+"s": 153.22,
+"e": 153.52
+},
+{
+"w": "Johansson,",
+"s": 153.54,
+"e": 153.84
+},
+{
+"w": "got",
+"s": 153.86,
+"e": 154.16
+},
+{
+"w": "the",
+"s": 154.19,
+"e": 154.49
+},
+{
+"w": "gold",
+"s": 154.51,
+"e": 154.81
+},
+{
+"w": "without",
+"s": 154.83,
+"e": 155.13
+},
+{
+"w": "a",
+"s": 155.15,
+"e": 155.45
+},
+{
+"w": "fight.",
+"s": 155.48,
+"e": 155.78
+},
+{
+"w": "And",
+"s": 156.15,
+"e": 156.45
+},
+{
+"w": "it",
+"s": 156.47,
+"e": 156.77
+},
+{
+"w": "got",
+"s": 156.79,
+"e": 157.09
+},
+{
+"w": "stranger",
+"s": 157.12,
+"e": 157.42
+},
+{
+"w": "one",
+"s": 157.44,
+"e": 157.74
+},
+{
+"w": "weight",
+"s": 157.76,
+"e": 158.06
+},
+{
+"w": "class",
+"s": 158.09,
+"e": 158.39
+},
+{
+"w": "up.",
+"s": 158.41,
+"e": 158.71
+},
+{
+"w": "That",
+"s": 159.08,
+"e": 159.38
+},
+{
+"w": "final,",
+"s": 159.4,
+"e": 159.7
+},
+{
+"w": "between",
+"s": 159.73,
+"e": 160.03
+},
+{
+"w": "Anders",
+"s": 160.05,
+"e": 160.35
+},
+{
+"w": "Ahlgren",
+"s": 160.37,
+"e": 160.67
+},
+{
+"w": "of",
+"s": 160.7,
+"e": 161.0
+},
+{
+"w": "Sweden",
+"s": 161.02,
+"e": 161.32
+},
+{
+"w": "and",
+"s": 161.34,
+"e": 161.64
+},
+{
+"w": "Ivar",
+"s": 161.66,
+"e": 161.96
+},
+{
+"w": "B\u00f6hling",
+"s": 161.99,
+"e": 162.29
+},
+{
+"w": "of",
+"s": 162.31,
+"e": 162.61
+},
+{
+"w": "Finland,",
+"s": 162.63,
+"e": 162.93
+},
+{
+"w": "went",
+"s": 162.96,
+"e": 163.26
+},
+{
+"w": "on",
+"s": 163.28,
+"e": 163.58
+},
+{
+"w": "for",
+"s": 163.6,
+"e": 163.9
+},
+{
+"w": "about",
+"s": 163.92,
+"e": 164.22
+},
+{
+"w": "nine",
+"s": 164.25,
+"e": 164.55
+},
+{
+"w": "hours,",
+"s": 164.57,
+"e": 164.87
+},
+{
+"w": "and",
+"s": 164.89,
+"e": 165.19
+},
+{
+"w": "nobody",
+"s": 165.21,
+"e": 165.51
+},
+{
+"w": "won.",
+"s": 165.54,
+"e": 165.84
+},
+{
+"w": "There",
+"s": 166.21,
+"e": 166.51
+},
+{
+"w": "was",
+"s": 166.53,
+"e": 166.83
+},
+{
+"w": "no",
+"s": 166.86,
+"e": 167.16
+},
+{
+"w": "gold",
+"s": 167.18,
+"e": 167.48
+},
+{
+"w": "at",
+"s": 167.5,
+"e": 167.8
+},
+{
+"w": "all,",
+"s": 167.82,
+"e": 168.12
+},
+{
+"w": "and",
+"s": 168.15,
+"e": 168.45
+},
+{
+"w": "both",
+"s": 168.47,
+"e": 168.77
+},
+{
+"w": "men",
+"s": 168.79,
+"e": 169.09
+},
+{
+"w": "went",
+"s": 169.12,
+"e": 169.42
+},
+{
+"w": "home",
+"s": 169.44,
+"e": 169.74
+},
+{
+"w": "with",
+"s": 169.76,
+"e": 170.06
+},
+{
+"w": "silver.",
+"s": 170.08,
+"e": 170.38
+},
+{
+"w": "From",
+"s": 170.76,
+"e": 171.06
+},
+{
+"w": "1924",
+"s": 171.08,
+"e": 171.38
+},
+{
+"w": "on,",
+"s": 171.4,
+"e": 171.7
+},
+{
+"w": "Olympic",
+"s": 171.73,
+"e": 172.03
+},
+{
+"w": "wrestling",
+"s": 172.05,
+"e": 172.35
+},
+{
+"w": "had",
+"s": 172.37,
+"e": 172.67
+},
+{
+"w": "time",
+"s": 172.69,
+"e": 172.99
+},
+{
+"w": "limits,",
+"s": 173.02,
+"e": 173.32
+},
+{
+"w": "and",
+"s": 173.34,
+"e": 173.64
+},
+{
+"w": "Klein's",
+"s": 173.66,
+"e": 173.96
+},
+{
+"w": "match",
+"s": 173.99,
+"e": 174.29
+},
+{
+"w": "is",
+"s": 174.31,
+"e": 174.61
+},
+{
+"w": "still",
+"s": 174.63,
+"e": 174.93
+},
+{
+"w": "the",
+"s": 174.95,
+"e": 175.25
+},
+{
+"w": "longest",
+"s": 175.28,
+"e": 175.58
+},
+{
+"w": "in",
+"s": 175.6,
+"e": 175.9
+},
+{
+"w": "Olympic",
+"s": 175.92,
+"e": 176.22
+},
+{
+"w": "history.",
+"s": 176.24,
+"e": 176.54
+},
+{
+"w": "Number",
+"s": 177.82,
+"e": 178.12
+},
+{
+"w": "six.",
+"s": 178.14,
+"e": 178.44
+},
+{
+"w": "A",
+"s": 178.81,
+"e": 179.11
+},
+{
+"w": "British",
+"s": 179.14,
+"e": 179.44
+},
+{
+"w": "army",
+"s": 179.46,
+"e": 179.76
+},
+{
+"w": "officer",
+"s": 179.78,
+"e": 180.08
+},
+{
+"w": "won",
+"s": 180.1,
+"e": 180.4
+},
+{
+"w": "Olympic",
+"s": 180.43,
+"e": 180.73
+},
+{
+"w": "gold",
+"s": 180.75,
+"e": 181.05
+},
+{
+"w": "by",
+"s": 181.07,
+"e": 181.37
+},
+{
+"w": "running",
+"s": 181.4,
+"e": 181.7
+},
+{
+"w": "the",
+"s": 181.72,
+"e": 182.02
+},
+{
+"w": "final",
+"s": 182.04,
+"e": 182.34
+},
+{
+"w": "completely",
+"s": 182.36,
+"e": 182.66
+},
+{
+"w": "alone,",
+"s": 182.69,
+"e": 182.99
+},
+{
+"w": "because",
+"s": 183.01,
+"e": 183.31
+},
+{
+"w": "the",
+"s": 183.33,
+"e": 183.63
+},
+{
+"w": "other",
+"s": 183.66,
+"e": 183.96
+},
+{
+"w": "three",
+"s": 183.98,
+"e": 184.28
+},
+{
+"w": "men",
+"s": 184.3,
+"e": 184.6
+},
+{
+"w": "were",
+"s": 184.62,
+"e": 184.92
+},
+{
+"w": "either",
+"s": 184.95,
+"e": 185.25
+},
+{
+"w": "thrown",
+"s": 185.27,
+"e": 185.57
+},
+{
+"w": "out",
+"s": 185.59,
+"e": 185.89
+},
+{
+"w": "or",
+"s": 185.91,
+"e": 186.21
+},
+{
+"w": "told",
+"s": 186.24,
+"e": 186.54
+},
+{
+"w": "not",
+"s": 186.56,
+"e": 186.86
+},
+{
+"w": "to",
+"s": 186.88,
+"e": 187.18
+},
+{
+"w": "start.",
+"s": 187.21,
+"e": 187.51
+},
+{
+"w": "Wyndham",
+"s": 187.88,
+"e": 188.18
+},
+{
+"w": "Halswelle,",
+"s": 188.2,
+"e": 188.5
+},
+{
+"w": "a",
+"s": 188.52,
+"e": 188.82
+},
+{
+"w": "Highland",
+"s": 188.85,
+"e": 189.15
+},
+{
+"w": "Light",
+"s": 189.17,
+"e": 189.47
+},
+{
+"w": "Infantry",
+"s": 189.49,
+"e": 189.79
+},
+{
+"w": "officer,",
+"s": 189.82,
+"e": 190.12
+},
+{
+"w": "set",
+"s": 190.14,
+"e": 190.44
+},
+{
+"w": "an",
+"s": 190.46,
+"e": 190.76
+},
+{
+"w": "Olympic",
+"s": 190.78,
+"e": 191.08
+},
+{
+"w": "record",
+"s": 191.11,
+"e": 191.41
+},
+{
+"w": "in",
+"s": 191.43,
+"e": 191.73
+},
+{
+"w": "the",
+"s": 191.75,
+"e": 192.05
+},
+{
+"w": "four",
+"s": 192.08,
+"e": 192.38
+},
+{
+"w": "hundred",
+"s": 192.4,
+"e": 192.7
+},
+{
+"w": "metre",
+"s": 192.72,
+"e": 193.02
+},
+{
+"w": "semi-final",
+"s": 193.04,
+"e": 193.34
+},
+{
+"w": "at",
+"s": 193.37,
+"e": 193.67
+},
+{
+"w": "London",
+"s": 193.69,
+"e": 193.99
+},
+{
+"w": "in",
+"s": 194.01,
+"e": 194.31
+},
+{
+"w": "1908.",
+"s": 194.34,
+"e": 194.64
+},
+{
+"w": "The",
+"s": 195.01,
+"e": 195.31
+},
+{
+"w": "final",
+"s": 195.33,
+"e": 195.63
+},
+{
+"w": "was",
+"s": 195.65,
+"e": 195.95
+},
+{
+"w": "Halswelle",
+"s": 195.98,
+"e": 196.28
+},
+{
+"w": "against",
+"s": 196.3,
+"e": 196.6
+},
+{
+"w": "three",
+"s": 196.62,
+"e": 196.92
+},
+{
+"w": "Americans,",
+"s": 196.94,
+"e": 197.24
+},
+{
+"w": "and",
+"s": 197.27,
+"e": 197.57
+},
+{
+"w": "there",
+"s": 197.59,
+"e": 197.89
+},
+{
+"w": "were",
+"s": 197.91,
+"e": 198.21
+},
+{
+"w": "no",
+"s": 198.24,
+"e": 198.54
+},
+{
+"w": "lanes.",
+"s": 198.56,
+"e": 198.86
+},
+{
+"w": "Coming",
+"s": 199.23,
+"e": 199.53
+},
+{
+"w": "into",
+"s": 199.55,
+"e": 199.85
+},
+{
+"w": "the",
+"s": 199.88,
+"e": 200.18
+},
+{
+"w": "home",
+"s": 200.2,
+"e": 200.5
+},
+{
+"w": "straight,",
+"s": 200.52,
+"e": 200.82
+},
+{
+"w": "John",
+"s": 200.85,
+"e": 201.15
+},
+{
+"w": "Carpenter",
+"s": 201.17,
+"e": 201.47
+},
+{
+"w": "kept",
+"s": 201.49,
+"e": 201.79
+},
+{
+"w": "drifting",
+"s": 201.81,
+"e": 202.11
+},
+{
+"w": "wider,",
+"s": 202.14,
+"e": 202.44
+},
+{
+"w": "and",
+"s": 202.46,
+"e": 202.76
+},
+{
+"w": "British",
+"s": 202.78,
+"e": 203.08
+},
+{
+"w": "officials",
+"s": 203.11,
+"e": 203.41
+},
+{
+"w": "said",
+"s": 203.43,
+"e": 203.73
+},
+{
+"w": "he",
+"s": 203.75,
+"e": 204.05
+},
+{
+"w": "pushed",
+"s": 204.07,
+"e": 204.37
+},
+{
+"w": "Halswelle",
+"s": 204.4,
+"e": 204.7
+},
+{
+"w": "almost",
+"s": 204.72,
+"e": 205.02
+},
+{
+"w": "to",
+"s": 205.04,
+"e": 205.34
+},
+{
+"w": "the",
+"s": 205.36,
+"e": 205.66
+},
+{
+"w": "edge",
+"s": 205.69,
+"e": 205.99
+},
+{
+"w": "of",
+"s": 206.01,
+"e": 206.31
+},
+{
+"w": "the",
+"s": 206.33,
+"e": 206.63
+},
+{
+"w": "track.",
+"s": 206.66,
+"e": 206.96
+},
+{
+"w": "An",
+"s": 207.33,
+"e": 207.63
+},
+{
+"w": "official",
+"s": 207.65,
+"e": 207.95
+},
+{
+"w": "on",
+"s": 207.97,
+"e": 208.27
+},
+{
+"w": "the",
+"s": 208.3,
+"e": 208.6
+},
+{
+"w": "bend",
+"s": 208.62,
+"e": 208.92
+},
+{
+"w": "waved",
+"s": 208.94,
+"e": 209.24
+},
+{
+"w": "at",
+"s": 209.27,
+"e": 209.57
+},
+{
+"w": "the",
+"s": 209.59,
+"e": 209.89
+},
+{
+"w": "judges,",
+"s": 209.91,
+"e": 210.21
+},
+{
+"w": "and",
+"s": 210.23,
+"e": 210.53
+},
+{
+"w": "they",
+"s": 210.56,
+"e": 210.86
+},
+{
+"w": "broke",
+"s": 210.88,
+"e": 211.18
+},
+{
+"w": "the",
+"s": 211.2,
+"e": 211.5
+},
+{
+"w": "finishing",
+"s": 211.53,
+"e": 211.83
+},
+{
+"w": "tape",
+"s": 211.85,
+"e": 212.15
+},
+{
+"w": "before",
+"s": 212.17,
+"e": 212.47
+},
+{
+"w": "anyone",
+"s": 212.49,
+"e": 212.79
+},
+{
+"w": "got",
+"s": 212.82,
+"e": 213.12
+},
+{
+"w": "there.",
+"s": 213.14,
+"e": 213.44
+},
+{
+"w": "That",
+"s": 213.81,
+"e": 214.11
+},
+{
+"w": "evening",
+"s": 214.14,
+"e": 214.44
+},
+{
+"w": "Carpenter",
+"s": 214.46,
+"e": 214.76
+},
+{
+"w": "was",
+"s": 214.78,
+"e": 215.08
+},
+{
+"w": "disqualified,",
+"s": 215.1,
+"e": 215.4
+},
+{
+"w": "and",
+"s": 215.43,
+"e": 215.73
+},
+{
+"w": "the",
+"s": 215.75,
+"e": 216.05
+},
+{
+"w": "final",
+"s": 216.07,
+"e": 216.37
+},
+{
+"w": "was",
+"s": 216.39,
+"e": 216.69
+},
+{
+"w": "ordered",
+"s": 216.72,
+"e": 217.02
+},
+{
+"w": "run",
+"s": 217.04,
+"e": 217.34
+},
+{
+"w": "again",
+"s": 217.36,
+"e": 217.66
+},
+{
+"w": "two",
+"s": 217.69,
+"e": 217.99
+},
+{
+"w": "days",
+"s": 218.01,
+"e": 218.31
+},
+{
+"w": "later,",
+"s": 218.33,
+"e": 218.63
+},
+{
+"w": "with",
+"s": 218.65,
+"e": 218.95
+},
+{
+"w": "strings",
+"s": 218.98,
+"e": 219.28
+},
+{
+"w": "marking",
+"s": 219.3,
+"e": 219.6
+},
+{
+"w": "out",
+"s": 219.62,
+"e": 219.92
+},
+{
+"w": "lanes.",
+"s": 219.95,
+"e": 220.25
+},
+{
+"w": "That",
+"s": 220.62,
+"e": 220.92
+},
+{
+"w": "wasn't",
+"s": 220.94,
+"e": 221.24
+},
+{
+"w": "the",
+"s": 221.26,
+"e": 221.56
+},
+{
+"w": "end",
+"s": 221.59,
+"e": 221.89
+},
+{
+"w": "of",
+"s": 221.91,
+"e": 222.21
+},
+{
+"w": "it.",
+"s": 222.23,
+"e": 222.53
+},
+{
+"w": "American",
+"s": 222.91,
+"e": 223.21
+},
+{
+"w": "officials",
+"s": 223.23,
+"e": 223.53
+},
+{
+"w": "told",
+"s": 223.55,
+"e": 223.85
+},
+{
+"w": "the",
+"s": 223.87,
+"e": 224.17
+},
+{
+"w": "other",
+"s": 224.2,
+"e": 224.5
+},
+{
+"w": "two,",
+"s": 224.52,
+"e": 224.82
+},
+{
+"w": "William",
+"s": 224.84,
+"e": 225.14
+},
+{
+"w": "Robbins",
+"s": 225.16,
+"e": 225.46
+},
+{
+"w": "and",
+"s": 225.49,
+"e": 225.79
+},
+{
+"w": "John",
+"s": 225.81,
+"e": 226.11
+},
+{
+"w": "Taylor,",
+"s": 226.13,
+"e": 226.43
+},
+{
+"w": "not",
+"s": 226.46,
+"e": 226.76
+},
+{
+"w": "to",
+"s": 226.78,
+"e": 227.08
+},
+{
+"w": "run.",
+"s": 227.1,
+"e": 227.4
+},
+{
+"w": "So",
+"s": 227.77,
+"e": 228.07
+},
+{
+"w": "Halswelle",
+"s": 228.1,
+"e": 228.4
+},
+{
+"w": "ran",
+"s": 228.42,
+"e": 228.72
+},
+{
+"w": "one",
+"s": 228.74,
+"e": 229.04
+},
+{
+"w": "lap",
+"s": 229.07,
+"e": 229.37
+},
+{
+"w": "on",
+"s": 229.39,
+"e": 229.69
+},
+{
+"w": "his",
+"s": 229.71,
+"e": 230.01
+},
+{
+"w": "own",
+"s": 230.03,
+"e": 230.33
+},
+{
+"w": "and",
+"s": 230.36,
+"e": 230.66
+},
+{
+"w": "won",
+"s": 230.68,
+"e": 230.98
+},
+{
+"w": "gold",
+"s": 231.0,
+"e": 231.3
+},
+{
+"w": "in",
+"s": 231.33,
+"e": 231.63
+},
+{
+"w": "about",
+"s": 231.65,
+"e": 231.95
+},
+{
+"w": "fifty",
+"s": 231.97,
+"e": 232.27
+},
+{
+"w": "seconds.",
+"s": 232.29,
+"e": 232.59
+},
+{
+"w": "No",
+"s": 232.97,
+"e": 233.27
+},
+{
+"w": "Olympic",
+"s": 233.29,
+"e": 233.59
+},
+{
+"w": "track",
+"s": 233.61,
+"e": 233.91
+},
+{
+"w": "final",
+"s": 233.94,
+"e": 234.24
+},
+{
+"w": "has",
+"s": 234.26,
+"e": 234.56
+},
+{
+"w": "been",
+"s": 234.58,
+"e": 234.88
+},
+{
+"w": "won",
+"s": 234.9,
+"e": 235.2
+},
+{
+"w": "that",
+"s": 235.23,
+"e": 235.53
+},
+{
+"w": "way",
+"s": 235.55,
+"e": 235.85
+},
+{
+"w": "since.",
+"s": 235.87,
+"e": 236.17
+},
+{
+"w": "Halswelle",
+"s": 236.54,
+"e": 236.84
+},
+{
+"w": "was",
+"s": 236.87,
+"e": 237.17
+},
+{
+"w": "so",
+"s": 237.19,
+"e": 237.49
+},
+{
+"w": "sour",
+"s": 237.51,
+"e": 237.81
+},
+{
+"w": "about",
+"s": 237.84,
+"e": 238.14
+},
+{
+"w": "it",
+"s": 238.16,
+"e": 238.46
+},
+{
+"w": "that",
+"s": 238.48,
+"e": 238.78
+},
+{
+"w": "he",
+"s": 238.8,
+"e": 239.1
+},
+{
+"w": "ran",
+"s": 239.13,
+"e": 239.43
+},
+{
+"w": "one",
+"s": 239.45,
+"e": 239.75
+},
+{
+"w": "farewell",
+"s": 239.77,
+"e": 240.07
+},
+{
+"w": "race",
+"s": 240.1,
+"e": 240.4
+},
+{
+"w": "that",
+"s": 240.42,
+"e": 240.72
+},
+{
+"w": "year",
+"s": 240.74,
+"e": 241.04
+},
+{
+"w": "and",
+"s": 241.06,
+"e": 241.36
+},
+{
+"w": "quit",
+"s": 241.39,
+"e": 241.69
+},
+{
+"w": "the",
+"s": 241.71,
+"e": 242.01
+},
+{
+"w": "sport.",
+"s": 242.03,
+"e": 242.33
+},
+{
+"w": "In",
+"s": 242.71,
+"e": 243.01
+},
+{
+"w": "1915",
+"s": 243.03,
+"e": 243.33
+},
+{
+"w": "he",
+"s": 243.35,
+"e": 243.65
+},
+{
+"w": "was",
+"s": 243.67,
+"e": 243.97
+},
+{
+"w": "killed",
+"s": 244.0,
+"e": 244.3
+},
+{
+"w": "in",
+"s": 244.32,
+"e": 244.62
+},
+{
+"w": "the",
+"s": 244.64,
+"e": 244.94
+},
+{
+"w": "war",
+"s": 244.96,
+"e": 245.26
+},
+{
+"w": "in",
+"s": 245.29,
+"e": 245.59
+},
+{
+"w": "France,",
+"s": 245.61,
+"e": 245.91
+},
+{
+"w": "at",
+"s": 245.93,
+"e": 246.23
+},
+{
+"w": "thirty-two.",
+"s": 246.26,
+"e": 246.56
+},
+{
+"w": "And",
+"s": 246.93,
+"e": 247.23
+},
+{
+"w": "John",
+"s": 247.25,
+"e": 247.55
+},
+{
+"w": "Taylor,",
+"s": 247.57,
+"e": 247.87
+},
+{
+"w": "who",
+"s": 247.9,
+"e": 248.2
+},
+{
+"w": "sat",
+"s": 248.22,
+"e": 248.52
+},
+{
+"w": "out",
+"s": 248.54,
+"e": 248.84
+},
+{
+"w": "the",
+"s": 248.87,
+"e": 249.17
+},
+{
+"w": "re-run,",
+"s": 249.19,
+"e": 249.49
+},
+{
+"w": "won",
+"s": 249.51,
+"e": 249.81
+},
+{
+"w": "gold",
+"s": 249.83,
+"e": 250.13
+},
+{
+"w": "in",
+"s": 250.16,
+"e": 250.46
+},
+{
+"w": "the",
+"s": 250.48,
+"e": 250.78
+},
+{
+"w": "medley",
+"s": 250.8,
+"e": 251.1
+},
+{
+"w": "relay",
+"s": 251.13,
+"e": 251.43
+},
+{
+"w": "that",
+"s": 251.45,
+"e": 251.75
+},
+{
+"w": "very",
+"s": 251.77,
+"e": 252.07
+},
+{
+"w": "day,",
+"s": 252.09,
+"e": 252.39
+},
+{
+"w": "the",
+"s": 252.42,
+"e": 252.72
+},
+{
+"w": "first",
+"s": 252.74,
+"e": 253.04
+},
+{
+"w": "African",
+"s": 253.06,
+"e": 253.36
+},
+{
+"w": "American",
+"s": 253.39,
+"e": 253.69
+},
+{
+"w": "to",
+"s": 253.71,
+"e": 254.01
+},
+{
+"w": "win",
+"s": 254.03,
+"e": 254.33
+},
+{
+"w": "Olympic",
+"s": 254.35,
+"e": 254.65
+},
+{
+"w": "gold.",
+"s": 254.68,
+"e": 254.98
+},
+{
+"w": "Five",
+"s": 255.35,
+"e": 255.65
+},
+{
+"w": "months",
+"s": 255.67,
+"e": 255.97
+},
+{
+"w": "later",
+"s": 255.99,
+"e": 256.29
+},
+{
+"w": "he",
+"s": 256.32,
+"e": 256.62
+},
+{
+"w": "died",
+"s": 256.64,
+"e": 256.94
+},
+{
+"w": "of",
+"s": 256.96,
+"e": 257.26
+},
+{
+"w": "typhoid",
+"s": 257.29,
+"e": 257.59
+},
+{
+"w": "fever,",
+"s": 257.61,
+"e": 257.91
+},
+{
+"w": "at",
+"s": 257.93,
+"e": 258.23
+},
+{
+"w": "twenty-six.",
+"s": 258.25,
+"e": 258.55
+},
+{
+"w": "Number",
+"s": 259.83,
+"e": 260.13
+},
+{
+"w": "five.",
+"s": 260.15,
+"e": 260.45
+},
+{
+"w": "The",
+"s": 260.82,
+"e": 261.12
+},
+{
+"w": "man",
+"s": 261.15,
+"e": 261.45
+},
+{
+"w": "a",
+"s": 261.47,
+"e": 261.77
+},
+{
+"w": "king",
+"s": 261.79,
+"e": 262.09
+},
+{
+"w": "supposedly",
+"s": 262.11,
+"e": 262.41
+},
+{
+"w": "called",
+"s": 262.44,
+"e": 262.74
+},
+{
+"w": "the",
+"s": 262.76,
+"e": 263.06
+},
+{
+"w": "greatest",
+"s": 263.08,
+"e": 263.38
+},
+{
+"w": "athlete",
+"s": 263.41,
+"e": 263.71
+},
+{
+"w": "in",
+"s": 263.73,
+"e": 264.03
+},
+{
+"w": "the",
+"s": 264.05,
+"e": 264.35
+},
+{
+"w": "world",
+"s": 264.37,
+"e": 264.67
+},
+{
+"w": "lost",
+"s": 264.7,
+"e": 265.0
+},
+{
+"w": "his",
+"s": 265.02,
+"e": 265.32
+},
+{
+"w": "Olympic",
+"s": 265.34,
+"e": 265.64
+},
+{
+"w": "gold",
+"s": 265.66,
+"e": 265.96
+},
+{
+"w": "medals",
+"s": 265.99,
+"e": 266.29
+},
+{
+"w": "because",
+"s": 266.31,
+"e": 266.61
+},
+{
+"w": "he'd",
+"s": 266.63,
+"e": 266.93
+},
+{
+"w": "once",
+"s": 266.96,
+"e": 267.26
+},
+{
+"w": "been",
+"s": 267.28,
+"e": 267.58
+},
+{
+"w": "paid",
+"s": 267.6,
+"e": 267.9
+},
+{
+"w": "to",
+"s": 267.92,
+"e": 268.22
+},
+{
+"w": "play",
+"s": 268.25,
+"e": 268.55
+},
+{
+"w": "summer",
+"s": 268.57,
+"e": 268.87
+},
+{
+"w": "baseball.",
+"s": 268.89,
+"e": 269.19
+},
+{
+"w": "Jim",
+"s": 269.57,
+"e": 269.87
+},
+{
+"w": "Thorpe,",
+"s": 269.89,
+"e": 270.19
+},
+{
+"w": "a",
+"s": 270.21,
+"e": 270.51
+},
+{
+"w": "member",
+"s": 270.53,
+"e": 270.83
+},
+{
+"w": "of",
+"s": 270.86,
+"e": 271.16
+},
+{
+"w": "the",
+"s": 271.18,
+"e": 271.48
+},
+{
+"w": "Sac",
+"s": 271.5,
+"e": 271.8
+},
+{
+"w": "and",
+"s": 271.83,
+"e": 272.13
+},
+{
+"w": "Fox",
+"s": 272.15,
+"e": 272.45
+},
+{
+"w": "Nation",
+"s": 272.47,
+"e": 272.77
+},
+{
+"w": "from",
+"s": 272.79,
+"e": 273.09
+},
+{
+"w": "Oklahoma,",
+"s": 273.12,
+"e": 273.42
+},
+{
+"w": "was",
+"s": 273.44,
+"e": 273.74
+},
+{
+"w": "a",
+"s": 273.76,
+"e": 274.06
+},
+{
+"w": "football",
+"s": 274.09,
+"e": 274.39
+},
+{
+"w": "star",
+"s": 274.41,
+"e": 274.71
+},
+{
+"w": "at",
+"s": 274.73,
+"e": 275.03
+},
+{
+"w": "the",
+"s": 275.05,
+"e": 275.35
+},
+{
+"w": "Carlisle",
+"s": 275.38,
+"e": 275.68
+},
+{
+"w": "Indian",
+"s": 275.7,
+"e": 276.0
+},
+{
+"w": "School",
+"s": 276.02,
+"e": 276.32
+},
+{
+"w": "in",
+"s": 276.34,
+"e": 276.64
+},
+{
+"w": "Pennsylvania.",
+"s": 276.67,
+"e": 276.97
+},
+{
+"w": "At",
+"s": 277.34,
+"e": 277.64
+},
+{
+"w": "the",
+"s": 277.66,
+"e": 277.96
+},
+{
+"w": "Stockholm",
+"s": 277.99,
+"e": 278.29
+},
+{
+"w": "Olympics",
+"s": 278.31,
+"e": 278.61
+},
+{
+"w": "he",
+"s": 278.63,
+"e": 278.93
+},
+{
+"w": "won",
+"s": 278.95,
+"e": 279.25
+},
+{
+"w": "both",
+"s": 279.28,
+"e": 279.58
+},
+{
+"w": "the",
+"s": 279.6,
+"e": 279.9
+},
+{
+"w": "pentathlon",
+"s": 279.92,
+"e": 280.22
+},
+{
+"w": "and",
+"s": 280.25,
+"e": 280.55
+},
+{
+"w": "the",
+"s": 280.57,
+"e": 280.87
+},
+{
+"w": "decathlon.",
+"s": 280.89,
+"e": 281.19
+},
+{
+"w": "The",
+"s": 281.56,
+"e": 281.86
+},
+{
+"w": "story",
+"s": 281.89,
+"e": 282.19
+},
+{
+"w": "goes",
+"s": 282.21,
+"e": 282.51
+},
+{
+"w": "that",
+"s": 282.53,
+"e": 282.83
+},
+{
+"w": "Sweden's",
+"s": 282.86,
+"e": 283.16
+},
+{
+"w": "king",
+"s": 283.18,
+"e": 283.48
+},
+{
+"w": "told",
+"s": 283.5,
+"e": 283.8
+},
+{
+"w": "him,",
+"s": 283.82,
+"e": 284.12
+},
+{
+"w": "you,",
+"s": 284.15,
+"e": 284.45
+},
+{
+"w": "sir,",
+"s": 284.47,
+"e": 284.77
+},
+{
+"w": "are",
+"s": 284.79,
+"e": 285.09
+},
+{
+"w": "the",
+"s": 285.11,
+"e": 285.41
+},
+{
+"w": "greatest",
+"s": 285.44,
+"e": 285.74
+},
+{
+"w": "athlete",
+"s": 285.76,
+"e": 286.06
+},
+{
+"w": "in",
+"s": 286.08,
+"e": 286.38
+},
+{
+"w": "the",
+"s": 286.41,
+"e": 286.71
+},
+{
+"w": "world.",
+"s": 286.73,
+"e": 287.03
+},
+{
+"w": "Then",
+"s": 287.4,
+"e": 287.7
+},
+{
+"w": "it",
+"s": 287.72,
+"e": 288.02
+},
+{
+"w": "got",
+"s": 288.05,
+"e": 288.35
+},
+{
+"w": "worse.",
+"s": 288.37,
+"e": 288.67
+},
+{
+"w": "Early",
+"s": 289.04,
+"e": 289.34
+},
+{
+"w": "in",
+"s": 289.37,
+"e": 289.67
+},
+{
+"w": "1913",
+"s": 289.69,
+"e": 289.99
+},
+{
+"w": "a",
+"s": 290.01,
+"e": 290.31
+},
+{
+"w": "newspaper",
+"s": 290.33,
+"e": 290.63
+},
+{
+"w": "reported",
+"s": 290.66,
+"e": 290.96
+},
+{
+"w": "he'd",
+"s": 290.98,
+"e": 291.28
+},
+{
+"w": "played",
+"s": 291.3,
+"e": 291.6
+},
+{
+"w": "minor",
+"s": 291.63,
+"e": 291.93
+},
+{
+"w": "league",
+"s": 291.95,
+"e": 292.25
+},
+{
+"w": "baseball",
+"s": 292.27,
+"e": 292.57
+},
+{
+"w": "in",
+"s": 292.59,
+"e": 292.89
+},
+{
+"w": "North",
+"s": 292.92,
+"e": 293.22
+},
+{
+"w": "Carolina,",
+"s": 293.24,
+"e": 293.54
+},
+{
+"w": "for",
+"s": 293.56,
+"e": 293.86
+},
+{
+"w": "a",
+"s": 293.89,
+"e": 294.19
+},
+{
+"w": "few",
+"s": 294.21,
+"e": 294.51
+},
+{
+"w": "dollars",
+"s": 294.53,
+"e": 294.83
+},
+{
+"w": "a",
+"s": 294.85,
+"e": 295.15
+},
+{
+"w": "game.",
+"s": 295.18,
+"e": 295.48
+},
+{
+"w": "Olympians",
+"s": 295.85,
+"e": 296.15
+},
+{
+"w": "had",
+"s": 296.17,
+"e": 296.47
+},
+{
+"w": "to",
+"s": 296.49,
+"e": 296.79
+},
+{
+"w": "be",
+"s": 296.82,
+"e": 297.12
+},
+{
+"w": "amateurs.",
+"s": 297.14,
+"e": 297.44
+},
+{
+"w": "Thorpe",
+"s": 297.81,
+"e": 298.11
+},
+{
+"w": "wrote",
+"s": 298.14,
+"e": 298.44
+},
+{
+"w": "to",
+"s": 298.46,
+"e": 298.76
+},
+{
+"w": "the",
+"s": 298.78,
+"e": 299.08
+},
+{
+"w": "officials",
+"s": 299.1,
+"e": 299.4
+},
+{
+"w": "and",
+"s": 299.43,
+"e": 299.73
+},
+{
+"w": "said",
+"s": 299.75,
+"e": 300.05
+},
+{
+"w": "he",
+"s": 300.07,
+"e": 300.37
+},
+{
+"w": "hadn't",
+"s": 300.4,
+"e": 300.7
+},
+{
+"w": "been",
+"s": 300.72,
+"e": 301.02
+},
+{
+"w": "wise",
+"s": 301.04,
+"e": 301.34
+},
+{
+"w": "to",
+"s": 301.36,
+"e": 301.66
+},
+{
+"w": "the",
+"s": 301.69,
+"e": 301.99
+},
+{
+"w": "ways",
+"s": 302.01,
+"e": 302.31
+},
+{
+"w": "of",
+"s": 302.33,
+"e": 302.63
+},
+{
+"w": "the",
+"s": 302.66,
+"e": 302.96
+},
+{
+"w": "world.",
+"s": 302.98,
+"e": 303.28
+},
+{
+"w": "He",
+"s": 303.65,
+"e": 303.95
+},
+{
+"w": "said",
+"s": 303.97,
+"e": 304.27
+},
+{
+"w": "lots",
+"s": 304.3,
+"e": 304.6
+},
+{
+"w": "of",
+"s": 304.62,
+"e": 304.92
+},
+{
+"w": "college",
+"s": 304.94,
+"e": 305.24
+},
+{
+"w": "men",
+"s": 305.26,
+"e": 305.56
+},
+{
+"w": "had",
+"s": 305.59,
+"e": 305.89
+},
+{
+"w": "done",
+"s": 305.91,
+"e": 306.21
+},
+{
+"w": "the",
+"s": 306.23,
+"e": 306.53
+},
+{
+"w": "same",
+"s": 306.56,
+"e": 306.86
+},
+{
+"w": "thing,",
+"s": 306.88,
+"e": 307.18
+},
+{
+"w": "they",
+"s": 307.2,
+"e": 307.5
+},
+{
+"w": "just",
+"s": 307.52,
+"e": 307.82
+},
+{
+"w": "didn't",
+"s": 307.85,
+"e": 308.15
+},
+{
+"w": "use",
+"s": 308.17,
+"e": 308.47
+},
+{
+"w": "their",
+"s": 308.49,
+"e": 308.79
+},
+{
+"w": "own",
+"s": 308.82,
+"e": 309.12
+},
+{
+"w": "names.",
+"s": 309.14,
+"e": 309.44
+},
+{
+"w": "The",
+"s": 309.81,
+"e": 310.11
+},
+{
+"w": "committee",
+"s": 310.13,
+"e": 310.43
+},
+{
+"w": "took",
+"s": 310.46,
+"e": 310.76
+},
+{
+"w": "his",
+"s": 310.78,
+"e": 311.08
+},
+{
+"w": "medals",
+"s": 311.1,
+"e": 311.4
+},
+{
+"w": "and",
+"s": 311.43,
+"e": 311.73
+},
+{
+"w": "erased",
+"s": 311.75,
+"e": 312.05
+},
+{
+"w": "his",
+"s": 312.07,
+"e": 312.37
+},
+{
+"w": "name",
+"s": 312.39,
+"e": 312.69
+},
+{
+"w": "anyway.",
+"s": 312.72,
+"e": 313.02
+},
+{
+"w": "Within",
+"s": 313.39,
+"e": 313.69
+},
+{
+"w": "weeks",
+"s": 313.71,
+"e": 314.01
+},
+{
+"w": "he'd",
+"s": 314.04,
+"e": 314.34
+},
+{
+"w": "signed",
+"s": 314.36,
+"e": 314.66
+},
+{
+"w": "to",
+"s": 314.68,
+"e": 314.98
+},
+{
+"w": "play",
+"s": 315.0,
+"e": 315.3
+},
+{
+"w": "baseball",
+"s": 315.33,
+"e": 315.63
+},
+{
+"w": "for",
+"s": 315.65,
+"e": 315.95
+},
+{
+"w": "the",
+"s": 315.97,
+"e": 316.27
+},
+{
+"w": "New",
+"s": 316.29,
+"e": 316.59
+},
+{
+"w": "York",
+"s": 316.62,
+"e": 316.92
+},
+{
+"w": "Giants,",
+"s": 316.94,
+"e": 317.24
+},
+{
+"w": "and",
+"s": 317.26,
+"e": 317.56
+},
+{
+"w": "later",
+"s": 317.59,
+"e": 317.89
+},
+{
+"w": "he",
+"s": 317.91,
+"e": 318.21
+},
+{
+"w": "played",
+"s": 318.23,
+"e": 318.53
+},
+{
+"w": "pro",
+"s": 318.55,
+"e": 318.85
+},
+{
+"w": "football",
+"s": 318.88,
+"e": 319.18
+},
+{
+"w": "for",
+"s": 319.2,
+"e": 319.5
+},
+{
+"w": "the",
+"s": 319.52,
+"e": 319.82
+},
+{
+"w": "Canton",
+"s": 319.85,
+"e": 320.15
+},
+{
+"w": "Bulldogs.",
+"s": 320.17,
+"e": 320.47
+},
+{
+"w": "In",
+"s": 320.84,
+"e": 321.14
+},
+{
+"w": "1983,",
+"s": 321.16,
+"e": 321.46
+},
+{
+"w": "thirty",
+"s": 321.49,
+"e": 321.79
+},
+{
+"w": "years",
+"s": 321.81,
+"e": 322.11
+},
+{
+"w": "after",
+"s": 322.13,
+"e": 322.43
+},
+{
+"w": "he",
+"s": 322.46,
+"e": 322.76
+},
+{
+"w": "died,",
+"s": 322.78,
+"e": 323.08
+},
+{
+"w": "the",
+"s": 323.1,
+"e": 323.4
+},
+{
+"w": "IOC",
+"s": 323.42,
+"e": 323.72
+},
+{
+"w": "gave",
+"s": 323.75,
+"e": 324.05
+},
+{
+"w": "his",
+"s": 324.07,
+"e": 324.37
+},
+{
+"w": "family",
+"s": 324.39,
+"e": 324.69
+},
+{
+"w": "replica",
+"s": 324.71,
+"e": 325.01
+},
+{
+"w": "medals",
+"s": 325.04,
+"e": 325.34
+},
+{
+"w": "but",
+"s": 325.36,
+"e": 325.66
+},
+{
+"w": "still",
+"s": 325.68,
+"e": 325.98
+},
+{
+"w": "listed",
+"s": 326.01,
+"e": 326.31
+},
+{
+"w": "him",
+"s": 326.33,
+"e": 326.63
+},
+{
+"w": "as",
+"s": 326.65,
+"e": 326.95
+},
+{
+"w": "a",
+"s": 326.97,
+"e": 327.27
+},
+{
+"w": "co-champion.",
+"s": 327.3,
+"e": 327.6
+},
+{
+"w": "Only",
+"s": 327.97,
+"e": 328.27
+},
+{
+"w": "in",
+"s": 328.29,
+"e": 328.59
+},
+{
+"w": "2022,",
+"s": 328.62,
+"e": 328.92
+},
+{
+"w": "a",
+"s": 328.94,
+"e": 329.24
+},
+{
+"w": "hundred",
+"s": 329.26,
+"e": 329.56
+},
+{
+"w": "and",
+"s": 329.58,
+"e": 329.88
+},
+{
+"w": "ten",
+"s": 329.91,
+"e": 330.21
+},
+{
+"w": "years",
+"s": 330.23,
+"e": 330.53
+},
+{
+"w": "late,",
+"s": 330.55,
+"e": 330.85
+},
+{
+"w": "was",
+"s": 330.88,
+"e": 331.18
+},
+{
+"w": "he",
+"s": 331.2,
+"e": 331.5
+},
+{
+"w": "named",
+"s": 331.52,
+"e": 331.82
+},
+{
+"w": "the",
+"s": 331.84,
+"e": 332.14
+},
+{
+"w": "sole",
+"s": 332.17,
+"e": 332.47
+},
+{
+"w": "winner",
+"s": 332.49,
+"e": 332.79
+},
+{
+"w": "of",
+"s": 332.81,
+"e": 333.11
+},
+{
+"w": "both",
+"s": 333.14,
+"e": 333.44
+},
+{
+"w": "events",
+"s": 333.46,
+"e": 333.76
+},
+{
+"w": "again.",
+"s": 333.78,
+"e": 334.08
+},
+{
+"w": "Number",
+"s": 335.35,
+"e": 335.65
+},
+{
+"w": "four.",
+"s": 335.68,
+"e": 335.98
+},
+{
+"w": "Japan's",
+"s": 336.35,
+"e": 336.65
+},
+{
+"w": "first",
+"s": 336.67,
+"e": 336.97
+},
+{
+"w": "Olympic",
+"s": 336.99,
+"e": 337.29
+},
+{
+"w": "marathon",
+"s": 337.32,
+"e": 337.62
+},
+{
+"w": "runner",
+"s": 337.64,
+"e": 337.94
+},
+{
+"w": "quit",
+"s": 337.96,
+"e": 338.26
+},
+{
+"w": "halfway",
+"s": 338.29,
+"e": 338.59
+},
+{
+"w": "through",
+"s": 338.61,
+"e": 338.91
+},
+{
+"w": "the",
+"s": 338.93,
+"e": 339.23
+},
+{
+"w": "race",
+"s": 339.25,
+"e": 339.55
+},
+{
+"w": "in",
+"s": 339.58,
+"e": 339.88
+},
+{
+"w": "Sweden,",
+"s": 339.9,
+"e": 340.2
+},
+{
+"w": "went",
+"s": 340.22,
+"e": 340.52
+},
+{
+"w": "home",
+"s": 340.55,
+"e": 340.85
+},
+{
+"w": "without",
+"s": 340.87,
+"e": 341.17
+},
+{
+"w": "telling",
+"s": 341.19,
+"e": 341.49
+},
+{
+"w": "anyone,",
+"s": 341.51,
+"e": 341.81
+},
+{
+"w": "and",
+"s": 341.84,
+"e": 342.14
+},
+{
+"w": "came",
+"s": 342.16,
+"e": 342.46
+},
+{
+"w": "back",
+"s": 342.48,
+"e": 342.78
+},
+{
+"w": "to",
+"s": 342.81,
+"e": 343.11
+},
+{
+"w": "finish",
+"s": 343.13,
+"e": 343.43
+},
+{
+"w": "it",
+"s": 343.45,
+"e": 343.75
+},
+{
+"w": "fifty-four",
+"s": 343.77,
+"e": 344.07
+},
+{
+"w": "years",
+"s": 344.1,
+"e": 344.4
+},
+{
+"w": "later.",
+"s": 344.42,
+"e": 344.72
+},
+{
+"w": "Shizo",
+"s": 345.09,
+"e": 345.39
+},
+{
+"w": "Kanakuri",
+"s": 345.41,
+"e": 345.71
+},
+{
+"w": "was",
+"s": 345.74,
+"e": 346.04
+},
+{
+"w": "a",
+"s": 346.06,
+"e": 346.36
+},
+{
+"w": "Tokyo",
+"s": 346.38,
+"e": 346.68
+},
+{
+"w": "student",
+"s": 346.71,
+"e": 347.01
+},
+{
+"w": "who'd",
+"s": 347.03,
+"e": 347.33
+},
+{
+"w": "run",
+"s": 347.35,
+"e": 347.65
+},
+{
+"w": "what",
+"s": 347.67,
+"e": 347.97
+},
+{
+"w": "Japan",
+"s": 348.0,
+"e": 348.3
+},
+{
+"w": "claimed",
+"s": 348.32,
+"e": 348.62
+},
+{
+"w": "was",
+"s": 348.64,
+"e": 348.94
+},
+{
+"w": "a",
+"s": 348.97,
+"e": 349.27
+},
+{
+"w": "world",
+"s": 349.29,
+"e": 349.59
+},
+{
+"w": "record.",
+"s": 349.61,
+"e": 349.91
+},
+{
+"w": "The",
+"s": 350.28,
+"e": 350.58
+},
+{
+"w": "trip",
+"s": 350.61,
+"e": 350.91
+},
+{
+"w": "to",
+"s": 350.93,
+"e": 351.23
+},
+{
+"w": "Stockholm",
+"s": 351.25,
+"e": 351.55
+},
+{
+"w": "took",
+"s": 351.58,
+"e": 351.88
+},
+{
+"w": "about",
+"s": 351.9,
+"e": 352.2
+},
+{
+"w": "eighteen",
+"s": 352.22,
+"e": 352.52
+},
+{
+"w": "days,",
+"s": 352.54,
+"e": 352.84
+},
+{
+"w": "by",
+"s": 352.87,
+"e": 353.17
+},
+{
+"w": "ship",
+"s": 353.19,
+"e": 353.49
+},
+{
+"w": "and",
+"s": 353.51,
+"e": 353.81
+},
+{
+"w": "then",
+"s": 353.84,
+"e": 354.14
+},
+{
+"w": "on",
+"s": 354.16,
+"e": 354.46
+},
+{
+"w": "the",
+"s": 354.48,
+"e": 354.78
+},
+{
+"w": "Trans-Siberian",
+"s": 354.8,
+"e": 355.1
+},
+{
+"w": "Railway.",
+"s": 355.13,
+"e": 355.43
+},
+{
+"w": "Race",
+"s": 355.8,
+"e": 356.1
+},
+{
+"w": "day",
+"s": 356.12,
+"e": 356.42
+},
+{
+"w": "was",
+"s": 356.44,
+"e": 356.74
+},
+{
+"w": "close",
+"s": 356.77,
+"e": 357.07
+},
+{
+"w": "to",
+"s": 357.09,
+"e": 357.39
+},
+{
+"w": "ninety",
+"s": 357.41,
+"e": 357.71
+},
+{
+"w": "degrees,",
+"s": 357.74,
+"e": 358.04
+},
+{
+"w": "and",
+"s": 358.06,
+"e": 358.36
+},
+{
+"w": "about",
+"s": 358.38,
+"e": 358.68
+},
+{
+"w": "half",
+"s": 358.7,
+"e": 359.0
+},
+{
+"w": "the",
+"s": 359.03,
+"e": 359.33
+},
+{
+"w": "field",
+"s": 359.35,
+"e": 359.65
+},
+{
+"w": "never",
+"s": 359.67,
+"e": 359.97
+},
+{
+"w": "finished.",
+"s": 360.0,
+"e": 360.3
+},
+{
+"w": "About",
+"s": 360.67,
+"e": 360.97
+},
+{
+"w": "thirty",
+"s": 360.99,
+"e": 361.29
+},
+{
+"w": "kilometres",
+"s": 361.31,
+"e": 361.61
+},
+{
+"w": "in,",
+"s": 361.64,
+"e": 361.94
+},
+{
+"w": "Kanakuri",
+"s": 361.96,
+"e": 362.26
+},
+{
+"w": "turned",
+"s": 362.28,
+"e": 362.58
+},
+{
+"w": "off",
+"s": 362.61,
+"e": 362.91
+},
+{
+"w": "into",
+"s": 362.93,
+"e": 363.23
+},
+{
+"w": "a",
+"s": 363.25,
+"e": 363.55
+},
+{
+"w": "family's",
+"s": 363.57,
+"e": 363.87
+},
+{
+"w": "garden,",
+"s": 363.9,
+"e": 364.2
+},
+{
+"w": "where",
+"s": 364.22,
+"e": 364.52
+},
+{
+"w": "people",
+"s": 364.54,
+"e": 364.84
+},
+{
+"w": "were",
+"s": 364.86,
+"e": 365.16
+},
+{
+"w": "drinking",
+"s": 365.19,
+"e": 365.49
+},
+{
+"w": "juice.",
+"s": 365.51,
+"e": 365.81
+},
+{
+"w": "They",
+"s": 366.18,
+"e": 366.48
+},
+{
+"w": "gave",
+"s": 366.51,
+"e": 366.81
+},
+{
+"w": "him",
+"s": 366.83,
+"e": 367.13
+},
+{
+"w": "a",
+"s": 367.15,
+"e": 367.45
+},
+{
+"w": "drink,",
+"s": 367.47,
+"e": 367.77
+},
+{
+"w": "he",
+"s": 367.8,
+"e": 368.1
+},
+{
+"w": "sat",
+"s": 368.12,
+"e": 368.42
+},
+{
+"w": "down,",
+"s": 368.44,
+"e": 368.74
+},
+{
+"w": "and",
+"s": 368.77,
+"e": 369.07
+},
+{
+"w": "he",
+"s": 369.09,
+"e": 369.39
+},
+{
+"w": "slept",
+"s": 369.41,
+"e": 369.71
+},
+{
+"w": "until",
+"s": 369.73,
+"e": 370.03
+},
+{
+"w": "the",
+"s": 370.06,
+"e": 370.36
+},
+{
+"w": "next",
+"s": 370.38,
+"e": 370.68
+},
+{
+"w": "morning.",
+"s": 370.7,
+"e": 371.0
+},
+{
+"w": "He",
+"s": 371.38,
+"e": 371.68
+},
+{
+"w": "was",
+"s": 371.7,
+"e": 372.0
+},
+{
+"w": "so",
+"s": 372.02,
+"e": 372.32
+},
+{
+"w": "ashamed",
+"s": 372.34,
+"e": 372.64
+},
+{
+"w": "that",
+"s": 372.67,
+"e": 372.97
+},
+{
+"w": "he",
+"s": 372.99,
+"e": 373.29
+},
+{
+"w": "went",
+"s": 373.31,
+"e": 373.61
+},
+{
+"w": "home",
+"s": 373.64,
+"e": 373.94
+},
+{
+"w": "without",
+"s": 373.96,
+"e": 374.26
+},
+{
+"w": "a",
+"s": 374.28,
+"e": 374.58
+},
+{
+"w": "word",
+"s": 374.6,
+"e": 374.9
+},
+{
+"w": "to",
+"s": 374.93,
+"e": 375.23
+},
+{
+"w": "a",
+"s": 375.25,
+"e": 375.55
+},
+{
+"w": "single",
+"s": 375.57,
+"e": 375.87
+},
+{
+"w": "official.",
+"s": 375.89,
+"e": 376.19
+},
+{
+"w": "In",
+"s": 376.57,
+"e": 376.87
+},
+{
+"w": "Sweden",
+"s": 376.89,
+"e": 377.19
+},
+{
+"w": "he",
+"s": 377.21,
+"e": 377.51
+},
+{
+"w": "turned",
+"s": 377.54,
+"e": 377.84
+},
+{
+"w": "into",
+"s": 377.86,
+"e": 378.16
+},
+{
+"w": "a",
+"s": 378.18,
+"e": 378.48
+},
+{
+"w": "small",
+"s": 378.5,
+"e": 378.8
+},
+{
+"w": "legend,",
+"s": 378.83,
+"e": 379.13
+},
+{
+"w": "the",
+"s": 379.15,
+"e": 379.45
+},
+{
+"w": "Japanese",
+"s": 379.47,
+"e": 379.77
+},
+{
+"w": "runner",
+"s": 379.8,
+"e": 380.1
+},
+{
+"w": "who",
+"s": 380.12,
+"e": 380.42
+},
+{
+"w": "vanished.",
+"s": 380.44,
+"e": 380.74
+},
+{
+"w": "What",
+"s": 381.11,
+"e": 381.41
+},
+{
+"w": "happened",
+"s": 381.44,
+"e": 381.74
+},
+{
+"w": "next",
+"s": 381.76,
+"e": 382.06
+},
+{
+"w": "took",
+"s": 382.08,
+"e": 382.38
+},
+{
+"w": "fifty-four",
+"s": 382.41,
+"e": 382.71
+},
+{
+"w": "years.",
+"s": 382.73,
+"e": 383.03
+},
+{
+"w": "He",
+"s": 383.4,
+"e": 383.7
+},
+{
+"w": "ran",
+"s": 383.72,
+"e": 384.02
+},
+{
+"w": "two",
+"s": 384.05,
+"e": 384.35
+},
+{
+"w": "more",
+"s": 384.37,
+"e": 384.67
+},
+{
+"w": "Olympic",
+"s": 384.69,
+"e": 384.99
+},
+{
+"w": "marathons,",
+"s": 385.01,
+"e": 385.31
+},
+{
+"w": "in",
+"s": 385.34,
+"e": 385.64
+},
+{
+"w": "1920",
+"s": 385.66,
+"e": 385.96
+},
+{
+"w": "and",
+"s": 385.98,
+"e": 386.28
+},
+{
+"w": "1924,",
+"s": 386.31,
+"e": 386.61
+},
+{
+"w": "and",
+"s": 386.63,
+"e": 386.93
+},
+{
+"w": "back",
+"s": 386.95,
+"e": 387.25
+},
+{
+"w": "home",
+"s": 387.27,
+"e": 387.57
+},
+{
+"w": "he",
+"s": 387.6,
+"e": 387.9
+},
+{
+"w": "helped",
+"s": 387.92,
+"e": 388.22
+},
+{
+"w": "start",
+"s": 388.24,
+"e": 388.54
+},
+{
+"w": "the",
+"s": 388.57,
+"e": 388.87
+},
+{
+"w": "Hakone",
+"s": 388.89,
+"e": 389.19
+},
+{
+"w": "relay,",
+"s": 389.21,
+"e": 389.51
+},
+{
+"w": "which",
+"s": 389.53,
+"e": 389.83
+},
+{
+"w": "millions",
+"s": 389.86,
+"e": 390.16
+},
+{
+"w": "still",
+"s": 390.18,
+"e": 390.48
+},
+{
+"w": "watch",
+"s": 390.5,
+"e": 390.8
+},
+{
+"w": "on",
+"s": 390.83,
+"e": 391.13
+},
+{
+"w": "TV.",
+"s": 391.15,
+"e": 391.45
+},
+{
+"w": "In",
+"s": 391.82,
+"e": 392.12
+},
+{
+"w": "1967",
+"s": 392.14,
+"e": 392.44
+},
+{
+"w": "Swedish",
+"s": 392.47,
+"e": 392.77
+},
+{
+"w": "television",
+"s": 392.79,
+"e": 393.09
+},
+{
+"w": "found",
+"s": 393.11,
+"e": 393.41
+},
+{
+"w": "him",
+"s": 393.44,
+"e": 393.74
+},
+{
+"w": "and",
+"s": 393.76,
+"e": 394.06
+},
+{
+"w": "asked",
+"s": 394.08,
+"e": 394.38
+},
+{
+"w": "if",
+"s": 394.4,
+"e": 394.7
+},
+{
+"w": "he'd",
+"s": 394.73,
+"e": 395.03
+},
+{
+"w": "like",
+"s": 395.05,
+"e": 395.35
+},
+{
+"w": "to",
+"s": 395.37,
+"e": 395.67
+},
+{
+"w": "finish.",
+"s": 395.69,
+"e": 395.99
+},
+{
+"w": "At",
+"s": 396.37,
+"e": 396.67
+},
+{
+"w": "seventy-five,",
+"s": 396.69,
+"e": 396.99
+},
+{
+"w": "in",
+"s": 397.01,
+"e": 397.31
+},
+{
+"w": "a",
+"s": 397.34,
+"e": 397.64
+},
+{
+"w": "coat,",
+"s": 397.66,
+"e": 397.96
+},
+{
+"w": "he",
+"s": 397.98,
+"e": 398.28
+},
+{
+"w": "jogged",
+"s": 398.3,
+"e": 398.6
+},
+{
+"w": "into",
+"s": 398.63,
+"e": 398.93
+},
+{
+"w": "the",
+"s": 398.95,
+"e": 399.25
+},
+{
+"w": "Stockholm",
+"s": 399.27,
+"e": 399.57
+},
+{
+"w": "stadium",
+"s": 399.6,
+"e": 399.9
+},
+{
+"w": "and",
+"s": 399.92,
+"e": 400.22
+},
+{
+"w": "crossed",
+"s": 400.24,
+"e": 400.54
+},
+{
+"w": "the",
+"s": 400.56,
+"e": 400.86
+},
+{
+"w": "line.",
+"s": 400.89,
+"e": 401.19
+},
+{
+"w": "His",
+"s": 401.56,
+"e": 401.86
+},
+{
+"w": "time",
+"s": 401.88,
+"e": 402.18
+},
+{
+"w": "was",
+"s": 402.21,
+"e": 402.51
+},
+{
+"w": "fifty-four",
+"s": 402.53,
+"e": 402.83
+},
+{
+"w": "years,",
+"s": 402.85,
+"e": 403.15
+},
+{
+"w": "eight",
+"s": 403.17,
+"e": 403.47
+},
+{
+"w": "months,",
+"s": 403.5,
+"e": 403.8
+},
+{
+"w": "six",
+"s": 403.82,
+"e": 404.12
+},
+{
+"w": "days,",
+"s": 404.14,
+"e": 404.44
+},
+{
+"w": "five",
+"s": 404.46,
+"e": 404.76
+},
+{
+"w": "hours,",
+"s": 404.79,
+"e": 405.09
+},
+{
+"w": "thirty-two",
+"s": 405.11,
+"e": 405.41
+},
+{
+"w": "minutes",
+"s": 405.43,
+"e": 405.73
+},
+{
+"w": "and",
+"s": 405.76,
+"e": 406.06
+},
+{
+"w": "twenty",
+"s": 406.08,
+"e": 406.38
+},
+{
+"w": "seconds.",
+"s": 406.4,
+"e": 406.7
+},
+{
+"w": "He",
+"s": 407.07,
+"e": 407.37
+},
+{
+"w": "said",
+"s": 407.4,
+"e": 407.7
+},
+{
+"w": "it",
+"s": 407.72,
+"e": 408.02
+},
+{
+"w": "had",
+"s": 408.04,
+"e": 408.34
+},
+{
+"w": "been",
+"s": 408.37,
+"e": 408.67
+},
+{
+"w": "a",
+"s": 408.69,
+"e": 408.99
+},
+{
+"w": "long",
+"s": 409.01,
+"e": 409.31
+},
+{
+"w": "trip,",
+"s": 409.33,
+"e": 409.63
+},
+{
+"w": "and",
+"s": 409.66,
+"e": 409.96
+},
+{
+"w": "along",
+"s": 409.98,
+"e": 410.28
+},
+{
+"w": "the",
+"s": 410.3,
+"e": 410.6
+},
+{
+"w": "way",
+"s": 410.63,
+"e": 410.93
+},
+{
+"w": "he'd",
+"s": 410.95,
+"e": 411.25
+},
+{
+"w": "got",
+"s": 411.27,
+"e": 411.57
+},
+{
+"w": "married",
+"s": 411.59,
+"e": 411.89
+},
+{
+"w": "and",
+"s": 411.92,
+"e": 412.22
+},
+{
+"w": "had",
+"s": 412.24,
+"e": 412.54
+},
+{
+"w": "six",
+"s": 412.56,
+"e": 412.86
+},
+{
+"w": "children",
+"s": 412.89,
+"e": 413.19
+},
+{
+"w": "and",
+"s": 413.21,
+"e": 413.51
+},
+{
+"w": "ten",
+"s": 413.53,
+"e": 413.83
+},
+{
+"w": "grandchildren.",
+"s": 413.85,
+"e": 414.15
+},
+{
+"w": "Number",
+"s": 415.43,
+"e": 415.73
+},
+{
+"w": "three.",
+"s": 415.75,
+"e": 416.05
+},
+{
+"w": "A",
+"s": 416.42,
+"e": 416.72
+},
+{
+"w": "little",
+"s": 416.74,
+"e": 417.04
+},
+{
+"w": "Italian",
+"s": 417.07,
+"e": 417.37
+},
+{
+"w": "runner",
+"s": 417.39,
+"e": 417.69
+},
+{
+"w": "crossed",
+"s": 417.71,
+"e": 418.01
+},
+{
+"w": "the",
+"s": 418.04,
+"e": 418.34
+},
+{
+"w": "Olympic",
+"s": 418.36,
+"e": 418.66
+},
+{
+"w": "marathon",
+"s": 418.68,
+"e": 418.98
+},
+{
+"w": "finish",
+"s": 419.0,
+"e": 419.3
+},
+{
+"w": "line",
+"s": 419.33,
+"e": 419.63
+},
+{
+"w": "first,",
+"s": 419.65,
+"e": 419.95
+},
+{
+"w": "and",
+"s": 419.97,
+"e": 420.27
+},
+{
+"w": "the",
+"s": 420.3,
+"e": 420.6
+},
+{
+"w": "gold",
+"s": 420.62,
+"e": 420.92
+},
+{
+"w": "medal",
+"s": 420.94,
+"e": 421.24
+},
+{
+"w": "went",
+"s": 421.26,
+"e": 421.56
+},
+{
+"w": "to",
+"s": 421.59,
+"e": 421.89
+},
+{
+"w": "the",
+"s": 421.91,
+"e": 422.21
+},
+{
+"w": "man",
+"s": 422.23,
+"e": 422.53
+},
+{
+"w": "behind",
+"s": 422.56,
+"e": 422.86
+},
+{
+"w": "him.",
+"s": 422.88,
+"e": 423.18
+},
+{
+"w": "Dorando",
+"s": 423.55,
+"e": 423.85
+},
+{
+"w": "Pietri",
+"s": 423.87,
+"e": 424.17
+},
+{
+"w": "was",
+"s": 424.2,
+"e": 424.5
+},
+{
+"w": "a",
+"s": 424.52,
+"e": 424.82
+},
+{
+"w": "cake-maker",
+"s": 424.84,
+"e": 425.14
+},
+{
+"w": "from",
+"s": 425.16,
+"e": 425.46
+},
+{
+"w": "Carpi,",
+"s": 425.49,
+"e": 425.79
+},
+{
+"w": "a",
+"s": 425.81,
+"e": 426.11
+},
+{
+"w": "small",
+"s": 426.13,
+"e": 426.43
+},
+{
+"w": "town",
+"s": 426.46,
+"e": 426.76
+},
+{
+"w": "in",
+"s": 426.78,
+"e": 427.08
+},
+{
+"w": "northern",
+"s": 427.1,
+"e": 427.4
+},
+{
+"w": "Italy.",
+"s": 427.42,
+"e": 427.72
+},
+{
+"w": "The",
+"s": 428.1,
+"e": 428.4
+},
+{
+"w": "1908",
+"s": 428.42,
+"e": 428.72
+},
+{
+"w": "London",
+"s": 428.74,
+"e": 429.04
+},
+{
+"w": "marathon",
+"s": 429.07,
+"e": 429.37
+},
+{
+"w": "ran",
+"s": 429.39,
+"e": 429.69
+},
+{
+"w": "from",
+"s": 429.71,
+"e": 430.01
+},
+{
+"w": "Windsor",
+"s": 430.03,
+"e": 430.33
+},
+{
+"w": "Castle",
+"s": 430.36,
+"e": 430.66
+},
+{
+"w": "into",
+"s": 430.68,
+"e": 430.98
+},
+{
+"w": "the",
+"s": 431.0,
+"e": 431.3
+},
+{
+"w": "new",
+"s": 431.33,
+"e": 431.63
+},
+{
+"w": "stadium",
+"s": 431.65,
+"e": 431.95
+},
+{
+"w": "at",
+"s": 431.97,
+"e": 432.27
+},
+{
+"w": "White",
+"s": 432.29,
+"e": 432.59
+},
+{
+"w": "City.",
+"s": 432.62,
+"e": 432.92
+},
+{
+"w": "That",
+"s": 433.29,
+"e": 433.59
+},
+{
+"w": "race",
+"s": 433.61,
+"e": 433.91
+},
+{
+"w": "gave",
+"s": 433.94,
+"e": 434.24
+},
+{
+"w": "us",
+"s": 434.26,
+"e": 434.56
+},
+{
+"w": "the",
+"s": 434.58,
+"e": 434.88
+},
+{
+"w": "distance",
+"s": 434.9,
+"e": 435.2
+},
+{
+"w": "marathons",
+"s": 435.23,
+"e": 435.53
+},
+{
+"w": "still",
+"s": 435.55,
+"e": 435.85
+},
+{
+"w": "use,",
+"s": 435.87,
+"e": 436.17
+},
+{
+"w": "twenty-six",
+"s": 436.19,
+"e": 436.49
+},
+{
+"w": "miles",
+"s": 436.52,
+"e": 436.82
+},
+{
+"w": "and",
+"s": 436.84,
+"e": 437.14
+},
+{
+"w": "three",
+"s": 437.16,
+"e": 437.46
+},
+{
+"w": "hundred",
+"s": 437.49,
+"e": 437.79
+},
+{
+"w": "and",
+"s": 437.81,
+"e": 438.11
+},
+{
+"w": "eighty-five",
+"s": 438.13,
+"e": 438.43
+},
+{
+"w": "yards.",
+"s": 438.45,
+"e": 438.75
+},
+{
+"w": "Pietri",
+"s": 439.13,
+"e": 439.43
+},
+{
+"w": "took",
+"s": 439.45,
+"e": 439.75
+},
+{
+"w": "the",
+"s": 439.77,
+"e": 440.07
+},
+{
+"w": "lead",
+"s": 440.1,
+"e": 440.4
+},
+{
+"w": "late,",
+"s": 440.42,
+"e": 440.72
+},
+{
+"w": "on",
+"s": 440.74,
+"e": 441.04
+},
+{
+"w": "a",
+"s": 441.06,
+"e": 441.36
+},
+{
+"w": "hot",
+"s": 441.39,
+"e": 441.69
+},
+{
+"w": "afternoon,",
+"s": 441.71,
+"e": 442.01
+},
+{
+"w": "and",
+"s": 442.03,
+"e": 442.33
+},
+{
+"w": "by",
+"s": 442.36,
+"e": 442.66
+},
+{
+"w": "the",
+"s": 442.68,
+"e": 442.98
+},
+{
+"w": "stadium",
+"s": 443.0,
+"e": 443.3
+},
+{
+"w": "he",
+"s": 443.32,
+"e": 443.62
+},
+{
+"w": "was",
+"s": 443.65,
+"e": 443.95
+},
+{
+"w": "in",
+"s": 443.97,
+"e": 444.27
+},
+{
+"w": "a",
+"s": 444.29,
+"e": 444.59
+},
+{
+"w": "bad",
+"s": 444.61,
+"e": 444.91
+},
+{
+"w": "way.",
+"s": 444.94,
+"e": 445.24
+},
+{
+"w": "He",
+"s": 445.61,
+"e": 445.91
+},
+{
+"w": "turned",
+"s": 445.93,
+"e": 446.23
+},
+{
+"w": "the",
+"s": 446.26,
+"e": 446.56
+},
+{
+"w": "wrong",
+"s": 446.58,
+"e": 446.88
+},
+{
+"w": "way",
+"s": 446.9,
+"e": 447.2
+},
+{
+"w": "on",
+"s": 447.22,
+"e": 447.52
+},
+{
+"w": "the",
+"s": 447.55,
+"e": 447.85
+},
+{
+"w": "track,",
+"s": 447.87,
+"e": 448.17
+},
+{
+"w": "and",
+"s": 448.19,
+"e": 448.49
+},
+{
+"w": "then",
+"s": 448.52,
+"e": 448.82
+},
+{
+"w": "he",
+"s": 448.84,
+"e": 449.14
+},
+{
+"w": "went",
+"s": 449.16,
+"e": 449.46
+},
+{
+"w": "down,",
+"s": 449.48,
+"e": 449.78
+},
+{
+"w": "five",
+"s": 449.81,
+"e": 450.11
+},
+{
+"w": "times",
+"s": 450.13,
+"e": 450.43
+},
+{
+"w": "on",
+"s": 450.45,
+"e": 450.75
+},
+{
+"w": "that",
+"s": 450.78,
+"e": 451.08
+},
+{
+"w": "last",
+"s": 451.1,
+"e": 451.4
+},
+{
+"w": "lap.",
+"s": 451.42,
+"e": 451.72
+},
+{
+"w": "In",
+"s": 452.09,
+"e": 452.39
+},
+{
+"w": "the",
+"s": 452.42,
+"e": 452.72
+},
+{
+"w": "end",
+"s": 452.74,
+"e": 453.04
+},
+{
+"w": "a",
+"s": 453.06,
+"e": 453.36
+},
+{
+"w": "doctor",
+"s": 453.39,
+"e": 453.69
+},
+{
+"w": "and",
+"s": 453.71,
+"e": 454.01
+},
+{
+"w": "the",
+"s": 454.03,
+"e": 454.33
+},
+{
+"w": "race",
+"s": 454.35,
+"e": 454.65
+},
+{
+"w": "organiser,",
+"s": 454.68,
+"e": 454.98
+},
+{
+"w": "Jack",
+"s": 455.0,
+"e": 455.3
+},
+{
+"w": "Andrew,",
+"s": 455.32,
+"e": 455.62
+},
+{
+"w": "held",
+"s": 455.64,
+"e": 455.94
+},
+{
+"w": "him",
+"s": 455.97,
+"e": 456.27
+},
+{
+"w": "up",
+"s": 456.29,
+"e": 456.59
+},
+{
+"w": "and",
+"s": 456.61,
+"e": 456.91
+},
+{
+"w": "helped",
+"s": 456.94,
+"e": 457.24
+},
+{
+"w": "him",
+"s": 457.26,
+"e": 457.56
+},
+{
+"w": "over",
+"s": 457.58,
+"e": 457.88
+},
+{
+"w": "the",
+"s": 457.9,
+"e": 458.2
+},
+{
+"w": "line.",
+"s": 458.23,
+"e": 458.53
+},
+{
+"w": "Johnny",
+"s": 458.9,
+"e": 459.2
+},
+{
+"w": "Hayes,",
+"s": 459.22,
+"e": 459.52
+},
+{
+"w": "an",
+"s": 459.55,
+"e": 459.85
+},
+{
+"w": "American,",
+"s": 459.87,
+"e": 460.17
+},
+{
+"w": "came",
+"s": 460.19,
+"e": 460.49
+},
+{
+"w": "in",
+"s": 460.51,
+"e": 460.81
+},
+{
+"w": "about",
+"s": 460.84,
+"e": 461.14
+},
+{
+"w": "half",
+"s": 461.16,
+"e": 461.46
+},
+{
+"w": "a",
+"s": 461.48,
+"e": 461.78
+},
+{
+"w": "minute",
+"s": 461.81,
+"e": 462.11
+},
+{
+"w": "later,",
+"s": 462.13,
+"e": 462.43
+},
+{
+"w": "on",
+"s": 462.45,
+"e": 462.75
+},
+{
+"w": "his",
+"s": 462.77,
+"e": 463.07
+},
+{
+"w": "own",
+"s": 463.1,
+"e": 463.4
+},
+{
+"w": "legs.",
+"s": 463.42,
+"e": 463.72
+},
+{
+"w": "And",
+"s": 464.09,
+"e": 464.39
+},
+{
+"w": "then",
+"s": 464.41,
+"e": 464.71
+},
+{
+"w": "it",
+"s": 464.74,
+"e": 465.04
+},
+{
+"w": "got",
+"s": 465.06,
+"e": 465.36
+},
+{
+"w": "worse.",
+"s": 465.38,
+"e": 465.68
+},
+{
+"w": "The",
+"s": 466.06,
+"e": 466.36
+},
+{
+"w": "Americans",
+"s": 466.38,
+"e": 466.68
+},
+{
+"w": "protested,",
+"s": 466.7,
+"e": 467.0
+},
+{
+"w": "and",
+"s": 467.02,
+"e": 467.32
+},
+{
+"w": "they",
+"s": 467.35,
+"e": 467.65
+},
+{
+"w": "won,",
+"s": 467.67,
+"e": 467.97
+},
+{
+"w": "so",
+"s": 467.99,
+"e": 468.29
+},
+{
+"w": "Pietri",
+"s": 468.32,
+"e": 468.62
+},
+{
+"w": "was",
+"s": 468.64,
+"e": 468.94
+},
+{
+"w": "disqualified",
+"s": 468.96,
+"e": 469.26
+},
+{
+"w": "and",
+"s": 469.28,
+"e": 469.58
+},
+{
+"w": "Hayes",
+"s": 469.61,
+"e": 469.91
+},
+{
+"w": "got",
+"s": 469.93,
+"e": 470.23
+},
+{
+"w": "the",
+"s": 470.25,
+"e": 470.55
+},
+{
+"w": "gold.",
+"s": 470.58,
+"e": 470.88
+},
+{
+"w": "But",
+"s": 471.25,
+"e": 471.55
+},
+{
+"w": "the",
+"s": 471.57,
+"e": 471.87
+},
+{
+"w": "crowd",
+"s": 471.89,
+"e": 472.19
+},
+{
+"w": "had",
+"s": 472.22,
+"e": 472.52
+},
+{
+"w": "already",
+"s": 472.54,
+"e": 472.84
+},
+{
+"w": "picked",
+"s": 472.86,
+"e": 473.16
+},
+{
+"w": "a",
+"s": 473.19,
+"e": 473.49
+},
+{
+"w": "side.",
+"s": 473.51,
+"e": 473.81
+},
+{
+"w": "The",
+"s": 474.18,
+"e": 474.48
+},
+{
+"w": "next",
+"s": 474.5,
+"e": 474.8
+},
+{
+"w": "day",
+"s": 474.83,
+"e": 475.13
+},
+{
+"w": "Queen",
+"s": 475.15,
+"e": 475.45
+},
+{
+"w": "Alexandra",
+"s": 475.47,
+"e": 475.77
+},
+{
+"w": "gave",
+"s": 475.79,
+"e": 476.09
+},
+{
+"w": "Pietri",
+"s": 476.12,
+"e": 476.42
+},
+{
+"w": "a",
+"s": 476.44,
+"e": 476.74
+},
+{
+"w": "gold",
+"s": 476.76,
+"e": 477.06
+},
+{
+"w": "cup",
+"s": 477.09,
+"e": 477.39
+},
+{
+"w": "of",
+"s": 477.41,
+"e": 477.71
+},
+{
+"w": "her",
+"s": 477.73,
+"e": 478.03
+},
+{
+"w": "own.",
+"s": 478.05,
+"e": 478.35
+},
+{
+"w": "Arthur",
+"s": 478.73,
+"e": 479.03
+},
+{
+"w": "Conan",
+"s": 479.05,
+"e": 479.35
+},
+{
+"w": "Doyle,",
+"s": 479.37,
+"e": 479.67
+},
+{
+"w": "the",
+"s": 479.7,
+"e": 480.0
+},
+{
+"w": "man",
+"s": 480.02,
+"e": 480.32
+},
+{
+"w": "who",
+"s": 480.34,
+"e": 480.64
+},
+{
+"w": "wrote",
+"s": 480.66,
+"e": 480.96
+},
+{
+"w": "Sherlock",
+"s": 480.99,
+"e": 481.29
+},
+{
+"w": "Holmes,",
+"s": 481.31,
+"e": 481.61
+},
+{
+"w": "had",
+"s": 481.63,
+"e": 481.93
+},
+{
+"w": "watched",
+"s": 481.96,
+"e": 482.26
+},
+{
+"w": "the",
+"s": 482.28,
+"e": 482.58
+},
+{
+"w": "finish",
+"s": 482.6,
+"e": 482.9
+},
+{
+"w": "from",
+"s": 482.92,
+"e": 483.22
+},
+{
+"w": "the",
+"s": 483.25,
+"e": 483.55
+},
+{
+"w": "stands",
+"s": 483.57,
+"e": 483.87
+},
+{
+"w": "for",
+"s": 483.89,
+"e": 484.19
+},
+{
+"w": "the",
+"s": 484.21,
+"e": 484.51
+},
+{
+"w": "Daily",
+"s": 484.54,
+"e": 484.84
+},
+{
+"w": "Mail.",
+"s": 484.86,
+"e": 485.16
+},
+{
+"w": "He",
+"s": 485.53,
+"e": 485.83
+},
+{
+"w": "started",
+"s": 485.86,
+"e": 486.16
+},
+{
+"w": "a",
+"s": 486.18,
+"e": 486.48
+},
+{
+"w": "collection",
+"s": 486.5,
+"e": 486.8
+},
+{
+"w": "for",
+"s": 486.82,
+"e": 487.12
+},
+{
+"w": "Pietri",
+"s": 487.15,
+"e": 487.45
+},
+{
+"w": "in",
+"s": 487.47,
+"e": 487.77
+},
+{
+"w": "the",
+"s": 487.79,
+"e": 488.09
+},
+{
+"w": "paper,",
+"s": 488.12,
+"e": 488.42
+},
+{
+"w": "and",
+"s": 488.44,
+"e": 488.74
+},
+{
+"w": "readers",
+"s": 488.76,
+"e": 489.06
+},
+{
+"w": "sent",
+"s": 489.08,
+"e": 489.38
+},
+{
+"w": "in",
+"s": 489.41,
+"e": 489.71
+},
+{
+"w": "hundreds",
+"s": 489.73,
+"e": 490.03
+},
+{
+"w": "of",
+"s": 490.05,
+"e": 490.35
+},
+{
+"w": "pounds.",
+"s": 490.38,
+"e": 490.68
+},
+{
+"w": "That",
+"s": 491.05,
+"e": 491.35
+},
+{
+"w": "November",
+"s": 491.37,
+"e": 491.67
+},
+{
+"w": "the",
+"s": 491.69,
+"e": 491.99
+},
+{
+"w": "two",
+"s": 492.02,
+"e": 492.32
+},
+{
+"w": "men",
+"s": 492.34,
+"e": 492.64
+},
+{
+"w": "raced",
+"s": 492.66,
+"e": 492.96
+},
+{
+"w": "again",
+"s": 492.99,
+"e": 493.29
+},
+{
+"w": "as",
+"s": 493.31,
+"e": 493.61
+},
+{
+"w": "professionals,",
+"s": 493.63,
+"e": 493.93
+},
+{
+"w": "at",
+"s": 493.95,
+"e": 494.25
+},
+{
+"w": "Madison",
+"s": 494.28,
+"e": 494.58
+},
+{
+"w": "Square",
+"s": 494.6,
+"e": 494.9
+},
+{
+"w": "Garden",
+"s": 494.92,
+"e": 495.22
+},
+{
+"w": "in",
+"s": 495.24,
+"e": 495.54
+},
+{
+"w": "New",
+"s": 495.57,
+"e": 495.87
+},
+{
+"w": "York.",
+"s": 495.89,
+"e": 496.19
+},
+{
+"w": "Pietri",
+"s": 496.56,
+"e": 496.86
+},
+{
+"w": "won.",
+"s": 496.89,
+"e": 497.19
+},
+{
+"w": "Number",
+"s": 498.46,
+"e": 498.76
+},
+{
+"w": "two.",
+"s": 498.78,
+"e": 499.08
+},
+{
+"w": "The",
+"s": 499.45,
+"e": 499.75
+},
+{
+"w": "fastest",
+"s": 499.78,
+"e": 500.08
+},
+{
+"w": "man",
+"s": 500.1,
+"e": 500.4
+},
+{
+"w": "in",
+"s": 500.42,
+"e": 500.72
+},
+{
+"w": "the",
+"s": 500.75,
+"e": 501.05
+},
+{
+"w": "world",
+"s": 501.07,
+"e": 501.37
+},
+{
+"w": "won",
+"s": 501.39,
+"e": 501.69
+},
+{
+"w": "four",
+"s": 501.71,
+"e": 502.01
+},
+{
+"w": "gold",
+"s": 502.04,
+"e": 502.34
+},
+{
+"w": "medals",
+"s": 502.36,
+"e": 502.66
+},
+{
+"w": "in",
+"s": 502.68,
+"e": 502.98
+},
+{
+"w": "Hitler's",
+"s": 503.01,
+"e": 503.31
+},
+{
+"w": "Germany,",
+"s": 503.33,
+"e": 503.63
+},
+{
+"w": "but",
+"s": 503.65,
+"e": 503.95
+},
+{
+"w": "the",
+"s": 503.97,
+"e": 504.27
+},
+{
+"w": "snub",
+"s": 504.3,
+"e": 504.6
+},
+{
+"w": "he",
+"s": 504.62,
+"e": 504.92
+},
+{
+"w": "talked",
+"s": 504.94,
+"e": 505.24
+},
+{
+"w": "about",
+"s": 505.26,
+"e": 505.56
+},
+{
+"w": "for",
+"s": 505.59,
+"e": 505.89
+},
+{
+"w": "the",
+"s": 505.91,
+"e": 506.21
+},
+{
+"w": "rest",
+"s": 506.23,
+"e": 506.53
+},
+{
+"w": "of",
+"s": 506.56,
+"e": 506.86
+},
+{
+"w": "his",
+"s": 506.88,
+"e": 507.18
+},
+{
+"w": "life",
+"s": 507.2,
+"e": 507.5
+},
+{
+"w": "came",
+"s": 507.52,
+"e": 507.82
+},
+{
+"w": "from",
+"s": 507.85,
+"e": 508.15
+},
+{
+"w": "his",
+"s": 508.17,
+"e": 508.47
+},
+{
+"w": "own",
+"s": 508.49,
+"e": 508.79
+},
+{
+"w": "country.",
+"s": 508.82,
+"e": 509.12
+},
+{
+"w": "Jesse",
+"s": 509.49,
+"e": 509.79
+},
+{
+"w": "Owens,",
+"s": 509.81,
+"e": 510.11
+},
+{
+"w": "a",
+"s": 510.13,
+"e": 510.43
+},
+{
+"w": "sharecropper's",
+"s": 510.46,
+"e": 510.76
+},
+{
+"w": "son",
+"s": 510.78,
+"e": 511.08
+},
+{
+"w": "from",
+"s": 511.1,
+"e": 511.4
+},
+{
+"w": "Alabama,",
+"s": 511.43,
+"e": 511.73
+},
+{
+"w": "won",
+"s": 511.75,
+"e": 512.05
+},
+{
+"w": "the",
+"s": 512.07,
+"e": 512.37
+},
+{
+"w": "hundred,",
+"s": 512.39,
+"e": 512.69
+},
+{
+"w": "the",
+"s": 512.72,
+"e": 513.02
+},
+{
+"w": "two",
+"s": 513.04,
+"e": 513.34
+},
+{
+"w": "hundred,",
+"s": 513.36,
+"e": 513.66
+},
+{
+"w": "the",
+"s": 513.69,
+"e": 513.99
+},
+{
+"w": "long",
+"s": 514.01,
+"e": 514.31
+},
+{
+"w": "jump",
+"s": 514.33,
+"e": 514.63
+},
+{
+"w": "and",
+"s": 514.65,
+"e": 514.95
+},
+{
+"w": "the",
+"s": 514.98,
+"e": 515.28
+},
+{
+"w": "relay",
+"s": 515.3,
+"e": 515.6
+},
+{
+"w": "in",
+"s": 515.62,
+"e": 515.92
+},
+{
+"w": "Berlin.",
+"s": 515.94,
+"e": 516.24
+},
+{
+"w": "You've",
+"s": 516.62,
+"e": 516.92
+},
+{
+"w": "probably",
+"s": 516.94,
+"e": 517.24
+},
+{
+"w": "heard",
+"s": 517.26,
+"e": 517.56
+},
+{
+"w": "that",
+"s": 517.59,
+"e": 517.89
+},
+{
+"w": "Hitler",
+"s": 517.91,
+"e": 518.21
+},
+{
+"w": "refused",
+"s": 518.23,
+"e": 518.53
+},
+{
+"w": "to",
+"s": 518.55,
+"e": 518.85
+},
+{
+"w": "shake",
+"s": 518.88,
+"e": 519.18
+},
+{
+"w": "his",
+"s": 519.2,
+"e": 519.5
+},
+{
+"w": "hand,",
+"s": 519.52,
+"e": 519.82
+},
+{
+"w": "and",
+"s": 519.85,
+"e": 520.15
+},
+{
+"w": "that's",
+"s": 520.17,
+"e": 520.47
+},
+{
+"w": "mostly",
+"s": 520.49,
+"e": 520.79
+},
+{
+"w": "myth.",
+"s": 520.81,
+"e": 521.11
+},
+{
+"w": "Olympic",
+"s": 521.49,
+"e": 521.79
+},
+{
+"w": "officials",
+"s": 521.81,
+"e": 522.11
+},
+{
+"w": "told",
+"s": 522.13,
+"e": 522.43
+},
+{
+"w": "Hitler",
+"s": 522.46,
+"e": 522.76
+},
+{
+"w": "to",
+"s": 522.78,
+"e": 523.08
+},
+{
+"w": "congratulate",
+"s": 523.1,
+"e": 523.4
+},
+{
+"w": "every",
+"s": 523.42,
+"e": 523.72
+},
+{
+"w": "winner",
+"s": 523.75,
+"e": 524.05
+},
+{
+"w": "or",
+"s": 524.07,
+"e": 524.37
+},
+{
+"w": "none,",
+"s": 524.39,
+"e": 524.69
+},
+{
+"w": "and",
+"s": 524.71,
+"e": 525.01
+},
+{
+"w": "he",
+"s": 525.04,
+"e": 525.34
+},
+{
+"w": "chose",
+"s": 525.36,
+"e": 525.66
+},
+{
+"w": "none.",
+"s": 525.68,
+"e": 525.98
+},
+{
+"w": "The",
+"s": 526.36,
+"e": 526.66
+},
+{
+"w": "man",
+"s": 526.68,
+"e": 526.98
+},
+{
+"w": "who",
+"s": 527.0,
+"e": 527.3
+},
+{
+"w": "threw",
+"s": 527.32,
+"e": 527.62
+},
+{
+"w": "an",
+"s": 527.65,
+"e": 527.95
+},
+{
+"w": "arm",
+"s": 527.97,
+"e": 528.27
+},
+{
+"w": "around",
+"s": 528.29,
+"e": 528.59
+},
+{
+"w": "Owens",
+"s": 528.62,
+"e": 528.92
+},
+{
+"w": "in",
+"s": 528.94,
+"e": 529.24
+},
+{
+"w": "front",
+"s": 529.26,
+"e": 529.56
+},
+{
+"w": "of",
+"s": 529.58,
+"e": 529.88
+},
+{
+"w": "the",
+"s": 529.91,
+"e": 530.21
+},
+{
+"w": "crowd",
+"s": 530.23,
+"e": 530.53
+},
+{
+"w": "was",
+"s": 530.55,
+"e": 530.85
+},
+{
+"w": "a",
+"s": 530.88,
+"e": 531.18
+},
+{
+"w": "German,",
+"s": 531.2,
+"e": 531.5
+},
+{
+"w": "Luz",
+"s": 531.52,
+"e": 531.82
+},
+{
+"w": "Long,",
+"s": 531.84,
+"e": 532.14
+},
+{
+"w": "the",
+"s": 532.17,
+"e": 532.47
+},
+{
+"w": "long",
+"s": 532.49,
+"e": 532.79
+},
+{
+"w": "jumper",
+"s": 532.81,
+"e": 533.11
+},
+{
+"w": "he'd",
+"s": 533.14,
+"e": 533.44
+},
+{
+"w": "just",
+"s": 533.46,
+"e": 533.76
+},
+{
+"w": "beaten.",
+"s": 533.78,
+"e": 534.08
+},
+{
+"w": "They",
+"s": 534.45,
+"e": 534.75
+},
+{
+"w": "wrote",
+"s": 534.78,
+"e": 535.08
+},
+{
+"w": "to",
+"s": 535.1,
+"e": 535.4
+},
+{
+"w": "each",
+"s": 535.42,
+"e": 535.72
+},
+{
+"w": "other",
+"s": 535.74,
+"e": 536.04
+},
+{
+"w": "after",
+"s": 536.07,
+"e": 536.37
+},
+{
+"w": "the",
+"s": 536.39,
+"e": 536.69
+},
+{
+"w": "Games,",
+"s": 536.71,
+"e": 537.01
+},
+{
+"w": "until",
+"s": 537.04,
+"e": 537.34
+},
+{
+"w": "Long",
+"s": 537.36,
+"e": 537.66
+},
+{
+"w": "was",
+"s": 537.68,
+"e": 537.98
+},
+{
+"w": "killed",
+"s": 538.0,
+"e": 538.3
+},
+{
+"w": "in",
+"s": 538.33,
+"e": 538.63
+},
+{
+"w": "the",
+"s": 538.65,
+"e": 538.95
+},
+{
+"w": "war.",
+"s": 538.97,
+"e": 539.27
+},
+{
+"w": "At",
+"s": 539.65,
+"e": 539.95
+},
+{
+"w": "home",
+"s": 539.97,
+"e": 540.27
+},
+{
+"w": "it",
+"s": 540.29,
+"e": 540.59
+},
+{
+"w": "got",
+"s": 540.61,
+"e": 540.91
+},
+{
+"w": "worse.",
+"s": 540.94,
+"e": 541.24
+},
+{
+"w": "New",
+"s": 541.61,
+"e": 541.91
+},
+{
+"w": "York",
+"s": 541.93,
+"e": 542.23
+},
+{
+"w": "threw",
+"s": 542.26,
+"e": 542.56
+},
+{
+"w": "him",
+"s": 542.58,
+"e": 542.88
+},
+{
+"w": "a",
+"s": 542.9,
+"e": 543.2
+},
+{
+"w": "reception",
+"s": 543.22,
+"e": 543.52
+},
+{
+"w": "at",
+"s": 543.55,
+"e": 543.85
+},
+{
+"w": "the",
+"s": 543.87,
+"e": 544.17
+},
+{
+"w": "Waldorf-Astoria,",
+"s": 544.19,
+"e": 544.49
+},
+{
+"w": "one",
+"s": 544.51,
+"e": 544.81
+},
+{
+"w": "of",
+"s": 544.84,
+"e": 545.14
+},
+{
+"w": "the",
+"s": 545.16,
+"e": 545.46
+},
+{
+"w": "grandest",
+"s": 545.48,
+"e": 545.78
+},
+{
+"w": "hotels",
+"s": 545.81,
+"e": 546.11
+},
+{
+"w": "in",
+"s": 546.13,
+"e": 546.43
+},
+{
+"w": "the",
+"s": 546.45,
+"e": 546.75
+},
+{
+"w": "country.",
+"s": 546.77,
+"e": 547.07
+},
+{
+"w": "He",
+"s": 547.45,
+"e": 547.75
+},
+{
+"w": "said",
+"s": 547.77,
+"e": 548.07
+},
+{
+"w": "he",
+"s": 548.09,
+"e": 548.39
+},
+{
+"w": "wasn't",
+"s": 548.42,
+"e": 548.72
+},
+{
+"w": "allowed",
+"s": 548.74,
+"e": 549.04
+},
+{
+"w": "through",
+"s": 549.06,
+"e": 549.36
+},
+{
+"w": "the",
+"s": 549.38,
+"e": 549.68
+},
+{
+"w": "front",
+"s": 549.71,
+"e": 550.01
+},
+{
+"w": "door",
+"s": 550.03,
+"e": 550.33
+},
+{
+"w": "and",
+"s": 550.35,
+"e": 550.65
+},
+{
+"w": "had",
+"s": 550.68,
+"e": 550.98
+},
+{
+"w": "to",
+"s": 551.0,
+"e": 551.3
+},
+{
+"w": "ride",
+"s": 551.32,
+"e": 551.62
+},
+{
+"w": "the",
+"s": 551.64,
+"e": 551.94
+},
+{
+"w": "freight",
+"s": 551.97,
+"e": 552.27
+},
+{
+"w": "elevator",
+"s": 552.29,
+"e": 552.59
+},
+{
+"w": "up",
+"s": 552.61,
+"e": 552.91
+},
+{
+"w": "to",
+"s": 552.94,
+"e": 553.24
+},
+{
+"w": "his",
+"s": 553.26,
+"e": 553.56
+},
+{
+"w": "own",
+"s": 553.58,
+"e": 553.88
+},
+{
+"w": "party.",
+"s": 553.9,
+"e": 554.2
+},
+{
+"w": "President",
+"s": 554.58,
+"e": 554.88
+},
+{
+"w": "Roosevelt",
+"s": 554.9,
+"e": 555.2
+},
+{
+"w": "never",
+"s": 555.22,
+"e": 555.52
+},
+{
+"w": "called",
+"s": 555.54,
+"e": 555.84
+},
+{
+"w": "to",
+"s": 555.87,
+"e": 556.17
+},
+{
+"w": "congratulate",
+"s": 556.19,
+"e": 556.49
+},
+{
+"w": "him.",
+"s": 556.51,
+"e": 556.81
+},
+{
+"w": "Forty",
+"s": 557.19,
+"e": 557.49
+},
+{
+"w": "years",
+"s": 557.51,
+"e": 557.81
+},
+{
+"w": "later,",
+"s": 557.83,
+"e": 558.13
+},
+{
+"w": "in",
+"s": 558.15,
+"e": 558.45
+},
+{
+"w": "1976,",
+"s": 558.48,
+"e": 558.78
+},
+{
+"w": "Gerald",
+"s": 558.8,
+"e": 559.1
+},
+{
+"w": "Ford",
+"s": 559.12,
+"e": 559.42
+},
+{
+"w": "gave",
+"s": 559.45,
+"e": 559.75
+},
+{
+"w": "him",
+"s": 559.77,
+"e": 560.07
+},
+{
+"w": "the",
+"s": 560.09,
+"e": 560.39
+},
+{
+"w": "Presidential",
+"s": 560.41,
+"e": 560.71
+},
+{
+"w": "Medal",
+"s": 560.74,
+"e": 561.04
+},
+{
+"w": "of",
+"s": 561.06,
+"e": 561.36
+},
+{
+"w": "Freedom.",
+"s": 561.38,
+"e": 561.68
+},
+{
+"w": "As",
+"s": 562.06,
+"e": 562.36
+},
+{
+"w": "Owens",
+"s": 562.38,
+"e": 562.68
+},
+{
+"w": "put",
+"s": 562.7,
+"e": 563.0
+},
+{
+"w": "it,",
+"s": 563.02,
+"e": 563.32
+},
+{
+"w": "Hitler",
+"s": 563.35,
+"e": 563.65
+},
+{
+"w": "didn't",
+"s": 563.67,
+"e": 563.97
+},
+{
+"w": "invite",
+"s": 563.99,
+"e": 564.29
+},
+{
+"w": "him",
+"s": 564.31,
+"e": 564.61
+},
+{
+"w": "to",
+"s": 564.64,
+"e": 564.94
+},
+{
+"w": "shake",
+"s": 564.96,
+"e": 565.26
+},
+{
+"w": "hands,",
+"s": 565.28,
+"e": 565.58
+},
+{
+"w": "but",
+"s": 565.61,
+"e": 565.91
+},
+{
+"w": "neither",
+"s": 565.93,
+"e": 566.23
+},
+{
+"w": "did",
+"s": 566.25,
+"e": 566.55
+},
+{
+"w": "the",
+"s": 566.57,
+"e": 566.87
+},
+{
+"w": "White",
+"s": 566.9,
+"e": 567.2
+},
+{
+"w": "House.",
+"s": 567.22,
+"e": 567.52
+},
+{
+"w": "Number",
+"s": 568.79,
+"e": 569.09
+},
+{
+"w": "one.",
+"s": 569.12,
+"e": 569.42
+},
+{
+"w": "The",
+"s": 569.79,
+"e": 570.09
+},
+{
+"w": "man",
+"s": 570.11,
+"e": 570.41
+},
+{
+"w": "who",
+"s": 570.43,
+"e": 570.73
+},
+{
+"w": "won",
+"s": 570.76,
+"e": 571.06
+},
+{
+"w": "the",
+"s": 571.08,
+"e": 571.38
+},
+{
+"w": "Olympic",
+"s": 571.4,
+"e": 571.7
+},
+{
+"w": "marathon",
+"s": 571.73,
+"e": 572.03
+},
+{
+"w": "in",
+"s": 572.05,
+"e": 572.35
+},
+{
+"w": "St.",
+"s": 572.37,
+"e": 572.67
+},
+{
+"w": "Louis",
+"s": 572.69,
+"e": 572.99
+},
+{
+"w": "was",
+"s": 573.02,
+"e": 573.32
+},
+{
+"w": "kept",
+"s": 573.34,
+"e": 573.64
+},
+{
+"w": "going",
+"s": 573.66,
+"e": 573.96
+},
+{
+"w": "on",
+"s": 573.99,
+"e": 574.29
+},
+{
+"w": "strychnine",
+"s": 574.31,
+"e": 574.61
+},
+{
+"w": "and",
+"s": 574.63,
+"e": 574.93
+},
+{
+"w": "brandy,",
+"s": 574.95,
+"e": 575.25
+},
+{
+"w": "and",
+"s": 575.28,
+"e": 575.58
+},
+{
+"w": "he",
+"s": 575.6,
+"e": 575.9
+},
+{
+"w": "wasn't",
+"s": 575.92,
+"e": 576.22
+},
+{
+"w": "even",
+"s": 576.24,
+"e": 576.54
+},
+{
+"w": "the",
+"s": 576.57,
+"e": 576.87
+},
+{
+"w": "first",
+"s": 576.89,
+"e": 577.19
+},
+{
+"w": "man",
+"s": 577.21,
+"e": 577.51
+},
+{
+"w": "to",
+"s": 577.54,
+"e": 577.84
+},
+{
+"w": "cross",
+"s": 577.86,
+"e": 578.16
+},
+{
+"w": "the",
+"s": 578.18,
+"e": 578.48
+},
+{
+"w": "line.",
+"s": 578.5,
+"e": 578.8
+},
+{
+"w": "It",
+"s": 579.18,
+"e": 579.48
+},
+{
+"w": "was",
+"s": 579.5,
+"e": 579.8
+},
+{
+"w": "around",
+"s": 579.82,
+"e": 580.12
+},
+{
+"w": "ninety",
+"s": 580.15,
+"e": 580.45
+},
+{
+"w": "degrees,",
+"s": 580.47,
+"e": 580.77
+},
+{
+"w": "on",
+"s": 580.79,
+"e": 581.09
+},
+{
+"w": "dirt",
+"s": 581.11,
+"e": 581.41
+},
+{
+"w": "roads,",
+"s": 581.44,
+"e": 581.74
+},
+{
+"w": "with",
+"s": 581.76,
+"e": 582.06
+},
+{
+"w": "officials'",
+"s": 582.08,
+"e": 582.38
+},
+{
+"w": "cars",
+"s": 582.41,
+"e": 582.71
+},
+{
+"w": "kicking",
+"s": 582.73,
+"e": 583.03
+},
+{
+"w": "up",
+"s": 583.05,
+"e": 583.35
+},
+{
+"w": "so",
+"s": 583.37,
+"e": 583.67
+},
+{
+"w": "much",
+"s": 583.7,
+"e": 584.0
+},
+{
+"w": "dust",
+"s": 584.02,
+"e": 584.32
+},
+{
+"w": "the",
+"s": 584.34,
+"e": 584.64
+},
+{
+"w": "runners",
+"s": 584.66,
+"e": 584.96
+},
+{
+"w": "nearly",
+"s": 584.99,
+"e": 585.29
+},
+{
+"w": "choked",
+"s": 585.31,
+"e": 585.61
+},
+{
+"w": "on",
+"s": 585.63,
+"e": 585.93
+},
+{
+"w": "it.",
+"s": 585.96,
+"e": 586.26
+},
+{
+"w": "There",
+"s": 586.63,
+"e": 586.93
+},
+{
+"w": "was",
+"s": 586.95,
+"e": 587.25
+},
+{
+"w": "one",
+"s": 587.27,
+"e": 587.57
+},
+{
+"w": "water",
+"s": 587.6,
+"e": 587.9
+},
+{
+"w": "stop",
+"s": 587.92,
+"e": 588.22
+},
+{
+"w": "on",
+"s": 588.24,
+"e": 588.54
+},
+{
+"w": "the",
+"s": 588.57,
+"e": 588.87
+},
+{
+"w": "whole",
+"s": 588.89,
+"e": 589.19
+},
+{
+"w": "course,",
+"s": 589.21,
+"e": 589.51
+},
+{
+"w": "a",
+"s": 589.53,
+"e": 589.83
+},
+{
+"w": "well",
+"s": 589.86,
+"e": 590.16
+},
+{
+"w": "at",
+"s": 590.18,
+"e": 590.48
+},
+{
+"w": "twelve",
+"s": 590.5,
+"e": 590.8
+},
+{
+"w": "miles,",
+"s": 590.83,
+"e": 591.13
+},
+{
+"w": "and",
+"s": 591.15,
+"e": 591.45
+},
+{
+"w": "the",
+"s": 591.47,
+"e": 591.77
+},
+{
+"w": "organiser",
+"s": 591.79,
+"e": 592.09
+},
+{
+"w": "reportedly",
+"s": 592.12,
+"e": 592.42
+},
+{
+"w": "wanted",
+"s": 592.44,
+"e": 592.74
+},
+{
+"w": "to",
+"s": 592.76,
+"e": 593.06
+},
+{
+"w": "see",
+"s": 593.09,
+"e": 593.39
+},
+{
+"w": "what",
+"s": 593.41,
+"e": 593.71
+},
+{
+"w": "going",
+"s": 593.73,
+"e": 594.03
+},
+{
+"w": "without",
+"s": 594.05,
+"e": 594.35
+},
+{
+"w": "did",
+"s": 594.38,
+"e": 594.68
+},
+{
+"w": "to",
+"s": 594.7,
+"e": 595.0
+},
+{
+"w": "a",
+"s": 595.02,
+"e": 595.32
+},
+{
+"w": "man.",
+"s": 595.34,
+"e": 595.64
+},
+{
+"w": "A",
+"s": 596.02,
+"e": 596.32
+},
+{
+"w": "Cuban",
+"s": 596.34,
+"e": 596.64
+},
+{
+"w": "runner,",
+"s": 596.66,
+"e": 596.96
+},
+{
+"w": "Andar\u00edn",
+"s": 596.99,
+"e": 597.29
+},
+{
+"w": "Carvajal,",
+"s": 597.31,
+"e": 597.61
+},
+{
+"w": "turned",
+"s": 597.63,
+"e": 597.93
+},
+{
+"w": "up",
+"s": 597.95,
+"e": 598.25
+},
+{
+"w": "in",
+"s": 598.28,
+"e": 598.58
+},
+{
+"w": "long",
+"s": 598.6,
+"e": 598.9
+},
+{
+"w": "trousers,",
+"s": 598.92,
+"e": 599.22
+},
+{
+"w": "and",
+"s": 599.25,
+"e": 599.55
+},
+{
+"w": "they",
+"s": 599.57,
+"e": 599.87
+},
+{
+"w": "were",
+"s": 599.89,
+"e": 600.19
+},
+{
+"w": "cut",
+"s": 600.21,
+"e": 600.51
+},
+{
+"w": "off",
+"s": 600.54,
+"e": 600.84
+},
+{
+"w": "at",
+"s": 600.86,
+"e": 601.16
+},
+{
+"w": "the",
+"s": 601.18,
+"e": 601.48
+},
+{
+"w": "knee",
+"s": 601.51,
+"e": 601.81
+},
+{
+"w": "for",
+"s": 601.83,
+"e": 602.13
+},
+{
+"w": "him",
+"s": 602.15,
+"e": 602.45
+},
+{
+"w": "before",
+"s": 602.47,
+"e": 602.77
+},
+{
+"w": "the",
+"s": 602.8,
+"e": 603.1
+},
+{
+"w": "start.",
+"s": 603.12,
+"e": 603.42
+},
+{
+"w": "He",
+"s": 603.79,
+"e": 604.09
+},
+{
+"w": "stopped",
+"s": 604.11,
+"e": 604.41
+},
+{
+"w": "to",
+"s": 604.44,
+"e": 604.74
+},
+{
+"w": "eat",
+"s": 604.76,
+"e": 605.06
+},
+{
+"w": "apples",
+"s": 605.08,
+"e": 605.38
+},
+{
+"w": "from",
+"s": 605.41,
+"e": 605.71
+},
+{
+"w": "an",
+"s": 605.73,
+"e": 606.03
+},
+{
+"w": "orchard,",
+"s": 606.05,
+"e": 606.35
+},
+{
+"w": "got",
+"s": 606.37,
+"e": 606.67
+},
+{
+"w": "stomach",
+"s": 606.7,
+"e": 607.0
+},
+{
+"w": "cramps,",
+"s": 607.02,
+"e": 607.32
+},
+{
+"w": "and",
+"s": 607.34,
+"e": 607.64
+},
+{
+"w": "still",
+"s": 607.67,
+"e": 607.97
+},
+{
+"w": "came",
+"s": 607.99,
+"e": 608.29
+},
+{
+"w": "fourth.",
+"s": 608.31,
+"e": 608.61
+},
+{
+"w": "Len",
+"s": 608.98,
+"e": 609.28
+},
+{
+"w": "Tau,",
+"s": 609.31,
+"e": 609.61
+},
+{
+"w": "a",
+"s": 609.63,
+"e": 609.93
+},
+{
+"w": "Tswana",
+"s": 609.95,
+"e": 610.25
+},
+{
+"w": "man",
+"s": 610.28,
+"e": 610.58
+},
+{
+"w": "from",
+"s": 610.6,
+"e": 610.9
+},
+{
+"w": "South",
+"s": 610.92,
+"e": 611.22
+},
+{
+"w": "Africa,",
+"s": 611.24,
+"e": 611.54
+},
+{
+"w": "was",
+"s": 611.57,
+"e": 611.87
+},
+{
+"w": "reportedly",
+"s": 611.89,
+"e": 612.19
+},
+{
+"w": "chased",
+"s": 612.21,
+"e": 612.51
+},
+{
+"w": "a",
+"s": 612.54,
+"e": 612.84
+},
+{
+"w": "mile",
+"s": 612.86,
+"e": 613.16
+},
+{
+"w": "off",
+"s": 613.18,
+"e": 613.48
+},
+{
+"w": "course",
+"s": 613.5,
+"e": 613.8
+},
+{
+"w": "by",
+"s": 613.83,
+"e": 614.13
+},
+{
+"w": "dogs",
+"s": 614.15,
+"e": 614.45
+},
+{
+"w": "and",
+"s": 614.47,
+"e": 614.77
+},
+{
+"w": "still",
+"s": 614.79,
+"e": 615.09
+},
+{
+"w": "finished",
+"s": 615.12,
+"e": 615.42
+},
+{
+"w": "ninth.",
+"s": 615.44,
+"e": 615.74
+},
+{
+"w": "And",
+"s": 616.11,
+"e": 616.41
+},
+{
+"w": "it",
+"s": 616.44,
+"e": 616.74
+},
+{
+"w": "got",
+"s": 616.76,
+"e": 617.06
+},
+{
+"w": "stranger.",
+"s": 617.08,
+"e": 617.38
+},
+{
+"w": "Fred",
+"s": 617.75,
+"e": 618.05
+},
+{
+"w": "Lorz,",
+"s": 618.08,
+"e": 618.38
+},
+{
+"w": "an",
+"s": 618.4,
+"e": 618.7
+},
+{
+"w": "American,",
+"s": 618.72,
+"e": 619.02
+},
+{
+"w": "dropped",
+"s": 619.05,
+"e": 619.35
+},
+{
+"w": "out",
+"s": 619.37,
+"e": 619.67
+},
+{
+"w": "around",
+"s": 619.69,
+"e": 619.99
+},
+{
+"w": "mile",
+"s": 620.01,
+"e": 620.31
+},
+{
+"w": "nine",
+"s": 620.34,
+"e": 620.64
+},
+{
+"w": "and",
+"s": 620.66,
+"e": 620.96
+},
+{
+"w": "climbed",
+"s": 620.98,
+"e": 621.28
+},
+{
+"w": "into",
+"s": 621.31,
+"e": 621.61
+},
+{
+"w": "a",
+"s": 621.63,
+"e": 621.93
+},
+{
+"w": "car.",
+"s": 621.95,
+"e": 622.25
+},
+{
+"w": "When",
+"s": 622.62,
+"e": 622.92
+},
+{
+"w": "it",
+"s": 622.95,
+"e": 623.25
+},
+{
+"w": "broke",
+"s": 623.27,
+"e": 623.57
+},
+{
+"w": "down,",
+"s": 623.59,
+"e": 623.89
+},
+{
+"w": "he",
+"s": 623.91,
+"e": 624.21
+},
+{
+"w": "got",
+"s": 624.24,
+"e": 624.54
+},
+{
+"w": "out,",
+"s": 624.56,
+"e": 624.86
+},
+{
+"w": "jogged",
+"s": 624.88,
+"e": 625.18
+},
+{
+"w": "into",
+"s": 625.21,
+"e": 625.51
+},
+{
+"w": "the",
+"s": 625.53,
+"e": 625.83
+},
+{
+"w": "stadium",
+"s": 625.85,
+"e": 626.15
+},
+{
+"w": "first,",
+"s": 626.17,
+"e": 626.47
+},
+{
+"w": "and",
+"s": 626.5,
+"e": 626.8
+},
+{
+"w": "was",
+"s": 626.82,
+"e": 627.12
+},
+{
+"w": "cheered",
+"s": 627.14,
+"e": 627.44
+},
+{
+"w": "as",
+"s": 627.47,
+"e": 627.77
+},
+{
+"w": "the",
+"s": 627.79,
+"e": 628.09
+},
+{
+"w": "winner.",
+"s": 628.11,
+"e": 628.41
+},
+{
+"w": "Then",
+"s": 628.78,
+"e": 629.08
+},
+{
+"w": "people",
+"s": 629.11,
+"e": 629.41
+},
+{
+"w": "found",
+"s": 629.43,
+"e": 629.73
+},
+{
+"w": "out",
+"s": 629.75,
+"e": 630.05
+},
+{
+"w": "about",
+"s": 630.08,
+"e": 630.38
+},
+{
+"w": "the",
+"s": 630.4,
+"e": 630.7
+},
+{
+"w": "car,",
+"s": 630.72,
+"e": 631.02
+},
+{
+"w": "and",
+"s": 631.04,
+"e": 631.34
+},
+{
+"w": "Lorz",
+"s": 631.37,
+"e": 631.67
+},
+{
+"w": "said",
+"s": 631.69,
+"e": 631.99
+},
+{
+"w": "it",
+"s": 632.01,
+"e": 632.31
+},
+{
+"w": "was",
+"s": 632.34,
+"e": 632.64
+},
+{
+"w": "a",
+"s": 632.66,
+"e": 632.96
+},
+{
+"w": "joke.",
+"s": 632.98,
+"e": 633.28
+},
+{
+"w": "Meanwhile",
+"s": 633.65,
+"e": 633.95
+},
+{
+"w": "Thomas",
+"s": 633.98,
+"e": 634.28
+},
+{
+"w": "Hicks",
+"s": 634.3,
+"e": 634.6
+},
+{
+"w": "was",
+"s": 634.62,
+"e": 634.92
+},
+{
+"w": "falling",
+"s": 634.94,
+"e": 635.24
+},
+{
+"w": "apart,",
+"s": 635.27,
+"e": 635.57
+},
+{
+"w": "so",
+"s": 635.59,
+"e": 635.89
+},
+{
+"w": "his",
+"s": 635.91,
+"e": 636.21
+},
+{
+"w": "trainers",
+"s": 636.24,
+"e": 636.54
+},
+{
+"w": "gave",
+"s": 636.56,
+"e": 636.86
+},
+{
+"w": "him",
+"s": 636.88,
+"e": 637.18
+},
+{
+"w": "strychnine",
+"s": 637.2,
+"e": 637.5
+},
+{
+"w": "in",
+"s": 637.53,
+"e": 637.83
+},
+{
+"w": "egg",
+"s": 637.85,
+"e": 638.15
+},
+{
+"w": "white,",
+"s": 638.17,
+"e": 638.47
+},
+{
+"w": "then",
+"s": 638.5,
+"e": 638.8
+},
+{
+"w": "brandy,",
+"s": 638.82,
+"e": 639.12
+},
+{
+"w": "and",
+"s": 639.14,
+"e": 639.44
+},
+{
+"w": "in",
+"s": 639.46,
+"e": 639.76
+},
+{
+"w": "the",
+"s": 639.79,
+"e": 640.09
+},
+{
+"w": "end",
+"s": 640.11,
+"e": 640.41
+},
+{
+"w": "they",
+"s": 640.43,
+"e": 640.73
+},
+{
+"w": "held",
+"s": 640.76,
+"e": 641.06
+},
+{
+"w": "him",
+"s": 641.08,
+"e": 641.38
+},
+{
+"w": "up.",
+"s": 641.4,
+"e": 641.7
+},
+{
+"w": "He",
+"s": 642.07,
+"e": 642.37
+},
+{
+"w": "won",
+"s": 642.4,
+"e": 642.7
+},
+{
+"w": "in",
+"s": 642.72,
+"e": 643.02
+},
+{
+"w": "three",
+"s": 643.04,
+"e": 643.34
+},
+{
+"w": "hours",
+"s": 643.36,
+"e": 643.66
+},
+{
+"w": "and",
+"s": 643.69,
+"e": 643.99
+},
+{
+"w": "twenty-eight",
+"s": 644.01,
+"e": 644.31
+},
+{
+"w": "minutes,",
+"s": 644.33,
+"e": 644.63
+},
+{
+"w": "the",
+"s": 644.66,
+"e": 644.96
+},
+{
+"w": "slowest",
+"s": 644.98,
+"e": 645.28
+},
+{
+"w": "winning",
+"s": 645.3,
+"e": 645.6
+},
+{
+"w": "time",
+"s": 645.62,
+"e": 645.92
+},
+{
+"w": "in",
+"s": 645.95,
+"e": 646.25
+},
+{
+"w": "Olympic",
+"s": 646.27,
+"e": 646.57
+},
+{
+"w": "marathon",
+"s": 646.59,
+"e": 646.89
+},
+{
+"w": "history.",
+"s": 646.92,
+"e": 647.22
+},
+{
+"w": "And",
+"s": 647.59,
+"e": 647.89
+},
+{
+"w": "Fred",
+"s": 647.91,
+"e": 648.21
+},
+{
+"w": "Lorz,",
+"s": 648.23,
+"e": 648.53
+},
+{
+"w": "the",
+"s": 648.56,
+"e": 648.86
+},
+{
+"w": "man",
+"s": 648.88,
+"e": 649.18
+},
+{
+"w": "in",
+"s": 649.2,
+"e": 649.5
+},
+{
+"w": "the",
+"s": 649.53,
+"e": 649.83
+},
+{
+"w": "car,",
+"s": 649.85,
+"e": 650.15
+},
+{
+"w": "was",
+"s": 650.17,
+"e": 650.47
+},
+{
+"w": "banned",
+"s": 650.49,
+"e": 650.79
+},
+{
+"w": "for",
+"s": 650.82,
+"e": 651.12
+},
+{
+"w": "life,",
+"s": 651.14,
+"e": 651.44
+},
+{
+"w": "then",
+"s": 651.46,
+"e": 651.76
+},
+{
+"w": "let",
+"s": 651.79,
+"e": 652.09
+},
+{
+"w": "back",
+"s": 652.11,
+"e": 652.41
+},
+{
+"w": "in,",
+"s": 652.43,
+"e": 652.73
+},
+{
+"w": "and",
+"s": 652.75,
+"e": 653.05
+},
+{
+"w": "the",
+"s": 653.08,
+"e": 653.38
+},
+{
+"w": "next",
+"s": 653.4,
+"e": 653.7
+},
+{
+"w": "spring",
+"s": 653.72,
+"e": 654.02
+},
+{
+"w": "he",
+"s": 654.04,
+"e": 654.34
+},
+{
+"w": "won",
+"s": 654.37,
+"e": 654.67
+},
+{
+"w": "the",
+"s": 654.69,
+"e": 654.99
+},
+{
+"w": "Boston",
+"s": 655.01,
+"e": 655.31
+},
+{
+"w": "Marathon.",
+"s": 655.34,
+"e": 655.64
+},
+{
+"w": "So",
+"s": 656.91,
+"e": 657.21
+},
+{
+"w": "that's",
+"s": 657.23,
+"e": 657.53
+},
+{
+"w": "eight:",
+"s": 657.55,
+"e": 657.85
+},
+{
+"w": "a",
+"s": 657.88,
+"e": 658.18
+},
+{
+"w": "boy",
+"s": 658.2,
+"e": 658.5
+},
+{
+"w": "nobody",
+"s": 658.52,
+"e": 658.82
+},
+{
+"w": "can",
+"s": 658.85,
+"e": 659.15
+},
+{
+"w": "name,",
+"s": 659.17,
+"e": 659.47
+},
+{
+"w": "a",
+"s": 659.49,
+"e": 659.79
+},
+{
+"w": "final",
+"s": 659.81,
+"e": 660.11
+},
+{
+"w": "run",
+"s": 660.14,
+"e": 660.44
+},
+{
+"w": "by",
+"s": 660.46,
+"e": 660.76
+},
+{
+"w": "one",
+"s": 660.78,
+"e": 661.08
+},
+{
+"w": "man,",
+"s": 661.11,
+"e": 661.41
+},
+{
+"w": "a",
+"s": 661.43,
+"e": 661.73
+},
+{
+"w": "race",
+"s": 661.75,
+"e": 662.05
+},
+{
+"w": "finished",
+"s": 662.07,
+"e": 662.37
+},
+{
+"w": "after",
+"s": 662.4,
+"e": 662.7
+},
+{
+"w": "fifty-four",
+"s": 662.72,
+"e": 663.02
+},
+{
+"w": "years,",
+"s": 663.04,
+"e": 663.34
+},
+{
+"w": "and",
+"s": 663.36,
+"e": 663.66
+},
+{
+"w": "a",
+"s": 663.69,
+"e": 663.99
+},
+{
+"w": "winner",
+"s": 664.01,
+"e": 664.31
+},
+{
+"w": "on",
+"s": 664.33,
+"e": 664.63
+},
+{
+"w": "rat",
+"s": 664.66,
+"e": 664.96
+},
+{
+"w": "poison.",
+"s": 664.98,
+"e": 665.28
+},
+{
+"w": "Tell",
+"s": 665.65,
+"e": 665.95
+},
+{
+"w": "us",
+"s": 665.97,
+"e": 666.27
+},
+{
+"w": "in",
+"s": 666.3,
+"e": 666.6
+},
+{
+"w": "the",
+"s": 666.62,
+"e": 666.92
+},
+{
+"w": "comments",
+"s": 666.94,
+"e": 667.24
+},
+{
+"w": "which",
+"s": 667.27,
+"e": 667.57
+},
+{
+"w": "one",
+"s": 667.59,
+"e": 667.89
+},
+{
+"w": "you",
+"s": 667.91,
+"e": 668.21
+},
+{
+"w": "think",
+"s": 668.23,
+"e": 668.53
+},
+{
+"w": "is",
+"s": 668.56,
+"e": 668.86
+},
+{
+"w": "the",
+"s": 668.88,
+"e": 669.18
+},
+{
+"w": "strangest.",
+"s": 669.2,
+"e": 669.5
+},
+{
+"w": "And",
+"s": 669.88,
+"e": 670.18
+},
+{
+"w": "subscribe",
+"s": 670.2,
+"e": 670.5
+},
+{
+"w": "for",
+"s": 670.52,
+"e": 670.82
+},
+{
+"w": "more",
+"s": 670.84,
+"e": 671.14
+},
+{
+"w": "true",
+"s": 671.17,
+"e": 671.47
+},
+{
+"w": "sports",
+"s": 671.49,
+"e": 671.79
+},
+{
+"w": "stories",
+"s": 671.81,
+"e": 672.11
+},
+{
+"w": "that",
+"s": 672.14,
+"e": 672.44
+},
+{
+"w": "sound",
+"s": 672.46,
+"e": 672.76
+},
+{
+"w": "made",
+"s": 672.78,
+"e": 673.08
+},
+{
+"w": "up.",
+"s": 673.1,
+"e": 673.4
+}
+],
+"subs": [
+111.38,
+669.88
+],
+"sfx": [],
+"text": [],
+"extra": [],
+"stillScale": 0.5
+}
