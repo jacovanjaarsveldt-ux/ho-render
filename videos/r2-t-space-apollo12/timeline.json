@@ -794,16 +794,16 @@
   {
    "a": 8.12,
    "b": 10.34,
-   "kind": "clip",
-   "src": "clips/s03.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/caution.jpg",
+   "mv": "push"
   },
   {
    "a": 10.34,
    "b": 12.72,
-   "kind": "clip",
-   "src": "clips/s04.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/fuelcell.jpg",
+   "mv": "push"
   },
   {
    "a": 12.72,
@@ -829,9 +829,9 @@
   {
    "a": 18.9,
    "b": 20.26,
-   "kind": "clip",
-   "src": "clips/s08.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/liftoff.jpg",
+   "mv": "push"
   },
   {
    "a": 20.26,
@@ -849,87 +849,80 @@
   },
   {
    "a": 23.9,
-   "b": 26.16,
+   "b": 27.06,
    "kind": "clip",
    "src": "clips/s11.mp4",
    "rate": 1.0
   },
   {
-   "a": 26.16,
-   "b": 28.04,
-   "kind": "clip",
-   "src": "clips/s12.mp4",
-   "rate": 1.0
-  },
-  {
-   "a": 28.04,
+   "a": 27.06,
    "b": 30.54,
-   "kind": "clip",
-   "src": "clips/s13.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/garble.jpg",
+   "mv": "still"
   },
   {
    "a": 30.54,
    "b": 32.18,
    "kind": "clip",
-   "src": "clips/s14.mp4",
+   "src": "clips/s13.mp4",
    "rate": 1.0
   },
   {
    "a": 32.18,
    "b": 33.54,
    "kind": "clip",
-   "src": "clips/s15.mp4",
+   "src": "clips/s14.mp4",
    "rate": 1.0
   },
   {
    "a": 33.54,
    "b": 36.28,
    "kind": "clip",
-   "src": "clips/s16.mp4",
+   "src": "clips/s15.mp4",
    "rate": 1.0
   },
   {
    "a": 36.28,
    "b": 38.18,
-   "kind": "clip",
-   "src": "clips/s17.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/walk.jpg",
+   "mv": "push"
   },
   {
    "a": 38.18,
-   "b": 41.02,
+   "b": 39.92,
    "kind": "img",
    "src": "img/bean.jpg",
    "mv": "push"
   },
   {
-   "a": 41.02,
+   "a": 39.92,
    "b": 42.34,
-   "kind": "clip",
-   "src": "clips/s19.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/panel.jpg",
+   "mv": "push"
   },
   {
    "a": 42.34,
    "b": 44.6,
-   "kind": "clip",
-   "src": "clips/s20.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/sim.jpg",
+   "mv": "push"
   },
   {
    "a": 44.6,
    "b": 46.44,
    "kind": "clip",
-   "src": "clips/s21.mp4",
+   "src": "clips/s20.mp4",
    "rate": 1.0
   },
   {
    "a": 46.44,
    "b": 48.46,
-   "kind": "clip",
-   "src": "clips/s22.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/crewportrait.jpg",
+   "mv": "push"
   },
   {
    "a": 48.46,
@@ -949,7 +942,7 @@
    "a": 54.0,
    "b": 57.16,
    "kind": "clip",
-   "src": "clips/s25.mp4",
+   "src": "clips/s24.mp4",
    "rate": 1.0
   }
  ],
@@ -958,6 +951,18 @@
    "a": 2.88,
    "b": 4.28,
    "t": "TWICE",
+   "c": "white"
+  },
+  {
+   "a": 10.6,
+   "b": 12.4,
+   "t": "FUEL CELLS OFF LINE",
+   "c": "white"
+  },
+  {
+   "a": 23.9,
+   "b": 26.5,
+   "t": "JOHN AARON, EECOM",
    "c": "white"
   },
   {
