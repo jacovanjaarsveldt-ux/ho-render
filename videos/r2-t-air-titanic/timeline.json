@@ -807,9 +807,9 @@
   {
    "a": 35.5,
    "b": 38.2,
-   "kind": "clip",
-   "src": "clips/s17.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/thr_rudder.jpg",
+   "mv": "push"
   },
   {
    "a": 38.2,
@@ -821,9 +821,9 @@
   {
    "a": 40.72,
    "b": 43.86,
-   "kind": "img",
-   "src": "img/ballard_reagan.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s19.mp4",
+   "rate": 1.0
   },
   {
    "a": 43.86,
