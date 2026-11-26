@@ -840,9 +840,9 @@
   {
    "a": 47.08,
    "b": 48.74,
-   "kind": "clip",
-   "src": "clips/s21.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/cvct.jpg",
+   "mv": "push"
   },
   {
    "a": 48.74,
