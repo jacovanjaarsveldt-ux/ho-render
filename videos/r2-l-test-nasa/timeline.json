@@ -1,0 +1,225 @@
+{
+"end": 62.0,
+"vo_end": 58.0,
+"fps": 30,
+"shots": [
+{
+"a": 0.0,
+"b": 2.82,
+"kind": "img",
+"src": "img/i_44659d6e6d.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 2.82,
+"b": 7.38,
+"kind": "clip",
+"src": "clips/c_345f4ef35e.mp4"
+},
+{
+"a": 7.38,
+"b": 10.98,
+"kind": "img",
+"src": "img/i_48f317502e.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 10.98,
+"b": 12.14,
+"kind": "card",
+"card": {
+"t": "56 HOURS",
+"sub": "into the flight, the tank blew",
+"style": "number"
+}
+},
+{
+"a": 12.14,
+"b": 18.54,
+"kind": "clip",
+"src": "clips/c_a0d2553fc5.mp4"
+},
+{
+"a": 18.54,
+"b": 22.96,
+"kind": "img",
+"src": "img/i_1ed3f4b1f3.jpg",
+"mv": "pull",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 22.96,
+"b": 27.08,
+"kind": "card",
+"card": {
+"t": "Houston, we've had a problem.",
+"sub": "Test quote card",
+"style": "quote"
+}
+},
+{
+"a": 27.08,
+"b": 29.4,
+"kind": "img",
+"src": "img/i_c084b8b6b6.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 29.4,
+"b": 35.24,
+"kind": "img",
+"src": "img/i_f3d573b2fb.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 35.24,
+"b": 38.34,
+"kind": "img",
+"src": "img/i_d184f96f59.jpg",
+"mv": "hold",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 38.34,
+"b": 43.4,
+"kind": "card",
+"card": {
+"t": "TEST DOCUMENT LINE: O-ring erosion seen on flight 51-B.",
+"sub": "Test memo, 1985",
+"style": "doc"
+}
+},
+{
+"a": 43.4,
+"b": 54.38,
+"kind": "clip",
+"src": "clips/c_e8d75f9ba8.mp4"
+},
+{
+"a": 54.38,
+"b": 57.14,
+"kind": "img",
+"src": "img/i_0d49d9b074.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 57.14,
+"b": 62.0,
+"kind": "clip",
+"src": "clips/c_e87bd31f2c.mp4"
+}
+],
+"chapters": [
+{
+"a": 7.38,
+"b": 10.98,
+"n": "Chapter 1",
+"t": "The Warning"
+}
+],
+"caps": [
+{
+"a": 0.03,
+"b": 4.77,
+"t": "Three astronauts heading for the Moon were\nsaved by an air filter made of duct tape"
+},
+{
+"a": 4.77,
+"b": 7.34,
+"t": "and the covers of their own manuals."
+},
+{
+"a": 7.41,
+"b": 12.03,
+"t": "Apollo 13 was two days out\nwhen an oxygen tank blew up."
+},
+{
+"a": 12.03,
+"b": 14.07,
+"t": "The crew moved into the lunar lander,"
+},
+{
+"a": 14.07,
+"b": 18.39,
+"t": "built for two men, and the air\nfilled with carbon dioxide."
+},
+{
+"a": 18.39,
+"b": 20.37,
+"t": "The spare filters were square,"
+},
+{
+"a": 20.37,
+"b": 22.92,
+"t": "and the lander only took round ones."
+},
+{
+"a": 22.99,
+"b": 26.91,
+"t": "So engineers in Houston designed\na fix from things on board,"
+},
+{
+"a": 26.91,
+"b": 29.43,
+"t": "and read it to the crew over the radio."
+},
+{
+"a": 29.43,
+"b": 32.51,
+"t": "It was plastic bags, cardboard and tape,"
+},
+{
+"a": 32.51,
+"b": 35.26,
+"t": "and it looked terrible, but it worked."
+},
+{
+"a": 35.27,
+"b": 37.89,
+"t": "Ken Mattingly was meant\nto fly that mission,"
+},
+{
+"a": 37.89,
+"b": 41.77,
+"t": "but he was pulled days before\nlaunch over a measles scare."
+},
+{
+"a": 41.77,
+"b": 46.12,
+"t": "He never got sick, and two\nyears later he flew to the Moon."
+},
+{
+"a": 47.03,
+"b": 51.77,
+"t": "Three astronauts heading for the Moon were\nsaved by an air filter made of duct tape"
+},
+{
+"a": 51.77,
+"b": 54.34,
+"t": "and the covers of their own manuals."
+},
+{
+"a": 54.41,
+"b": 58.6,
+"t": "Apollo 13 was two days\nout when an oxygen tank"
+}
+],
+"subs": [
+54.38
+],
+"grain": true,
+"grainOpacity": 0.07,
+"parts": 3
+}
