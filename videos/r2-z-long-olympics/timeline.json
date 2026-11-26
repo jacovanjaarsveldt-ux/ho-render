@@ -15,28 +15,32 @@
 },
 {
 "a": 2.84,
-"b": 8.94,
+"b": 5.58,
 "kind": "card",
 "text": "STRYCHNINE\nTHE STUFF IN RAT POISON",
 "line": "An Olympic marathon winner was kept on his feet with strychnine, the stuff in rat poison, and it isn't even the only strange thing about that race."
 },
 {
+"a": 5.58,
+"b": 8.94,
+"kind": "comp",
+"src": "img/crop/marathon-1904_p2.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"dir": -1,
+"line": "An Olympic marathon winner was kept on his feet with strychnine, the stuff in rat poison, and it isn't even the only strange thing about that race.",
+"pic": "marathon-1904/p2"
+},
+{
 "a": 8.94,
-"b": 12.6,
+"b": 15.84,
 "kind": "comp",
 "src": "img/wrestling-1912/p3.jpg",
 "cam": "pull",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "That race is number one of eight, and on the way there's a wrestling match that ran nearly twelve hours, a boy who won gold and vanished, and a marathon that took fifty-four years to finish.",
 "pic": "wrestling-1912/p3"
-},
-{
-"a": 12.6,
-"b": 15.84,
-"kind": "card",
-"text": "A WRESTLING MATCH\nNEARLY TWELVE HOURS",
-"line": "That race is number one of eight, and on the way there's a wrestling match that ran nearly twelve hours, a boy who won gold and vanished, and a marathon that took fifty-four years to finish."
 },
 {
 "a": 15.84,
@@ -551,7 +555,7 @@
 },
 {
 "a": 234.34,
-"b": 237.02,
+"b": 239.98,
 "kind": "comp",
 "src": "img/p19.jpg",
 "cam": "push",
@@ -561,10 +565,10 @@
 "pic": "p19"
 },
 {
-"a": 237.02,
+"a": 239.98,
 "b": 242.38,
 "kind": "card",
-"text": "RUN AGAIN\nTWO DAYS LATER",
+"text": "RUN AGAIN\nWITH STRINGS FOR LANES",
 "line": "That evening Carpenter was disqualified, and the final was ordered run again two days later, with strings marking out lanes."
 },
 {
@@ -599,9 +603,13 @@
 {
 "a": 256.9,
 "b": 262.78,
-"kind": "card",
-"text": "ONE FAREWELL RACE\nTHEN HE QUIT",
-"line": "Halswelle was so sour about it that he ran one farewell race that year and quit the sport."
+"kind": "comp",
+"src": "img/crop/p16.jpg",
+"cam": "pull",
+"o": "50% 30%",
+"dir": 1,
+"line": "Halswelle was so sour about it that he ran one farewell race that year and quit the sport.",
+"pic": "p16"
 },
 {
 "a": 262.78,
@@ -1231,7 +1239,7 @@
 },
 {
 "a": 528.84,
-"b": 534.9,
+"b": 535.95,
 "kind": "img",
 "src": "img/p32.jpg",
 "cam": "push",
@@ -1239,13 +1247,6 @@
 "dir": 1,
 "line": "That November the two men raced again as professionals, at Madison Square Garden in New York.",
 "pic": "p32"
-},
-{
-"a": 534.9,
-"b": 535.95,
-"kind": "card",
-"text": "PIETRI WON",
-"line": "Pietri won."
 },
 {
 "a": 535.95,
@@ -1262,7 +1263,7 @@
 "src": "img/owens-1936/p13.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": -1,
+"dir": 1,
 "line": "Jesse Owens won four gold medals in Hitler's Berlin, and said he then had to ride the freight elevator to his own reception in New York.",
 "pic": "owens-1936/p13"
 },
@@ -1273,7 +1274,7 @@
 "src": "img/owens-1936/p14.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": 1,
+"dir": -1,
 "line": "Jesse Owens won four gold medals in Hitler's Berlin, and said he then had to ride the freight elevator to his own reception in New York.",
 "pic": "owens-1936/p14"
 },
@@ -1284,7 +1285,7 @@
 "src": "img/owens-1936/p16.jpg",
 "cam": "push",
 "o": "35% 30%",
-"dir": -1,
+"dir": 1,
 "line": "Owens, a sharecropper's son from Alabama, won the hundred, the two hundred, the long jump and the relay in Berlin.",
 "pic": "owens-1936/p16"
 },
@@ -1295,7 +1296,7 @@
 "src": "img/owens-1936/p6.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Owens, a sharecropper's son from Alabama, won the hundred, the two hundred, the long jump and the relay in Berlin.",
 "pic": "owens-1936/p6"
 },
@@ -1306,7 +1307,7 @@
 "src": "img/owens-1936/p4.jpg",
 "cam": "push",
 "o": "55% 35%",
-"dir": -1,
+"dir": 1,
 "line": "You've probably heard that Hitler refused to shake his hand, and that's mostly myth.",
 "pic": "owens-1936/p4"
 },
@@ -1317,7 +1318,7 @@
 "src": "img/owens-1936/p3.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Olympic officials told Hitler to congratulate every winner or none, and he chose none.",
 "pic": "owens-1936/p3"
 },
@@ -1328,7 +1329,7 @@
 "src": "img/owens-1936/p1.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Olympic officials told Hitler to congratulate every winner or none, and he chose none.",
 "pic": "owens-1936/p1"
 },
@@ -1339,7 +1340,7 @@
 "src": "img/owens-1936/p5.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The man who threw an arm around Owens in front of the crowd was a German, Luz Long, the long jumper he'd just beaten.",
 "pic": "owens-1936/p5"
 },
@@ -1350,7 +1351,7 @@
 "src": "img/owens-1936/p7.jpg",
 "cam": "push",
 "o": "50% 40%",
-"dir": -1,
+"dir": 1,
 "line": "The man who threw an arm around Owens in front of the crowd was a German, Luz Long, the long jumper he'd just beaten.",
 "pic": "owens-1936/p7"
 },
@@ -1361,7 +1362,7 @@
 "src": "img/owens-1936/p15.jpg",
 "cam": "push",
 "o": "45% 40%",
-"dir": 1,
+"dir": -1,
 "line": "Owens said they wrote to each other after the Games, until Long was killed in the war.",
 "pic": "owens-1936/p15"
 },
@@ -1372,7 +1373,7 @@
 "src": "img/owens-1936/p8.jpg",
 "cam": "pull",
 "o": "50% 40%",
-"dir": -1,
+"dir": 1,
 "line": "New York threw him a reception at the Waldorf-Astoria.",
 "pic": "owens-1936/p8"
 },
@@ -1397,7 +1398,7 @@
 "src": "img/owens-1936/p11.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": 1,
+"dir": -1,
 "line": "President Roosevelt never sent him so much as a telegram.",
 "pic": "owens-1936/p11"
 },
@@ -1408,7 +1409,7 @@
 "src": "img/p34.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Forty years later, in 1976, Gerald Ford gave him the Presidential Medal of Freedom.",
 "pic": "p34"
 },
@@ -1419,7 +1420,7 @@
 "src": "img/owens-1936/p0.jpg",
 "cam": "push",
 "o": "50% 40%",
-"dir": 1,
+"dir": -1,
 "line": "As Owens put it, Hitler didn't invite him to shake hands, but neither did the White House.",
 "pic": "owens-1936/p0"
 },
@@ -1430,7 +1431,7 @@
 "src": "img/p51.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Which leaves the race this video started with.",
 "pic": "p51"
 },
@@ -1449,7 +1450,7 @@
 "src": "img/p45.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The first man into the stadium at the 1904 Olympic marathon was cheered as the winner, and he'd spent a good part of the race in a car.",
 "pic": "p45"
 },
@@ -1460,7 +1461,7 @@
 "src": "img/p48.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The first man into the stadium at the 1904 Olympic marathon was cheered as the winner, and he'd spent a good part of the race in a car.",
 "pic": "p48"
 },
@@ -1471,7 +1472,7 @@
 "src": "img/p50.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "St. Louis had tacked its Games onto a World's Fair too, and race day was around ninety degrees, on dirt roads, with officials' cars kicking up so much dust the runners nearly choked on it.",
 "pic": "p50"
 },
@@ -1482,7 +1483,7 @@
 "src": "img/marathon-1904/p1.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "St. Louis had tacked its Games onto a World's Fair too, and race day was around ninety degrees, on dirt roads, with officials' cars kicking up so much dust the runners nearly choked on it.",
 "pic": "marathon-1904/p1"
 },
@@ -1493,7 +1494,7 @@
 "src": "img/p46.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "St. Louis had tacked its Games onto a World's Fair too, and race day was around ninety degrees, on dirt roads, with officials' cars kicking up so much dust the runners nearly choked on it.",
 "pic": "p46"
 },
@@ -1504,7 +1505,7 @@
 "src": "img/p47.jpg",
 "cam": "push",
 "o": "50% 40%",
-"dir": 1,
+"dir": -1,
 "line": "About the only water on the course was a roadside well at twelve miles, and the organiser reportedly wanted to see what going without did to a man.",
 "pic": "p47"
 },
@@ -1515,7 +1516,7 @@
 "src": "img/p53.jpg",
 "cam": "push",
 "o": "50% 25%",
-"dir": -1,
+"dir": 1,
 "line": "About the only water on the course was a roadside well at twelve miles, and the organiser reportedly wanted to see what going without did to a man.",
 "pic": "p53"
 },
@@ -1526,7 +1527,7 @@
 "src": "img/p29.jpg",
 "cam": "push",
 "o": "45% 35%",
-"dir": 1,
+"dir": -1,
 "line": "A Cuban runner, Andar\u00edn Carvajal, turned up in long trousers, and they were cut off at the knee for him before the start.",
 "pic": "p29"
 },
@@ -1544,7 +1545,7 @@
 "src": "img/p30.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He stopped to eat apples from an orchard, got stomach cramps, and still came fourth.",
 "pic": "p30"
 },
@@ -1555,7 +1556,7 @@
 "src": "img/marathon-1904/p7.jpg",
 "cam": "push",
 "o": "50% 25%",
-"dir": -1,
+"dir": 1,
 "line": "Len Tau, a Tswana man from South Africa, was reportedly chased a mile off course by dogs and still finished ninth.",
 "pic": "marathon-1904/p7"
 },
@@ -1566,7 +1567,7 @@
 "src": "img/marathon-1904/p6.jpg",
 "cam": "push",
 "o": "50% 35%",
-"dir": 1,
+"dir": -1,
 "line": "Len Tau, a Tswana man from South Africa, was reportedly chased a mile off course by dogs and still finished ninth.",
 "pic": "marathon-1904/p6"
 },
@@ -1577,7 +1578,7 @@
 "src": "img/marathon-1904/p3.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": -1,
+"dir": 1,
 "line": "Fred Lorz, an American, dropped out around mile nine and climbed into a car.",
 "pic": "marathon-1904/p3"
 },
@@ -1588,7 +1589,7 @@
 "src": "img/marathon-1904/p4.png",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "When it broke down, he got out and jogged the last few miles into the stadium.",
 "pic": "marathon-1904/p4"
 },
@@ -1606,7 +1607,7 @@
 "src": "img/p42.jpg",
 "cam": "push",
 "o": "50% 40%",
-"dir": 1,
+"dir": -1,
 "line": "Out on the road, the man really in front, Thomas Hicks, was falling apart.",
 "pic": "p42"
 },
@@ -1617,7 +1618,7 @@
 "src": "img/p40.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": -1,
+"dir": 1,
 "line": "He reportedly begged to lie down, and his trainers gave him strychnine in egg white instead.",
 "pic": "p40"
 },
@@ -1642,7 +1643,7 @@
 "src": "img/marathon-1904/p2.jpg",
 "cam": "push",
 "o": "50% 45%",
-"dir": 1,
+"dir": -1,
 "line": "By the stadium they were holding him up, and his legs were still going.",
 "pic": "marathon-1904/p2"
 },
@@ -1653,7 +1654,7 @@
 "src": "img/p41.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": -1,
+"dir": 1,
 "line": "He won in three hours and twenty-eight minutes, the slowest winning time in Olympic marathon history.",
 "pic": "p41"
 },
@@ -1664,7 +1665,7 @@
 "src": "img/p43.jpg",
 "cam": "push",
 "o": "50% 35%",
-"dir": 1,
+"dir": -1,
 "line": "He won in three hours and twenty-eight minutes, the slowest winning time in Olympic marathon history.",
 "pic": "p43"
 },
@@ -1675,7 +1676,7 @@
 "src": "img/p55.png",
 "cam": "push",
 "o": "50% 10%",
-"dir": -1,
+"dir": 1,
 "line": "And Fred Lorz, the man in the car, was banned for life, then let back in, and the next spring he won the Boston Marathon.",
 "pic": "p55"
 },
@@ -1693,7 +1694,7 @@
 "src": "img/wrestling-1912/p18.png",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "So that's eight: a boy nobody can name, a final run by one man, a race finished after fifty-four years, and a winner on rat poison.",
 "pic": "wrestling-1912/p18"
 },
@@ -1704,7 +1705,7 @@
 "src": "img/wrestling-1912/p1.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "So that's eight: a boy nobody can name, a final run by one man, a race finished after fifty-four years, and a winner on rat poison.",
 "pic": "wrestling-1912/p1"
 },
