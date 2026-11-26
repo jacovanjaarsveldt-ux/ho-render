@@ -833,9 +833,9 @@
   {
    "a": 0.0,
    "b": 2.86,
-   "kind": "img",
-   "src": "img/p0.jpg",
-   "mv": "push"
+   "kind": "clip",
+   "src": "clips/s00.mp4",
+   "rate": 1.0
   },
   {
    "a": 2.86,
@@ -889,26 +889,19 @@
   {
    "a": 19.94,
    "b": 21.5,
-   "kind": "clip",
-   "src": "clips/s08.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/c3.jpg",
+   "mv": "push"
   },
   {
    "a": 21.5,
    "b": 23.84,
-   "kind": "img",
-   "src": "img/p2.jpg",
-   "mv": "push"
-  },
-  {
-   "a": 23.84,
-   "b": 25.36,
    "kind": "clip",
-   "src": "clips/s10.mp4",
+   "src": "clips/s09.mp4",
    "rate": 1.0
   },
   {
-   "a": 25.36,
+   "a": 23.84,
    "b": 26.98,
    "kind": "img",
    "src": "img/p7.jpg",
@@ -918,35 +911,35 @@
    "a": 26.98,
    "b": 28.68,
    "kind": "clip",
-   "src": "clips/s12.mp4",
+   "src": "clips/s11.mp4",
    "rate": 1.0
   },
   {
    "a": 28.68,
    "b": 30.44,
    "kind": "clip",
-   "src": "clips/s13.mp4",
+   "src": "clips/s12.mp4",
    "rate": 1.0
   },
   {
    "a": 30.44,
    "b": 32.7,
    "kind": "clip",
-   "src": "clips/s14.mp4",
+   "src": "clips/s13.mp4",
    "rate": 1.0
   },
   {
    "a": 32.7,
    "b": 34.94,
-   "kind": "clip",
-   "src": "clips/s15.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/c1.jpg",
+   "mv": "push"
   },
   {
    "a": 34.94,
    "b": 37.16,
    "kind": "clip",
-   "src": "clips/s16.mp4",
+   "src": "clips/s15.mp4",
    "rate": 1.0
   },
   {
@@ -959,9 +952,9 @@
   {
    "a": 38.98,
    "b": 40.78,
-   "kind": "clip",
-   "src": "clips/s18.mp4",
-   "rate": 1.0
+   "kind": "img",
+   "src": "img/c2.jpg",
+   "mv": "push"
   },
   {
    "a": 40.78,
@@ -974,56 +967,56 @@
    "a": 42.7,
    "b": 44.82,
    "kind": "clip",
-   "src": "clips/s20.mp4",
+   "src": "clips/s19.mp4",
    "rate": 1.0
   },
   {
    "a": 44.82,
    "b": 47.56,
    "kind": "clip",
-   "src": "clips/s21.mp4",
+   "src": "clips/s20.mp4",
    "rate": 1.0
   },
   {
    "a": 47.56,
    "b": 49.9,
    "kind": "clip",
-   "src": "clips/s22.mp4",
+   "src": "clips/s21.mp4",
    "rate": 1.0
   },
   {
    "a": 49.9,
    "b": 53.04,
    "kind": "img",
-   "src": "img/p6.jpg",
+   "src": "img/p2.jpg",
    "mv": "push"
   },
   {
    "a": 53.04,
    "b": 55.84,
    "kind": "clip",
-   "src": "clips/s24.mp4",
+   "src": "clips/s23.mp4",
    "rate": 1.0
   },
   {
    "a": 55.84,
    "b": 57.98,
    "kind": "clip",
-   "src": "clips/s25.mp4",
+   "src": "clips/s24.mp4",
    "rate": 1.0
   },
   {
    "a": 57.98,
    "b": 59.94,
    "kind": "clip",
-   "src": "clips/s26.mp4",
+   "src": "clips/s25.mp4",
    "rate": 1.0
   },
   {
    "a": 59.94,
    "b": 63.08,
    "kind": "clip",
-   "src": "clips/s27.mp4",
+   "src": "clips/s26.mp4",
    "rate": 1.0
   }
  ],
