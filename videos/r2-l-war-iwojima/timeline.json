@@ -1,0 +1,2479 @@
+{
+"end": 683.9,
+"vo_end": 682.9,
+"fps": 30,
+"shots": [
+{
+"a": 0.0,
+"b": 2.06,
+"kind": "clip",
+"src": "clips/c_29877d0fb5.mp4"
+},
+{
+"a": 2.06,
+"b": 5.5,
+"kind": "clip",
+"src": "clips/c_59bf16053d.mp4"
+},
+{
+"a": 5.5,
+"b": 9.06,
+"kind": "img",
+"src": "img/i_16b63acfc2.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 9.06,
+"b": 12.38,
+"kind": "clip",
+"src": "clips/c_2e09b615eb.mp4"
+},
+{
+"a": 12.38,
+"b": 14.2,
+"kind": "clip",
+"src": "clips/c_f448c7b40d.mp4"
+},
+{
+"a": 14.2,
+"b": 16.52,
+"kind": "clip",
+"src": "clips/c_5fbbe49aac.mp4"
+},
+{
+"a": 16.52,
+"b": 19.04,
+"kind": "clip",
+"src": "clips/c_8006d2d460.mp4"
+},
+{
+"a": 19.04,
+"b": 22.18,
+"kind": "img",
+"src": "img/i_b724252934.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 22.18,
+"b": 28.1,
+"kind": "img",
+"src": "img/i_f2e2245e01.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 28.1,
+"b": 29.9,
+"kind": "clip",
+"src": "clips/c_d238cf971f.mp4"
+},
+{
+"a": 29.9,
+"b": 32.24,
+"kind": "clip",
+"src": "clips/c_88508f6e89.mp4"
+},
+{
+"a": 32.24,
+"b": 35.38,
+"kind": "img",
+"src": "img/i_6870227140.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 35.38,
+"b": 38.1,
+"kind": "clip",
+"src": "clips/c_fce3c01fa2.mp4"
+},
+{
+"a": 38.1,
+"b": 41.64,
+"kind": "clip",
+"src": "clips/c_4b2dc492a5.mp4"
+},
+{
+"a": 41.64,
+"b": 43.96,
+"kind": "img",
+"src": "img/i_3d828f620e.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 43.96,
+"b": 46.06,
+"kind": "clip",
+"src": "clips/c_3b0dc23b53.mp4"
+},
+{
+"a": 46.06,
+"b": 49.88,
+"kind": "clip",
+"src": "clips/c_36add3efa2.mp4"
+},
+{
+"a": 49.88,
+"b": 55.94,
+"kind": "img",
+"src": "img/i_460b573648.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 55.94,
+"b": 59.0,
+"kind": "clip",
+"src": "clips/c_77812513fb.mp4"
+},
+{
+"a": 59.0,
+"b": 63.02,
+"kind": "clip",
+"src": "clips/c_0e86401b57.mp4"
+},
+{
+"a": 63.02,
+"b": 66.1,
+"kind": "img",
+"src": "img/i_0ac76fca24.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 66.1,
+"b": 67.92,
+"kind": "clip",
+"src": "clips/c_ab75a9f15f.mp4"
+},
+{
+"a": 67.92,
+"b": 73.12,
+"kind": "card",
+"card": {
+"t": "2 HOURS",
+"sub": "warning of every B-29 raid, from Iwo Jima's radar",
+"style": "number"
+}
+},
+{
+"a": 73.12,
+"b": 76.12,
+"kind": "clip",
+"src": "clips/c_5252cbd9ee.mp4"
+},
+{
+"a": 76.12,
+"b": 79.14,
+"kind": "clip",
+"src": "clips/c_e06908696a.mp4"
+},
+{
+"a": 79.14,
+"b": 83.98,
+"kind": "img",
+"src": "img/i_5e436a2909.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 83.98,
+"b": 86.12,
+"kind": "card",
+"card": {
+"t": "3 MONTHS",
+"sub": "the Joint Chiefs' order to Nimitz, October 1944",
+"style": "number"
+}
+},
+{
+"a": 86.12,
+"b": 88.14,
+"kind": "clip",
+"src": "clips/c_d34c2935d6.mp4"
+},
+{
+"a": 88.14,
+"b": 90.42,
+"kind": "clip",
+"src": "clips/c_89365112a3.mp4"
+},
+{
+"a": 90.42,
+"b": 94.4,
+"kind": "clip",
+"src": "clips/c_93a08fadac.mp4"
+},
+{
+"a": 94.4,
+"b": 97.14,
+"kind": "clip",
+"src": "clips/c_edf0c3f467.mp4"
+},
+{
+"a": 97.14,
+"b": 101.06,
+"kind": "img",
+"src": "img/i_7f31b58e12.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 101.06,
+"b": 106.74,
+"kind": "clip",
+"src": "clips/c_150fad1bbe.mp4"
+},
+{
+"a": 106.74,
+"b": 112.6,
+"kind": "clip",
+"src": "clips/c_76672b59a4.mp4"
+},
+{
+"a": 112.6,
+"b": 115.26,
+"kind": "clip",
+"src": "clips/c_22ef42f753.mp4"
+},
+{
+"a": 115.26,
+"b": 121.96,
+"kind": "card",
+"card": {
+"t": "13 HOURS",
+"sub": "of fire support in 34 hours of daylight, as a Marine officer recalled",
+"style": "number"
+}
+},
+{
+"a": 121.96,
+"b": 126.32,
+"kind": "clip",
+"src": "clips/c_c1c1d87d45.mp4"
+},
+{
+"a": 126.32,
+"b": 130.04,
+"kind": "clip",
+"src": "clips/c_931950248b.mp4"
+},
+{
+"a": 130.04,
+"b": 132.46,
+"kind": "clip",
+"src": "clips/c_744cc28244.mp4"
+},
+{
+"a": 132.46,
+"b": 137.7,
+"kind": "card",
+"card": {
+"t": "LT GEN TADAMICHI KURIBAYASHI",
+"sub": "Japanese commander on Iwo Jima",
+"style": "doc"
+}
+},
+{
+"a": 137.7,
+"b": 140.46,
+"kind": "clip",
+"src": "clips/c_822f64d90c.mp4"
+},
+{
+"a": 140.46,
+"b": 147.78,
+"kind": "card",
+"card": {
+"t": "The Americans will surely invade this Iwo Jima ... do not look for my return.",
+"sub": "Kuribayashi, letter to his wife",
+"style": "quote"
+}
+},
+{
+"a": 147.78,
+"b": 150.42,
+"kind": "clip",
+"src": "clips/c_af5edc762e.mp4"
+},
+{
+"a": 150.42,
+"b": 153.56,
+"kind": "clip",
+"src": "clips/c_df759a5ef6.mp4"
+},
+{
+"a": 153.56,
+"b": 157.0,
+"kind": "img",
+"src": "img/i_830d0af26f.jpg",
+"mv": "pull",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 157.0,
+"b": 162.52,
+"kind": "clip",
+"src": "clips/c_5b60b6283e.mp4"
+},
+{
+"a": 162.52,
+"b": 164.78,
+"kind": "clip",
+"src": "clips/c_e29a173579.mp4"
+},
+{
+"a": 164.78,
+"b": 169.48,
+"kind": "img",
+"src": "img/i_08c449eb8b.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 169.48,
+"b": 174.62,
+"kind": "clip",
+"src": "clips/c_200dd58a0f.mp4"
+},
+{
+"a": 174.62,
+"b": 179.56,
+"kind": "img",
+"src": "img/i_aa9e028d18.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 179.56,
+"b": 181.76,
+"kind": "clip",
+"src": "clips/c_7efbe5170d.mp4"
+},
+{
+"a": 181.76,
+"b": 184.2,
+"kind": "clip",
+"src": "clips/c_78b8759c80.mp4"
+},
+{
+"a": 184.2,
+"b": 187.84,
+"kind": "card",
+"card": {
+"t": "10 FOR 1",
+"sub": "American lives for every Japanese death: the order to his men",
+"style": "number"
+}
+},
+{
+"a": 187.84,
+"b": 191.42,
+"kind": "clip",
+"src": "clips/c_e529d6325d.mp4"
+},
+{
+"a": 191.42,
+"b": 193.94,
+"kind": "clip",
+"src": "clips/c_c96b5e0c64.mp4"
+},
+{
+"a": 193.94,
+"b": 196.34,
+"kind": "clip",
+"src": "clips/c_6124c7ccc8.mp4"
+},
+{
+"a": 196.34,
+"b": 202.26,
+"kind": "card",
+"card": {
+"t": "12,000 TO 13,000",
+"sub": "the most men the planners thought the island could support",
+"style": "number"
+}
+},
+{
+"a": 202.26,
+"b": 206.58,
+"kind": "img",
+"src": "img/i_6be9f04a8e.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 206.58,
+"b": 209.32,
+"kind": "card",
+"card": {
+"t": "MORE THAN 20,000",
+"sub": "Japanese defenders, on half-rations of water for months",
+"style": "number"
+}
+},
+{
+"a": 209.32,
+"b": 212.76,
+"kind": "clip",
+"src": "clips/c_99a3436b21.mp4"
+},
+{
+"a": 212.76,
+"b": 217.12,
+"kind": "clip",
+"src": "clips/c_cb25c96ebd.mp4"
+},
+{
+"a": 217.12,
+"b": 220.82,
+"kind": "img",
+"src": "img/i_986a4193c6.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 220.82,
+"b": 225.14,
+"kind": "clip",
+"src": "clips/c_9adbb6dcb7.mp4"
+},
+{
+"a": 225.14,
+"b": 226.92,
+"kind": "clip",
+"src": "clips/c_f509129246.mp4"
+},
+{
+"a": 226.92,
+"b": 229.86,
+"kind": "img",
+"src": "img/i_7f8143ea4b.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 229.86,
+"b": 231.62,
+"kind": "img",
+"src": "img/i_b1b2f6ce31.jpg",
+"mv": "pan",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 231.62,
+"b": 233.38,
+"kind": "clip",
+"src": "clips/c_2236b03dcf.mp4"
+},
+{
+"a": 233.38,
+"b": 235.98,
+"kind": "clip",
+"src": "clips/c_9b636fc516.mp4"
+},
+{
+"a": 235.98,
+"b": 238.36,
+"kind": "img",
+"src": "img/i_2a08a629ea.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 238.36,
+"b": 241.84,
+"kind": "clip",
+"src": "clips/c_205f5a37c7.mp4"
+},
+{
+"a": 241.84,
+"b": 244.92,
+"kind": "card",
+"card": {
+"t": "1 IN 12",
+"sub": "Marines hit by the end of the first day: 2,420 of 30,000 ashore",
+"style": "number"
+}
+},
+{
+"a": 244.92,
+"b": 249.46,
+"kind": "img",
+"src": "img/i_df60e78be8.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 249.46,
+"b": 252.98,
+"kind": "clip",
+"src": "clips/c_5a6dd4a141.mp4"
+},
+{
+"a": 252.98,
+"b": 257.2,
+"kind": "clip",
+"src": "clips/c_bdc6b064fe.mp4"
+},
+{
+"a": 257.2,
+"b": 259.14,
+"kind": "img",
+"src": "img/i_e909bdd853.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 259.14,
+"b": 264.94,
+"kind": "img",
+"src": "img/i_a6396f2a22.jpg",
+"mv": "pan",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 264.94,
+"b": 268.14,
+"kind": "img",
+"src": "img/i_1678e91719.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 268.14,
+"b": 272.2,
+"kind": "img",
+"src": "img/i_8e67b76a54.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 272.2,
+"b": 275.22,
+"kind": "img",
+"src": "img/i_bdafaf85c4.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 275.22,
+"b": 278.1,
+"kind": "clip",
+"src": "clips/c_0d7d1ae49c.mp4"
+},
+{
+"a": 278.1,
+"b": 280.04,
+"kind": "img",
+"src": "img/i_47d07e9af8.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 280.04,
+"b": 284.12,
+"kind": "img",
+"src": "img/i_64dcc22b92.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 284.12,
+"b": 289.56,
+"kind": "clip",
+"src": "clips/c_85bec7f0cc.mp4"
+},
+{
+"a": 289.56,
+"b": 293.22,
+"kind": "card",
+"card": {
+"t": "For a while they were beating their quotas.",
+"sub": "Lt Col Justice M. Chambers, Medal of Honor, Iwo Jima",
+"style": "quote"
+}
+},
+{
+"a": 293.22,
+"b": 295.54,
+"kind": "img",
+"src": "img/i_6533b4dc7b.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 295.54,
+"b": 300.48,
+"kind": "img",
+"src": "img/i_189b36d980.jpg",
+"mv": "hold",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 300.48,
+"b": 302.68,
+"kind": "img",
+"src": "img/i_3169f38e52.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 302.68,
+"b": 306.16,
+"kind": "img",
+"src": "img/i_04c4ba729d.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 306.16,
+"b": 308.6,
+"kind": "img",
+"src": "img/i_69d0b5a71f.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 308.6,
+"b": 312.0,
+"kind": "img",
+"src": "img/i_2b89ea0da2.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 312.0,
+"b": 314.86,
+"kind": "img",
+"src": "img/i_dcba17bcf4.jpg",
+"mv": "pull",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 314.86,
+"b": 318.4,
+"kind": "img",
+"src": "img/i_31110f772a.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 318.4,
+"b": 320.48,
+"kind": "img",
+"src": "img/i_111b4d141e.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 320.48,
+"b": 324.7,
+"kind": "clip",
+"src": "clips/c_abfcde87a3.mp4"
+},
+{
+"a": 324.7,
+"b": 326.58,
+"kind": "img",
+"src": "img/i_fc8e9b351b.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 326.58,
+"b": 329.78,
+"kind": "clip",
+"src": "clips/c_7ac741dc3e.mp4"
+},
+{
+"a": 329.78,
+"b": 332.14,
+"kind": "img",
+"src": "img/i_80e961a22c.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 332.14,
+"b": 336.46,
+"kind": "card",
+"card": {
+"t": "JOE ROSENTHAL",
+"sub": "Associated Press photographer",
+"style": "doc"
+}
+},
+{
+"a": 336.46,
+"b": 341.0,
+"kind": "clip",
+"src": "clips/c_031b7a60b6.mp4"
+},
+{
+"a": 341.0,
+"b": 343.76,
+"kind": "img",
+"src": "img/i_43cc789b83.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 343.76,
+"b": 346.46,
+"kind": "img",
+"src": "img/i_f929b11b5e.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 346.46,
+"b": 349.96,
+"kind": "clip",
+"src": "clips/c_414822ff0a.mp4"
+},
+{
+"a": 349.96,
+"b": 354.22,
+"kind": "clip",
+"src": "clips/c_48139c6c5e.mp4"
+},
+{
+"a": 354.22,
+"b": 356.38,
+"kind": "clip",
+"src": "clips/c_33dcc9644c.mp4"
+},
+{
+"a": 356.38,
+"b": 361.34,
+"kind": "clip",
+"src": "clips/c_f094d824e0.mp4"
+},
+{
+"a": 361.34,
+"b": 367.32,
+"kind": "clip",
+"src": "clips/c_6a6485bffa.mp4"
+},
+{
+"a": 367.32,
+"b": 369.36,
+"kind": "img",
+"src": "img/i_2ca8777f73.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 369.36,
+"b": 372.18,
+"kind": "clip",
+"src": "clips/c_37a89f0278.mp4"
+},
+{
+"a": 372.18,
+"b": 377.32,
+"kind": "img",
+"src": "img/i_bd7b0bebc2.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 377.32,
+"b": 380.06,
+"kind": "img",
+"src": "img/i_6ad655069d.jpg",
+"mv": "pan",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 380.06,
+"b": 382.82,
+"kind": "clip",
+"src": "clips/c_2aac486a5b.mp4"
+},
+{
+"a": 382.82,
+"b": 385.88,
+"kind": "clip",
+"src": "clips/c_dba66f3730.mp4"
+},
+{
+"a": 385.88,
+"b": 388.74,
+"kind": "clip",
+"src": "clips/c_346c01dd37.mp4"
+},
+{
+"a": 388.74,
+"b": 392.14,
+"kind": "clip",
+"src": "clips/c_5a0e6db371.mp4"
+},
+{
+"a": 392.14,
+"b": 394.12,
+"kind": "clip",
+"src": "clips/c_ed24bcef19.mp4"
+},
+{
+"a": 394.12,
+"b": 397.6,
+"kind": "clip",
+"src": "clips/c_16f06bdfe1.mp4"
+},
+{
+"a": 397.6,
+"b": 400.68,
+"kind": "clip",
+"src": "clips/c_95b01fcd7d.mp4"
+},
+{
+"a": 400.68,
+"b": 405.18,
+"kind": "img",
+"src": "img/i_467bbac90e.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 405.18,
+"b": 409.24,
+"kind": "card",
+"card": {
+"t": "60,000 MEN",
+"sub": "packed into less than 3.5 square miles of broken ground",
+"style": "number"
+}
+},
+{
+"a": 409.24,
+"b": 414.8,
+"kind": "clip",
+"src": "clips/c_8c2dd89440.mp4"
+},
+{
+"a": 414.8,
+"b": 417.24,
+"kind": "card",
+"card": {
+"t": "133 TO 9",
+"sub": "riflemen of one company who landed on day one, and the few left at the end",
+"style": "number"
+}
+},
+{
+"a": 417.24,
+"b": 422.42,
+"kind": "img",
+"src": "img/i_1613bcc779.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 422.42,
+"b": 424.02,
+"kind": "clip",
+"src": "clips/c_ef83a0e23b.mp4"
+},
+{
+"a": 424.02,
+"b": 430.4,
+"kind": "clip",
+"src": "clips/c_bf318e8c92.mp4"
+},
+{
+"a": 430.4,
+"b": 433.26,
+"kind": "clip",
+"src": "clips/c_b0c4990ae7.mp4"
+},
+{
+"a": 433.26,
+"b": 438.68,
+"kind": "card",
+"card": {
+"t": "26 MARCH 1945, SUNRISE",
+"sub": "about 300 Japanese dead \u00b7 more than 100 Americans killed, many of them pilots and Seabees",
+"style": "doc"
+}
+},
+{
+"a": 438.68,
+"b": 441.34,
+"kind": "clip",
+"src": "clips/c_84822fe5d8.mp4"
+},
+{
+"a": 441.34,
+"b": 445.9,
+"kind": "card",
+"card": {
+"t": "KURIBAYASHI",
+"sub": "took his own life that night, Japanese accounts say",
+"style": "doc"
+}
+},
+{
+"a": 445.9,
+"b": 451.72,
+"kind": "img",
+"src": "img/i_f618c58493.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 451.72,
+"b": 454.18,
+"kind": "clip",
+"src": "clips/c_f0b9b5b547.mp4"
+},
+{
+"a": 454.18,
+"b": 459.86,
+"kind": "card",
+"card": {
+"t": "1 IN 3",
+"sub": "Marines and Navy corpsmen who landed: killed or wounded",
+"style": "number"
+}
+},
+{
+"a": 459.86,
+"b": 464.6,
+"kind": "clip",
+"src": "clips/c_fbb4d8f3e5.mp4"
+},
+{
+"a": 464.6,
+"b": 468.96,
+"kind": "clip",
+"src": "clips/c_2d4e270d3a.mp4"
+},
+{
+"a": 468.96,
+"b": 471.04,
+"kind": "card",
+"card": {
+"t": "NEARLY 7,000",
+"sub": "American dead, Marines and Navy",
+"style": "number"
+}
+},
+{
+"a": 471.04,
+"b": 475.08,
+"kind": "img",
+"src": "img/i_6dbfbe70a9.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 475.08,
+"b": 478.22,
+"kind": "card",
+"card": {
+"t": "Among the Americans who served on Iwo Jima, uncommon valor was a common virtue.",
+"sub": "Fleet Admiral Chester W. Nimitz, 16 March 1945",
+"style": "quote"
+}
+},
+{
+"a": 478.22,
+"b": 482.56,
+"kind": "clip",
+"src": "clips/c_80daca37eb.mp4"
+},
+{
+"a": 482.56,
+"b": 486.44,
+"kind": "clip",
+"src": "clips/c_415b2f37ef.mp4"
+},
+{
+"a": 486.44,
+"b": 491.66,
+"kind": "img",
+"src": "img/i_fe1445f4ec.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 491.66,
+"b": 494.64,
+"kind": "clip",
+"src": "clips/c_19f6362439.mp4"
+},
+{
+"a": 494.64,
+"b": 498.62,
+"kind": "clip",
+"src": "clips/c_2a60d2c62f.mp4"
+},
+{
+"a": 498.62,
+"b": 502.48,
+"kind": "card",
+"card": {
+"t": "MORE THAN 3 TIMES",
+"sub": "the airmen aboard, against the Americans who died taking the island",
+"style": "number"
+}
+},
+{
+"a": 502.48,
+"b": 505.14,
+"kind": "img",
+"src": "img/i_1da80a7c30.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 505.14,
+"b": 510.16,
+"kind": "card",
+"card": {
+"t": "Iwo fields saved hundreds of battle-damaged B-29s, unable to make the full return flight to their bases in the Marianas.",
+"sub": "General George C. Marshall",
+"style": "quote"
+}
+},
+{
+"a": 510.16,
+"b": 516.44,
+"kind": "card",
+"card": {
+"t": "ROBERT S. BURRELL",
+"sub": "Marine captain, taught history at the US Naval Academy \u00b7 The Ghosts of Iwo Jima (2006)",
+"style": "doc"
+}
+},
+{
+"a": 516.44,
+"b": 518.26,
+"kind": "img",
+"src": "img/i_a1073b2821.jpg",
+"mv": "pan",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 518.26,
+"b": 522.0,
+"kind": "clip",
+"src": "clips/c_073f212e09.mp4"
+},
+{
+"a": 522.0,
+"b": 524.56,
+"kind": "clip",
+"src": "clips/c_804fccff6c.mp4"
+},
+{
+"a": 524.56,
+"b": 533.2,
+"kind": "card",
+"card": {
+"t": "a constant temptation for B-29 crews in difficulty to use the midway point when there was a reasonable chance of making the home base.",
+"sub": "The Army Air Forces in World War II, vol V",
+"style": "quote"
+}
+},
+{
+"a": 533.2,
+"b": 539.08,
+"kind": "card",
+"card": {
+"t": "Estimates of AAF lives saved because of Iwo's strips have run as high as 20,000, but this seems a gross exaggeration.",
+"sub": "The Army Air Forces in World War II, vol V",
+"style": "quote"
+}
+},
+{
+"a": 539.08,
+"b": 542.22,
+"kind": "clip",
+"src": "clips/c_1212ac686b.mp4"
+},
+{
+"a": 542.22,
+"b": 548.48,
+"kind": "img",
+"src": "img/i_9062a5cb7d.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 548.48,
+"b": 553.3,
+"kind": "clip",
+"src": "clips/c_30cb8c9802.mp4"
+},
+{
+"a": 553.3,
+"b": 557.0,
+"kind": "clip",
+"src": "clips/c_469dd80d7f.mp4"
+},
+{
+"a": 557.0,
+"b": 559.34,
+"kind": "clip",
+"src": "clips/c_00c1637086.mp4"
+},
+{
+"a": 559.34,
+"b": 562.6,
+"kind": "clip",
+"src": "clips/c_e53e7c7b0a.mp4"
+},
+{
+"a": 562.6,
+"b": 566.92,
+"kind": "card",
+"card": {
+"t": "FEWER THAN HALF",
+"sub": "of the fighters' escort sorties counted a success (374 of 832)",
+"style": "number"
+}
+},
+{
+"a": 566.92,
+"b": 572.46,
+"kind": "card",
+"card": {
+"t": "the number of American lives saved pales in comparison to the number lost in capturing the island.",
+"sub": "Robert S. Burrell",
+"style": "quote"
+}
+},
+{
+"a": 572.46,
+"b": 576.38,
+"kind": "clip",
+"src": "clips/c_642a0ae0be.mp4"
+},
+{
+"a": 576.38,
+"b": 581.02,
+"kind": "img",
+"src": "img/i_6ce1729caa.jpg",
+"mv": "hold",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 581.02,
+"b": 584.52,
+"kind": "clip",
+"src": "clips/c_6773f1e107.mp4"
+},
+{
+"a": 584.52,
+"b": 587.22,
+"kind": "clip",
+"src": "clips/c_04d42cf751.mp4"
+},
+{
+"a": 587.22,
+"b": 592.04,
+"kind": "img",
+"src": "img/i_e1d197628f.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 592.04,
+"b": 596.48,
+"kind": "clip",
+"src": "clips/c_a78da0c12e.mp4"
+},
+{
+"a": 596.48,
+"b": 599.78,
+"kind": "clip",
+"src": "clips/c_7e6d690e5e.mp4"
+},
+{
+"a": 599.78,
+"b": 602.82,
+"kind": "img",
+"src": "img/i_4b3ef2c985.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 602.82,
+"b": 606.04,
+"kind": "card",
+"card": {
+"t": "1968",
+"sub": "the United States hands Iwo Jima back to Japan",
+"style": "number"
+}
+},
+{
+"a": 606.04,
+"b": 611.12,
+"kind": "img",
+"src": "img/i_f1cb50fccc.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 611.12,
+"b": 618.16,
+"kind": "card",
+"card": {
+"t": "ABOUT 1,000",
+"sub": "Japanese civilians lived on the island before the war; all were moved off in 1944",
+"style": "number"
+}
+},
+{
+"a": 618.16,
+"b": 621.2,
+"kind": "clip",
+"src": "clips/c_028f27a560.mp4"
+},
+{
+"a": 621.2,
+"b": 625.18,
+"kind": "img",
+"src": "img/i_f864fd42e0.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 625.18,
+"b": 630.68,
+"kind": "img",
+"src": "img/i_4e92992661.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 630.68,
+"b": 632.42,
+"kind": "img",
+"src": "img/i_f285622488.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 632.42,
+"b": 636.12,
+"kind": "img",
+"src": "img/i_77c81cce68.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 636.12,
+"b": 638.64,
+"kind": "clip",
+"src": "clips/c_cacd26acbd.mp4"
+},
+{
+"a": 638.64,
+"b": 641.44,
+"kind": "clip",
+"src": "clips/c_e96835a754.mp4"
+},
+{
+"a": 641.44,
+"b": 646.08,
+"kind": "card",
+"card": {
+"t": "MARCH 2025, IWO TO",
+"sub": "Japan's prime minister visits the island",
+"style": "doc"
+}
+},
+{
+"a": 646.08,
+"b": 651.14,
+"kind": "card",
+"card": {
+"t": "ABOUT 11,000",
+"sub": "Japanese war dead still on the island (Japanese government, 2025)",
+"style": "number"
+}
+},
+{
+"a": 651.14,
+"b": 655.68,
+"kind": "clip",
+"src": "clips/c_07e8454c64.mp4"
+},
+{
+"a": 655.68,
+"b": 659.58,
+"kind": "card",
+"card": {
+"t": "UNDER THE RUNWAY",
+"sub": "search teams have dug down to a cave beneath it",
+"style": "doc"
+}
+},
+{
+"a": 659.58,
+"b": 661.96,
+"kind": "clip",
+"src": "clips/c_3dab9520bd.mp4"
+},
+{
+"a": 661.96,
+"b": 665.94,
+"kind": "clip",
+"src": "clips/c_b5147f9150.mp4"
+},
+{
+"a": 665.94,
+"b": 669.36,
+"kind": "clip",
+"src": "clips/c_c28d1b9151.mp4"
+},
+{
+"a": 669.36,
+"b": 673.68,
+"kind": "clip",
+"src": "clips/c_177c7fa0ba.mp4"
+},
+{
+"a": 673.68,
+"b": 676.92,
+"kind": "clip",
+"src": "clips/c_1f4b641a94.mp4"
+},
+{
+"a": 676.92,
+"b": 683.9,
+"kind": "card",
+"card": {
+"t": "NEXT: BIKINI ATOLL, 1946",
+"sub": "the bomb the Navy set off under its own fleet",
+"style": "doc"
+}
+}
+],
+"chapters": [
+{
+"a": 0.0,
+"b": 2.06,
+"n": "Chapter 1",
+"t": "The flag"
+},
+{
+"a": 46.06,
+"b": 49.46,
+"n": "Chapter 2",
+"t": "Why this island"
+},
+{
+"a": 130.04,
+"b": 132.46,
+"n": "Chapter 3",
+"t": "The general under the island"
+},
+{
+"a": 212.76,
+"b": 216.26,
+"n": "Chapter 4",
+"t": "Black sand, 19 February 1945"
+},
+{
+"a": 293.22,
+"b": 295.54,
+"n": "Chapter 5",
+"t": "Two flags on Suribachi"
+},
+{
+"a": 369.36,
+"b": 372.18,
+"n": "Chapter 6",
+"t": "The bomber that came down"
+},
+{
+"a": 478.22,
+"b": 481.72,
+"n": "Chapter 7",
+"t": "Was it worth it?"
+},
+{
+"a": 599.78,
+"b": 602.82,
+"n": "Chapter 8",
+"t": "Why you can't go there"
+}
+],
+"caps": [
+{
+"a": 0.09,
+"b": 4.55,
+"t": "Iwo Jima is where Marines raised the most\nfamous American flag of the Second World"
+},
+{
+"a": 4.55,
+"b": 9.08,
+"t": "War, and today almost nobody\nis allowed to land there."
+},
+{
+"a": 9.09,
+"b": 12.41,
+"t": "A Marine cameraman filmed\nthat flag going up in colour,"
+},
+{
+"a": 12.41,
+"b": 14.23,
+"t": "four days into the battle."
+},
+{
+"a": 14.23,
+"b": 16.43,
+"t": "The fighting went on for another month,"
+},
+{
+"a": 16.43,
+"b": 21.13,
+"t": "and nearly seven thousand Americans died\ntaking an island of about eight square"
+},
+{
+"a": 21.13,
+"b": 22.21,
+"t": "miles."
+},
+{
+"a": 22.21,
+"b": 24.59,
+"t": "They were sent there mainly for a runway,"
+},
+{
+"a": 24.59,
+"b": 28.1,
+"t": "halfway between America's\nbomber bases and Tokyo."
+},
+{
+"a": 28.13,
+"b": 32.27,
+"t": "So was that runway worth\nseven thousand American lives?"
+},
+{
+"a": 32.27,
+"b": 35.13,
+"t": "For decades the usual answer was yes,"
+},
+{
+"a": 35.13,
+"b": 38.13,
+"t": "that it saved far more lives than it cost,"
+},
+{
+"a": 38.13,
+"b": 41.62,
+"t": "until a Marine historian went\nback through the numbers."
+},
+{
+"a": 41.67,
+"b": 46.09,
+"t": "And the reason you can't land there\nnow is still lying under the sand."
+},
+{
+"a": 46.09,
+"b": 49.91,
+"t": "By the end of 1944,\nAmerica's biggest bombers,"
+},
+{
+"a": 49.91,
+"b": 55.97,
+"t": "the B-29 Superfortresses, were flying\nfrom the Mariana Islands to bomb Japan."
+},
+{
+"a": 55.97,
+"b": 58.91,
+"t": "It was a long round trip over open sea,"
+},
+{
+"a": 58.91,
+"b": 62.98,
+"t": "and a badly damaged plane had\nnowhere to land on the way home."
+},
+{
+"a": 63.05,
+"b": 65.69,
+"t": "Iwo Jima sat halfway along that route,"
+},
+{
+"a": 65.69,
+"b": 67.95,
+"t": "and it was in Japanese hands."
+},
+{
+"a": 67.95,
+"b": 72.94,
+"t": "Its radar gave Japan two hours'\nwarning of every B-29 raid."
+},
+{
+"a": 73.15,
+"b": 76.14,
+"t": "Fighters from the island\nattacked the bombers."
+},
+{
+"a": 76.15,
+"b": 79.16,
+"t": "They went after the crippled\nones on the way home."
+},
+{
+"a": 79.17,
+"b": 84.87,
+"t": "In October 1944, the Joint Chiefs ordered\nAdmiral Chester Nimitz to take it within"
+},
+{
+"a": 84.87,
+"b": 86.15,
+"t": "three months."
+},
+{
+"a": 86.15,
+"b": 88.17,
+"t": "The plan was to end the warnings,"
+},
+{
+"a": 88.17,
+"b": 90.23,
+"t": "give the bombers fighter escorts,"
+},
+{
+"a": 90.23,
+"b": 94.43,
+"t": "and give crippled B-29s somewhere\nto land on the way home."
+},
+{
+"a": 94.43,
+"b": 98.77,
+"t": "The Marines studied the intelligence on\nthe island and asked the Navy for ten days"
+},
+{
+"a": 98.77,
+"b": 101.09,
+"t": "of shelling before they landed."
+},
+{
+"a": 101.09,
+"b": 105.23,
+"t": "The Navy said it had neither the\ntime nor the ammunition to spare,"
+},
+{
+"a": 105.23,
+"b": 106.77,
+"t": "and offered three."
+},
+{
+"a": 106.77,
+"b": 110.31,
+"t": "The Marines kept pleading and\noffered to settle for four,"
+},
+{
+"a": 110.31,
+"b": 112.6,
+"t": "and the answer was still three."
+},
+{
+"a": 112.63,
+"b": 115.24,
+"t": "Bad weather cut into even those."
+},
+{
+"a": 115.29,
+"b": 120.43,
+"t": "One Marine officer later said they'd had\nabout thirteen hours of fire in thirty-four"
+},
+{
+"a": 120.43,
+"b": 121.99,
+"t": "hours of daylight."
+},
+{
+"a": 121.99,
+"b": 126.35,
+"t": "But there was a problem nobody on\nthe ships could see from the sea."
+},
+{
+"a": 126.35,
+"b": 130.07,
+"t": "Most of the men they were shooting\nat were already underground."
+},
+{
+"a": 130.07,
+"b": 134.27,
+"t": "The Japanese commander was Lieutenant\nGeneral Tadamichi Kuribayashi,"
+},
+{
+"a": 134.27,
+"b": 139.43,
+"t": "who had spent several years as a young\nofficer at Japan's embassies in America and"
+},
+{
+"a": 139.43,
+"b": 140.49,
+"t": "Canada."
+},
+{
+"a": 140.49,
+"b": 145.13,
+"t": "Before the battle, he wrote to his wife\nthat the Americans would surely invade,"
+},
+{
+"a": 145.13,
+"b": 147.81,
+"t": "and told her not to look for his return."
+},
+{
+"a": 147.81,
+"b": 150.07,
+"t": "He didn't plan to fight on the beaches,"
+},
+{
+"a": 150.07,
+"b": 152.45,
+"t": "and he ruled out banzai charges,"
+},
+{
+"a": 152.45,
+"b": 157.03,
+"t": "the mass attacks that had thrown away\nJapanese troops on other islands."
+},
+{
+"a": 157.03,
+"b": 162.55,
+"t": "He wanted a long, slow battle of nerves\nthat might make the Americans lose heart."
+},
+{
+"a": 162.55,
+"b": 164.81,
+"t": "So he moved everything underground,"
+},
+{
+"a": 164.81,
+"b": 169.48,
+"t": "the guns, the command posts, the\nbarracks and the aid stations."
+},
+{
+"a": 169.51,
+"b": 171.33,
+"t": "By the time the Marines landed,"
+},
+{
+"a": 171.33,
+"b": 174.65,
+"t": "more than eleven miles of\ntunnels had been finished."
+},
+{
+"a": 174.65,
+"b": 177.09,
+"t": "One position inside Mount Suribachi,"
+},
+{
+"a": 177.09,
+"b": 179.59,
+"t": "the volcano at the island's southern tip,"
+},
+{
+"a": 179.59,
+"b": 181.79,
+"t": "went seven stories deep."
+},
+{
+"a": 181.79,
+"b": 186.63,
+"t": "His men were told to hold their positions\nand take ten American lives for every one"
+},
+{
+"a": 186.63,
+"b": 187.82,
+"t": "of theirs."
+},
+{
+"a": 187.87,
+"b": 191.45,
+"t": "So what went wrong with the\nAmerican count of his men?"
+},
+{
+"a": 191.45,
+"b": 193.97,
+"t": "There's no fresh water on Iwo Jima,"
+},
+{
+"a": 193.97,
+"b": 196.32,
+"t": "only rain caught in tanks."
+},
+{
+"a": 196.37,
+"b": 201.03,
+"t": "From that, the planners worked out that no\nmore than twelve or thirteen thousand men"
+},
+{
+"a": 201.03,
+"b": 202.29,
+"t": "could live there."
+},
+{
+"a": 202.29,
+"b": 206.45,
+"t": "The Marines came ashore expecting\nabout thirteen thousand defenders,"
+},
+{
+"a": 206.45,
+"b": 209.35,
+"t": "and Kuribayashi had more\nthan twenty thousand,"
+},
+{
+"a": 209.35,
+"b": 212.78,
+"t": "living on half-rations\nof water for months."
+},
+{
+"a": 212.79,
+"b": 215.52,
+"t": "The Marines landed on the\nmorning of 19 February"
+},
+{
+"a": 215.65,
+"b": 220.8,
+"t": "1945, on three thousand\nyards of black volcanic sand."
+},
+{
+"a": 220.85,
+"b": 225.17,
+"t": "For the first hour, the beaches\nwere quieter than anyone had feared,"
+},
+{
+"a": 225.17,
+"b": 226.95,
+"t": "but it didn't last."
+},
+{
+"a": 226.95,
+"b": 231.6,
+"t": "Kuribayashi waited until the beaches\nwere jammed with men and machines."
+},
+{
+"a": 231.65,
+"b": 236.01,
+"t": "Shortly after ten o'clock, hundreds of\nguns that had been aimed at those beaches"
+},
+{
+"a": 236.01,
+"b": 238.39,
+"t": "long before opened up."
+},
+{
+"a": 238.39,
+"b": 241.77,
+"t": "By that night, thirty\nthousand Marines were ashore,"
+},
+{
+"a": 241.77,
+"b": 244.95,
+"t": "and about one in twelve\nhad already been hit."
+},
+{
+"a": 244.95,
+"b": 249.49,
+"t": "The Marines waited all night for the\nbanzai charge they'd met on other islands,"
+},
+{
+"a": 249.49,
+"b": 253.0,
+"t": "and it never came, that\nnight or any other."
+},
+{
+"a": 253.01,
+"b": 255.57,
+"t": "And it got worse once\nthey moved off the beach,"
+},
+{
+"a": 255.57,
+"b": 259.17,
+"t": "because the men shooting at\nthem were almost never in sight."
+},
+{
+"a": 259.17,
+"b": 264.11,
+"t": "The Americans would rarely see a live\nJapanese soldier on Iwo Jima until the very"
+},
+{
+"a": 264.11,
+"b": 264.97,
+"t": "end."
+},
+{
+"a": 264.97,
+"b": 270.57,
+"t": "Two days after the landing, kamikaze\nplanes sank the escort carrier Bismarck Sea"
+},
+{
+"a": 270.57,
+"b": 272.23,
+"t": "just off the island."
+},
+{
+"a": 272.23,
+"b": 276.57,
+"t": "Inland, every cave and bunker\nhad to be taken one at a time,"
+},
+{
+"a": 276.57,
+"b": 280.07,
+"t": "often with flamethrowers\nand tanks that fired flame."
+},
+{
+"a": 280.07,
+"b": 282.23,
+"t": "Lieutenant Colonel Justice Chambers,"
+},
+{
+"a": 282.23,
+"b": 284.15,
+"t": "who won the Medal of Honor there,"
+},
+{
+"a": 284.15,
+"b": 289.52,
+"t": "said afterwards that each Japanese\nsoldier was supposed to kill ten Marines."
+},
+{
+"a": 289.59,
+"b": 293.25,
+"t": "For a while, he said, they\nwere beating their quotas."
+},
+{
+"a": 293.25,
+"b": 295.08,
+"t": "On the morning of 23 February,"
+},
+{
+"a": 295.57,
+"b": 301.23,
+"t": "a forty-man patrol under Lieutenant Harold\nSchrier set off up Suribachi with a small"
+},
+{
+"a": 301.23,
+"b": 302.71,
+"t": "American flag."
+},
+{
+"a": 302.71,
+"b": 305.41,
+"t": "A photographer from the\nMarines' own magazine,"
+},
+{
+"a": 305.41,
+"b": 308.6,
+"t": "Staff Sergeant Louis\nLowery, went with them."
+},
+{
+"a": 308.63,
+"b": 313.49,
+"t": "At twenty past ten, they tied the flag to\na length of pipe they found at the top,"
+},
+{
+"a": 313.49,
+"b": 314.82,
+"t": "and raised it."
+},
+{
+"a": 314.89,
+"b": 318.36,
+"t": "All over the island,\nmen saw it and cheered."
+},
+{
+"a": 318.43,
+"b": 320.44,
+"t": "Lowery took his pictures."
+},
+{
+"a": 320.51,
+"b": 325.13,
+"t": "Almost at once, he was in a firefight with\na couple of Japanese soldiers who came"
+},
+{
+"a": 325.13,
+"b": 326.54,
+"t": "out of the rocks."
+},
+{
+"a": 326.61,
+"b": 331.19,
+"t": "Hours later, a second patrol carried a\nbigger flag up from a landing ship on the"
+},
+{
+"a": 331.19,
+"b": 332.17,
+"t": "beach."
+},
+{
+"a": 332.17,
+"b": 334.11,
+"t": "An Associated Press photographer,"
+},
+{
+"a": 334.11,
+"b": 336.49,
+"t": "Joe Rosenthal, went up with them,"
+},
+{
+"a": 336.49,
+"b": 338.93,
+"t": "and so did a Marine movie cameraman,"
+},
+{
+"a": 338.93,
+"b": 341.03,
+"t": "Sergeant Bill Genaust."
+},
+{
+"a": 341.03,
+"b": 346.46,
+"t": "Rosenthal's picture reached Guam first\nand became the photograph everybody knows."
+},
+{
+"a": 346.49,
+"b": 349.99,
+"t": "Genaust's colour film is the\none you saw at the start."
+},
+{
+"a": 349.99,
+"b": 354.15,
+"t": "Nine days after he shot it,\nGenaust was hit by enemy fire,"
+},
+{
+"a": 354.15,
+"b": 356.41,
+"t": "and his body was never recovered."
+},
+{
+"a": 356.41,
+"b": 361.37,
+"t": "Three of the six men raising that second\nflag were killed on the island too."
+},
+{
+"a": 361.37,
+"b": 366.5,
+"t": "The flag was up on day five, and the\nbattle had another thirty-one days to run,"
+},
+{
+"a": 366.51,
+"b": 369.39,
+"t": "most of them in the\nbroken rock of the north."
+},
+{
+"a": 369.39,
+"b": 370.46,
+"t": "On 4 March,"
+},
+{
+"a": 370.53,
+"b": 372.21,
+"t": "at the end of the second week,"
+},
+{
+"a": 372.21,
+"b": 377.99,
+"t": "a crippled B-29 called Dinah Might came\nback from a raid on Tokyo and put down on"
+},
+{
+"a": 377.99,
+"b": 380.09,
+"t": "the island's main airstrip."
+},
+{
+"a": 380.09,
+"b": 384.15,
+"t": "It was the first damaged Superfortress\nto land there during the fighting,"
+},
+{
+"a": 384.15,
+"b": 388.77,
+"t": "and after a quick repair, the\nMarines cheered as it took off again."
+},
+{
+"a": 388.77,
+"b": 391.83,
+"t": "That landing was what the\nisland had been taken for,"
+},
+{
+"a": 391.83,
+"b": 394.15,
+"t": "and it still wasn't fully theirs."
+},
+{
+"a": 394.15,
+"b": 396.85,
+"t": "The battle went on for\nanother twenty-two days,"
+},
+{
+"a": 396.85,
+"b": 400.71,
+"t": "and cost about eleven thousand\nmore American casualties."
+},
+{
+"a": 400.71,
+"b": 403.29,
+"t": "At one point, a Marine officer said,"
+},
+{
+"a": 403.29,
+"b": 407.77,
+"t": "sixty thousand men were packed into less\nthan three and a half square miles of"
+},
+{
+"a": 407.77,
+"b": 409.24,
+"t": "broken ground."
+},
+{
+"a": 409.27,
+"b": 413.31,
+"t": "One rifle company that landed on the first\nday with a hundred and thirty-three men"
+},
+{
+"a": 413.31,
+"b": 417.27,
+"t": "in its platoons left the\nisland with nine of them."
+},
+{
+"a": 417.27,
+"b": 418.28,
+"t": "On 16 March,"
+},
+{
+"a": 418.63,
+"b": 421.65,
+"t": "with nine-tenths of the\nisland in American hands,"
+},
+{
+"a": 421.65,
+"b": 424.05,
+"t": "Iwo Jima was declared secure."
+},
+{
+"a": 424.05,
+"b": 427.0,
+"t": "Ten days later, before dawn on 26 March,"
+},
+{
+"a": 427.63,
+"b": 431.99,
+"t": "Japanese soldiers came out for one last\nattack on the American camps near the"
+},
+{
+"a": 431.99,
+"b": 433.22,
+"t": "airfields."
+},
+{
+"a": 433.29,
+"b": 436.25,
+"t": "Sunrise showed about three\nhundred of them dead,"
+},
+{
+"a": 436.25,
+"b": 438.71,
+"t": "and more than a hundred Americans killed,"
+},
+{
+"a": 438.71,
+"b": 441.32,
+"t": "many of them pilots and Seabees."
+},
+{
+"a": 441.37,
+"b": 445.93,
+"t": "Japanese accounts say Kuribayashi\ntook his own life that same night."
+},
+{
+"a": 445.93,
+"b": 450.05,
+"t": "The Marines' landing force had more\nthan twenty-four thousand casualties in"
+},
+{
+"a": 450.05,
+"b": 454.21,
+"t": "thirty-six days, and more than\nsix thousand of them died."
+},
+{
+"a": 454.21,
+"b": 458.95,
+"t": "Roughly one in every three Marines and\nNavy corpsmen who landed was killed or"
+},
+{
+"a": 458.95,
+"b": 464.63,
+"t": "wounded, by far the highest losses in a\nsingle battle in Marine Corps history."
+},
+{
+"a": 464.63,
+"b": 467.61,
+"t": "With the Navy's dead at\nsea and on the beaches,"
+},
+{
+"a": 467.61,
+"b": 471.04,
+"t": "the American toll comes\nto nearly seven thousand."
+},
+{
+"a": 471.07,
+"b": 475.11,
+"t": "Admiral Nimitz said that among the\nAmericans who served on Iwo Jima,"
+},
+{
+"a": 475.11,
+"b": 478.25,
+"t": "uncommon valor was a common virtue."
+},
+{
+"a": 478.25,
+"b": 482.54,
+"t": "The case for paying that price\nrests on the emergency landings."
+},
+{
+"a": 482.59,
+"b": 486.47,
+"t": "The Army Air Forces' own history\nsays that by the end of the war,"
+},
+{
+"a": 486.47,
+"b": 491.69,
+"t": "about twenty-four hundred B-29s had\nmade emergency landings on the island,"
+},
+{
+"a": 491.69,
+"b": 494.67,
+"t": "carrying some twenty-five thousand airmen."
+},
+{
+"a": 494.67,
+"b": 498.65,
+"t": "You'll often hear that every one\nof those airmen was a life saved,"
+},
+{
+"a": 498.65,
+"b": 502.5,
+"t": "more than three times the Americans\nwho died taking the island."
+},
+{
+"a": 502.51,
+"b": 507.11,
+"t": "General George Marshall wrote that its\nairfields saved hundreds of battle-damaged"
+},
+{
+"a": 507.11,
+"b": 510.19,
+"t": "B-29s that couldn't have made it home."
+},
+{
+"a": 510.19,
+"b": 515.41,
+"t": "In 2006, Robert Burrell, a Marine captain\nwho had taught history at the Naval"
+},
+{
+"a": 515.41,
+"b": 518.26,
+"t": "Academy, went through those numbers."
+},
+{
+"a": 518.29,
+"b": 521.93,
+"t": "He argued that the sum treats\nevery landing as a rescue,"
+},
+{
+"a": 521.93,
+"b": 524.59,
+"t": "and the same Air Force history doesn't."
+},
+{
+"a": 524.59,
+"b": 530.04,
+"t": "It says the island was a constant temptation\nfor crews in trouble to land halfway,"
+},
+{
+"a": 530.05,
+"b": 533.23,
+"t": "even when they had a reasonable\nchance of making it home."
+},
+{
+"a": 533.23,
+"b": 539.11,
+"t": "It also calls the claims of up to twenty\nthousand lives saved a gross exaggeration."
+},
+{
+"a": 539.11,
+"b": 542.07,
+"t": "Burrell counted the men\npulled out of the sea instead,"
+},
+{
+"a": 542.07,
+"b": 546.99,
+"t": "and found the rescue rate went from about\na third to about three in five once the"
+},
+{
+"a": 546.99,
+"b": 548.51,
+"t": "island was taken."
+},
+{
+"a": 548.51,
+"b": 551.07,
+"t": "By his count, the better rescue effort,"
+},
+{
+"a": 551.07,
+"b": 555.69,
+"t": "helped by the island, saved about two\nhundred and twenty more airmen than the old"
+},
+{
+"a": 555.69,
+"b": 557.03,
+"t": "rate would have."
+},
+{
+"a": 557.03,
+"b": 558.43,
+"t": "And the fighters on the island,"
+},
+{
+"a": 558.43,
+"b": 561.87,
+"t": "he found, struggled with the\ndistance and the weather,"
+},
+{
+"a": 561.87,
+"b": 566.95,
+"t": "and the Air Force counted fewer than\nhalf of their escort sorties a success."
+},
+{
+"a": 566.95,
+"b": 572.42,
+"t": "His conclusion was that the lives saved\ndon't come close to the lives it cost."
+},
+{
+"a": 572.49,
+"b": 576.41,
+"t": "So did Iwo Jima save more\nAmericans than it cost?"
+},
+{
+"a": 576.41,
+"b": 581.05,
+"t": "On the evidence, no, and Burrell\nis right about the famous sum."
+},
+{
+"a": 581.05,
+"b": 585.61,
+"t": "The landings were real, and some of those\ncrews would certainly have died in the sea"
+},
+{
+"a": 585.61,
+"b": 587.25,
+"t": "without that runway."
+},
+{
+"a": 587.25,
+"b": 589.61,
+"t": "But by the Air Force's own account,"
+},
+{
+"a": 589.61,
+"b": 592.07,
+"t": "a lot of them would have\nmade it home anyway."
+},
+{
+"a": 592.07,
+"b": 596.5,
+"t": "The island was worth having,\nas a runway and a rescue base."
+},
+{
+"a": 596.51,
+"b": 599.81,
+"t": "It just wasn't the bargain\nthe generals described."
+},
+{
+"a": 599.81,
+"b": 606.07,
+"t": "The United States held the island after the\nwar and handed it back to Japan in 1968."
+},
+{
+"a": 606.07,
+"b": 609.95,
+"t": "In 2007, Japan went\nback to its prewar name,"
+},
+{
+"a": 609.95,
+"b": 611.06,
+"t": "Iwo To."
+},
+{
+"a": 611.15,
+"b": 614.91,
+"t": "About a thousand Japanese civilians\nhad lived there before the war,"
+},
+{
+"a": 614.91,
+"b": 618.1,
+"t": "and they were all moved off in 1944."
+},
+{
+"a": 618.19,
+"b": 621.05,
+"t": "Today it's a base for Japan's military,"
+},
+{
+"a": 621.05,
+"b": 625.21,
+"t": "and visits are limited to a few\nceremonies and memorial trips."
+},
+{
+"a": 625.21,
+"b": 630.07,
+"t": "Once a year, American and Japanese veterans\nand families meet there for a ceremony"
+},
+{
+"a": 630.07,
+"b": 632.45,
+"t": "called the Reunion of Honor."
+},
+{
+"a": 632.45,
+"b": 636.15,
+"t": "The other reason it stays\nclosed is under the ground."
+},
+{
+"a": 636.15,
+"b": 638.67,
+"t": "Kuribayashi's tunnels are still there,"
+},
+{
+"a": 638.67,
+"b": 641.47,
+"t": "and so are many of the\nmen who fought in them."
+},
+{
+"a": 641.47,
+"b": 646.87,
+"t": "In March 2025, Japan's prime minister\nstood on the island and said the remains of"
+},
+{
+"a": 646.87,
+"b": 651.17,
+"t": "about eleven thousand Japanese\nwar dead still lie there."
+},
+{
+"a": 651.17,
+"b": 655.71,
+"t": "He promised the whole government would\nwork to recover them and bring them home."
+},
+{
+"a": 655.71,
+"b": 658.11,
+"t": "Japanese search teams still go out,"
+},
+{
+"a": 658.11,
+"b": 661.99,
+"t": "and they've dug down to a cave\nbeneath the runway looking for them."
+},
+{
+"a": 661.99,
+"b": 665.97,
+"t": "So it's closed because it's still\na working military airfield,"
+},
+{
+"a": 665.97,
+"b": 669.39,
+"t": "and still a grave for thousands\nof the men who held it."
+},
+{
+"a": 669.39,
+"b": 672.13,
+"t": "Our next story starts\na year after the war,"
+},
+{
+"a": 672.13,
+"b": 676.95,
+"t": "at Bikini Atoll, with the weapon\nthose B-29s ended it with."
+},
+{
+"a": 676.95,
+"b": 680.99,
+"t": "The US Navy set off an atomic\nbomb under its own fleet there,"
+},
+{
+"a": 680.99,
+"b": 683.5,
+"t": "and then found it\ncouldn't clean the ships."
+}
+],
+"subs": [],
+"grain": true,
+"grainOpacity": 0.07,
+"parts": 4
+}
