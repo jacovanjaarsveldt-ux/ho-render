@@ -1,0 +1,12676 @@
+{
+"end": 692.9,
+"vo_end": 688.496,
+"shots": [
+{
+"a": 0.0,
+"b": 3.12,
+"kind": "comp",
+"src": "img/a/p25.jpg",
+"cam": "push",
+"o": "50% 45%",
+"dir": -1,
+"line": "A mob with sticks stepped out in front of the Tour de France on a mountain road and started beating the riders.",
+"pic": "a/p25"
+},
+{
+"a": 3.12,
+"b": 6.44,
+"kind": "comp",
+"src": "img/a/p89.jpg",
+"cam": "none",
+"o": "50% 50%",
+"dir": 1,
+"line": "A mob with sticks stepped out in front of the Tour de France on a mountain road and started beating the riders.",
+"pic": "a/p89"
+},
+{
+"a": 6.44,
+"b": 8.88,
+"kind": "img",
+"src": "img/a/p74.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "The men running the race pulled out pistols and fired into the air to get them through.",
+"pic": "a/p74"
+},
+{
+"a": 8.88,
+"b": 11.38,
+"kind": "comp",
+"src": "img/crop/a_lauto_cartoon.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The men running the race pulled out pistols and fired into the air to get them through.",
+"pic": "a/lauto_cartoon"
+},
+{
+"a": 11.38,
+"b": 13.74,
+"kind": "comp",
+"src": "img/a/p91.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": -1,
+"line": "That was only the second stage.",
+"pic": "a/p91"
+},
+{
+"a": 13.74,
+"b": 18.62,
+"kind": "img",
+"src": "img/a/p0.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": 1,
+"line": "Four months after the finish, the men who came first, second, third and fourth were all thrown out, and the win went to a nineteen-year-old who'd come fifth.",
+"pic": "a/p0"
+},
+{
+"a": 18.62,
+"b": 20.2,
+"kind": "comp",
+"src": "img/a/p41.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Four months after the finish, the men who came first, second, third and fourth were all thrown out, and the win went to a nineteen-year-old who'd come fifth.",
+"pic": "a/p41"
+},
+{
+"a": 20.2,
+"b": 23.6,
+"kind": "comp",
+"src": "img/a/p1.png",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Four months after the finish, the men who came first, second, third and fourth were all thrown out, and the win went to a nineteen-year-old who'd come fifth.",
+"pic": "a/p1"
+},
+{
+"a": 23.6,
+"b": 29.52,
+"kind": "comp",
+"src": "img/a/p108.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The papers that say what the first man over the line had really done went missing in 1940.",
+"pic": "a/p108",
+"lbl": "MISSING SINCE 1940"
+},
+{
+"a": 29.52,
+"b": 33.4,
+"kind": "comp",
+"src": "img/a/p3.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "But as an old man, he's said to have told someone.",
+"pic": "a/p3"
+},
+{
+"a": 33.4,
+"b": 37.81,
+"kind": "comp",
+"src": "img/a/p105.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "To see how a bike race got that bad, you have to start with a newspaper.",
+"pic": "a/p105"
+},
+{
+"a": 37.81,
+"b": 42.44,
+"kind": "comp",
+"src": "img/a/p80.jpg",
+"cam": "push",
+"o": "50% 15%",
+"dir": 1,
+"line": "The Tour de France was dreamed up to sell papers.",
+"pic": "a/p80"
+},
+{
+"a": 42.44,
+"b": 48.3,
+"kind": "comp",
+"src": "img/a/p106.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "In 1903 a Paris sports paper called L'Auto was in a fight with a bigger rival, and its editor, Henri Desgrange, needed something nobody had seen before.",
+"pic": "a/p106"
+},
+{
+"a": 48.3,
+"b": 53.26,
+"kind": "comp",
+"src": "img/a/p55.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "In 1903 a Paris sports paper called L'Auto was in a fight with a bigger rival, and its editor, Henri Desgrange, needed something nobody had seen before.",
+"pic": "a/p55",
+"lbl": "HENRI DESGRANGE"
+},
+{
+"a": 53.26,
+"b": 55.6,
+"kind": "comp",
+"src": "img/a/p58.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Desgrange had been a racer himself, the first man to set an official record for how far you could ride a bike in an hour.",
+"pic": "a/p58"
+},
+{
+"a": 55.6,
+"b": 60.7,
+"kind": "img",
+"src": "img/a/p61.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Desgrange had been a racer himself, the first man to set an official record for how far you could ride a bike in an hour.",
+"pic": "a/p61"
+},
+{
+"a": 60.7,
+"b": 64.22,
+"kind": "expl",
+"eid": "loop1903",
+"spec": {
+"base": {
+"src": "maps/france.png"
+},
+"paths": [
+{
+"d": [
+[
+1011.5,
+304.2
+],
+[
+1193.7,
+634.7
+],
+[
+1232.8,
+898.3
+],
+[
+944.9,
+865.3
+],
+[
+796.5,
+733.6
+],
+[
+725.0,
+479.3
+],
+[
+1011.5,
+304.2
+]
+],
+"at": 0.05,
+"dur": 0.6,
+"color": "#E8B04A",
+"w": 8
+}
+],
+"pins": [
+{
+"x": 1011.5,
+"y": 304.2,
+"label": "PARIS",
+"at": 0.0,
+"anchor": "r",
+"red": false,
+"plain": false
+},
+{
+"x": 1193.7,
+"y": 634.7,
+"label": "LYON",
+"at": 0.12,
+"anchor": "r",
+"red": false,
+"plain": false
+},
+{
+"x": 1232.8,
+"y": 898.3,
+"label": "MARSEILLE",
+"at": 0.2,
+"anchor": "b",
+"red": false,
+"plain": false
+},
+{
+"x": 944.9,
+"y": 865.3,
+"label": "TOULOUSE",
+"at": 0.28,
+"anchor": "b",
+"red": false,
+"plain": false
+},
+{
+"x": 796.5,
+"y": 733.6,
+"label": "BORDEAUX",
+"at": 0.36,
+"anchor": "l",
+"red": false,
+"plain": false
+},
+{
+"x": 725.0,
+"y": 479.3,
+"label": "NANTES",
+"at": 0.44,
+"anchor": "l",
+"red": false,
+"plain": false
+}
+],
+"tags": [
+{
+"text": "THE FIRST TOUR DE FRANCE, 1903",
+"at": 0.0,
+"x": 960,
+"y": 100
+}
+]
+},
+"pics": [],
+"line": "So L'Auto sent a field of riders right round France, and printed every day what happened to them out there."
+},
+{
+"a": 64.22,
+"b": 67.46,
+"kind": "comp",
+"src": "img/a/p79.png",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "So L'Auto sent a field of riders right round France, and printed every day what happened to them out there.",
+"pic": "a/p79"
+},
+{
+"a": 67.46,
+"b": 69.8,
+"kind": "img",
+"src": "img/a/p77.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Sixty men started that first Tour, and only twenty-one got back to Paris.",
+"pic": "a/p77"
+},
+{
+"a": 69.8,
+"b": 72.8,
+"kind": "expl",
+"eid": "stat1903",
+"spec": {
+"rows": {
+"x": 960,
+"y": 330,
+"size": 120,
+"items": [
+{
+"t": "60 STARTED",
+"at": 0.0
+},
+{
+"t": "21 FINISHED",
+"at": 0.35,
+"color": "#DD1118"
+}
+]
+},
+"tags": [
+{
+"text": "1903",
+"at": 0.0,
+"x": 960,
+"y": 200
+}
+]
+},
+"pics": [],
+"line": "Sixty men started that first Tour, and only twenty-one got back to Paris."
+},
+{
+"a": 72.8,
+"b": 74.8,
+"kind": "comp",
+"src": "img/a/p17.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "The winner was Maurice Garin, and he won it by nearly three hours.",
+"pic": "a/p17",
+"lbl": "MAURICE GARIN"
+},
+{
+"a": 74.8,
+"b": 77.72,
+"kind": "comp",
+"src": "img/a/p12.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": 1,
+"line": "The winner was Maurice Garin, and he won it by nearly three hours.",
+"pic": "a/p12"
+},
+{
+"a": 77.72,
+"b": 82.84,
+"kind": "comp",
+"src": "img/a/p14.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "Garin was small and hard, and he'd been born in a mountain village in Italy.",
+"pic": "a/p14"
+},
+{
+"a": 82.84,
+"b": 86.82,
+"kind": "comp",
+"src": "img/a/p16.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "His family brought him to France as a boy, and he'd worked as a chimney sweep before he ever raced a bike.",
+"pic": "a/p16"
+},
+{
+"a": 86.82,
+"b": 88.98,
+"kind": "comp",
+"src": "img/a/p19.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "His family brought him to France as a boy, and he'd worked as a chimney sweep before he ever raced a bike.",
+"pic": "a/p19"
+},
+{
+"a": 88.98,
+"b": 92.02,
+"kind": "comp",
+"src": "img/a/p23.jpg",
+"cam": "push",
+"o": "60% 30%",
+"dir": 1,
+"line": "Now he was the most famous rider in the country, and L'Auto was selling more papers than it ever had.",
+"pic": "a/p23"
+},
+{
+"a": 92.02,
+"b": 95.4,
+"kind": "comp",
+"src": "img/a/p107.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Now he was the most famous rider in the country, and L'Auto was selling more papers than it ever had.",
+"pic": "a/p107"
+},
+{
+"a": 95.4,
+"b": 99.2,
+"kind": "comp",
+"src": "img/a/p11.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": 1,
+"line": "Before the end of the next year he'd be banned from racing.",
+"pic": "a/p11"
+},
+{
+"a": 99.2,
+"b": 102.2,
+"kind": "img",
+"src": "img/crop/a_p0.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "So the next summer they did it all again.",
+"pic": "a/p0"
+},
+{
+"a": 102.2,
+"b": 106.26,
+"kind": "comp",
+"src": "img/a/p84.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "On the second of July 1904, eighty-eight riders lined up in Montgeron, just south of Paris.",
+"pic": "a/p84"
+},
+{
+"a": 106.26,
+"b": 109.0,
+"kind": "comp",
+"src": "img/a/p71.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "On the second of July 1904, eighty-eight riders lined up in Montgeron, just south of Paris.",
+"pic": "a/p71"
+},
+{
+"a": 109.0,
+"b": 113.52,
+"kind": "expl",
+"eid": "route1904",
+"spec": {
+"base": {
+"src": "maps/france.png"
+},
+"paths": [
+{
+"d": [
+[
+1019.3,
+320.4
+],
+[
+1193.7,
+634.7
+],
+[
+1232.8,
+898.3
+],
+[
+944.9,
+865.3
+],
+[
+796.5,
+733.6
+],
+[
+725.0,
+479.3
+],
+[
+999.8,
+307.4
+]
+],
+"at": 0.1,
+"dur": 0.6,
+"color": "#DD1118",
+"w": 8
+}
+],
+"pins": [
+{
+"x": 1019.3,
+"y": 320.4,
+"label": "MONTGERON: START",
+"at": 0.0,
+"anchor": "r",
+"red": true,
+"plain": false
+},
+{
+"x": 1193.7,
+"y": 634.7,
+"label": "LYON",
+"at": 0.18,
+"anchor": "r",
+"red": false,
+"plain": false
+},
+{
+"x": 1232.8,
+"y": 898.3,
+"label": "MARSEILLE",
+"at": 0.26,
+"anchor": "b",
+"red": false,
+"plain": false
+},
+{
+"x": 944.9,
+"y": 865.3,
+"label": "TOULOUSE",
+"at": 0.33999999999999997,
+"anchor": "b",
+"red": false,
+"plain": false
+},
+{
+"x": 796.5,
+"y": 733.6,
+"label": "BORDEAUX",
+"at": 0.42,
+"anchor": "l",
+"red": false,
+"plain": false
+},
+{
+"x": 725.0,
+"y": 479.3,
+"label": "NANTES",
+"at": 0.5,
+"anchor": "l",
+"red": false,
+"plain": false
+}
+],
+"tags": [
+{
+"text": "1904: 88 RIDERS, 6 STAGES",
+"at": 0.05,
+"x": 960,
+"y": 100
+}
+]
+},
+"pics": [],
+"line": "There were only six stages, but each one was enormous."
+},
+{
+"a": 113.52,
+"b": 117.18,
+"kind": "expl",
+"eid": "km467",
+"spec": {
+"base": {
+"src": "maps/france.png",
+"dim": 0.55
+},
+"paths": [
+{
+"d": [
+[
+1019.3,
+320.4
+],
+[
+1099.3,
+470.6
+],
+[
+1193.7,
+634.7
+]
+],
+"at": 0.0,
+"dur": 0.6,
+"color": "#DD1118",
+"w": 9
+}
+],
+"counter": {
+"start": 0,
+"end": 467,
+"at": 0.0,
+"dur": 0.6,
+"x": 960,
+"y": 500,
+"size": 230,
+"suffix": "KM",
+"box": true
+},
+"tags": [
+{
+"text": "STAGE 1: MONTGERON TO LYON",
+"at": 0.0,
+"x": 960,
+"y": 190
+},
+{
+"text": "THROUGH THE NIGHT",
+"at": 0.65,
+"x": 960,
+"y": 760
+}
+]
+},
+"pics": [],
+"line": "The first ran four hundred and sixty-seven kilometres to Lyon, and the riders kept going right through the night."
+},
+{
+"a": 117.18,
+"b": 119.96,
+"kind": "comp",
+"src": "img/a/p76.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The first ran four hundred and sixty-seven kilometres to Lyon, and the riders kept going right through the night.",
+"pic": "a/p76"
+},
+{
+"a": 119.96,
+"b": 121.98,
+"kind": "comp",
+"src": "img/a/p72.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": -1,
+"line": "The rules were simple enough.",
+"pic": "a/p72"
+},
+{
+"a": 121.98,
+"b": 124.42,
+"kind": "comp",
+"src": "img/a/p86.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Ride your own bike, fix it yourself, and take no help from anybody.",
+"pic": "a/p86"
+},
+{
+"a": 124.42,
+"b": 126.9,
+"kind": "comp",
+"src": "img/a/p94.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Ride your own bike, fix it yourself, and take no help from anybody.",
+"pic": "a/p94"
+},
+{
+"a": 126.9,
+"b": 132.1,
+"kind": "comp",
+"src": "img/a/p73.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "Garin was the favourite again, and he had two of the strongest men in the race on his team, his younger brother C\u00e9sar and Lucien Pothier.",
+"pic": "a/p73"
+},
+{
+"a": 132.1,
+"b": 133.74,
+"kind": "comp",
+"src": "img/a/p52.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "Garin was the favourite again, and he had two of the strongest men in the race on his team, his younger brother C\u00e9sar and Lucien Pothier.",
+"pic": "a/p52",
+"lbl": "CESAR GARIN"
+},
+{
+"a": 133.74,
+"b": 135.3,
+"kind": "comp",
+"src": "img/a/p42.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "Garin was the favourite again, and he had two of the strongest men in the race on his team, his younger brother C\u00e9sar and Lucien Pothier.",
+"pic": "a/p42",
+"lbl": "LUCIEN POTHIER"
+},
+{
+"a": 135.3,
+"b": 138.48,
+"kind": "img",
+"src": "img/a/p75.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "The trouble was that out on those roads in the dark, there was nobody to check who was keeping the rules.",
+"pic": "a/p75"
+},
+{
+"a": 138.48,
+"b": 141.56,
+"kind": "comp",
+"src": "img/a/p93.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The trouble was that out on those roads in the dark, there was nobody to check who was keeping the rules.",
+"pic": "a/p93"
+},
+{
+"a": 141.56,
+"b": 145.96,
+"kind": "comp",
+"src": "img/a/p62.jpg",
+"cam": "push",
+"o": "50% 25%",
+"dir": -1,
+"line": "A handful of officials couldn't watch hundreds of kilometres of road at night, so for most of every stage the riders were on their own.",
+"pic": "a/p62"
+},
+{
+"a": 145.96,
+"b": 149.78,
+"kind": "img",
+"src": "img/a/p90.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "A handful of officials couldn't watch hundreds of kilometres of road at night, so for most of every stage the riders were on their own.",
+"pic": "a/p90"
+},
+{
+"a": 149.78,
+"b": 154.11,
+"kind": "comp",
+"src": "img/a/p15.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "And before the first stage was even over, somebody came after Garin.",
+"pic": "a/p15"
+},
+{
+"a": 154.11,
+"b": 159.96,
+"kind": "comp",
+"src": "img/a/p39.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "Near the end of that first stage, Garin and Pothier were out in front together, well clear of everyone.",
+"pic": "a/p39"
+},
+{
+"a": 159.96,
+"b": 161.84,
+"kind": "comp",
+"src": "img/a/p24.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "Near the end of that first stage, Garin and Pothier were out in front together, well clear of everyone.",
+"pic": "a/p24"
+},
+{
+"a": 161.84,
+"b": 167.66,
+"kind": "expl",
+"eid": "car",
+"spec": {
+"base": {
+"src": "maps/france.png"
+},
+"paths": [
+{
+"d": [
+[
+1019.3,
+320.4
+],
+[
+1099.3,
+470.6
+],
+[
+1193.7,
+634.7
+]
+],
+"at": 0.0,
+"dur": 0.5,
+"color": "#DD1118",
+"w": 9
+}
+],
+"pins": [
+{
+"x": 1019.3,
+"y": 320.4,
+"label": "MONTGERON",
+"at": 0.0,
+"anchor": "r",
+"red": false,
+"plain": false
+},
+{
+"x": 1193.7,
+"y": 634.7,
+"label": "LYON",
+"at": 0.0,
+"anchor": "r",
+"red": false,
+"plain": false
+},
+{
+"x": 1183.7,
+"y": 588.1,
+"label": "FOUR MASKED MEN",
+"at": 0.5,
+"anchor": "l",
+"red": true,
+"plain": false
+}
+]
+},
+"pics": [],
+"line": "A car came up the road behind them."
+},
+{
+"a": 167.66,
+"b": 169.8,
+"kind": "comp",
+"src": "img/a/p38.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "They went for the two leaders.",
+"pic": "a/p38"
+},
+{
+"a": 169.8,
+"b": 173.48,
+"kind": "comp",
+"src": "img/b/p13.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Garin and Pothier got away from them and rode on into Lyon, and Garin won the stage.",
+"pic": "b/p13"
+},
+{
+"a": 173.48,
+"b": 175.68,
+"kind": "comp",
+"src": "img/a/p18.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "Garin and Pothier got away from them and rode on into Lyon, and Garin won the stage.",
+"pic": "a/p18"
+},
+{
+"a": 175.68,
+"b": 180.4,
+"kind": "img",
+"src": "img/b/p12.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Nobody's ever said for sure who those men were, or who sent them.",
+"pic": "b/p12"
+},
+{
+"a": 180.4,
+"b": 185.42,
+"kind": "img",
+"src": "img/b/p11.jpg",
+"cam": "push",
+"o": "50% 55%",
+"dir": -1,
+"line": "The riders had six days off in Lyon, and it looked like that might be the worst of it.",
+"pic": "b/p11"
+},
+{
+"a": 185.42,
+"b": 187.31,
+"kind": "comp",
+"src": "img/a/p88.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Then they rode into the mountains.",
+"pic": "a/p88"
+},
+{
+"a": 187.31,
+"b": 194.72,
+"kind": "expl",
+"eid": "col",
+"spec": {
+"base": {
+"src": "maps/france.png"
+},
+"paths": [
+{
+"d": [
+[
+1193.7,
+634.7
+],
+[
+1166.8,
+677.8
+],
+[
+1232.8,
+898.3
+]
+],
+"at": 0.05,
+"dur": 0.45,
+"color": "#DD1118",
+"w": 9
+}
+],
+"pins": [
+{
+"x": 1193.7,
+"y": 634.7,
+"label": "LYON",
+"at": 0.0,
+"anchor": "r",
+"red": false,
+"plain": false
+},
+{
+"x": 1161.0,
+"y": 669.9,
+"label": "SAINT-ETIENNE",
+"at": 0.15,
+"anchor": "l",
+"red": false,
+"plain": false
+},
+{
+"x": 1166.8,
+"y": 677.8,
+"label": "COL DE LA REPUBLIQUE",
+"at": 0.3,
+"anchor": "r",
+"red": true,
+"plain": false
+},
+{
+"x": 1232.8,
+"y": 898.3,
+"label": "MARSEILLE",
+"at": 0.55,
+"anchor": "b",
+"red": false,
+"plain": false
+}
+]
+},
+"pics": [],
+"line": "Stage two left Lyon for Marseille, and not long after the start it climbed a pass near Saint-Etienne called the Col de la R\u00e9publique."
+},
+{
+"a": 194.72,
+"b": 197.0,
+"kind": "comp",
+"src": "img/a/p103.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Stage two left Lyon for Marseille, and not long after the start it climbed a pass near Saint-Etienne called the Col de la R\u00e9publique.",
+"pic": "a/p103"
+},
+{
+"a": 197.0,
+"b": 203.14,
+"kind": "card",
+"text": "THE FIRST REAL MOUNTAIN\nTHE TOUR EVER CLIMBED",
+"line": "The Tour had gone over it the year before, and it was the first real mountain the race had ever climbed."
+},
+{
+"a": 203.14,
+"b": 208.7,
+"kind": "img",
+"src": "img/b/p21.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Saint-Etienne had its own man in the race, a local rider who was out in front on the climb.",
+"pic": "b/p21"
+},
+{
+"a": 208.7,
+"b": 215.62,
+"kind": "comp",
+"src": "img/a/p83.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "His fans were waiting at the top, somewhere between one and two hundred of them.",
+"pic": "a/p83"
+},
+{
+"a": 215.62,
+"b": 222.5,
+"kind": "comp",
+"src": "img/crop/a_p25.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Then they stepped into the road in front of everybody else, and what happened next is why the race nearly died.",
+"pic": "a/p25"
+},
+{
+"a": 222.5,
+"b": 225.44,
+"kind": "card",
+"text": "STICKS\nAND STONES",
+"line": "They had sticks, and they threw stones."
+},
+{
+"a": 225.44,
+"b": 227.24,
+"kind": "comp",
+"src": "img/crop/a_p15.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Garin was hurt in the hand, and his brother C\u00e9sar was hit as well.",
+"pic": "a/p15"
+},
+{
+"a": 227.24,
+"b": 229.86,
+"kind": "comp",
+"src": "img/a/p51.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "Garin was hurt in the hand, and his brother C\u00e9sar was hit as well.",
+"pic": "a/p51"
+},
+{
+"a": 229.86,
+"b": 235.04,
+"kind": "comp",
+"src": "img/a/p63.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "An Italian rider called Giovanni Gerbi was beaten until he was knocked out.",
+"pic": "a/p63",
+"lbl": "GIOVANNI GERBI"
+},
+{
+"a": 235.04,
+"b": 238.26,
+"kind": "comp",
+"src": "img/a/p64.png",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "His Tour ended right there on the mountain.",
+"pic": "a/p64"
+},
+{
+"a": 238.26,
+"b": 241.64,
+"kind": "comp",
+"src": "img/b/p23.jpg",
+"cam": "push",
+"o": "40% 55%",
+"dir": 1,
+"line": "Then the cars following the race caught up with the riders.",
+"pic": "b/p23"
+},
+{
+"a": 241.64,
+"b": 245.56,
+"kind": "comp",
+"src": "img/a/p22.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "The men from the race pulled out pistols and fired into the air.",
+"pic": "a/p22"
+},
+{
+"a": 245.56,
+"b": 248.9,
+"kind": "comp",
+"src": "img/a/p85.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "The crowd broke up, the riders got back on their bikes, and the race did not stop.",
+"pic": "a/p85"
+},
+{
+"a": 248.9,
+"b": 251.12,
+"kind": "comp",
+"src": "img/crop/a_p96.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The crowd broke up, the riders got back on their bikes, and the race did not stop.",
+"pic": "a/p96"
+},
+{
+"a": 251.12,
+"b": 254.9,
+"kind": "img",
+"src": "img/b/p22.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The Tour was so angry with Saint-Etienne that it didn't go back there until 1950.",
+"pic": "b/p22"
+},
+{
+"a": 254.9,
+"b": 261.42,
+"kind": "expl",
+"eid": "ste1950",
+"spec": {
+"base": {
+"src": "maps/france.png",
+"dim": 0.6
+},
+"pins": [
+{
+"x": 1161.0,
+"y": 669.9,
+"label": "SAINT-ETIENNE",
+"at": 0.0,
+"anchor": "l",
+"red": true,
+"plain": false
+}
+],
+"counter": {
+"start": 1904,
+"end": 1950,
+"at": 0.1,
+"dur": 0.6,
+"x": 960,
+"y": 830,
+"size": 150,
+"box": true,
+"year": true
+},
+"tags": [
+{
+"text": "NO TOUR DE FRANCE",
+"at": 0.05,
+"x": 960,
+"y": 120
+}
+]
+},
+"pics": [],
+"line": "The Tour was so angry with Saint-Etienne that it didn't go back there until 1950."
+},
+{
+"a": 261.42,
+"b": 263.95,
+"kind": "img",
+"src": "img/b/p15.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "And on the next stage, it got worse.",
+"pic": "b/p15"
+},
+{
+"a": 263.95,
+"b": 268.86,
+"kind": "img",
+"src": "img/b/p16.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "By stage three the race had thrown out a rider from near Nimes called Ferdinand Payan, for getting help on the road.",
+"pic": "b/p16"
+},
+{
+"a": 268.86,
+"b": 272.3,
+"kind": "comp",
+"src": "img/a/p65.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "By stage three the race had thrown out a rider from near Nimes called Ferdinand Payan, for getting help on the road.",
+"pic": "a/p65",
+"lbl": "FERDINAND PAYAN"
+},
+{
+"a": 272.3,
+"b": 274.96,
+"kind": "comp",
+"src": "img/b/p19.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "His home town took that personally.",
+"pic": "b/p19"
+},
+{
+"a": 274.96,
+"b": 279.96,
+"kind": "expl",
+"eid": "nimes",
+"spec": {
+"base": {
+"src": "maps/france.png"
+},
+"paths": [
+{
+"d": [
+[
+1232.8,
+898.3
+],
+[
+1158.8,
+840.5
+],
+[
+944.9,
+865.3
+]
+],
+"at": 0.0,
+"dur": 0.45,
+"color": "#DD1118",
+"w": 9
+}
+],
+"pins": [
+{
+"x": 1232.8,
+"y": 898.3,
+"label": "MARSEILLE",
+"at": 0.0,
+"anchor": "b",
+"red": false,
+"plain": false
+},
+{
+"x": 944.9,
+"y": 865.3,
+"label": "TOULOUSE",
+"at": 0.0,
+"anchor": "b",
+"red": false,
+"plain": false
+},
+{
+"x": 1158.8,
+"y": 840.5,
+"label": "NIMES: STONES, NAILS, GLASS",
+"at": 0.35,
+"anchor": "r",
+"red": true,
+"plain": false
+}
+],
+"tags": [
+{
+"text": "STAGE 3",
+"at": 0.0,
+"x": 960,
+"y": 100
+}
+]
+},
+"pics": [],
+"line": "When the race came through Nimes, people threw stones at the riders and blocked the road."
+},
+{
+"a": 279.96,
+"b": 283.36,
+"kind": "card",
+"text": "NAILS AND\nBROKEN GLASS",
+"line": "And they'd spread nails and broken glass across it."
+},
+{
+"a": 283.36,
+"b": 285.98,
+"kind": "comp",
+"src": "img/a/p87.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Tyres went down one after another, and riders who'd been on their bikes for hours were walking them through the glass.",
+"pic": "a/p87"
+},
+{
+"a": 285.98,
+"b": 290.34,
+"kind": "comp",
+"src": "img/a/p82.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "Tyres went down one after another, and riders who'd been on their bikes for hours were walking them through the glass.",
+"pic": "a/p82"
+},
+{
+"a": 290.34,
+"b": 295.82,
+"kind": "img",
+"src": "img/b/p14.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "And then it got stranger, because the riders started saying things about each other.",
+"pic": "b/p14"
+},
+{
+"a": 295.82,
+"b": 299.08,
+"kind": "comp",
+"src": "img/crop/a_p90.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "That some of them weren't riding the whole way at all.",
+"pic": "a/p90"
+},
+{
+"a": 299.08,
+"b": 302.46,
+"kind": "comp",
+"src": "img/a/p13.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "That men were hanging on to cars, or getting into them, or catching a train for part of a stage.",
+"pic": "a/p13"
+},
+{
+"a": 302.46,
+"b": 305.16,
+"kind": "comp",
+"src": "img/b/p17.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "That men were hanging on to cars, or getting into them, or catching a train for part of a stage.",
+"pic": "b/p17"
+},
+{
+"a": 305.16,
+"b": 309.32,
+"kind": "comp",
+"src": "img/crop/a_p13.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "One rider was seen climbing into a car halfway through a stage.",
+"pic": "a/p13"
+},
+{
+"a": 309.32,
+"b": 312.34,
+"kind": "comp",
+"src": "img/a/p40.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Witnesses said Pothier had taken a train.",
+"pic": "a/p40",
+"lbl": "LUCIEN POTHIER"
+},
+{
+"a": 312.34,
+"b": 316.84,
+"kind": "comp",
+"src": "img/crop/a_p91.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Nobody could prove much, because most of the road had nobody watching it.",
+"pic": "a/p91"
+},
+{
+"a": 316.84,
+"b": 321.4,
+"kind": "comp",
+"src": "img/a/p56.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "But that wasn't the end of it, because the men who'd seen it didn't forget.",
+"pic": "a/p56"
+},
+{
+"a": 321.4,
+"b": 324.31,
+"kind": "comp",
+"src": "img/a/p92.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "And all the while, the nails kept coming.",
+"pic": "a/p92"
+},
+{
+"a": 324.31,
+"b": 330.7,
+"kind": "comp",
+"src": "img/a/p34.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "Somewhere back down the road in all of this was a teenager called Henri Cornet.",
+"pic": "a/p34",
+"lbl": "HENRI CORNET"
+},
+{
+"a": 330.7,
+"b": 334.44,
+"kind": "comp",
+"src": "img/a/p33.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "He was nineteen, and he wasn't one of the stars.",
+"pic": "a/p33"
+},
+{
+"a": 334.44,
+"b": 340.22,
+"kind": "comp",
+"src": "img/a/p35.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "He was a long way behind the leaders, and he had the same nails to deal with as everyone else.",
+"pic": "a/p35"
+},
+{
+"a": 340.22,
+"b": 344.82,
+"kind": "comp",
+"src": "img/a/p78.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "On stage five, from Bordeaux to Nantes, there were nails on the road again, and both of Cornet's tyres went flat.",
+"pic": "a/p78"
+},
+{
+"a": 344.82,
+"b": 347.56,
+"kind": "expl",
+"eid": "forty",
+"spec": {
+"base": {
+"src": "maps/france.png"
+},
+"paths": [
+{
+"d": [
+[
+796.5,
+733.6
+],
+[
+751.0,
+502.6
+]
+],
+"at": 0.0,
+"dur": 0.35,
+"color": "#E8B04A",
+"w": 9
+},
+{
+"d": [
+[
+751.0,
+502.6
+],
+[
+725.0,
+479.3
+]
+],
+"at": 0.35,
+"dur": 0.3,
+"color": "#DD1118",
+"w": 12
+}
+],
+"pins": [
+{
+"x": 796.5,
+"y": 733.6,
+"label": "BORDEAUX",
+"at": 0.0,
+"anchor": "l",
+"red": false,
+"plain": false
+},
+{
+"x": 725.0,
+"y": 479.3,
+"label": "NANTES",
+"at": 0.0,
+"anchor": "l",
+"red": false,
+"plain": false
+},
+{
+"x": 751.0,
+"y": 502.6,
+"label": "LAST 40 KM: TWO FLAT TYRES",
+"at": 0.45,
+"anchor": "r",
+"red": true,
+"plain": false
+}
+],
+"tags": [
+{
+"text": "STAGE 5",
+"at": 0.0,
+"x": 960,
+"y": 100
+}
+]
+},
+"pics": [],
+"line": "On stage five, from Bordeaux to Nantes, there were nails on the road again, and both of Cornet's tyres went flat."
+},
+{
+"a": 347.56,
+"b": 353.64,
+"kind": "comp",
+"src": "img/crop/a_p34.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Riders weren't allowed any help, so he rode the last forty kilometres on two flat tyres.",
+"pic": "a/p34"
+},
+{
+"a": 353.64,
+"b": 357.54,
+"kind": "card",
+"text": "NO SPARE WHEEL,\nNO PUMP",
+"line": "No spare wheel, nobody with a pump, nothing."
+},
+{
+"a": 357.54,
+"b": 362.16,
+"kind": "comp",
+"src": "img/crop/a_p28.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "That's about twenty-five miles on the rims, and he still finished the stage.",
+"pic": "a/p28"
+},
+{
+"a": 362.16,
+"b": 367.74,
+"kind": "expl",
+"eid": "cornet5",
+"spec": {
+"rows": {
+"x": 960,
+"y": 330,
+"size": 104,
+"items": [
+{
+"t": "HENRI CORNET: 5TH",
+"at": 0.0
+},
+{
+"t": "NEARLY 3 HOURS BEHIND GARIN",
+"at": 0.35,
+"color": "#DD1118"
+}
+]
+},
+"tags": [
+{
+"text": "PARIS, JULY 1904",
+"at": 0.0,
+"x": 960,
+"y": 200
+}
+]
+},
+"pics": [],
+"line": "When the race got back to Paris, he was fifth, nearly three hours behind Garin."
+},
+{
+"a": 367.74,
+"b": 371.06,
+"kind": "comp",
+"src": "img/crop/a_p24.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "That's about the gap Garin had won by the year before.",
+"pic": "a/p24"
+},
+{
+"a": 371.06,
+"b": 374.1,
+"kind": "comp",
+"src": "img/crop/a_p27.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Nobody thought fifth place was going to matter.",
+"pic": "a/p27"
+},
+{
+"a": 374.1,
+"b": 378.46,
+"kind": "comp",
+"src": "img/a/p104.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The 1904 Tour would be decided four months later, in Paris, in a room none of the riders were in.",
+"pic": "a/p104"
+},
+{
+"a": 378.46,
+"b": 380.53,
+"kind": "comp",
+"src": "img/crop/a_p107.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The 1904 Tour would be decided four months later, in Paris, in a room none of the riders were in.",
+"pic": "a/p107"
+},
+{
+"a": 380.53,
+"b": 386.56,
+"kind": "comp",
+"src": "img/b/p0.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": 1,
+"line": "The last stage came in on the twenty-fourth of July, in pouring rain.",
+"pic": "b/p0"
+},
+{
+"a": 386.56,
+"b": 391.1,
+"kind": "img",
+"src": "img/b/p1.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "It was so wet that they finished it at Ville-d'Avray, just outside Paris, and called off the lap of honour in the stadium.",
+"pic": "b/p1"
+},
+{
+"a": 391.1,
+"b": 393.78,
+"kind": "comp",
+"src": "img/b/p3.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "It was so wet that they finished it at Ville-d'Avray, just outside Paris, and called off the lap of honour in the stadium.",
+"pic": "b/p3"
+},
+{
+"a": 393.78,
+"b": 398.28,
+"kind": "comp",
+"src": "img/a/p48.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "They'd ridden about two thousand four hundred kilometres in three weeks.",
+"pic": "a/p48"
+},
+{
+"a": 398.28,
+"b": 402.94,
+"kind": "expl",
+"eid": "finishers",
+"spec": {
+"rows": {
+"x": 960,
+"y": 330,
+"size": 130,
+"items": [
+{
+"t": "88 STARTED",
+"at": 0.0
+},
+{
+"t": "27 FINISHED",
+"at": 0.4,
+"color": "#DD1118"
+}
+]
+},
+"tags": [
+{
+"text": "24 JULY 1904",
+"at": 0.0,
+"x": 960,
+"y": 200
+}
+]
+},
+"pics": [],
+"line": "Eighty-eight riders had started."
+},
+{
+"a": 402.94,
+"b": 405.08,
+"kind": "comp",
+"src": "img/a/p4.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Maurice Garin had won the Tour de France for the second year running.",
+"pic": "a/p4"
+},
+{
+"a": 405.08,
+"b": 407.0,
+"kind": "comp",
+"src": "img/a/p9.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Maurice Garin had won the Tour de France for the second year running.",
+"pic": "a/p9"
+},
+{
+"a": 407.0,
+"b": 413.38,
+"kind": "expl",
+"eid": "standings",
+"spec": {
+"rows": {
+"x": 960,
+"y": 250,
+"size": 80,
+"gap": 1.28,
+"items": [
+{
+"t": "1  MAURICE GARIN",
+"at": 0.0
+},
+{
+"t": "2  LUCIEN POTHIER",
+"at": 0.08
+},
+{
+"t": "3  CESAR GARIN",
+"at": 0.16
+},
+{
+"t": "4  HIPPOLYTE AUCOUTURIER",
+"at": 0.24
+},
+{
+"t": "5  HENRI CORNET",
+"at": 0.4,
+"color": "#E8B04A"
+}
+]
+},
+"tags": [
+{
+"text": "IN PARIS, JULY 1904",
+"at": 0.0,
+"x": 960,
+"y": 150
+},
+{
+"text": "CORNET: NEARLY 3 HOURS BEHIND",
+"at": 0.6,
+"x": 960,
+"y": 930
+}
+]
+},
+"pics": [],
+"line": "Pothier was second and Garin's brother C\u00e9sar third, so one team had the first three places, and Hippolyte Aucouturier was fourth."
+},
+{
+"a": 413.38,
+"b": 416.04,
+"kind": "comp",
+"src": "img/a/p45.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Pothier was second and Garin's brother C\u00e9sar third, so one team had the first three places, and Hippolyte Aucouturier was fourth.",
+"pic": "a/p45"
+},
+{
+"a": 416.04,
+"b": 420.62,
+"kind": "comp",
+"src": "img/a/p53.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "And the next morning, the man who'd started the whole thing wrote that it was over.",
+"pic": "a/p53"
+},
+{
+"a": 420.62,
+"b": 423.68,
+"kind": "img",
+"src": "img/a/lauto_mast.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Henri Desgrange put an article on the front of L'Auto, and he called it The End.",
+"pic": "a/lauto_mast"
+},
+{
+"a": 423.68,
+"b": 425.9,
+"kind": "img",
+"src": "img/crop/a_lauto_fin.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Henri Desgrange put an article on the front of L'Auto, and he called it The End.",
+"pic": "a/lauto_fin"
+},
+{
+"a": 425.9,
+"b": 432.62,
+"kind": "comp",
+"src": "img/crop/a_lauto_fin.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The Tour de France is finished, he wrote, and I'm afraid its second edition will also have been its last.",
+"pic": "a/lauto_fin"
+},
+{
+"a": 432.62,
+"b": 438.54,
+"kind": "comp",
+"src": "img/crop/a_lauto_fin.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "It would die of its own success, he said, and of the blind passions it had stirred up.",
+"pic": "a/lauto_fin"
+},
+{
+"a": 438.54,
+"b": 446.1,
+"kind": "comp",
+"src": "img/crop/a_lauto_fin.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He said they'd reached the end of it disgusted and worn down, after three weeks of the worst insults and slander.",
+"pic": "a/lauto_fin"
+},
+{
+"a": 446.1,
+"b": 452.74,
+"kind": "comp",
+"src": "img/crop/a_lauto_fin.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The worst of it, he wrote, was people calling L'Auto the accomplice of one of the bike makers in the race.",
+"pic": "a/lauto_fin"
+},
+{
+"a": 452.74,
+"b": 458.5,
+"kind": "comp",
+"src": "img/a/p57.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "He meant it.",
+"pic": "a/p57"
+},
+{
+"a": 458.5,
+"b": 466.28,
+"kind": "comp",
+"src": "img/crop/a_lauto_fin.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He wrote that L'Auto had punished every cheat it had real proof against, and that a rider's word against a rival wasn't proof.",
+"pic": "a/lauto_fin"
+},
+{
+"a": 466.28,
+"b": 470.18,
+"kind": "comp",
+"src": "img/a/p54.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "But in the very next sentence, he left one door open.",
+"pic": "a/p54"
+},
+{
+"a": 470.18,
+"b": 472.32,
+"kind": "comp",
+"src": "img/crop/a_lauto_fin.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The book for complaints, he wrote, would stay open for three more days.",
+"pic": "a/lauto_fin"
+},
+{
+"a": 472.32,
+"b": 474.86,
+"kind": "card",
+"text": "THE BOOK FOR COMPLAINTS:\nOPEN THREE MORE DAYS",
+"line": "The book for complaints, he wrote, would stay open for three more days."
+},
+{
+"a": 474.86,
+"b": 479.07,
+"kind": "comp",
+"src": "img/b/p26.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "And the complaints kept coming, from riders who'd been out on those roads.",
+"pic": "b/p26"
+},
+{
+"a": 479.07,
+"b": 485.2,
+"kind": "comp",
+"src": "img/crop/a_p0.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "They said they'd seen things out on the road, and they weren't keeping quiet about it.",
+"pic": "a/p0"
+},
+{
+"a": 485.2,
+"b": 490.32,
+"kind": "img",
+"src": "img/crop/b_p5.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "France's cycling union, the body that ran the sport, opened an inquiry.",
+"pic": "b/p5"
+},
+{
+"a": 490.32,
+"b": 497.0,
+"kind": "expl",
+"eid": "tl",
+"spec": {
+"timeline": {
+"nodes": [
+{
+"top": "24 JULY",
+"bot": "FINISH",
+"at": 0.0,
+"x": 300
+},
+{
+"top": "25 JULY",
+"bot": "\"THE END\"",
+"at": 0.15,
+"x": 760
+},
+{
+"top": "30 NOV",
+"bot": "VERDICT",
+"at": 0.45,
+"x": 1200,
+"hl": true
+},
+{
+"top": "2 DEC",
+"bot": "NEW RESULT",
+"at": 0.7,
+"x": 1620
+}
+],
+"line_at": 0.0,
+"line_dur": 0.75
+}
+},
+"pics": [],
+"line": "It went on for four months."
+},
+{
+"a": 497.0,
+"b": 500.66,
+"kind": "img",
+"src": "img/crop/a_p56.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "On the thirtieth of November the union gave its verdict, and two days later L'Auto printed a new result.",
+"pic": "a/p56"
+},
+{
+"a": 500.66,
+"b": 503.98,
+"kind": "comp",
+"src": "img/a/p1.png",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "On the thirtieth of November the union gave its verdict, and two days later L'Auto printed a new result.",
+"pic": "a/p1"
+},
+{
+"a": 503.98,
+"b": 506.14,
+"kind": "comp",
+"src": "img/a/p37.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "It didn't start with Garin.",
+"pic": "a/p37"
+},
+{
+"a": 506.14,
+"b": 509.28,
+"kind": "expl",
+"eid": "july",
+"spec": {
+"rows": {
+"x": 960,
+"y": 250,
+"size": 80,
+"gap": 1.28,
+"items": [
+{
+"t": "1  MAURICE GARIN",
+"at": 0.0
+},
+{
+"t": "2  LUCIEN POTHIER",
+"at": 0.0
+},
+{
+"t": "3  CESAR GARIN",
+"at": 0.0
+},
+{
+"t": "4  HIPPOLYTE AUCOUTURIER",
+"at": 0.0
+},
+{
+"t": "5  HENRI CORNET",
+"at": 0.0,
+"color": "#E8B04A"
+}
+]
+},
+"tags": [
+{
+"text": "THE RESULT IN JULY",
+"at": 0.0,
+"x": 960,
+"y": 150
+}
+]
+},
+"pics": [],
+"line": "The first four names from July were gone."
+},
+{
+"a": 509.28,
+"b": 515.76,
+"kind": "expl",
+"eid": "dq",
+"spec": {
+"rows": {
+"x": 960,
+"y": 250,
+"size": 80,
+"gap": 1.28,
+"items": [
+{
+"t": "1  MAURICE GARIN",
+"at": 0.0,
+"strike": 0.12
+},
+{
+"t": "2  LUCIEN POTHIER",
+"at": 0.0,
+"strike": 0.22
+},
+{
+"t": "3  CESAR GARIN",
+"at": 0.0,
+"strike": 0.32
+},
+{
+"t": "4  HIPPOLYTE AUCOUTURIER",
+"at": 0.0,
+"strike": 0.42
+},
+{
+"t": "5  HENRI CORNET",
+"at": 0.0,
+"move": {
+"at": 0.6,
+"to": 0,
+"t": "1  HENRI CORNET"
+},
+"color": "#F3EEE4"
+}
+]
+},
+"tags": [
+{
+"text": "DISQUALIFIED",
+"at": 0.12,
+"x": 960,
+"y": 150
+}
+]
+},
+"pics": [],
+"line": "Maurice Garin, Lucien Pothier, C\u00e9sar Garin and Hippolyte Aucouturier were all disqualified."
+},
+{
+"a": 515.76,
+"b": 518.56,
+"kind": "expl",
+"eid": "bans",
+"spec": {
+"rows": {
+"x": 960,
+"y": 300,
+"size": 96,
+"items": [
+{
+"t": "GARIN: BANNED 2 YEARS",
+"at": 0.0
+},
+{
+"t": "POTHIER: BANNED FOR LIFE",
+"at": 0.3,
+"color": "#DD1118"
+},
+{
+"t": "29 RIDERS PUNISHED",
+"at": 0.6
+}
+]
+}
+},
+"pics": [],
+"line": "Twenty-nine riders were punished in all."
+},
+{
+"a": 518.56,
+"b": 521.12,
+"kind": "comp",
+"src": "img/crop/a_p11.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Garin was banned for two years.",
+"pic": "a/p11"
+},
+{
+"a": 521.12,
+"b": 527.26,
+"kind": "comp",
+"src": "img/crop/a_p40.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Pothier, the man in second, was banned for life, though that was later cut to three years.",
+"pic": "a/p40"
+},
+{
+"a": 527.26,
+"b": 532.94,
+"kind": "comp",
+"src": "img/a/p67.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "The man moved up to second was Jean-Baptiste Dortignacq, more than two hours behind.",
+"pic": "a/p67",
+"lbl": "JEAN-BAPTISTE DORTIGNACQ"
+},
+{
+"a": 532.94,
+"b": 538.9,
+"kind": "comp",
+"src": "img/a/p36.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "And the new winner of the 1904 Tour de France was the kid who'd come fifth, Henri Cornet.",
+"pic": "a/p36"
+},
+{
+"a": 538.9,
+"b": 545.78,
+"kind": "comp",
+"src": "img/a/p26.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "He'd been warned too, and one account says it was for taking a lift in a car, but it didn't cost him the win.",
+"pic": "a/p26"
+},
+{
+"a": 545.78,
+"b": 550.12,
+"kind": "expl",
+"eid": "age",
+"spec": {
+"panel": {
+"src": "img/a/p32.jpg",
+"pic": "a/p32",
+"name": "HENRI CORNET"
+},
+"rows": {
+"x": 1340,
+"y": 380,
+"size": 88,
+"items": [
+{
+"t": "19 YEARS, 355 DAYS",
+"at": 0.05
+},
+{
+"t": "YOUNGEST WINNER",
+"at": 0.4,
+"color": "#DD1118"
+}
+]
+}
+},
+"pics": [
+"a/p32"
+],
+"line": "He'd been eleven days short of his twentieth birthday when the race finished."
+},
+{
+"a": 550.12,
+"b": 556.28,
+"kind": "comp",
+"src": "img/a/p47.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": -1,
+"line": "Aucouturier was struck off the result as well, but he wasn't banned, and he was back at the Tour the next summer, where he finished second.",
+"pic": "a/p47",
+"lbl": "HIPPOLYTE AUCOUTURIER"
+},
+{
+"a": 556.28,
+"b": 558.02,
+"kind": "comp",
+"src": "img/a/p43.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "Aucouturier was struck off the result as well, but he wasn't banned, and he was back at the Tour the next summer, where he finished second.",
+"pic": "a/p43"
+},
+{
+"a": 558.02,
+"b": 563.38,
+"kind": "comp",
+"src": "img/crop/a_p17.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Garin said he'd done nothing wrong, and he called the verdict a flagrant injustice.",
+"pic": "a/p17"
+},
+{
+"a": 563.38,
+"b": 567.42,
+"kind": "comp",
+"src": "img/b/p6.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "And the union never said in public exactly what he'd done.",
+"pic": "b/p6"
+},
+{
+"a": 567.42,
+"b": 569.35,
+"kind": "comp",
+"src": "img/crop/a_p104.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "So what happened to the evidence?",
+"pic": "a/p104"
+},
+{
+"a": 569.35,
+"b": 573.42,
+"kind": "comp",
+"src": "img/crop/a_p108.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The answer should be in the files from the inquiry, the letters and complaints the whole verdict was built on.",
+"pic": "a/p108"
+},
+{
+"a": 573.42,
+"b": 577.06,
+"kind": "comp",
+"src": "img/crop/a_p106.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The answer should be in the files from the inquiry, the letters and complaints the whole verdict was built on.",
+"pic": "a/p106"
+},
+{
+"a": 577.06,
+"b": 584.74,
+"kind": "expl",
+"eid": "van1940",
+"spec": {
+"base": {
+"src": "maps/france.png"
+},
+"paths": [
+{
+"d": [
+[
+1011.5,
+304.2
+],
+[
+1000,
+470
+],
+[
+975,
+640
+],
+[
+960,
+760
+]
+],
+"at": 0.1,
+"dur": 0.55,
+"color": "#F3EEE4",
+"w": 7,
+"dash": true
+}
+],
+"pins": [
+{
+"x": 1011.5,
+"y": 304.2,
+"label": "PARIS",
+"at": 0.0,
+"anchor": "r",
+"red": false,
+"plain": false
+},
+{
+"x": 960,
+"y": 760,
+"label": "?",
+"at": 0.7,
+"anchor": "b",
+"red": true,
+"plain": false
+}
+],
+"tags": [
+{
+"text": "1940: SENT SOUTH",
+"at": 0.0,
+"x": 960,
+"y": 100
+},
+{
+"text": "NEVER SEEN AGAIN",
+"at": 0.72,
+"x": 960,
+"y": 960
+}
+]
+},
+"pics": [],
+"line": "In 1940, with the German army coming, those papers were loaded into a van and sent south, out of Paris."
+},
+{
+"a": 584.74,
+"b": 586.96,
+"kind": "card",
+"text": "NEVER SEEN AGAIN",
+"line": "Nobody has seen them since."
+},
+{
+"a": 586.96,
+"b": 592.46,
+"kind": "comp",
+"src": "img/crop/b_p12.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Nobody knows for certain that Garin ever stood on a railway platform in 1904.",
+"pic": "b/p12"
+},
+{
+"a": 592.46,
+"b": 597.0,
+"kind": "comp",
+"src": "img/crop/a_p14.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "So for what Garin actually did, there's one place left to look.",
+"pic": "a/p14"
+},
+{
+"a": 597.0,
+"b": 603.5,
+"kind": "expl",
+"eid": "lens",
+"spec": {
+"base": {
+"src": "maps/france.png"
+},
+"pins": [
+{
+"x": 1046.8,
+"y": 135.9,
+"label": "LENS",
+"at": 0.0,
+"anchor": "r",
+"red": true,
+"plain": false
+},
+{
+"x": 1011.5,
+"y": 304.2,
+"label": "PARIS",
+"at": 0.0,
+"anchor": "r",
+"red": false,
+"plain": false
+}
+],
+"tags": [
+{
+"text": "GARIN'S GARAGE",
+"at": 0.2,
+"x": 960,
+"y": 100
+}
+]
+},
+"pics": [],
+"line": "He went home to the north, to the mining town of Lens, and ran a garage there for the rest of his working life."
+},
+{
+"a": 603.5,
+"b": 606.12,
+"kind": "comp",
+"src": "img/a/p20.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": -1,
+"line": "He died in 1957.",
+"pic": "a/p20"
+},
+{
+"a": 606.12,
+"b": 611.32,
+"kind": "comp",
+"src": "img/crop/a_p3.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Years later, the cycling writer Les Woodland met a man in Lens who'd known him.",
+"pic": "a/p3"
+},
+{
+"a": 611.32,
+"b": 616.16,
+"kind": "comp",
+"src": "img/crop/a_p20.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He was a gravedigger there, and he'd been a boy when Garin was an old man.",
+"pic": "a/p20"
+},
+{
+"a": 616.16,
+"b": 620.0,
+"kind": "comp",
+"src": "img/crop/a_p23.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He said the old champion used to laugh about 1904.",
+"pic": "a/p23"
+},
+{
+"a": 620.0,
+"b": 622.7,
+"kind": "comp",
+"src": "img/crop/a_p3.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "And he said Garin admitted it.",
+"pic": "a/p3"
+},
+{
+"a": 622.7,
+"b": 626.41,
+"kind": "comp",
+"src": "img/crop/b_p17.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He'd caught a train, to skip the hard or boring bits of the course.",
+"pic": "b/p17",
+"lbl": "HE'D CAUGHT A TRAIN"
+},
+{
+"a": 626.41,
+"b": 630.24,
+"kind": "comp",
+"src": "img/crop/a_p16.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Well, I was young, he'd said.",
+"pic": "a/p16"
+},
+{
+"a": 630.24,
+"b": 635.42,
+"kind": "comp",
+"src": "img/crop/a_p14.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"dir": 1,
+"line": "That's one man's memory, told to one writer, a long time after.",
+"pic": "a/p14"
+},
+{
+"a": 635.42,
+"b": 638.6,
+"kind": "comp",
+"src": "img/crop/a_p12.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "But it's the closest anyone has come to an answer.",
+"pic": "a/p12"
+},
+{
+"a": 638.6,
+"b": 640.94,
+"kind": "comp",
+"src": "img/crop/a_p33.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The kid in fifth kept the win.",
+"pic": "a/p33"
+},
+{
+"a": 640.94,
+"b": 645.52,
+"kind": "comp",
+"src": "img/crop/a_p35.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Henri Cornet is still the youngest man ever to win the Tour de France.",
+"pic": "a/p35"
+},
+{
+"a": 645.52,
+"b": 648.28,
+"kind": "comp",
+"src": "img/a/p59.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": 1,
+"line": "And Desgrange didn't cancel it after all.",
+"pic": "a/p59"
+},
+{
+"a": 648.28,
+"b": 652.22,
+"kind": "comp",
+"src": "img/crop/a_p105.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "L'Auto had sold more papers that July than ever before.",
+"pic": "a/p105"
+},
+{
+"a": 652.22,
+"b": 658.34,
+"kind": "expl",
+"eid": "rules1905",
+"spec": {
+"rows": {
+"x": 960,
+"y": 330,
+"size": 92,
+"items": [
+{
+"t": "11 STAGES",
+"at": 0.0
+},
+{
+"t": "NO RIDING THROUGH THE NIGHT",
+"at": 0.3
+},
+{
+"t": "WINNER ON POINTS",
+"at": 0.6,
+"color": "#DD1118"
+}
+]
+},
+"tags": [
+{
+"text": "1905",
+"at": 0.0,
+"x": 960,
+"y": 200
+}
+]
+},
+"pics": [],
+"line": "So the next year he cut the race into eleven shorter stages, so nobody had to ride through the night, and he decided the winner on points instead of time."
+},
+{
+"a": 658.34,
+"b": 661.8,
+"kind": "comp",
+"src": "img/a/p98.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "So the next year he cut the race into eleven shorter stages, so nobody had to ride through the night, and he decided the winner on points instead of time.",
+"pic": "a/p98"
+},
+{
+"a": 661.8,
+"b": 666.62,
+"kind": "comp",
+"src": "img/a/p97.jpg",
+"cam": "push",
+"o": "50% 40%",
+"dir": 1,
+"line": "On the first stage of the 1905 Tour, the road was covered in nails again, and every rider but one got a puncture.",
+"pic": "a/p97"
+},
+{
+"a": 666.62,
+"b": 669.64,
+"kind": "comp",
+"src": "img/a/p99.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": -1,
+"line": "On the first stage of the 1905 Tour, the road was covered in nails again, and every rider but one got a puncture.",
+"pic": "a/p99"
+},
+{
+"a": 669.64,
+"b": 675.42,
+"kind": "comp",
+"src": "img/a/p68.jpg",
+"cam": "push",
+"o": "50% 30%",
+"dir": 1,
+"line": "The one who didn't was Dortignacq, the man who'd been moved up to second in 1904.",
+"pic": "a/p68"
+},
+{
+"a": 675.42,
+"b": 679.7,
+"kind": "comp",
+"src": "img/crop/a_p84.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "And the race that nearly died in its second year is still going.",
+"pic": "a/p84"
+},
+{
+"a": 679.7,
+"b": 686.92,
+"kind": "comp",
+"src": "img/b/lorz.jpg",
+"cam": "push",
+"o": "50% 35%",
+"dir": 1,
+"line": "That same summer, at the Olympic marathon in St. Louis, the first man into the stadium had ridden part of the way in a car, and that story's in the next video.",
+"pic": "b/lorz"
+},
+{
+"a": 686.92,
+"b": 692.9,
+"kind": "expl",
+"eid": "nextup",
+"spec": {
+"tile": {
+"src": "end/next.jpg",
+"label": "NEXT UP",
+"at": 0.05,
+"pic": "own thumbnail of long 1",
+"sub": "THE STRANGEST THINGS THAT EVER HAPPENED AT THE OLYMPICS"
+}
+},
+"pics": [],
+"line": "That same summer, at the Olympic marathon in St. Louis, the first man into the stadium had ridden part of the way in a car, and that story's in the next video."
+}
+],
+"words": [
+{
+"w": "A",
+"s": 0.08,
+"e": 0.14
+},
+{
+"w": "mob",
+"s": 0.24,
+"e": 0.5
+},
+{
+"w": "with",
+"s": 0.54,
+"e": 0.68
+},
+{
+"w": "sticks",
+"s": 0.86,
+"e": 1.22
+},
+{
+"w": "stepped",
+"s": 1.46,
+"e": 1.7
+},
+{
+"w": "out",
+"s": 1.76,
+"e": 1.88
+},
+{
+"w": "in",
+"s": 1.9,
+"e": 2.02
+},
+{
+"w": "front",
+"s": 2.08,
+"e": 2.22
+},
+{
+"w": "of",
+"s": 2.26,
+"e": 2.32
+},
+{
+"w": "the",
+"s": 2.36,
+"e": 2.44
+},
+{
+"w": "Tour",
+"s": 2.48,
+"e": 2.62
+},
+{
+"w": "de",
+"s": 2.66,
+"e": 2.72
+},
+{
+"w": "France",
+"s": 2.82,
+"e": 3.14
+},
+{
+"w": "on",
+"s": 3.2,
+"e": 3.26
+},
+{
+"w": "a",
+"s": 3.3,
+"e": 3.36
+},
+{
+"w": "mountain",
+"s": 3.42,
+"e": 3.74
+},
+{
+"w": "road",
+"s": 3.84,
+"e": 4.08
+},
+{
+"w": "and",
+"s": 4.28,
+"e": 4.38
+},
+{
+"w": "started",
+"s": 4.46,
+"e": 4.76
+},
+{
+"w": "beating",
+"s": 4.92,
+"e": 5.22
+},
+{
+"w": "the",
+"s": 5.26,
+"e": 5.34
+},
+{
+"w": "riders.",
+"s": 5.4,
+"e": 5.9
+},
+{
+"w": "The",
+"s": 6.52,
+"e": 6.6
+},
+{
+"w": "men",
+"s": 6.66,
+"e": 6.84
+},
+{
+"w": "running",
+"s": 6.92,
+"e": 7.14
+},
+{
+"w": "the",
+"s": 7.18,
+"e": 7.26
+},
+{
+"w": "race",
+"s": 7.32,
+"e": 7.62
+},
+{
+"w": "pulled",
+"s": 7.66,
+"e": 7.84
+},
+{
+"w": "out",
+"s": 7.9,
+"e": 8.02
+},
+{
+"w": "pistols",
+"s": 8.119,
+"e": 8.6
+},
+{
+"w": "and",
+"s": 8.68,
+"e": 8.78
+},
+{
+"w": "fired",
+"s": 8.96,
+"e": 9.24
+},
+{
+"w": "into",
+"s": 9.3,
+"e": 9.48
+},
+{
+"w": "the",
+"s": 9.54,
+"e": 9.66
+},
+{
+"w": "air",
+"s": 9.74,
+"e": 9.92
+},
+{
+"w": "to",
+"s": 9.96,
+"e": 10.04
+},
+{
+"w": "get",
+"s": 10.08,
+"e": 10.22
+},
+{
+"w": "them",
+"s": 10.26,
+"e": 10.42
+},
+{
+"w": "through.",
+"s": 10.46,
+"e": 10.76
+},
+{
+"w": "That",
+"s": 11.46,
+"e": 11.6
+},
+{
+"w": "was",
+"s": 11.64,
+"e": 11.76
+},
+{
+"w": "only",
+"s": 11.82,
+"e": 12.0
+},
+{
+"w": "the",
+"s": 12.06,
+"e": 12.2
+},
+{
+"w": "second",
+"s": 12.28,
+"e": 12.56
+},
+{
+"w": "stage.",
+"s": 12.68,
+"e": 13.06
+},
+{
+"w": "Four",
+"s": 13.82,
+"e": 13.96
+},
+{
+"w": "months",
+"s": 14.04,
+"e": 14.3
+},
+{
+"w": "after",
+"s": 14.4,
+"e": 14.6
+},
+{
+"w": "the",
+"s": 14.66,
+"e": 14.72
+},
+{
+"w": "finish,",
+"s": 14.8,
+"e": 15.14
+},
+{
+"w": "the",
+"s": 15.52,
+"e": 15.58
+},
+{
+"w": "men",
+"s": 15.64,
+"e": 15.78
+},
+{
+"w": "who",
+"s": 15.82,
+"e": 15.94
+},
+{
+"w": "came",
+"s": 16.0,
+"e": 16.18
+},
+{
+"w": "first,",
+"s": 16.34,
+"e": 16.68
+},
+{
+"w": "second,",
+"s": 16.96,
+"e": 17.3
+},
+{
+"w": "third",
+"s": 17.58,
+"e": 17.86
+},
+{
+"w": "and",
+"s": 17.96,
+"e": 18.06
+},
+{
+"w": "fourth",
+"s": 18.24,
+"e": 18.58
+},
+{
+"w": "were",
+"s": 18.7,
+"e": 18.92
+},
+{
+"w": "all",
+"s": 19.02,
+"e": 19.18
+},
+{
+"w": "thrown",
+"s": 19.22,
+"e": 19.48
+},
+{
+"w": "out,",
+"s": 19.56,
+"e": 19.76
+},
+{
+"w": "and",
+"s": 20.28,
+"e": 20.36
+},
+{
+"w": "the",
+"s": 20.4,
+"e": 20.5
+},
+{
+"w": "win",
+"s": 20.56,
+"e": 20.76
+},
+{
+"w": "went",
+"s": 20.84,
+"e": 20.98
+},
+{
+"w": "to",
+"s": 21.04,
+"e": 21.1
+},
+{
+"w": "a",
+"s": 21.16,
+"e": 21.26
+},
+{
+"w": "nineteen-year-old",
+"s": 21.32,
+"e": 22.18
+},
+{
+"w": "who'd",
+"s": 22.22,
+"e": 22.36
+},
+{
+"w": "come",
+"s": 22.42,
+"e": 22.62
+},
+{
+"w": "fifth.",
+"s": 22.72,
+"e": 23.06
+},
+{
+"w": "The",
+"s": 23.68,
+"e": 23.78
+},
+{
+"w": "papers",
+"s": 23.82,
+"e": 24.16
+},
+{
+"w": "that",
+"s": 24.22,
+"e": 24.4
+},
+{
+"w": "say",
+"s": 24.48,
+"e": 24.68
+},
+{
+"w": "what",
+"s": 24.72,
+"e": 24.84
+},
+{
+"w": "the",
+"s": 24.88,
+"e": 24.98
+},
+{
+"w": "first",
+"s": 25.06,
+"e": 25.28
+},
+{
+"w": "man",
+"s": 25.38,
+"e": 25.6
+},
+{
+"w": "over",
+"s": 25.68,
+"e": 25.82
+},
+{
+"w": "the",
+"s": 25.88,
+"e": 25.96
+},
+{
+"w": "line",
+"s": 26.02,
+"e": 26.24
+},
+{
+"w": "had",
+"s": 26.3,
+"e": 26.48
+},
+{
+"w": "really",
+"s": 26.56,
+"e": 26.86
+},
+{
+"w": "done",
+"s": 26.9,
+"e": 27.18
+},
+{
+"w": "went",
+"s": 27.42,
+"e": 27.6
+},
+{
+"w": "missing",
+"s": 27.66,
+"e": 27.98
+},
+{
+"w": "in",
+"s": 28.02,
+"e": 28.12
+},
+{
+"w": "1940.",
+"s": 28.16,
+"e": 28.92
+},
+{
+"w": "But",
+"s": 29.6,
+"e": 29.92
+},
+{
+"w": "as",
+"s": 30.0,
+"e": 30.1
+},
+{
+"w": "an",
+"s": 30.14,
+"e": 30.24
+},
+{
+"w": "old",
+"s": 30.3,
+"e": 30.48
+},
+{
+"w": "man,",
+"s": 30.58,
+"e": 30.9
+},
+{
+"w": "he's",
+"s": 31.34,
+"e": 31.5
+},
+{
+"w": "said",
+"s": 31.56,
+"e": 31.72
+},
+{
+"w": "to",
+"s": 31.78,
+"e": 31.86
+},
+{
+"w": "have",
+"s": 31.88,
+"e": 32.02
+},
+{
+"w": "told",
+"s": 32.08,
+"e": 32.36
+},
+{
+"w": "someone.",
+"s": 32.42,
+"e": 32.82
+},
+{
+"w": "To",
+"s": 33.48,
+"e": 33.58
+},
+{
+"w": "see",
+"s": 33.64,
+"e": 33.8
+},
+{
+"w": "how",
+"s": 33.86,
+"e": 33.98
+},
+{
+"w": "a",
+"s": 34.04,
+"e": 34.08
+},
+{
+"w": "bike",
+"s": 34.2,
+"e": 34.42
+},
+{
+"w": "race",
+"s": 34.48,
+"e": 34.68
+},
+{
+"w": "got",
+"s": 34.72,
+"e": 34.96
+},
+{
+"w": "that",
+"s": 35.06,
+"e": 35.26
+},
+{
+"w": "bad,",
+"s": 35.34,
+"e": 35.62
+},
+{
+"w": "you",
+"s": 36.12,
+"e": 36.18
+},
+{
+"w": "have",
+"s": 36.24,
+"e": 36.36
+},
+{
+"w": "to",
+"s": 36.4,
+"e": 36.48
+},
+{
+"w": "start",
+"s": 36.58,
+"e": 36.78
+},
+{
+"w": "with",
+"s": 36.82,
+"e": 36.92
+},
+{
+"w": "a",
+"s": 36.96,
+"e": 37.0
+},
+{
+"w": "newspaper.",
+"s": 37.06,
+"e": 37.66
+},
+{
+"w": "The",
+"s": 39.22,
+"e": 39.3
+},
+{
+"w": "Tour",
+"s": 39.34,
+"e": 39.48
+},
+{
+"w": "de",
+"s": 39.54,
+"e": 39.6
+},
+{
+"w": "France",
+"s": 39.7,
+"e": 40.06
+},
+{
+"w": "was",
+"s": 40.14,
+"e": 40.3
+},
+{
+"w": "dreamed",
+"s": 40.34,
+"e": 40.64
+},
+{
+"w": "up",
+"s": 40.72,
+"e": 40.82
+},
+{
+"w": "to",
+"s": 40.88,
+"e": 40.98
+},
+{
+"w": "sell",
+"s": 41.04,
+"e": 41.2
+},
+{
+"w": "papers.",
+"s": 41.32,
+"e": 41.84
+},
+{
+"w": "In",
+"s": 42.52,
+"e": 42.6
+},
+{
+"w": "1903",
+"s": 42.66,
+"e": 43.48
+},
+{
+"w": "a",
+"s": 43.84,
+"e": 43.92
+},
+{
+"w": "Paris",
+"s": 43.96,
+"e": 44.26
+},
+{
+"w": "sports",
+"s": 44.32,
+"e": 44.6
+},
+{
+"w": "paper",
+"s": 44.68,
+"e": 44.94
+},
+{
+"w": "called",
+"s": 45.04,
+"e": 45.26
+},
+{
+"w": "L'Auto",
+"s": 45.42,
+"e": 45.8
+},
+{
+"w": "was",
+"s": 46.26,
+"e": 46.36
+},
+{
+"w": "in",
+"s": 46.4,
+"e": 46.44
+},
+{
+"w": "a",
+"s": 46.48,
+"e": 46.58
+},
+{
+"w": "fight",
+"s": 46.68,
+"e": 46.92
+},
+{
+"w": "with",
+"s": 46.96,
+"e": 47.06
+},
+{
+"w": "a",
+"s": 47.08,
+"e": 47.2
+},
+{
+"w": "bigger",
+"s": 47.24,
+"e": 47.46
+},
+{
+"w": "rival,",
+"s": 47.54,
+"e": 47.88
+},
+{
+"w": "and",
+"s": 48.38,
+"e": 48.44
+},
+{
+"w": "its",
+"s": 48.48,
+"e": 48.64
+},
+{
+"w": "editor,",
+"s": 48.68,
+"e": 49.02
+},
+{
+"w": "Henri",
+"s": 49.32,
+"e": 49.58
+},
+{
+"w": "Desgrange,",
+"s": 49.64,
+"e": 50.12
+},
+{
+"w": "needed",
+"s": 50.6,
+"e": 50.86
+},
+{
+"w": "something",
+"s": 50.92,
+"e": 51.26
+},
+{
+"w": "nobody",
+"s": 51.42,
+"e": 51.8
+},
+{
+"w": "had",
+"s": 51.86,
+"e": 52.0
+},
+{
+"w": "seen",
+"s": 52.08,
+"e": 52.28
+},
+{
+"w": "before.",
+"s": 52.32,
+"e": 52.7
+},
+{
+"w": "Desgrange",
+"s": 53.34,
+"e": 53.82
+},
+{
+"w": "had",
+"s": 53.86,
+"e": 54.0
+},
+{
+"w": "been",
+"s": 54.02,
+"e": 54.12
+},
+{
+"w": "a",
+"s": 54.18,
+"e": 54.22
+},
+{
+"w": "racer",
+"s": 54.28,
+"e": 54.56
+},
+{
+"w": "himself,",
+"s": 54.6,
+"e": 55.16
+},
+{
+"w": "the",
+"s": 55.68,
+"e": 55.8
+},
+{
+"w": "first",
+"s": 55.86,
+"e": 56.08
+},
+{
+"w": "man",
+"s": 56.16,
+"e": 56.34
+},
+{
+"w": "to",
+"s": 56.38,
+"e": 56.48
+},
+{
+"w": "set",
+"s": 56.54,
+"e": 56.72
+},
+{
+"w": "an",
+"s": 56.76,
+"e": 56.82
+},
+{
+"w": "official",
+"s": 56.86,
+"e": 57.3
+},
+{
+"w": "record",
+"s": 57.4,
+"e": 57.74
+},
+{
+"w": "for",
+"s": 57.8,
+"e": 57.94
+},
+{
+"w": "how",
+"s": 58.0,
+"e": 58.24
+},
+{
+"w": "far",
+"s": 58.3,
+"e": 58.48
+},
+{
+"w": "you",
+"s": 58.56,
+"e": 58.62
+},
+{
+"w": "could",
+"s": 58.66,
+"e": 58.78
+},
+{
+"w": "ride",
+"s": 58.84,
+"e": 58.98
+},
+{
+"w": "a",
+"s": 59.02,
+"e": 59.06
+},
+{
+"w": "bike",
+"s": 59.14,
+"e": 59.44
+},
+{
+"w": "in",
+"s": 59.5,
+"e": 59.56
+},
+{
+"w": "an",
+"s": 59.6,
+"e": 59.72
+},
+{
+"w": "hour.",
+"s": 59.82,
+"e": 60.08
+},
+{
+"w": "So",
+"s": 60.78,
+"e": 60.96
+},
+{
+"w": "L'Auto",
+"s": 61.16,
+"e": 61.46
+},
+{
+"w": "sent",
+"s": 61.58,
+"e": 61.76
+},
+{
+"w": "a",
+"s": 61.8,
+"e": 61.9
+},
+{
+"w": "field",
+"s": 61.98,
+"e": 62.22
+},
+{
+"w": "of",
+"s": 62.26,
+"e": 62.36
+},
+{
+"w": "riders",
+"s": 62.42,
+"e": 62.8
+},
+{
+"w": "right",
+"s": 62.94,
+"e": 63.12
+},
+{
+"w": "round",
+"s": 63.2,
+"e": 63.44
+},
+{
+"w": "France,",
+"s": 63.52,
+"e": 63.94
+},
+{
+"w": "and",
+"s": 64.3,
+"e": 64.4
+},
+{
+"w": "printed",
+"s": 64.459,
+"e": 64.739
+},
+{
+"w": "every",
+"s": 64.94,
+"e": 65.2
+},
+{
+"w": "day",
+"s": 65.3,
+"e": 65.519
+},
+{
+"w": "what",
+"s": 65.62,
+"e": 65.74
+},
+{
+"w": "happened",
+"s": 65.82,
+"e": 66.1
+},
+{
+"w": "to",
+"s": 66.14,
+"e": 66.22
+},
+{
+"w": "them",
+"s": 66.26,
+"e": 66.38
+},
+{
+"w": "out",
+"s": 66.44,
+"e": 66.58
+},
+{
+"w": "there.",
+"s": 66.62,
+"e": 66.8
+},
+{
+"w": "Sixty",
+"s": 67.54,
+"e": 67.88
+},
+{
+"w": "men",
+"s": 67.98,
+"e": 68.2
+},
+{
+"w": "started",
+"s": 68.32,
+"e": 68.6
+},
+{
+"w": "that",
+"s": 68.64,
+"e": 68.8
+},
+{
+"w": "first",
+"s": 68.88,
+"e": 69.14
+},
+{
+"w": "Tour,",
+"s": 69.2,
+"e": 69.44
+},
+{
+"w": "and",
+"s": 69.88,
+"e": 70.0
+},
+{
+"w": "only",
+"s": 70.08,
+"e": 70.32
+},
+{
+"w": "twenty-one",
+"s": 70.4,
+"e": 71.08
+},
+{
+"w": "got",
+"s": 71.18,
+"e": 71.32
+},
+{
+"w": "back",
+"s": 71.4,
+"e": 71.56
+},
+{
+"w": "to",
+"s": 71.6,
+"e": 71.7
+},
+{
+"w": "Paris.",
+"s": 71.76,
+"e": 72.2
+},
+{
+"w": "The",
+"s": 72.88,
+"e": 72.98
+},
+{
+"w": "winner",
+"s": 73.02,
+"e": 73.3
+},
+{
+"w": "was",
+"s": 73.36,
+"e": 73.54
+},
+{
+"w": "Maurice",
+"s": 73.6,
+"e": 73.96
+},
+{
+"w": "Garin,",
+"s": 74.04,
+"e": 74.38
+},
+{
+"w": "and",
+"s": 74.88,
+"e": 74.98
+},
+{
+"w": "he",
+"s": 75.02,
+"e": 75.16
+},
+{
+"w": "won",
+"s": 75.22,
+"e": 75.34
+},
+{
+"w": "it",
+"s": 75.4,
+"e": 75.52
+},
+{
+"w": "by",
+"s": 75.56,
+"e": 75.68
+},
+{
+"w": "nearly",
+"s": 75.74,
+"e": 76.02
+},
+{
+"w": "three",
+"s": 76.2,
+"e": 76.46
+},
+{
+"w": "hours.",
+"s": 76.64,
+"e": 77.1
+},
+{
+"w": "Garin",
+"s": 77.8,
+"e": 78.12
+},
+{
+"w": "was",
+"s": 78.18,
+"e": 78.34
+},
+{
+"w": "small",
+"s": 78.46,
+"e": 78.84
+},
+{
+"w": "and",
+"s": 78.94,
+"e": 79.06
+},
+{
+"w": "hard,",
+"s": 79.18,
+"e": 79.52
+},
+{
+"w": "and",
+"s": 80.0,
+"e": 80.08
+},
+{
+"w": "he'd",
+"s": 80.14,
+"e": 80.26
+},
+{
+"w": "been",
+"s": 80.3,
+"e": 80.44
+},
+{
+"w": "born",
+"s": 80.52,
+"e": 80.74
+},
+{
+"w": "in",
+"s": 80.78,
+"e": 80.84
+},
+{
+"w": "a",
+"s": 80.88,
+"e": 80.94
+},
+{
+"w": "mountain",
+"s": 81.02,
+"e": 81.36
+},
+{
+"w": "village",
+"s": 81.44,
+"e": 81.74
+},
+{
+"w": "in",
+"s": 81.78,
+"e": 81.9
+},
+{
+"w": "Italy.",
+"s": 81.94,
+"e": 82.3
+},
+{
+"w": "His",
+"s": 82.92,
+"e": 83.08
+},
+{
+"w": "family",
+"s": 83.14,
+"e": 83.42
+},
+{
+"w": "brought",
+"s": 83.48,
+"e": 83.68
+},
+{
+"w": "him",
+"s": 83.7,
+"e": 83.82
+},
+{
+"w": "to",
+"s": 83.86,
+"e": 83.98
+},
+{
+"w": "France",
+"s": 84.04,
+"e": 84.3
+},
+{
+"w": "as",
+"s": 84.36,
+"e": 84.42
+},
+{
+"w": "a",
+"s": 84.48,
+"e": 84.52
+},
+{
+"w": "boy,",
+"s": 84.6,
+"e": 84.88
+},
+{
+"w": "and",
+"s": 85.32,
+"e": 85.44
+},
+{
+"w": "he'd",
+"s": 85.5,
+"e": 85.66
+},
+{
+"w": "worked",
+"s": 85.7,
+"e": 85.9
+},
+{
+"w": "as",
+"s": 85.94,
+"e": 86.02
+},
+{
+"w": "a",
+"s": 86.06,
+"e": 86.14
+},
+{
+"w": "chimney",
+"s": 86.2,
+"e": 86.52
+},
+{
+"w": "sweep",
+"s": 86.6,
+"e": 86.86
+},
+{
+"w": "before",
+"s": 86.9,
+"e": 87.18
+},
+{
+"w": "he",
+"s": 87.22,
+"e": 87.4
+},
+{
+"w": "ever",
+"s": 87.5,
+"e": 87.7
+},
+{
+"w": "raced",
+"s": 87.76,
+"e": 87.98
+},
+{
+"w": "a",
+"s": 88.0,
+"e": 88.08
+},
+{
+"w": "bike.",
+"s": 88.12,
+"e": 88.44
+},
+{
+"w": "Now",
+"s": 89.06,
+"e": 89.32
+},
+{
+"w": "he",
+"s": 89.38,
+"e": 89.48
+},
+{
+"w": "was",
+"s": 89.52,
+"e": 89.64
+},
+{
+"w": "the",
+"s": 89.68,
+"e": 89.74
+},
+{
+"w": "most",
+"s": 89.78,
+"e": 90.0
+},
+{
+"w": "famous",
+"s": 90.18,
+"e": 90.54
+},
+{
+"w": "rider",
+"s": 90.64,
+"e": 90.92
+},
+{
+"w": "in",
+"s": 90.96,
+"e": 91.02
+},
+{
+"w": "the",
+"s": 91.06,
+"e": 91.14
+},
+{
+"w": "country,",
+"s": 91.2,
+"e": 91.62
+},
+{
+"w": "and",
+"s": 92.1,
+"e": 92.2
+},
+{
+"w": "L'Auto",
+"s": 92.24,
+"e": 92.64
+},
+{
+"w": "was",
+"s": 92.72,
+"e": 92.84
+},
+{
+"w": "selling",
+"s": 92.88,
+"e": 93.18
+},
+{
+"w": "more",
+"s": 93.24,
+"e": 93.44
+},
+{
+"w": "papers",
+"s": 93.5,
+"e": 93.88
+},
+{
+"w": "than",
+"s": 93.92,
+"e": 94.02
+},
+{
+"w": "it",
+"s": 94.06,
+"e": 94.24
+},
+{
+"w": "ever",
+"s": 94.34,
+"e": 94.56
+},
+{
+"w": "had.",
+"s": 94.62,
+"e": 94.86
+},
+{
+"w": "Before",
+"s": 95.48,
+"e": 95.76
+},
+{
+"w": "the",
+"s": 95.8,
+"e": 95.92
+},
+{
+"w": "end",
+"s": 95.98,
+"e": 96.1
+},
+{
+"w": "of",
+"s": 96.14,
+"e": 96.2
+},
+{
+"w": "the",
+"s": 96.26,
+"e": 96.32
+},
+{
+"w": "next",
+"s": 96.38,
+"e": 96.62
+},
+{
+"w": "year",
+"s": 96.68,
+"e": 96.86
+},
+{
+"w": "he'd",
+"s": 97.28,
+"e": 97.42
+},
+{
+"w": "be",
+"s": 97.46,
+"e": 97.56
+},
+{
+"w": "banned",
+"s": 97.7,
+"e": 97.98
+},
+{
+"w": "from",
+"s": 98.04,
+"e": 98.18
+},
+{
+"w": "racing.",
+"s": 98.24,
+"e": 98.68
+},
+{
+"w": "So",
+"s": 99.28,
+"e": 99.38
+},
+{
+"w": "the",
+"s": 99.44,
+"e": 99.5
+},
+{
+"w": "next",
+"s": 99.56,
+"e": 99.76
+},
+{
+"w": "summer",
+"s": 99.82,
+"e": 100.1
+},
+{
+"w": "they",
+"s": 100.44,
+"e": 100.56
+},
+{
+"w": "did",
+"s": 100.62,
+"e": 100.72
+},
+{
+"w": "it",
+"s": 100.76,
+"e": 100.94
+},
+{
+"w": "all",
+"s": 101.06,
+"e": 101.2
+},
+{
+"w": "again.",
+"s": 101.26,
+"e": 101.6
+},
+{
+"w": "On",
+"s": 102.28,
+"e": 102.36
+},
+{
+"w": "the",
+"s": 102.4,
+"e": 102.48
+},
+{
+"w": "second",
+"s": 102.54,
+"e": 102.8
+},
+{
+"w": "of",
+"s": 102.84,
+"e": 102.92
+},
+{
+"w": "July",
+"s": 102.98,
+"e": 103.36
+},
+{
+"w": "1904,",
+"s": 103.56,
+"e": 104.36
+},
+{
+"w": "eighty-eight",
+"s": 104.94,
+"e": 105.38
+},
+{
+"w": "riders",
+"s": 105.46,
+"e": 105.84
+},
+{
+"w": "lined",
+"s": 105.92,
+"e": 106.14
+},
+{
+"w": "up",
+"s": 106.2,
+"e": 106.3
+},
+{
+"w": "in",
+"s": 106.34,
+"e": 106.42
+},
+{
+"w": "Montgeron,",
+"s": 106.48,
+"e": 106.94
+},
+{
+"w": "just",
+"s": 107.3,
+"e": 107.48
+},
+{
+"w": "south",
+"s": 107.54,
+"e": 107.76
+},
+{
+"w": "of",
+"s": 107.8,
+"e": 107.88
+},
+{
+"w": "Paris.",
+"s": 107.98,
+"e": 108.4
+},
+{
+"w": "There",
+"s": 109.08,
+"e": 109.18
+},
+{
+"w": "were",
+"s": 109.2,
+"e": 109.34
+},
+{
+"w": "only",
+"s": 109.4,
+"e": 109.62
+},
+{
+"w": "six",
+"s": 109.82,
+"e": 110.04
+},
+{
+"w": "stages,",
+"s": 110.14,
+"e": 110.64
+},
+{
+"w": "but",
+"s": 111.06,
+"e": 111.26
+},
+{
+"w": "each",
+"s": 111.34,
+"e": 111.56
+},
+{
+"w": "one",
+"s": 111.68,
+"e": 111.86
+},
+{
+"w": "was",
+"s": 111.94,
+"e": 112.08
+},
+{
+"w": "enormous.",
+"s": 112.14,
+"e": 112.9
+},
+{
+"w": "The",
+"s": 113.6,
+"e": 113.7
+},
+{
+"w": "first",
+"s": 113.76,
+"e": 114.02
+},
+{
+"w": "ran",
+"s": 114.1,
+"e": 114.34
+},
+{
+"w": "four",
+"s": 115.08,
+"e": 115.328
+},
+{
+"w": "hundred",
+"s": 115.328,
+"e": 115.576
+},
+{
+"w": "and",
+"s": 115.576,
+"e": 115.824
+},
+{
+"w": "sixty-seven",
+"s": 115.824,
+"e": 116.072
+},
+{
+"w": "kilometres",
+"s": 116.072,
+"e": 116.32
+},
+{
+"w": "to",
+"s": 116.38,
+"e": 116.46
+},
+{
+"w": "Lyon,",
+"s": 116.5,
+"e": 116.78
+},
+{
+"w": "and",
+"s": 117.26,
+"e": 117.34
+},
+{
+"w": "the",
+"s": 117.38,
+"e": 117.44
+},
+{
+"w": "riders",
+"s": 117.5,
+"e": 117.82
+},
+{
+"w": "kept",
+"s": 117.9,
+"e": 118.1
+},
+{
+"w": "going",
+"s": 118.16,
+"e": 118.38
+},
+{
+"w": "right",
+"s": 118.58,
+"e": 118.76
+},
+{
+"w": "through",
+"s": 118.8,
+"e": 118.98
+},
+{
+"w": "the",
+"s": 119.02,
+"e": 119.1
+},
+{
+"w": "night.",
+"s": 119.14,
+"e": 119.42
+},
+{
+"w": "The",
+"s": 120.04,
+"e": 120.1
+},
+{
+"w": "rules",
+"s": 120.18,
+"e": 120.46
+},
+{
+"w": "were",
+"s": 120.48,
+"e": 120.64
+},
+{
+"w": "simple",
+"s": 120.7,
+"e": 120.96
+},
+{
+"w": "enough.",
+"s": 121.02,
+"e": 121.42
+},
+{
+"w": "Ride",
+"s": 122.06,
+"e": 122.26
+},
+{
+"w": "your",
+"s": 122.3,
+"e": 122.44
+},
+{
+"w": "own",
+"s": 122.5,
+"e": 122.68
+},
+{
+"w": "bike,",
+"s": 122.74,
+"e": 123.0
+},
+{
+"w": "fix",
+"s": 123.44,
+"e": 123.62
+},
+{
+"w": "it",
+"s": 123.64,
+"e": 123.72
+},
+{
+"w": "yourself,",
+"s": 123.76,
+"e": 124.24
+},
+{
+"w": "and",
+"s": 124.5,
+"e": 124.62
+},
+{
+"w": "take",
+"s": 124.68,
+"e": 124.86
+},
+{
+"w": "no",
+"s": 125.06,
+"e": 125.24
+},
+{
+"w": "help",
+"s": 125.3,
+"e": 125.52
+},
+{
+"w": "from",
+"s": 125.56,
+"e": 125.82
+},
+{
+"w": "anybody.",
+"s": 125.9,
+"e": 126.36
+},
+{
+"w": "Garin",
+"s": 126.98,
+"e": 127.36
+},
+{
+"w": "was",
+"s": 127.4,
+"e": 127.52
+},
+{
+"w": "the",
+"s": 127.56,
+"e": 127.68
+},
+{
+"w": "favourite",
+"s": 127.74,
+"e": 128.06
+},
+{
+"w": "again,",
+"s": 128.12,
+"e": 128.419
+},
+{
+"w": "and",
+"s": 128.82,
+"e": 128.919
+},
+{
+"w": "he",
+"s": 128.979,
+"e": 129.08
+},
+{
+"w": "had",
+"s": 129.12,
+"e": 129.32
+},
+{
+"w": "two",
+"s": 129.4,
+"e": 129.539
+},
+{
+"w": "of",
+"s": 129.6,
+"e": 129.66
+},
+{
+"w": "the",
+"s": 129.72,
+"e": 129.8
+},
+{
+"w": "strongest",
+"s": 129.919,
+"e": 130.36
+},
+{
+"w": "men",
+"s": 130.419,
+"e": 130.539
+},
+{
+"w": "in",
+"s": 130.58,
+"e": 130.639
+},
+{
+"w": "the",
+"s": 130.68,
+"e": 130.74
+},
+{
+"w": "race",
+"s": 130.8,
+"e": 131.039
+},
+{
+"w": "on",
+"s": 131.08,
+"e": 131.16
+},
+{
+"w": "his",
+"s": 131.2,
+"e": 131.34
+},
+{
+"w": "team,",
+"s": 131.38,
+"e": 131.64
+},
+{
+"w": "his",
+"s": 132.18,
+"e": 132.3
+},
+{
+"w": "younger",
+"s": 132.34,
+"e": 132.56
+},
+{
+"w": "brother",
+"s": 132.64,
+"e": 132.86
+},
+{
+"w": "C\u00e9sar",
+"s": 132.96,
+"e": 133.46
+},
+{
+"w": "and",
+"s": 133.82,
+"e": 133.92
+},
+{
+"w": "Lucien",
+"s": 133.96,
+"e": 134.3
+},
+{
+"w": "Pothier.",
+"s": 134.38,
+"e": 134.74
+},
+{
+"w": "The",
+"s": 135.38,
+"e": 135.48
+},
+{
+"w": "trouble",
+"s": 135.52,
+"e": 135.8
+},
+{
+"w": "was",
+"s": 135.92,
+"e": 136.24
+},
+{
+"w": "that",
+"s": 136.46,
+"e": 136.64
+},
+{
+"w": "out",
+"s": 136.72,
+"e": 136.84
+},
+{
+"w": "on",
+"s": 136.88,
+"e": 136.96
+},
+{
+"w": "those",
+"s": 137.0,
+"e": 137.2
+},
+{
+"w": "roads",
+"s": 137.3,
+"e": 137.54
+},
+{
+"w": "in",
+"s": 137.58,
+"e": 137.64
+},
+{
+"w": "the",
+"s": 137.68,
+"e": 137.74
+},
+{
+"w": "dark,",
+"s": 137.82,
+"e": 138.14
+},
+{
+"w": "there",
+"s": 138.56,
+"e": 138.66
+},
+{
+"w": "was",
+"s": 138.7,
+"e": 138.86
+},
+{
+"w": "nobody",
+"s": 138.98,
+"e": 139.36
+},
+{
+"w": "to",
+"s": 139.4,
+"e": 139.52
+},
+{
+"w": "check",
+"s": 139.6,
+"e": 139.86
+},
+{
+"w": "who",
+"s": 139.92,
+"e": 140.0
+},
+{
+"w": "was",
+"s": 140.04,
+"e": 140.16
+},
+{
+"w": "keeping",
+"s": 140.2,
+"e": 140.44
+},
+{
+"w": "the",
+"s": 140.48,
+"e": 140.56
+},
+{
+"w": "rules.",
+"s": 140.62,
+"e": 141.0
+},
+{
+"w": "A",
+"s": 141.64,
+"e": 141.68
+},
+{
+"w": "handful",
+"s": 141.74,
+"e": 142.06
+},
+{
+"w": "of",
+"s": 142.12,
+"e": 142.18
+},
+{
+"w": "officials",
+"s": 142.22,
+"e": 142.74
+},
+{
+"w": "couldn't",
+"s": 142.86,
+"e": 143.14
+},
+{
+"w": "watch",
+"s": 143.2,
+"e": 143.44
+},
+{
+"w": "hundreds",
+"s": 143.54,
+"e": 143.9
+},
+{
+"w": "of",
+"s": 143.94,
+"e": 144.02
+},
+{
+"w": "kilometres",
+"s": 144.06,
+"e": 144.58
+},
+{
+"w": "of",
+"s": 144.62,
+"e": 144.72
+},
+{
+"w": "road",
+"s": 144.78,
+"e": 144.96
+},
+{
+"w": "at",
+"s": 145.0,
+"e": 145.12
+},
+{
+"w": "night,",
+"s": 145.18,
+"e": 145.44
+},
+{
+"w": "so",
+"s": 146.04,
+"e": 146.22
+},
+{
+"w": "for",
+"s": 146.4,
+"e": 146.52
+},
+{
+"w": "most",
+"s": 146.58,
+"e": 146.8
+},
+{
+"w": "of",
+"s": 146.86,
+"e": 147.02
+},
+{
+"w": "every",
+"s": 147.08,
+"e": 147.28
+},
+{
+"w": "stage",
+"s": 147.42,
+"e": 147.74
+},
+{
+"w": "the",
+"s": 147.96,
+"e": 148.06
+},
+{
+"w": "riders",
+"s": 148.12,
+"e": 148.48
+},
+{
+"w": "were",
+"s": 148.52,
+"e": 148.62
+},
+{
+"w": "on",
+"s": 148.68,
+"e": 148.78
+},
+{
+"w": "their",
+"s": 148.82,
+"e": 148.94
+},
+{
+"w": "own.",
+"s": 149.02,
+"e": 149.26
+},
+{
+"w": "And",
+"s": 149.86,
+"e": 149.94
+},
+{
+"w": "before",
+"s": 149.98,
+"e": 150.28
+},
+{
+"w": "the",
+"s": 150.32,
+"e": 150.42
+},
+{
+"w": "first",
+"s": 150.5,
+"e": 150.7
+},
+{
+"w": "stage",
+"s": 150.76,
+"e": 151.0
+},
+{
+"w": "was",
+"s": 151.04,
+"e": 151.2
+},
+{
+"w": "even",
+"s": 151.26,
+"e": 151.56
+},
+{
+"w": "over,",
+"s": 151.66,
+"e": 151.94
+},
+{
+"w": "somebody",
+"s": 152.5,
+"e": 152.88
+},
+{
+"w": "came",
+"s": 152.94,
+"e": 153.16
+},
+{
+"w": "after",
+"s": 153.26,
+"e": 153.48
+},
+{
+"w": "Garin.",
+"s": 153.58,
+"e": 153.96
+},
+{
+"w": "Near",
+"s": 155.52,
+"e": 155.66
+},
+{
+"w": "the",
+"s": 155.72,
+"e": 155.82
+},
+{
+"w": "end",
+"s": 155.88,
+"e": 156.0
+},
+{
+"w": "of",
+"s": 156.04,
+"e": 156.12
+},
+{
+"w": "that",
+"s": 156.18,
+"e": 156.34
+},
+{
+"w": "first",
+"s": 156.4,
+"e": 156.58
+},
+{
+"w": "stage,",
+"s": 156.68,
+"e": 157.02
+},
+{
+"w": "Garin",
+"s": 157.42,
+"e": 157.74
+},
+{
+"w": "and",
+"s": 157.78,
+"e": 157.86
+},
+{
+"w": "Pothier",
+"s": 157.92,
+"e": 158.32
+},
+{
+"w": "were",
+"s": 158.36,
+"e": 158.52
+},
+{
+"w": "out",
+"s": 158.58,
+"e": 158.7
+},
+{
+"w": "in",
+"s": 158.74,
+"e": 158.86
+},
+{
+"w": "front",
+"s": 158.92,
+"e": 159.1
+},
+{
+"w": "together,",
+"s": 159.16,
+"e": 159.54
+},
+{
+"w": "well",
+"s": 160.04,
+"e": 160.22
+},
+{
+"w": "clear",
+"s": 160.34,
+"e": 160.56
+},
+{
+"w": "of",
+"s": 160.6,
+"e": 160.76
+},
+{
+"w": "everyone.",
+"s": 160.82,
+"e": 161.28
+},
+{
+"w": "A",
+"s": 161.92,
+"e": 162.0
+},
+{
+"w": "car",
+"s": 162.08,
+"e": 162.26
+},
+{
+"w": "came",
+"s": 162.38,
+"e": 162.54
+},
+{
+"w": "up",
+"s": 162.58,
+"e": 162.68
+},
+{
+"w": "the",
+"s": 162.72,
+"e": 162.8
+},
+{
+"w": "road",
+"s": 162.86,
+"e": 163.08
+},
+{
+"w": "behind",
+"s": 163.12,
+"e": 163.46
+},
+{
+"w": "them.",
+"s": 163.52,
+"e": 163.68
+},
+{
+"w": "Four",
+"s": 164.4,
+"e": 164.56
+},
+{
+"w": "men",
+"s": 164.64,
+"e": 164.82
+},
+{
+"w": "got",
+"s": 164.88,
+"e": 165.04
+},
+{
+"w": "out,",
+"s": 165.12,
+"e": 165.34
+},
+{
+"w": "and",
+"s": 165.68,
+"e": 165.76
+},
+{
+"w": "they",
+"s": 165.78,
+"e": 165.88
+},
+{
+"w": "had",
+"s": 165.94,
+"e": 166.06
+},
+{
+"w": "their",
+"s": 166.1,
+"e": 166.26
+},
+{
+"w": "faces",
+"s": 166.34,
+"e": 166.68
+},
+{
+"w": "covered.",
+"s": 166.78,
+"e": 167.14
+},
+{
+"w": "They",
+"s": 167.74,
+"e": 167.88
+},
+{
+"w": "went",
+"s": 167.94,
+"e": 168.1
+},
+{
+"w": "for",
+"s": 168.16,
+"e": 168.26
+},
+{
+"w": "the",
+"s": 168.3,
+"e": 168.4
+},
+{
+"w": "two",
+"s": 168.46,
+"e": 168.62
+},
+{
+"w": "leaders.",
+"s": 168.7,
+"e": 169.14
+},
+{
+"w": "Garin",
+"s": 169.88,
+"e": 170.18
+},
+{
+"w": "and",
+"s": 170.2,
+"e": 170.3
+},
+{
+"w": "Pothier",
+"s": 170.36,
+"e": 170.74
+},
+{
+"w": "got",
+"s": 170.82,
+"e": 170.96
+},
+{
+"w": "away",
+"s": 171.02,
+"e": 171.22
+},
+{
+"w": "from",
+"s": 171.28,
+"e": 171.42
+},
+{
+"w": "them",
+"s": 171.48,
+"e": 171.66
+},
+{
+"w": "and",
+"s": 171.82,
+"e": 171.96
+},
+{
+"w": "rode",
+"s": 172.04,
+"e": 172.22
+},
+{
+"w": "on",
+"s": 172.3,
+"e": 172.44
+},
+{
+"w": "into",
+"s": 172.5,
+"e": 172.7
+},
+{
+"w": "Lyon,",
+"s": 172.74,
+"e": 173.02
+},
+{
+"w": "and",
+"s": 173.56,
+"e": 173.66
+},
+{
+"w": "Garin",
+"s": 173.72,
+"e": 174.06
+},
+{
+"w": "won",
+"s": 174.32,
+"e": 174.46
+},
+{
+"w": "the",
+"s": 174.5,
+"e": 174.58
+},
+{
+"w": "stage.",
+"s": 174.64,
+"e": 175.04
+},
+{
+"w": "Nobody's",
+"s": 175.76,
+"e": 176.18
+},
+{
+"w": "ever",
+"s": 176.24,
+"e": 176.4
+},
+{
+"w": "said",
+"s": 176.5,
+"e": 176.66
+},
+{
+"w": "for",
+"s": 176.72,
+"e": 176.86
+},
+{
+"w": "sure",
+"s": 176.98,
+"e": 177.3
+},
+{
+"w": "who",
+"s": 177.4,
+"e": 177.54
+},
+{
+"w": "those",
+"s": 177.58,
+"e": 177.8
+},
+{
+"w": "men",
+"s": 177.86,
+"e": 178.04
+},
+{
+"w": "were,",
+"s": 178.12,
+"e": 178.36
+},
+{
+"w": "or",
+"s": 178.88,
+"e": 179.06
+},
+{
+"w": "who",
+"s": 179.14,
+"e": 179.24
+},
+{
+"w": "sent",
+"s": 179.36,
+"e": 179.62
+},
+{
+"w": "them.",
+"s": 179.64,
+"e": 179.84
+},
+{
+"w": "The",
+"s": 180.48,
+"e": 180.56
+},
+{
+"w": "riders",
+"s": 180.62,
+"e": 180.96
+},
+{
+"w": "had",
+"s": 181.02,
+"e": 181.2
+},
+{
+"w": "six",
+"s": 181.28,
+"e": 181.48
+},
+{
+"w": "days",
+"s": 181.56,
+"e": 181.78
+},
+{
+"w": "off",
+"s": 181.84,
+"e": 182.0
+},
+{
+"w": "in",
+"s": 182.04,
+"e": 182.12
+},
+{
+"w": "Lyon,",
+"s": 182.18,
+"e": 182.46
+},
+{
+"w": "and",
+"s": 182.92,
+"e": 182.98
+},
+{
+"w": "it",
+"s": 183.04,
+"e": 183.12
+},
+{
+"w": "looked",
+"s": 183.18,
+"e": 183.32
+},
+{
+"w": "like",
+"s": 183.36,
+"e": 183.52
+},
+{
+"w": "that",
+"s": 183.6,
+"e": 183.74
+},
+{
+"w": "might",
+"s": 183.8,
+"e": 183.96
+},
+{
+"w": "be",
+"s": 184.0,
+"e": 184.08
+},
+{
+"w": "the",
+"s": 184.12,
+"e": 184.22
+},
+{
+"w": "worst",
+"s": 184.26,
+"e": 184.52
+},
+{
+"w": "of",
+"s": 184.58,
+"e": 184.64
+},
+{
+"w": "it.",
+"s": 184.7,
+"e": 184.86
+},
+{
+"w": "Then",
+"s": 185.5,
+"e": 185.72
+},
+{
+"w": "they",
+"s": 185.76,
+"e": 185.9
+},
+{
+"w": "rode",
+"s": 186.02,
+"e": 186.24
+},
+{
+"w": "into",
+"s": 186.28,
+"e": 186.46
+},
+{
+"w": "the",
+"s": 186.5,
+"e": 186.56
+},
+{
+"w": "mountains.",
+"s": 186.62,
+"e": 187.16
+},
+{
+"w": "Stage",
+"s": 188.78,
+"e": 189.08
+},
+{
+"w": "two",
+"s": 189.2,
+"e": 189.4
+},
+{
+"w": "left",
+"s": 189.5,
+"e": 189.68
+},
+{
+"w": "Lyon",
+"s": 189.76,
+"e": 190.02
+},
+{
+"w": "for",
+"s": 190.1,
+"e": 190.2
+},
+{
+"w": "Marseille,",
+"s": 190.26,
+"e": 190.74
+},
+{
+"w": "and",
+"s": 191.2,
+"e": 191.38
+},
+{
+"w": "not",
+"s": 191.46,
+"e": 191.64
+},
+{
+"w": "long",
+"s": 191.68,
+"e": 191.86
+},
+{
+"w": "after",
+"s": 191.92,
+"e": 192.12
+},
+{
+"w": "the",
+"s": 192.18,
+"e": 192.26
+},
+{
+"w": "start",
+"s": 192.38,
+"e": 192.66
+},
+{
+"w": "it",
+"s": 192.88,
+"e": 192.96
+},
+{
+"w": "climbed",
+"s": 193.02,
+"e": 193.26
+},
+{
+"w": "a",
+"s": 193.3,
+"e": 193.38
+},
+{
+"w": "pass",
+"s": 193.44,
+"e": 193.72
+},
+{
+"w": "near",
+"s": 193.76,
+"e": 193.92
+},
+{
+"w": "Saint-Etienne",
+"s": 194.0,
+"e": 194.66
+},
+{
+"w": "called",
+"s": 194.8,
+"e": 195.1
+},
+{
+"w": "the",
+"s": 195.28,
+"e": 195.36
+},
+{
+"w": "Col",
+"s": 195.46,
+"e": 195.64
+},
+{
+"w": "de",
+"s": 195.7,
+"e": 195.78
+},
+{
+"w": "la",
+"s": 195.8,
+"e": 195.88
+},
+{
+"w": "R\u00e9publique.",
+"s": 195.94,
+"e": 196.48
+},
+{
+"w": "The",
+"s": 197.08,
+"e": 197.18
+},
+{
+"w": "Tour",
+"s": 197.24,
+"e": 197.46
+},
+{
+"w": "had",
+"s": 197.52,
+"e": 197.64
+},
+{
+"w": "gone",
+"s": 197.68,
+"e": 197.88
+},
+{
+"w": "over",
+"s": 197.94,
+"e": 198.14
+},
+{
+"w": "it",
+"s": 198.18,
+"e": 198.26
+},
+{
+"w": "the",
+"s": 198.32,
+"e": 198.4
+},
+{
+"w": "year",
+"s": 198.44,
+"e": 198.56
+},
+{
+"w": "before,",
+"s": 198.64,
+"e": 199.06
+},
+{
+"w": "and",
+"s": 199.48,
+"e": 199.56
+},
+{
+"w": "it",
+"s": 199.6,
+"e": 199.66
+},
+{
+"w": "was",
+"s": 199.7,
+"e": 199.8
+},
+{
+"w": "the",
+"s": 199.84,
+"e": 199.96
+},
+{
+"w": "first",
+"s": 200.04,
+"e": 200.32
+},
+{
+"w": "real",
+"s": 200.48,
+"e": 200.66
+},
+{
+"w": "mountain",
+"s": 200.78,
+"e": 201.18
+},
+{
+"w": "the",
+"s": 201.22,
+"e": 201.3
+},
+{
+"w": "race",
+"s": 201.34,
+"e": 201.54
+},
+{
+"w": "had",
+"s": 201.56,
+"e": 201.8
+},
+{
+"w": "ever",
+"s": 201.86,
+"e": 202.04
+},
+{
+"w": "climbed.",
+"s": 202.14,
+"e": 202.58
+},
+{
+"w": "Saint-Etienne",
+"s": 203.22,
+"e": 203.84
+},
+{
+"w": "had",
+"s": 203.9,
+"e": 204.0
+},
+{
+"w": "its",
+"s": 204.04,
+"e": 204.22
+},
+{
+"w": "own",
+"s": 204.3,
+"e": 204.48
+},
+{
+"w": "man",
+"s": 204.54,
+"e": 204.7
+},
+{
+"w": "in",
+"s": 204.74,
+"e": 204.82
+},
+{
+"w": "the",
+"s": 204.86,
+"e": 204.92
+},
+{
+"w": "race,",
+"s": 204.96,
+"e": 205.28
+},
+{
+"w": "a",
+"s": 205.82,
+"e": 205.86
+},
+{
+"w": "local",
+"s": 205.92,
+"e": 206.2
+},
+{
+"w": "rider",
+"s": 206.28,
+"e": 206.58
+},
+{
+"w": "who",
+"s": 206.66,
+"e": 206.74
+},
+{
+"w": "was",
+"s": 206.78,
+"e": 206.94
+},
+{
+"w": "out",
+"s": 207.02,
+"e": 207.12
+},
+{
+"w": "in",
+"s": 207.16,
+"e": 207.3
+},
+{
+"w": "front",
+"s": 207.38,
+"e": 207.6
+},
+{
+"w": "on",
+"s": 207.64,
+"e": 207.72
+},
+{
+"w": "the",
+"s": 207.74,
+"e": 207.8
+},
+{
+"w": "climb.",
+"s": 207.86,
+"e": 208.22
+},
+{
+"w": "His",
+"s": 208.78,
+"e": 208.96
+},
+{
+"w": "fans",
+"s": 209.02,
+"e": 209.3
+},
+{
+"w": "were",
+"s": 209.34,
+"e": 209.46
+},
+{
+"w": "waiting",
+"s": 209.52,
+"e": 209.78
+},
+{
+"w": "at",
+"s": 209.8,
+"e": 209.9
+},
+{
+"w": "the",
+"s": 209.94,
+"e": 210.02
+},
+{
+"w": "top,",
+"s": 210.08,
+"e": 210.4
+},
+{
+"w": "somewhere",
+"s": 210.94,
+"e": 211.22
+},
+{
+"w": "between",
+"s": 211.26,
+"e": 211.62
+},
+{
+"w": "one",
+"s": 211.84,
+"e": 212.08
+},
+{
+"w": "and",
+"s": 212.1,
+"e": 212.26
+},
+{
+"w": "two",
+"s": 212.36,
+"e": 212.66
+},
+{
+"w": "hundred",
+"s": 212.66,
+"e": 212.96
+},
+{
+"w": "of",
+"s": 213.0,
+"e": 213.08
+},
+{
+"w": "them.",
+"s": 213.12,
+"e": 213.3
+},
+{
+"w": "They",
+"s": 214.0,
+"e": 214.12
+},
+{
+"w": "let",
+"s": 214.18,
+"e": 214.3
+},
+{
+"w": "him",
+"s": 214.34,
+"e": 214.5
+},
+{
+"w": "through.",
+"s": 214.52,
+"e": 214.82
+},
+{
+"w": "Then",
+"s": 215.7,
+"e": 215.86
+},
+{
+"w": "they",
+"s": 215.88,
+"e": 216.02
+},
+{
+"w": "stepped",
+"s": 216.1,
+"e": 216.32
+},
+{
+"w": "into",
+"s": 216.38,
+"e": 216.58
+},
+{
+"w": "the",
+"s": 216.62,
+"e": 216.68
+},
+{
+"w": "road",
+"s": 216.76,
+"e": 216.98
+},
+{
+"w": "in",
+"s": 217.02,
+"e": 217.12
+},
+{
+"w": "front",
+"s": 217.16,
+"e": 217.28
+},
+{
+"w": "of",
+"s": 217.32,
+"e": 217.46
+},
+{
+"w": "everybody",
+"s": 217.52,
+"e": 217.94
+},
+{
+"w": "else,",
+"s": 218.0,
+"e": 218.3
+},
+{
+"w": "and",
+"s": 218.8,
+"e": 218.9
+},
+{
+"w": "what",
+"s": 218.94,
+"e": 219.06
+},
+{
+"w": "happened",
+"s": 219.12,
+"e": 219.44
+},
+{
+"w": "next",
+"s": 219.52,
+"e": 219.86
+},
+{
+"w": "is",
+"s": 220.08,
+"e": 220.18
+},
+{
+"w": "why",
+"s": 220.22,
+"e": 220.36
+},
+{
+"w": "the",
+"s": 220.4,
+"e": 220.48
+},
+{
+"w": "race",
+"s": 220.58,
+"e": 220.92
+},
+{
+"w": "nearly",
+"s": 221.02,
+"e": 221.38
+},
+{
+"w": "died.",
+"s": 221.52,
+"e": 221.92
+},
+{
+"w": "They",
+"s": 222.58,
+"e": 222.7
+},
+{
+"w": "had",
+"s": 222.74,
+"e": 222.92
+},
+{
+"w": "sticks,",
+"s": 223.06,
+"e": 223.4
+},
+{
+"w": "and",
+"s": 223.74,
+"e": 223.82
+},
+{
+"w": "they",
+"s": 223.86,
+"e": 223.98
+},
+{
+"w": "threw",
+"s": 224.02,
+"e": 224.2
+},
+{
+"w": "stones.",
+"s": 224.36,
+"e": 224.84
+},
+{
+"w": "Garin",
+"s": 225.52,
+"e": 225.82
+},
+{
+"w": "was",
+"s": 225.86,
+"e": 226.0
+},
+{
+"w": "hurt",
+"s": 226.08,
+"e": 226.28
+},
+{
+"w": "in",
+"s": 226.32,
+"e": 226.4
+},
+{
+"w": "the",
+"s": 226.44,
+"e": 226.5
+},
+{
+"w": "hand,",
+"s": 226.58,
+"e": 226.92
+},
+{
+"w": "and",
+"s": 227.32,
+"e": 227.42
+},
+{
+"w": "his",
+"s": 227.46,
+"e": 227.6
+},
+{
+"w": "brother",
+"s": 227.64,
+"e": 227.88
+},
+{
+"w": "C\u00e9sar",
+"s": 228.0,
+"e": 228.42
+},
+{
+"w": "was",
+"s": 228.48,
+"e": 228.62
+},
+{
+"w": "hit",
+"s": 228.68,
+"e": 228.8
+},
+{
+"w": "as",
+"s": 228.84,
+"e": 228.96
+},
+{
+"w": "well.",
+"s": 229.02,
+"e": 229.24
+},
+{
+"w": "An",
+"s": 229.94,
+"e": 230.02
+},
+{
+"w": "Italian",
+"s": 230.06,
+"e": 230.52
+},
+{
+"w": "rider",
+"s": 230.62,
+"e": 230.94
+},
+{
+"w": "called",
+"s": 231.08,
+"e": 231.34
+},
+{
+"w": "Giovanni",
+"s": 231.4,
+"e": 231.84
+},
+{
+"w": "Gerbi",
+"s": 231.92,
+"e": 232.36
+},
+{
+"w": "was",
+"s": 232.62,
+"e": 232.74
+},
+{
+"w": "beaten",
+"s": 232.9,
+"e": 233.24
+},
+{
+"w": "until",
+"s": 233.3,
+"e": 233.54
+},
+{
+"w": "he",
+"s": 233.6,
+"e": 233.68
+},
+{
+"w": "was",
+"s": 233.72,
+"e": 233.88
+},
+{
+"w": "knocked",
+"s": 233.92,
+"e": 234.22
+},
+{
+"w": "out.",
+"s": 234.32,
+"e": 234.56
+},
+{
+"w": "His",
+"s": 235.12,
+"e": 235.32
+},
+{
+"w": "Tour",
+"s": 235.4,
+"e": 235.62
+},
+{
+"w": "ended",
+"s": 235.78,
+"e": 236.04
+},
+{
+"w": "right",
+"s": 236.22,
+"e": 236.46
+},
+{
+"w": "there",
+"s": 236.52,
+"e": 236.74
+},
+{
+"w": "on",
+"s": 237.04,
+"e": 237.12
+},
+{
+"w": "the",
+"s": 237.16,
+"e": 237.22
+},
+{
+"w": "mountain.",
+"s": 237.26,
+"e": 237.68
+},
+{
+"w": "Then",
+"s": 238.34,
+"e": 238.48
+},
+{
+"w": "the",
+"s": 238.52,
+"e": 238.6
+},
+{
+"w": "cars",
+"s": 238.66,
+"e": 238.94
+},
+{
+"w": "following",
+"s": 239.04,
+"e": 239.4
+},
+{
+"w": "the",
+"s": 239.42,
+"e": 239.5
+},
+{
+"w": "race",
+"s": 239.56,
+"e": 239.82
+},
+{
+"w": "caught",
+"s": 239.94,
+"e": 240.12
+},
+{
+"w": "up",
+"s": 240.18,
+"e": 240.3
+},
+{
+"w": "with",
+"s": 240.32,
+"e": 240.42
+},
+{
+"w": "the",
+"s": 240.46,
+"e": 240.52
+},
+{
+"w": "riders.",
+"s": 240.58,
+"e": 241.06
+},
+{
+"w": "The",
+"s": 241.72,
+"e": 241.8
+},
+{
+"w": "men",
+"s": 241.86,
+"e": 242.02
+},
+{
+"w": "from",
+"s": 242.08,
+"e": 242.2
+},
+{
+"w": "the",
+"s": 242.26,
+"e": 242.32
+},
+{
+"w": "race",
+"s": 242.38,
+"e": 242.62
+},
+{
+"w": "pulled",
+"s": 242.74,
+"e": 242.94
+},
+{
+"w": "out",
+"s": 242.98,
+"e": 243.16
+},
+{
+"w": "pistols",
+"s": 243.22,
+"e": 243.68
+},
+{
+"w": "and",
+"s": 243.76,
+"e": 243.86
+},
+{
+"w": "fired",
+"s": 244.04,
+"e": 244.32
+},
+{
+"w": "into",
+"s": 244.38,
+"e": 244.58
+},
+{
+"w": "the",
+"s": 244.62,
+"e": 244.7
+},
+{
+"w": "air.",
+"s": 244.78,
+"e": 245.0
+},
+{
+"w": "The",
+"s": 245.64,
+"e": 245.72
+},
+{
+"w": "crowd",
+"s": 245.78,
+"e": 246.06
+},
+{
+"w": "broke",
+"s": 246.12,
+"e": 246.36
+},
+{
+"w": "up,",
+"s": 246.46,
+"e": 246.6
+},
+{
+"w": "the",
+"s": 247.08,
+"e": 247.14
+},
+{
+"w": "riders",
+"s": 247.2,
+"e": 247.52
+},
+{
+"w": "got",
+"s": 247.56,
+"e": 247.74
+},
+{
+"w": "back",
+"s": 247.78,
+"e": 247.98
+},
+{
+"w": "on",
+"s": 248.02,
+"e": 248.1
+},
+{
+"w": "their",
+"s": 248.12,
+"e": 248.22
+},
+{
+"w": "bikes,",
+"s": 248.3,
+"e": 248.64
+},
+{
+"w": "and",
+"s": 248.98,
+"e": 249.08
+},
+{
+"w": "the",
+"s": 249.12,
+"e": 249.2
+},
+{
+"w": "race",
+"s": 249.26,
+"e": 249.56
+},
+{
+"w": "did",
+"s": 249.62,
+"e": 249.8
+},
+{
+"w": "not",
+"s": 249.9,
+"e": 250.14
+},
+{
+"w": "stop.",
+"s": 250.24,
+"e": 250.58
+},
+{
+"w": "The",
+"s": 251.2,
+"e": 251.3
+},
+{
+"w": "Tour",
+"s": 251.36,
+"e": 251.6
+},
+{
+"w": "was",
+"s": 251.64,
+"e": 251.84
+},
+{
+"w": "so",
+"s": 251.96,
+"e": 252.14
+},
+{
+"w": "angry",
+"s": 252.38,
+"e": 252.7
+},
+{
+"w": "with",
+"s": 252.76,
+"e": 252.88
+},
+{
+"w": "Saint-Etienne",
+"s": 252.94,
+"e": 253.58
+},
+{
+"w": "that",
+"s": 253.84,
+"e": 253.94
+},
+{
+"w": "it",
+"s": 253.98,
+"e": 254.08
+},
+{
+"w": "didn't",
+"s": 254.12,
+"e": 254.3
+},
+{
+"w": "go",
+"s": 254.36,
+"e": 254.46
+},
+{
+"w": "back",
+"s": 254.56,
+"e": 254.78
+},
+{
+"w": "there",
+"s": 254.82,
+"e": 254.94
+},
+{
+"w": "until",
+"s": 254.98,
+"e": 255.28
+},
+{
+"w": "1950.",
+"s": 255.34,
+"e": 256.26
+},
+{
+"w": "That's",
+"s": 256.94,
+"e": 257.2
+},
+{
+"w": "forty-six",
+"s": 257.3,
+"e": 257.94
+},
+{
+"w": "years",
+"s": 258.12,
+"e": 258.519
+},
+{
+"w": "for",
+"s": 258.839,
+"e": 258.959
+},
+{
+"w": "one",
+"s": 259.16,
+"e": 259.339
+},
+{
+"w": "fight",
+"s": 259.56,
+"e": 259.839
+},
+{
+"w": "on",
+"s": 259.899,
+"e": 259.98
+},
+{
+"w": "a",
+"s": 260.019,
+"e": 260.06
+},
+{
+"w": "mountain",
+"s": 260.12,
+"e": 260.459
+},
+{
+"w": "road.",
+"s": 260.56,
+"e": 260.86
+},
+{
+"w": "And",
+"s": 261.5,
+"e": 261.579
+},
+{
+"w": "on",
+"s": 261.62,
+"e": 261.72
+},
+{
+"w": "the",
+"s": 261.76,
+"e": 261.839
+},
+{
+"w": "next",
+"s": 261.899,
+"e": 262.079
+},
+{
+"w": "stage,",
+"s": 262.16,
+"e": 262.52
+},
+{
+"w": "it",
+"s": 262.92,
+"e": 263.02
+},
+{
+"w": "got",
+"s": 263.06,
+"e": 263.24
+},
+{
+"w": "worse.",
+"s": 263.38,
+"e": 263.8
+},
+{
+"w": "By",
+"s": 265.38,
+"e": 265.52
+},
+{
+"w": "stage",
+"s": 265.58,
+"e": 265.88
+},
+{
+"w": "three",
+"s": 265.96,
+"e": 266.22
+},
+{
+"w": "the",
+"s": 266.64,
+"e": 266.72
+},
+{
+"w": "race",
+"s": 266.76,
+"e": 266.96
+},
+{
+"w": "had",
+"s": 267.0,
+"e": 267.14
+},
+{
+"w": "thrown",
+"s": 267.16,
+"e": 267.4
+},
+{
+"w": "out",
+"s": 267.42,
+"e": 267.52
+},
+{
+"w": "a",
+"s": 267.58,
+"e": 267.62
+},
+{
+"w": "rider",
+"s": 267.68,
+"e": 267.98
+},
+{
+"w": "from",
+"s": 268.04,
+"e": 268.18
+},
+{
+"w": "near",
+"s": 268.22,
+"e": 268.4
+},
+{
+"w": "Nimes",
+"s": 268.5,
+"e": 268.88
+},
+{
+"w": "called",
+"s": 268.94,
+"e": 269.22
+},
+{
+"w": "Ferdinand",
+"s": 269.3,
+"e": 269.76
+},
+{
+"w": "Payan,",
+"s": 269.84,
+"e": 270.16
+},
+{
+"w": "for",
+"s": 270.56,
+"e": 270.66
+},
+{
+"w": "getting",
+"s": 270.7,
+"e": 270.92
+},
+{
+"w": "help",
+"s": 270.98,
+"e": 271.18
+},
+{
+"w": "on",
+"s": 271.22,
+"e": 271.3
+},
+{
+"w": "the",
+"s": 271.34,
+"e": 271.4
+},
+{
+"w": "road.",
+"s": 271.46,
+"e": 271.76
+},
+{
+"w": "His",
+"s": 272.38,
+"e": 272.54
+},
+{
+"w": "home",
+"s": 272.6,
+"e": 272.89
+},
+{
+"w": "town",
+"s": 272.89,
+"e": 273.18
+},
+{
+"w": "took",
+"s": 273.24,
+"e": 273.4
+},
+{
+"w": "that",
+"s": 273.48,
+"e": 273.68
+},
+{
+"w": "personally.",
+"s": 273.76,
+"e": 274.36
+},
+{
+"w": "When",
+"s": 275.04,
+"e": 275.14
+},
+{
+"w": "the",
+"s": 275.16,
+"e": 275.24
+},
+{
+"w": "race",
+"s": 275.28,
+"e": 275.5
+},
+{
+"w": "came",
+"s": 275.56,
+"e": 275.74
+},
+{
+"w": "through",
+"s": 275.78,
+"e": 275.98
+},
+{
+"w": "Nimes,",
+"s": 276.04,
+"e": 276.32
+},
+{
+"w": "people",
+"s": 276.74,
+"e": 276.96
+},
+{
+"w": "threw",
+"s": 277.02,
+"e": 277.24
+},
+{
+"w": "stones",
+"s": 277.38,
+"e": 277.72
+},
+{
+"w": "at",
+"s": 277.76,
+"e": 277.84
+},
+{
+"w": "the",
+"s": 277.88,
+"e": 277.96
+},
+{
+"w": "riders",
+"s": 278.0,
+"e": 278.42
+},
+{
+"w": "and",
+"s": 278.46,
+"e": 278.58
+},
+{
+"w": "blocked",
+"s": 278.66,
+"e": 278.94
+},
+{
+"w": "the",
+"s": 278.98,
+"e": 279.06
+},
+{
+"w": "road.",
+"s": 279.12,
+"e": 279.42
+},
+{
+"w": "And",
+"s": 280.04,
+"e": 280.12
+},
+{
+"w": "they'd",
+"s": 280.16,
+"e": 280.34
+},
+{
+"w": "spread",
+"s": 280.44,
+"e": 280.7
+},
+{
+"w": "nails",
+"s": 280.8,
+"e": 281.2
+},
+{
+"w": "and",
+"s": 281.22,
+"e": 281.34
+},
+{
+"w": "broken",
+"s": 281.44,
+"e": 281.76
+},
+{
+"w": "glass",
+"s": 281.88,
+"e": 282.2
+},
+{
+"w": "across",
+"s": 282.24,
+"e": 282.64
+},
+{
+"w": "it.",
+"s": 282.7,
+"e": 282.86
+},
+{
+"w": "Tyres",
+"s": 283.44,
+"e": 283.8
+},
+{
+"w": "went",
+"s": 283.86,
+"e": 284.04
+},
+{
+"w": "down",
+"s": 284.1,
+"e": 284.34
+},
+{
+"w": "one",
+"s": 284.54,
+"e": 284.78
+},
+{
+"w": "after",
+"s": 284.88,
+"e": 285.12
+},
+{
+"w": "another,",
+"s": 285.18,
+"e": 285.56
+},
+{
+"w": "and",
+"s": 286.06,
+"e": 286.16
+},
+{
+"w": "riders",
+"s": 286.24,
+"e": 286.58
+},
+{
+"w": "who'd",
+"s": 286.6,
+"e": 286.76
+},
+{
+"w": "been",
+"s": 286.78,
+"e": 286.88
+},
+{
+"w": "on",
+"s": 286.92,
+"e": 287.0
+},
+{
+"w": "their",
+"s": 287.04,
+"e": 287.12
+},
+{
+"w": "bikes",
+"s": 287.22,
+"e": 287.44
+},
+{
+"w": "for",
+"s": 287.48,
+"e": 287.6
+},
+{
+"w": "hours",
+"s": 287.84,
+"e": 288.22
+},
+{
+"w": "were",
+"s": 288.3,
+"e": 288.46
+},
+{
+"w": "walking",
+"s": 288.54,
+"e": 288.86
+},
+{
+"w": "them",
+"s": 288.9,
+"e": 289.04
+},
+{
+"w": "through",
+"s": 289.06,
+"e": 289.22
+},
+{
+"w": "the",
+"s": 289.24,
+"e": 289.32
+},
+{
+"w": "glass.",
+"s": 289.36,
+"e": 289.8
+},
+{
+"w": "And",
+"s": 290.42,
+"e": 290.58
+},
+{
+"w": "then",
+"s": 290.66,
+"e": 290.94
+},
+{
+"w": "it",
+"s": 291.08,
+"e": 291.16
+},
+{
+"w": "got",
+"s": 291.22,
+"e": 291.4
+},
+{
+"w": "stranger,",
+"s": 291.54,
+"e": 292.06
+},
+{
+"w": "because",
+"s": 292.62,
+"e": 292.86
+},
+{
+"w": "the",
+"s": 292.9,
+"e": 293.0
+},
+{
+"w": "riders",
+"s": 293.06,
+"e": 293.38
+},
+{
+"w": "started",
+"s": 293.46,
+"e": 293.76
+},
+{
+"w": "saying",
+"s": 293.92,
+"e": 294.24
+},
+{
+"w": "things",
+"s": 294.28,
+"e": 294.5
+},
+{
+"w": "about",
+"s": 294.56,
+"e": 294.76
+},
+{
+"w": "each",
+"s": 294.78,
+"e": 294.92
+},
+{
+"w": "other.",
+"s": 294.98,
+"e": 295.18
+},
+{
+"w": "That",
+"s": 295.9,
+"e": 296.08
+},
+{
+"w": "some",
+"s": 296.18,
+"e": 296.32
+},
+{
+"w": "of",
+"s": 296.38,
+"e": 296.46
+},
+{
+"w": "them",
+"s": 296.52,
+"e": 296.74
+},
+{
+"w": "weren't",
+"s": 296.8,
+"e": 297.04
+},
+{
+"w": "riding",
+"s": 297.08,
+"e": 297.36
+},
+{
+"w": "the",
+"s": 297.4,
+"e": 297.5
+},
+{
+"w": "whole",
+"s": 297.58,
+"e": 297.78
+},
+{
+"w": "way",
+"s": 297.84,
+"e": 297.96
+},
+{
+"w": "at",
+"s": 298.0,
+"e": 298.1
+},
+{
+"w": "all.",
+"s": 298.2,
+"e": 298.42
+},
+{
+"w": "That",
+"s": 299.16,
+"e": 299.32
+},
+{
+"w": "men",
+"s": 299.4,
+"e": 299.58
+},
+{
+"w": "were",
+"s": 299.62,
+"e": 299.76
+},
+{
+"w": "hanging",
+"s": 299.82,
+"e": 300.1
+},
+{
+"w": "on",
+"s": 300.16,
+"e": 300.28
+},
+{
+"w": "to",
+"s": 300.28,
+"e": 300.4
+},
+{
+"w": "cars,",
+"s": 300.48,
+"e": 300.98
+},
+{
+"w": "or",
+"s": 301.18,
+"e": 301.32
+},
+{
+"w": "getting",
+"s": 301.44,
+"e": 301.66
+},
+{
+"w": "into",
+"s": 301.72,
+"e": 301.94
+},
+{
+"w": "them,",
+"s": 301.98,
+"e": 302.16
+},
+{
+"w": "or",
+"s": 302.54,
+"e": 302.74
+},
+{
+"w": "catching",
+"s": 302.8,
+"e": 303.08
+},
+{
+"w": "a",
+"s": 303.12,
+"e": 303.18
+},
+{
+"w": "train",
+"s": 303.26,
+"e": 303.56
+},
+{
+"w": "for",
+"s": 303.62,
+"e": 303.74
+},
+{
+"w": "part",
+"s": 303.78,
+"e": 303.92
+},
+{
+"w": "of",
+"s": 303.94,
+"e": 304.0
+},
+{
+"w": "a",
+"s": 304.04,
+"e": 304.08
+},
+{
+"w": "stage.",
+"s": 304.16,
+"e": 304.56
+},
+{
+"w": "One",
+"s": 305.24,
+"e": 305.38
+},
+{
+"w": "rider",
+"s": 305.46,
+"e": 305.74
+},
+{
+"w": "was",
+"s": 305.78,
+"e": 305.9
+},
+{
+"w": "seen",
+"s": 305.96,
+"e": 306.16
+},
+{
+"w": "climbing",
+"s": 306.24,
+"e": 306.58
+},
+{
+"w": "into",
+"s": 306.64,
+"e": 306.84
+},
+{
+"w": "a",
+"s": 306.88,
+"e": 306.96
+},
+{
+"w": "car",
+"s": 307.04,
+"e": 307.32
+},
+{
+"w": "halfway",
+"s": 307.5,
+"e": 307.92
+},
+{
+"w": "through",
+"s": 307.96,
+"e": 308.12
+},
+{
+"w": "a",
+"s": 308.16,
+"e": 308.22
+},
+{
+"w": "stage.",
+"s": 308.3,
+"e": 308.72
+},
+{
+"w": "Witnesses",
+"s": 309.4,
+"e": 309.9
+},
+{
+"w": "said",
+"s": 309.96,
+"e": 310.18
+},
+{
+"w": "Pothier",
+"s": 310.32,
+"e": 310.7
+},
+{
+"w": "had",
+"s": 310.74,
+"e": 310.88
+},
+{
+"w": "taken",
+"s": 310.94,
+"e": 311.18
+},
+{
+"w": "a",
+"s": 311.22,
+"e": 311.3
+},
+{
+"w": "train.",
+"s": 311.36,
+"e": 311.74
+},
+{
+"w": "Nobody",
+"s": 312.42,
+"e": 312.74
+},
+{
+"w": "could",
+"s": 312.78,
+"e": 312.94
+},
+{
+"w": "prove",
+"s": 313.0,
+"e": 313.28
+},
+{
+"w": "much,",
+"s": 313.36,
+"e": 313.7
+},
+{
+"w": "because",
+"s": 313.98,
+"e": 314.28
+},
+{
+"w": "most",
+"s": 314.34,
+"e": 314.54
+},
+{
+"w": "of",
+"s": 314.58,
+"e": 314.64
+},
+{
+"w": "the",
+"s": 314.7,
+"e": 314.76
+},
+{
+"w": "road",
+"s": 314.82,
+"e": 315.04
+},
+{
+"w": "had",
+"s": 315.1,
+"e": 315.26
+},
+{
+"w": "nobody",
+"s": 315.34,
+"e": 315.7
+},
+{
+"w": "watching",
+"s": 315.76,
+"e": 316.1
+},
+{
+"w": "it.",
+"s": 316.16,
+"e": 316.3
+},
+{
+"w": "But",
+"s": 316.92,
+"e": 317.06
+},
+{
+"w": "that",
+"s": 317.14,
+"e": 317.32
+},
+{
+"w": "wasn't",
+"s": 317.36,
+"e": 317.6
+},
+{
+"w": "the",
+"s": 317.64,
+"e": 317.72
+},
+{
+"w": "end",
+"s": 317.76,
+"e": 317.9
+},
+{
+"w": "of",
+"s": 317.96,
+"e": 318.02
+},
+{
+"w": "it,",
+"s": 318.08,
+"e": 318.14
+},
+{
+"w": "because",
+"s": 318.76,
+"e": 319.02
+},
+{
+"w": "the",
+"s": 319.06,
+"e": 319.14
+},
+{
+"w": "men",
+"s": 319.2,
+"e": 319.38
+},
+{
+"w": "who'd",
+"s": 319.42,
+"e": 319.64
+},
+{
+"w": "seen",
+"s": 319.74,
+"e": 319.92
+},
+{
+"w": "it",
+"s": 319.98,
+"e": 320.18
+},
+{
+"w": "didn't",
+"s": 320.24,
+"e": 320.46
+},
+{
+"w": "forget.",
+"s": 320.5,
+"e": 320.94
+},
+{
+"w": "And",
+"s": 321.48,
+"e": 321.66
+},
+{
+"w": "all",
+"s": 321.74,
+"e": 321.86
+},
+{
+"w": "the",
+"s": 321.9,
+"e": 321.98
+},
+{
+"w": "while,",
+"s": 322.04,
+"e": 322.36
+},
+{
+"w": "the",
+"s": 322.76,
+"e": 322.86
+},
+{
+"w": "nails",
+"s": 322.96,
+"e": 323.38
+},
+{
+"w": "kept",
+"s": 323.46,
+"e": 323.72
+},
+{
+"w": "coming.",
+"s": 323.78,
+"e": 324.16
+},
+{
+"w": "Somewhere",
+"s": 325.76,
+"e": 326.1
+},
+{
+"w": "back",
+"s": 326.16,
+"e": 326.36
+},
+{
+"w": "down",
+"s": 326.4,
+"e": 326.56
+},
+{
+"w": "the",
+"s": 326.6,
+"e": 326.7
+},
+{
+"w": "road",
+"s": 326.76,
+"e": 326.96
+},
+{
+"w": "in",
+"s": 327.0,
+"e": 327.1
+},
+{
+"w": "all",
+"s": 327.14,
+"e": 327.24
+},
+{
+"w": "of",
+"s": 327.28,
+"e": 327.38
+},
+{
+"w": "this",
+"s": 327.44,
+"e": 327.7
+},
+{
+"w": "was",
+"s": 328.02,
+"e": 328.12
+},
+{
+"w": "a",
+"s": 328.16,
+"e": 328.24
+},
+{
+"w": "teenager",
+"s": 328.3,
+"e": 328.8
+},
+{
+"w": "called",
+"s": 328.92,
+"e": 329.16
+},
+{
+"w": "Henri",
+"s": 329.3,
+"e": 329.64
+},
+{
+"w": "Cornet.",
+"s": 329.74,
+"e": 330.18
+},
+{
+"w": "He",
+"s": 330.78,
+"e": 330.88
+},
+{
+"w": "was",
+"s": 330.92,
+"e": 331.06
+},
+{
+"w": "nineteen,",
+"s": 331.1,
+"e": 331.7
+},
+{
+"w": "and",
+"s": 332.16,
+"e": 332.36
+},
+{
+"w": "he",
+"s": 332.44,
+"e": 332.54
+},
+{
+"w": "wasn't",
+"s": 332.66,
+"e": 332.94
+},
+{
+"w": "one",
+"s": 333.0,
+"e": 333.08
+},
+{
+"w": "of",
+"s": 333.12,
+"e": 333.18
+},
+{
+"w": "the",
+"s": 333.22,
+"e": 333.32
+},
+{
+"w": "stars.",
+"s": 333.4,
+"e": 333.82
+},
+{
+"w": "He",
+"s": 334.52,
+"e": 334.6
+},
+{
+"w": "was",
+"s": 334.64,
+"e": 334.76
+},
+{
+"w": "a",
+"s": 334.82,
+"e": 334.84
+},
+{
+"w": "long",
+"s": 335.0,
+"e": 335.3
+},
+{
+"w": "way",
+"s": 335.36,
+"e": 335.5
+},
+{
+"w": "behind",
+"s": 335.54,
+"e": 335.84
+},
+{
+"w": "the",
+"s": 335.86,
+"e": 335.94
+},
+{
+"w": "leaders,",
+"s": 335.98,
+"e": 336.4
+},
+{
+"w": "and",
+"s": 336.82,
+"e": 336.92
+},
+{
+"w": "he",
+"s": 336.98,
+"e": 337.06
+},
+{
+"w": "had",
+"s": 337.1,
+"e": 337.22
+},
+{
+"w": "the",
+"s": 337.26,
+"e": 337.36
+},
+{
+"w": "same",
+"s": 337.46,
+"e": 337.7
+},
+{
+"w": "nails",
+"s": 337.74,
+"e": 338.0
+},
+{
+"w": "to",
+"s": 338.04,
+"e": 338.14
+},
+{
+"w": "deal",
+"s": 338.18,
+"e": 338.36
+},
+{
+"w": "with",
+"s": 338.42,
+"e": 338.58
+},
+{
+"w": "as",
+"s": 338.64,
+"e": 338.82
+},
+{
+"w": "everyone",
+"s": 338.88,
+"e": 339.22
+},
+{
+"w": "else.",
+"s": 339.28,
+"e": 339.6
+},
+{
+"w": "On",
+"s": 340.3,
+"e": 340.4
+},
+{
+"w": "stage",
+"s": 340.5,
+"e": 340.76
+},
+{
+"w": "five,",
+"s": 340.88,
+"e": 341.22
+},
+{
+"w": "from",
+"s": 341.56,
+"e": 341.72
+},
+{
+"w": "Bordeaux",
+"s": 341.78,
+"e": 342.18
+},
+{
+"w": "to",
+"s": 342.22,
+"e": 342.3
+},
+{
+"w": "Nantes,",
+"s": 342.36,
+"e": 342.66
+},
+{
+"w": "there",
+"s": 343.08,
+"e": 343.18
+},
+{
+"w": "were",
+"s": 343.2,
+"e": 343.34
+},
+{
+"w": "nails",
+"s": 343.4,
+"e": 343.72
+},
+{
+"w": "on",
+"s": 343.76,
+"e": 343.84
+},
+{
+"w": "the",
+"s": 343.86,
+"e": 343.92
+},
+{
+"w": "road",
+"s": 343.96,
+"e": 344.14
+},
+{
+"w": "again,",
+"s": 344.18,
+"e": 344.46
+},
+{
+"w": "and",
+"s": 344.9,
+"e": 345.02
+},
+{
+"w": "both",
+"s": 345.14,
+"e": 345.38
+},
+{
+"w": "of",
+"s": 345.42,
+"e": 345.5
+},
+{
+"w": "Cornet's",
+"s": 345.56,
+"e": 345.92
+},
+{
+"w": "tyres",
+"s": 345.98,
+"e": 346.34
+},
+{
+"w": "went",
+"s": 346.4,
+"e": 346.54
+},
+{
+"w": "flat.",
+"s": 346.66,
+"e": 347.0
+},
+{
+"w": "Riders",
+"s": 347.64,
+"e": 347.98
+},
+{
+"w": "weren't",
+"s": 348.02,
+"e": 348.2
+},
+{
+"w": "allowed",
+"s": 348.24,
+"e": 348.62
+},
+{
+"w": "any",
+"s": 348.7,
+"e": 348.88
+},
+{
+"w": "help,",
+"s": 348.96,
+"e": 349.24
+},
+{
+"w": "so",
+"s": 349.68,
+"e": 349.78
+},
+{
+"w": "he",
+"s": 349.84,
+"e": 349.94
+},
+{
+"w": "rode",
+"s": 349.98,
+"e": 350.14
+},
+{
+"w": "the",
+"s": 350.18,
+"e": 350.26
+},
+{
+"w": "last",
+"s": 350.32,
+"e": 350.64
+},
+{
+"w": "forty",
+"s": 350.7,
+"e": 351.14
+},
+{
+"w": "kilometres",
+"s": 351.14,
+"e": 351.58
+},
+{
+"w": "on",
+"s": 351.66,
+"e": 351.84
+},
+{
+"w": "two",
+"s": 351.92,
+"e": 352.12
+},
+{
+"w": "flat",
+"s": 352.28,
+"e": 352.5
+},
+{
+"w": "tyres.",
+"s": 352.6,
+"e": 353.1
+},
+{
+"w": "No",
+"s": 353.72,
+"e": 353.82
+},
+{
+"w": "spare",
+"s": 353.92,
+"e": 354.2
+},
+{
+"w": "wheel,",
+"s": 354.28,
+"e": 354.56
+},
+{
+"w": "nobody",
+"s": 355.06,
+"e": 355.44
+},
+{
+"w": "with",
+"s": 355.46,
+"e": 355.56
+},
+{
+"w": "a",
+"s": 355.6,
+"e": 355.68
+},
+{
+"w": "pump,",
+"s": 355.72,
+"e": 356.02
+},
+{
+"w": "nothing.",
+"s": 356.6,
+"e": 357.02
+},
+{
+"w": "That's",
+"s": 357.62,
+"e": 357.78
+},
+{
+"w": "about",
+"s": 357.84,
+"e": 358.1
+},
+{
+"w": "twenty-five",
+"s": 358.16,
+"e": 358.68
+},
+{
+"w": "miles",
+"s": 358.76,
+"e": 359.04
+},
+{
+"w": "on",
+"s": 359.08,
+"e": 359.16
+},
+{
+"w": "the",
+"s": 359.2,
+"e": 359.26
+},
+{
+"w": "rims,",
+"s": 359.34,
+"e": 359.7
+},
+{
+"w": "and",
+"s": 360.0,
+"e": 360.08
+},
+{
+"w": "he",
+"s": 360.12,
+"e": 360.26
+},
+{
+"w": "still",
+"s": 360.42,
+"e": 360.66
+},
+{
+"w": "finished",
+"s": 360.76,
+"e": 361.02
+},
+{
+"w": "the",
+"s": 361.04,
+"e": 361.14
+},
+{
+"w": "stage.",
+"s": 361.2,
+"e": 361.58
+},
+{
+"w": "When",
+"s": 362.24,
+"e": 362.34
+},
+{
+"w": "the",
+"s": 362.36,
+"e": 362.44
+},
+{
+"w": "race",
+"s": 362.48,
+"e": 362.68
+},
+{
+"w": "got",
+"s": 362.72,
+"e": 362.88
+},
+{
+"w": "back",
+"s": 362.94,
+"e": 363.1
+},
+{
+"w": "to",
+"s": 363.14,
+"e": 363.24
+},
+{
+"w": "Paris,",
+"s": 363.3,
+"e": 363.72
+},
+{
+"w": "he",
+"s": 363.98,
+"e": 364.06
+},
+{
+"w": "was",
+"s": 364.1,
+"e": 364.22
+},
+{
+"w": "fifth,",
+"s": 364.38,
+"e": 364.7
+},
+{
+"w": "nearly",
+"s": 365.18,
+"e": 365.52
+},
+{
+"w": "three",
+"s": 365.6,
+"e": 365.84
+},
+{
+"w": "hours",
+"s": 366.08,
+"e": 366.4
+},
+{
+"w": "behind",
+"s": 366.46,
+"e": 366.76
+},
+{
+"w": "Garin.",
+"s": 366.8,
+"e": 367.18
+},
+{
+"w": "That's",
+"s": 367.816,
+"e": 367.996
+},
+{
+"w": "about",
+"s": 368.056,
+"e": 368.256
+},
+{
+"w": "the",
+"s": 368.276,
+"e": 368.356
+},
+{
+"w": "gap",
+"s": 368.436,
+"e": 368.636
+},
+{
+"w": "Garin",
+"s": 368.756,
+"e": 369.016
+},
+{
+"w": "had",
+"s": 369.076,
+"e": 369.236
+},
+{
+"w": "won",
+"s": 369.296,
+"e": 369.516
+},
+{
+"w": "by",
+"s": 369.556,
+"e": 369.656
+},
+{
+"w": "the",
+"s": 369.716,
+"e": 369.776
+},
+{
+"w": "year",
+"s": 369.816,
+"e": 369.956
+},
+{
+"w": "before.",
+"s": 369.996,
+"e": 370.416
+},
+{
+"w": "Nobody",
+"s": 371.136,
+"e": 371.496
+},
+{
+"w": "thought",
+"s": 371.536,
+"e": 371.756
+},
+{
+"w": "fifth",
+"s": 371.936,
+"e": 372.156
+},
+{
+"w": "place",
+"s": 372.276,
+"e": 372.576
+},
+{
+"w": "was",
+"s": 372.636,
+"e": 372.736
+},
+{
+"w": "going",
+"s": 372.776,
+"e": 372.976
+},
+{
+"w": "to",
+"s": 373.016,
+"e": 373.096
+},
+{
+"w": "matter.",
+"s": 373.176,
+"e": 373.496
+},
+{
+"w": "The",
+"s": 374.176,
+"e": 374.256
+},
+{
+"w": "1904",
+"s": 374.296,
+"e": 375.056
+},
+{
+"w": "Tour",
+"s": 375.156,
+"e": 375.376
+},
+{
+"w": "would",
+"s": 375.456,
+"e": 375.576
+},
+{
+"w": "be",
+"s": 375.616,
+"e": 375.696
+},
+{
+"w": "decided",
+"s": 375.736,
+"e": 376.236
+},
+{
+"w": "four",
+"s": 376.296,
+"e": 376.456
+},
+{
+"w": "months",
+"s": 376.536,
+"e": 376.756
+},
+{
+"w": "later,",
+"s": 376.856,
+"e": 377.136
+},
+{
+"w": "in",
+"s": 377.496,
+"e": 377.636
+},
+{
+"w": "Paris,",
+"s": 377.696,
+"e": 378.136
+},
+{
+"w": "in",
+"s": 378.536,
+"e": 378.596
+},
+{
+"w": "a",
+"s": 378.656,
+"e": 378.696
+},
+{
+"w": "room",
+"s": 378.776,
+"e": 379.076
+},
+{
+"w": "none",
+"s": 379.156,
+"e": 379.296
+},
+{
+"w": "of",
+"s": 379.336,
+"e": 379.396
+},
+{
+"w": "the",
+"s": 379.436,
+"e": 379.516
+},
+{
+"w": "riders",
+"s": 379.576,
+"e": 379.916
+},
+{
+"w": "were",
+"s": 379.956,
+"e": 380.096
+},
+{
+"w": "in.",
+"s": 380.156,
+"e": 380.376
+},
+{
+"w": "The",
+"s": 381.936,
+"e": 382.016
+},
+{
+"w": "last",
+"s": 382.056,
+"e": 382.276
+},
+{
+"w": "stage",
+"s": 382.316,
+"e": 382.596
+},
+{
+"w": "came",
+"s": 382.696,
+"e": 382.876
+},
+{
+"w": "in",
+"s": 382.936,
+"e": 383.036
+},
+{
+"w": "on",
+"s": 383.076,
+"e": 383.136
+},
+{
+"w": "the",
+"s": 383.176,
+"e": 383.256
+},
+{
+"w": "twenty-fourth",
+"s": 383.316,
+"e": 383.856
+},
+{
+"w": "of",
+"s": 383.896,
+"e": 383.956
+},
+{
+"w": "July,",
+"s": 384.036,
+"e": 384.436
+},
+{
+"w": "in",
+"s": 384.856,
+"e": 385.056
+},
+{
+"w": "pouring",
+"s": 385.136,
+"e": 385.596
+},
+{
+"w": "rain.",
+"s": 385.696,
+"e": 386.016
+},
+{
+"w": "It",
+"s": 386.636,
+"e": 386.716
+},
+{
+"w": "was",
+"s": 386.776,
+"e": 386.996
+},
+{
+"w": "so",
+"s": 387.116,
+"e": 387.296
+},
+{
+"w": "wet",
+"s": 387.476,
+"e": 387.736
+},
+{
+"w": "that",
+"s": 387.796,
+"e": 387.896
+},
+{
+"w": "they",
+"s": 387.916,
+"e": 388.056
+},
+{
+"w": "finished",
+"s": 388.136,
+"e": 388.436
+},
+{
+"w": "it",
+"s": 388.476,
+"e": 388.576
+},
+{
+"w": "at",
+"s": 388.616,
+"e": 388.776
+},
+{
+"w": "Ville-d'Avray,",
+"s": 388.836,
+"e": 389.416
+},
+{
+"w": "just",
+"s": 389.756,
+"e": 389.936
+},
+{
+"w": "outside",
+"s": 389.976,
+"e": 390.356
+},
+{
+"w": "Paris,",
+"s": 390.416,
+"e": 390.796
+},
+{
+"w": "and",
+"s": 391.176,
+"e": 391.276
+},
+{
+"w": "called",
+"s": 391.356,
+"e": 391.576
+},
+{
+"w": "off",
+"s": 391.636,
+"e": 391.776
+},
+{
+"w": "the",
+"s": 391.816,
+"e": 391.896
+},
+{
+"w": "lap",
+"s": 391.936,
+"e": 392.096
+},
+{
+"w": "of",
+"s": 392.136,
+"e": 392.236
+},
+{
+"w": "honour",
+"s": 392.316,
+"e": 392.536
+},
+{
+"w": "in",
+"s": 392.576,
+"e": 392.636
+},
+{
+"w": "the",
+"s": 392.676,
+"e": 392.756
+},
+{
+"w": "stadium.",
+"s": 392.816,
+"e": 393.236
+},
+{
+"w": "They'd",
+"s": 393.856,
+"e": 394.036
+},
+{
+"w": "ridden",
+"s": 394.076,
+"e": 394.296
+},
+{
+"w": "about",
+"s": 394.376,
+"e": 394.656
+},
+{
+"w": "two",
+"s": 394.716,
+"e": 395.108
+},
+{
+"w": "thousand",
+"s": 395.108,
+"e": 395.5
+},
+{
+"w": "four",
+"s": 395.5,
+"e": 395.892
+},
+{
+"w": "hundred",
+"s": 395.892,
+"e": 396.284
+},
+{
+"w": "kilometres",
+"s": 396.284,
+"e": 396.676
+},
+{
+"w": "in",
+"s": 396.776,
+"e": 396.936
+},
+{
+"w": "three",
+"s": 397.016,
+"e": 397.236
+},
+{
+"w": "weeks.",
+"s": 397.336,
+"e": 397.696
+},
+{
+"w": "Eighty-eight",
+"s": 398.356,
+"e": 398.816
+},
+{
+"w": "riders",
+"s": 398.916,
+"e": 399.316
+},
+{
+"w": "had",
+"s": 399.376,
+"e": 399.516
+},
+{
+"w": "started.",
+"s": 399.596,
+"e": 399.976
+},
+{
+"w": "Twenty-seven",
+"s": 400.656,
+"e": 401.416
+},
+{
+"w": "made",
+"s": 401.496,
+"e": 401.636
+},
+{
+"w": "it",
+"s": 401.676,
+"e": 401.736
+},
+{
+"w": "to",
+"s": 401.796,
+"e": 401.876
+},
+{
+"w": "the",
+"s": 401.936,
+"e": 402.016
+},
+{
+"w": "end.",
+"s": 402.076,
+"e": 402.316
+},
+{
+"w": "Maurice",
+"s": 403.016,
+"e": 403.336
+},
+{
+"w": "Garin",
+"s": 403.416,
+"e": 403.756
+},
+{
+"w": "had",
+"s": 403.876,
+"e": 404.036
+},
+{
+"w": "won",
+"s": 404.096,
+"e": 404.236
+},
+{
+"w": "the",
+"s": 404.276,
+"e": 404.376
+},
+{
+"w": "Tour",
+"s": 404.436,
+"e": 404.576
+},
+{
+"w": "de",
+"s": 404.616,
+"e": 404.696
+},
+{
+"w": "France",
+"s": 404.776,
+"e": 405.096
+},
+{
+"w": "for",
+"s": 405.156,
+"e": 405.256
+},
+{
+"w": "the",
+"s": 405.296,
+"e": 405.396
+},
+{
+"w": "second",
+"s": 405.536,
+"e": 405.836
+},
+{
+"w": "year",
+"s": 405.916,
+"e": 406.076
+},
+{
+"w": "running.",
+"s": 406.156,
+"e": 406.496
+},
+{
+"w": "Pothier",
+"s": 407.076,
+"e": 407.436
+},
+{
+"w": "was",
+"s": 407.496,
+"e": 407.636
+},
+{
+"w": "second",
+"s": 407.696,
+"e": 408.096
+},
+{
+"w": "and",
+"s": 408.376,
+"e": 408.536
+},
+{
+"w": "Garin's",
+"s": 408.596,
+"e": 408.976
+},
+{
+"w": "brother",
+"s": 409.016,
+"e": 409.336
+},
+{
+"w": "C\u00e9sar",
+"s": 409.416,
+"e": 409.916
+},
+{
+"w": "third,",
+"s": 410.056,
+"e": 410.356
+},
+{
+"w": "so",
+"s": 410.916,
+"e": 411.096
+},
+{
+"w": "one",
+"s": 411.176,
+"e": 411.316
+},
+{
+"w": "team",
+"s": 411.416,
+"e": 411.616
+},
+{
+"w": "had",
+"s": 411.676,
+"e": 411.776
+},
+{
+"w": "the",
+"s": 411.796,
+"e": 411.916
+},
+{
+"w": "first",
+"s": 411.976,
+"e": 412.196
+},
+{
+"w": "three",
+"s": 412.256,
+"e": 412.396
+},
+{
+"w": "places,",
+"s": 412.496,
+"e": 412.936
+},
+{
+"w": "and",
+"s": 413.456,
+"e": 413.636
+},
+{
+"w": "Hippolyte",
+"s": 413.696,
+"e": 414.096
+},
+{
+"w": "Aucouturier",
+"s": 414.136,
+"e": 414.756
+},
+{
+"w": "was",
+"s": 414.896,
+"e": 415.076
+},
+{
+"w": "fourth.",
+"s": 415.136,
+"e": 415.476
+},
+{
+"w": "And",
+"s": 416.116,
+"e": 416.196
+},
+{
+"w": "the",
+"s": 416.236,
+"e": 416.296
+},
+{
+"w": "next",
+"s": 416.336,
+"e": 416.556
+},
+{
+"w": "morning,",
+"s": 416.616,
+"e": 416.936
+},
+{
+"w": "the",
+"s": 417.296,
+"e": 417.356
+},
+{
+"w": "man",
+"s": 417.416,
+"e": 417.596
+},
+{
+"w": "who'd",
+"s": 417.636,
+"e": 417.816
+},
+{
+"w": "started",
+"s": 417.916,
+"e": 418.216
+},
+{
+"w": "the",
+"s": 418.236,
+"e": 418.316
+},
+{
+"w": "whole",
+"s": 418.356,
+"e": 418.516
+},
+{
+"w": "thing",
+"s": 418.616,
+"e": 418.836
+},
+{
+"w": "wrote",
+"s": 419.116,
+"e": 419.336
+},
+{
+"w": "that",
+"s": 419.376,
+"e": 419.476
+},
+{
+"w": "it",
+"s": 419.496,
+"e": 419.556
+},
+{
+"w": "was",
+"s": 419.596,
+"e": 419.736
+},
+{
+"w": "over.",
+"s": 419.816,
+"e": 420.056
+},
+{
+"w": "Henri",
+"s": 420.696,
+"e": 420.956
+},
+{
+"w": "Desgrange",
+"s": 420.996,
+"e": 421.516
+},
+{
+"w": "put",
+"s": 421.616,
+"e": 421.716
+},
+{
+"w": "an",
+"s": 421.756,
+"e": 421.876
+},
+{
+"w": "article",
+"s": 421.936,
+"e": 422.316
+},
+{
+"w": "on",
+"s": 422.356,
+"e": 422.436
+},
+{
+"w": "the",
+"s": 422.476,
+"e": 422.556
+},
+{
+"w": "front",
+"s": 422.616,
+"e": 422.816
+},
+{
+"w": "of",
+"s": 422.876,
+"e": 422.956
+},
+{
+"w": "L'Auto,",
+"s": 422.996,
+"e": 423.336
+},
+{
+"w": "and",
+"s": 423.756,
+"e": 423.836
+},
+{
+"w": "he",
+"s": 423.876,
+"e": 423.976
+},
+{
+"w": "called",
+"s": 424.036,
+"e": 424.256
+},
+{
+"w": "it",
+"s": 424.296,
+"e": 424.436
+},
+{
+"w": "The",
+"s": 424.796,
+"e": 424.956
+},
+{
+"w": "End.",
+"s": 425.096,
+"e": 425.396
+},
+{
+"w": "The",
+"s": 425.976,
+"e": 426.076
+},
+{
+"w": "Tour",
+"s": 426.136,
+"e": 426.276
+},
+{
+"w": "de",
+"s": 426.336,
+"e": 426.396
+},
+{
+"w": "France",
+"s": 426.476,
+"e": 426.736
+},
+{
+"w": "is",
+"s": 426.776,
+"e": 426.896
+},
+{
+"w": "finished,",
+"s": 426.996,
+"e": 427.396
+},
+{
+"w": "he",
+"s": 427.796,
+"e": 427.896
+},
+{
+"w": "wrote,",
+"s": 427.916,
+"e": 428.196
+},
+{
+"w": "and",
+"s": 428.736,
+"e": 428.836
+},
+{
+"w": "I'm",
+"s": 428.876,
+"e": 428.956
+},
+{
+"w": "afraid",
+"s": 428.996,
+"e": 429.356
+},
+{
+"w": "its",
+"s": 429.396,
+"e": 429.556
+},
+{
+"w": "second",
+"s": 429.636,
+"e": 429.876
+},
+{
+"w": "edition",
+"s": 429.936,
+"e": 430.356
+},
+{
+"w": "will",
+"s": 430.536,
+"e": 430.736
+},
+{
+"w": "also",
+"s": 430.816,
+"e": 431.076
+},
+{
+"w": "have",
+"s": 431.136,
+"e": 431.276
+},
+{
+"w": "been",
+"s": 431.316,
+"e": 431.416
+},
+{
+"w": "its",
+"s": 431.456,
+"e": 431.596
+},
+{
+"w": "last.",
+"s": 431.676,
+"e": 432.096
+},
+{
+"w": "It",
+"s": 432.695,
+"e": 432.796
+},
+{
+"w": "would",
+"s": 432.816,
+"e": 432.996
+},
+{
+"w": "die",
+"s": 433.055,
+"e": 433.276
+},
+{
+"w": "of",
+"s": 433.336,
+"e": 433.396
+},
+{
+"w": "its",
+"s": 433.436,
+"e": 433.616
+},
+{
+"w": "own",
+"s": 433.676,
+"e": 433.836
+},
+{
+"w": "success,",
+"s": 433.896,
+"e": 434.496
+},
+{
+"w": "he",
+"s": 434.836,
+"e": 434.956
+},
+{
+"w": "said,",
+"s": 435.016,
+"e": 435.236
+},
+{
+"w": "and",
+"s": 435.776,
+"e": 435.856
+},
+{
+"w": "of",
+"s": 435.896,
+"e": 435.976
+},
+{
+"w": "the",
+"s": 436.016,
+"e": 436.076
+},
+{
+"w": "blind",
+"s": 436.156,
+"e": 436.476
+},
+{
+"w": "passions",
+"s": 436.596,
+"e": 437.116
+},
+{
+"w": "it",
+"s": 437.156,
+"e": 437.236
+},
+{
+"w": "had",
+"s": 437.276,
+"e": 437.416
+},
+{
+"w": "stirred",
+"s": 437.516,
+"e": 437.756
+},
+{
+"w": "up.",
+"s": 437.856,
+"e": 438.016
+},
+{
+"w": "He",
+"s": 438.616,
+"e": 438.716
+},
+{
+"w": "said",
+"s": 438.776,
+"e": 438.936
+},
+{
+"w": "they'd",
+"s": 438.956,
+"e": 439.136
+},
+{
+"w": "reached",
+"s": 439.196,
+"e": 439.416
+},
+{
+"w": "the",
+"s": 439.456,
+"e": 439.576
+},
+{
+"w": "end",
+"s": 439.636,
+"e": 439.796
+},
+{
+"w": "of",
+"s": 439.836,
+"e": 439.916
+},
+{
+"w": "it",
+"s": 439.956,
+"e": 440.076
+},
+{
+"w": "disgusted",
+"s": 440.416,
+"e": 441.116
+},
+{
+"w": "and",
+"s": 441.156,
+"e": 441.276
+},
+{
+"w": "worn",
+"s": 441.376,
+"e": 441.596
+},
+{
+"w": "down,",
+"s": 441.676,
+"e": 441.996
+},
+{
+"w": "after",
+"s": 442.476,
+"e": 442.696
+},
+{
+"w": "three",
+"s": 442.836,
+"e": 443.096
+},
+{
+"w": "weeks",
+"s": 443.216,
+"e": 443.496
+},
+{
+"w": "of",
+"s": 443.556,
+"e": 443.636
+},
+{
+"w": "the",
+"s": 443.696,
+"e": 443.756
+},
+{
+"w": "worst",
+"s": 443.916,
+"e": 444.216
+},
+{
+"w": "insults",
+"s": 444.376,
+"e": 444.796
+},
+{
+"w": "and",
+"s": 444.816,
+"e": 444.916
+},
+{
+"w": "slander.",
+"s": 445.056,
+"e": 445.476
+},
+{
+"w": "The",
+"s": 446.176,
+"e": 446.276
+},
+{
+"w": "worst",
+"s": 446.316,
+"e": 446.576
+},
+{
+"w": "of",
+"s": 446.636,
+"e": 446.716
+},
+{
+"w": "it,",
+"s": 446.756,
+"e": 446.836
+},
+{
+"w": "he",
+"s": 447.136,
+"e": 447.256
+},
+{
+"w": "wrote,",
+"s": 447.276,
+"e": 447.556
+},
+{
+"w": "was",
+"s": 448.016,
+"e": 448.156
+},
+{
+"w": "people",
+"s": 448.196,
+"e": 448.436
+},
+{
+"w": "calling",
+"s": 448.536,
+"e": 448.836
+},
+{
+"w": "L'Auto",
+"s": 448.876,
+"e": 449.276
+},
+{
+"w": "the",
+"s": 449.416,
+"e": 449.496
+},
+{
+"w": "accomplice",
+"s": 449.536,
+"e": 450.236
+},
+{
+"w": "of",
+"s": 450.296,
+"e": 450.376
+},
+{
+"w": "one",
+"s": 450.416,
+"e": 450.516
+},
+{
+"w": "of",
+"s": 450.556,
+"e": 450.616
+},
+{
+"w": "the",
+"s": 450.656,
+"e": 450.716
+},
+{
+"w": "bike",
+"s": 450.836,
+"e": 451.056
+},
+{
+"w": "makers",
+"s": 451.116,
+"e": 451.456
+},
+{
+"w": "in",
+"s": 451.496,
+"e": 451.556
+},
+{
+"w": "the",
+"s": 451.596,
+"e": 451.656
+},
+{
+"w": "race.",
+"s": 451.716,
+"e": 452.076
+},
+{
+"w": "He",
+"s": 452.816,
+"e": 452.916
+},
+{
+"w": "meant",
+"s": 453.016,
+"e": 453.256
+},
+{
+"w": "it.",
+"s": 453.296,
+"e": 453.496
+},
+{
+"w": "He",
+"s": 454.336,
+"e": 454.416
+},
+{
+"w": "was",
+"s": 454.456,
+"e": 454.596
+},
+{
+"w": "ready",
+"s": 454.656,
+"e": 454.856
+},
+{
+"w": "to",
+"s": 454.896,
+"e": 455.016
+},
+{
+"w": "drop",
+"s": 455.056,
+"e": 455.296
+},
+{
+"w": "the",
+"s": 455.336,
+"e": 455.416
+},
+{
+"w": "race",
+"s": 455.456,
+"e": 455.676
+},
+{
+"w": "for",
+"s": 455.736,
+"e": 455.856
+},
+{
+"w": "good,",
+"s": 456.016,
+"e": 456.276
+},
+{
+"w": "after",
+"s": 456.836,
+"e": 457.056
+},
+{
+"w": "two",
+"s": 457.196,
+"e": 457.396
+},
+{
+"w": "years.",
+"s": 457.516,
+"e": 457.936
+},
+{
+"w": "He",
+"s": 458.576,
+"e": 458.696
+},
+{
+"w": "wrote",
+"s": 458.716,
+"e": 458.916
+},
+{
+"w": "that",
+"s": 458.956,
+"e": 459.096
+},
+{
+"w": "L'Auto",
+"s": 459.176,
+"e": 459.516
+},
+{
+"w": "had",
+"s": 459.576,
+"e": 459.736
+},
+{
+"w": "punished",
+"s": 459.796,
+"e": 460.116
+},
+{
+"w": "every",
+"s": 460.356,
+"e": 460.616
+},
+{
+"w": "cheat",
+"s": 460.756,
+"e": 460.996
+},
+{
+"w": "it",
+"s": 461.056,
+"e": 461.136
+},
+{
+"w": "had",
+"s": 461.196,
+"e": 461.356
+},
+{
+"w": "real",
+"s": 461.436,
+"e": 461.636
+},
+{
+"w": "proof",
+"s": 461.736,
+"e": 461.956
+},
+{
+"w": "against,",
+"s": 461.996,
+"e": 462.416
+},
+{
+"w": "and",
+"s": 462.856,
+"e": 462.916
+},
+{
+"w": "that",
+"s": 462.956,
+"e": 463.056
+},
+{
+"w": "a",
+"s": 463.096,
+"e": 463.156
+},
+{
+"w": "rider's",
+"s": 463.216,
+"e": 463.596
+},
+{
+"w": "word",
+"s": 463.676,
+"e": 463.876
+},
+{
+"w": "against",
+"s": 463.936,
+"e": 464.216
+},
+{
+"w": "a",
+"s": 464.236,
+"e": 464.316
+},
+{
+"w": "rival",
+"s": 464.356,
+"e": 464.716
+},
+{
+"w": "wasn't",
+"s": 465.036,
+"e": 465.356
+},
+{
+"w": "proof.",
+"s": 465.416,
+"e": 465.776
+},
+{
+"w": "But",
+"s": 466.356,
+"e": 466.456
+},
+{
+"w": "in",
+"s": 466.516,
+"e": 466.576
+},
+{
+"w": "the",
+"s": 466.616,
+"e": 466.716
+},
+{
+"w": "very",
+"s": 466.796,
+"e": 467.036
+},
+{
+"w": "next",
+"s": 467.096,
+"e": 467.316
+},
+{
+"w": "sentence,",
+"s": 467.396,
+"e": 467.896
+},
+{
+"w": "he",
+"s": 468.216,
+"e": 468.296
+},
+{
+"w": "left",
+"s": 468.356,
+"e": 468.536
+},
+{
+"w": "one",
+"s": 468.736,
+"e": 468.876
+},
+{
+"w": "door",
+"s": 468.976,
+"e": 469.196
+},
+{
+"w": "open.",
+"s": 469.276,
+"e": 469.596
+},
+{
+"w": "The",
+"s": 470.256,
+"e": 470.336
+},
+{
+"w": "book",
+"s": 470.376,
+"e": 470.536
+},
+{
+"w": "for",
+"s": 470.576,
+"e": 470.676
+},
+{
+"w": "complaints,",
+"s": 470.716,
+"e": 471.316
+},
+{
+"w": "he",
+"s": 471.576,
+"e": 471.696
+},
+{
+"w": "wrote,",
+"s": 471.716,
+"e": 471.956
+},
+{
+"w": "would",
+"s": 472.396,
+"e": 472.516
+},
+{
+"w": "stay",
+"s": 472.576,
+"e": 472.776
+},
+{
+"w": "open",
+"s": 472.856,
+"e": 473.096
+},
+{
+"w": "for",
+"s": 473.156,
+"e": 473.336
+},
+{
+"w": "three",
+"s": 473.416,
+"e": 473.616
+},
+{
+"w": "more",
+"s": 473.696,
+"e": 473.856
+},
+{
+"w": "days.",
+"s": 473.916,
+"e": 474.296
+},
+{
+"w": "And",
+"s": 474.936,
+"e": 475.016
+},
+{
+"w": "the",
+"s": 475.056,
+"e": 475.116
+},
+{
+"w": "complaints",
+"s": 475.156,
+"e": 475.656
+},
+{
+"w": "kept",
+"s": 475.796,
+"e": 476.036
+},
+{
+"w": "coming,",
+"s": 476.156,
+"e": 476.536
+},
+{
+"w": "from",
+"s": 477.016,
+"e": 477.176
+},
+{
+"w": "riders",
+"s": 477.256,
+"e": 477.596
+},
+{
+"w": "who'd",
+"s": 477.616,
+"e": 477.756
+},
+{
+"w": "been",
+"s": 477.796,
+"e": 477.916
+},
+{
+"w": "out",
+"s": 477.956,
+"e": 478.076
+},
+{
+"w": "on",
+"s": 478.116,
+"e": 478.216
+},
+{
+"w": "those",
+"s": 478.256,
+"e": 478.456
+},
+{
+"w": "roads.",
+"s": 478.536,
+"e": 478.916
+},
+{
+"w": "They",
+"s": 480.516,
+"e": 480.636
+},
+{
+"w": "said",
+"s": 480.696,
+"e": 480.856
+},
+{
+"w": "they'd",
+"s": 480.876,
+"e": 481.116
+},
+{
+"w": "seen",
+"s": 481.196,
+"e": 481.396
+},
+{
+"w": "things",
+"s": 481.476,
+"e": 481.716
+},
+{
+"w": "out",
+"s": 481.776,
+"e": 481.896
+},
+{
+"w": "on",
+"s": 481.936,
+"e": 482.016
+},
+{
+"w": "the",
+"s": 482.056,
+"e": 482.116
+},
+{
+"w": "road,",
+"s": 482.196,
+"e": 482.476
+},
+{
+"w": "and",
+"s": 482.976,
+"e": 483.056
+},
+{
+"w": "they",
+"s": 483.096,
+"e": 483.236
+},
+{
+"w": "weren't",
+"s": 483.296,
+"e": 483.496
+},
+{
+"w": "keeping",
+"s": 483.536,
+"e": 483.796
+},
+{
+"w": "quiet",
+"s": 483.856,
+"e": 484.136
+},
+{
+"w": "about",
+"s": 484.196,
+"e": 484.416
+},
+{
+"w": "it.",
+"s": 484.456,
+"e": 484.636
+},
+{
+"w": "France's",
+"s": 485.276,
+"e": 485.716
+},
+{
+"w": "cycling",
+"s": 485.796,
+"e": 486.176
+},
+{
+"w": "union,",
+"s": 486.296,
+"e": 486.576
+},
+{
+"w": "the",
+"s": 486.996,
+"e": 487.056
+},
+{
+"w": "body",
+"s": 487.116,
+"e": 487.336
+},
+{
+"w": "that",
+"s": 487.396,
+"e": 487.536
+},
+{
+"w": "ran",
+"s": 487.616,
+"e": 487.796
+},
+{
+"w": "the",
+"s": 487.836,
+"e": 487.936
+},
+{
+"w": "sport,",
+"s": 487.976,
+"e": 488.256
+},
+{
+"w": "opened",
+"s": 488.776,
+"e": 489.036
+},
+{
+"w": "an",
+"s": 489.076,
+"e": 489.196
+},
+{
+"w": "inquiry.",
+"s": 489.256,
+"e": 489.696
+},
+{
+"w": "It",
+"s": 490.396,
+"e": 490.496
+},
+{
+"w": "went",
+"s": 490.556,
+"e": 490.756
+},
+{
+"w": "on",
+"s": 490.836,
+"e": 491.016
+},
+{
+"w": "for",
+"s": 491.076,
+"e": 491.176
+},
+{
+"w": "four",
+"s": 491.396,
+"e": 491.616
+},
+{
+"w": "months.",
+"s": 491.776,
+"e": 492.176
+},
+{
+"w": "All",
+"s": 492.916,
+"e": 493.056
+},
+{
+"w": "through",
+"s": 493.096,
+"e": 493.256
+},
+{
+"w": "the",
+"s": 493.316,
+"e": 493.396
+},
+{
+"w": "autumn,",
+"s": 493.476,
+"e": 493.756
+},
+{
+"w": "Garin",
+"s": 494.176,
+"e": 494.536
+},
+{
+"w": "was",
+"s": 494.576,
+"e": 494.716
+},
+{
+"w": "still",
+"s": 494.856,
+"e": 495.076
+},
+{
+"w": "the",
+"s": 495.116,
+"e": 495.196
+},
+{
+"w": "winner",
+"s": 495.256,
+"e": 495.476
+},
+{
+"w": "of",
+"s": 495.536,
+"e": 495.596
+},
+{
+"w": "the",
+"s": 495.635,
+"e": 495.716
+},
+{
+"w": "Tour",
+"s": 495.756,
+"e": 495.896
+},
+{
+"w": "de",
+"s": 495.936,
+"e": 496.015
+},
+{
+"w": "France.",
+"s": 496.096,
+"e": 496.456
+},
+{
+"w": "On",
+"s": 497.075,
+"e": 497.156
+},
+{
+"w": "the",
+"s": 497.196,
+"e": 497.276
+},
+{
+"w": "thirtieth",
+"s": 497.336,
+"e": 497.696
+},
+{
+"w": "of",
+"s": 497.756,
+"e": 497.836
+},
+{
+"w": "November",
+"s": 497.876,
+"e": 498.355
+},
+{
+"w": "the",
+"s": 498.696,
+"e": 498.796
+},
+{
+"w": "union",
+"s": 498.896,
+"e": 499.176
+},
+{
+"w": "gave",
+"s": 499.276,
+"e": 499.436
+},
+{
+"w": "its",
+"s": 499.456,
+"e": 499.636
+},
+{
+"w": "verdict,",
+"s": 499.696,
+"e": 500.056
+},
+{
+"w": "and",
+"s": 500.556,
+"e": 500.676
+},
+{
+"w": "two",
+"s": 500.736,
+"e": 500.836
+},
+{
+"w": "days",
+"s": 500.896,
+"e": 501.096
+},
+{
+"w": "later",
+"s": 501.156,
+"e": 501.396
+},
+{
+"w": "L'Auto",
+"s": 501.836,
+"e": 502.156
+},
+{
+"w": "printed",
+"s": 502.256,
+"e": 502.596
+},
+{
+"w": "a",
+"s": 502.656,
+"e": 502.716
+},
+{
+"w": "new",
+"s": 502.796,
+"e": 502.956
+},
+{
+"w": "result.",
+"s": 502.996,
+"e": 503.436
+},
+{
+"w": "It",
+"s": 504.056,
+"e": 504.156
+},
+{
+"w": "didn't",
+"s": 504.216,
+"e": 504.496
+},
+{
+"w": "start",
+"s": 504.636,
+"e": 504.916
+},
+{
+"w": "with",
+"s": 504.956,
+"e": 505.076
+},
+{
+"w": "Garin.",
+"s": 505.156,
+"e": 505.516
+},
+{
+"w": "The",
+"s": 506.216,
+"e": 506.316
+},
+{
+"w": "first",
+"s": 506.396,
+"e": 506.656
+},
+{
+"w": "four",
+"s": 506.776,
+"e": 506.956
+},
+{
+"w": "names",
+"s": 507.036,
+"e": 507.316
+},
+{
+"w": "from",
+"s": 507.376,
+"e": 507.516
+},
+{
+"w": "July",
+"s": 507.576,
+"e": 508.076
+},
+{
+"w": "were",
+"s": 508.156,
+"e": 508.316
+},
+{
+"w": "gone.",
+"s": 508.356,
+"e": 508.716
+},
+{
+"w": "Maurice",
+"s": 509.356,
+"e": 509.656
+},
+{
+"w": "Garin,",
+"s": 509.716,
+"e": 510.056
+},
+{
+"w": "Lucien",
+"s": 510.476,
+"e": 510.796
+},
+{
+"w": "Pothier,",
+"s": 510.856,
+"e": 511.236
+},
+{
+"w": "C\u00e9sar",
+"s": 511.656,
+"e": 511.956
+},
+{
+"w": "Garin",
+"s": 512.016,
+"e": 512.376
+},
+{
+"w": "and",
+"s": 512.576,
+"e": 512.716
+},
+{
+"w": "Hippolyte",
+"s": 512.776,
+"e": 513.156
+},
+{
+"w": "Aucouturier",
+"s": 513.196,
+"e": 513.796
+},
+{
+"w": "were",
+"s": 513.996,
+"e": 514.216
+},
+{
+"w": "all",
+"s": 514.296,
+"e": 514.456
+},
+{
+"w": "disqualified.",
+"s": 514.496,
+"e": 515.276
+},
+{
+"w": "Twenty-nine",
+"s": 515.836,
+"e": 516.376
+},
+{
+"w": "riders",
+"s": 516.456,
+"e": 516.876
+},
+{
+"w": "were",
+"s": 516.916,
+"e": 517.076
+},
+{
+"w": "punished",
+"s": 517.136,
+"e": 517.496
+},
+{
+"w": "in",
+"s": 517.536,
+"e": 517.636
+},
+{
+"w": "all.",
+"s": 517.696,
+"e": 517.916
+},
+{
+"w": "Garin",
+"s": 518.636,
+"e": 518.956
+},
+{
+"w": "was",
+"s": 519.016,
+"e": 519.156
+},
+{
+"w": "banned",
+"s": 519.236,
+"e": 519.516
+},
+{
+"w": "for",
+"s": 519.576,
+"e": 519.736
+},
+{
+"w": "two",
+"s": 519.816,
+"e": 520.016
+},
+{
+"w": "years.",
+"s": 520.116,
+"e": 520.516
+},
+{
+"w": "Pothier,",
+"s": 521.196,
+"e": 521.596
+},
+{
+"w": "the",
+"s": 521.976,
+"e": 522.036
+},
+{
+"w": "man",
+"s": 522.096,
+"e": 522.236
+},
+{
+"w": "in",
+"s": 522.276,
+"e": 522.396
+},
+{
+"w": "second,",
+"s": 522.496,
+"e": 522.876
+},
+{
+"w": "was",
+"s": 523.196,
+"e": 523.336
+},
+{
+"w": "banned",
+"s": 523.416,
+"e": 523.656
+},
+{
+"w": "for",
+"s": 523.716,
+"e": 523.836
+},
+{
+"w": "life,",
+"s": 523.936,
+"e": 524.256
+},
+{
+"w": "though",
+"s": 524.736,
+"e": 524.976
+},
+{
+"w": "that",
+"s": 525.056,
+"e": 525.156
+},
+{
+"w": "was",
+"s": 525.196,
+"e": 525.296
+},
+{
+"w": "later",
+"s": 525.356,
+"e": 525.556
+},
+{
+"w": "cut",
+"s": 525.656,
+"e": 525.796
+},
+{
+"w": "to",
+"s": 525.836,
+"e": 525.936
+},
+{
+"w": "three",
+"s": 525.996,
+"e": 526.196
+},
+{
+"w": "years.",
+"s": 526.276,
+"e": 526.636
+},
+{
+"w": "The",
+"s": 527.336,
+"e": 527.416
+},
+{
+"w": "man",
+"s": 527.456,
+"e": 527.656
+},
+{
+"w": "moved",
+"s": 527.696,
+"e": 527.896
+},
+{
+"w": "up",
+"s": 527.956,
+"e": 528.056
+},
+{
+"w": "to",
+"s": 528.096,
+"e": 528.216
+},
+{
+"w": "second",
+"s": 528.296,
+"e": 528.756
+},
+{
+"w": "was",
+"s": 528.836,
+"e": 528.996
+},
+{
+"w": "Jean-Baptiste",
+"s": 529.036,
+"e": 529.616
+},
+{
+"w": "Dortignacq,",
+"s": 529.696,
+"e": 530.316
+},
+{
+"w": "more",
+"s": 530.756,
+"e": 530.876
+},
+{
+"w": "than",
+"s": 530.916,
+"e": 531.116
+},
+{
+"w": "two",
+"s": 531.196,
+"e": 531.396
+},
+{
+"w": "hours",
+"s": 531.556,
+"e": 531.856
+},
+{
+"w": "behind.",
+"s": 531.936,
+"e": 532.396
+},
+{
+"w": "And",
+"s": 533.016,
+"e": 533.116
+},
+{
+"w": "the",
+"s": 533.136,
+"e": 533.216
+},
+{
+"w": "new",
+"s": 533.296,
+"e": 533.456
+},
+{
+"w": "winner",
+"s": 533.516,
+"e": 533.776
+},
+{
+"w": "of",
+"s": 533.836,
+"e": 533.896
+},
+{
+"w": "the",
+"s": 533.936,
+"e": 534.016
+},
+{
+"w": "1904",
+"s": 534.076,
+"e": 534.816
+},
+{
+"w": "Tour",
+"s": 534.916,
+"e": 535.056
+},
+{
+"w": "de",
+"s": 535.096,
+"e": 535.156
+},
+{
+"w": "France",
+"s": 535.256,
+"e": 535.616
+},
+{
+"w": "was",
+"s": 535.796,
+"e": 535.896
+},
+{
+"w": "the",
+"s": 535.936,
+"e": 536.036
+},
+{
+"w": "kid",
+"s": 536.076,
+"e": 536.236
+},
+{
+"w": "who'd",
+"s": 536.276,
+"e": 536.436
+},
+{
+"w": "come",
+"s": 536.496,
+"e": 536.636
+},
+{
+"w": "fifth,",
+"s": 536.776,
+"e": 537.096
+},
+{
+"w": "Henri",
+"s": 537.596,
+"e": 537.896
+},
+{
+"w": "Cornet.",
+"s": 537.976,
+"e": 538.396
+},
+{
+"w": "He'd",
+"s": 538.976,
+"e": 539.136
+},
+{
+"w": "been",
+"s": 539.156,
+"e": 539.316
+},
+{
+"w": "warned",
+"s": 539.376,
+"e": 539.636
+},
+{
+"w": "too,",
+"s": 539.696,
+"e": 539.936
+},
+{
+"w": "and",
+"s": 540.476,
+"e": 540.576
+},
+{
+"w": "one",
+"s": 540.656,
+"e": 540.756
+},
+{
+"w": "account",
+"s": 540.796,
+"e": 541.096
+},
+{
+"w": "says",
+"s": 541.196,
+"e": 541.456
+},
+{
+"w": "it",
+"s": 541.516,
+"e": 541.576
+},
+{
+"w": "was",
+"s": 541.596,
+"e": 541.716
+},
+{
+"w": "for",
+"s": 541.736,
+"e": 541.856
+},
+{
+"w": "taking",
+"s": 541.916,
+"e": 542.176
+},
+{
+"w": "a",
+"s": 542.236,
+"e": 542.276
+},
+{
+"w": "lift",
+"s": 542.356,
+"e": 542.556
+},
+{
+"w": "in",
+"s": 542.596,
+"e": 542.656
+},
+{
+"w": "a",
+"s": 542.696,
+"e": 542.776
+},
+{
+"w": "car,",
+"s": 542.876,
+"e": 543.196
+},
+{
+"w": "but",
+"s": 543.736,
+"e": 544.016
+},
+{
+"w": "it",
+"s": 544.076,
+"e": 544.176
+},
+{
+"w": "didn't",
+"s": 544.216,
+"e": 544.416
+},
+{
+"w": "cost",
+"s": 544.476,
+"e": 544.676
+},
+{
+"w": "him",
+"s": 544.696,
+"e": 544.816
+},
+{
+"w": "the",
+"s": 544.856,
+"e": 544.916
+},
+{
+"w": "win.",
+"s": 544.976,
+"e": 545.196
+},
+{
+"w": "He'd",
+"s": 545.856,
+"e": 545.996
+},
+{
+"w": "been",
+"s": 546.036,
+"e": 546.176
+},
+{
+"w": "eleven",
+"s": 546.216,
+"e": 546.636
+},
+{
+"w": "days",
+"s": 546.696,
+"e": 546.916
+},
+{
+"w": "short",
+"s": 546.996,
+"e": 547.256
+},
+{
+"w": "of",
+"s": 547.296,
+"e": 547.376
+},
+{
+"w": "his",
+"s": 547.396,
+"e": 547.556
+},
+{
+"w": "twentieth",
+"s": 547.616,
+"e": 547.996
+},
+{
+"w": "birthday",
+"s": 548.096,
+"e": 548.556
+},
+{
+"w": "when",
+"s": 548.676,
+"e": 548.756
+},
+{
+"w": "the",
+"s": 548.796,
+"e": 548.856
+},
+{
+"w": "race",
+"s": 548.916,
+"e": 549.156
+},
+{
+"w": "finished.",
+"s": 549.216,
+"e": 549.636
+},
+{
+"w": "Aucouturier",
+"s": 550.196,
+"e": 550.816
+},
+{
+"w": "was",
+"s": 550.876,
+"e": 550.976
+},
+{
+"w": "struck",
+"s": 551.076,
+"e": 551.296
+},
+{
+"w": "off",
+"s": 551.356,
+"e": 551.476
+},
+{
+"w": "the",
+"s": 551.516,
+"e": 551.576
+},
+{
+"w": "result",
+"s": 551.616,
+"e": 551.936
+},
+{
+"w": "as",
+"s": 551.976,
+"e": 552.096
+},
+{
+"w": "well,",
+"s": 552.176,
+"e": 552.396
+},
+{
+"w": "but",
+"s": 552.856,
+"e": 552.976
+},
+{
+"w": "he",
+"s": 553.016,
+"e": 553.096
+},
+{
+"w": "wasn't",
+"s": 553.156,
+"e": 553.416
+},
+{
+"w": "banned,",
+"s": 553.476,
+"e": 553.816
+},
+{
+"w": "and",
+"s": 554.196,
+"e": 554.276
+},
+{
+"w": "he",
+"s": 554.336,
+"e": 554.396
+},
+{
+"w": "was",
+"s": 554.436,
+"e": 554.576
+},
+{
+"w": "back",
+"s": 554.636,
+"e": 554.816
+},
+{
+"w": "at",
+"s": 554.836,
+"e": 554.916
+},
+{
+"w": "the",
+"s": 554.956,
+"e": 555.056
+},
+{
+"w": "Tour",
+"s": 555.116,
+"e": 555.316
+},
+{
+"w": "the",
+"s": 555.396,
+"e": 555.456
+},
+{
+"w": "next",
+"s": 555.536,
+"e": 555.736
+},
+{
+"w": "summer,",
+"s": 555.796,
+"e": 556.076
+},
+{
+"w": "where",
+"s": 556.356,
+"e": 556.456
+},
+{
+"w": "he",
+"s": 556.496,
+"e": 556.616
+},
+{
+"w": "finished",
+"s": 556.656,
+"e": 556.976
+},
+{
+"w": "second.",
+"s": 557.056,
+"e": 557.456
+},
+{
+"w": "Garin",
+"s": 558.096,
+"e": 558.356
+},
+{
+"w": "said",
+"s": 558.456,
+"e": 558.636
+},
+{
+"w": "he'd",
+"s": 558.696,
+"e": 558.856
+},
+{
+"w": "done",
+"s": 558.896,
+"e": 559.056
+},
+{
+"w": "nothing",
+"s": 559.176,
+"e": 559.476
+},
+{
+"w": "wrong,",
+"s": 559.556,
+"e": 559.876
+},
+{
+"w": "and",
+"s": 560.216,
+"e": 560.296
+},
+{
+"w": "he",
+"s": 560.336,
+"e": 560.436
+},
+{
+"w": "called",
+"s": 560.496,
+"e": 560.696
+},
+{
+"w": "the",
+"s": 560.716,
+"e": 560.796
+},
+{
+"w": "verdict",
+"s": 560.836,
+"e": 561.216
+},
+{
+"w": "a",
+"s": 561.276,
+"e": 561.416
+},
+{
+"w": "flagrant",
+"s": 561.496,
+"e": 561.936
+},
+{
+"w": "injustice.",
+"s": 562.036,
+"e": 562.796
+},
+{
+"w": "And",
+"s": 563.456,
+"e": 563.556
+},
+{
+"w": "the",
+"s": 563.596,
+"e": 563.676
+},
+{
+"w": "union",
+"s": 563.796,
+"e": 564.116
+},
+{
+"w": "never",
+"s": 564.196,
+"e": 564.416
+},
+{
+"w": "said",
+"s": 564.536,
+"e": 564.696
+},
+{
+"w": "in",
+"s": 564.716,
+"e": 564.856
+},
+{
+"w": "public",
+"s": 564.916,
+"e": 565.276
+},
+{
+"w": "exactly",
+"s": 565.396,
+"e": 566.016
+},
+{
+"w": "what",
+"s": 566.056,
+"e": 566.176
+},
+{
+"w": "he'd",
+"s": 566.236,
+"e": 566.436
+},
+{
+"w": "done.",
+"s": 566.476,
+"e": 566.776
+},
+{
+"w": "So",
+"s": 567.496,
+"e": 567.696
+},
+{
+"w": "what",
+"s": 567.996,
+"e": 568.116
+},
+{
+"w": "happened",
+"s": 568.176,
+"e": 568.436
+},
+{
+"w": "to",
+"s": 568.476,
+"e": 568.536
+},
+{
+"w": "the",
+"s": 568.596,
+"e": 568.676
+},
+{
+"w": "evidence?",
+"s": 568.736,
+"e": 569.196
+},
+{
+"w": "The",
+"s": 570.776,
+"e": 570.876
+},
+{
+"w": "answer",
+"s": 570.956,
+"e": 571.236
+},
+{
+"w": "should",
+"s": 571.296,
+"e": 571.476
+},
+{
+"w": "be",
+"s": 571.516,
+"e": 571.596
+},
+{
+"w": "in",
+"s": 571.636,
+"e": 571.696
+},
+{
+"w": "the",
+"s": 571.736,
+"e": 571.856
+},
+{
+"w": "files",
+"s": 571.896,
+"e": 572.216
+},
+{
+"w": "from",
+"s": 572.256,
+"e": 572.376
+},
+{
+"w": "the",
+"s": 572.416,
+"e": 572.496
+},
+{
+"w": "inquiry,",
+"s": 572.556,
+"e": 572.996
+},
+{
+"w": "the",
+"s": 573.496,
+"e": 573.576
+},
+{
+"w": "letters",
+"s": 573.636,
+"e": 573.956
+},
+{
+"w": "and",
+"s": 573.996,
+"e": 574.076
+},
+{
+"w": "complaints",
+"s": 574.116,
+"e": 574.736
+},
+{
+"w": "the",
+"s": 574.856,
+"e": 574.956
+},
+{
+"w": "whole",
+"s": 575.036,
+"e": 575.276
+},
+{
+"w": "verdict",
+"s": 575.416,
+"e": 575.776
+},
+{
+"w": "was",
+"s": 575.816,
+"e": 575.956
+},
+{
+"w": "built",
+"s": 575.996,
+"e": 576.216
+},
+{
+"w": "on.",
+"s": 576.316,
+"e": 576.496
+},
+{
+"w": "In",
+"s": 577.136,
+"e": 577.216
+},
+{
+"w": "1940,",
+"s": 577.256,
+"e": 578.076
+},
+{
+"w": "with",
+"s": 578.436,
+"e": 578.536
+},
+{
+"w": "the",
+"s": 578.556,
+"e": 578.656
+},
+{
+"w": "German",
+"s": 578.696,
+"e": 578.976
+},
+{
+"w": "army",
+"s": 579.096,
+"e": 579.296
+},
+{
+"w": "coming,",
+"s": 579.396,
+"e": 579.656
+},
+{
+"w": "those",
+"s": 580.136,
+"e": 580.356
+},
+{
+"w": "papers",
+"s": 580.396,
+"e": 580.756
+},
+{
+"w": "were",
+"s": 580.776,
+"e": 580.936
+},
+{
+"w": "loaded",
+"s": 580.996,
+"e": 581.276
+},
+{
+"w": "into",
+"s": 581.316,
+"e": 581.556
+},
+{
+"w": "a",
+"s": 581.596,
+"e": 581.656
+},
+{
+"w": "van",
+"s": 581.716,
+"e": 581.996
+},
+{
+"w": "and",
+"s": 582.076,
+"e": 582.176
+},
+{
+"w": "sent",
+"s": 582.296,
+"e": 582.516
+},
+{
+"w": "south,",
+"s": 582.616,
+"e": 582.936
+},
+{
+"w": "out",
+"s": 583.336,
+"e": 583.436
+},
+{
+"w": "of",
+"s": 583.476,
+"e": 583.596
+},
+{
+"w": "Paris.",
+"s": 583.636,
+"e": 584.056
+},
+{
+"w": "Nobody",
+"s": 584.816,
+"e": 585.176
+},
+{
+"w": "has",
+"s": 585.236,
+"e": 585.376
+},
+{
+"w": "seen",
+"s": 585.456,
+"e": 585.636
+},
+{
+"w": "them",
+"s": 585.676,
+"e": 585.816
+},
+{
+"w": "since.",
+"s": 585.956,
+"e": 586.336
+},
+{
+"w": "Nobody",
+"s": 587.036,
+"e": 587.336
+},
+{
+"w": "knows",
+"s": 587.416,
+"e": 587.656
+},
+{
+"w": "for",
+"s": 587.716,
+"e": 587.856
+},
+{
+"w": "certain",
+"s": 587.936,
+"e": 588.316
+},
+{
+"w": "that",
+"s": 588.396,
+"e": 588.536
+},
+{
+"w": "Garin",
+"s": 588.616,
+"e": 588.916
+},
+{
+"w": "ever",
+"s": 589.076,
+"e": 589.276
+},
+{
+"w": "stood",
+"s": 589.436,
+"e": 589.616
+},
+{
+"w": "on",
+"s": 589.656,
+"e": 589.736
+},
+{
+"w": "a",
+"s": 589.776,
+"e": 589.836
+},
+{
+"w": "railway",
+"s": 589.876,
+"e": 590.196
+},
+{
+"w": "platform",
+"s": 590.296,
+"e": 590.776
+},
+{
+"w": "in",
+"s": 590.816,
+"e": 590.916
+},
+{
+"w": "1904.",
+"s": 590.956,
+"e": 591.776
+},
+{
+"w": "So",
+"s": 592.536,
+"e": 592.716
+},
+{
+"w": "for",
+"s": 592.896,
+"e": 593.016
+},
+{
+"w": "what",
+"s": 593.056,
+"e": 593.196
+},
+{
+"w": "Garin",
+"s": 593.296,
+"e": 593.576
+},
+{
+"w": "actually",
+"s": 593.776,
+"e": 594.136
+},
+{
+"w": "did,",
+"s": 594.216,
+"e": 594.416
+},
+{
+"w": "there's",
+"s": 594.936,
+"e": 595.196
+},
+{
+"w": "one",
+"s": 595.276,
+"e": 595.416
+},
+{
+"w": "place",
+"s": 595.516,
+"e": 595.776
+},
+{
+"w": "left",
+"s": 595.836,
+"e": 595.996
+},
+{
+"w": "to",
+"s": 596.036,
+"e": 596.116
+},
+{
+"w": "look.",
+"s": 596.176,
+"e": 596.436
+},
+{
+"w": "He",
+"s": 597.076,
+"e": 597.156
+},
+{
+"w": "went",
+"s": 597.196,
+"e": 597.356
+},
+{
+"w": "home",
+"s": 597.416,
+"e": 597.596
+},
+{
+"w": "to",
+"s": 597.656,
+"e": 597.716
+},
+{
+"w": "the",
+"s": 597.776,
+"e": 597.836
+},
+{
+"w": "north,",
+"s": 597.896,
+"e": 598.236
+},
+{
+"w": "to",
+"s": 598.576,
+"e": 598.636
+},
+{
+"w": "the",
+"s": 598.676,
+"e": 598.756
+},
+{
+"w": "mining",
+"s": 598.796,
+"e": 599.096
+},
+{
+"w": "town",
+"s": 599.156,
+"e": 599.356
+},
+{
+"w": "of",
+"s": 599.396,
+"e": 599.496
+},
+{
+"w": "Lens,",
+"s": 599.556,
+"e": 599.936
+},
+{
+"w": "and",
+"s": 600.376,
+"e": 600.476
+},
+{
+"w": "ran",
+"s": 600.536,
+"e": 600.656
+},
+{
+"w": "a",
+"s": 600.696,
+"e": 600.736
+},
+{
+"w": "garage",
+"s": 600.796,
+"e": 601.196
+},
+{
+"w": "there",
+"s": 601.256,
+"e": 601.436
+},
+{
+"w": "for",
+"s": 601.496,
+"e": 601.576
+},
+{
+"w": "the",
+"s": 601.616,
+"e": 601.696
+},
+{
+"w": "rest",
+"s": 601.756,
+"e": 601.976
+},
+{
+"w": "of",
+"s": 602.016,
+"e": 602.096
+},
+{
+"w": "his",
+"s": 602.116,
+"e": 602.236
+},
+{
+"w": "working",
+"s": 602.296,
+"e": 602.576
+},
+{
+"w": "life.",
+"s": 602.636,
+"e": 602.976
+},
+{
+"w": "He",
+"s": 603.576,
+"e": 603.696
+},
+{
+"w": "died",
+"s": 603.756,
+"e": 604.056
+},
+{
+"w": "in",
+"s": 604.156,
+"e": 604.276
+},
+{
+"w": "1957.",
+"s": 604.336,
+"e": 605.476
+},
+{
+"w": "Years",
+"s": 606.196,
+"e": 606.416
+},
+{
+"w": "later,",
+"s": 606.496,
+"e": 606.776
+},
+{
+"w": "the",
+"s": 607.136,
+"e": 607.216
+},
+{
+"w": "cycling",
+"s": 607.276,
+"e": 607.616
+},
+{
+"w": "writer",
+"s": 607.676,
+"e": 607.976
+},
+{
+"w": "Les",
+"s": 608.136,
+"e": 608.336
+},
+{
+"w": "Woodland",
+"s": 608.456,
+"e": 608.896
+},
+{
+"w": "met",
+"s": 609.056,
+"e": 609.176
+},
+{
+"w": "a",
+"s": 609.196,
+"e": 609.256
+},
+{
+"w": "man",
+"s": 609.316,
+"e": 609.476
+},
+{
+"w": "in",
+"s": 609.516,
+"e": 609.636
+},
+{
+"w": "Lens",
+"s": 609.716,
+"e": 610.096
+},
+{
+"w": "who'd",
+"s": 610.156,
+"e": 610.356
+},
+{
+"w": "known",
+"s": 610.376,
+"e": 610.556
+},
+{
+"w": "him.",
+"s": 610.616,
+"e": 610.836
+},
+{
+"w": "He",
+"s": 611.396,
+"e": 611.476
+},
+{
+"w": "was",
+"s": 611.516,
+"e": 611.616
+},
+{
+"w": "a",
+"s": 611.656,
+"e": 611.696
+},
+{
+"w": "gravedigger",
+"s": 611.756,
+"e": 612.276
+},
+{
+"w": "there,",
+"s": 612.356,
+"e": 612.536
+},
+{
+"w": "and",
+"s": 613.016,
+"e": 613.116
+},
+{
+"w": "he'd",
+"s": 613.176,
+"e": 613.336
+},
+{
+"w": "been",
+"s": 613.376,
+"e": 613.476
+},
+{
+"w": "a",
+"s": 613.516,
+"e": 613.556
+},
+{
+"w": "boy",
+"s": 613.656,
+"e": 613.976
+},
+{
+"w": "when",
+"s": 614.036,
+"e": 614.216
+},
+{
+"w": "Garin",
+"s": 614.256,
+"e": 614.616
+},
+{
+"w": "was",
+"s": 614.656,
+"e": 614.756
+},
+{
+"w": "an",
+"s": 614.796,
+"e": 614.936
+},
+{
+"w": "old",
+"s": 614.996,
+"e": 615.196
+},
+{
+"w": "man.",
+"s": 615.256,
+"e": 615.596
+},
+{
+"w": "He",
+"s": 616.236,
+"e": 616.336
+},
+{
+"w": "said",
+"s": 616.396,
+"e": 616.556
+},
+{
+"w": "the",
+"s": 616.596,
+"e": 616.696
+},
+{
+"w": "old",
+"s": 616.756,
+"e": 616.916
+},
+{
+"w": "champion",
+"s": 616.996,
+"e": 617.456
+},
+{
+"w": "used",
+"s": 617.516,
+"e": 617.656
+},
+{
+"w": "to",
+"s": 617.696,
+"e": 617.796
+},
+{
+"w": "laugh",
+"s": 617.956,
+"e": 618.236
+},
+{
+"w": "about",
+"s": 618.316,
+"e": 618.536
+},
+{
+"w": "1904.",
+"s": 618.576,
+"e": 619.376
+},
+{
+"w": "And",
+"s": 620.076,
+"e": 620.176
+},
+{
+"w": "he",
+"s": 620.236,
+"e": 620.376
+},
+{
+"w": "said",
+"s": 620.436,
+"e": 620.676
+},
+{
+"w": "Garin",
+"s": 621.116,
+"e": 621.456
+},
+{
+"w": "admitted",
+"s": 621.536,
+"e": 621.956
+},
+{
+"w": "it.",
+"s": 621.996,
+"e": 622.176
+},
+{
+"w": "He'd",
+"s": 622.776,
+"e": 622.916
+},
+{
+"w": "caught",
+"s": 622.976,
+"e": 623.136
+},
+{
+"w": "a",
+"s": 623.176,
+"e": 623.236
+},
+{
+"w": "train,",
+"s": 623.316,
+"e": 623.675
+},
+{
+"w": "to",
+"s": 624.076,
+"e": 624.156
+},
+{
+"w": "skip",
+"s": 624.216,
+"e": 624.396
+},
+{
+"w": "the",
+"s": 624.435,
+"e": 624.536
+},
+{
+"w": "hard",
+"s": 624.615,
+"e": 624.916
+},
+{
+"w": "or",
+"s": 624.976,
+"e": 625.136
+},
+{
+"w": "boring",
+"s": 625.296,
+"e": 625.596
+},
+{
+"w": "bits",
+"s": 625.656,
+"e": 625.836
+},
+{
+"w": "of",
+"s": 625.896,
+"e": 625.956
+},
+{
+"w": "the",
+"s": 625.995,
+"e": 626.055
+},
+{
+"w": "course.",
+"s": 626.115,
+"e": 626.495
+},
+{
+"w": "Well,",
+"s": 626.495,
+"e": 627.416
+},
+{
+"w": "I",
+"s": 627.995,
+"e": 628.055
+},
+{
+"w": "was",
+"s": 628.096,
+"e": 628.256
+},
+{
+"w": "young,",
+"s": 628.336,
+"e": 628.615
+},
+{
+"w": "he'd",
+"s": 629.115,
+"e": 629.316
+},
+{
+"w": "said.",
+"s": 629.375,
+"e": 629.596
+},
+{
+"w": "That's",
+"s": 630.316,
+"e": 630.596
+},
+{
+"w": "one",
+"s": 630.696,
+"e": 630.836
+},
+{
+"w": "man's",
+"s": 630.916,
+"e": 631.216
+},
+{
+"w": "memory,",
+"s": 631.276,
+"e": 631.616
+},
+{
+"w": "told",
+"s": 632.156,
+"e": 632.356
+},
+{
+"w": "to",
+"s": 632.416,
+"e": 632.556
+},
+{
+"w": "one",
+"s": 632.616,
+"e": 632.756
+},
+{
+"w": "writer,",
+"s": 632.816,
+"e": 633.196
+},
+{
+"w": "a",
+"s": 633.636,
+"e": 633.676
+},
+{
+"w": "long",
+"s": 633.816,
+"e": 634.116
+},
+{
+"w": "time",
+"s": 634.196,
+"e": 634.436
+},
+{
+"w": "after.",
+"s": 634.536,
+"e": 634.836
+},
+{
+"w": "But",
+"s": 635.496,
+"e": 635.596
+},
+{
+"w": "it's",
+"s": 635.636,
+"e": 635.776
+},
+{
+"w": "the",
+"s": 635.816,
+"e": 635.896
+},
+{
+"w": "closest",
+"s": 635.956,
+"e": 636.436
+},
+{
+"w": "anyone",
+"s": 636.596,
+"e": 636.916
+},
+{
+"w": "has",
+"s": 636.956,
+"e": 637.116
+},
+{
+"w": "come",
+"s": 637.156,
+"e": 637.356
+},
+{
+"w": "to",
+"s": 637.396,
+"e": 637.476
+},
+{
+"w": "an",
+"s": 637.516,
+"e": 637.596
+},
+{
+"w": "answer.",
+"s": 637.656,
+"e": 638.036
+},
+{
+"w": "The",
+"s": 638.676,
+"e": 638.756
+},
+{
+"w": "kid",
+"s": 638.816,
+"e": 638.956
+},
+{
+"w": "in",
+"s": 638.996,
+"e": 639.176
+},
+{
+"w": "fifth",
+"s": 639.256,
+"e": 639.536
+},
+{
+"w": "kept",
+"s": 639.676,
+"e": 639.876
+},
+{
+"w": "the",
+"s": 639.896,
+"e": 639.996
+},
+{
+"w": "win.",
+"s": 640.036,
+"e": 640.316
+},
+{
+"w": "Henri",
+"s": 641.016,
+"e": 641.256
+},
+{
+"w": "Cornet",
+"s": 641.316,
+"e": 641.736
+},
+{
+"w": "is",
+"s": 641.856,
+"e": 641.976
+},
+{
+"w": "still",
+"s": 642.096,
+"e": 642.316
+},
+{
+"w": "the",
+"s": 642.376,
+"e": 642.476
+},
+{
+"w": "youngest",
+"s": 642.576,
+"e": 642.936
+},
+{
+"w": "man",
+"s": 643.016,
+"e": 643.196
+},
+{
+"w": "ever",
+"s": 643.456,
+"e": 643.736
+},
+{
+"w": "to",
+"s": 643.796,
+"e": 643.896
+},
+{
+"w": "win",
+"s": 643.936,
+"e": 644.056
+},
+{
+"w": "the",
+"s": 644.096,
+"e": 644.176
+},
+{
+"w": "Tour",
+"s": 644.236,
+"e": 644.376
+},
+{
+"w": "de",
+"s": 644.416,
+"e": 644.496
+},
+{
+"w": "France.",
+"s": 644.556,
+"e": 644.956
+},
+{
+"w": "And",
+"s": 645.596,
+"e": 645.696
+},
+{
+"w": "Desgrange",
+"s": 645.736,
+"e": 646.236
+},
+{
+"w": "didn't",
+"s": 646.336,
+"e": 646.596
+},
+{
+"w": "cancel",
+"s": 646.656,
+"e": 646.956
+},
+{
+"w": "it",
+"s": 646.996,
+"e": 647.076
+},
+{
+"w": "after",
+"s": 647.156,
+"e": 647.416
+},
+{
+"w": "all.",
+"s": 647.456,
+"e": 647.636
+},
+{
+"w": "L'Auto",
+"s": 648.356,
+"e": 648.656
+},
+{
+"w": "had",
+"s": 648.696,
+"e": 648.856
+},
+{
+"w": "sold",
+"s": 648.916,
+"e": 649.176
+},
+{
+"w": "more",
+"s": 649.276,
+"e": 649.436
+},
+{
+"w": "papers",
+"s": 649.536,
+"e": 649.876
+},
+{
+"w": "that",
+"s": 649.936,
+"e": 650.076
+},
+{
+"w": "July",
+"s": 650.116,
+"e": 650.496
+},
+{
+"w": "than",
+"s": 650.556,
+"e": 650.696
+},
+{
+"w": "ever",
+"s": 650.936,
+"e": 651.136
+},
+{
+"w": "before.",
+"s": 651.196,
+"e": 651.636
+},
+{
+"w": "So",
+"s": 652.296,
+"e": 652.396
+},
+{
+"w": "the",
+"s": 652.436,
+"e": 652.516
+},
+{
+"w": "next",
+"s": 652.556,
+"e": 652.796
+},
+{
+"w": "year",
+"s": 652.856,
+"e": 653.016
+},
+{
+"w": "he",
+"s": 653.316,
+"e": 653.416
+},
+{
+"w": "cut",
+"s": 653.476,
+"e": 653.616
+},
+{
+"w": "the",
+"s": 653.656,
+"e": 653.736
+},
+{
+"w": "race",
+"s": 653.776,
+"e": 654.016
+},
+{
+"w": "into",
+"s": 654.076,
+"e": 654.316
+},
+{
+"w": "eleven",
+"s": 654.356,
+"e": 654.856
+},
+{
+"w": "shorter",
+"s": 654.996,
+"e": 655.276
+},
+{
+"w": "stages,",
+"s": 655.396,
+"e": 655.836
+},
+{
+"w": "so",
+"s": 656.216,
+"e": 656.316
+},
+{
+"w": "nobody",
+"s": 656.396,
+"e": 656.736
+},
+{
+"w": "had",
+"s": 656.776,
+"e": 656.896
+},
+{
+"w": "to",
+"s": 656.936,
+"e": 657.016
+},
+{
+"w": "ride",
+"s": 657.076,
+"e": 657.236
+},
+{
+"w": "through",
+"s": 657.276,
+"e": 657.416
+},
+{
+"w": "the",
+"s": 657.456,
+"e": 657.516
+},
+{
+"w": "night,",
+"s": 657.576,
+"e": 657.796
+},
+{
+"w": "and",
+"s": 658.416,
+"e": 658.596
+},
+{
+"w": "he",
+"s": 658.656,
+"e": 658.756
+},
+{
+"w": "decided",
+"s": 658.776,
+"e": 659.196
+},
+{
+"w": "the",
+"s": 659.216,
+"e": 659.316
+},
+{
+"w": "winner",
+"s": 659.356,
+"e": 659.576
+},
+{
+"w": "on",
+"s": 659.636,
+"e": 659.736
+},
+{
+"w": "points",
+"s": 659.876,
+"e": 660.276
+},
+{
+"w": "instead",
+"s": 660.396,
+"e": 660.696
+},
+{
+"w": "of",
+"s": 660.736,
+"e": 660.816
+},
+{
+"w": "time.",
+"s": 660.876,
+"e": 661.216
+},
+{
+"w": "On",
+"s": 661.876,
+"e": 661.936
+},
+{
+"w": "the",
+"s": 661.976,
+"e": 662.056
+},
+{
+"w": "first",
+"s": 662.136,
+"e": 662.336
+},
+{
+"w": "stage",
+"s": 662.416,
+"e": 662.656
+},
+{
+"w": "of",
+"s": 662.696,
+"e": 662.756
+},
+{
+"w": "the",
+"s": 662.796,
+"e": 662.856
+},
+{
+"w": "1905",
+"s": 662.896,
+"e": 663.656
+},
+{
+"w": "Tour,",
+"s": 663.716,
+"e": 663.956
+},
+{
+"w": "the",
+"s": 664.396,
+"e": 664.476
+},
+{
+"w": "road",
+"s": 664.536,
+"e": 664.736
+},
+{
+"w": "was",
+"s": 664.796,
+"e": 664.956
+},
+{
+"w": "covered",
+"s": 665.036,
+"e": 665.276
+},
+{
+"w": "in",
+"s": 665.316,
+"e": 665.436
+},
+{
+"w": "nails",
+"s": 665.496,
+"e": 665.796
+},
+{
+"w": "again,",
+"s": 665.856,
+"e": 666.256
+},
+{
+"w": "and",
+"s": 666.696,
+"e": 666.796
+},
+{
+"w": "every",
+"s": 667.016,
+"e": 667.256
+},
+{
+"w": "rider",
+"s": 667.356,
+"e": 667.616
+},
+{
+"w": "but",
+"s": 667.676,
+"e": 667.836
+},
+{
+"w": "one",
+"s": 667.996,
+"e": 668.256
+},
+{
+"w": "got",
+"s": 668.336,
+"e": 668.456
+},
+{
+"w": "a",
+"s": 668.496,
+"e": 668.556
+},
+{
+"w": "puncture.",
+"s": 668.596,
+"e": 669.016
+},
+{
+"w": "The",
+"s": 669.716,
+"e": 669.796
+},
+{
+"w": "one",
+"s": 669.856,
+"e": 669.976
+},
+{
+"w": "who",
+"s": 670.016,
+"e": 670.116
+},
+{
+"w": "didn't",
+"s": 670.236,
+"e": 670.616
+},
+{
+"w": "was",
+"s": 670.816,
+"e": 670.976
+},
+{
+"w": "Dortignacq,",
+"s": 671.036,
+"e": 671.656
+},
+{
+"w": "the",
+"s": 672.176,
+"e": 672.256
+},
+{
+"w": "man",
+"s": 672.296,
+"e": 672.496
+},
+{
+"w": "who'd",
+"s": 672.536,
+"e": 672.696
+},
+{
+"w": "been",
+"s": 672.716,
+"e": 672.856
+},
+{
+"w": "moved",
+"s": 672.916,
+"e": 673.116
+},
+{
+"w": "up",
+"s": 673.176,
+"e": 673.256
+},
+{
+"w": "to",
+"s": 673.296,
+"e": 673.416
+},
+{
+"w": "second",
+"s": 673.516,
+"e": 673.876
+},
+{
+"w": "in",
+"s": 673.916,
+"e": 674.016
+},
+{
+"w": "1904.",
+"s": 674.056,
+"e": 674.856
+},
+{
+"w": "And",
+"s": 675.496,
+"e": 675.596
+},
+{
+"w": "the",
+"s": 675.636,
+"e": 675.716
+},
+{
+"w": "race",
+"s": 675.776,
+"e": 676.016
+},
+{
+"w": "that",
+"s": 676.076,
+"e": 676.236
+},
+{
+"w": "nearly",
+"s": 676.336,
+"e": 676.636
+},
+{
+"w": "died",
+"s": 676.776,
+"e": 677.056
+},
+{
+"w": "in",
+"s": 677.096,
+"e": 677.176
+},
+{
+"w": "its",
+"s": 677.216,
+"e": 677.376
+},
+{
+"w": "second",
+"s": 677.436,
+"e": 677.736
+},
+{
+"w": "year",
+"s": 677.796,
+"e": 678.136
+},
+{
+"w": "is",
+"s": 678.196,
+"e": 678.356
+},
+{
+"w": "still",
+"s": 678.496,
+"e": 678.696
+},
+{
+"w": "going.",
+"s": 678.796,
+"e": 679.176
+},
+{
+"w": "That",
+"s": 679.776,
+"e": 679.936
+},
+{
+"w": "same",
+"s": 680.016,
+"e": 680.196
+},
+{
+"w": "summer,",
+"s": 680.296,
+"e": 680.576
+},
+{
+"w": "at",
+"s": 680.876,
+"e": 680.976
+},
+{
+"w": "the",
+"s": 681.016,
+"e": 681.076
+},
+{
+"w": "Olympic",
+"s": 681.116,
+"e": 681.456
+},
+{
+"w": "marathon",
+"s": 681.536,
+"e": 681.956
+},
+{
+"w": "in",
+"s": 681.996,
+"e": 682.096
+},
+{
+"w": "St.",
+"s": 682.156,
+"e": 682.316
+},
+{
+"w": "Louis,",
+"s": 682.396,
+"e": 682.736
+},
+{
+"w": "the",
+"s": 683.136,
+"e": 683.236
+},
+{
+"w": "first",
+"s": 683.316,
+"e": 683.536
+},
+{
+"w": "man",
+"s": 683.616,
+"e": 683.776
+},
+{
+"w": "into",
+"s": 683.836,
+"e": 684.016
+},
+{
+"w": "the",
+"s": 684.056,
+"e": 684.136
+},
+{
+"w": "stadium",
+"s": 684.216,
+"e": 684.616
+},
+{
+"w": "had",
+"s": 684.676,
+"e": 684.816
+},
+{
+"w": "ridden",
+"s": 684.856,
+"e": 685.076
+},
+{
+"w": "part",
+"s": 685.196,
+"e": 685.376
+},
+{
+"w": "of",
+"s": 685.416,
+"e": 685.476
+},
+{
+"w": "the",
+"s": 685.516,
+"e": 685.576
+},
+{
+"w": "way",
+"s": 685.636,
+"e": 685.796
+},
+{
+"w": "in",
+"s": 685.836,
+"e": 685.896
+},
+{
+"w": "a",
+"s": 685.936,
+"e": 686.016
+},
+{
+"w": "car,",
+"s": 686.096,
+"e": 686.396
+},
+{
+"w": "and",
+"s": 686.996,
+"e": 687.076
+},
+{
+"w": "that",
+"s": 687.136,
+"e": 687.276
+},
+{
+"w": "story's",
+"s": 687.356,
+"e": 687.696
+},
+{
+"w": "in",
+"s": 687.736,
+"e": 687.796
+},
+{
+"w": "the",
+"s": 687.816,
+"e": 687.896
+},
+{
+"w": "next",
+"s": 687.936,
+"e": 688.136
+},
+{
+"w": "video.",
+"s": 688.196,
+"e": 688.496
+}
+],
+"subs": [
+114.34
+],
+"sfx": [],
+"music": [
+{
+"src": "dl/music/Unanswered_Questions.mp3",
+"a": 0.0,
+"b": 39.010000000000005,
+"fin": 0.0,
+"fout": 2.0,
+"off": 0.0,
+"mood": "mystery (cold open)"
+},
+{
+"src": "dl/music/Lightless_Dawn.mp3",
+"a": 187.31,
+"b": 264.95,
+"fin": 1.5,
+"fout": 2.0,
+"off": 0.0,
+"mood": "sombre (the mountain)"
+},
+{
+"src": "dl/music/Lightless_Dawn.mp3",
+"a": 577.06,
+"b": 587.46,
+"fin": 1.5,
+"fout": 1.5,
+"off": 95.0,
+"mood": "sombre (the lost files), out before the payoff"
+},
+{
+"src": "dl/music/Clean_Soul.mp3",
+"a": 638.6,
+"b": 692.9,
+"fin": 1.5,
+"fout": 2.5,
+"off": 0.0,
+"mood": "calm (ending and end screen)"
+}
+],
+"text": [],
+"extra": [],
+"stillScale": 0.5
+}
