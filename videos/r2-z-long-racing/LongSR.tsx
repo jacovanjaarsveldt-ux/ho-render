@@ -107,12 +107,12 @@ const Expl: React.FC<{ s: Shot }> = ({ s }) => {
     const lab = { ...DISPLAY, fontSize: 34, letterSpacing: "0.2em" } as any;
     layers.push(<svg key="pit" width={1920} height={1080} style={{ position: "absolute", inset: 0, transformOrigin: "50% 54%", transform: "scale(1.7)" }}>
       <rect x={0} y={0} width={1920} height={1080} fill="#16130f" />
-      <rect x={0} y={400} width={1920} height={110} fill="#3b3227" /><text x={140} y={470} fill="rgba(243,238,228,.55)" style={lab}>EARTH BANK</text>
+      <rect x={0} y={400} width={1920} height={110} fill="#3b3227" /><text x={430} y={470} fill="rgba(243,238,228,.55)" style={lab}>EARTH BANK</text>
       <rect x={0} y={510} width={1920} height={130} fill="#2b2b2d" /><line x1={0} x2={1920} y1={575} y2={575} stroke="rgba(255,255,255,.25)" strokeWidth={3} strokeDasharray="40 30" />
       <rect x={0} y={640} width={1920} height={70} fill="#222224" /><line x1={0} x2={1920} y1={642} y2={642} stroke="rgba(255,255,255,.5)" strokeWidth={3} />
       <rect x={0} y={710} width={1920} height={70} fill="#33302b" />{Array.from({ length: 16 }, (_, i) => <line key={i} x1={i * 125} x2={i * 125} y1={710} y2={780} stroke="rgba(255,255,255,.18)" strokeWidth={3} />)}
-      <text x={140} y={760} fill="rgba(243,238,228,.55)" style={lab}>PITS</text>
-      <text x={1780} y={590} fill="rgba(243,238,228,.35)" textAnchor="end" style={{ ...DISPLAY, fontSize: 30, letterSpacing: "0.2em" } as any}>{"DIRECTION OF RACE  >>"}</text>
+      <text x={430} y={760} fill="rgba(243,238,228,.55)" style={lab}>PITS</text>
+      <text x={1500} y={598} fill="rgba(243,238,228,.35)" textAnchor="end" style={{ ...DISPLAY, fontSize: 30, letterSpacing: "0.2em" } as any}>{"DIRECTION OF RACE  >>"}</text>
     </svg>);
   }
   if (sp.timeline) {
@@ -150,6 +150,8 @@ const Expl: React.FC<{ s: Shot }> = ({ s }) => {
   (sp.pins ?? []).forEach((p: any, i: number) => { const o = k(p.at, 0.06); if (o && !p.plain) mapEls.push(<g key={`pin${i}`}><circle cx={p.x} cy={p.y} r={30 * o * (1 + 0.25 * Math.sin(sec * 4))} fill="none" stroke={p.red ? C.red : C.cream} strokeWidth={3} opacity={0.5 * o} /><circle cx={p.x} cy={p.y} r={11 * o} fill={p.red ? C.red : C.cream} stroke="#0e0c0a" strokeWidth={4} /></g>); });
   if (sp.stop) { const o = k(sp.stop.at, 0.05); if (o) mapEls.push(<g key="stop" opacity={o}><rect x={sp.stop.x - 30} y={sp.stop.y - 30} width={60} height={60} fill={C.red} transform={`rotate(45 ${sp.stop.x} ${sp.stop.y})`} /><text x={sp.stop.x} y={sp.stop.y + 13} fill="#fff" textAnchor="middle" style={{ ...DISPLAY, fontSize: 36 } as any}>X</text></g>); }
   const drops: any[] = sp.drops ?? [];
+  const pos = (sp.movers ?? []).map((m: any) => atKeys(m.keys, T));
+  const crowded = (i: number) => pos.some((p: number[], j: number) => j !== i && Math.hypot(p[0] - pos[i][0], p[1] - pos[i][1]) < 150);
   (sp.movers ?? []).forEach((m: any, i: number) => {
     const [x, y] = atKeys(m.keys, T); const appear = k(m.keys[0][0], 0.03); if (!appear) return;
     const dr = drops.find((d) => d.i === i); const gone = dr ? k(dr.at, 0.05) : 0;
@@ -166,7 +168,7 @@ const Expl: React.FC<{ s: Shot }> = ({ s }) => {
       <rect x={-w / 2} y={-hh / 2} width={w} height={hh} rx={hh / 2.6} fill={gone ? "#55514a" : m.color} stroke="#0e0c0a" strokeWidth={4} />
       <text x={0} y={big ? 15 : 10} textAnchor="middle" fill={m.ink ? "#111" : "#fff"} style={{ ...DISPLAY, fontSize: big ? 42 : 28 } as any}>{m.num}</text>
       {gone ? <path d={`M${-w / 2 - 6},${-hh / 2 - 6} L${w / 2 + 6},${hh / 2 + 6} M${w / 2 + 6},${-hh / 2 - 6} L${-w / 2 - 6},${hh / 2 + 6}`} stroke={C.red} strokeWidth={6} opacity={gone} /> : null}
-      {big && m.label ? <text x={0} y={-hh / 2 - 14} textAnchor="middle" fill={C.cream} style={{ ...DISPLAY, fontSize: 30 } as any}>{m.label}</text> : null}
+      {big && m.label && !crowded(i) ? <text x={0} y={m.ink && m.num === "26" ? hh / 2 + 34 : -hh / 2 - 14} textAnchor="middle" fill={C.cream} stroke="#16130f" strokeWidth={6} paintOrder="stroke" style={{ ...DISPLAY, fontSize: 30 } as any}>{m.label}</text> : null}
     </g>);
   });
   (sp.flash ?? []).forEach((fl: any, i: number) => { const o = interpolate(T, [fl.at, fl.at + 0.03, fl.at + 0.12], [0, 1, 0], clamp); if (o) mapEls.push(<circle key={`fl${i}`} cx={fl.x} cy={fl.y} r={60 + 80 * o} fill="#fff" opacity={o * 0.8} />); });
@@ -186,8 +188,9 @@ const Expl: React.FC<{ s: Shot }> = ({ s }) => {
     })}</>;
   }
   let panelEl: React.ReactNode = null;
-  if (sp.panel) panelEl = <div style={{ position: "absolute", left: 90, top: 90, width: 760, height: 900, display: "flex", alignItems: "center", justifyContent: "center" }}>
-    <Img src={staticFile(sp.panel.src)} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain", transform: `scale(${1 + 0.04 * T})`, filter: "drop-shadow(0 18px 40px rgba(0,0,0,.7))" }} /></div>;
+  if (sp.panel) panelEl = <div style={{ position: "absolute", left: 90, top: 60, width: 760, height: 780, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+    <Img src={staticFile(sp.panel.src)} style={{ maxWidth: "100%", maxHeight: 700, objectFit: "contain", transform: `scale(${1 + 0.03 * T})`, filter: "drop-shadow(0 18px 40px rgba(0,0,0,.7))" }} />
+    {sp.panel.name ? <div style={{ ...DISPLAY, fontSize: 40, color: "#fff", background: C.red, padding: "4px 18px", marginTop: 14 }}>{sp.panel.name}</div> : null}</div>;
   let counterEl: React.ReactNode = null;
   if (sp.counter) { const c = sp.counter; const v = c.start + (c.end - c.start) * prog(c.at, c.dur); const o = k(c.at, 0.04);
     counterEl = <div style={{ position: "absolute", left: c.x, top: c.y, transform: "translate(-50%,-50%)", opacity: o, textAlign: "center", background: c.box ? "rgba(14,12,10,.85)" : "transparent", padding: c.box ? "10px 40px" : 0, whiteSpace: "nowrap" }}>
@@ -198,7 +201,8 @@ const Expl: React.FC<{ s: Shot }> = ({ s }) => {
   if (sp.tile) { const o = spring({ frame: fr - f(sp.tile.at * (s.b - s.a)), fps: FPS, config: { damping: 14, stiffness: 150 } });
     tileEl = <div style={{ position: "absolute", left: 960, top: 470, transform: `translate(-50%,-50%) scale(${0.85 + 0.15 * o})`, opacity: o, textAlign: "center" }}>
       <div style={{ ...DISPLAY, fontSize: 54, color: "#fff", background: C.red, display: "inline-block", padding: "6px 26px", marginBottom: 18 }}>{sp.tile.label}</div>
-      <Img src={staticFile(sp.tile.src)} style={{ width: 960, height: 540, display: "block", border: "6px solid #F3EEE4", boxShadow: "0 20px 60px rgba(0,0,0,.7)" }} /></div>; }
+      <Img src={staticFile(sp.tile.src)} style={{ width: 960, height: 540, display: "block", border: "6px solid #F3EEE4", boxShadow: "0 20px 60px rgba(0,0,0,.7)" }} />
+      {sp.tile.sub ? <div style={{ ...DISPLAY, fontSize: 34, color: C.cream, marginTop: 14, textShadow: "0 4px 18px rgba(0,0,0,.9)" }}>{sp.tile.sub}</div> : null}</div>; }
   let endEl: React.ReactNode = null;
   if (sp.end) { endEl = <>
     <div style={{ position: "absolute", left: 120, top: 150 }}>{sp.end.races.map((r: string, i: number) => { const o = k(0.02 + i * 0.03, 0.05); return <div key={i} style={{ ...DISPLAY, fontSize: 50, lineHeight: 1.32, color: i === 7 ? C.red : C.cream, opacity: o, transform: `translateX(${(1 - o) * -30}px)` }}>{r}</div>; })}</div>

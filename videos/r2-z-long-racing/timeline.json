@@ -463,7 +463,8 @@
 "spec": {
 "panel": {
 "src": "img/indy-1911/p9.jpg",
-"pic": "indy-1911/p9"
+"pic": "indy-1911/p9",
+"name": "RALPH MULFORD"
 },
 "rows": {
 "x": 1320,
@@ -576,8 +577,8 @@
 "counter": {
 "start": 0,
 "end": 5000,
-"at": 0.05,
-"dur": 0.55,
+"at": 0.02,
+"dur": 0.22,
 "x": 960,
 "y": 470,
 "size": 200,
@@ -2185,13 +2186,153 @@
 {
 "a": 364.44,
 "b": 366.92,
-"kind": "comp",
-"src": "img/crop/vanderbilt-cup_p1.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": -1,
-"line": "The race was finished there, but the road outlasted it, and part of it is a bike path today.",
-"pic": "vanderbilt-cup/p1"
+"kind": "expl",
+"eid": "li_bikepath",
+"spec": {
+"base": {
+"src": "maps/longisland.png"
+},
+"paths": [
+{
+"d": [
+[
+593.2,
+625.0
+],
+[
+765.4,
+530.1
+],
+[
+885.2,
+496.5
+],
+[
+907.6,
+544.0
+],
+[
+855.2,
+609.2
+],
+[
+757.9,
+668.5
+],
+[
+593.2,
+625.0
+]
+],
+"at": 0.0,
+"dur": 0.0,
+"color": "#E8B04A",
+"w": 7,
+"opacity": 0.45
+},
+{
+"d": [
+[
+533.4,
+595.3
+],
+[
+645.6,
+583.5
+],
+[
+765.4,
+575.6
+],
+[
+915.1,
+559.8
+],
+[
+1064.8,
+530.1
+],
+[
+1244.4,
+490.6
+],
+[
+1394.1,
+464.9
+],
+[
+1498.9,
+451.1
+]
+],
+"at": 0.0,
+"dur": 0.0,
+"color": "#DD1118",
+"w": 11
+}
+],
+"bridges": [
+{
+"x": 645.6,
+"y": 583.5,
+"at": 0.0
+},
+{
+"x": 765.4,
+"y": 575.6,
+"at": 0.0
+},
+{
+"x": 915.1,
+"y": 559.8,
+"at": 0.0
+},
+{
+"x": 1064.8,
+"y": 530.1,
+"at": 0.0
+},
+{
+"x": 1244.4,
+"y": 490.6,
+"at": 0.0
+}
+],
+"pins": [
+{
+"x": 1244.4,
+"y": 490.6,
+"label": "MOTOR PARKWAY: CARS ONLY",
+"at": 0.0,
+"anchor": "t"
+},
+{
+"x": 211.5,
+"y": 619.1,
+"label": "NEW YORK",
+"at": 0.0,
+"anchor": "l"
+},
+{
+"x": 1169.6,
+"y": 362.1,
+"label": "LONG ISLAND",
+"at": 0.0,
+"anchor": "c",
+"plain": true
+}
+],
+"tags": [
+{
+"text": "PART OF IT IS A BIKE PATH TODAY",
+"at": 0.1,
+"x": 960,
+"y": 110
+}
+]
+},
+"pics": [],
+"line": "The race was finished there, but the road outlasted it, and part of it is a bike path today."
 },
 {
 "a": 366.92,
@@ -3048,13 +3189,12 @@
 "a": 516.18,
 "b": 520.68,
 "kind": "comp",
-"src": "img/ny-paris-1908/p9.jpg",
+"src": "img/crop/ny-paris-1908_p9.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": -1,
 "line": "But the Protos had been penalised, for taking a train part of the way.",
-"pic": "ny-paris-1908/p9",
-"lbl": "PROTOS: PENALISED"
+"pic": "ny-paris-1908/p9"
 },
 {
 "a": 520.68,
@@ -3225,7 +3365,7 @@
 "at": 0.0,
 "dur": 0.6,
 "x": 700,
-"y": 80,
+"y": 100,
 "size": 110,
 "suffix": "DAYS",
 "box": true
@@ -3235,7 +3375,7 @@
 "text": "13,000+ MILES OF ROAD",
 "at": 0.5,
 "x": 1320,
-"y": 80
+"y": 100
 }
 ]
 },
@@ -3676,7 +3816,7 @@
 "a": 622.32,
 "b": 625.8,
 "kind": "comp",
-"src": "img/paris-madrid/p5.jpg",
+"src": "img/crop/paris-madrid_p5.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": -1,
@@ -4079,7 +4219,7 @@
 "a": 698.12,
 "b": 703.04,
 "kind": "comp",
-"src": "img/lemans-1955/p23.jpg",
+"src": "img/crop/lemans-1955_p23.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": -1,
@@ -4327,7 +4467,8 @@
 "src": "end/next.jpg",
 "label": "NEXT UP",
 "at": 0.05,
-"pic": "own thumbnail of long 1"
+"pic": "own thumbnail of long 1",
+"sub": "THE STRANGEST THINGS THAT EVER HAPPENED AT THE OLYMPICS"
 }
 },
 "pics": [],
@@ -4358,31 +4499,6 @@
 }
 ],
 "words": [
-{
-"w": "At",
-"s": 0.1,
-"e": 0.2
-},
-{
-"w": "Le",
-"s": 0.26,
-"e": 0.34
-},
-{
-"w": "Mans",
-"s": 0.42,
-"e": 0.64
-},
-{
-"w": "in",
-"s": 0.74,
-"e": 0.86
-},
-{
-"w": "1955",
-"s": 0.9,
-"e": 2.04
-},
 {
 "w": "a",
 "s": 2.3,
