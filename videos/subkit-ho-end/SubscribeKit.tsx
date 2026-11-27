@@ -214,7 +214,7 @@ export const EndCard: React.FC<{ ch: Ch; bg: React.ReactNode; P?: number; B?: nu
           <div style={{ position: "absolute", left: bx, top: by, ...ent(24) }}><Pair ch="ho" fr={fr} C={P} B={B} g={geo} /></div>
           {txt(500, 790, 24, { fontFamily: "Archivo", fontWeight: 800, color: "rgba(244,235,216,.7)" }, "Subscribing helps support the channel", 36, true)}
           {txt(1080, 276, 26, { fontFamily: "Cinzel", fontWeight: 700, letterSpacing: "0.12em", color: HO.gold }, "WATCH NEXT", 30)}
-          <div style={{ position: "absolute", left: 1080, top: 300, width: 720, height: 405, borderRadius: 12, boxSizing: "border-box", border: "1.5px solid rgba(214,174,98,.45)", background: "rgba(27,37,71,.35)", ...ent(32) }} />
+          <div style={{ position: "absolute", left: 1080, top: 300, width: 720, height: 405, borderRadius: 12, boxSizing: "border-box", border: "1.5px solid rgba(214,174,98,.45)", background: "rgba(27,37,71,.45)", boxShadow: "0 18px 50px rgba(0,0,0,.35)", ...ent(32) }} />
         </>
       ) : (
         <>
@@ -224,7 +224,7 @@ export const EndCard: React.FC<{ ch: Ch; bg: React.ReactNode; P?: number; B?: nu
           <div style={{ position: "absolute", left: bx, top: by, ...ent(24) }}><Pair ch="sr" fr={fr} C={P} B={B} g={geo} /></div>
           {txt(160, 770, 28, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.04em", color: "rgba(243,238,228,.75)" }, "SUBSCRIBING HELPS SUPPORT THE CHANNEL", 36)}
           {txt(1040, 272, 36, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.04em", color: SR.cream }, <>WATCH NEXT<div style={{ width: 120, height: 4, background: SR.red, marginTop: 8 }} /></>, 30)}
-          <div style={{ position: "absolute", left: 1040, top: 300, width: 760, height: 428, borderRadius: 4, background: "rgba(28,25,22,.5)", boxShadow: `inset 6px 0 0 ${SR.red}`, ...ent(32) }} />
+          <div style={{ position: "absolute", left: 1040, top: 300, width: 760, height: 428, borderRadius: 4, background: "rgba(28,25,22,.6)", boxShadow: `inset 6px 0 0 ${SR.red}, inset 0 0 0 2px rgba(243,238,228,.16), 0 18px 50px rgba(0,0,0,.35)`, ...ent(32) }} />
         </>
       )}
       <div style={{ position: "absolute", left: cur.x - 3, top: cur.y - 1, opacity: cur.op, transform: `scale(${cur.sc})`, transformOrigin: "3px 1px" }}><Cursor h={42} /></div>
