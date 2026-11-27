@@ -1,0 +1,2289 @@
+{
+"end": 671.17,
+"vo_end": 670.168,
+"fps": 30,
+"shots": [
+{
+"a": 0.0,
+"b": 7.46,
+"kind": "clip",
+"src": "clips/c_f46458b080.mp4"
+},
+{
+"a": 7.46,
+"b": 11.38,
+"kind": "img",
+"src": "img/i_a57c350347.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 11.38,
+"b": 16.06,
+"kind": "clip",
+"src": "clips/c_1a8457b92a.mp4"
+},
+{
+"a": 16.06,
+"b": 19.5,
+"kind": "clip",
+"src": "clips/c_096c376bad.mp4"
+},
+{
+"a": 19.5,
+"b": 24.88,
+"kind": "img",
+"src": "img/i_038a9c0193.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 24.88,
+"b": 30.48,
+"kind": "clip",
+"src": "clips/c_e78972542d.mp4"
+},
+{
+"a": 30.48,
+"b": 34.48,
+"kind": "clip",
+"src": "clips/c_9f951b3f6c.mp4"
+},
+{
+"a": 34.48,
+"b": 37.72,
+"kind": "img",
+"src": "img/i_56afc4f1a1.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 37.72,
+"b": 40.78,
+"kind": "clip",
+"src": "clips/c_d950a78b5e.mp4"
+},
+{
+"a": 40.78,
+"b": 43.1,
+"kind": "card",
+"card": {
+"t": "LUCKY DRAGON No. 5",
+"sub": "a Japanese tuna boat, 1 March 1954",
+"style": "doc"
+}
+},
+{
+"a": 43.1,
+"b": 48.7,
+"kind": "clip",
+"src": "clips/c_9b39d7ccc0.mp4"
+},
+{
+"a": 48.7,
+"b": 50.84,
+"kind": "clip",
+"src": "clips/c_bbec85d3d3.mp4"
+},
+{
+"a": 50.84,
+"b": 53.16,
+"kind": "img",
+"src": "img/i_c725d775a2.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 53.16,
+"b": 56.66,
+"kind": "img",
+"src": "img/i_9fb01bdb1c.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 56.66,
+"b": 61.24,
+"kind": "clip",
+"src": "clips/c_39835dc2a5.mp4"
+},
+{
+"a": 61.24,
+"b": 65.2,
+"kind": "clip",
+"src": "clips/c_3f2231b5ad.mp4"
+},
+{
+"a": 65.2,
+"b": 68.38,
+"kind": "img",
+"src": "img/i_3a622dcfec.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 68.38,
+"b": 71.92,
+"kind": "img",
+"src": "img/i_6b2e9462a2.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 71.92,
+"b": 75.08,
+"kind": "clip",
+"src": "clips/c_8118559d9a.mp4"
+},
+{
+"a": 75.08,
+"b": 77.26,
+"kind": "clip",
+"src": "clips/c_9e6d29bea9.mp4"
+},
+{
+"a": 77.26,
+"b": 80.42,
+"kind": "clip",
+"src": "clips/c_c39125344b.mp4"
+},
+{
+"a": 80.42,
+"b": 84.3,
+"kind": "img",
+"src": "img/i_33b38e875a.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 84.3,
+"b": 89.98,
+"kind": "img",
+"src": "img/i_0d012d14c0.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 89.98,
+"b": 94.22,
+"kind": "img",
+"src": "img/i_9620626a3c.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 94.22,
+"b": 98.38,
+"kind": "img",
+"src": "img/i_b00ed67220.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 98.38,
+"b": 102.04,
+"kind": "img",
+"src": "img/i_1a88a132ff.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 102.04,
+"b": 107.2,
+"kind": "card",
+"card": {
+"t": "We are willing to go. Everything is in God's hands.",
+"sub": "Juda, in the Navy's re-staged film of the meeting, 1946",
+"style": "quote"
+}
+},
+{
+"a": 107.2,
+"b": 111.64,
+"kind": "clip",
+"src": "clips/c_585e405b08.mp4"
+},
+{
+"a": 111.64,
+"b": 114.72,
+"kind": "clip",
+"src": "clips/c_b564f95056.mp4"
+},
+{
+"a": 114.72,
+"b": 117.48,
+"kind": "clip",
+"src": "clips/c_220b76037b.mp4"
+},
+{
+"a": 117.48,
+"b": 121.92,
+"kind": "card",
+"card": {
+"t": "1,500 TO 2,000 FEET",
+"sub": "how far the Able bomb missed its target ship (Joint Chiefs' evaluation board)",
+"style": "number"
+}
+},
+{
+"a": 121.92,
+"b": 125.98,
+"kind": "clip",
+"src": "clips/c_126ddb5614.mp4"
+},
+{
+"a": 125.98,
+"b": 130.22,
+"kind": "clip",
+"src": "clips/c_e3d7a57eea.mp4"
+},
+{
+"a": 130.22,
+"b": 132.58,
+"kind": "clip",
+"src": "clips/c_2b7d26ff60.mp4"
+},
+{
+"a": 132.58,
+"b": 135.92,
+"kind": "clip",
+"src": "clips/c_b2e26c4cff.mp4"
+},
+{
+"a": 135.92,
+"b": 141.12,
+"kind": "img",
+"src": "img/i_5d494e8f15.jpg",
+"mv": "hold",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 141.12,
+"b": 145.12,
+"kind": "card",
+"card": {
+"t": "23 KILOTONS",
+"sub": "about the size of the Nagasaki bomb",
+"style": "number"
+}
+},
+{
+"a": 145.12,
+"b": 147.74,
+"kind": "clip",
+"src": "clips/c_c7980edd3f.mp4"
+},
+{
+"a": 147.74,
+"b": 151.96,
+"kind": "clip",
+"src": "clips/c_a3915ad46b.mp4"
+},
+{
+"a": 151.96,
+"b": 155.98,
+"kind": "img",
+"src": "img/i_094ce73036.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 155.98,
+"b": 161.36,
+"kind": "img",
+"src": "img/i_f02b8b3b9b.jpg",
+"mv": "pan",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 161.36,
+"b": 166.28,
+"kind": "img",
+"src": "img/i_00a3b243b6.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 166.28,
+"b": 168.86,
+"kind": "clip",
+"src": "clips/c_df390ab22c.mp4"
+},
+{
+"a": 168.86,
+"b": 172.66,
+"kind": "img",
+"src": "img/i_b1d90a4f80.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 172.66,
+"b": 174.96,
+"kind": "clip",
+"src": "clips/c_67010c7fb6.mp4"
+},
+{
+"a": 174.96,
+"b": 178.18,
+"kind": "clip",
+"src": "clips/c_31a95dea80.mp4"
+},
+{
+"a": 178.18,
+"b": 181.48,
+"kind": "img",
+"src": "img/i_4009ffaf0e.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 181.48,
+"b": 184.02,
+"kind": "clip",
+"src": "clips/c_8d5c894c9f.mp4"
+},
+{
+"a": 184.02,
+"b": 191.26,
+"kind": "card",
+"card": {
+"t": "The contaminated ships became radioactive stoves, and would have burned all living things aboard.",
+"sub": "Joint Chiefs of Staff Evaluation Board, 30 July 1946",
+"style": "quote"
+}
+},
+{
+"a": 191.26,
+"b": 196.66,
+"kind": "clip",
+"src": "clips/c_a6e3714875.mp4"
+},
+{
+"a": 196.66,
+"b": 198.82,
+"kind": "card",
+"card": {
+"t": "35,000",
+"sub": "crewmen Life magazine estimated Baker would have killed on fully manned ships",
+"style": "number"
+}
+},
+{
+"a": 198.82,
+"b": 202.18,
+"kind": "clip",
+"src": "clips/c_91112062f5.mp4"
+},
+{
+"a": 202.18,
+"b": 207.32,
+"kind": "img",
+"src": "img/i_91ea7bbb36.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 207.32,
+"b": 210.6,
+"kind": "clip",
+"src": "clips/c_8960c3186a.mp4"
+},
+{
+"a": 210.6,
+"b": 213.14,
+"kind": "clip",
+"src": "clips/c_e17d084b5f.mp4"
+},
+{
+"a": 213.14,
+"b": 218.04,
+"kind": "img",
+"src": "img/i_1f0b5f3f45.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 218.04,
+"b": 222.22,
+"kind": "card",
+"card": {
+"t": "SECRET MEMO, 7 AUGUST 1946",
+"sub": "Col. Stafford Warren, radiological safety adviser, to the task force commander",
+"style": "doc"
+}
+},
+{
+"a": 222.22,
+"b": 226.98,
+"kind": "card",
+"card": {
+"t": "The target vessels are in the main extensively contaminated with dangerous amounts of radioactivity.",
+"sub": "Col. Stafford Warren, memo, 7 August 1946",
+"style": "quote"
+}
+},
+{
+"a": 226.98,
+"b": 230.4,
+"kind": "clip",
+"src": "clips/c_df73aab4d3.mp4"
+},
+{
+"a": 230.4,
+"b": 234.92,
+"kind": "img",
+"src": "img/i_c079a6a495.jpg",
+"mv": "pan",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 234.92,
+"b": 239.78,
+"kind": "img",
+"src": "img/i_d8c1cb20ff.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 239.78,
+"b": 243.42,
+"kind": "card",
+"card": {
+"t": "Plutonium ... insidiously toxic in very minute quantities.",
+"sub": "Col. Stafford Warren, memo, 7 August 1946",
+"style": "quote"
+}
+},
+{
+"a": 243.42,
+"b": 248.32,
+"kind": "img",
+"src": "img/i_58703d8c7e.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 248.32,
+"b": 252.08,
+"kind": "clip",
+"src": "clips/c_32864b4680.mp4"
+},
+{
+"a": 252.08,
+"b": 257.38,
+"kind": "card",
+"card": {
+"t": "A FISH FROM THE LAGOON",
+"sub": "laid on photographic film, it printed its own picture with its radiation",
+"style": "doc"
+}
+},
+{
+"a": 257.38,
+"b": 260.62,
+"kind": "img",
+"src": "img/i_b1d26b5c5a.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 260.62,
+"b": 265.1,
+"kind": "card",
+"card": {
+"t": "A self x-ray of a fish ... did the trick.",
+"sub": "Col. Stafford Warren, writing home, August 1946",
+"style": "quote"
+}
+},
+{
+"a": 265.1,
+"b": 268.32,
+"kind": "card",
+"card": {
+"t": "10 AUGUST 1946",
+"sub": "Admiral Blandy stops the clean-up",
+"style": "number"
+}
+},
+{
+"a": 268.32,
+"b": 273.3,
+"kind": "clip",
+"src": "clips/c_fb55632324.mp4"
+},
+{
+"a": 273.3,
+"b": 275.86,
+"kind": "card",
+"card": {
+"t": "the most poisonous chemical known",
+"sub": "Col. Stafford Warren on the alpha emitters aboard the ships, 13 August 1946",
+"style": "quote"
+}
+},
+{
+"a": 275.86,
+"b": 280.78,
+"kind": "clip",
+"src": "clips/c_c41db4a845.mp4"
+},
+{
+"a": 280.78,
+"b": 286.9,
+"kind": "clip",
+"src": "clips/c_e6b6fe2c9b.mp4"
+},
+{
+"a": 286.9,
+"b": 290.36,
+"kind": "clip",
+"src": "clips/c_27a3d00570.mp4"
+},
+{
+"a": 290.36,
+"b": 292.48,
+"kind": "img",
+"src": "img/i_2e224fee45.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 292.48,
+"b": 296.78,
+"kind": "clip",
+"src": "clips/c_e067a57fb4.mp4"
+},
+{
+"a": 296.78,
+"b": 300.4,
+"kind": "img",
+"src": "img/i_79c00c8cec.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 300.4,
+"b": 305.74,
+"kind": "clip",
+"src": "clips/c_ea2362027e.mp4"
+},
+{
+"a": 305.74,
+"b": 309.5,
+"kind": "clip",
+"src": "clips/c_28f45e6058.mp4"
+},
+{
+"a": 309.5,
+"b": 313.74,
+"kind": "card",
+"card": {
+"t": "5 TO 6 MEGATONS",
+"sub": "what Bravo's designers expected: 5 to 6 million tons of TNT",
+"style": "number"
+}
+},
+{
+"a": 313.74,
+"b": 319.9,
+"kind": "img",
+"src": "img/i_330772fd2c.jpg",
+"mv": "hold",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 319.9,
+"b": 322.32,
+"kind": "img",
+"src": "img/i_629aaabb81.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 322.32,
+"b": 325.14,
+"kind": "clip",
+"src": "clips/c_ecf9c01aa5.mp4"
+},
+{
+"a": 325.14,
+"b": 330.4,
+"kind": "img",
+"src": "img/i_0836f19a33.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 330.4,
+"b": 334.1,
+"kind": "clip",
+"src": "clips/c_2eb96d688d.mp4"
+},
+{
+"a": 334.1,
+"b": 338.22,
+"kind": "clip",
+"src": "clips/c_a50086f60b.mp4"
+},
+{
+"a": 338.22,
+"b": 341.6,
+"kind": "clip",
+"src": "clips/c_bdea4fa78a.mp4"
+},
+{
+"a": 341.6,
+"b": 346.2,
+"kind": "card",
+"card": {
+"t": "6,500 FEET",
+"sub": "wide and 250 feet deep: Bravo's crater in the reef",
+"style": "number"
+}
+},
+{
+"a": 346.2,
+"b": 348.52,
+"kind": "clip",
+"src": "clips/c_d0837a8a7b.mp4"
+},
+{
+"a": 348.52,
+"b": 354.26,
+"kind": "img",
+"src": "img/i_0cd1d63fe9.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 354.26,
+"b": 356.5,
+"kind": "clip",
+"src": "clips/c_8688a7dbc0.mp4"
+},
+{
+"a": 356.5,
+"b": 358.82,
+"kind": "img",
+"src": "img/i_0624164ba7.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 358.82,
+"b": 366.27,
+"kind": "clip",
+"src": "clips/c_24f98281df.mp4"
+},
+{
+"a": 366.27,
+"b": 369.15,
+"kind": "img",
+"src": "img/i_c130fdf0c6.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 369.15,
+"b": 371.53,
+"kind": "clip",
+"src": "clips/c_bda11ced8c.mp4"
+},
+{
+"a": 371.53,
+"b": 376.83,
+"kind": "card",
+"card": {
+"t": "CASTLE BRAVO: FIFTY YEARS OF LEGEND AND LORE",
+"sub": "Defense Threat Reduction Agency study, 2013",
+"style": "doc"
+}
+},
+{
+"a": 376.83,
+"b": 381.31,
+"kind": "clip",
+"src": "clips/c_bb4e031fff.mp4"
+},
+{
+"a": 381.31,
+"b": 383.47,
+"kind": "img",
+"src": "img/i_b29a497be0.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 383.47,
+"b": 387.07,
+"kind": "clip",
+"src": "clips/c_7573df011b.mp4"
+},
+{
+"a": 387.07,
+"b": 389.37,
+"kind": "card",
+"card": {
+"t": "Had the design yield occurred, the inhabited atolls still would have been contaminated.",
+"sub": "DTRA, Castle Bravo: Fifty Years of Legend and Lore (2013)",
+"style": "quote"
+}
+},
+{
+"a": 389.37,
+"b": 393.17,
+"kind": "card",
+"card": {
+"t": "18 FEBRUARY 1954",
+"sub": "Los Alamos warns: the maximum possible yield is about 15 megatons",
+"style": "doc"
+}
+},
+{
+"a": 393.17,
+"b": 395.85,
+"kind": "img",
+"src": "img/i_00240beeab.jpg",
+"mv": "pan",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 395.85,
+"b": 399.07,
+"kind": "clip",
+"src": "clips/c_af4a271ce7.mp4"
+},
+{
+"a": 399.07,
+"b": 403.67,
+"kind": "img",
+"src": "img/i_e37eadd9ee.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 403.67,
+"b": 408.19,
+"kind": "card",
+"card": {
+"t": "82",
+"sub": "people on Rongelap and nearby Ailinginae",
+"style": "number"
+}
+},
+{
+"a": 408.19,
+"b": 413.89,
+"kind": "clip",
+"src": "clips/c_14675b4b09.mp4"
+},
+{
+"a": 413.89,
+"b": 416.65,
+"kind": "clip",
+"src": "clips/c_10fca2f89e.mp4"
+},
+{
+"a": 416.65,
+"b": 419.25,
+"kind": "clip",
+"src": "clips/c_4f25527b6e.mp4"
+},
+{
+"a": 419.25,
+"b": 423.15,
+"kind": "clip",
+"src": "clips/c_b4384d401f.mp4"
+},
+{
+"a": 423.15,
+"b": 426.65,
+"kind": "clip",
+"src": "clips/c_98407e6757.mp4"
+},
+{
+"a": 426.65,
+"b": 430.77,
+"kind": "card",
+"card": {
+"t": "236",
+"sub": "islanders moved off Rongelap, Ailinginae and Utirik",
+"style": "number"
+}
+},
+{
+"a": 430.77,
+"b": 433.01,
+"kind": "clip",
+"src": "clips/c_61936b645e.mp4"
+},
+{
+"a": 433.01,
+"b": 438.63,
+"kind": "clip",
+"src": "clips/c_a2ae09dcef.mp4"
+},
+{
+"a": 438.63,
+"b": 443.67,
+"kind": "card",
+"card": {
+"t": "DAIGO FUKURYU MARU",
+"sub": "Lucky Dragon No. 5: Japanese tuna boat, 23 crew, about 80 miles east of Bikini",
+"style": "doc"
+}
+},
+{
+"a": 443.67,
+"b": 447.53,
+"kind": "clip",
+"src": "clips/c_3efdda5291.mp4"
+},
+{
+"a": 447.53,
+"b": 451.81,
+"kind": "clip",
+"src": "clips/c_e4ab4a16f7.mp4"
+},
+{
+"a": 451.81,
+"b": 457.23,
+"kind": "card",
+"card": {
+"t": "MATASHICHI OISHI",
+"sub": "Lucky Dragon crewman",
+"style": "doc"
+}
+},
+{
+"a": 457.23,
+"b": 461.09,
+"kind": "clip",
+"src": "clips/c_fa4970883b.mp4"
+},
+{
+"a": 461.09,
+"b": 463.29,
+"kind": "card",
+"card": {
+"t": "I licked it.",
+"sub": "Matashichi Oishi, on the ash",
+"style": "quote"
+}
+},
+{
+"a": 463.29,
+"b": 468.85,
+"kind": "card",
+"card": {
+"t": "TWO WEEKS",
+"sub": "later the boat is home in Japan, its crew sick with radiation",
+"style": "number"
+}
+},
+{
+"a": 468.85,
+"b": 475.35,
+"kind": "card",
+"card": {
+"t": "AIKICHI KUBOYAMA",
+"sub": "chief radio operator, died 23 September 1954, the first of the crew",
+"style": "doc"
+}
+},
+{
+"a": 475.35,
+"b": 479.01,
+"kind": "clip",
+"src": "clips/c_47b19180e4.mp4"
+},
+{
+"a": 479.01,
+"b": 482.11,
+"kind": "clip",
+"src": "clips/c_81f3d1cd7f.mp4"
+},
+{
+"a": 482.11,
+"b": 485.01,
+"kind": "img",
+"src": "img/i_ee5c1b3dbc.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 485.01,
+"b": 489.93,
+"kind": "card",
+"card": {
+"t": "No country, no people, however powerful they might be, are safe from destruction.",
+"sub": "Jawaharlal Nehru, April 1954",
+"style": "quote"
+}
+},
+{
+"a": 489.93,
+"b": 493.81,
+"kind": "clip",
+"src": "clips/c_73fa85bd41.mp4"
+},
+{
+"a": 493.81,
+"b": 498.39,
+"kind": "img",
+"src": "img/i_058139e965.jpg",
+"mv": "hold",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 498.39,
+"b": 501.17,
+"kind": "clip",
+"src": "clips/c_58b5d0b79f.mp4"
+},
+{
+"a": 501.17,
+"b": 505.39,
+"kind": "clip",
+"src": "clips/c_d880a1fed5.mp4"
+},
+{
+"a": 505.39,
+"b": 508.19,
+"kind": "card",
+"card": {
+"t": "JUNE 1962",
+"sub": "the first try: the engine cuts out about a minute after launch, and the missile is destroyed",
+"style": "doc"
+}
+},
+{
+"a": 508.19,
+"b": 512.45,
+"kind": "clip",
+"src": "clips/c_3115bafb73.mp4"
+},
+{
+"a": 512.45,
+"b": 515.61,
+"kind": "clip",
+"src": "clips/c_9b1b926690.mp4"
+},
+{
+"a": 515.61,
+"b": 518.01,
+"kind": "clip",
+"src": "clips/c_bea41d6e96.mp4"
+},
+{
+"a": 518.01,
+"b": 521.85,
+"kind": "clip",
+"src": "clips/c_8616053a7f.mp4"
+},
+{
+"a": 521.85,
+"b": 527.65,
+"kind": "clip",
+"src": "clips/c_c6f8d6e5f1.mp4"
+},
+{
+"a": 527.65,
+"b": 529.77,
+"kind": "img",
+"src": "img/i_9f726a6aca.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 529.77,
+"b": 535.43,
+"kind": "card",
+"card": {
+"t": "ROOFTOP PARTIES",
+"sub": "some Hawaii hotels held them to watch the sky, one atomic veteran recalled",
+"style": "doc"
+}
+},
+{
+"a": 535.43,
+"b": 539.61,
+"kind": "card",
+"card": {
+"t": "OAHU, 11 PM",
+"sub": "streetlights out, burglar alarms ringing",
+"style": "doc"
+}
+},
+{
+"a": 539.61,
+"b": 544.41,
+"kind": "clip",
+"src": "clips/c_f4a7c9412e.mp4"
+},
+{
+"a": 544.41,
+"b": 549.75,
+"kind": "clip",
+"src": "clips/c_700826f3a6.mp4"
+},
+{
+"a": 549.75,
+"b": 553.39,
+"kind": "clip",
+"src": "clips/c_f0ab7ee345.mp4"
+},
+{
+"a": 553.39,
+"b": 557.27,
+"kind": "card",
+"card": {
+"t": "100 TIMES",
+"sub": "at least: how much more intense the inner belt became than nature had made it",
+"style": "number"
+}
+},
+{
+"a": 557.27,
+"b": 560.23,
+"kind": "clip",
+"src": "clips/c_9381f02b37.mp4"
+},
+{
+"a": 560.23,
+"b": 563.91,
+"kind": "img",
+"src": "img/i_870db888b3.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 563.91,
+"b": 567.07,
+"kind": "clip",
+"src": "clips/c_659e4200c1.mp4"
+},
+{
+"a": 567.07,
+"b": 571.57,
+"kind": "card",
+"card": {
+"t": "x100",
+"sub": "the radiation dose Telstar took, against what was expected (NASA)",
+"style": "number"
+}
+},
+{
+"a": 571.57,
+"b": 574.93,
+"kind": "clip",
+"src": "clips/c_747e5f8c79.mp4"
+},
+{
+"a": 574.93,
+"b": 579.29,
+"kind": "card",
+"card": {
+"t": "FEBRUARY 1963",
+"sub": "Telstar falls silent",
+"style": "doc"
+}
+},
+{
+"a": 579.29,
+"b": 582.87,
+"kind": "clip",
+"src": "clips/c_3a8767700a.mp4"
+},
+{
+"a": 582.87,
+"b": 586.85,
+"kind": "card",
+"card": {
+"t": "7 SATELLITES",
+"sub": "lost within months of Starfish Prime, most from damaged solar cells (NASA)",
+"style": "number"
+}
+},
+{
+"a": 586.85,
+"b": 589.77,
+"kind": "clip",
+"src": "clips/c_25ef526000.mp4"
+},
+{
+"a": 589.77,
+"b": 594.09,
+"kind": "card",
+"card": {
+"t": "It came as a surprise how bad it was, and how long it lasted.",
+"sub": "David Sibeck, NASA",
+"style": "quote"
+}
+},
+{
+"a": 594.09,
+"b": 597.47,
+"kind": "clip",
+"src": "clips/c_ea8fc95263.mp4"
+},
+{
+"a": 597.47,
+"b": 602.03,
+"kind": "clip",
+"src": "clips/c_535bd9cf1f.mp4"
+},
+{
+"a": 602.03,
+"b": 606.57,
+"kind": "img",
+"src": "img/i_dcf7a10cf8.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 606.57,
+"b": 610.17,
+"kind": "clip",
+"src": "clips/c_d9c756230d.mp4"
+},
+{
+"a": 610.17,
+"b": 615.13,
+"kind": "clip",
+"src": "clips/c_b14801ede3.mp4"
+},
+{
+"a": 615.13,
+"b": 618.75,
+"kind": "clip",
+"src": "clips/c_45779b9600.mp4"
+},
+{
+"a": 618.75,
+"b": 622.75,
+"kind": "card",
+"card": {
+"t": "every effort should be made to eliminate the necessity for evacuation of native populations",
+"sub": "Operation Castle planning rule, quoted by DTRA (2013)",
+"style": "quote"
+}
+},
+{
+"a": 622.75,
+"b": 626.27,
+"kind": "clip",
+"src": "clips/c_b38f04523c.mp4"
+},
+{
+"a": 626.27,
+"b": 630.11,
+"kind": "clip",
+"src": "clips/c_11d89b7361.mp4"
+},
+{
+"a": 630.11,
+"b": 633.61,
+"kind": "clip",
+"src": "clips/c_24af11bf14.mp4"
+},
+{
+"a": 633.61,
+"b": 639.63,
+"kind": "img",
+"src": "img/i_2dd27bec45.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 639.63,
+"b": 645.29,
+"kind": "img",
+"src": "img/i_d355410728.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 645.29,
+"b": 649.15,
+"kind": "clip",
+"src": "clips/c_9d6443d9c3.mp4"
+},
+{
+"a": 649.15,
+"b": 651.81,
+"kind": "card",
+"card": {
+"t": "ALL THREE",
+"sub": "Baker: under water  \u00b7  Bravo: in the atmosphere  \u00b7  Starfish: in outer space",
+"style": "doc"
+}
+},
+{
+"a": 651.81,
+"b": 654.59,
+"kind": "img",
+"src": "img/i_5c8e7d315b.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 654.59,
+"b": 657.11,
+"kind": "card",
+"card": {
+"t": "10 OCTOBER 1963",
+"sub": "the treaty comes into force",
+"style": "number"
+}
+},
+{
+"a": 657.11,
+"b": 661.93,
+"kind": "clip",
+"src": "clips/c_c127bf6089.mp4"
+},
+{
+"a": 661.93,
+"b": 666.37,
+"kind": "clip",
+"src": "clips/c_ba59225817.mp4"
+},
+{
+"a": 666.37,
+"b": 671.17,
+"kind": "card",
+"card": {
+"t": "NEXT: THE BOMB LOST OFF GEORGIA, 1958",
+"sub": "dropped near Tybee Island and never found",
+"style": "doc"
+}
+}
+],
+"chapters": [
+{
+"a": 0.0,
+"b": 3.0,
+"n": "Chapter 1",
+"t": "Three surprises"
+},
+{
+"a": 56.66,
+"b": 60.16,
+"n": "Chapter 2",
+"t": "Bikini, 1946"
+},
+{
+"a": 132.58,
+"b": 135.92,
+"n": "Chapter 3",
+"t": "Test Baker"
+},
+{
+"a": 198.82,
+"b": 201.82,
+"n": "Chapter 4",
+"t": "The ships nobody could clean"
+},
+{
+"a": 292.48,
+"b": 295.98,
+"n": "Chapter 5",
+"t": "Castle Bravo, 1954"
+},
+{
+"a": 395.85,
+"b": 399.07,
+"n": "Chapter 6",
+"t": "The ash"
+},
+{
+"a": 489.93,
+"b": 493.43,
+"n": "Chapter 7",
+"t": "Starfish Prime, 1962"
+},
+{
+"a": 597.47,
+"b": 600.97,
+"n": "Chapter 8",
+"t": "Why they kept getting it wrong"
+}
+],
+"caps": [
+{
+"a": 0.03,
+"b": 6.47,
+"t": "At Bikini Atoll in July 1946, the US\nNavy set off an atomic bomb under its own"
+},
+{
+"a": 6.47,
+"b": 7.47,
+"t": "fleet."
+},
+{
+"a": 7.49,
+"b": 11.41,
+"t": "It threw up a column of water\nabout 2,000 feet across,"
+},
+{
+"a": 11.41,
+"b": 16.02,
+"t": "and it climbed more than a mile before\nit all came back down on the ships."
+},
+{
+"a": 16.09,
+"b": 19.41,
+"t": "Afterwards, the sailors\ncouldn't wash those ships clean,"
+},
+{
+"a": 19.41,
+"b": 24.91,
+"t": "and inside three weeks, the Army's radiation\nsafety doctor was demanding a halt."
+},
+{
+"a": 24.91,
+"b": 30.51,
+"t": "And that was only the first of three times\nAmerica lost its grip on its own bomb."
+},
+{
+"a": 30.51,
+"b": 33.07,
+"t": "Eight years later, at the same atoll,"
+},
+{
+"a": 33.07,
+"b": 37.74,
+"t": "a hydrogen bomb came out two and a half\nto three times bigger than planned."
+},
+{
+"a": 37.75,
+"b": 43.13,
+"t": "Its radioactive ash came down on\nislanders and on a Japanese fishing boat."
+},
+{
+"a": 43.13,
+"b": 48.73,
+"t": "Then in 1962, a bomb set off\n250 miles above the Pacific,"
+},
+{
+"a": 48.73,
+"b": 50.87,
+"t": "lit up the night sky over Hawaii,"
+},
+{
+"a": 50.87,
+"b": 53.19,
+"t": "and crippled satellites in orbit."
+},
+{
+"a": 53.19,
+"b": 56.69,
+"t": "And you have to ask why the\nexperts kept missing it."
+},
+{
+"a": 56.69,
+"b": 61.27,
+"t": "The war had been over for less than a year\nwhen the Navy decided it needed to know"
+},
+{
+"a": 61.27,
+"b": 65.22,
+"t": "what an atomic bomb would\ndo to a fleet of warships."
+},
+{
+"a": 65.23,
+"b": 70.09,
+"t": "So, it gathered more than 90 old and\ncaptured ships in the lagoon at Bikini,"
+},
+{
+"a": 70.09,
+"b": 71.95,
+"t": "out in the Marshall Islands."
+},
+{
+"a": 71.95,
+"b": 74.59,
+"t": "It even put live animals on some of them,"
+},
+{
+"a": 74.59,
+"b": 80.45,
+"t": "mostly pigs, goats, and rats, to see what\nthe blast and the radiation would do."
+},
+{
+"a": 80.45,
+"b": 84.33,
+"t": "But first, the people who\nlived on Bikini had to go."
+},
+{
+"a": 84.33,
+"b": 90.01,
+"t": "In early March 1946, about 160\nof them were taken to Rongerik,"
+},
+{
+"a": 90.01,
+"b": 94.25,
+"t": "a much smaller atoll about 125 miles away."
+},
+{
+"a": 94.25,
+"b": 96.53,
+"t": "The Navy filmed the\nmeeting where their leader,"
+},
+{
+"a": 96.53,
+"b": 102.06,
+"t": "Juda, agreed to it, although the scene\nyou see was restaged for the cameras."
+},
+{
+"a": 102.07,
+"b": 107.22,
+"t": "In it, he says they're willing to go\nand that everything is in God's hands."
+},
+{
+"a": 107.23,
+"b": 110.19,
+"t": "Then on July 1st came the first test,"
+},
+{
+"a": 110.19,
+"b": 111.67,
+"t": "called Able."
+},
+{
+"a": 111.67,
+"b": 114.53,
+"t": "A B-29 dropped the bomb over the fleet,"
+},
+{
+"a": 114.53,
+"b": 117.51,
+"t": "and according to the Joint\nChiefs Evaluation Board,"
+},
+{
+"a": 117.51,
+"b": 121.95,
+"t": "it missed the target ship\nby 1,500 to 2,000 feet."
+},
+{
+"a": 121.95,
+"b": 126.01,
+"t": "Five ships went down, though most\nof the fleet was still afloat."
+},
+{
+"a": 126.01,
+"b": 127.61,
+"t": "But there was a problem."
+},
+{
+"a": 127.61,
+"b": 129.75,
+"t": "The next test was about to show,"
+},
+{
+"a": 129.75,
+"b": 132.61,
+"t": "and it had nothing to\ndo with sinking ships."
+},
+{
+"a": 132.61,
+"b": 137.85,
+"t": "On July 25th, the Navy hung the\nsecond bomb 90 feet under the water,"
+},
+{
+"a": 137.85,
+"b": 141.15,
+"t": "below a landing ship right\nin the middle of the fleet."
+},
+{
+"a": 141.15,
+"b": 145.06,
+"t": "It was about the same size as\nthe one dropped on Nagasaki."
+},
+{
+"a": 145.15,
+"b": 150.79,
+"t": "When it went off, it threw up a column of\nwater about 2,000 feet across and 6,000"
+},
+{
+"a": 150.79,
+"b": 154.49,
+"t": "feet tall, something like\na million tons of it."
+},
+{
+"a": 154.49,
+"b": 159.97,
+"t": "Then it fell back, and a ring of radioactive\nmist rolled out across the lagoon and"
+},
+{
+"a": 159.97,
+"b": 161.39,
+"t": "over the ships."
+},
+{
+"a": 161.39,
+"b": 163.59,
+"t": "The aircraft carrier Saratoga,"
+},
+{
+"a": 163.59,
+"b": 166.31,
+"t": "one of the closest big ships to the blast,"
+},
+{
+"a": 166.31,
+"b": 168.86,
+"t": "sank seven and a half hours later."
+},
+{
+"a": 168.89,
+"b": 170.99,
+"t": "And the Japanese battleship Nagato,"
+},
+{
+"a": 170.99,
+"b": 174.99,
+"t": "which had come through Able,\nwent down a few days after that."
+},
+{
+"a": 174.99,
+"b": 178.18,
+"t": "But it got worse for the\nships that were still afloat."
+},
+{
+"a": 178.21,
+"b": 181.51,
+"t": "That mist had left\nradioactive material on them,"
+},
+{
+"a": 181.51,
+"b": 184.05,
+"t": "far more than anyone had predicted."
+},
+{
+"a": 184.05,
+"b": 188.35,
+"t": "The Joint Chiefs board said those\nships had become radioactive stoves,"
+},
+{
+"a": 188.35,
+"b": 191.29,
+"t": "which would have burned\nall living things aboard."
+},
+{
+"a": 191.29,
+"b": 195.21,
+"t": "And Life magazine later worked out\nthat if they'd been fully crewed,"
+},
+{
+"a": 195.21,
+"b": 198.85,
+"t": "the Baker bomb would\nhave killed 35,000 men."
+},
+{
+"a": 198.85,
+"b": 202.21,
+"t": "So the Navy sent sailors\nback aboard to clean them."
+},
+{
+"a": 202.21,
+"b": 204.63,
+"t": "They scrubbed the decks,\nthey sprayed them,"
+},
+{
+"a": 204.63,
+"b": 207.35,
+"t": "and they painted them, but it didn't work."
+},
+{
+"a": 207.35,
+"b": 210.63,
+"t": "Unless they sandblasted a\nship down to bare metal,"
+},
+{
+"a": 210.63,
+"b": 213.17,
+"t": "the radiation just stayed where it was."
+},
+{
+"a": 213.17,
+"b": 218.07,
+"t": "The Army doctor in charge of radiation\nsafety was Colonel Stafford Warren."
+},
+{
+"a": 218.07,
+"b": 223.05,
+"t": "On August 7th, he wrote a secret memo\nsaying the target ships were extensively"
+},
+{
+"a": 223.05,
+"b": 227.01,
+"t": "contaminated with dangerous\namounts of radioactivity."
+},
+{
+"a": 227.01,
+"b": 230.43,
+"t": "It was hiding in crevices\nwhere the hoses couldn't reach,"
+},
+{
+"a": 230.43,
+"b": 234.95,
+"t": "and some ships, he wrote, had\nmany lethal doses on them."
+},
+{
+"a": 234.95,
+"b": 237.47,
+"t": "Worse, some of it was plutonium,"
+},
+{
+"a": 237.47,
+"b": 243.45,
+"t": "which he warned was hard to detect and\ninsidiously toxic in very small amounts."
+},
+{
+"a": 243.45,
+"b": 245.19,
+"t": "The admiral running the tests,"
+},
+{
+"a": 245.19,
+"b": 248.35,
+"t": "William Blandy, wasn't convinced at first,"
+},
+{
+"a": 248.35,
+"b": 252.06,
+"t": "but that didn't last because\nWarren showed him a fish."
+},
+{
+"a": 252.11,
+"b": 255.83,
+"t": "He'd laid a fish from the lagoon\non a sheet of photographic film,"
+},
+{
+"a": 255.83,
+"b": 260.65,
+"t": "and the radiation inside it had printed\na picture of the fish all by itself."
+},
+{
+"a": 260.65,
+"b": 264.99,
+"t": "Warren wrote home afterwards that\nthe fish's self x-ray did the trick,"
+},
+{
+"a": 264.99,
+"b": 268.35,
+"t": "and on August 10th, Blandy\nstopped the cleanup."
+},
+{
+"a": 268.35,
+"b": 271.17,
+"t": "Three days later, Warren\nwas writing again,"
+},
+{
+"a": 271.17,
+"b": 275.89,
+"t": "calling the alpha emitters on the ships\nthe most poisonous chemical known."
+},
+{
+"a": 275.89,
+"b": 279.51,
+"t": "The planned third test, deep\non the bottom of the lagoon,"
+},
+{
+"a": 279.51,
+"b": 280.81,
+"t": "was cancelled."
+},
+{
+"a": 280.81,
+"b": 283.65,
+"t": "By then, the Navy had no clean ships left,"
+},
+{
+"a": 283.65,
+"b": 286.93,
+"t": "and officials just said they\ndidn't need the test anymore."
+},
+{
+"a": 286.93,
+"b": 289.69,
+"t": "Eight years later, back at the same atoll,"
+},
+{
+"a": 289.69,
+"b": 292.51,
+"t": "the scientists got the bomb itself wrong."
+},
+{
+"a": 292.51,
+"b": 296.81,
+"t": "By 1954, America was\ntesting hydrogen bombs,"
+},
+{
+"a": 296.81,
+"b": 300.38,
+"t": "many times stronger\nthan the bombs of 1946."
+},
+{
+"a": 300.43,
+"b": 303.97,
+"t": "The one called Castle Bravo\nwas set for March 1st,"
+},
+{
+"a": 303.97,
+"b": 305.74,
+"t": "again at Bikini."
+},
+{
+"a": 305.77,
+"b": 309.21,
+"t": "Its designers expected\nabout five or six megatons,"
+},
+{
+"a": 309.21,
+"b": 313.77,
+"t": "which is roughly the force of\nfive or six million tons of TNT."
+},
+{
+"a": 313.77,
+"b": 315.81,
+"t": "Its fuel was made with lithium,"
+},
+{
+"a": 315.81,
+"b": 319.93,
+"t": "and they believed most of that lithium\nwould just sit there and do nothing."
+},
+{
+"a": 319.93,
+"b": 322.25,
+"t": "But in the heat of the\nblast, it joined in,"
+},
+{
+"a": 322.25,
+"b": 325.17,
+"t": "and it added a huge amount of extra power."
+},
+{
+"a": 325.17,
+"b": 327.87,
+"t": "Bravo came out at 15 megatons,"
+},
+{
+"a": 327.87,
+"b": 330.43,
+"t": "which is about a thousand Hiroshimas,"
+},
+{
+"a": 330.43,
+"b": 334.13,
+"t": "and it's still the biggest the\nUnited States has ever set off."
+},
+{
+"a": 334.13,
+"b": 338.25,
+"t": "Within seconds, the fireball was\nmore than three miles across,"
+},
+{
+"a": 338.25,
+"b": 341.63,
+"t": "and the cloud climbed past 100,000 feet."
+},
+{
+"a": 341.63,
+"b": 348.55,
+"t": "It left a crater in the reef about\n6,500 feet wide and 250 feet deep."
+},
+{
+"a": 348.55,
+"b": 354.26,
+"t": "Its fallout spread over something like\n7,000 square miles of ocean and islands."
+},
+{
+"a": 354.29,
+"b": 358.85,
+"t": "So, the bomb was a surprise, and\nthe cloud turned out to be one too."
+},
+{
+"a": 358.85,
+"b": 362.93,
+"t": "Going by the forecast, the planners had\njudged that no fallout would reach the"
+},
+{
+"a": 362.93,
+"b": 366.3,
+"t": "inhabited islands, so the shot went ahead."
+},
+{
+"a": 366.3,
+"b": 371.56,
+"t": "For years afterwards, officials blamed\nit on an unexpected shift in the wind."
+},
+{
+"a": 371.56,
+"b": 376.85,
+"t": "But a 2013 study for the Defense\nDepartment called that story a legend."
+},
+{
+"a": 376.86,
+"b": 381.78,
+"t": "It said the fallout came from the huge cloud\na blast on the coral surface had thrown"
+},
+{
+"a": 381.78,
+"b": 383.49,
+"t": "into the stratosphere."
+},
+{
+"a": 383.5,
+"b": 385.84,
+"t": "Even at the planned size, it said,"
+},
+{
+"a": 385.84,
+"b": 389.4,
+"t": "the inhabited atolls would\nstill have been contaminated."
+},
+{
+"a": 389.4,
+"b": 394.38,
+"t": "And Los Alamos had warned about 10 days\nbefore the test that the yield could go as"
+},
+{
+"a": 394.38,
+"b": 395.88,
+"t": "high as it did."
+},
+{
+"a": 395.88,
+"b": 401.16,
+"t": "A few hours after the blast, a fine\nwhite ash began falling on Rongelap,"
+},
+{
+"a": 401.16,
+"b": 403.69,
+"t": "more than a hundred miles to the east."
+},
+{
+"a": 403.7,
+"b": 408.09,
+"t": "82 people were on Rongelap\nand nearby Ailinginae."
+},
+{
+"a": 408.22,
+"b": 411.7,
+"t": "Their children played in the\nwhite powder as if it were snow,"
+},
+{
+"a": 411.7,
+"b": 413.83,
+"t": "and some of them even ate it."
+},
+{
+"a": 413.92,
+"b": 419.28,
+"t": "28 American servicemen at a weather\nstation on Rongerik got caught in it too."
+},
+{
+"a": 419.28,
+"b": 423.04,
+"t": "But it was two days before the\npeople of Rongelap were taken off,"
+},
+{
+"a": 423.04,
+"b": 426.68,
+"t": "and by then, the fallout\nhad already landed on them."
+},
+{
+"a": 426.68,
+"b": 430.8,
+"t": "In all, 236 islanders\nwere moved off Rongelap,"
+},
+{
+"a": 430.8,
+"b": 433.04,
+"t": "Ailinginae, and Utirik."
+},
+{
+"a": 433.04,
+"b": 435.44,
+"t": "And about 80 miles east of Bikini,"
+},
+{
+"a": 435.44,
+"b": 438.66,
+"t": "just outside the danger zone\nthe Americans had marked,"
+},
+{
+"a": 438.66,
+"b": 443.7,
+"t": "a Japanese tuna boat called the Lucky\nDragon Number Five was out fishing."
+},
+{
+"a": 443.7,
+"b": 447.56,
+"t": "Its 23 crewmen saw a bright\nlight change the sky,"
+},
+{
+"a": 447.56,
+"b": 451.84,
+"t": "and then they heard a deep rumble that\nseemed to come from under the sea."
+},
+{
+"a": 451.84,
+"b": 454.24,
+"t": "One of them, Matashichi Oishi,"
+},
+{
+"a": 454.24,
+"b": 459.14,
+"t": "said later that the white ash hit them in\nthe face and covered the deck so thickly"
+},
+{
+"a": 459.14,
+"b": 461.07,
+"t": "that it held their footprints,"
+},
+{
+"a": 461.12,
+"b": 463.29,
+"t": "and he said he licked it."
+},
+{
+"a": 463.32,
+"b": 466.44,
+"t": "By the time they got home\nto Japan two weeks later,"
+},
+{
+"a": 466.44,
+"b": 468.88,
+"t": "the crew were sick with radiation."
+},
+{
+"a": 468.88,
+"b": 471.72,
+"t": "That September, their\nchief radio operator,"
+},
+{
+"a": 471.72,
+"b": 475.38,
+"t": "Aikichi Kuboyama, became\nthe first of them to die."
+},
+{
+"a": 475.38,
+"b": 478.16,
+"t": "People in Japan, and\nthen around the world,"
+},
+{
+"a": 478.16,
+"b": 482.14,
+"t": "began demanding an end to\nnuclear tests in the open air."
+},
+{
+"a": 482.14,
+"b": 485.04,
+"t": "India's Prime Minister, Jawaharlal Nehru,"
+},
+{
+"a": 485.04,
+"b": 487.98,
+"t": "said that no country, however powerful,"
+},
+{
+"a": 487.98,
+"b": 489.96,
+"t": "was safe from destruction."
+},
+{
+"a": 489.96,
+"b": 493.84,
+"t": "But America kept testing, and by 1962,"
+},
+{
+"a": 493.84,
+"b": 498.42,
+"t": "it wanted to know what a nuclear blast\nwould do far above the atmosphere."
+},
+{
+"a": 498.42,
+"b": 503.48,
+"t": "The first try, that June, failed when the\nrocket's engine cut out about a minute"
+},
+{
+"a": 503.48,
+"b": 508.22,
+"t": "after launch, so the missile had to\nbe destroyed over Johnston Island."
+},
+{
+"a": 508.22,
+"b": 511.02,
+"t": "On the night of July 8th, Hawaii time,"
+},
+{
+"a": 511.02,
+"b": 512.48,
+"t": "they tried again."
+},
+{
+"a": 512.48,
+"b": 518.04,
+"t": "A Thor rocket carried a 1.4\nmegaton bomb about 250 miles up,"
+},
+{
+"a": 518.04,
+"b": 521.88,
+"t": "and it went off over the Pacific\njust after 11:00 at night."
+},
+{
+"a": 521.88,
+"b": 525.2,
+"t": "In Hawaii, more than 700 miles away,"
+},
+{
+"a": 525.2,
+"b": 527.68,
+"t": "the night sky lit up in red and green,"
+},
+{
+"a": 527.68,
+"b": 529.77,
+"t": "like a man-made aurora."
+},
+{
+"a": 529.8,
+"b": 535.46,
+"t": "One atomic veteran said later that some\nhotels even held rooftop parties to watch."
+},
+{
+"a": 535.46,
+"b": 539.64,
+"t": "On Oahu, streetlights went out\nand burglar alarms went off,"
+},
+{
+"a": 539.64,
+"b": 544.44,
+"t": "although later studies say far fewer\nlights failed than the stories claim."
+},
+{
+"a": 544.44,
+"b": 546.74,
+"t": "But the real damage was higher up,"
+},
+{
+"a": 546.74,
+"b": 549.78,
+"t": "in the belts of radiation\nthat circle the Earth."
+},
+{
+"a": 549.78,
+"b": 552.26,
+"t": "The blast poured electrons into them,"
+},
+{
+"a": 552.26,
+"b": 557.3,
+"t": "and it made the inner belt at least a\nhundred times more intense than nature had."
+},
+{
+"a": 557.3,
+"b": 560.26,
+"t": "And the next day,\nAmerica launched Telstar,"
+},
+{
+"a": 560.26,
+"b": 563.94,
+"t": "the first satellite to send\nlive TV across the Atlantic,"
+},
+{
+"a": 563.94,
+"b": 567.1,
+"t": "and it flew right through\nall that new radiation."
+},
+{
+"a": 567.1,
+"b": 571.6,
+"t": "NASA says it took a dose a hundred\ntimes bigger than expected."
+},
+{
+"a": 571.6,
+"b": 574.78,
+"t": "Telstar's electronics started\nfailing that November,"
+},
+{
+"a": 574.78,
+"b": 579.32,
+"t": "and by February 1963, it\nhad gone silent for good."
+},
+{
+"a": 579.32,
+"b": 582.87,
+"t": "It's still up there, though\nit's been dead for decades."
+},
+{
+"a": 582.9,
+"b": 586.88,
+"t": "NASA counts seven satellites\nlost within months of the test,"
+},
+{
+"a": 586.88,
+"b": 589.8,
+"t": "most of them from damaged solar cells."
+},
+{
+"a": 589.8,
+"b": 594.86,
+"t": "And NASA's David Sibeck says how bad the\nnew radiation belt was and how long it"
+},
+{
+"a": 594.86,
+"b": 597.47,
+"t": "lasted came as a surprise."
+},
+{
+"a": 597.5,
+"b": 602.06,
+"t": "Looking back at all three, we'd say\nthe bombs weren't really the problem."
+},
+{
+"a": 602.06,
+"b": 606.84,
+"t": "Each time, the people running the tests\ntrusted their forecasts and estimates more"
+},
+{
+"a": 606.84,
+"b": 610.2,
+"t": "than the evidence allowed\nand went ahead anyway."
+},
+{
+"a": 610.2,
+"b": 615.09,
+"t": "Los Alamos had even warned that\nBravo could reach 15 megatons."
+},
+{
+"a": 615.16,
+"b": 620.02,
+"t": "Still, the islanders of Rongelap were left\nin its path because the planners' rule"
+},
+{
+"a": 620.02,
+"b": 622.78,
+"t": "was to avoid moving them if they could,"
+},
+{
+"a": 622.78,
+"b": 626.3,
+"t": "and most of the people who\npaid for it were never asked."
+},
+{
+"a": 626.3,
+"b": 630.14,
+"t": "The families of Bikini never\ngot to move back home for good,"
+},
+{
+"a": 630.14,
+"b": 633.64,
+"t": "and the Lucky Dragon's crew\nhad only been out fishing."
+},
+{
+"a": 633.64,
+"b": 637.68,
+"t": "Then on August 5th, 1963, America,"
+},
+{
+"a": 637.68,
+"b": 643.12,
+"t": "the Soviet Union, and Britain signed a\ntreaty in Moscow banning nuclear tests in the"
+},
+{
+"a": 643.12,
+"b": 646.85,
+"t": "atmosphere, in outer\nspace, and underwater."
+},
+{
+"a": 646.88,
+"b": 651.83,
+"t": "Every one of the three tests in this\nstory had happened in one of those places."
+},
+{
+"a": 651.84,
+"b": 654.38,
+"t": "The US Senate approved it that September,"
+},
+{
+"a": 654.38,
+"b": 657.14,
+"t": "and it came into force on October 10th."
+},
+{
+"a": 657.14,
+"b": 658.88,
+"t": "It left underground tests alone,"
+},
+{
+"a": 658.88,
+"b": 661.83,
+"t": "though, and those went on for decades."
+},
+{
+"a": 661.96,
+"b": 666.08,
+"t": "Our next story is a bomb America\nnever meant to set off at all,"
+},
+{
+"a": 666.08,
+"b": 670.77,
+"t": "dropped off the coast of\nGeorgia in 1958 and never found."
+}
+],
+"subs": [],
+"grain": true,
+"grainOpacity": 0.07,
+"parts": 4
+}
