@@ -105,7 +105,7 @@ const Expl: React.FC<{ s: Shot }> = ({ s }) => {
   }
   if (sp.diagram === "pit") {
     const lab = { ...DISPLAY, fontSize: 34, letterSpacing: "0.2em" } as any;
-    layers.push(<svg key="pit" width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>
+    layers.push(<svg key="pit" width={1920} height={1080} style={{ position: "absolute", inset: 0, transformOrigin: "50% 54%", transform: "scale(1.7)" }}>
       <rect x={0} y={0} width={1920} height={1080} fill="#16130f" />
       <rect x={0} y={400} width={1920} height={110} fill="#3b3227" /><text x={140} y={470} fill="rgba(243,238,228,.55)" style={lab}>EARTH BANK</text>
       <rect x={0} y={510} width={1920} height={130} fill="#2b2b2d" /><line x1={0} x2={1920} y1={575} y2={575} stroke="rgba(255,255,255,.25)" strokeWidth={3} strokeDasharray="40 30" />
@@ -170,7 +170,7 @@ const Expl: React.FC<{ s: Shot }> = ({ s }) => {
     </g>);
   });
   (sp.flash ?? []).forEach((fl: any, i: number) => { const o = interpolate(T, [fl.at, fl.at + 0.03, fl.at + 0.12], [0, 1, 0], clamp); if (o) mapEls.push(<circle key={`fl${i}`} cx={fl.x} cy={fl.y} r={60 + 80 * o} fill="#fff" opacity={o * 0.8} />); });
-  const zoomStyle: React.CSSProperties = { position: "absolute", inset: 0, transformOrigin: "50% 50%", transform: sp.diagram || sp.timeline || sp.rows || sp.end || sp.tile ? undefined : `scale(${zoom})` };
+  const zoomStyle: React.CSSProperties = { position: "absolute", inset: 0, transformOrigin: "50% 50%", transform: sp.diagram === "pit" ? "scale(1.7)" : sp.diagram || sp.timeline || sp.rows || sp.end || sp.tile ? undefined : `scale(${zoom})`, ...(sp.diagram === "pit" ? { transformOrigin: "50% 54%" } : {}) };
   const labelEls = (sp.pins ?? []).map((p: any, i: number) => { const o = k(p.at, 0.06); return o ? <Label key={`lb${i}`} x={p.x} y={p.y} text={p.label} anchor={p.anchor} op={o} red={p.red} plain={p.plain} size={p.plain ? 44 : 40} /> : null; });
   let rowsEl: React.ReactNode = null;
   if (sp.rows) {
