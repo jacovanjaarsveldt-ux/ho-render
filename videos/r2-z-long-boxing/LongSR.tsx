@@ -37,13 +37,13 @@ const Comp: React.FC<{ s: Shot }> = ({ s }) => {
   const t = useT(s); const { scale, tx } = move(s.cam === "pan" ? "push" : s.cam, t, s.dir, 0.8);
   return <AbsoluteFill style={{ overflow: "hidden", background: C.ink }}><Blur src={s.src!} />
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-      <Img src={staticFile(s.src!)} style={{ width: "92%", height: "100%", objectFit: "contain", transformOrigin: s.o ?? "50% 50%", transform: `translateX(${tx}px) scale(${scale})`, filter: "drop-shadow(0 18px 40px rgba(0,0,0,.65))" }} />
+      <Img src={staticFile(s.src!)} style={{ width: s.kind === "small" ? "46%" : "92%", height: s.kind === "small" ? "46%" : "100%", objectFit: "contain", transformOrigin: s.o ?? "50% 50%", transform: `translateX(${tx}px) scale(${scale})`, filter: "drop-shadow(0 18px 40px rgba(0,0,0,.65))" }} />
     </AbsoluteFill>
   </AbsoluteFill>;
 };
 const Split: React.FC<{ s: Shot }> = ({ s }) => {
   const t = useT(s);
-  const half = (src: string, k: number) => <div style={{ position: "absolute", top: 80, bottom: 170, left: k ? 980 : 80, width: 860, overflow: "hidden", boxShadow: "0 18px 40px rgba(0,0,0,.65)", background: C.ink }}>
+  const half = (src: string, k: number) => <div style={{ position: "absolute", top: 80, bottom: 170, left: k ? 980 : 80, width: 860, overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
     <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: (s as any).fit === "cover" ? "cover" : "contain", objectPosition: "50% 30%", transform: `scale(${1 + 0.05 * (k ? 1 - t : t)})` }} /></div>;
   return <AbsoluteFill style={{ background: C.ink, overflow: "hidden" }}><Blur src={s.src!} />{half(s.src!, 0)}{half(s.src2!, 1)}</AbsoluteFill>;
 };
@@ -63,7 +63,7 @@ const Card: React.FC<{ s: Shot }> = ({ s }) => {
   const fr = useCurrentFrame(); const sp = spring({ frame: fr, fps: FPS, config: { damping: 14, stiffness: 170 } });
   const lines = (s.text ?? "").split("\n"); const big = lines.some((l) => l.length > 26);
   return <AbsoluteFill style={{ background: C.ink, overflow: "hidden" }}><Paper s={s} />
-    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", paddingBottom: 120 }}>
+    <AbsoluteFill style={{ alignItems: "center", justifyContent: (s as any).top ? "flex-start" : "center", paddingBottom: 120, paddingTop: (s as any).top ? 110 : 0 }}>
       <div style={{ width: interpolate(sp, [0, 1], [0, 220]), height: 10, background: C.red, marginBottom: 34 }} />
       {lines.map((l, i) => <div key={i} style={{ ...DISPLAY, fontSize: big ? 80 : lines.length > 2 ? 92 : 118, lineHeight: 1.06, color: i === 0 ? C.cream : C.red, textAlign: "center", maxWidth: 1640, opacity: interpolate(fr, [i * 6, i * 6 + 9], [0, 1], clamp), transform: `translateY(${interpolate(sp, [0, 1], [30, 0])}px)`, textShadow: "0 6px 30px rgba(0,0,0,.6)" }}>{l}</div>)}
     </AbsoluteFill></AbsoluteFill>;
@@ -181,14 +181,14 @@ const Subscribe: React.FC = () => {
     <div style={{ ...DISPLAY, fontSize: 48, color: "#fff", background: C.red, padding: "14px 40px", borderRadius: 14, opacity: out, transform: `scale(${sp})`, boxShadow: "0 10px 30px rgba(0,0,0,.5)" }}>Subscribe</div>
   </AbsoluteFill>;
 };
-const Body: React.FC<{ s: Shot }> = ({ s }) => s.kind === "comp" ? <Comp s={s} /> : s.kind === "card" ? <Card s={s} /> : s.kind === "vid" ? <Vid s={s} /> : s.kind === "map" ? <MapShot s={s} />
+const Body: React.FC<{ s: Shot }> = ({ s }) => (s.kind === "comp" || s.kind === "small") ? <Comp s={s} /> : s.kind === "card" ? <Card s={s} /> : s.kind === "vid" ? <Vid s={s} /> : s.kind === "map" ? <MapShot s={s} />
   : s.kind === "tl" ? <Timeline s={s} /> : s.kind === "split" ? <Split s={s} /> : s.kind === "tent" ? <Tent s={s} /> : <Still s={s} />;
 const Film: React.FC = () => {
   const tl = TL as any;
   return <AbsoluteFill style={{ background: C.ink }}>
     {(tl.shots as Shot[]).map((s, i) => <Sequence key={i} from={f(s.a)} durationInFrames={Math.max(1, f(s.b) - f(s.a))}>
       <Body s={s} />
-      {(s.kind === "img" || s.kind === "comp" || s.kind === "vid" || s.kind === "split") && <>
+      {(s.kind === "img" || s.kind === "comp" || s.kind === "small" || s.kind === "vid" || s.kind === "split") && <>
         <AbsoluteFill style={{ pointerEvents: "none", background: "radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 60%, rgba(6,4,2,.35) 100%)" }} />
         <AbsoluteFill style={{ pointerEvents: "none", background: "linear-gradient(rgba(0,0,0,0) 72%, rgba(0,0,0,.45) 100%)" }} /></>}
       {s.over && <Over text={s.over} />}

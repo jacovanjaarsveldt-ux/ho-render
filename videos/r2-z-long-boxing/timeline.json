@@ -493,10 +493,10 @@
 "a": 145.4,
 "b": 148.1,
 "kind": "vid",
-"src": "film/a310189c9d.mp4",
+"src": "film/0b1b2aa02f.mp4",
 "mask": false,
 "line": "He was thirty-five, he hadn't fought in nearly six years, and he'd put on a lot of weight on that farm.",
-"film": "jj 56.0-58.7",
+"film": "jj 56.5-59.2",
 "dir": -1
 },
 {
@@ -612,7 +612,7 @@
 {
 "a": 185.26,
 "b": 189.48,
-"kind": "comp",
+"kind": "small",
 "src": "img/crop/johnson-jeffries_p18_e69570.jpg",
 "cam": "push",
 "o": "50% 50%",
@@ -721,10 +721,10 @@
 "a": 220.32,
 "b": 225.3,
 "kind": "vid",
-"src": "film/b684c145cc.mp4",
+"src": "film/36837c4c1c.mp4",
 "mask": false,
 "line": "That film was going to matter, just not quite the way anyone planned.",
-"film": "jj 258.6-263.6",
+"film": "jj 258.1-263.1",
 "dir": 1
 },
 {
@@ -839,10 +839,10 @@
 "a": 252.58,
 "b": 255.46,
 "kind": "vid",
-"src": "film/532bbea885.mp4",
+"src": "film/7f71f0dbef.mp4",
 "mask": false,
 "line": "They built a wooden arena just for the day.",
-"film": "jj 88.0-90.9",
+"film": "jj 118.0-120.9",
 "dir": 1
 },
 {
@@ -860,20 +860,20 @@
 "a": 258.34,
 "b": 261.28,
 "kind": "vid",
-"src": "film/0950194fec.mp4",
+"src": "film/f1f5c09127.mp4",
 "mask": false,
 "line": "Both fighters set up training camps outside town, and reporters went back and forth between them every day, looking for any sign of who was ready.",
-"film": "jj 120.0-122.9",
+"film": "jj 121.6-124.5",
 "dir": 1
 },
 {
 "a": 261.28,
 "b": 264.22,
 "kind": "vid",
-"src": "film/19d319254e.mp4",
+"src": "film/bd76a3a13e.mp4",
 "mask": false,
 "line": "Both fighters set up training camps outside town, and reporters went back and forth between them every day, looking for any sign of who was ready.",
-"film": "jj 133.1-136.0",
+"film": "jj 132.8-135.7",
 "dir": -1
 },
 {
@@ -900,10 +900,10 @@
 "a": 271.17,
 "b": 274.1,
 "kind": "vid",
-"src": "film/da281ac4ca.mp4",
+"src": "film/70ca3ed3ce.mp4",
 "mask": false,
 "line": "The streets were so packed you could barely walk, and reporters came in from all over the world.",
-"film": "jj 45.1-48.0",
+"film": "jj 41.5-44.4",
 "dir": 1
 },
 {
@@ -1148,10 +1148,10 @@
 "a": 311.86,
 "b": 315.5,
 "kind": "vid",
-"src": "film/410012a272.mp4",
+"src": "film/b712e2da62.mp4",
 "mask": false,
 "line": "He blocked, he tied Jeffries up, he picked him apart with his left hand, and he smiled while he did it.",
-"film": "jj 366.4-370.0",
+"film": "jj 363.0-366.6",
 "dir": -1,
 "rnd": "2"
 },
@@ -1369,10 +1369,10 @@
 "a": 384.66,
 "b": 387.05,
 "kind": "vid",
-"src": "film/7c5c2b7566.mp4",
+"src": "film/f355fddcc3.mp4",
 "mask": false,
 "line": "But that wasn't the end of the Fourth of July.",
-"film": "jj 621.0-623.4",
+"film": "jj 621.3-623.7",
 "dir": -1
 },
 {
@@ -1439,7 +1439,7 @@
 "a": 405.76,
 "b": 409.36,
 "kind": "comp",
-"src": "img/crop/johnson-jeffries_n2_oregonian0705_riots_68b79e.jpg",
+"src": "img/crop/johnson-jeffries_n2_oregonian0705_riots_421d89.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": 1,
@@ -1479,7 +1479,8 @@
 "lat": 39.74,
 "step": 2,
 "hi": false,
-"dy": 44
+"dx": 22,
+"dy": 12
 },
 {
 "n": "COLUMBUS",
@@ -1555,7 +1556,8 @@
 "lat": 39.74,
 "step": 2,
 "hi": false,
-"dy": 44
+"dx": 22,
+"dy": 12
 },
 {
 "n": "COLUMBUS",
@@ -1638,7 +1640,8 @@
 "lat": 39.74,
 "step": 2,
 "hi": false,
-"dy": 44
+"dx": 22,
+"dy": 12
 },
 {
 "n": "COLUMBUS",
@@ -1678,7 +1681,8 @@
 "lat": 38.9,
 "step": 3,
 "hi": true,
-"dy": 46
+"dx": -22,
+"dy": 40
 }
 ],
 "a": 421.18,
@@ -1729,7 +1733,8 @@
 "lat": 39.74,
 "step": 2,
 "hi": false,
-"dy": 44
+"dx": 22,
+"dy": 12
 },
 {
 "n": "COLUMBUS",
@@ -1769,7 +1774,8 @@
 "lat": 38.9,
 "step": 3,
 "hi": false,
-"dy": 46
+"dx": -22,
+"dy": 40
 },
 {
 "n": "HOUSTON",
@@ -1832,7 +1838,8 @@
 "lat": 39.74,
 "step": 2,
 "hi": false,
-"dy": 44
+"dx": 22,
+"dy": 12
 },
 {
 "n": "COLUMBUS",
@@ -1872,7 +1879,8 @@
 "lat": 38.9,
 "step": 3,
 "hi": false,
-"dy": 46
+"dx": -22,
+"dy": 40
 },
 {
 "n": "HOUSTON",
@@ -1915,7 +1923,8 @@
 "o": "50% 50%",
 "dir": 1,
 "line": "Nobody kept a proper count, but at least eleven people were killed in the days after the fight, and some counts go as high as twenty-six.",
-"pic": "johnson-jeffries/n2_oregonian0705_riots"
+"pic": "johnson-jeffries/n2_oregonian0705_riots",
+"label": "5 JULY 1910: FIRST REPORTS"
 },
 {
 "a": 451.52,
@@ -1955,10 +1964,10 @@
 "a": 463.29,
 "b": 467.9,
 "kind": "vid",
-"src": "film/ad68211786.mp4",
+"src": "film/6e3629e747.mp4",
 "mask": false,
 "line": "The whole fight had been filmed from a stand beside the ring, and the plan was to show it in theatres all over the country.",
-"film": "jj 299.2-303.8",
+"film": "jj 259.4-264.0",
 "dir": 1
 },
 {
@@ -2292,25 +2301,10 @@
 },
 {
 "a": 564.21,
-"b": 568.86,
-"kind": "img",
-"src": "img/johnson-jeffries/q0_paris1913.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": -1,
-"line": "In 1912, the same year as the film law, Johnson was arrested under the Mann Act, a new law against taking women across state lines for what it called immoral purposes.",
-"pic": "johnson-jeffries/q0_paris1913"
-},
-{
-"a": 568.86,
 "b": 571.34,
-"kind": "comp",
-"src": "img/crop/johnson-jeffries_q0_paris1913_e1f452.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": 1,
-"line": "In 1912, the same year as the film law, Johnson was arrested under the Mann Act, a new law against taking women across state lines for what it called immoral purposes.",
-"pic": "johnson-jeffries/q0_paris1913"
+"kind": "card",
+"text": "1912: JOHNSON ARRESTED\nUNDER THE MANN ACT",
+"line": "In 1912, the same year as the film law, Johnson was arrested under the Mann Act, a new law against taking women across state lines for what it called immoral purposes."
 },
 {
 "a": 571.34,
@@ -2323,17 +2317,6 @@
 "a": 576.9,
 "b": 579.82,
 "kind": "comp",
-"src": "img/crop/johnson-jeffries_q1_portrait1914_850254.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": 1,
-"line": "The law was meant to stop forced prostitution, and the case against him rested on his relationships with white women.",
-"pic": "johnson-jeffries/q1_portrait1914"
-},
-{
-"a": 579.82,
-"b": 583.9,
-"kind": "comp",
 "src": "img/johnson-willard/p4.jpg",
 "cam": "push",
 "o": "50% 50%",
@@ -2342,13 +2325,24 @@
 "pic": "johnson-willard/p4"
 },
 {
+"a": 579.82,
+"b": 583.9,
+"kind": "comp",
+"src": "img/crop/johnson-jeffries_q1_portrait1914_850254.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The law was meant to stop forced prostitution, and the case against him rested on his relationships with white women.",
+"pic": "johnson-jeffries/q1_portrait1914"
+},
+{
 "a": 583.9,
 "b": 587.58,
 "kind": "comp",
 "src": "img/johnson-jeffries/n8_oregonian130514_guilty.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In 1913 an all-white jury convicted him, and the judge gave him a year and a day in prison.",
 "pic": "johnson-jeffries/n8_oregonian130514_guilty"
 },
@@ -2367,7 +2361,7 @@
 "src": "img/johnson-jeffries/q2_training1914.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "More than a century later, even the White House would say that many people saw it as a racially motivated injustice.",
 "pic": "johnson-jeffries/q2_training1914"
 },
@@ -2448,6 +2442,18 @@
 },
 {
 "a": 600.78,
+"b": 604.34,
+"kind": "img",
+"src": "img/johnson-jeffries/q0_paris1913.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He left the country, and for seven years he lived abroad, mostly in Europe.",
+"pic": "johnson-jeffries/q0_paris1913",
+"label": "PARIS, 1913"
+},
+{
+"a": 604.34,
 "b": 605.84,
 "kind": "comp",
 "src": "img/johnson-jeffries/q3_paris1911.jpg",
@@ -2709,7 +2715,7 @@
 "a": 647.92,
 "b": 654.77,
 "kind": "card",
-"text": "PARDONED\n24 MAY 2018",
+"text": "PARDONED\n24 MAY 2018\n105 YEARS AFTER THE VERDICT",
 "line": "He died in 1946, and it took until 2018, a hundred and five years after the verdict, for a president to pardon him.",
 "bg": "img/johnson-willard/p2.jpg"
 },
@@ -2823,21 +2829,24 @@
 "b": 695.54,
 "kind": "card",
 "text": "NEXT ON SPORTSROOM\nANOTHER DAY IN SPORT\nTHAT WENT BADLY WRONG",
-"line": "If you want another day in sport that went badly wrong, the Olympic marathon whose winner was kept going on rat poison is the next story."
+"line": "If you want another day in sport that went badly wrong, the Olympic marathon whose winner was kept going on rat poison is the next story.",
+"top": true
 },
 {
 "a": 695.54,
 "b": 700.52,
 "kind": "card",
 "text": "NEXT\nTHE STRANGEST THINGS THAT\nEVER HAPPENED AT THE OLYMPICS",
-"line": "If you want another day in sport that went badly wrong, the Olympic marathon whose winner was kept going on rat poison is the next story."
+"line": "If you want another day in sport that went badly wrong, the Olympic marathon whose winner was kept going on rat poison is the next story.",
+"top": true
 },
 {
 "a": 700.52,
 "b": 705.34,
 "kind": "card",
 "text": "SUBSCRIBE\nTRUE SPORTS STORIES\nFROM THE ARCHIVE",
-"line": "And subscribe for more true sports stories from the archive."
+"line": "And subscribe for more true sports stories from the archive.",
+"top": true
 }
 ],
 "words": [
@@ -12908,7 +12917,7 @@
 }
 ],
 "subs": [
-95.38,
+105.46,
 700.6
 ],
 "sfx": [],
