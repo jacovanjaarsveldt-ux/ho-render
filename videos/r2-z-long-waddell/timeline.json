@@ -1,0 +1,11299 @@
+{
+"end": 666.86,
+"vo_end": 658.86,
+"shots": [
+{
+"a": 0.0,
+"b": 3.36,
+"kind": "vid",
+"src": "film/daca7313c9.mp4",
+"mask": false,
+"line": "The best strikeout pitcher in baseball couldn't hear a fire bell without going after it.",
+"film": "CLE 24.0-27.4",
+"dir": -1,
+"label": "FIRE ENGINES\n1900s FILM"
+},
+{
+"a": 3.36,
+"b": 4.98,
+"kind": "vid",
+"src": "film/d26f4e0722.mp4",
+"mask": false,
+"line": "The best strikeout pitcher in baseball couldn't hear a fire bell without going after it.",
+"film": "NYR 38.0-39.6",
+"dir": 1
+},
+{
+"a": 4.98,
+"b": 6.92,
+"kind": "vid",
+"src": "film/9648d818f9.mp4",
+"mask": false,
+"line": "He wrestled an alligator, he toured the country in a play, playing himself, and he may have missed a World Series because of a straw hat.",
+"film": "ALG 80.0-81.9",
+"dir": -1,
+"label": "ALLIGATOR FARM\n1913 FILM"
+},
+{
+"a": 6.92,
+"b": 9.8,
+"kind": "comp",
+"src": "img/w/c114.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He wrestled an alligator, he toured the country in a play, playing himself, and he may have missed a World Series because of a straw hat.",
+"pic": "w/c114",
+"label": "A STAGE MELODRAMA\nPOSTER, 1906"
+},
+{
+"a": 9.8,
+"b": 13.58,
+"kind": "comp",
+"src": "img/crop/w_c136_6d501a.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He wrestled an alligator, he toured the country in a play, playing himself, and he may have missed a World Series because of a straw hat.",
+"pic": "w/c136",
+"label": "A STRAW HAT, 1900s"
+},
+{
+"a": 13.58,
+"b": 15.64,
+"kind": "comp",
+"src": "img/crop/w_c006_5c5560.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "His name was Rube Waddell, and for six years in a row nobody in his league struck out more batters.",
+"pic": "w/c006",
+"label": "RUBE WADDELL"
+},
+{
+"a": 15.64,
+"b": 20.44,
+"kind": "tl",
+"upto": 5,
+"from": -1,
+"items": [
+[
+"1902",
+"LEADER"
+],
+[
+"1903",
+"LEADER"
+],
+[
+"1904",
+"LEADER"
+],
+[
+"1905",
+"LEADER"
+],
+[
+"1906",
+"LEADER"
+],
+[
+"1907",
+"LEADER"
+]
+],
+"title": "STRIKEOUTS: AMERICAN LEAGUE LEADER",
+"line": "His name was Rube Waddell, and for six years in a row nobody in his league struck out more batters.",
+"mid": "kl"
+},
+{
+"a": 20.44,
+"b": 23.9,
+"kind": "comp",
+"src": "img/crop/w_g45_369926.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "We checked every story here against at least two sources, and the legends that didn't hold up are out.",
+"pic": "w/g45",
+"label": "REACH'S AMERICAN LEAGUE\nGUIDE, 1904"
+},
+{
+"a": 23.9,
+"b": 26.8,
+"kind": "comp",
+"src": "img/crop/w_g78_5ecfb4.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "We checked every story here against at least two sources, and the legends that didn't hold up are out.",
+"pic": "w/g78",
+"label": "REACH'S GUIDE, 1904"
+},
+{
+"a": 26.8,
+"b": 31.53,
+"kind": "comp",
+"src": "img/w/c063.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Number one is the last disaster he ran toward, and it cost him his life.",
+"pic": "w/c063",
+"label": "HICKMAN, KENTUCKY\nFLOOD, 1912"
+},
+{
+"a": 31.53,
+"b": 35.26,
+"kind": "card",
+"text": "NUMBER 8\nTHE FIRE BELLS",
+"line": "Number eight.",
+"bg": "img/w/c094.jpg"
+},
+{
+"a": 35.26,
+"b": 39.88,
+"kind": "vid",
+"src": "film/0923c6cab3.mp4",
+"mask": false,
+"line": "In February 1905, near Boston, a shop caught fire, and the man who put it out was the star pitcher of the Philadelphia Athletics.",
+"film": "GTF 15.5-20.1",
+"dir": 1,
+"label": "FIRE ENGINES\n1900s FILM"
+},
+{
+"a": 39.88,
+"b": 41.46,
+"kind": "card",
+"text": "FEBRUARY 1905, NEAR BOSTON\nHE PUTS OUT A SHOP FIRE",
+"line": "In February 1905, near Boston, a shop caught fire, and the man who put it out was the star pitcher of the Philadelphia Athletics."
+},
+{
+"a": 41.46,
+"b": 44.38,
+"kind": "comp",
+"src": "img/crop/w_c006_d45a8e.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "In February 1905, near Boston, a shop caught fire, and the man who put it out was the star pitcher of the Philadelphia Athletics.",
+"pic": "w/c006",
+"label": "RUBE WADDELL\nPHILADELPHIA ATHLETICS"
+},
+{
+"a": 44.38,
+"b": 48.92,
+"kind": "comp",
+"src": "img/crop/w_c101_ab2c3b.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The papers praised him for it, and nobody who knew him was surprised.",
+"pic": "w/c101",
+"label": "A CITY FIRE, 1904"
+},
+{
+"a": 48.92,
+"b": 52.5,
+"kind": "comp",
+"src": "img/crop/w_c003_54bf69.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Rube Waddell loved fires more than almost anything, and fire companies in the towns where he played got used to seeing him turn up.",
+"pic": "w/c003"
+},
+{
+"a": 52.5,
+"b": 56.86,
+"kind": "comp",
+"src": "img/crop/w_c089_194d95.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Rube Waddell loved fires more than almost anything, and fire companies in the towns where he played got used to seeing him turn up.",
+"pic": "w/c089",
+"label": "A CITY FIRE COMPANY\n1900s"
+},
+{
+"a": 56.86,
+"b": 59.4,
+"kind": "vid",
+"src": "film/1c1104afd0.mp4",
+"mask": false,
+"line": "When the bells rang and the engines went out, he liked to follow them all the way to the fire.",
+"film": "MA 22.5-25.0",
+"dir": 1,
+"label": "FIRE ENGINES\n1900s FILM"
+},
+{
+"a": 59.4,
+"b": 62.32,
+"kind": "vid",
+"src": "film/379e6de7dc.mp4",
+"mask": false,
+"line": "When the bells rang and the engines went out, he liked to follow them all the way to the fire.",
+"film": "PAW 16.0-18.9",
+"dir": -1
+},
+{
+"a": 62.32,
+"b": 67.1,
+"kind": "vid",
+"src": "film/05275d8cca.mp4",
+"mask": false,
+"line": "And when he got there, he helped, from a bucket line in a small Wisconsin town to the big city brigades.",
+"film": "LAF 66.0-70.8",
+"dir": 1,
+"label": "FIRE STATION\n1903 FILM"
+},
+{
+"a": 67.1,
+"b": 69.14,
+"kind": "comp",
+"src": "img/w/c094.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "And when he got there, he helped, from a bucket line in a small Wisconsin town to the big city brigades.",
+"pic": "w/c094",
+"label": "A STEAM FIRE ENGINE\nc.1909"
+},
+{
+"a": 69.14,
+"b": 72.86,
+"kind": "small",
+"src": "img/w/c001.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He was a big left-hander from Bradford, Pennsylvania, about six foot one and two hundred pounds.",
+"pic": "w/c001",
+"label": "RUBE WADDELL\nc.1901"
+},
+{
+"a": 72.86,
+"b": 75.3,
+"kind": "comp",
+"src": "img/w/c004.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"dir": -1,
+"line": "He was a big left-hander from Bradford, Pennsylvania, about six foot one and two hundred pounds.",
+"pic": "w/c004"
+},
+{
+"a": 75.3,
+"b": 79.34,
+"kind": "comp",
+"src": "img/crop/w_c019_47cf1b.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He'd got the name Rube, which back then meant a country boy, because he was a big, fresh kid.",
+"pic": "w/c019",
+"label": "GRAND RAPIDS, 1899"
+},
+{
+"a": 79.34,
+"b": 81.94,
+"kind": "comp",
+"src": "img/crop/w_c019_9a884a.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He'd got the name Rube, which back then meant a country boy, because he was a big, fresh kid.",
+"pic": "w/c019"
+},
+{
+"a": 81.94,
+"b": 84.12,
+"kind": "vid",
+"src": "film/b633d4f14c.mp4",
+"mask": false,
+"line": "The stories grew from there.",
+"film": "LAF 105.5-107.7",
+"dir": 1
+},
+{
+"a": 84.12,
+"b": 87.42,
+"kind": "img",
+"src": "img/w/c049.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "The best known says he'd walk off the mound in the middle of a game to chase a passing fire engine.",
+"pic": "w/c049",
+"label": "A BALLPARK CROWD\nBOSTON, 1904"
+},
+{
+"a": 87.42,
+"b": 89.7,
+"kind": "vid",
+"src": "film/db2e83a2f9.mp4",
+"mask": false,
+"line": "The best known says he'd walk off the mound in the middle of a game to chase a passing fire engine.",
+"film": "BUF 17.0-19.3",
+"dir": 1,
+"label": "FIRE ENGINES\n1900s FILM"
+},
+{
+"a": 89.7,
+"b": 95.9,
+"kind": "card",
+"text": "SABR BIOGRAPHY:\nHE DID NOT MAKE\nA HABIT OF IT",
+"line": "His biography for the Society for American Baseball Research says he didn't make a habit of that.",
+"bg": "img/w/c005.jpg"
+},
+{
+"a": 95.9,
+"b": 98.74,
+"kind": "comp",
+"src": "img/crop/w_c005_5d70d0.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "What's on the record is odd enough, starting with the two detectives sent to fetch him.",
+"pic": "w/c005"
+},
+{
+"a": 98.74,
+"b": 100.63,
+"kind": "comp",
+"src": "img/w/c119.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "What's on the record is odd enough, starting with the two detectives sent to fetch him.",
+"pic": "w/c119",
+"label": "WILLIAM PINKERTON\n1904"
+},
+{
+"a": 100.63,
+"b": 104.38,
+"kind": "card",
+"text": "NUMBER 7\nTHE DETECTIVES",
+"line": "Number seven.",
+"bg": "img/w/c123.jpg"
+},
+{
+"a": 104.38,
+"b": 108.32,
+"kind": "comp",
+"src": "img/w/c121.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "In 1902 one manager had to send Pinkerton detectives across America to bring his new pitcher home.",
+"pic": "w/c121"
+},
+{
+"a": 108.32,
+"b": 111.46,
+"kind": "comp",
+"src": "img/crop/w_c123_3088ef.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "In 1902 one manager had to send Pinkerton detectives across America to bring his new pitcher home.",
+"pic": "w/c123",
+"label": "PINKERTON AGENCY\nHANDBILL, 1870s"
+},
+{
+"a": 111.46,
+"b": 116.38,
+"kind": "comp",
+"src": "img/crop/w_c018_4aba9f.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "By then Waddell had already been through Louisville, Pittsburgh, Milwaukee and Chicago, and he was only twenty-five.",
+"pic": "w/c018",
+"label": "LOUISVILLE, 1898"
+},
+{
+"a": 116.38,
+"b": 119.7,
+"kind": "tl",
+"upto": 4,
+"from": -1,
+"items": [
+[
+"1897",
+"LOUISVILLE"
+],
+[
+"1900",
+"PITTSBURGH"
+],
+[
+"1900",
+"MILWAUKEE"
+],
+[
+"1901",
+"CHICAGO"
+],
+[
+"1902",
+"LOS ANGELES"
+]
+],
+"title": "BY AGE 25",
+"line": "By then Waddell had already been through Louisville, Pittsburgh, Milwaukee and Chicago, and he was only twenty-five.",
+"mid": "teams"
+},
+{
+"a": 119.7,
+"b": 124.08,
+"kind": "comp",
+"src": "img/crop/w_c009_fdb482.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Managers loved his arm and lost patience with everything else.",
+"pic": "w/c009",
+"label": "RUBE WADDELL"
+},
+{
+"a": 124.08,
+"b": 128.52,
+"kind": "comp",
+"src": "img/crop/w_c139_ce4b84.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Connie Mack, who ran the Philadelphia Athletics, wanted him anyway.",
+"pic": "w/c139",
+"label": "CONNIE MACK"
+},
+{
+"a": 128.52,
+"b": 134.94,
+"kind": "comp",
+"src": "img/crop/w_c016_dc48c8.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Mack knew exactly what he was getting, because he'd had Waddell for part of 1900, managing Milwaukee.",
+"pic": "w/c016",
+"label": "PHILADELPHIA\nATHLETICS, 1902"
+},
+{
+"a": 134.94,
+"b": 138.8,
+"kind": "card",
+"text": "CONNIE MACK:\nNEVER SAW A PITCHER\nWITH MORE STUFF",
+"line": "He said later that he never saw a pitcher with more stuff.",
+"bg": "img/w/c141.jpg"
+},
+{
+"a": 138.8,
+"b": 143.98,
+"kind": "comp",
+"src": "img/crop/w_c013_c517f8.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The problem was that in the spring of 1902 Waddell was pitching in California, for a Los Angeles team called the Looloos.",
+"pic": "w/c013",
+"label": "RUBE WADDELL\nLOS ANGELES, 1902"
+},
+{
+"a": 143.98,
+"b": 146.96,
+"kind": "comp",
+"src": "img/crop/w_c126_9f5b77.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The problem was that in the spring of 1902 Waddell was pitching in California, for a Los Angeles team called the Looloos.",
+"pic": "w/c126",
+"label": "LOS ANGELES, 1903-05"
+},
+{
+"a": 146.96,
+"b": 152.42,
+"kind": "comp",
+"src": "img/crop/w_c119_93d64b.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "So Mack went to the Pinkerton Detective Agency, the most famous detectives in America, and two of them were sent to fetch him.",
+"pic": "w/c119"
+},
+{
+"base": "us",
+"view": [
+-126,
+23.5,
+-66,
+50.5
+],
+"title": "1902: FETCHED FROM CALIFORNIA",
+"pts": [
+{
+"n": "LOS ANGELES",
+"lon": -118.24,
+"lat": 34.05,
+"step": 1,
+"hi": false,
+"dx": -20,
+"dy": 50
+},
+{
+"n": "PHILADELPHIA",
+"lon": -75.16,
+"lat": 39.95,
+"step": 1,
+"hi": true,
+"dy": -24
+}
+],
+"routes": [
+[
+0,
+1,
+1
+]
+],
+"a": 152.42,
+"b": 154.62,
+"kind": "map",
+"step": 1,
+"line": "So Mack went to the Pinkerton Detective Agency, the most famous detectives in America, and two of them were sent to fetch him.",
+"mid": "la",
+"from": 0
+},
+{
+"a": 154.62,
+"b": 158.64,
+"kind": "vid",
+"src": "film/d95afe4a67.mp4",
+"mask": false,
+"line": "Their job was to find him and make sure he got all the way east.",
+"film": "OVL 13.0-17.0",
+"dir": -1,
+"label": "A TRAIN ARRIVES\n1897 FILM"
+},
+{
+"a": 158.64,
+"b": 161.12,
+"kind": "vid",
+"src": "film/88ec3b5d00.mp4",
+"mask": false,
+"line": "It took them until the end of June.",
+"film": "PHX 13.0-15.5",
+"dir": 1,
+"label": "EXPRESS TRAIN\n1897 FILM"
+},
+{
+"a": 161.12,
+"b": 164.6,
+"kind": "img",
+"src": "img/crop/w_c045_e93fc1.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "On the first of July, in his first week with the Athletics, he struck out the side on nine pitches, the first time anyone had done that in the American League.",
+"pic": "w/c045",
+"label": "COLUMBIA PARK\nPHILADELPHIA"
+},
+{
+"a": 164.6,
+"b": 167.24,
+"kind": "comp",
+"src": "img/w/c042.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "On the first of July, in his first week with the Athletics, he struck out the side on nine pitches, the first time anyone had done that in the American League.",
+"pic": "w/c042"
+},
+{
+"a": 167.24,
+"b": 170.7,
+"kind": "card",
+"text": "1 JULY 1902\nTHE SIDE ON NINE PITCHES",
+"line": "On the first of July, in his first week with the Athletics, he struck out the side on nine pitches, the first time anyone had done that in the American League."
+},
+{
+"a": 170.7,
+"b": 175.06,
+"kind": "img",
+"src": "img/w/c029.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "He'd missed the first two months and still won twenty-four games.",
+"pic": "w/c029",
+"label": "PHILADELPHIA\nATHLETICS, 1902"
+},
+{
+"a": 175.06,
+"b": 176.88,
+"kind": "card",
+"text": "1902\n24 WINS  210 STRIKEOUTS\nPENNANT",
+"line": "He led the league in strikeouts, and the Athletics won the pennant.",
+"bg": "img/w/c044.jpg"
+},
+{
+"a": 176.88,
+"b": 179.12,
+"kind": "comp",
+"src": "img/w/c044.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He led the league in strikeouts, and the Athletics won the pennant.",
+"pic": "w/c044"
+},
+{
+"a": 179.12,
+"b": 183.17,
+"kind": "img",
+"src": "img/w/c118.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Mack had his pitcher, and a year later he lost him to the theatre.",
+"pic": "w/c118",
+"label": "A NEW YORK THEATRE\n1903"
+},
+{
+"a": 183.17,
+"b": 187.08,
+"kind": "card",
+"text": "NUMBER 6\nTHE ACTOR",
+"line": "Number six.",
+"bg": "img/w/c116.jpg"
+},
+{
+"a": 187.08,
+"b": 191.84,
+"kind": "comp",
+"src": "img/w/c015.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "When his 1903 season ended, the most feared strikeout pitcher in baseball went on tour in a stage melodrama, and the part he played was himself.",
+"pic": "w/c015",
+"label": "PHILADELPHIA\nATHLETICS, 1903"
+},
+{
+"a": 191.84,
+"b": 194.46,
+"kind": "img",
+"src": "img/crop/w_c116_ce4b84.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "When his 1903 season ended, the most feared strikeout pitcher in baseball went on tour in a stage melodrama, and the part he played was himself.",
+"pic": "w/c116",
+"label": "A STAGE MELODRAMA\nPOSTER, 1903"
+},
+{
+"a": 194.46,
+"b": 197.14,
+"kind": "comp",
+"src": "img/crop/w_g76_a3ef52.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "When his 1903 season ended, the most feared strikeout pitcher in baseball went on tour in a stage melodrama, and the part he played was himself.",
+"pic": "w/g76",
+"label": "REACH'S GUIDE, 1904"
+},
+{
+"a": 197.14,
+"b": 200.32,
+"kind": "card",
+"text": "THE STAIN OF GUILT",
+"line": "The play was called The Stain of Guilt.",
+"bg": "img/w/c115.jpg"
+},
+{
+"a": 200.32,
+"b": 206.4,
+"kind": "card",
+"text": "1903\n302 STRIKEOUTS",
+"line": "He'd just struck out three hundred and two batters, the most in the short history of the American League, so people knew the name on the poster.",
+"bg": "img/w/c015.jpg"
+},
+{
+"a": 206.4,
+"b": 208.8,
+"kind": "comp",
+"src": "img/crop/w_c115_5c5560.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He'd just struck out three hundred and two batters, the most in the short history of the American League, so people knew the name on the poster.",
+"pic": "w/c115",
+"label": "THEATRE POSTER, 1904"
+},
+{
+"a": 208.8,
+"b": 211.68,
+"kind": "comp",
+"src": "img/crop/w_c114_cd52d7.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "What they got was not much of an actor.",
+"pic": "w/c114"
+},
+{
+"a": 211.68,
+"b": 216.9,
+"kind": "tl",
+"upto": 2,
+"from": -1,
+"items": [
+[
+"MAY",
+"SIGNS TO STAR\nIN A PLAY"
+],
+[
+"SEPTEMBER",
+"THE TOUR\nSTARTS"
+],
+[
+"DECEMBER",
+"THE COMPANY\nDROPS HIM"
+]
+],
+"title": "1903",
+"line": "The tour ran from September to December, and then the company was done with him.",
+"mid": "tour"
+},
+{
+"a": 216.9,
+"b": 219.48,
+"kind": "img",
+"src": "img/crop/w_c118_471fdb.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "He ended up where he often did in the winter, behind a bar, mixing drinks.",
+"pic": "w/c118"
+},
+{
+"a": 219.48,
+"b": 222.06,
+"kind": "card",
+"text": "WINTERS:\nBEHIND A BAR,\nMIXING DRINKS",
+"line": "He ended up where he often did in the winter, behind a bar, mixing drinks."
+},
+{
+"a": 222.06,
+"b": 226.56,
+"kind": "card",
+"text": "THE SPORTING NEWS:\n\"THE SOUSEPAW\"",
+"line": "The Sporting News once called him the sousepaw, a joke on southpaw that everyone in baseball understood.",
+"bg": "img/w/c117.jpg"
+},
+{
+"a": 226.56,
+"b": 228.7,
+"kind": "comp",
+"src": "img/crop/w_c117_b2044e.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The Sporting News once called him the sousepaw, a joke on southpaw that everyone in baseball understood.",
+"pic": "w/c117",
+"label": "THEATRE POSTER, 1903"
+},
+{
+"a": 228.7,
+"b": 230.6,
+"kind": "comp",
+"src": "img/crop/w_g45_e748dc.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "None of it hurt his pitching.",
+"pic": "w/g45"
+},
+{
+"a": 230.6,
+"b": 235.04,
+"kind": "comp",
+"src": "img/w/c047.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The next spring he was back, and the next strange story took him into the water with an animal that could have ended his career in one bite.",
+"pic": "w/c047",
+"label": "BOSTON AMERICAN\nLEAGUE GROUNDS, 1903"
+},
+{
+"a": 235.04,
+"b": 238.69,
+"kind": "vid",
+"src": "film/d02b835a48.mp4",
+"mask": false,
+"line": "The next spring he was back, and the next strange story took him into the water with an animal that could have ended his career in one bite.",
+"film": "ALG 70.0-73.7",
+"dir": -1,
+"label": "ALLIGATOR FARM\n1913 FILM"
+},
+{
+"a": 238.69,
+"b": 242.52,
+"kind": "card",
+"text": "NUMBER 5\nTHE ALLIGATORS",
+"line": "Number five.",
+"bg": "img/w/c111.jpg"
+},
+{
+"a": 242.52,
+"b": 244.92,
+"kind": "comp",
+"src": "img/crop/w_c007_6b9292.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The man who led the American League in strikeouts wrestled alligators, and two separate records say so.",
+"pic": "w/c007",
+"label": "RUBE WADDELL"
+},
+{
+"a": 244.92,
+"b": 249.1,
+"kind": "vid",
+"src": "film/cd39f0a81e.mp4",
+"mask": false,
+"line": "The man who led the American League in strikeouts wrestled alligators, and two separate records say so.",
+"film": "ALG 84.0-88.2",
+"dir": 1,
+"label": "ALLIGATOR FARM\n1913 FILM"
+},
+{
+"a": 249.1,
+"b": 251.64,
+"kind": "comp",
+"src": "img/crop/w_c103_54bf69.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The story comes in two versions.",
+"pic": "w/c103",
+"label": "ALLIGATOR JOE\nPALM BEACH, 1904"
+},
+{
+"a": 251.64,
+"b": 256.34,
+"kind": "comp",
+"src": "img/crop/w_c107_3eaad2.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "In one, from his SABR biography, he went missing during spring training and was found in a lagoon near Jacksonville, Florida, wrestling an alligator.",
+"pic": "w/c107",
+"label": "ALLIGATOR HUNTER\nPALM BEACH"
+},
+{
+"a": 256.34,
+"b": 259.34,
+"kind": "card",
+"text": "SPRING TRAINING:\nIN A LAGOON\nNEAR JACKSONVILLE",
+"line": "In one, from his SABR biography, he went missing during spring training and was found in a lagoon near Jacksonville, Florida, wrestling an alligator."
+},
+{
+"a": 259.34,
+"b": 261.18,
+"kind": "vid",
+"src": "film/ee44f1d53a.mp4",
+"mask": false,
+"line": "In one, from his SABR biography, he went missing during spring training and was found in a lagoon near Jacksonville, Florida, wrestling an alligator.",
+"film": "ALG 90.5-92.3",
+"dir": 1
+},
+{
+"a": 261.18,
+"b": 266.28,
+"kind": "comp",
+"src": "img/crop/w_c104_8b4d25.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "In the other, he did it as a performer, and the Hall of Fame puts it in one line, that Waddell once performed as an alligator wrestler.",
+"pic": "w/c104",
+"label": "AN ALLIGATOR SHOW\nPOSTCARD, 1903"
+},
+{
+"a": 266.28,
+"b": 269.76,
+"kind": "card",
+"text": "HALL OF FAME:\nONCE PERFORMED AS\nAN ALLIGATOR WRESTLER",
+"line": "In the other, he did it as a performer, and the Hall of Fame puts it in one line, that Waddell once performed as an alligator wrestler."
+},
+{
+"a": 269.76,
+"b": 272.94,
+"kind": "comp",
+"src": "img/w/c111.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Nobody wrote down the date, the size of the alligator, or who won.",
+"pic": "w/c111",
+"label": "ALLIGATOR FARM\nc.1907"
+},
+{
+"a": 272.94,
+"b": 274.32,
+"kind": "vid",
+"src": "film/9bf222bb1c.mp4",
+"mask": false,
+"line": "Nobody wrote down the date, the size of the alligator, or who won.",
+"film": "ALG 161.0-162.4",
+"dir": 1
+},
+{
+"a": 274.32,
+"b": 276.9,
+"kind": "comp",
+"src": "img/crop/w_c140_2627c8.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Either way, Connie Mack's best pitcher was rolling around in the water with an alligator, and his left arm was the most valuable thing the Athletics owned.",
+"pic": "w/c140",
+"label": "CONNIE MACK"
+},
+{
+"a": 276.9,
+"b": 279.38,
+"kind": "vid",
+"src": "film/0b47a36099.mp4",
+"mask": false,
+"line": "Either way, Connie Mack's best pitcher was rolling around in the water with an alligator, and his left arm was the most valuable thing the Athletics owned.",
+"film": "ALG 74.5-77.0",
+"dir": 1
+},
+{
+"a": 279.38,
+"b": 283.42,
+"kind": "comp",
+"src": "img/crop/w_c004_418609.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Either way, Connie Mack's best pitcher was rolling around in the water with an alligator, and his left arm was the most valuable thing the Athletics owned.",
+"pic": "w/c004"
+},
+{
+"a": 283.42,
+"b": 288.16,
+"kind": "comp",
+"src": "img/crop/w_c015_b0e1af.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Mack put up with it, because of what that arm could do on a baseball field.",
+"pic": "w/c015"
+},
+{
+"a": 288.16,
+"b": 292.21,
+"kind": "vid",
+"src": "film/0bdfbcd22e.mp4",
+"mask": false,
+"line": "And on some days it could do something nobody else would even try.",
+"film": "BALL 28.5-32.5",
+"dir": -1,
+"label": "BASEBALL\n1898 FILM"
+},
+{
+"a": 292.21,
+"b": 296.16,
+"kind": "card",
+"text": "NUMBER 4\nSIT DOWN, BOYS",
+"line": "Number four.",
+"bg": "img/w/c036.jpg"
+},
+{
+"a": 296.16,
+"b": 300.58,
+"kind": "comp",
+"src": "img/crop/w_c014_113905.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "In exhibition games, Waddell sometimes waved his fielders off the field and then struck out the side with nobody behind him.",
+"pic": "w/c014",
+"label": "RUBE WADDELL"
+},
+{
+"a": 300.58,
+"b": 303.8,
+"kind": "img",
+"src": "img/w/c048.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "In exhibition games, Waddell sometimes waved his fielders off the field and then struck out the side with nobody behind him.",
+"pic": "w/c048",
+"label": "A BALLPARK, 1903"
+},
+{
+"a": 303.8,
+"b": 306.71,
+"kind": "vid",
+"src": "film/526e4085e8.mp4",
+"mask": false,
+"line": "Exhibition games were extra games teams played for the money, against local sides and minor league clubs, and they didn't count.",
+"film": "BALL 15.5-18.4",
+"dir": -1,
+"label": "BASEBALL\n1898 FILM"
+},
+{
+"a": 306.71,
+"b": 309.62,
+"kind": "vid",
+"src": "film/4ba15e83bc.mp4",
+"mask": false,
+"line": "Exhibition games were extra games teams played for the money, against local sides and minor league clubs, and they didn't count.",
+"film": "BALL 18.4-21.3",
+"dir": 1
+},
+{
+"a": 309.62,
+"b": 311.2,
+"kind": "comp",
+"src": "img/w/c036.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Exhibition games were extra games teams played for the money, against local sides and minor league clubs, and they didn't count.",
+"pic": "w/c036",
+"label": "A BALLPARK, 1907"
+},
+{
+"a": 311.2,
+"b": 313.34,
+"kind": "comp",
+"src": "img/crop/w_c011_17fb45.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "So he could do what he liked.",
+"pic": "w/c011"
+},
+{
+"a": 313.34,
+"b": 316.48,
+"kind": "comp",
+"src": "img/w/c046.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He'd call his teammates in, leave only the catcher, and pitch to three batters with an empty field at his back.",
+"pic": "w/c046",
+"label": "AN EMPTY OUTFIELD\nBOSTON"
+},
+{
+"a": 316.48,
+"b": 320.1,
+"kind": "card",
+"text": "ONLY THE CATCHER\nSTAYS ON THE FIELD",
+"line": "He'd call his teammates in, leave only the catcher, and pitch to three batters with an empty field at his back."
+},
+{
+"a": 320.1,
+"b": 324.68,
+"kind": "comp",
+"src": "img/crop/w_c046_1c3672.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "If any of them had hit the ball, it would have rolled all the way to the fence.",
+"pic": "w/c046"
+},
+{
+"a": 324.68,
+"b": 329.92,
+"kind": "card",
+"text": "EXHIBITION\nGAMES ONLY",
+"line": "He never did it in a league game, which is the one thing the legend usually gets wrong.",
+"bg": "img/w/c048.jpg"
+},
+{
+"a": 329.92,
+"b": 333.64,
+"kind": "comp",
+"src": "img/crop/w_c004_c24237.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "In league games he had other ways to embarrass hitters.",
+"pic": "w/c004"
+},
+{
+"a": 333.64,
+"b": 338.32,
+"kind": "card",
+"text": "1904\n349 STRIKEOUTS",
+"line": "In 1904 he struck out three hundred and forty-nine batters.",
+"bg": "img/w/c014.jpg"
+},
+{
+"a": 338.32,
+"b": 342.8,
+"kind": "card",
+"text": "LED THE LEAGUE\nBY 110",
+"line": "That was a hundred and ten more strikeouts than anybody else in the league.",
+"bg": "img/w/c014.jpg"
+},
+{
+"a": 342.8,
+"b": 346.0,
+"kind": "comp",
+"src": "img/crop/w_c014_3c6ac2.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He pitched three hundred and eighty-three innings that year, about twice what a top starter throws today.",
+"pic": "w/c014"
+},
+{
+"a": 346.0,
+"b": 348.92,
+"kind": "card",
+"text": "1904\n383 INNINGS",
+"line": "He pitched three hundred and eighty-three innings that year, about twice what a top starter throws today."
+},
+{
+"a": 348.92,
+"b": 353.76,
+"kind": "comp",
+"src": "img/w/c021.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "That same spring he'd been on the wrong end of the most famous game of the year.",
+"pic": "w/c021",
+"label": "CY YOUNG"
+},
+{
+"a": 353.76,
+"b": 359.2,
+"kind": "comp",
+"src": "img/w/c022.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "On the fifth of May 1904, Cy Young threw a perfect game against the Athletics, and the last man he got out was the other pitcher, Rube Waddell.",
+"pic": "w/c022",
+"label": "CY YOUNG"
+},
+{
+"a": 359.2,
+"b": 363.26,
+"kind": "card",
+"text": "5 MAY 1904: PERFECT GAME\nLAST OUT: RUBE WADDELL",
+"line": "On the fifth of May 1904, Cy Young threw a perfect game against the Athletics, and the last man he got out was the other pitcher, Rube Waddell."
+},
+{
+"a": 363.26,
+"b": 368.18,
+"kind": "card",
+"text": "1 JULY 1904\nDANNY HOFFMAN\nKNOCKED OUT BY A PITCH",
+"line": "Two months later a fastball knocked his teammate Danny Hoffman out cold, and Waddell was the one who picked him up and carried him off the field.",
+"bg": "img/w/c049.jpg"
+},
+{
+"a": 368.18,
+"b": 371.88,
+"kind": "comp",
+"src": "img/crop/w_c015_753f5e.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Two months later a fastball knocked his teammate Danny Hoffman out cold, and Waddell was the one who picked him up and carried him off the field.",
+"pic": "w/c015"
+},
+{
+"a": 371.88,
+"b": 375.74,
+"kind": "comp",
+"src": "img/crop/w_c047_7977a4.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Hoffman lived, and he played another seven seasons.",
+"pic": "w/c047"
+},
+{
+"a": 375.74,
+"b": 378.62,
+"kind": "comp",
+"src": "img/crop/w_c142_df56b5.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Waddell got his chance at Cy Young the next summer, and neither of them would come out of the game.",
+"pic": "w/c142",
+"label": "CY YOUNG"
+},
+{
+"a": 378.62,
+"b": 380.73,
+"kind": "comp",
+"src": "img/crop/w_c009_e2d74e.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Waddell got his chance at Cy Young the next summer, and neither of them would come out of the game.",
+"pic": "w/c009"
+},
+{
+"a": 380.73,
+"b": 384.48,
+"kind": "card",
+"text": "NUMBER 3\nTWENTY INNINGS",
+"line": "Number three.",
+"bg": "img/w/c052.jpg"
+},
+{
+"a": 384.48,
+"b": 389.6,
+"kind": "split",
+"src": "img/crop/w_c006_17fb45.jpg",
+"src2": "img/crop/w_c020_ce4b84.jpg",
+"line": "On the Fourth of July 1905, Rube Waddell and Cy Young both pitched every inning of a twenty-inning game.",
+"pic": "w/c006",
+"pic2": "w/c020",
+"callback": true,
+"fit": "contain"
+},
+{
+"a": 389.6,
+"b": 392.22,
+"kind": "card",
+"text": "4 JULY 1905\n20 INNINGS\nBOTH PITCHERS",
+"line": "On the Fourth of July 1905, Rube Waddell and Cy Young both pitched every inning of a twenty-inning game."
+},
+{
+"a": 392.22,
+"b": 396.86,
+"kind": "comp",
+"src": "img/w/c023.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Cy Young was the most famous pitcher in the game, and he was thirty-eight.",
+"pic": "w/c023",
+"label": "CY YOUNG, 1905"
+},
+{
+"base": "us",
+"view": [
+-80.5,
+38.6,
+-68.5,
+44.2
+],
+"title": "4 JULY 1905",
+"pts": [
+{
+"n": "BOSTON",
+"lon": -71.06,
+"lat": 42.36,
+"step": 1,
+"hi": true,
+"dy": -24
+},
+{
+"n": "PHILADELPHIA",
+"lon": -75.16,
+"lat": 39.95,
+"step": 1,
+"hi": false,
+"dx": -20,
+"dy": 50
+}
+],
+"routes": [],
+"a": 396.86,
+"b": 398.68,
+"kind": "map",
+"step": 1,
+"line": "It was a holiday doubleheader at the Huntington Avenue Grounds in Boston.",
+"mid": "boston",
+"from": 0
+},
+{
+"a": 398.68,
+"b": 401.36,
+"kind": "img",
+"src": "img/w/c050.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "It was a holiday doubleheader at the Huntington Avenue Grounds in Boston.",
+"pic": "w/c050",
+"label": "HUNTINGTON AVENUE\nGROUNDS, BOSTON"
+},
+{
+"a": 401.36,
+"b": 407.08,
+"kind": "comp",
+"src": "img/w/c051.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "In the morning game Waddell came in at the end to get the last outs, and the win went to him.",
+"pic": "w/c051",
+"label": "HUNTINGTON AVENUE\nGROUNDS"
+},
+{
+"a": 407.08,
+"b": 409.44,
+"kind": "comp",
+"src": "img/crop/w_c007_e7b3da.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Then he started the afternoon game.",
+"pic": "w/c007"
+},
+{
+"a": 409.44,
+"b": 414.86,
+"kind": "comp",
+"src": "img/w/c143.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Cy Young started for Boston, and for Waddell it was already the second game of the day.",
+"pic": "w/c143",
+"label": "CY YOUNG"
+},
+{
+"a": 414.86,
+"b": 416.66,
+"kind": "img",
+"src": "img/w/c052.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "They went nine innings, then twelve, then fifteen, and neither man came out.",
+"pic": "w/c052",
+"label": "HUNTINGTON AVENUE\nGROUNDS",
+"over": "9"
+},
+{
+"a": 416.66,
+"b": 417.84,
+"kind": "comp",
+"src": "img/crop/w_c048_b48dbc.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "They went nine innings, then twelve, then fifteen, and neither man came out.",
+"pic": "w/c048",
+"over": "12"
+},
+{
+"a": 417.84,
+"b": 420.94,
+"kind": "img",
+"src": "img/crop/w_c049_458536.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "They went nine innings, then twelve, then fifteen, and neither man came out.",
+"pic": "w/c049",
+"over": "15"
+},
+{
+"a": 420.94,
+"b": 424.08,
+"kind": "card",
+"text": "CY YOUNG\n0 WALKS",
+"line": "Young didn't walk a single batter all day.",
+"bg": "img/w/c020.jpg"
+},
+{
+"a": 424.08,
+"b": 430.1,
+"kind": "card",
+"text": "20TH INNING\nATHLETICS 4  BOSTON 2",
+"line": "In the twentieth inning the Athletics finally scored twice, and Waddell won it four to two.",
+"bg": "img/w/c052.jpg"
+},
+{
+"a": 430.1,
+"b": 435.12,
+"kind": "card",
+"text": "1905\n27 WINS  287 STRIKEOUTS\n1.48 EARNED RUN AVERAGE",
+"line": "That season he led the league in wins, in strikeouts and in earned run average, and the Athletics were on their way to the World Series.",
+"bg": "img/w/c007.jpg"
+},
+{
+"a": 435.12,
+"b": 438.5,
+"kind": "comp",
+"src": "img/crop/w_s116_487b48.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "That season he led the league in wins, in strikeouts and in earned run average, and the Athletics were on their way to the World Series.",
+"pic": "w/s116",
+"label": "SPALDING'S GUIDE, 1906"
+},
+{
+"a": 438.5,
+"b": 440.24,
+"kind": "comp",
+"src": "img/w/c056.png",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He never pitched in it.",
+"pic": "w/c056",
+"label": "1905 WORLD SERIES\nPROGRAMME"
+},
+{
+"a": 440.24,
+"b": 442.86,
+"kind": "vid",
+"src": "film/bf4bbf8242.mp4",
+"mask": false,
+"line": "Two months after the long game, at a railway station, a straw hat got in the way.",
+"film": "PHX 25.5-28.1",
+"dir": -1,
+"label": "EXPRESS TRAIN\n1897 FILM"
+},
+{
+"a": 442.86,
+"b": 445.47,
+"kind": "vid",
+"src": "film/5be3a74399.mp4",
+"mask": false,
+"line": "Two months after the long game, at a railway station, a straw hat got in the way.",
+"film": "PHX 28.1-30.7",
+"dir": 1
+},
+{
+"a": 445.47,
+"b": 449.26,
+"kind": "card",
+"text": "NUMBER 2\nTHE STRAW HAT",
+"line": "Number two.",
+"bg": "img/w/c083.jpg"
+},
+{
+"a": 449.26,
+"b": 454.24,
+"kind": "card",
+"text": "SEPTEMBER 1905\nA STRAW HAT",
+"line": "In September 1905 the best pitcher on the best team in the American League hurt his shoulder over a straw hat, or at least that's what his team said.",
+"bg": "img/w/c044.jpg"
+},
+{
+"a": 454.24,
+"b": 459.44,
+"kind": "comp",
+"src": "img/crop/w_c006_ed957b.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "In September 1905 the best pitcher on the best team in the American League hurt his shoulder over a straw hat, or at least that's what his team said.",
+"pic": "w/c006",
+"label": "RUBE WADDELL\nSEPTEMBER 1905"
+},
+{
+"a": 459.44,
+"b": 465.04,
+"kind": "comp",
+"src": "img/crop/w_c140_d69d73.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Back then men wore straw hats in summer and switched to felt on the first of September.",
+"pic": "w/c140",
+"label": "A STRAW BOATER"
+},
+{
+"a": 465.04,
+"b": 468.52,
+"kind": "comp",
+"src": "img/crop/w_c044_419aba.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Anyone still in straw after that was fair game.",
+"pic": "w/c044",
+"label": "STRAW HATS IN THE\nCROWD, PHILADELPHIA"
+},
+{
+"base": "us",
+"view": [
+-80.5,
+38.6,
+-68.5,
+44.2
+],
+"title": "BY TRAIN, 8 SEPTEMBER 1905",
+"pts": [
+{
+"n": "BOSTON",
+"lon": -71.06,
+"lat": 42.36,
+"step": 1,
+"hi": false,
+"dy": -24
+},
+{
+"n": "PROVIDENCE",
+"lon": -71.41,
+"lat": 41.82,
+"step": 1,
+"hi": true,
+"dx": 24,
+"dy": 56
+},
+{
+"n": "PHILADELPHIA",
+"lon": -75.16,
+"lat": 39.95,
+"step": 1,
+"hi": false,
+"dx": -20,
+"dy": 50
+}
+],
+"routes": [
+[
+0,
+1,
+1
+],
+[
+1,
+2,
+1
+]
+],
+"a": 468.52,
+"b": 474.08,
+"kind": "map",
+"step": 1,
+"line": "On the eighth of September, on the way back from Boston, the Athletics' train stopped at Providence, and pitcher Andy Coakley got on still wearing his straw hat.",
+"mid": "prov",
+"from": 0
+},
+{
+"a": 474.08,
+"b": 476.02,
+"kind": "comp",
+"src": "img/w/c083.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "On the eighth of September, on the way back from Boston, the Athletics' train stopped at Providence, and pitcher Andy Coakley got on still wearing his straw hat.",
+"pic": "w/c083",
+"label": "A RAILROAD STATION\nc.1905"
+},
+{
+"a": 476.02,
+"b": 477.98,
+"kind": "card",
+"text": "ANDY COAKLEY\nPITCHER, ATHLETICS",
+"line": "On the eighth of September, on the way back from Boston, the Athletics' train stopped at Providence, and pitcher Andy Coakley got on still wearing his straw hat."
+},
+{
+"a": 477.98,
+"b": 479.7,
+"kind": "comp",
+"src": "img/crop/w_c083_05403c.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Waddell went for it.",
+"pic": "w/c083"
+},
+{
+"a": 479.7,
+"b": 484.3,
+"kind": "card",
+"text": "A SCUFFLE\nA FALL\nHIS PITCHING SHOULDER",
+"line": "There was a scuffle, Waddell fell, and he hurt his pitching shoulder.",
+"bg": "img/w/c006.jpg"
+},
+{
+"a": 484.3,
+"b": 486.88,
+"kind": "comp",
+"src": "img/crop/w_c015_e93fc1.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"dir": -1,
+"line": "He barely pitched again that season.",
+"pic": "w/c015"
+},
+{
+"a": 486.88,
+"b": 489.94,
+"kind": "tl",
+"upto": 1,
+"from": -1,
+"items": [
+[
+"8 SEPT",
+"HURT AT\nPROVIDENCE"
+],
+[
+"END OF SEASON",
+"TWO BAD\nRELIEF GAMES"
+],
+[
+"OCTOBER",
+"GIANTS WIN\nTHE SERIES 4-1"
+]
+],
+"title": "1905",
+"line": "He came back for two games in relief at the very end, and he was no good in either of them.",
+"mid": "ws"
+},
+{
+"a": 489.94,
+"b": 492.44,
+"kind": "comp",
+"src": "img/crop/w_c044_ba720b.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "He came back for two games in relief at the very end, and he was no good in either of them.",
+"pic": "w/c044"
+},
+{
+"a": 492.44,
+"b": 496.6,
+"kind": "comp",
+"src": "img/w/c017.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "The Athletics went into the World Series against the New York Giants without him, and they lost in five games.",
+"pic": "w/c017",
+"label": "MACK AND THE ATHLETICS\n1905 WORLD SERIES"
+},
+{
+"a": 496.6,
+"b": 499.04,
+"kind": "comp",
+"src": "img/w/c149.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The Athletics went into the World Series against the New York Giants without him, and they lost in five games.",
+"pic": "w/c149",
+"label": "NEW YORK GIANTS\n1905"
+},
+{
+"a": 499.04,
+"b": 502.82,
+"kind": "comp",
+"src": "img/w/c054.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Not everybody believed the straw hat story, even then.",
+"pic": "w/c054",
+"label": "1905 WORLD SERIES"
+},
+{
+"a": 502.82,
+"b": 506.74,
+"kind": "comp",
+"src": "img/crop/w_c140_69e771.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "A Philadelphia writer reported that Connie Mack and most of the players thought Waddell was faking.",
+"pic": "w/c140",
+"label": "CONNIE MACK"
+},
+{
+"a": 506.74,
+"b": 508.82,
+"kind": "card",
+"text": "THEY THOUGHT\nHE WAS FAKING",
+"line": "A Philadelphia writer reported that Connie Mack and most of the players thought Waddell was faking."
+},
+{
+"a": 508.82,
+"b": 511.5,
+"kind": "img",
+"src": "img/w/c053.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "Others said gamblers in New York had paid him to stay out of the Series.",
+"pic": "w/c053",
+"label": "POLO GROUNDS\n1905 WORLD SERIES"
+},
+{
+"a": 511.5,
+"b": 513.44,
+"kind": "comp",
+"src": "img/w/c148.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Others said gamblers in New York had paid him to stay out of the Series.",
+"pic": "w/c148",
+"label": "NEW YORK GIANTS, 1905"
+},
+{
+"a": 513.44,
+"b": 518.28,
+"kind": "comp",
+"src": "img/crop/w_c008_c89cd7.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "Waddell said he really was hurt, and nobody ever proved otherwise.",
+"pic": "w/c008"
+},
+{
+"a": 518.28,
+"b": 522.9,
+"kind": "img",
+"src": "img/crop/w_c158_47cf1b.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "Before the 1908 season, Mack sold him to the St. Louis Browns.",
+"pic": "w/c158",
+"label": "ST. LOUIS BROWNS\n1908"
+},
+{
+"a": 522.9,
+"b": 526.46,
+"kind": "comp",
+"src": "img/crop/w_c011_fbbe78.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "That July, pitching for St. Louis against his old team, he struck out sixteen Athletics in one game.",
+"pic": "w/c011",
+"label": "RUBE WADDELL\nST. LOUIS"
+},
+{
+"a": 526.46,
+"b": 529.94,
+"kind": "card",
+"text": "29 JULY 1908\n16 ATHLETICS\nSTRUCK OUT",
+"line": "That July, pitching for St. Louis against his old team, he struck out sixteen Athletics in one game."
+},
+{
+"a": 529.94,
+"b": 531.95,
+"kind": "comp",
+"src": "img/crop/w_c064_72fb21.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He was four years from the river.",
+"pic": "w/c064",
+"label": "HICKMAN, KENTUCKY\nINSURANCE MAP, 1905"
+},
+{
+"a": 531.95,
+"b": 535.6,
+"kind": "card",
+"text": "NUMBER 1\nTHE FLOOD",
+"line": "Number one.",
+"bg": "img/w/c065.jpg"
+},
+{
+"a": 535.6,
+"b": 540.4,
+"kind": "comp",
+"src": "img/crop/w_c008_b48dbc.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "In 1912 Rube Waddell stood for hours in icy floodwater, stacking sandbags to save a town in Kentucky, and it cost him his life.",
+"pic": "w/c008",
+"label": "RUBE WADDELL, 1909"
+},
+{
+"a": 540.4,
+"b": 545.38,
+"kind": "comp",
+"src": "img/crop/w_c063_926e95.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "In 1912 Rube Waddell stood for hours in icy floodwater, stacking sandbags to save a town in Kentucky, and it cost him his life.",
+"pic": "w/c063"
+},
+{
+"a": 545.38,
+"b": 548.26,
+"kind": "comp",
+"src": "img/w/c004.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"dir": -1,
+"line": "By then the big leagues were done with him.",
+"pic": "w/c004"
+},
+{
+"a": 548.26,
+"b": 554.46,
+"kind": "tl",
+"upto": 1,
+"from": -1,
+"items": [
+[
+"AUG 1910",
+"RELEASED BY\nST. LOUIS"
+],
+[
+"1910",
+"NEWARK"
+],
+[
+"1911",
+"MINNEAPOLIS\n20 WINS"
+],
+[
+"WINTER",
+"HICKMAN, KY"
+]
+],
+"title": "",
+"line": "St. Louis let him go in the summer of 1910, and he finished that year in the minor leagues, in Newark.",
+"mid": "minor"
+},
+{
+"a": 554.46,
+"b": 557.34,
+"kind": "comp",
+"src": "img/w/c038.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "In 1911 he still won twenty games for Joe Cantillon's Minneapolis Millers.",
+"pic": "w/c038",
+"label": "MINNEAPOLIS MILLERS\n1908"
+},
+{
+"a": 557.34,
+"b": 559.86,
+"kind": "comp",
+"src": "img/crop/w_c040_e0c03e.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "In 1911 he still won twenty games for Joe Cantillon's Minneapolis Millers.",
+"pic": "w/c040",
+"label": "JOE CANTILLON"
+},
+{
+"base": "us",
+"view": [
+-96.5,
+31.0,
+-82.5,
+40.5
+],
+"title": "HICKMAN, KENTUCKY, ON THE MISSISSIPPI",
+"hiStates": [
+"Kentucky"
+],
+"pts": [
+{
+"n": "CAIRO",
+"lon": -89.18,
+"lat": 37.0,
+"step": 1,
+"hi": false,
+"dx": -22,
+"dy": -12
+},
+{
+"n": "HICKMAN",
+"lon": -89.19,
+"lat": 36.57,
+"step": 1,
+"hi": true,
+"dx": 26,
+"dy": 20
+},
+{
+"n": "MEMPHIS",
+"lon": -90.05,
+"lat": 35.15,
+"step": 1,
+"hi": false,
+"dx": -22,
+"dy": 40
+}
+],
+"a": 559.86,
+"b": 565.6,
+"kind": "map",
+"step": 1,
+"line": "He spent the winter at Cantillon's farm in Hickman, Kentucky, a small town on the Mississippi.",
+"mid": "hick",
+"from": 0
+},
+{
+"a": 565.6,
+"b": 568.74,
+"kind": "comp",
+"src": "img/crop/w_c074_94ba77.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "In the spring of 1912 the river rose, and the water came for the town.",
+"pic": "w/c074",
+"label": "MISSISSIPPI BASIN\nFLOOD REPORT, 1913"
+},
+{
+"a": 568.74,
+"b": 571.06,
+"kind": "img",
+"src": "img/w/c071.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": -1,
+"line": "In the spring of 1912 the river rose, and the water came for the town.",
+"pic": "w/c071",
+"label": "MISSISSIPPI FLOOD\n1912, BATON ROUGE"
+},
+{
+"a": 571.06,
+"b": 574.74,
+"kind": "comp",
+"src": "img/w/c066.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The men of Hickman piled sandbags on the levee to hold it back, and Waddell went down and joined them.",
+"pic": "w/c066",
+"label": "MISSISSIPPI FLOOD\n1912, VICKSBURG"
+},
+{
+"a": 574.74,
+"b": 577.16,
+"kind": "img",
+"src": "img/crop/w_c063_5c5560.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "The men of Hickman piled sandbags on the levee to hold it back, and Waddell went down and joined them.",
+"pic": "w/c063",
+"label": "HICKMAN, 1912"
+},
+{
+"a": 577.16,
+"b": 579.84,
+"kind": "img",
+"src": "img/crop/w_c063_8198d2.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He stood in the cold water for hours, lifting and stacking.",
+"pic": "w/c063"
+},
+{
+"a": 579.84,
+"b": 581.76,
+"kind": "comp",
+"src": "img/w/c068.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He stood in the cold water for hours, lifting and stacking.",
+"pic": "w/c068",
+"label": "MISSISSIPPI FLOOD\n1912, LOUISIANA"
+},
+{
+"a": 581.76,
+"b": 586.58,
+"kind": "comp",
+"src": "img/crop/w_c003_39673e.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He'd run toward trouble before, the day he carried Danny Hoffman off the field, but this time the trouble was a river.",
+"pic": "w/c003"
+},
+{
+"a": 586.58,
+"b": 589.54,
+"kind": "img",
+"src": "img/w/c076.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He'd run toward trouble before, the day he carried Danny Hoffman off the field, but this time the trouble was a river.",
+"pic": "w/c076",
+"label": "A BROKEN LEVEE\n1913"
+},
+{
+"a": 589.54,
+"b": 594.68,
+"kind": "comp",
+"src": "img/w/c067.jpg",
+"cam": "pan",
+"o": "50% 50%",
+"dir": 1,
+"line": "He came out of the water with pneumonia, and he never really got his strength back.",
+"pic": "w/c067",
+"label": "MISSISSIPPI FLOOD\n1912, LOUISIANA"
+},
+{
+"a": 594.68,
+"b": 598.0,
+"kind": "img",
+"src": "img/w/c133.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "By 1913 he had tuberculosis.",
+"pic": "w/c133",
+"label": "A SANITARIUM\n1910"
+},
+{
+"base": "us",
+"view": [
+-126,
+23.5,
+-66,
+50.5
+],
+"title": "1913: SAN ANTONIO, TEXAS",
+"hiStates": [
+"Texas"
+],
+"pts": [
+{
+"n": "HICKMAN",
+"lon": -89.19,
+"lat": 36.57,
+"step": 1,
+"hi": false,
+"dx": 24
+},
+{
+"n": "SAN ANTONIO",
+"lon": -98.49,
+"lat": 29.42,
+"step": 1,
+"hi": true,
+"dy": 50
+}
+],
+"routes": [
+[
+0,
+1,
+1
+]
+],
+"a": 598.0,
+"b": 599.58,
+"kind": "map",
+"step": 1,
+"line": "He went to a sanitarium in San Antonio, Texas.",
+"mid": "sa",
+"from": 0
+},
+{
+"a": 599.58,
+"b": 601.56,
+"kind": "comp",
+"src": "img/crop/w_c077_ed9fe7.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He went to a sanitarium in San Antonio, Texas.",
+"pic": "w/c077",
+"label": "SAN ANTONIO\nc.1910"
+},
+{
+"a": 601.56,
+"b": 602.94,
+"kind": "img",
+"src": "img/crop/w_c082_54bf69.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He died there on the first of April 1914, at thirty-seven.",
+"pic": "w/c082",
+"label": "SAN ANTONIO"
+},
+{
+"a": 602.94,
+"b": 607.02,
+"kind": "tl",
+"upto": 3,
+"from": -1,
+"items": [
+[
+"SPRING 1912",
+"THE FLOOD"
+],
+[
+"1912",
+"PNEUMONIA"
+],
+[
+"1913",
+"TUBERCULOSIS"
+],
+[
+"1 APRIL 1914",
+"DIES, AGED 37"
+]
+],
+"title": "",
+"line": "He died there on the first of April 1914, at thirty-seven.",
+"mid": "end"
+},
+{
+"a": 607.02,
+"b": 612.02,
+"kind": "vid",
+"src": "film/f2c842618e.mp4",
+"mask": false,
+"line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
+"film": "MON 52.0-57.0",
+"dir": 1,
+"label": "FIRE ENGINES\n1900s FILM"
+},
+{
+"a": 612.02,
+"b": 613.42,
+"kind": "vid",
+"src": "film/59f8a534c9.mp4",
+"mask": false,
+"line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
+"film": "EHE2 5.0-6.4",
+"dir": -1
+},
+{
+"a": 613.42,
+"b": 614.9,
+"kind": "comp",
+"src": "img/crop/w_c009_b8ad1b.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
+"pic": "w/c009"
+},
+{
+"a": 614.9,
+"b": 620.32,
+"kind": "card",
+"text": "349 STRIKEOUTS, 1904\nTHE MODERN RECORD\nUNTIL 1965",
+"line": "His three hundred and forty-nine strikeouts stayed the modern record for sixty-one years, until Sandy Koufax broke it in 1965.",
+"bg": "img/w/c014.jpg"
+},
+{
+"a": 620.32,
+"b": 623.86,
+"kind": "comp",
+"src": "img/crop/w_c005_ec37d2.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "His three hundred and forty-nine strikeouts stayed the modern record for sixty-one years, until Sandy Koufax broke it in 1965.",
+"pic": "w/c005"
+},
+{
+"a": 623.86,
+"b": 626.36,
+"kind": "small",
+"src": "img/w/c001.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": -1,
+"line": "He'd been born on a Friday the thirteenth, and he died on April Fools' Day.",
+"pic": "w/c001"
+},
+{
+"a": 626.36,
+"b": 628.78,
+"kind": "card",
+"text": "BORN FRIDAY 13 OCTOBER 1876\nDIED 1 APRIL 1914",
+"line": "He'd been born on a Friday the thirteenth, and he died on April Fools' Day."
+},
+{
+"a": 628.78,
+"b": 631.98,
+"kind": "card",
+"text": "193 WINS\n2.16 CAREER ERA",
+"line": "He won a hundred and ninety-three games in the major leagues, and his earned run average over his whole career was two point one six.",
+"bg": "img/w/c007.jpg"
+},
+{
+"a": 631.98,
+"b": 636.48,
+"kind": "comp",
+"src": "img/crop/w_c029_c5fadc.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "He won a hundred and ninety-three games in the major leagues, and his earned run average over his whole career was two point one six.",
+"pic": "w/c029"
+},
+{
+"a": 636.48,
+"b": 641.21,
+"kind": "comp",
+"src": "img/w/c011.jpg",
+"cam": "pull",
+"o": "50% 50%",
+"dir": -1,
+"line": "In 1946 Rube Waddell was voted into the Baseball Hall of Fame.",
+"pic": "w/c011",
+"label": "RUBE WADDELL\n1876-1914"
+},
+{
+"a": 641.21,
+"b": 646.16,
+"kind": "comp",
+"src": "img/crop/w_c008_da78b1.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Which one is the strangest, do you think, the alligator, the play or the straw hat?",
+"pic": "w/c008"
+},
+{
+"a": 646.16,
+"b": 649.36,
+"kind": "vid",
+"src": "film/bda8353c89.mp4",
+"mask": false,
+"line": "Which one is the strangest, do you think, the alligator, the play or the straw hat?",
+"film": "ALG 150.0-153.2",
+"dir": -1
+},
+{
+"a": 649.36,
+"b": 651.02,
+"kind": "comp",
+"src": "img/crop/w_c014_113905.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
+"line": "Tell us in the comments.",
+"pic": "w/c014"
+},
+{
+"a": 651.02,
+"b": 655.22,
+"kind": "card",
+"text": "NEXT UP\nTHE STRANGEST THINGS THAT\nEVER HAPPENED AT THE OLYMPICS",
+"line": "Next up is the strangest things that ever happened at the Olympics, including a marathon winner who was kept going with rat poison."
+},
+{
+"a": 655.22,
+"b": 661.86,
+"kind": "card",
+"text": "A MARATHON WINNER\nKEPT GOING\nWITH RAT POISON",
+"line": "Next up is the strangest things that ever happened at the Olympics, including a marathon winner who was kept going with rat poison."
+}
+],
+"words": [
+{
+"w": "The",
+"s": 0.1,
+"e": 0.16
+},
+{
+"w": "best",
+"s": 0.24,
+"e": 0.42
+},
+{
+"w": "strikeout",
+"s": 0.52,
+"e": 0.9
+},
+{
+"w": "pitcher",
+"s": 1.02,
+"e": 1.26
+},
+{
+"w": "in",
+"s": 1.3,
+"e": 1.42
+},
+{
+"w": "baseball",
+"s": 1.5,
+"e": 2.0
+},
+{
+"w": "couldn't",
+"s": 2.18,
+"e": 2.44
+},
+{
+"w": "hear",
+"s": 2.48,
+"e": 2.6
+},
+{
+"w": "a",
+"s": 2.66,
+"e": 2.78
+},
+{
+"w": "fire",
+"s": 2.86,
+"e": 3.14
+},
+{
+"w": "bell",
+"s": 3.2,
+"e": 3.4
+},
+{
+"w": "without",
+"s": 3.44,
+"e": 3.72
+},
+{
+"w": "going",
+"s": 3.76,
+"e": 4.0
+},
+{
+"w": "after",
+"s": 4.1,
+"e": 4.36
+},
+{
+"w": "it.",
+"s": 4.42,
+"e": 4.56
+},
+{
+"w": "He",
+"s": 5.06,
+"e": 5.18
+},
+{
+"w": "wrestled",
+"s": 5.2,
+"e": 5.54
+},
+{
+"w": "an",
+"s": 5.58,
+"e": 5.72
+},
+{
+"w": "alligator,",
+"s": 5.82,
+"e": 6.34
+},
+{
+"w": "he",
+"s": 6.84,
+"e": 6.94
+},
+{
+"w": "toured",
+"s": 7.0,
+"e": 7.18
+},
+{
+"w": "the",
+"s": 7.22,
+"e": 7.28
+},
+{
+"w": "country",
+"s": 7.34,
+"e": 7.64
+},
+{
+"w": "in",
+"s": 7.68,
+"e": 7.74
+},
+{
+"w": "a",
+"s": 7.78,
+"e": 7.86
+},
+{
+"w": "play,",
+"s": 7.92,
+"e": 8.24
+},
+{
+"w": "playing",
+"s": 8.52,
+"e": 8.76
+},
+{
+"w": "himself,",
+"s": 8.8,
+"e": 9.32
+},
+{
+"w": "and",
+"s": 9.88,
+"e": 10.08
+},
+{
+"w": "he",
+"s": 10.14,
+"e": 10.28
+},
+{
+"w": "may",
+"s": 10.42,
+"e": 10.58
+},
+{
+"w": "have",
+"s": 10.62,
+"e": 10.76
+},
+{
+"w": "missed",
+"s": 10.8,
+"e": 11.0
+},
+{
+"w": "a",
+"s": 11.04,
+"e": 11.1
+},
+{
+"w": "World",
+"s": 11.14,
+"e": 11.36
+},
+{
+"w": "Series",
+"s": 11.48,
+"e": 11.9
+},
+{
+"w": "because",
+"s": 11.94,
+"e": 12.18
+},
+{
+"w": "of",
+"s": 12.22,
+"e": 12.26
+},
+{
+"w": "a",
+"s": 12.3,
+"e": 12.36
+},
+{
+"w": "straw",
+"s": 12.48,
+"e": 12.74
+},
+{
+"w": "hat.",
+"s": 12.82,
+"e": 13.1
+},
+{
+"w": "His",
+"s": 13.66,
+"e": 13.82
+},
+{
+"w": "name",
+"s": 13.88,
+"e": 14.12
+},
+{
+"w": "was",
+"s": 14.16,
+"e": 14.34
+},
+{
+"w": "Rube",
+"s": 14.44,
+"e": 14.68
+},
+{
+"w": "Waddell,",
+"s": 14.72,
+"e": 15.14
+},
+{
+"w": "and",
+"s": 15.58,
+"e": 15.68
+},
+{
+"w": "for",
+"s": 15.72,
+"e": 15.86
+},
+{
+"w": "six",
+"s": 15.98,
+"e": 16.219
+},
+{
+"w": "years",
+"s": 16.28,
+"e": 16.5
+},
+{
+"w": "in",
+"s": 16.54,
+"e": 16.6
+},
+{
+"w": "a",
+"s": 16.64,
+"e": 16.7
+},
+{
+"w": "row,",
+"s": 16.76,
+"e": 16.98
+},
+{
+"w": "nobody",
+"s": 17.4,
+"e": 17.82
+},
+{
+"w": "in",
+"s": 17.86,
+"e": 17.94
+},
+{
+"w": "his",
+"s": 18.0,
+"e": 18.18
+},
+{
+"w": "league",
+"s": 18.24,
+"e": 18.44
+},
+{
+"w": "struck",
+"s": 18.56,
+"e": 18.8
+},
+{
+"w": "out",
+"s": 18.86,
+"e": 19.04
+},
+{
+"w": "more",
+"s": 19.12,
+"e": 19.32
+},
+{
+"w": "batters.",
+"s": 19.38,
+"e": 19.84
+},
+{
+"w": "We",
+"s": 20.52,
+"e": 20.6
+},
+{
+"w": "checked",
+"s": 20.66,
+"e": 20.98
+},
+{
+"w": "every",
+"s": 21.06,
+"e": 21.28
+},
+{
+"w": "story",
+"s": 21.42,
+"e": 21.72
+},
+{
+"w": "here",
+"s": 21.78,
+"e": 21.98
+},
+{
+"w": "against",
+"s": 22.04,
+"e": 22.3
+},
+{
+"w": "at",
+"s": 22.34,
+"e": 22.44
+},
+{
+"w": "least",
+"s": 22.48,
+"e": 22.74
+},
+{
+"w": "two",
+"s": 22.82,
+"e": 23.0
+},
+{
+"w": "sources,",
+"s": 23.12,
+"e": 23.6
+},
+{
+"w": "and",
+"s": 23.98,
+"e": 24.08
+},
+{
+"w": "the",
+"s": 24.12,
+"e": 24.18
+},
+{
+"w": "legends",
+"s": 24.22,
+"e": 24.58
+},
+{
+"w": "that",
+"s": 24.62,
+"e": 24.8
+},
+{
+"w": "didn't",
+"s": 24.84,
+"e": 25.06
+},
+{
+"w": "hold",
+"s": 25.1,
+"e": 25.28
+},
+{
+"w": "up",
+"s": 25.36,
+"e": 25.5
+},
+{
+"w": "are",
+"s": 25.72,
+"e": 25.86
+},
+{
+"w": "out.",
+"s": 25.96,
+"e": 26.2
+},
+{
+"w": "Number",
+"s": 26.88,
+"e": 27.08
+},
+{
+"w": "one",
+"s": 27.24,
+"e": 27.56
+},
+{
+"w": "is",
+"s": 27.62,
+"e": 27.72
+},
+{
+"w": "the",
+"s": 27.78,
+"e": 27.88
+},
+{
+"w": "last",
+"s": 27.98,
+"e": 28.24
+},
+{
+"w": "disaster",
+"s": 28.28,
+"e": 28.8
+},
+{
+"w": "he",
+"s": 28.86,
+"e": 28.98
+},
+{
+"w": "ran",
+"s": 29.04,
+"e": 29.24
+},
+{
+"w": "toward,",
+"s": 29.28,
+"e": 29.58
+},
+{
+"w": "and",
+"s": 30.06,
+"e": 30.14
+},
+{
+"w": "it",
+"s": 30.18,
+"e": 30.28
+},
+{
+"w": "cost",
+"s": 30.36,
+"e": 30.64
+},
+{
+"w": "him",
+"s": 30.66,
+"e": 30.76
+},
+{
+"w": "his",
+"s": 30.8,
+"e": 30.96
+},
+{
+"w": "life.",
+"s": 31.04,
+"e": 31.38
+},
+{
+"w": "Number",
+"s": 34.04,
+"e": 34.28
+},
+{
+"w": "eight:",
+"s": 34.42,
+"e": 34.68
+},
+{
+"w": "In",
+"s": 35.34,
+"e": 35.42
+},
+{
+"w": "February",
+"s": 35.52,
+"e": 36.04
+},
+{
+"w": "1905,",
+"s": 36.1,
+"e": 37.08
+},
+{
+"w": "near",
+"s": 37.38,
+"e": 37.5
+},
+{
+"w": "Boston,",
+"s": 37.6,
+"e": 38.04
+},
+{
+"w": "a",
+"s": 38.56,
+"e": 38.62
+},
+{
+"w": "shop",
+"s": 38.7,
+"e": 38.92
+},
+{
+"w": "caught",
+"s": 39.0,
+"e": 39.2
+},
+{
+"w": "fire,",
+"s": 39.28,
+"e": 39.54
+},
+{
+"w": "and",
+"s": 39.96,
+"e": 40.04
+},
+{
+"w": "the",
+"s": 40.08,
+"e": 40.14
+},
+{
+"w": "man",
+"s": 40.2,
+"e": 40.38
+},
+{
+"w": "who",
+"s": 40.42,
+"e": 40.52
+},
+{
+"w": "put",
+"s": 40.56,
+"e": 40.68
+},
+{
+"w": "it",
+"s": 40.7,
+"e": 40.8
+},
+{
+"w": "out",
+"s": 40.88,
+"e": 41.08
+},
+{
+"w": "was",
+"s": 41.14,
+"e": 41.28
+},
+{
+"w": "the",
+"s": 41.32,
+"e": 41.42
+},
+{
+"w": "star",
+"s": 41.54,
+"e": 41.74
+},
+{
+"w": "pitcher",
+"s": 41.84,
+"e": 42.18
+},
+{
+"w": "of",
+"s": 42.24,
+"e": 42.3
+},
+{
+"w": "the",
+"s": 42.34,
+"e": 42.42
+},
+{
+"w": "Philadelphia",
+"s": 42.46,
+"e": 43.1
+},
+{
+"w": "Athletics.",
+"s": 43.16,
+"e": 43.78
+},
+{
+"w": "The",
+"s": 44.46,
+"e": 44.54
+},
+{
+"w": "papers",
+"s": 44.6,
+"e": 44.92
+},
+{
+"w": "praised",
+"s": 45.06,
+"e": 45.38
+},
+{
+"w": "him",
+"s": 45.4,
+"e": 45.54
+},
+{
+"w": "for",
+"s": 45.6,
+"e": 45.76
+},
+{
+"w": "it,",
+"s": 45.8,
+"e": 45.86
+},
+{
+"w": "and",
+"s": 46.28,
+"e": 46.42
+},
+{
+"w": "nobody",
+"s": 46.5,
+"e": 46.88
+},
+{
+"w": "who",
+"s": 46.94,
+"e": 47.06
+},
+{
+"w": "knew",
+"s": 47.1,
+"e": 47.28
+},
+{
+"w": "him",
+"s": 47.34,
+"e": 47.5
+},
+{
+"w": "was",
+"s": 47.56,
+"e": 47.66
+},
+{
+"w": "surprised.",
+"s": 47.7,
+"e": 48.3
+},
+{
+"w": "Rube",
+"s": 49.0,
+"e": 49.22
+},
+{
+"w": "Waddell",
+"s": 49.26,
+"e": 49.66
+},
+{
+"w": "loved",
+"s": 49.8,
+"e": 50.12
+},
+{
+"w": "fires",
+"s": 50.18,
+"e": 50.58
+},
+{
+"w": "more",
+"s": 50.64,
+"e": 50.8
+},
+{
+"w": "than",
+"s": 50.82,
+"e": 50.98
+},
+{
+"w": "almost",
+"s": 51.04,
+"e": 51.48
+},
+{
+"w": "anything,",
+"s": 51.58,
+"e": 52.04
+},
+{
+"w": "and",
+"s": 52.58,
+"e": 52.66
+},
+{
+"w": "fire",
+"s": 52.76,
+"e": 53.0
+},
+{
+"w": "companies",
+"s": 53.06,
+"e": 53.44
+},
+{
+"w": "in",
+"s": 53.48,
+"e": 53.54
+},
+{
+"w": "the",
+"s": 53.58,
+"e": 53.66
+},
+{
+"w": "towns",
+"s": 53.72,
+"e": 54.0
+},
+{
+"w": "where",
+"s": 54.02,
+"e": 54.12
+},
+{
+"w": "he",
+"s": 54.16,
+"e": 54.28
+},
+{
+"w": "played",
+"s": 54.34,
+"e": 54.66
+},
+{
+"w": "got",
+"s": 54.74,
+"e": 54.96
+},
+{
+"w": "used",
+"s": 55.06,
+"e": 55.22
+},
+{
+"w": "to",
+"s": 55.28,
+"e": 55.38
+},
+{
+"w": "seeing",
+"s": 55.44,
+"e": 55.64
+},
+{
+"w": "him",
+"s": 55.7,
+"e": 55.84
+},
+{
+"w": "turn",
+"s": 55.9,
+"e": 56.1
+},
+{
+"w": "up.",
+"s": 56.18,
+"e": 56.36
+},
+{
+"w": "When",
+"s": 56.94,
+"e": 57.02
+},
+{
+"w": "the",
+"s": 57.06,
+"e": 57.14
+},
+{
+"w": "bells",
+"s": 57.18,
+"e": 57.48
+},
+{
+"w": "rang",
+"s": 57.56,
+"e": 57.86
+},
+{
+"w": "and",
+"s": 57.96,
+"e": 58.04
+},
+{
+"w": "the",
+"s": 58.08,
+"e": 58.18
+},
+{
+"w": "engines",
+"s": 58.24,
+"e": 58.58
+},
+{
+"w": "went",
+"s": 58.64,
+"e": 58.78
+},
+{
+"w": "out,",
+"s": 58.84,
+"e": 59.02
+},
+{
+"w": "he",
+"s": 59.48,
+"e": 59.56
+},
+{
+"w": "liked",
+"s": 59.6,
+"e": 59.76
+},
+{
+"w": "to",
+"s": 59.8,
+"e": 59.92
+},
+{
+"w": "follow",
+"s": 59.96,
+"e": 60.22
+},
+{
+"w": "them",
+"s": 60.26,
+"e": 60.52
+},
+{
+"w": "all",
+"s": 60.62,
+"e": 60.78
+},
+{
+"w": "the",
+"s": 60.82,
+"e": 60.9
+},
+{
+"w": "way",
+"s": 60.94,
+"e": 61.1
+},
+{
+"w": "to",
+"s": 61.14,
+"e": 61.22
+},
+{
+"w": "the",
+"s": 61.26,
+"e": 61.34
+},
+{
+"w": "fire.",
+"s": 61.4,
+"e": 61.72
+},
+{
+"w": "And",
+"s": 62.4,
+"e": 62.5
+},
+{
+"w": "when",
+"s": 62.54,
+"e": 62.64
+},
+{
+"w": "he",
+"s": 62.68,
+"e": 62.78
+},
+{
+"w": "got",
+"s": 62.82,
+"e": 63.02
+},
+{
+"w": "there,",
+"s": 63.08,
+"e": 63.26
+},
+{
+"w": "he",
+"s": 63.6,
+"e": 63.7
+},
+{
+"w": "helped,",
+"s": 63.76,
+"e": 64.08
+},
+{
+"w": "from",
+"s": 64.56,
+"e": 64.66
+},
+{
+"w": "a",
+"s": 64.72,
+"e": 64.76
+},
+{
+"w": "bucket",
+"s": 64.819,
+"e": 65.08
+},
+{
+"w": "line",
+"s": 65.14,
+"e": 65.36
+},
+{
+"w": "in",
+"s": 65.4,
+"e": 65.459
+},
+{
+"w": "a",
+"s": 65.5,
+"e": 65.58
+},
+{
+"w": "small",
+"s": 65.66,
+"e": 65.94
+},
+{
+"w": "Wisconsin",
+"s": 65.98,
+"e": 66.54
+},
+{
+"w": "town",
+"s": 66.6,
+"e": 67.1
+},
+{
+"w": "to",
+"s": 67.18,
+"e": 67.24
+},
+{
+"w": "the",
+"s": 67.28,
+"e": 67.36
+},
+{
+"w": "big",
+"s": 67.48,
+"e": 67.64
+},
+{
+"w": "city",
+"s": 67.74,
+"e": 67.96
+},
+{
+"w": "brigades.",
+"s": 68.0,
+"e": 68.54
+},
+{
+"w": "He",
+"s": 69.22,
+"e": 69.32
+},
+{
+"w": "was",
+"s": 69.36,
+"e": 69.46
+},
+{
+"w": "a",
+"s": 69.52,
+"e": 69.66
+},
+{
+"w": "big",
+"s": 69.7,
+"e": 69.88
+},
+{
+"w": "left-hander",
+"s": 69.96,
+"e": 70.5
+},
+{
+"w": "from",
+"s": 70.58,
+"e": 70.7
+},
+{
+"w": "Bradford,",
+"s": 70.78,
+"e": 71.18
+},
+{
+"w": "Pennsylvania,",
+"s": 71.26,
+"e": 71.94
+},
+{
+"w": "about",
+"s": 72.36,
+"e": 72.64
+},
+{
+"w": "6",
+"s": 72.7,
+"e": 72.9
+},
+{
+"w": "foot",
+"s": 72.94,
+"e": 73.08
+},
+{
+"w": "1",
+"s": 73.22,
+"e": 73.5
+},
+{
+"w": "and",
+"s": 73.56,
+"e": 73.68
+},
+{
+"w": "200",
+"s": 73.8,
+"e": 74.2
+},
+{
+"w": "pounds.",
+"s": 74.32,
+"e": 74.74
+},
+{
+"w": "He'd",
+"s": 75.38,
+"e": 75.52
+},
+{
+"w": "got",
+"s": 75.56,
+"e": 75.72
+},
+{
+"w": "the",
+"s": 75.76,
+"e": 75.84
+},
+{
+"w": "name",
+"s": 75.9,
+"e": 76.12
+},
+{
+"w": "Rube,",
+"s": 76.26,
+"e": 76.6
+},
+{
+"w": "which",
+"s": 77.02,
+"e": 77.24
+},
+{
+"w": "back",
+"s": 77.4,
+"e": 77.6
+},
+{
+"w": "then",
+"s": 77.68,
+"e": 77.92
+},
+{
+"w": "meant",
+"s": 78.0,
+"e": 78.28
+},
+{
+"w": "a",
+"s": 78.36,
+"e": 78.4
+},
+{
+"w": "country",
+"s": 78.46,
+"e": 78.78
+},
+{
+"w": "boy,",
+"s": 78.84,
+"e": 79.06
+},
+{
+"w": "because",
+"s": 79.42,
+"e": 79.7
+},
+{
+"w": "he",
+"s": 79.74,
+"e": 79.82
+},
+{
+"w": "was",
+"s": 79.88,
+"e": 79.98
+},
+{
+"w": "a",
+"s": 80.04,
+"e": 80.08
+},
+{
+"w": "big,",
+"s": 80.24,
+"e": 80.52
+},
+{
+"w": "fresh",
+"s": 80.74,
+"e": 81.04
+},
+{
+"w": "kid.",
+"s": 81.1,
+"e": 81.36
+},
+{
+"w": "The",
+"s": 82.02,
+"e": 82.1
+},
+{
+"w": "stories",
+"s": 82.18,
+"e": 82.56
+},
+{
+"w": "grew",
+"s": 82.66,
+"e": 82.88
+},
+{
+"w": "from",
+"s": 82.94,
+"e": 83.08
+},
+{
+"w": "there.",
+"s": 83.14,
+"e": 83.36
+},
+{
+"w": "The",
+"s": 84.2,
+"e": 84.26
+},
+{
+"w": "best",
+"s": 84.32,
+"e": 84.56
+},
+{
+"w": "known",
+"s": 84.6,
+"e": 84.88
+},
+{
+"w": "says",
+"s": 85.02,
+"e": 85.22
+},
+{
+"w": "he'd",
+"s": 85.28,
+"e": 85.44
+},
+{
+"w": "walk",
+"s": 85.52,
+"e": 85.72
+},
+{
+"w": "off",
+"s": 85.78,
+"e": 85.9
+},
+{
+"w": "the",
+"s": 85.94,
+"e": 86.02
+},
+{
+"w": "mound",
+"s": 86.1,
+"e": 86.34
+},
+{
+"w": "in",
+"s": 86.38,
+"e": 86.46
+},
+{
+"w": "the",
+"s": 86.48,
+"e": 86.56
+},
+{
+"w": "middle",
+"s": 86.64,
+"e": 86.84
+},
+{
+"w": "of",
+"s": 86.88,
+"e": 86.94
+},
+{
+"w": "a",
+"s": 87.0,
+"e": 87.08
+},
+{
+"w": "game",
+"s": 87.14,
+"e": 87.44
+},
+{
+"w": "to",
+"s": 87.5,
+"e": 87.6
+},
+{
+"w": "chase",
+"s": 87.66,
+"e": 87.86
+},
+{
+"w": "a",
+"s": 87.92,
+"e": 87.98
+},
+{
+"w": "passing",
+"s": 88.04,
+"e": 88.38
+},
+{
+"w": "fire",
+"s": 88.52,
+"e": 88.8
+},
+{
+"w": "engine.",
+"s": 88.84,
+"e": 89.2
+},
+{
+"w": "His",
+"s": 89.78,
+"e": 89.92
+},
+{
+"w": "biography",
+"s": 89.96,
+"e": 90.56
+},
+{
+"w": "for",
+"s": 90.62,
+"e": 90.72
+},
+{
+"w": "the",
+"s": 90.76,
+"e": 90.84
+},
+{
+"w": "Society",
+"s": 90.88,
+"e": 91.4
+},
+{
+"w": "for",
+"s": 91.52,
+"e": 91.62
+},
+{
+"w": "American",
+"s": 91.66,
+"e": 92.08
+},
+{
+"w": "Baseball",
+"s": 92.14,
+"e": 92.54
+},
+{
+"w": "Research",
+"s": 92.62,
+"e": 93.1
+},
+{
+"w": "says",
+"s": 93.36,
+"e": 93.74
+},
+{
+"w": "he",
+"s": 93.84,
+"e": 94.04
+},
+{
+"w": "didn't",
+"s": 94.1,
+"e": 94.34
+},
+{
+"w": "make",
+"s": 94.38,
+"e": 94.52
+},
+{
+"w": "a",
+"s": 94.58,
+"e": 94.62
+},
+{
+"w": "habit",
+"s": 94.68,
+"e": 94.94
+},
+{
+"w": "of",
+"s": 94.98,
+"e": 95.08
+},
+{
+"w": "that.",
+"s": 95.14,
+"e": 95.38
+},
+{
+"w": "What's",
+"s": 95.98,
+"e": 96.14
+},
+{
+"w": "on",
+"s": 96.18,
+"e": 96.26
+},
+{
+"w": "the",
+"s": 96.3,
+"e": 96.42
+},
+{
+"w": "record",
+"s": 96.48,
+"e": 96.82
+},
+{
+"w": "is",
+"s": 96.86,
+"e": 97.02
+},
+{
+"w": "odd",
+"s": 97.08,
+"e": 97.22
+},
+{
+"w": "enough,",
+"s": 97.26,
+"e": 97.68
+},
+{
+"w": "starting",
+"s": 98.22,
+"e": 98.52
+},
+{
+"w": "with",
+"s": 98.54,
+"e": 98.64
+},
+{
+"w": "the",
+"s": 98.68,
+"e": 98.76
+},
+{
+"w": "two",
+"s": 98.82,
+"e": 98.92
+},
+{
+"w": "detectives",
+"s": 99.0,
+"e": 99.64
+},
+{
+"w": "sent",
+"s": 99.7,
+"e": 99.86
+},
+{
+"w": "to",
+"s": 99.9,
+"e": 100.0
+},
+{
+"w": "fetch",
+"s": 100.08,
+"e": 100.3
+},
+{
+"w": "him.",
+"s": 100.3,
+"e": 100.48
+},
+{
+"w": "Number",
+"s": 103.12,
+"e": 103.32
+},
+{
+"w": "seven:",
+"s": 103.46,
+"e": 103.78
+},
+{
+"w": "In",
+"s": 104.46,
+"e": 104.54
+},
+{
+"w": "1902,",
+"s": 104.6,
+"e": 105.52
+},
+{
+"w": "one",
+"s": 106.06,
+"e": 106.18
+},
+{
+"w": "manager",
+"s": 106.26,
+"e": 106.62
+},
+{
+"w": "had",
+"s": 106.68,
+"e": 106.8
+},
+{
+"w": "to",
+"s": 106.84,
+"e": 106.94
+},
+{
+"w": "send",
+"s": 107.0,
+"e": 107.24
+},
+{
+"w": "Pinkerton",
+"s": 107.28,
+"e": 107.7
+},
+{
+"w": "detectives",
+"s": 107.74,
+"e": 108.32
+},
+{
+"w": "across",
+"s": 108.4,
+"e": 108.8
+},
+{
+"w": "America",
+"s": 108.86,
+"e": 109.44
+},
+{
+"w": "to",
+"s": 109.54,
+"e": 109.62
+},
+{
+"w": "bring",
+"s": 109.66,
+"e": 109.84
+},
+{
+"w": "his",
+"s": 109.88,
+"e": 110.04
+},
+{
+"w": "new",
+"s": 110.1,
+"e": 110.26
+},
+{
+"w": "pitcher",
+"s": 110.3,
+"e": 110.6
+},
+{
+"w": "home.",
+"s": 110.68,
+"e": 110.98
+},
+{
+"w": "By",
+"s": 111.54,
+"e": 111.68
+},
+{
+"w": "then,",
+"s": 111.72,
+"e": 111.96
+},
+{
+"w": "Waddell",
+"s": 112.32,
+"e": 112.66
+},
+{
+"w": "had",
+"s": 112.72,
+"e": 112.9
+},
+{
+"w": "already",
+"s": 113.0,
+"e": 113.3
+},
+{
+"w": "been",
+"s": 113.38,
+"e": 113.56
+},
+{
+"w": "through",
+"s": 113.6,
+"e": 113.82
+},
+{
+"w": "Louisville,",
+"s": 113.9,
+"e": 114.36
+},
+{
+"w": "Pittsburgh,",
+"s": 114.66,
+"e": 115.22
+},
+{
+"w": "Milwaukee,",
+"s": 115.46,
+"e": 116.04
+},
+{
+"w": "and",
+"s": 116.26,
+"e": 116.4
+},
+{
+"w": "Chicago,",
+"s": 116.46,
+"e": 117.02
+},
+{
+"w": "and",
+"s": 117.54,
+"e": 117.62
+},
+{
+"w": "he",
+"s": 117.66,
+"e": 117.74
+},
+{
+"w": "was",
+"s": 117.78,
+"e": 117.94
+},
+{
+"w": "only",
+"s": 118.02,
+"e": 118.26
+},
+{
+"w": "25.",
+"s": 118.32,
+"e": 119.14
+},
+{
+"w": "Managers",
+"s": 119.78,
+"e": 120.22
+},
+{
+"w": "loved",
+"s": 120.44,
+"e": 120.66
+},
+{
+"w": "his",
+"s": 120.7,
+"e": 120.86
+},
+{
+"w": "arm",
+"s": 120.98,
+"e": 121.24
+},
+{
+"w": "and",
+"s": 121.54,
+"e": 121.66
+},
+{
+"w": "lost",
+"s": 121.7,
+"e": 121.9
+},
+{
+"w": "patience",
+"s": 122.02,
+"e": 122.46
+},
+{
+"w": "with",
+"s": 122.5,
+"e": 122.7
+},
+{
+"w": "everything",
+"s": 122.78,
+"e": 123.18
+},
+{
+"w": "else.",
+"s": 123.24,
+"e": 123.54
+},
+{
+"w": "Connie",
+"s": 124.16,
+"e": 124.4
+},
+{
+"w": "Mack,",
+"s": 124.5,
+"e": 124.8
+},
+{
+"w": "who",
+"s": 125.08,
+"e": 125.2
+},
+{
+"w": "ran",
+"s": 125.26,
+"e": 125.42
+},
+{
+"w": "the",
+"s": 125.46,
+"e": 125.54
+},
+{
+"w": "Philadelphia",
+"s": 125.58,
+"e": 126.16
+},
+{
+"w": "Athletics,",
+"s": 126.22,
+"e": 126.8
+},
+{
+"w": "wanted",
+"s": 127.12,
+"e": 127.36
+},
+{
+"w": "him",
+"s": 127.4,
+"e": 127.54
+},
+{
+"w": "anyway.",
+"s": 127.58,
+"e": 127.96
+},
+{
+"w": "Mack",
+"s": 128.6,
+"e": 128.82
+},
+{
+"w": "knew",
+"s": 128.84,
+"e": 129.0
+},
+{
+"w": "exactly",
+"s": 129.039,
+"e": 129.62
+},
+{
+"w": "what",
+"s": 129.639,
+"e": 129.74
+},
+{
+"w": "he",
+"s": 129.78,
+"e": 129.86
+},
+{
+"w": "was",
+"s": 129.9,
+"e": 130.039
+},
+{
+"w": "getting,",
+"s": 130.08,
+"e": 130.36
+},
+{
+"w": "because",
+"s": 130.8,
+"e": 131.02
+},
+{
+"w": "he'd",
+"s": 131.06,
+"e": 131.22
+},
+{
+"w": "had",
+"s": 131.26,
+"e": 131.4
+},
+{
+"w": "Waddell",
+"s": 131.44,
+"e": 131.8
+},
+{
+"w": "for",
+"s": 131.86,
+"e": 132.0
+},
+{
+"w": "part",
+"s": 132.04,
+"e": 132.2
+},
+{
+"w": "of",
+"s": 132.24,
+"e": 132.32
+},
+{
+"w": "1900,",
+"s": 132.36,
+"e": 133.14
+},
+{
+"w": "managing",
+"s": 133.46,
+"e": 133.82
+},
+{
+"w": "Milwaukee.",
+"s": 133.84,
+"e": 134.4
+},
+{
+"w": "He",
+"s": 135.02,
+"e": 135.12
+},
+{
+"w": "said",
+"s": 135.16,
+"e": 135.36
+},
+{
+"w": "later",
+"s": 135.42,
+"e": 135.76
+},
+{
+"w": "that",
+"s": 135.84,
+"e": 135.94
+},
+{
+"w": "he",
+"s": 136.0,
+"e": 136.1
+},
+{
+"w": "never",
+"s": 136.26,
+"e": 136.48
+},
+{
+"w": "saw",
+"s": 136.58,
+"e": 136.72
+},
+{
+"w": "a",
+"s": 136.76,
+"e": 136.84
+},
+{
+"w": "pitcher",
+"s": 136.9,
+"e": 137.22
+},
+{
+"w": "with",
+"s": 137.26,
+"e": 137.44
+},
+{
+"w": "more",
+"s": 137.54,
+"e": 137.76
+},
+{
+"w": "stuff.",
+"s": 137.9,
+"e": 138.28
+},
+{
+"w": "The",
+"s": 138.88,
+"e": 138.98
+},
+{
+"w": "problem",
+"s": 139.02,
+"e": 139.38
+},
+{
+"w": "was",
+"s": 139.44,
+"e": 139.56
+},
+{
+"w": "that",
+"s": 139.64,
+"e": 139.82
+},
+{
+"w": "in",
+"s": 139.98,
+"e": 140.02
+},
+{
+"w": "the",
+"s": 140.06,
+"e": 140.14
+},
+{
+"w": "spring",
+"s": 140.24,
+"e": 140.42
+},
+{
+"w": "of",
+"s": 140.46,
+"e": 140.54
+},
+{
+"w": "1902,",
+"s": 140.6,
+"e": 141.42
+},
+{
+"w": "Waddell",
+"s": 141.9,
+"e": 142.22
+},
+{
+"w": "was",
+"s": 142.26,
+"e": 142.42
+},
+{
+"w": "pitching",
+"s": 142.46,
+"e": 142.72
+},
+{
+"w": "in",
+"s": 142.76,
+"e": 142.86
+},
+{
+"w": "California",
+"s": 142.9,
+"e": 143.58
+},
+{
+"w": "for",
+"s": 144.06,
+"e": 144.16
+},
+{
+"w": "a",
+"s": 144.2,
+"e": 144.24
+},
+{
+"w": "Los",
+"s": 144.28,
+"e": 144.48
+},
+{
+"w": "Angeles",
+"s": 144.58,
+"e": 144.94
+},
+{
+"w": "team",
+"s": 145.02,
+"e": 145.24
+},
+{
+"w": "called",
+"s": 145.34,
+"e": 145.6
+},
+{
+"w": "the",
+"s": 145.64,
+"e": 145.72
+},
+{
+"w": "Lulus.",
+"s": 145.78,
+"e": 146.32
+},
+{
+"w": "So",
+"s": 147.04,
+"e": 147.16
+},
+{
+"w": "Mack",
+"s": 147.24,
+"e": 147.46
+},
+{
+"w": "went",
+"s": 147.52,
+"e": 147.66
+},
+{
+"w": "to",
+"s": 147.7,
+"e": 147.78
+},
+{
+"w": "the",
+"s": 147.82,
+"e": 147.92
+},
+{
+"w": "Pinkerton",
+"s": 147.98,
+"e": 148.36
+},
+{
+"w": "Detective",
+"s": 148.42,
+"e": 148.88
+},
+{
+"w": "Agency,",
+"s": 148.94,
+"e": 149.4
+},
+{
+"w": "the",
+"s": 149.88,
+"e": 149.94
+},
+{
+"w": "most",
+"s": 149.98,
+"e": 150.2
+},
+{
+"w": "famous",
+"s": 150.4,
+"e": 150.72
+},
+{
+"w": "detectives",
+"s": 150.76,
+"e": 151.28
+},
+{
+"w": "in",
+"s": 151.32,
+"e": 151.38
+},
+{
+"w": "America,",
+"s": 151.42,
+"e": 151.96
+},
+{
+"w": "and",
+"s": 152.5,
+"e": 152.64
+},
+{
+"w": "two",
+"s": 152.7,
+"e": 152.82
+},
+{
+"w": "of",
+"s": 152.88,
+"e": 152.96
+},
+{
+"w": "them",
+"s": 153.0,
+"e": 153.16
+},
+{
+"w": "were",
+"s": 153.2,
+"e": 153.32
+},
+{
+"w": "sent",
+"s": 153.36,
+"e": 153.52
+},
+{
+"w": "to",
+"s": 153.56,
+"e": 153.66
+},
+{
+"w": "fetch",
+"s": 153.72,
+"e": 153.94
+},
+{
+"w": "him.",
+"s": 153.96,
+"e": 154.12
+},
+{
+"w": "Their",
+"s": 154.7,
+"e": 154.86
+},
+{
+"w": "job",
+"s": 154.92,
+"e": 155.14
+},
+{
+"w": "was",
+"s": 155.18,
+"e": 155.28
+},
+{
+"w": "to",
+"s": 155.34,
+"e": 155.46
+},
+{
+"w": "find",
+"s": 155.54,
+"e": 155.76
+},
+{
+"w": "him",
+"s": 155.82,
+"e": 155.98
+},
+{
+"w": "and",
+"s": 156.12,
+"e": 156.24
+},
+{
+"w": "make",
+"s": 156.32,
+"e": 156.48
+},
+{
+"w": "sure",
+"s": 156.52,
+"e": 156.68
+},
+{
+"w": "he",
+"s": 156.74,
+"e": 156.82
+},
+{
+"w": "got",
+"s": 156.86,
+"e": 157.14
+},
+{
+"w": "all",
+"s": 157.24,
+"e": 157.38
+},
+{
+"w": "the",
+"s": 157.42,
+"e": 157.48
+},
+{
+"w": "way",
+"s": 157.54,
+"e": 157.68
+},
+{
+"w": "east.",
+"s": 157.8,
+"e": 158.16
+},
+{
+"w": "It",
+"s": 158.72,
+"e": 158.82
+},
+{
+"w": "took",
+"s": 158.88,
+"e": 159.04
+},
+{
+"w": "them",
+"s": 159.1,
+"e": 159.22
+},
+{
+"w": "until",
+"s": 159.26,
+"e": 159.52
+},
+{
+"w": "the",
+"s": 159.58,
+"e": 159.72
+},
+{
+"w": "end",
+"s": 159.78,
+"e": 159.94
+},
+{
+"w": "of",
+"s": 159.98,
+"e": 160.1
+},
+{
+"w": "June.",
+"s": 160.18,
+"e": 160.52
+},
+{
+"w": "On",
+"s": 161.2,
+"e": 161.26
+},
+{
+"w": "the",
+"s": 161.3,
+"e": 161.4
+},
+{
+"w": "1st",
+"s": 161.44,
+"e": 161.68
+},
+{
+"w": "of",
+"s": 161.72,
+"e": 161.78
+},
+{
+"w": "July,",
+"s": 161.84,
+"e": 162.22
+},
+{
+"w": "in",
+"s": 162.54,
+"e": 162.62
+},
+{
+"w": "his",
+"s": 162.66,
+"e": 162.88
+},
+{
+"w": "first",
+"s": 162.94,
+"e": 163.2
+},
+{
+"w": "week",
+"s": 163.3,
+"e": 163.46
+},
+{
+"w": "with",
+"s": 163.5,
+"e": 163.58
+},
+{
+"w": "the",
+"s": 163.62,
+"e": 163.68
+},
+{
+"w": "Athletics,",
+"s": 163.72,
+"e": 164.26
+},
+{
+"w": "he",
+"s": 164.68,
+"e": 164.76
+},
+{
+"w": "struck",
+"s": 164.86,
+"e": 165.06
+},
+{
+"w": "out",
+"s": 165.1,
+"e": 165.22
+},
+{
+"w": "the",
+"s": 165.26,
+"e": 165.34
+},
+{
+"w": "side",
+"s": 165.42,
+"e": 165.7
+},
+{
+"w": "on",
+"s": 165.76,
+"e": 165.88
+},
+{
+"w": "nine",
+"s": 166.04,
+"e": 166.3
+},
+{
+"w": "pitches,",
+"s": 166.42,
+"e": 166.86
+},
+{
+"w": "the",
+"s": 167.32,
+"e": 167.44
+},
+{
+"w": "first",
+"s": 167.52,
+"e": 167.72
+},
+{
+"w": "time",
+"s": 167.8,
+"e": 168.14
+},
+{
+"w": "anyone",
+"s": 168.22,
+"e": 168.56
+},
+{
+"w": "had",
+"s": 168.62,
+"e": 168.76
+},
+{
+"w": "done",
+"s": 168.8,
+"e": 168.96
+},
+{
+"w": "that",
+"s": 169.02,
+"e": 169.16
+},
+{
+"w": "in",
+"s": 169.22,
+"e": 169.28
+},
+{
+"w": "the",
+"s": 169.32,
+"e": 169.38
+},
+{
+"w": "American",
+"s": 169.42,
+"e": 169.84
+},
+{
+"w": "League.",
+"s": 169.9,
+"e": 170.2
+},
+{
+"w": "He'd",
+"s": 170.78,
+"e": 170.96
+},
+{
+"w": "missed",
+"s": 171.0,
+"e": 171.2
+},
+{
+"w": "the",
+"s": 171.24,
+"e": 171.38
+},
+{
+"w": "first",
+"s": 171.44,
+"e": 171.72
+},
+{
+"w": "two",
+"s": 171.8,
+"e": 171.96
+},
+{
+"w": "months",
+"s": 172.1,
+"e": 172.44
+},
+{
+"w": "and",
+"s": 172.6,
+"e": 172.72
+},
+{
+"w": "still",
+"s": 172.94,
+"e": 173.2
+},
+{
+"w": "won",
+"s": 173.3,
+"e": 173.48
+},
+{
+"w": "24",
+"s": 173.56,
+"e": 174.04
+},
+{
+"w": "games.",
+"s": 174.12,
+"e": 174.54
+},
+{
+"w": "He",
+"s": 175.14,
+"e": 175.24
+},
+{
+"w": "led",
+"s": 175.28,
+"e": 175.44
+},
+{
+"w": "the",
+"s": 175.46,
+"e": 175.56
+},
+{
+"w": "league",
+"s": 175.62,
+"e": 175.8
+},
+{
+"w": "in",
+"s": 175.84,
+"e": 175.94
+},
+{
+"w": "strikeouts,",
+"s": 176.02,
+"e": 176.62
+},
+{
+"w": "and",
+"s": 176.96,
+"e": 177.06
+},
+{
+"w": "the",
+"s": 177.1,
+"e": 177.16
+},
+{
+"w": "Athletics",
+"s": 177.2,
+"e": 177.72
+},
+{
+"w": "won",
+"s": 177.86,
+"e": 178.0
+},
+{
+"w": "the",
+"s": 178.04,
+"e": 178.12
+},
+{
+"w": "pennant.",
+"s": 178.18,
+"e": 178.56
+},
+{
+"w": "Mack",
+"s": 179.2,
+"e": 179.44
+},
+{
+"w": "had",
+"s": 179.48,
+"e": 179.62
+},
+{
+"w": "his",
+"s": 179.64,
+"e": 179.8
+},
+{
+"w": "pitcher,",
+"s": 179.84,
+"e": 180.18
+},
+{
+"w": "and",
+"s": 180.66,
+"e": 180.74
+},
+{
+"w": "a",
+"s": 180.78,
+"e": 180.84
+},
+{
+"w": "year",
+"s": 180.88,
+"e": 181.06
+},
+{
+"w": "later,",
+"s": 181.12,
+"e": 181.4
+},
+{
+"w": "he",
+"s": 181.8,
+"e": 181.9
+},
+{
+"w": "lost",
+"s": 181.96,
+"e": 182.22
+},
+{
+"w": "him",
+"s": 182.24,
+"e": 182.38
+},
+{
+"w": "to",
+"s": 182.44,
+"e": 182.5
+},
+{
+"w": "the",
+"s": 182.56,
+"e": 182.64
+},
+{
+"w": "theater.",
+"s": 182.68,
+"e": 183.02
+},
+{
+"w": "Number",
+"s": 185.74,
+"e": 185.96
+},
+{
+"w": "six:",
+"s": 186.1,
+"e": 186.46
+},
+{
+"w": "When",
+"s": 187.16,
+"e": 187.26
+},
+{
+"w": "his",
+"s": 187.28,
+"e": 187.44
+},
+{
+"w": "1903",
+"s": 187.48,
+"e": 188.22
+},
+{
+"w": "season",
+"s": 188.32,
+"e": 188.62
+},
+{
+"w": "ended,",
+"s": 188.72,
+"e": 189.02
+},
+{
+"w": "the",
+"s": 189.46,
+"e": 189.54
+},
+{
+"w": "most",
+"s": 189.58,
+"e": 189.8
+},
+{
+"w": "feared",
+"s": 189.96,
+"e": 190.24
+},
+{
+"w": "strikeout",
+"s": 190.34,
+"e": 190.74
+},
+{
+"w": "pitcher",
+"s": 190.82,
+"e": 191.08
+},
+{
+"w": "in",
+"s": 191.12,
+"e": 191.22
+},
+{
+"w": "baseball",
+"s": 191.28,
+"e": 191.82
+},
+{
+"w": "went",
+"s": 191.92,
+"e": 192.02
+},
+{
+"w": "on",
+"s": 192.08,
+"e": 192.22
+},
+{
+"w": "tour",
+"s": 192.3,
+"e": 192.62
+},
+{
+"w": "in",
+"s": 192.66,
+"e": 192.72
+},
+{
+"w": "a",
+"s": 192.78,
+"e": 192.84
+},
+{
+"w": "stage",
+"s": 192.96,
+"e": 193.26
+},
+{
+"w": "melodrama,",
+"s": 193.36,
+"e": 193.96
+},
+{
+"w": "and",
+"s": 194.54,
+"e": 194.62
+},
+{
+"w": "the",
+"s": 194.64,
+"e": 194.72
+},
+{
+"w": "part",
+"s": 194.76,
+"e": 194.94
+},
+{
+"w": "he",
+"s": 194.98,
+"e": 195.08
+},
+{
+"w": "played",
+"s": 195.14,
+"e": 195.46
+},
+{
+"w": "was",
+"s": 195.9,
+"e": 196.0
+},
+{
+"w": "himself.",
+"s": 196.04,
+"e": 196.6
+},
+{
+"w": "The",
+"s": 197.22,
+"e": 197.32
+},
+{
+"w": "play",
+"s": 197.36,
+"e": 197.56
+},
+{
+"w": "was",
+"s": 197.62,
+"e": 197.76
+},
+{
+"w": "called",
+"s": 197.82,
+"e": 198.16
+},
+{
+"w": "The",
+"s": 198.5,
+"e": 198.62
+},
+{
+"w": "Stain",
+"s": 198.78,
+"e": 199.08
+},
+{
+"w": "of",
+"s": 199.22,
+"e": 199.3
+},
+{
+"w": "Guilt.",
+"s": 199.44,
+"e": 199.76
+},
+{
+"w": "He'd",
+"s": 200.4,
+"e": 200.6
+},
+{
+"w": "just",
+"s": 200.68,
+"e": 200.86
+},
+{
+"w": "struck",
+"s": 200.9,
+"e": 201.12
+},
+{
+"w": "out",
+"s": 201.18,
+"e": 201.38
+},
+{
+"w": "302",
+"s": 201.44,
+"e": 202.4
+},
+{
+"w": "batters,",
+"s": 202.48,
+"e": 202.92
+},
+{
+"w": "the",
+"s": 203.36,
+"e": 203.48
+},
+{
+"w": "most",
+"s": 203.56,
+"e": 203.88
+},
+{
+"w": "in",
+"s": 203.92,
+"e": 204.0
+},
+{
+"w": "the",
+"s": 204.02,
+"e": 204.12
+},
+{
+"w": "short",
+"s": 204.18,
+"e": 204.4
+},
+{
+"w": "history",
+"s": 204.5,
+"e": 204.92
+},
+{
+"w": "of",
+"s": 204.96,
+"e": 205.02
+},
+{
+"w": "the",
+"s": 205.08,
+"e": 205.12
+},
+{
+"w": "American",
+"s": 205.16,
+"e": 205.56
+},
+{
+"w": "League,",
+"s": 205.64,
+"e": 205.92
+},
+{
+"w": "so",
+"s": 206.48,
+"e": 206.58
+},
+{
+"w": "people",
+"s": 206.66,
+"e": 206.94
+},
+{
+"w": "knew",
+"s": 206.98,
+"e": 207.18
+},
+{
+"w": "the",
+"s": 207.22,
+"e": 207.3
+},
+{
+"w": "name",
+"s": 207.34,
+"e": 207.54
+},
+{
+"w": "on",
+"s": 207.58,
+"e": 207.64
+},
+{
+"w": "the",
+"s": 207.68,
+"e": 207.76
+},
+{
+"w": "poster.",
+"s": 207.8,
+"e": 208.2
+},
+{
+"w": "What",
+"s": 208.88,
+"e": 209.0
+},
+{
+"w": "they",
+"s": 209.04,
+"e": 209.18
+},
+{
+"w": "got",
+"s": 209.24,
+"e": 209.54
+},
+{
+"w": "was",
+"s": 209.62,
+"e": 209.92
+},
+{
+"w": "not",
+"s": 210.0,
+"e": 210.18
+},
+{
+"w": "much",
+"s": 210.24,
+"e": 210.38
+},
+{
+"w": "of",
+"s": 210.42,
+"e": 210.5
+},
+{
+"w": "an",
+"s": 210.52,
+"e": 210.62
+},
+{
+"w": "actor.",
+"s": 210.7,
+"e": 211.06
+},
+{
+"w": "The",
+"s": 211.76,
+"e": 211.84
+},
+{
+"w": "tour",
+"s": 211.9,
+"e": 212.12
+},
+{
+"w": "ran",
+"s": 212.2,
+"e": 212.4
+},
+{
+"w": "from",
+"s": 212.44,
+"e": 212.6
+},
+{
+"w": "September",
+"s": 212.64,
+"e": 213.16
+},
+{
+"w": "to",
+"s": 213.26,
+"e": 213.34
+},
+{
+"w": "December,",
+"s": 213.38,
+"e": 213.88
+},
+{
+"w": "and",
+"s": 214.38,
+"e": 214.5
+},
+{
+"w": "then",
+"s": 214.54,
+"e": 214.74
+},
+{
+"w": "the",
+"s": 215.1,
+"e": 215.18
+},
+{
+"w": "company",
+"s": 215.24,
+"e": 215.58
+},
+{
+"w": "was",
+"s": 215.62,
+"e": 215.76
+},
+{
+"w": "done",
+"s": 215.8,
+"e": 215.98
+},
+{
+"w": "with",
+"s": 216.02,
+"e": 216.12
+},
+{
+"w": "him.",
+"s": 216.16,
+"e": 216.3
+},
+{
+"w": "He",
+"s": 216.98,
+"e": 217.08
+},
+{
+"w": "ended",
+"s": 217.12,
+"e": 217.34
+},
+{
+"w": "up",
+"s": 217.42,
+"e": 217.54
+},
+{
+"w": "where",
+"s": 217.56,
+"e": 217.68
+},
+{
+"w": "he",
+"s": 217.74,
+"e": 217.86
+},
+{
+"w": "often",
+"s": 217.96,
+"e": 218.24
+},
+{
+"w": "did",
+"s": 218.32,
+"e": 218.44
+},
+{
+"w": "in",
+"s": 218.48,
+"e": 218.54
+},
+{
+"w": "the",
+"s": 218.58,
+"e": 218.64
+},
+{
+"w": "winter,",
+"s": 218.68,
+"e": 219.0
+},
+{
+"w": "behind",
+"s": 219.56,
+"e": 219.86
+},
+{
+"w": "a",
+"s": 219.9,
+"e": 219.96
+},
+{
+"w": "bar,",
+"s": 220.0,
+"e": 220.24
+},
+{
+"w": "mixing",
+"s": 220.7,
+"e": 221.0
+},
+{
+"w": "drinks.",
+"s": 221.06,
+"e": 221.46
+},
+{
+"w": "The",
+"s": 222.14,
+"e": 222.22
+},
+{
+"w": "Sporting",
+"s": 222.3,
+"e": 222.58
+},
+{
+"w": "News",
+"s": 222.64,
+"e": 222.88
+},
+{
+"w": "once",
+"s": 222.96,
+"e": 223.14
+},
+{
+"w": "called",
+"s": 223.18,
+"e": 223.42
+},
+{
+"w": "him",
+"s": 223.46,
+"e": 223.72
+},
+{
+"w": "the",
+"s": 223.78,
+"e": 223.92
+},
+{
+"w": "Southpaw,",
+"s": 224.0,
+"e": 224.58
+},
+{
+"w": "a",
+"s": 225.08,
+"e": 225.14
+},
+{
+"w": "joke",
+"s": 225.2,
+"e": 225.4
+},
+{
+"w": "on",
+"s": 225.44,
+"e": 225.6
+},
+{
+"w": "southpaw",
+"s": 225.68,
+"e": 226.24
+},
+{
+"w": "that",
+"s": 226.32,
+"e": 226.54
+},
+{
+"w": "everyone",
+"s": 226.64,
+"e": 226.96
+},
+{
+"w": "in",
+"s": 227.0,
+"e": 227.08
+},
+{
+"w": "baseball",
+"s": 227.14,
+"e": 227.54
+},
+{
+"w": "understood.",
+"s": 227.58,
+"e": 228.12
+},
+{
+"w": "None",
+"s": 228.78,
+"e": 228.9
+},
+{
+"w": "of",
+"s": 228.96,
+"e": 229.02
+},
+{
+"w": "it",
+"s": 229.06,
+"e": 229.16
+},
+{
+"w": "hurt",
+"s": 229.22,
+"e": 229.4
+},
+{
+"w": "his",
+"s": 229.44,
+"e": 229.6
+},
+{
+"w": "pitching.",
+"s": 229.64,
+"e": 230.04
+},
+{
+"w": "The",
+"s": 230.68,
+"e": 230.76
+},
+{
+"w": "next",
+"s": 230.82,
+"e": 231.02
+},
+{
+"w": "spring,",
+"s": 231.14,
+"e": 231.4
+},
+{
+"w": "he",
+"s": 231.52,
+"e": 231.6
+},
+{
+"w": "was",
+"s": 231.64,
+"e": 231.8
+},
+{
+"w": "back,",
+"s": 231.86,
+"e": 232.14
+},
+{
+"w": "and",
+"s": 232.62,
+"e": 232.7
+},
+{
+"w": "the",
+"s": 232.72,
+"e": 232.82
+},
+{
+"w": "next",
+"s": 232.88,
+"e": 233.08
+},
+{
+"w": "strange",
+"s": 233.16,
+"e": 233.42
+},
+{
+"w": "story",
+"s": 233.54,
+"e": 233.82
+},
+{
+"w": "took",
+"s": 233.94,
+"e": 234.1
+},
+{
+"w": "him",
+"s": 234.12,
+"e": 234.22
+},
+{
+"w": "into",
+"s": 234.26,
+"e": 234.46
+},
+{
+"w": "the",
+"s": 234.5,
+"e": 234.58
+},
+{
+"w": "water",
+"s": 234.64,
+"e": 234.94
+},
+{
+"w": "with",
+"s": 235.12,
+"e": 235.22
+},
+{
+"w": "an",
+"s": 235.26,
+"e": 235.4
+},
+{
+"w": "animal",
+"s": 235.5,
+"e": 235.82
+},
+{
+"w": "that",
+"s": 235.88,
+"e": 236.04
+},
+{
+"w": "could",
+"s": 236.12,
+"e": 236.24
+},
+{
+"w": "have",
+"s": 236.28,
+"e": 236.44
+},
+{
+"w": "ended",
+"s": 236.52,
+"e": 236.78
+},
+{
+"w": "his",
+"s": 236.82,
+"e": 236.98
+},
+{
+"w": "career",
+"s": 237.04,
+"e": 237.54
+},
+{
+"w": "in",
+"s": 237.6,
+"e": 237.8
+},
+{
+"w": "one",
+"s": 237.9,
+"e": 238.06
+},
+{
+"w": "bite.",
+"s": 238.22,
+"e": 238.54
+},
+{
+"w": "Number",
+"s": 241.2,
+"e": 241.4
+},
+{
+"w": "five:",
+"s": 241.54,
+"e": 241.92
+},
+{
+"w": "The",
+"s": 242.6,
+"e": 242.68
+},
+{
+"w": "man",
+"s": 242.74,
+"e": 242.92
+},
+{
+"w": "who",
+"s": 242.98,
+"e": 243.08
+},
+{
+"w": "led",
+"s": 243.12,
+"e": 243.28
+},
+{
+"w": "the",
+"s": 243.32,
+"e": 243.38
+},
+{
+"w": "American",
+"s": 243.42,
+"e": 243.88
+},
+{
+"w": "League",
+"s": 243.94,
+"e": 244.1
+},
+{
+"w": "in",
+"s": 244.14,
+"e": 244.26
+},
+{
+"w": "strikeouts",
+"s": 244.34,
+"e": 244.9
+},
+{
+"w": "wrestled",
+"s": 245.0,
+"e": 245.42
+},
+{
+"w": "alligators,",
+"s": 245.52,
+"e": 246.14
+},
+{
+"w": "and",
+"s": 246.66,
+"e": 246.82
+},
+{
+"w": "two",
+"s": 246.92,
+"e": 247.08
+},
+{
+"w": "separate",
+"s": 247.24,
+"e": 247.54
+},
+{
+"w": "records",
+"s": 247.64,
+"e": 248.0
+},
+{
+"w": "say",
+"s": 248.08,
+"e": 248.26
+},
+{
+"w": "so.",
+"s": 248.34,
+"e": 248.54
+},
+{
+"w": "The",
+"s": 249.18,
+"e": 249.26
+},
+{
+"w": "story",
+"s": 249.34,
+"e": 249.6
+},
+{
+"w": "comes",
+"s": 249.72,
+"e": 250.02
+},
+{
+"w": "in",
+"s": 250.08,
+"e": 250.2
+},
+{
+"w": "two",
+"s": 250.28,
+"e": 250.42
+},
+{
+"w": "versions.",
+"s": 250.5,
+"e": 251.02
+},
+{
+"w": "In",
+"s": 251.72,
+"e": 251.84
+},
+{
+"w": "one,",
+"s": 251.98,
+"e": 252.2
+},
+{
+"w": "from",
+"s": 252.6,
+"e": 252.74
+},
+{
+"w": "his",
+"s": 252.78,
+"e": 252.96
+},
+{
+"w": "autobiography,",
+"s": 253.1,
+"e": 253.92
+},
+{
+"w": "he",
+"s": 254.44,
+"e": 254.52
+},
+{
+"w": "went",
+"s": 254.56,
+"e": 254.74
+},
+{
+"w": "missing",
+"s": 254.8,
+"e": 255.12
+},
+{
+"w": "during",
+"s": 255.18,
+"e": 255.38
+},
+{
+"w": "spring",
+"s": 255.52,
+"e": 255.74
+},
+{
+"w": "training",
+"s": 255.82,
+"e": 256.24
+},
+{
+"w": "and",
+"s": 256.42,
+"e": 256.5
+},
+{
+"w": "was",
+"s": 256.56,
+"e": 256.68
+},
+{
+"w": "found",
+"s": 256.76,
+"e": 257.019
+},
+{
+"w": "in",
+"s": 257.04,
+"e": 257.12
+},
+{
+"w": "a",
+"s": 257.16,
+"e": 257.2
+},
+{
+"w": "lagoon",
+"s": 257.24,
+"e": 257.72
+},
+{
+"w": "near",
+"s": 257.76,
+"e": 257.899
+},
+{
+"w": "Jacksonville,",
+"s": 258.019,
+"e": 258.56
+},
+{
+"w": "Florida,",
+"s": 258.66,
+"e": 259.04
+},
+{
+"w": "wrestling",
+"s": 259.42,
+"e": 259.8
+},
+{
+"w": "an",
+"s": 259.839,
+"e": 259.959
+},
+{
+"w": "alligator.",
+"s": 260.04,
+"e": 260.56
+},
+{
+"w": "In",
+"s": 261.26,
+"e": 261.32
+},
+{
+"w": "the",
+"s": 261.38,
+"e": 261.459
+},
+{
+"w": "other,",
+"s": 261.519,
+"e": 261.779
+},
+{
+"w": "he",
+"s": 262.14,
+"e": 262.26
+},
+{
+"w": "did",
+"s": 262.3,
+"e": 262.42
+},
+{
+"w": "it",
+"s": 262.46,
+"e": 262.58
+},
+{
+"w": "as",
+"s": 262.64,
+"e": 262.74
+},
+{
+"w": "a",
+"s": 262.78,
+"e": 262.84
+},
+{
+"w": "performer,",
+"s": 262.86,
+"e": 263.44
+},
+{
+"w": "and",
+"s": 263.94,
+"e": 264.02
+},
+{
+"w": "the",
+"s": 264.04,
+"e": 264.1
+},
+{
+"w": "Hall",
+"s": 264.14,
+"e": 264.3
+},
+{
+"w": "of",
+"s": 264.32,
+"e": 264.38
+},
+{
+"w": "Fame",
+"s": 264.46,
+"e": 264.68
+},
+{
+"w": "puts",
+"s": 264.76,
+"e": 264.94
+},
+{
+"w": "it",
+"s": 264.98,
+"e": 265.04
+},
+{
+"w": "in",
+"s": 265.08,
+"e": 265.22
+},
+{
+"w": "one",
+"s": 265.3,
+"e": 265.42
+},
+{
+"w": "line,",
+"s": 265.5,
+"e": 265.8
+},
+{
+"w": "that",
+"s": 266.36,
+"e": 266.5
+},
+{
+"w": "Waddell",
+"s": 266.54,
+"e": 266.9
+},
+{
+"w": "once",
+"s": 267.04,
+"e": 267.24
+},
+{
+"w": "performed",
+"s": 267.3,
+"e": 267.88
+},
+{
+"w": "as",
+"s": 267.96,
+"e": 268.04
+},
+{
+"w": "an",
+"s": 268.06,
+"e": 268.2
+},
+{
+"w": "alligator",
+"s": 268.3,
+"e": 268.72
+},
+{
+"w": "wrestler.",
+"s": 268.76,
+"e": 269.18
+},
+{
+"w": "Nobody",
+"s": 269.84,
+"e": 270.14
+},
+{
+"w": "wrote",
+"s": 270.2,
+"e": 270.4
+},
+{
+"w": "down",
+"s": 270.44,
+"e": 270.6
+},
+{
+"w": "the",
+"s": 270.64,
+"e": 270.72
+},
+{
+"w": "date,",
+"s": 270.8,
+"e": 271.08
+},
+{
+"w": "the",
+"s": 271.46,
+"e": 271.56
+},
+{
+"w": "size",
+"s": 271.62,
+"e": 271.86
+},
+{
+"w": "of",
+"s": 271.9,
+"e": 271.96
+},
+{
+"w": "the",
+"s": 272.0,
+"e": 272.06
+},
+{
+"w": "alligator,",
+"s": 272.12,
+"e": 272.62
+},
+{
+"w": "or",
+"s": 273.02,
+"e": 273.22
+},
+{
+"w": "who",
+"s": 273.32,
+"e": 273.46
+},
+{
+"w": "won.",
+"s": 273.52,
+"e": 273.78
+},
+{
+"w": "Either",
+"s": 274.4,
+"e": 274.6
+},
+{
+"w": "way,",
+"s": 274.68,
+"e": 274.86
+},
+{
+"w": "Connie",
+"s": 275.36,
+"e": 275.6
+},
+{
+"w": "Mack's",
+"s": 275.68,
+"e": 276.02
+},
+{
+"w": "best",
+"s": 276.06,
+"e": 276.24
+},
+{
+"w": "pitcher",
+"s": 276.34,
+"e": 276.68
+},
+{
+"w": "was",
+"s": 276.76,
+"e": 276.92
+},
+{
+"w": "rolling",
+"s": 276.98,
+"e": 277.24
+},
+{
+"w": "around",
+"s": 277.3,
+"e": 277.56
+},
+{
+"w": "in",
+"s": 277.6,
+"e": 277.68
+},
+{
+"w": "the",
+"s": 277.7,
+"e": 277.78
+},
+{
+"w": "water",
+"s": 277.84,
+"e": 278.1
+},
+{
+"w": "with",
+"s": 278.14,
+"e": 278.24
+},
+{
+"w": "an",
+"s": 278.28,
+"e": 278.42
+},
+{
+"w": "alligator,",
+"s": 278.52,
+"e": 279.0
+},
+{
+"w": "and",
+"s": 279.46,
+"e": 279.54
+},
+{
+"w": "his",
+"s": 279.58,
+"e": 279.72
+},
+{
+"w": "left",
+"s": 279.84,
+"e": 280.12
+},
+{
+"w": "arm",
+"s": 280.22,
+"e": 280.44
+},
+{
+"w": "was",
+"s": 280.48,
+"e": 280.58
+},
+{
+"w": "the",
+"s": 280.62,
+"e": 280.7
+},
+{
+"w": "most",
+"s": 280.74,
+"e": 280.92
+},
+{
+"w": "valuable",
+"s": 281.08,
+"e": 281.5
+},
+{
+"w": "thing",
+"s": 281.6,
+"e": 281.86
+},
+{
+"w": "the",
+"s": 281.9,
+"e": 281.98
+},
+{
+"w": "Athletics",
+"s": 282.02,
+"e": 282.48
+},
+{
+"w": "owned.",
+"s": 282.62,
+"e": 282.9
+},
+{
+"w": "Mack",
+"s": 283.5,
+"e": 283.76
+},
+{
+"w": "put",
+"s": 283.82,
+"e": 283.94
+},
+{
+"w": "up",
+"s": 284.02,
+"e": 284.12
+},
+{
+"w": "with",
+"s": 284.16,
+"e": 284.26
+},
+{
+"w": "it",
+"s": 284.32,
+"e": 284.4
+},
+{
+"w": "because",
+"s": 284.96,
+"e": 285.2
+},
+{
+"w": "of",
+"s": 285.24,
+"e": 285.34
+},
+{
+"w": "what",
+"s": 285.38,
+"e": 285.52
+},
+{
+"w": "that",
+"s": 285.56,
+"e": 285.78
+},
+{
+"w": "arm",
+"s": 285.88,
+"e": 286.06
+},
+{
+"w": "could",
+"s": 286.12,
+"e": 286.28
+},
+{
+"w": "do",
+"s": 286.34,
+"e": 286.48
+},
+{
+"w": "on",
+"s": 286.52,
+"e": 286.6
+},
+{
+"w": "a",
+"s": 286.64,
+"e": 286.68
+},
+{
+"w": "baseball",
+"s": 286.76,
+"e": 287.18
+},
+{
+"w": "field.",
+"s": 287.28,
+"e": 287.58
+},
+{
+"w": "And",
+"s": 288.24,
+"e": 288.32
+},
+{
+"w": "on",
+"s": 288.36,
+"e": 288.5
+},
+{
+"w": "some",
+"s": 288.58,
+"e": 288.76
+},
+{
+"w": "days,",
+"s": 288.82,
+"e": 289.12
+},
+{
+"w": "it",
+"s": 289.38,
+"e": 289.44
+},
+{
+"w": "could",
+"s": 289.48,
+"e": 289.6
+},
+{
+"w": "do",
+"s": 289.64,
+"e": 289.78
+},
+{
+"w": "something",
+"s": 289.84,
+"e": 290.18
+},
+{
+"w": "nobody",
+"s": 290.34,
+"e": 290.72
+},
+{
+"w": "else",
+"s": 290.82,
+"e": 291.06
+},
+{
+"w": "would",
+"s": 291.1,
+"e": 291.24
+},
+{
+"w": "even",
+"s": 291.3,
+"e": 291.54
+},
+{
+"w": "try.",
+"s": 291.64,
+"e": 292.06
+},
+{
+"w": "Number",
+"s": 294.78,
+"e": 294.98
+},
+{
+"w": "four:",
+"s": 295.14,
+"e": 295.4
+},
+{
+"w": "In",
+"s": 296.24,
+"e": 296.3
+},
+{
+"w": "exhibition",
+"s": 296.36,
+"e": 296.88
+},
+{
+"w": "games,",
+"s": 296.96,
+"e": 297.3
+},
+{
+"w": "Waddell",
+"s": 297.66,
+"e": 298.0
+},
+{
+"w": "sometimes",
+"s": 298.08,
+"e": 298.54
+},
+{
+"w": "waved",
+"s": 298.68,
+"e": 298.92
+},
+{
+"w": "his",
+"s": 298.96,
+"e": 299.12
+},
+{
+"w": "fielders",
+"s": 299.16,
+"e": 299.58
+},
+{
+"w": "off",
+"s": 299.66,
+"e": 299.82
+},
+{
+"w": "the",
+"s": 299.86,
+"e": 299.98
+},
+{
+"w": "field",
+"s": 300.04,
+"e": 300.36
+},
+{
+"w": "and",
+"s": 300.66,
+"e": 300.74
+},
+{
+"w": "then",
+"s": 300.76,
+"e": 300.88
+},
+{
+"w": "struck",
+"s": 301.02,
+"e": 301.26
+},
+{
+"w": "out",
+"s": 301.3,
+"e": 301.42
+},
+{
+"w": "the",
+"s": 301.44,
+"e": 301.54
+},
+{
+"w": "side",
+"s": 301.62,
+"e": 301.9
+},
+{
+"w": "with",
+"s": 301.94,
+"e": 302.06
+},
+{
+"w": "nobody",
+"s": 302.24,
+"e": 302.64
+},
+{
+"w": "behind",
+"s": 302.68,
+"e": 303.02
+},
+{
+"w": "him.",
+"s": 303.04,
+"e": 303.18
+},
+{
+"w": "Exhibition",
+"s": 303.88,
+"e": 304.38
+},
+{
+"w": "games",
+"s": 304.46,
+"e": 304.76
+},
+{
+"w": "were",
+"s": 304.8,
+"e": 304.96
+},
+{
+"w": "extra",
+"s": 305.04,
+"e": 305.3
+},
+{
+"w": "games",
+"s": 305.38,
+"e": 305.62
+},
+{
+"w": "teams",
+"s": 305.72,
+"e": 305.96
+},
+{
+"w": "played",
+"s": 306.06,
+"e": 306.28
+},
+{
+"w": "for",
+"s": 306.32,
+"e": 306.42
+},
+{
+"w": "the",
+"s": 306.46,
+"e": 306.52
+},
+{
+"w": "money",
+"s": 306.6,
+"e": 306.86
+},
+{
+"w": "against",
+"s": 307.2,
+"e": 307.48
+},
+{
+"w": "local",
+"s": 307.54,
+"e": 307.76
+},
+{
+"w": "sides",
+"s": 307.88,
+"e": 308.28
+},
+{
+"w": "and",
+"s": 308.32,
+"e": 308.42
+},
+{
+"w": "minor",
+"s": 308.5,
+"e": 308.76
+},
+{
+"w": "league",
+"s": 308.8,
+"e": 308.96
+},
+{
+"w": "clubs,",
+"s": 309.02,
+"e": 309.38
+},
+{
+"w": "and",
+"s": 309.7,
+"e": 309.88
+},
+{
+"w": "they",
+"s": 309.92,
+"e": 310.04
+},
+{
+"w": "didn't",
+"s": 310.06,
+"e": 310.3
+},
+{
+"w": "count.",
+"s": 310.36,
+"e": 310.66
+},
+{
+"w": "So,",
+"s": 311.28,
+"e": 311.44
+},
+{
+"w": "he",
+"s": 311.58,
+"e": 311.68
+},
+{
+"w": "could",
+"s": 311.72,
+"e": 311.88
+},
+{
+"w": "do",
+"s": 311.92,
+"e": 312.06
+},
+{
+"w": "what",
+"s": 312.12,
+"e": 312.22
+},
+{
+"w": "he",
+"s": 312.26,
+"e": 312.36
+},
+{
+"w": "liked.",
+"s": 312.42,
+"e": 312.74
+},
+{
+"w": "He'd",
+"s": 313.42,
+"e": 313.56
+},
+{
+"w": "call",
+"s": 313.62,
+"e": 313.78
+},
+{
+"w": "his",
+"s": 313.82,
+"e": 313.98
+},
+{
+"w": "teammates",
+"s": 314.02,
+"e": 314.44
+},
+{
+"w": "in,",
+"s": 314.5,
+"e": 314.64
+},
+{
+"w": "leave",
+"s": 315.1,
+"e": 315.32
+},
+{
+"w": "only",
+"s": 315.4,
+"e": 315.6
+},
+{
+"w": "the",
+"s": 315.64,
+"e": 315.72
+},
+{
+"w": "catcher,",
+"s": 315.78,
+"e": 316.1
+},
+{
+"w": "and",
+"s": 316.56,
+"e": 316.66
+},
+{
+"w": "pitch",
+"s": 316.74,
+"e": 316.96
+},
+{
+"w": "to",
+"s": 317.0,
+"e": 317.12
+},
+{
+"w": "three",
+"s": 317.18,
+"e": 317.38
+},
+{
+"w": "batters",
+"s": 317.48,
+"e": 317.88
+},
+{
+"w": "with",
+"s": 317.94,
+"e": 318.04
+},
+{
+"w": "an",
+"s": 318.08,
+"e": 318.22
+},
+{
+"w": "empty",
+"s": 318.28,
+"e": 318.54
+},
+{
+"w": "field",
+"s": 318.7,
+"e": 318.94
+},
+{
+"w": "at",
+"s": 318.96,
+"e": 319.06
+},
+{
+"w": "his",
+"s": 319.08,
+"e": 319.22
+},
+{
+"w": "back.",
+"s": 319.26,
+"e": 319.56
+},
+{
+"w": "If",
+"s": 320.18,
+"e": 320.34
+},
+{
+"w": "any",
+"s": 320.42,
+"e": 320.58
+},
+{
+"w": "of",
+"s": 320.62,
+"e": 320.7
+},
+{
+"w": "them",
+"s": 320.74,
+"e": 320.86
+},
+{
+"w": "had",
+"s": 320.9,
+"e": 321.02
+},
+{
+"w": "hit",
+"s": 321.06,
+"e": 321.22
+},
+{
+"w": "the",
+"s": 321.26,
+"e": 321.34
+},
+{
+"w": "ball,",
+"s": 321.42,
+"e": 321.7
+},
+{
+"w": "it",
+"s": 322.1,
+"e": 322.18
+},
+{
+"w": "would",
+"s": 322.22,
+"e": 322.3
+},
+{
+"w": "have",
+"s": 322.34,
+"e": 322.44
+},
+{
+"w": "rolled",
+"s": 322.5,
+"e": 322.8
+},
+{
+"w": "all",
+"s": 322.9,
+"e": 323.04
+},
+{
+"w": "the",
+"s": 323.08,
+"e": 323.16
+},
+{
+"w": "way",
+"s": 323.22,
+"e": 323.34
+},
+{
+"w": "to",
+"s": 323.4,
+"e": 323.46
+},
+{
+"w": "the",
+"s": 323.5,
+"e": 323.6
+},
+{
+"w": "fence.",
+"s": 323.68,
+"e": 324.06
+},
+{
+"w": "He",
+"s": 324.76,
+"e": 324.86
+},
+{
+"w": "never",
+"s": 324.92,
+"e": 325.12
+},
+{
+"w": "did",
+"s": 325.22,
+"e": 325.32
+},
+{
+"w": "it",
+"s": 325.36,
+"e": 325.46
+},
+{
+"w": "in",
+"s": 325.5,
+"e": 325.58
+},
+{
+"w": "a",
+"s": 325.62,
+"e": 325.68
+},
+{
+"w": "league",
+"s": 325.74,
+"e": 325.98
+},
+{
+"w": "game,",
+"s": 326.04,
+"e": 326.26
+},
+{
+"w": "which",
+"s": 326.74,
+"e": 326.86
+},
+{
+"w": "is",
+"s": 326.9,
+"e": 327.0
+},
+{
+"w": "the",
+"s": 327.04,
+"e": 327.16
+},
+{
+"w": "one",
+"s": 327.26,
+"e": 327.42
+},
+{
+"w": "thing",
+"s": 327.5,
+"e": 327.74
+},
+{
+"w": "the",
+"s": 327.76,
+"e": 327.86
+},
+{
+"w": "legend",
+"s": 327.9,
+"e": 328.24
+},
+{
+"w": "usually",
+"s": 328.42,
+"e": 328.76
+},
+{
+"w": "gets",
+"s": 328.82,
+"e": 329.0
+},
+{
+"w": "wrong.",
+"s": 329.04,
+"e": 329.38
+},
+{
+"w": "In",
+"s": 330.0,
+"e": 330.1
+},
+{
+"w": "league",
+"s": 330.18,
+"e": 330.36
+},
+{
+"w": "games,",
+"s": 330.46,
+"e": 330.8
+},
+{
+"w": "he",
+"s": 331.08,
+"e": 331.18
+},
+{
+"w": "had",
+"s": 331.24,
+"e": 331.44
+},
+{
+"w": "other",
+"s": 331.5,
+"e": 331.66
+},
+{
+"w": "ways",
+"s": 331.74,
+"e": 331.98
+},
+{
+"w": "to",
+"s": 332.04,
+"e": 332.1
+},
+{
+"w": "embarrass",
+"s": 332.14,
+"e": 332.58
+},
+{
+"w": "hitters.",
+"s": 332.62,
+"e": 333.02
+},
+{
+"w": "In",
+"s": 333.72,
+"e": 333.8
+},
+{
+"w": "1904,",
+"s": 333.84,
+"e": 334.7
+},
+{
+"w": "he",
+"s": 335.0,
+"e": 335.12
+},
+{
+"w": "struck",
+"s": 335.2,
+"e": 335.42
+},
+{
+"w": "out",
+"s": 335.48,
+"e": 335.68
+},
+{
+"w": "349",
+"s": 335.74,
+"e": 337.14
+},
+{
+"w": "batters.",
+"s": 337.22,
+"e": 337.68
+},
+{
+"w": "That",
+"s": 338.4,
+"e": 338.54
+},
+{
+"w": "was",
+"s": 338.58,
+"e": 338.7
+},
+{
+"w": "110",
+"s": 338.92,
+"e": 339.7
+},
+{
+"w": "more",
+"s": 339.76,
+"e": 339.9
+},
+{
+"w": "strikeouts",
+"s": 340.04,
+"e": 340.56
+},
+{
+"w": "than",
+"s": 340.6,
+"e": 340.88
+},
+{
+"w": "anybody",
+"s": 340.96,
+"e": 341.36
+},
+{
+"w": "else",
+"s": 341.44,
+"e": 341.66
+},
+{
+"w": "in",
+"s": 341.7,
+"e": 341.76
+},
+{
+"w": "the",
+"s": 341.8,
+"e": 341.86
+},
+{
+"w": "league.",
+"s": 341.94,
+"e": 342.26
+},
+{
+"w": "He",
+"s": 342.88,
+"e": 342.98
+},
+{
+"w": "pitched",
+"s": 343.02,
+"e": 343.28
+},
+{
+"w": "383",
+"s": 343.42,
+"e": 344.72
+},
+{
+"w": "innings",
+"s": 344.84,
+"e": 345.12
+},
+{
+"w": "that",
+"s": 345.18,
+"e": 345.34
+},
+{
+"w": "year,",
+"s": 345.4,
+"e": 345.58
+},
+{
+"w": "about",
+"s": 346.08,
+"e": 346.32
+},
+{
+"w": "twice",
+"s": 346.42,
+"e": 346.82
+},
+{
+"w": "what",
+"s": 346.88,
+"e": 346.98
+},
+{
+"w": "a",
+"s": 347.02,
+"e": 347.08
+},
+{
+"w": "top",
+"s": 347.14,
+"e": 347.32
+},
+{
+"w": "starter",
+"s": 347.42,
+"e": 347.7
+},
+{
+"w": "throws",
+"s": 347.74,
+"e": 348.0
+},
+{
+"w": "today.",
+"s": 348.06,
+"e": 348.38
+},
+{
+"w": "That",
+"s": 349.0,
+"e": 349.18
+},
+{
+"w": "same",
+"s": 349.26,
+"e": 349.46
+},
+{
+"w": "spring,",
+"s": 349.64,
+"e": 349.96
+},
+{
+"w": "he'd",
+"s": 350.16,
+"e": 350.32
+},
+{
+"w": "been",
+"s": 350.36,
+"e": 350.46
+},
+{
+"w": "on",
+"s": 350.5,
+"e": 350.56
+},
+{
+"w": "the",
+"s": 350.6,
+"e": 350.68
+},
+{
+"w": "wrong",
+"s": 350.74,
+"e": 351.0
+},
+{
+"w": "end",
+"s": 351.12,
+"e": 351.28
+},
+{
+"w": "of",
+"s": 351.32,
+"e": 351.4
+},
+{
+"w": "the",
+"s": 351.44,
+"e": 351.48
+},
+{
+"w": "most",
+"s": 351.54,
+"e": 351.76
+},
+{
+"w": "famous",
+"s": 351.96,
+"e": 352.32
+},
+{
+"w": "game",
+"s": 352.42,
+"e": 352.6
+},
+{
+"w": "of",
+"s": 352.64,
+"e": 352.72
+},
+{
+"w": "the",
+"s": 352.76,
+"e": 352.84
+},
+{
+"w": "year.",
+"s": 352.94,
+"e": 353.22
+},
+{
+"w": "On",
+"s": 353.84,
+"e": 353.92
+},
+{
+"w": "the",
+"s": 353.96,
+"e": 354.04
+},
+{
+"w": "5th",
+"s": 354.12,
+"e": 354.32
+},
+{
+"w": "of",
+"s": 354.38,
+"e": 354.48
+},
+{
+"w": "May",
+"s": 354.56,
+"e": 354.84
+},
+{
+"w": "1904,",
+"s": 354.9,
+"e": 355.74
+},
+{
+"w": "Cy",
+"s": 356.32,
+"e": 356.52
+},
+{
+"w": "Young",
+"s": 356.58,
+"e": 356.8
+},
+{
+"w": "threw",
+"s": 356.86,
+"e": 356.98
+},
+{
+"w": "a",
+"s": 357.04,
+"e": 357.14
+},
+{
+"w": "perfect",
+"s": 357.2,
+"e": 357.56
+},
+{
+"w": "game",
+"s": 357.64,
+"e": 357.84
+},
+{
+"w": "against",
+"s": 357.9,
+"e": 358.16
+},
+{
+"w": "the",
+"s": 358.18,
+"e": 358.26
+},
+{
+"w": "Athletics,",
+"s": 358.28,
+"e": 358.82
+},
+{
+"w": "and",
+"s": 359.28,
+"e": 359.36
+},
+{
+"w": "the",
+"s": 359.38,
+"e": 359.46
+},
+{
+"w": "last",
+"s": 359.52,
+"e": 359.78
+},
+{
+"w": "man",
+"s": 359.84,
+"e": 359.98
+},
+{
+"w": "he",
+"s": 360.04,
+"e": 360.12
+},
+{
+"w": "got",
+"s": 360.18,
+"e": 360.34
+},
+{
+"w": "out",
+"s": 360.4,
+"e": 360.62
+},
+{
+"w": "was",
+"s": 360.68,
+"e": 360.8
+},
+{
+"w": "the",
+"s": 360.84,
+"e": 360.96
+},
+{
+"w": "other",
+"s": 361.02,
+"e": 361.18
+},
+{
+"w": "pitcher,",
+"s": 361.26,
+"e": 361.58
+},
+{
+"w": "Rube",
+"s": 362.0,
+"e": 362.22
+},
+{
+"w": "Waddell.",
+"s": 362.26,
+"e": 362.68
+},
+{
+"w": "Two",
+"s": 363.34,
+"e": 363.48
+},
+{
+"w": "months",
+"s": 363.54,
+"e": 363.76
+},
+{
+"w": "later,",
+"s": 363.86,
+"e": 364.14
+},
+{
+"w": "a",
+"s": 364.42,
+"e": 364.46
+},
+{
+"w": "fastball",
+"s": 364.6,
+"e": 365.06
+},
+{
+"w": "knocked",
+"s": 365.14,
+"e": 365.44
+},
+{
+"w": "his",
+"s": 365.48,
+"e": 365.64
+},
+{
+"w": "teammate",
+"s": 365.7,
+"e": 366.08
+},
+{
+"w": "Danny",
+"s": 366.16,
+"e": 366.42
+},
+{
+"w": "Hoffman",
+"s": 366.5,
+"e": 366.92
+},
+{
+"w": "out",
+"s": 367.06,
+"e": 367.22
+},
+{
+"w": "cold,",
+"s": 367.36,
+"e": 367.76
+},
+{
+"w": "and",
+"s": 368.26,
+"e": 368.36
+},
+{
+"w": "Waddell",
+"s": 368.4,
+"e": 368.76
+},
+{
+"w": "was",
+"s": 368.8,
+"e": 368.92
+},
+{
+"w": "the",
+"s": 368.96,
+"e": 369.04
+},
+{
+"w": "one",
+"s": 369.08,
+"e": 369.2
+},
+{
+"w": "who",
+"s": 369.24,
+"e": 369.38
+},
+{
+"w": "picked",
+"s": 369.42,
+"e": 369.6
+},
+{
+"w": "him",
+"s": 369.64,
+"e": 369.74
+},
+{
+"w": "up",
+"s": 369.82,
+"e": 369.96
+},
+{
+"w": "and",
+"s": 370.06,
+"e": 370.2
+},
+{
+"w": "carried",
+"s": 370.28,
+"e": 370.54
+},
+{
+"w": "him",
+"s": 370.58,
+"e": 370.68
+},
+{
+"w": "off",
+"s": 370.74,
+"e": 370.86
+},
+{
+"w": "the",
+"s": 370.9,
+"e": 370.98
+},
+{
+"w": "field.",
+"s": 371.06,
+"e": 371.38
+},
+{
+"w": "Hoffman",
+"s": 371.96,
+"e": 372.36
+},
+{
+"w": "lived,",
+"s": 372.48,
+"e": 372.8
+},
+{
+"w": "and",
+"s": 373.28,
+"e": 373.36
+},
+{
+"w": "he",
+"s": 373.4,
+"e": 373.5
+},
+{
+"w": "played",
+"s": 373.56,
+"e": 373.76
+},
+{
+"w": "another",
+"s": 373.8,
+"e": 374.1
+},
+{
+"w": "seven",
+"s": 374.3,
+"e": 374.54
+},
+{
+"w": "seasons.",
+"s": 374.66,
+"e": 375.16
+},
+{
+"w": "Waddell",
+"s": 375.82,
+"e": 376.12
+},
+{
+"w": "got",
+"s": 376.18,
+"e": 376.3
+},
+{
+"w": "his",
+"s": 376.34,
+"e": 376.5
+},
+{
+"w": "chance",
+"s": 376.56,
+"e": 376.8
+},
+{
+"w": "at",
+"s": 376.84,
+"e": 376.96
+},
+{
+"w": "Cy",
+"s": 377.04,
+"e": 377.24
+},
+{
+"w": "Young",
+"s": 377.32,
+"e": 377.5
+},
+{
+"w": "the",
+"s": 377.56,
+"e": 377.64
+},
+{
+"w": "next",
+"s": 377.72,
+"e": 377.92
+},
+{
+"w": "summer,",
+"s": 377.98,
+"e": 378.24
+},
+{
+"w": "and",
+"s": 378.7,
+"e": 378.82
+},
+{
+"w": "neither",
+"s": 378.92,
+"e": 379.2
+},
+{
+"w": "of",
+"s": 379.259,
+"e": 379.34
+},
+{
+"w": "them",
+"s": 379.399,
+"e": 379.54
+},
+{
+"w": "would",
+"s": 379.559,
+"e": 379.7
+},
+{
+"w": "come",
+"s": 379.74,
+"e": 379.88
+},
+{
+"w": "out",
+"s": 379.92,
+"e": 380.02
+},
+{
+"w": "of",
+"s": 380.06,
+"e": 380.12
+},
+{
+"w": "the",
+"s": 380.16,
+"e": 380.2
+},
+{
+"w": "game.",
+"s": 380.28,
+"e": 380.58
+},
+{
+"w": "Number",
+"s": 383.26,
+"e": 383.48
+},
+{
+"w": "three:",
+"s": 383.58,
+"e": 383.88
+},
+{
+"w": "On",
+"s": 384.56,
+"e": 384.62
+},
+{
+"w": "the",
+"s": 384.66,
+"e": 384.76
+},
+{
+"w": "4th",
+"s": 384.82,
+"e": 385.0
+},
+{
+"w": "of",
+"s": 385.04,
+"e": 385.1
+},
+{
+"w": "July,",
+"s": 385.18,
+"e": 385.54
+},
+{
+"w": "1905,",
+"s": 385.66,
+"e": 386.58
+},
+{
+"w": "Rube",
+"s": 387.06,
+"e": 387.26
+},
+{
+"w": "Waddell",
+"s": 387.3,
+"e": 387.72
+},
+{
+"w": "and",
+"s": 387.82,
+"e": 387.94
+},
+{
+"w": "Cy",
+"s": 388.08,
+"e": 388.3
+},
+{
+"w": "Young",
+"s": 388.4,
+"e": 388.66
+},
+{
+"w": "both",
+"s": 388.86,
+"e": 389.1
+},
+{
+"w": "pitched",
+"s": 389.2,
+"e": 389.46
+},
+{
+"w": "every",
+"s": 389.68,
+"e": 389.94
+},
+{
+"w": "inning",
+"s": 390.06,
+"e": 390.36
+},
+{
+"w": "of",
+"s": 390.42,
+"e": 390.48
+},
+{
+"w": "a",
+"s": 390.52,
+"e": 390.6
+},
+{
+"w": "20-inning",
+"s": 390.66,
+"e": 391.24
+},
+{
+"w": "game.",
+"s": 391.36,
+"e": 391.64
+},
+{
+"w": "Cy",
+"s": 392.3,
+"e": 392.5
+},
+{
+"w": "Young",
+"s": 392.56,
+"e": 392.78
+},
+{
+"w": "was",
+"s": 392.82,
+"e": 392.92
+},
+{
+"w": "the",
+"s": 392.96,
+"e": 393.02
+},
+{
+"w": "most",
+"s": 393.06,
+"e": 393.26
+},
+{
+"w": "famous",
+"s": 393.46,
+"e": 393.8
+},
+{
+"w": "pitcher",
+"s": 393.9,
+"e": 394.16
+},
+{
+"w": "in",
+"s": 394.2,
+"e": 394.28
+},
+{
+"w": "the",
+"s": 394.32,
+"e": 394.4
+},
+{
+"w": "game,",
+"s": 394.46,
+"e": 394.72
+},
+{
+"w": "and",
+"s": 395.12,
+"e": 395.22
+},
+{
+"w": "he",
+"s": 395.28,
+"e": 395.38
+},
+{
+"w": "was",
+"s": 395.42,
+"e": 395.6
+},
+{
+"w": "38.",
+"s": 395.659,
+"e": 396.24
+},
+{
+"w": "It",
+"s": 396.94,
+"e": 397.02
+},
+{
+"w": "was",
+"s": 397.06,
+"e": 397.18
+},
+{
+"w": "a",
+"s": 397.22,
+"e": 397.28
+},
+{
+"w": "holiday",
+"s": 397.32,
+"e": 397.74
+},
+{
+"w": "doubleheader",
+"s": 397.84,
+"e": 398.4
+},
+{
+"w": "at",
+"s": 398.52,
+"e": 398.62
+},
+{
+"w": "the",
+"s": 398.66,
+"e": 398.72
+},
+{
+"w": "Huntington",
+"s": 398.76,
+"e": 399.22
+},
+{
+"w": "Avenue",
+"s": 399.36,
+"e": 399.64
+},
+{
+"w": "Grounds",
+"s": 399.72,
+"e": 400.12
+},
+{
+"w": "in",
+"s": 400.16,
+"e": 400.24
+},
+{
+"w": "Boston.",
+"s": 400.32,
+"e": 400.8
+},
+{
+"w": "In",
+"s": 401.44,
+"e": 401.5
+},
+{
+"w": "the",
+"s": 401.54,
+"e": 401.6
+},
+{
+"w": "morning",
+"s": 401.66,
+"e": 401.92
+},
+{
+"w": "game,",
+"s": 402.0,
+"e": 402.2
+},
+{
+"w": "Waddell",
+"s": 402.58,
+"e": 402.88
+},
+{
+"w": "came",
+"s": 403.0,
+"e": 403.18
+},
+{
+"w": "in",
+"s": 403.22,
+"e": 403.3
+},
+{
+"w": "at",
+"s": 403.34,
+"e": 403.44
+},
+{
+"w": "the",
+"s": 403.5,
+"e": 403.58
+},
+{
+"w": "end",
+"s": 403.66,
+"e": 403.84
+},
+{
+"w": "to",
+"s": 403.9,
+"e": 403.96
+},
+{
+"w": "get",
+"s": 404.0,
+"e": 404.12
+},
+{
+"w": "the",
+"s": 404.16,
+"e": 404.24
+},
+{
+"w": "last",
+"s": 404.3,
+"e": 404.58
+},
+{
+"w": "outs,",
+"s": 404.68,
+"e": 404.96
+},
+{
+"w": "and",
+"s": 405.32,
+"e": 405.42
+},
+{
+"w": "the",
+"s": 405.44,
+"e": 405.54
+},
+{
+"w": "win",
+"s": 405.58,
+"e": 405.78
+},
+{
+"w": "went",
+"s": 405.9,
+"e": 406.06
+},
+{
+"w": "to",
+"s": 406.1,
+"e": 406.2
+},
+{
+"w": "him.",
+"s": 406.26,
+"e": 406.48
+},
+{
+"w": "Then",
+"s": 407.16,
+"e": 407.36
+},
+{
+"w": "he",
+"s": 407.42,
+"e": 407.52
+},
+{
+"w": "started",
+"s": 407.58,
+"e": 407.86
+},
+{
+"w": "the",
+"s": 407.9,
+"e": 408.0
+},
+{
+"w": "afternoon",
+"s": 408.08,
+"e": 408.52
+},
+{
+"w": "game.",
+"s": 408.6,
+"e": 408.86
+},
+{
+"w": "Cy",
+"s": 409.52,
+"e": 409.7
+},
+{
+"w": "Young",
+"s": 409.76,
+"e": 409.94
+},
+{
+"w": "started",
+"s": 410.08,
+"e": 410.36
+},
+{
+"w": "for",
+"s": 410.42,
+"e": 410.5
+},
+{
+"w": "Boston,",
+"s": 410.58,
+"e": 411.08
+},
+{
+"w": "and",
+"s": 411.42,
+"e": 411.52
+},
+{
+"w": "for",
+"s": 411.58,
+"e": 411.68
+},
+{
+"w": "Waddell,",
+"s": 411.7,
+"e": 412.1
+},
+{
+"w": "it",
+"s": 412.3,
+"e": 412.38
+},
+{
+"w": "was",
+"s": 412.42,
+"e": 412.56
+},
+{
+"w": "already",
+"s": 412.64,
+"e": 412.96
+},
+{
+"w": "the",
+"s": 413.02,
+"e": 413.12
+},
+{
+"w": "second",
+"s": 413.22,
+"e": 413.52
+},
+{
+"w": "game",
+"s": 413.6,
+"e": 413.76
+},
+{
+"w": "of",
+"s": 413.82,
+"e": 413.88
+},
+{
+"w": "the",
+"s": 413.92,
+"e": 413.98
+},
+{
+"w": "day.",
+"s": 414.06,
+"e": 414.28
+},
+{
+"w": "They",
+"s": 414.94,
+"e": 415.06
+},
+{
+"w": "went",
+"s": 415.1,
+"e": 415.3
+},
+{
+"w": "nine",
+"s": 415.36,
+"e": 415.6
+},
+{
+"w": "innings,",
+"s": 415.68,
+"e": 416.08
+},
+{
+"w": "then",
+"s": 416.54,
+"e": 416.7
+},
+{
+"w": "12,",
+"s": 416.74,
+"e": 417.24
+},
+{
+"w": "then",
+"s": 417.66,
+"e": 417.84
+},
+{
+"w": "15,",
+"s": 417.92,
+"e": 418.54
+},
+{
+"w": "and",
+"s": 419.06,
+"e": 419.18
+},
+{
+"w": "neither",
+"s": 419.3,
+"e": 419.58
+},
+{
+"w": "man",
+"s": 419.66,
+"e": 419.84
+},
+{
+"w": "came",
+"s": 419.92,
+"e": 420.1
+},
+{
+"w": "out.",
+"s": 420.18,
+"e": 420.4
+},
+{
+"w": "Young",
+"s": 421.02,
+"e": 421.22
+},
+{
+"w": "didn't",
+"s": 421.28,
+"e": 421.5
+},
+{
+"w": "walk",
+"s": 421.58,
+"e": 421.74
+},
+{
+"w": "a",
+"s": 421.8,
+"e": 421.88
+},
+{
+"w": "single",
+"s": 422.04,
+"e": 422.34
+},
+{
+"w": "batter",
+"s": 422.48,
+"e": 422.78
+},
+{
+"w": "all",
+"s": 422.98,
+"e": 423.14
+},
+{
+"w": "day.",
+"s": 423.24,
+"e": 423.5
+},
+{
+"w": "In",
+"s": 424.16,
+"e": 424.22
+},
+{
+"w": "the",
+"s": 424.26,
+"e": 424.34
+},
+{
+"w": "20th",
+"s": 424.4,
+"e": 424.78
+},
+{
+"w": "inning,",
+"s": 424.88,
+"e": 425.14
+},
+{
+"w": "the",
+"s": 425.44,
+"e": 425.5
+},
+{
+"w": "Athletics",
+"s": 425.54,
+"e": 426.0
+},
+{
+"w": "finally",
+"s": 426.18,
+"e": 426.58
+},
+{
+"w": "scored",
+"s": 426.64,
+"e": 426.94
+},
+{
+"w": "twice,",
+"s": 427.02,
+"e": 427.46
+},
+{
+"w": "and",
+"s": 427.9,
+"e": 427.999
+},
+{
+"w": "Waddell",
+"s": 428.04,
+"e": 428.38
+},
+{
+"w": "won",
+"s": 428.48,
+"e": 428.6
+},
+{
+"w": "it",
+"s": 428.639,
+"e": 428.86
+},
+{
+"w": "4",
+"s": 428.94,
+"e": 429.1
+},
+{
+"w": "to",
+"s": 429.14,
+"e": 429.18
+},
+{
+"w": "2.",
+"s": 429.3,
+"e": 429.5
+},
+{
+"w": "That",
+"s": 430.18,
+"e": 430.3
+},
+{
+"w": "season,",
+"s": 430.4,
+"e": 430.72
+},
+{
+"w": "he",
+"s": 430.86,
+"e": 430.96
+},
+{
+"w": "led",
+"s": 431.02,
+"e": 431.16
+},
+{
+"w": "the",
+"s": 431.18,
+"e": 431.26
+},
+{
+"w": "league",
+"s": 431.32,
+"e": 431.5
+},
+{
+"w": "in",
+"s": 431.54,
+"e": 431.64
+},
+{
+"w": "wins,",
+"s": 431.72,
+"e": 432.1
+},
+{
+"w": "in",
+"s": 432.38,
+"e": 432.52
+},
+{
+"w": "strikeouts,",
+"s": 432.6,
+"e": 433.16
+},
+{
+"w": "and",
+"s": 433.44,
+"e": 433.62
+},
+{
+"w": "in",
+"s": 433.66,
+"e": 433.8
+},
+{
+"w": "earned",
+"s": 433.86,
+"e": 434.04
+},
+{
+"w": "run",
+"s": 434.12,
+"e": 434.28
+},
+{
+"w": "average,",
+"s": 434.38,
+"e": 434.72
+},
+{
+"w": "and",
+"s": 435.2,
+"e": 435.28
+},
+{
+"w": "the",
+"s": 435.32,
+"e": 435.38
+},
+{
+"w": "Athletics",
+"s": 435.42,
+"e": 435.96
+},
+{
+"w": "were",
+"s": 436.0,
+"e": 436.16
+},
+{
+"w": "on",
+"s": 436.26,
+"e": 436.38
+},
+{
+"w": "their",
+"s": 436.42,
+"e": 436.58
+},
+{
+"w": "way",
+"s": 436.64,
+"e": 436.84
+},
+{
+"w": "to",
+"s": 436.9,
+"e": 436.96
+},
+{
+"w": "the",
+"s": 437.02,
+"e": 437.08
+},
+{
+"w": "World",
+"s": 437.16,
+"e": 437.4
+},
+{
+"w": "Series.",
+"s": 437.5,
+"e": 438.0
+},
+{
+"w": "He",
+"s": 438.58,
+"e": 438.7
+},
+{
+"w": "never",
+"s": 438.76,
+"e": 438.96
+},
+{
+"w": "pitched",
+"s": 439.08,
+"e": 439.38
+},
+{
+"w": "in",
+"s": 439.42,
+"e": 439.5
+},
+{
+"w": "it.",
+"s": 439.56,
+"e": 439.72
+},
+{
+"w": "Two",
+"s": 440.32,
+"e": 440.46
+},
+{
+"w": "months",
+"s": 440.54,
+"e": 440.84
+},
+{
+"w": "after",
+"s": 440.92,
+"e": 441.16
+},
+{
+"w": "the",
+"s": 441.2,
+"e": 441.28
+},
+{
+"w": "long",
+"s": 441.32,
+"e": 441.52
+},
+{
+"w": "game,",
+"s": 441.6,
+"e": 441.82
+},
+{
+"w": "at",
+"s": 442.28,
+"e": 442.36
+},
+{
+"w": "a",
+"s": 442.4,
+"e": 442.46
+},
+{
+"w": "railway",
+"s": 442.5,
+"e": 442.86
+},
+{
+"w": "station,",
+"s": 442.98,
+"e": 443.38
+},
+{
+"w": "a",
+"s": 443.92,
+"e": 443.98
+},
+{
+"w": "straw",
+"s": 444.1,
+"e": 444.36
+},
+{
+"w": "hat",
+"s": 444.44,
+"e": 444.64
+},
+{
+"w": "got",
+"s": 444.7,
+"e": 444.84
+},
+{
+"w": "in",
+"s": 444.88,
+"e": 444.96
+},
+{
+"w": "the",
+"s": 444.98,
+"e": 445.06
+},
+{
+"w": "way.",
+"s": 445.12,
+"e": 445.32
+},
+{
+"w": "Number",
+"s": 448.08,
+"e": 448.3
+},
+{
+"w": "two:",
+"s": 448.42,
+"e": 448.66
+},
+{
+"w": "In",
+"s": 449.34,
+"e": 449.42
+},
+{
+"w": "September",
+"s": 449.46,
+"e": 449.9
+},
+{
+"w": "1905,",
+"s": 450.0,
+"e": 450.92
+},
+{
+"w": "the",
+"s": 451.32,
+"e": 451.4
+},
+{
+"w": "best",
+"s": 451.52,
+"e": 451.72
+},
+{
+"w": "pitcher",
+"s": 451.8,
+"e": 452.14
+},
+{
+"w": "on",
+"s": 452.22,
+"e": 452.3
+},
+{
+"w": "the",
+"s": 452.34,
+"e": 452.4
+},
+{
+"w": "best",
+"s": 452.56,
+"e": 452.8
+},
+{
+"w": "team",
+"s": 452.86,
+"e": 453.04
+},
+{
+"w": "in",
+"s": 453.08,
+"e": 453.14
+},
+{
+"w": "the",
+"s": 453.18,
+"e": 453.24
+},
+{
+"w": "American",
+"s": 453.28,
+"e": 453.74
+},
+{
+"w": "League",
+"s": 453.82,
+"e": 454.04
+},
+{
+"w": "hurt",
+"s": 454.32,
+"e": 454.48
+},
+{
+"w": "his",
+"s": 454.52,
+"e": 454.66
+},
+{
+"w": "shoulder",
+"s": 454.74,
+"e": 455.1
+},
+{
+"w": "over",
+"s": 455.22,
+"e": 455.4
+},
+{
+"w": "a",
+"s": 455.46,
+"e": 455.52
+},
+{
+"w": "straw",
+"s": 455.64,
+"e": 455.92
+},
+{
+"w": "hat,",
+"s": 456.0,
+"e": 456.28
+},
+{
+"w": "or",
+"s": 456.98,
+"e": 457.14
+},
+{
+"w": "at",
+"s": 457.38,
+"e": 457.46
+},
+{
+"w": "least",
+"s": 457.5,
+"e": 457.76
+},
+{
+"w": "that's",
+"s": 457.82,
+"e": 457.98
+},
+{
+"w": "what",
+"s": 458.0,
+"e": 458.1
+},
+{
+"w": "his",
+"s": 458.12,
+"e": 458.26
+},
+{
+"w": "team",
+"s": 458.32,
+"e": 458.52
+},
+{
+"w": "said.",
+"s": 458.62,
+"e": 458.84
+},
+{
+"w": "Back",
+"s": 459.52,
+"e": 459.72
+},
+{
+"w": "then,",
+"s": 459.76,
+"e": 460.0
+},
+{
+"w": "men",
+"s": 460.36,
+"e": 460.56
+},
+{
+"w": "wore",
+"s": 460.62,
+"e": 460.8
+},
+{
+"w": "straw",
+"s": 460.92,
+"e": 461.16
+},
+{
+"w": "hats",
+"s": 461.22,
+"e": 461.44
+},
+{
+"w": "in",
+"s": 461.48,
+"e": 461.62
+},
+{
+"w": "summer",
+"s": 461.7,
+"e": 461.98
+},
+{
+"w": "and",
+"s": 462.22,
+"e": 462.32
+},
+{
+"w": "switched",
+"s": 462.42,
+"e": 462.7
+},
+{
+"w": "to",
+"s": 462.76,
+"e": 462.88
+},
+{
+"w": "felt",
+"s": 462.98,
+"e": 463.3
+},
+{
+"w": "on",
+"s": 463.36,
+"e": 463.44
+},
+{
+"w": "the",
+"s": 463.48,
+"e": 463.54
+},
+{
+"w": "1st",
+"s": 463.6,
+"e": 463.82
+},
+{
+"w": "of",
+"s": 463.86,
+"e": 463.92
+},
+{
+"w": "September.",
+"s": 463.98,
+"e": 464.5
+},
+{
+"w": "Anyone",
+"s": 465.12,
+"e": 465.44
+},
+{
+"w": "still",
+"s": 465.56,
+"e": 465.72
+},
+{
+"w": "in",
+"s": 465.76,
+"e": 465.88
+},
+{
+"w": "straw",
+"s": 465.98,
+"e": 466.24
+},
+{
+"w": "after",
+"s": 466.32,
+"e": 466.52
+},
+{
+"w": "that",
+"s": 466.6,
+"e": 466.8
+},
+{
+"w": "was",
+"s": 467.06,
+"e": 467.26
+},
+{
+"w": "fair",
+"s": 467.36,
+"e": 467.54
+},
+{
+"w": "game.",
+"s": 467.64,
+"e": 467.94
+},
+{
+"w": "On",
+"s": 468.6,
+"e": 468.66
+},
+{
+"w": "the",
+"s": 468.72,
+"e": 468.84
+},
+{
+"w": "8th",
+"s": 468.92,
+"e": 469.08
+},
+{
+"w": "of",
+"s": 469.12,
+"e": 469.18
+},
+{
+"w": "September,",
+"s": 469.24,
+"e": 469.76
+},
+{
+"w": "on",
+"s": 470.1,
+"e": 470.18
+},
+{
+"w": "the",
+"s": 470.22,
+"e": 470.26
+},
+{
+"w": "way",
+"s": 470.3,
+"e": 470.42
+},
+{
+"w": "back",
+"s": 470.48,
+"e": 470.66
+},
+{
+"w": "from",
+"s": 470.68,
+"e": 470.82
+},
+{
+"w": "Boston,",
+"s": 470.88,
+"e": 471.3
+},
+{
+"w": "the",
+"s": 471.8,
+"e": 471.88
+},
+{
+"w": "Athletics",
+"s": 471.9,
+"e": 472.34
+},
+{
+"w": "train",
+"s": 472.44,
+"e": 472.66
+},
+{
+"w": "stopped",
+"s": 472.82,
+"e": 473.08
+},
+{
+"w": "at",
+"s": 473.12,
+"e": 473.24
+},
+{
+"w": "Providence,",
+"s": 473.3,
+"e": 473.86
+},
+{
+"w": "and",
+"s": 474.16,
+"e": 474.26
+},
+{
+"w": "pitcher",
+"s": 474.34,
+"e": 474.6
+},
+{
+"w": "Andy",
+"s": 474.74,
+"e": 474.94
+},
+{
+"w": "Coakley",
+"s": 475.04,
+"e": 475.42
+},
+{
+"w": "got",
+"s": 475.5,
+"e": 475.66
+},
+{
+"w": "on",
+"s": 475.72,
+"e": 475.98
+},
+{
+"w": "still",
+"s": 476.1,
+"e": 476.32
+},
+{
+"w": "wearing",
+"s": 476.38,
+"e": 476.64
+},
+{
+"w": "his",
+"s": 476.68,
+"e": 476.82
+},
+{
+"w": "straw",
+"s": 476.9,
+"e": 477.14
+},
+{
+"w": "hat.",
+"s": 477.22,
+"e": 477.5
+},
+{
+"w": "Waddell",
+"s": 478.06,
+"e": 478.44
+},
+{
+"w": "went",
+"s": 478.6,
+"e": 478.78
+},
+{
+"w": "for",
+"s": 478.86,
+"e": 479.0
+},
+{
+"w": "it.",
+"s": 479.04,
+"e": 479.2
+},
+{
+"w": "There",
+"s": 479.78,
+"e": 479.9
+},
+{
+"w": "was",
+"s": 479.94,
+"e": 480.02
+},
+{
+"w": "a",
+"s": 480.08,
+"e": 480.14
+},
+{
+"w": "scuffle.",
+"s": 480.24,
+"e": 480.66
+},
+{
+"w": "Waddell",
+"s": 481.16,
+"e": 481.48
+},
+{
+"w": "fell,",
+"s": 481.62,
+"e": 481.9
+},
+{
+"w": "and",
+"s": 482.28,
+"e": 482.46
+},
+{
+"w": "he",
+"s": 482.54,
+"e": 482.64
+},
+{
+"w": "hurt",
+"s": 482.7,
+"e": 482.84
+},
+{
+"w": "his",
+"s": 482.88,
+"e": 483.02
+},
+{
+"w": "pitching",
+"s": 483.06,
+"e": 483.34
+},
+{
+"w": "shoulder.",
+"s": 483.42,
+"e": 483.76
+},
+{
+"w": "He",
+"s": 484.38,
+"e": 484.46
+},
+{
+"w": "barely",
+"s": 484.6,
+"e": 484.92
+},
+{
+"w": "pitched",
+"s": 485.04,
+"e": 485.3
+},
+{
+"w": "again",
+"s": 485.36,
+"e": 485.66
+},
+{
+"w": "that",
+"s": 485.72,
+"e": 485.88
+},
+{
+"w": "season.",
+"s": 485.94,
+"e": 486.32
+},
+{
+"w": "He",
+"s": 486.96,
+"e": 487.06
+},
+{
+"w": "came",
+"s": 487.1,
+"e": 487.28
+},
+{
+"w": "back",
+"s": 487.32,
+"e": 487.5
+},
+{
+"w": "for",
+"s": 487.52,
+"e": 487.66
+},
+{
+"w": "two",
+"s": 487.74,
+"e": 487.88
+},
+{
+"w": "games",
+"s": 487.96,
+"e": 488.2
+},
+{
+"w": "in",
+"s": 488.24,
+"e": 488.34
+},
+{
+"w": "relief",
+"s": 488.38,
+"e": 488.72
+},
+{
+"w": "at",
+"s": 488.76,
+"e": 488.86
+},
+{
+"w": "the",
+"s": 488.9,
+"e": 488.98
+},
+{
+"w": "very",
+"s": 489.08,
+"e": 489.34
+},
+{
+"w": "end,",
+"s": 489.4,
+"e": 489.64
+},
+{
+"w": "and",
+"s": 490.02,
+"e": 490.1
+},
+{
+"w": "he",
+"s": 490.16,
+"e": 490.26
+},
+{
+"w": "was",
+"s": 490.3,
+"e": 490.4
+},
+{
+"w": "no",
+"s": 490.6,
+"e": 490.74
+},
+{
+"w": "good",
+"s": 490.84,
+"e": 491.0
+},
+{
+"w": "in",
+"s": 491.04,
+"e": 491.219
+},
+{
+"w": "either",
+"s": 491.28,
+"e": 491.56
+},
+{
+"w": "of",
+"s": 491.599,
+"e": 491.7
+},
+{
+"w": "them.",
+"s": 491.74,
+"e": 491.92
+},
+{
+"w": "The",
+"s": 492.52,
+"e": 492.599
+},
+{
+"w": "Athletics",
+"s": 492.64,
+"e": 493.14
+},
+{
+"w": "went",
+"s": 493.18,
+"e": 493.3
+},
+{
+"w": "into",
+"s": 493.34,
+"e": 493.5
+},
+{
+"w": "the",
+"s": 493.54,
+"e": 493.62
+},
+{
+"w": "World",
+"s": 493.659,
+"e": 493.9
+},
+{
+"w": "Series",
+"s": 494.0,
+"e": 494.36
+},
+{
+"w": "against",
+"s": 494.42,
+"e": 494.68
+},
+{
+"w": "the",
+"s": 494.74,
+"e": 494.8
+},
+{
+"w": "New",
+"s": 494.86,
+"e": 494.96
+},
+{
+"w": "York",
+"s": 495.0,
+"e": 495.16
+},
+{
+"w": "Giants",
+"s": 495.26,
+"e": 495.64
+},
+{
+"w": "without",
+"s": 495.68,
+"e": 496.0
+},
+{
+"w": "him,",
+"s": 496.04,
+"e": 496.2
+},
+{
+"w": "and",
+"s": 496.68,
+"e": 496.86
+},
+{
+"w": "they",
+"s": 496.92,
+"e": 497.04
+},
+{
+"w": "lost",
+"s": 497.08,
+"e": 497.34
+},
+{
+"w": "in",
+"s": 497.38,
+"e": 497.46
+},
+{
+"w": "five",
+"s": 497.64,
+"e": 497.9
+},
+{
+"w": "games.",
+"s": 498.0,
+"e": 498.44
+},
+{
+"w": "Not",
+"s": 499.12,
+"e": 499.34
+},
+{
+"w": "everybody",
+"s": 499.42,
+"e": 499.86
+},
+{
+"w": "believed",
+"s": 499.92,
+"e": 500.28
+},
+{
+"w": "the",
+"s": 500.3,
+"e": 500.4
+},
+{
+"w": "straw",
+"s": 500.46,
+"e": 500.66
+},
+{
+"w": "hat",
+"s": 500.72,
+"e": 500.88
+},
+{
+"w": "story,",
+"s": 500.96,
+"e": 501.28
+},
+{
+"w": "even",
+"s": 501.76,
+"e": 501.96
+},
+{
+"w": "then.",
+"s": 502.02,
+"e": 502.32
+},
+{
+"w": "A",
+"s": 502.9,
+"e": 502.98
+},
+{
+"w": "Philadelphia",
+"s": 503.02,
+"e": 503.64
+},
+{
+"w": "writer",
+"s": 503.7,
+"e": 504.02
+},
+{
+"w": "reported",
+"s": 504.12,
+"e": 504.58
+},
+{
+"w": "that",
+"s": 504.62,
+"e": 504.78
+},
+{
+"w": "Connie",
+"s": 504.84,
+"e": 505.1
+},
+{
+"w": "Mack",
+"s": 505.18,
+"e": 505.48
+},
+{
+"w": "and",
+"s": 505.6,
+"e": 505.74
+},
+{
+"w": "most",
+"s": 505.84,
+"e": 506.06
+},
+{
+"w": "of",
+"s": 506.1,
+"e": 506.16
+},
+{
+"w": "the",
+"s": 506.2,
+"e": 506.24
+},
+{
+"w": "players",
+"s": 506.32,
+"e": 506.72
+},
+{
+"w": "thought",
+"s": 506.82,
+"e": 507.04
+},
+{
+"w": "Waddell",
+"s": 507.1,
+"e": 507.46
+},
+{
+"w": "was",
+"s": 507.5,
+"e": 507.64
+},
+{
+"w": "faking.",
+"s": 507.78,
+"e": 508.24
+},
+{
+"w": "Others",
+"s": 508.9,
+"e": 509.16
+},
+{
+"w": "said",
+"s": 509.24,
+"e": 509.5
+},
+{
+"w": "gamblers",
+"s": 509.82,
+"e": 510.22
+},
+{
+"w": "in",
+"s": 510.26,
+"e": 510.34
+},
+{
+"w": "New",
+"s": 510.38,
+"e": 510.48
+},
+{
+"w": "York",
+"s": 510.56,
+"e": 510.78
+},
+{
+"w": "had",
+"s": 510.82,
+"e": 511.0
+},
+{
+"w": "paid",
+"s": 511.08,
+"e": 511.32
+},
+{
+"w": "him",
+"s": 511.36,
+"e": 511.54
+},
+{
+"w": "to",
+"s": 511.58,
+"e": 511.68
+},
+{
+"w": "stay",
+"s": 511.76,
+"e": 511.92
+},
+{
+"w": "out",
+"s": 511.98,
+"e": 512.1
+},
+{
+"w": "of",
+"s": 512.14,
+"e": 512.2
+},
+{
+"w": "the",
+"s": 512.26,
+"e": 512.34
+},
+{
+"w": "series.",
+"s": 512.4,
+"e": 512.86
+},
+{
+"w": "Waddell",
+"s": 513.52,
+"e": 513.82
+},
+{
+"w": "said",
+"s": 513.92,
+"e": 514.1
+},
+{
+"w": "he",
+"s": 514.16,
+"e": 514.34
+},
+{
+"w": "really",
+"s": 514.42,
+"e": 514.72
+},
+{
+"w": "was",
+"s": 514.78,
+"e": 515.02
+},
+{
+"w": "hurt,",
+"s": 515.08,
+"e": 515.38
+},
+{
+"w": "and",
+"s": 515.82,
+"e": 515.96
+},
+{
+"w": "nobody",
+"s": 516.02,
+"e": 516.36
+},
+{
+"w": "ever",
+"s": 516.56,
+"e": 516.74
+},
+{
+"w": "proved",
+"s": 516.86,
+"e": 517.1
+},
+{
+"w": "otherwise.",
+"s": 517.18,
+"e": 517.7
+},
+{
+"w": "Before",
+"s": 518.36,
+"e": 518.64
+},
+{
+"w": "the",
+"s": 518.68,
+"e": 518.76
+},
+{
+"w": "1908",
+"s": 518.8,
+"e": 519.46
+},
+{
+"w": "season,",
+"s": 519.54,
+"e": 519.9
+},
+{
+"w": "Mack",
+"s": 520.38,
+"e": 520.58
+},
+{
+"w": "sold",
+"s": 520.66,
+"e": 520.84
+},
+{
+"w": "him",
+"s": 520.88,
+"e": 520.98
+},
+{
+"w": "to",
+"s": 521.04,
+"e": 521.1
+},
+{
+"w": "the",
+"s": 521.14,
+"e": 521.22
+},
+{
+"w": "St.",
+"s": 521.28,
+"e": 521.38
+},
+{
+"w": "Louis",
+"s": 521.52,
+"e": 521.74
+},
+{
+"w": "Browns.",
+"s": 521.84,
+"e": 522.3
+},
+{
+"w": "That",
+"s": 522.98,
+"e": 523.1
+},
+{
+"w": "July,",
+"s": 523.16,
+"e": 523.54
+},
+{
+"w": "pitching",
+"s": 523.9,
+"e": 524.18
+},
+{
+"w": "for",
+"s": 524.22,
+"e": 524.36
+},
+{
+"w": "St.",
+"s": 524.42,
+"e": 524.58
+},
+{
+"w": "Louis",
+"s": 524.66,
+"e": 524.94
+},
+{
+"w": "against",
+"s": 525.0,
+"e": 525.28
+},
+{
+"w": "his",
+"s": 525.32,
+"e": 525.48
+},
+{
+"w": "old",
+"s": 525.56,
+"e": 525.72
+},
+{
+"w": "team,",
+"s": 525.78,
+"e": 526.02
+},
+{
+"w": "he",
+"s": 526.54,
+"e": 526.64
+},
+{
+"w": "struck",
+"s": 526.72,
+"e": 526.94
+},
+{
+"w": "out",
+"s": 526.98,
+"e": 527.16
+},
+{
+"w": "16",
+"s": 527.28,
+"e": 527.86
+},
+{
+"w": "Athletics",
+"s": 527.94,
+"e": 528.48
+},
+{
+"w": "in",
+"s": 528.56,
+"e": 528.72
+},
+{
+"w": "one",
+"s": 528.82,
+"e": 528.98
+},
+{
+"w": "game.",
+"s": 529.1,
+"e": 529.42
+},
+{
+"w": "He",
+"s": 530.02,
+"e": 530.12
+},
+{
+"w": "was",
+"s": 530.16,
+"e": 530.38
+},
+{
+"w": "four",
+"s": 530.44,
+"e": 530.66
+},
+{
+"w": "years",
+"s": 530.8,
+"e": 531.14
+},
+{
+"w": "from",
+"s": 531.2,
+"e": 531.34
+},
+{
+"w": "the",
+"s": 531.4,
+"e": 531.46
+},
+{
+"w": "river.",
+"s": 531.5,
+"e": 531.8
+},
+{
+"w": "Number",
+"s": 534.5,
+"e": 534.72
+},
+{
+"w": "one:",
+"s": 534.84,
+"e": 535.1
+},
+{
+"w": "In",
+"s": 535.68,
+"e": 535.76
+},
+{
+"w": "1912,",
+"s": 535.82,
+"e": 536.68
+},
+{
+"w": "Rube",
+"s": 537.16,
+"e": 537.36
+},
+{
+"w": "Waddell",
+"s": 537.4,
+"e": 537.74
+},
+{
+"w": "stood",
+"s": 537.88,
+"e": 538.06
+},
+{
+"w": "for",
+"s": 538.12,
+"e": 538.22
+},
+{
+"w": "hours",
+"s": 538.42,
+"e": 538.8
+},
+{
+"w": "in",
+"s": 538.84,
+"e": 539.02
+},
+{
+"w": "icy",
+"s": 539.12,
+"e": 539.38
+},
+{
+"w": "floodwater,",
+"s": 539.5,
+"e": 540.0
+},
+{
+"w": "stacking",
+"s": 540.48,
+"e": 540.8
+},
+{
+"w": "sandbags",
+"s": 540.94,
+"e": 541.52
+},
+{
+"w": "to",
+"s": 541.58,
+"e": 541.66
+},
+{
+"w": "save",
+"s": 541.72,
+"e": 541.88
+},
+{
+"w": "a",
+"s": 541.92,
+"e": 541.98
+},
+{
+"w": "town",
+"s": 542.06,
+"e": 542.28
+},
+{
+"w": "in",
+"s": 542.3,
+"e": 542.4
+},
+{
+"w": "Kentucky,",
+"s": 542.44,
+"e": 542.96
+},
+{
+"w": "and",
+"s": 543.56,
+"e": 543.62
+},
+{
+"w": "it",
+"s": 543.66,
+"e": 543.76
+},
+{
+"w": "cost",
+"s": 543.82,
+"e": 544.1
+},
+{
+"w": "him",
+"s": 544.12,
+"e": 544.22
+},
+{
+"w": "his",
+"s": 544.26,
+"e": 544.42
+},
+{
+"w": "life.",
+"s": 544.48,
+"e": 544.84
+},
+{
+"w": "By",
+"s": 545.46,
+"e": 545.6
+},
+{
+"w": "then,",
+"s": 545.66,
+"e": 545.88
+},
+{
+"w": "the",
+"s": 546.24,
+"e": 546.32
+},
+{
+"w": "big",
+"s": 546.38,
+"e": 546.54
+},
+{
+"w": "leagues",
+"s": 546.6,
+"e": 546.84
+},
+{
+"w": "were",
+"s": 546.88,
+"e": 547.04
+},
+{
+"w": "done",
+"s": 547.08,
+"e": 547.26
+},
+{
+"w": "with",
+"s": 547.3,
+"e": 547.4
+},
+{
+"w": "him.",
+"s": 547.44,
+"e": 547.6
+},
+{
+"w": "St.",
+"s": 548.34,
+"e": 548.44
+},
+{
+"w": "Louis",
+"s": 548.58,
+"e": 548.88
+},
+{
+"w": "let",
+"s": 548.94,
+"e": 549.04
+},
+{
+"w": "him",
+"s": 549.06,
+"e": 549.2
+},
+{
+"w": "go",
+"s": 549.26,
+"e": 549.42
+},
+{
+"w": "in",
+"s": 549.48,
+"e": 549.54
+},
+{
+"w": "the",
+"s": 549.58,
+"e": 549.66
+},
+{
+"w": "summer",
+"s": 549.74,
+"e": 549.96
+},
+{
+"w": "of",
+"s": 550.0,
+"e": 550.1
+},
+{
+"w": "1910,",
+"s": 550.16,
+"e": 550.96
+},
+{
+"w": "and",
+"s": 551.38,
+"e": 551.44
+},
+{
+"w": "he",
+"s": 551.48,
+"e": 551.56
+},
+{
+"w": "finished",
+"s": 551.62,
+"e": 551.88
+},
+{
+"w": "that",
+"s": 551.94,
+"e": 552.1
+},
+{
+"w": "year",
+"s": 552.16,
+"e": 552.3
+},
+{
+"w": "in",
+"s": 552.34,
+"e": 552.4
+},
+{
+"w": "the",
+"s": 552.44,
+"e": 552.5
+},
+{
+"w": "minor",
+"s": 552.56,
+"e": 552.8
+},
+{
+"w": "leagues",
+"s": 552.86,
+"e": 553.18
+},
+{
+"w": "in",
+"s": 553.46,
+"e": 553.56
+},
+{
+"w": "Newark.",
+"s": 553.62,
+"e": 554.0
+},
+{
+"w": "In",
+"s": 554.54,
+"e": 554.64
+},
+{
+"w": "1911,",
+"s": 554.68,
+"e": 555.48
+},
+{
+"w": "he",
+"s": 555.72,
+"e": 555.84
+},
+{
+"w": "still",
+"s": 555.94,
+"e": 556.16
+},
+{
+"w": "won",
+"s": 556.22,
+"e": 556.42
+},
+{
+"w": "20",
+"s": 556.48,
+"e": 556.76
+},
+{
+"w": "games",
+"s": 556.86,
+"e": 557.18
+},
+{
+"w": "for",
+"s": 557.24,
+"e": 557.34
+},
+{
+"w": "Joe",
+"s": 557.42,
+"e": 557.56
+},
+{
+"w": "Cantillon's",
+"s": 557.64,
+"e": 558.18
+},
+{
+"w": "Minneapolis",
+"s": 558.22,
+"e": 558.8
+},
+{
+"w": "Millers.",
+"s": 558.88,
+"e": 559.28
+},
+{
+"w": "He",
+"s": 559.94,
+"e": 560.04
+},
+{
+"w": "spent",
+"s": 560.12,
+"e": 560.3
+},
+{
+"w": "the",
+"s": 560.34,
+"e": 560.42
+},
+{
+"w": "winter",
+"s": 560.46,
+"e": 560.74
+},
+{
+"w": "at",
+"s": 560.78,
+"e": 560.9
+},
+{
+"w": "Cantillon's",
+"s": 560.96,
+"e": 561.54
+},
+{
+"w": "farm",
+"s": 561.64,
+"e": 561.9
+},
+{
+"w": "in",
+"s": 561.94,
+"e": 562.06
+},
+{
+"w": "Hickman,",
+"s": 562.12,
+"e": 562.42
+},
+{
+"w": "Kentucky,",
+"s": 562.5,
+"e": 563.04
+},
+{
+"w": "a",
+"s": 563.46,
+"e": 563.52
+},
+{
+"w": "small",
+"s": 563.6,
+"e": 563.84
+},
+{
+"w": "town",
+"s": 563.92,
+"e": 564.16
+},
+{
+"w": "on",
+"s": 564.18,
+"e": 564.26
+},
+{
+"w": "the",
+"s": 564.3,
+"e": 564.34
+},
+{
+"w": "Mississippi.",
+"s": 564.38,
+"e": 565.0
+},
+{
+"w": "In",
+"s": 565.68,
+"e": 565.76
+},
+{
+"w": "the",
+"s": 565.78,
+"e": 565.86
+},
+{
+"w": "spring",
+"s": 565.98,
+"e": 566.22
+},
+{
+"w": "of",
+"s": 566.26,
+"e": 566.36
+},
+{
+"w": "1912,",
+"s": 566.4,
+"e": 567.3
+},
+{
+"w": "the",
+"s": 567.58,
+"e": 567.64
+},
+{
+"w": "river",
+"s": 567.72,
+"e": 567.96
+},
+{
+"w": "rose,",
+"s": 568.08,
+"e": 568.52
+},
+{
+"w": "and",
+"s": 568.82,
+"e": 568.9
+},
+{
+"w": "the",
+"s": 568.94,
+"e": 569.06
+},
+{
+"w": "water",
+"s": 569.12,
+"e": 569.4
+},
+{
+"w": "came",
+"s": 569.54,
+"e": 569.78
+},
+{
+"w": "for",
+"s": 569.82,
+"e": 569.92
+},
+{
+"w": "the",
+"s": 569.96,
+"e": 570.04
+},
+{
+"w": "town.",
+"s": 570.12,
+"e": 570.48
+},
+{
+"w": "The",
+"s": 571.14,
+"e": 571.2
+},
+{
+"w": "men",
+"s": 571.24,
+"e": 571.38
+},
+{
+"w": "of",
+"s": 571.42,
+"e": 571.52
+},
+{
+"w": "Hickman",
+"s": 571.56,
+"e": 571.94
+},
+{
+"w": "piled",
+"s": 572.06,
+"e": 572.36
+},
+{
+"w": "sandbags",
+"s": 572.46,
+"e": 573.0
+},
+{
+"w": "on",
+"s": 573.04,
+"e": 573.1
+},
+{
+"w": "the",
+"s": 573.14,
+"e": 573.22
+},
+{
+"w": "levee",
+"s": 573.28,
+"e": 573.56
+},
+{
+"w": "to",
+"s": 573.62,
+"e": 573.7
+},
+{
+"w": "hold",
+"s": 573.74,
+"e": 573.9
+},
+{
+"w": "it",
+"s": 573.94,
+"e": 574.06
+},
+{
+"w": "back,",
+"s": 574.1,
+"e": 574.38
+},
+{
+"w": "and",
+"s": 574.82,
+"e": 574.92
+},
+{
+"w": "Waddell",
+"s": 574.96,
+"e": 575.32
+},
+{
+"w": "went",
+"s": 575.4,
+"e": 575.56
+},
+{
+"w": "down",
+"s": 575.64,
+"e": 575.9
+},
+{
+"w": "and",
+"s": 575.94,
+"e": 576.04
+},
+{
+"w": "joined",
+"s": 576.12,
+"e": 576.36
+},
+{
+"w": "them.",
+"s": 576.42,
+"e": 576.58
+},
+{
+"w": "He",
+"s": 577.24,
+"e": 577.34
+},
+{
+"w": "stood",
+"s": 577.46,
+"e": 577.64
+},
+{
+"w": "in",
+"s": 577.68,
+"e": 577.74
+},
+{
+"w": "the",
+"s": 577.78,
+"e": 577.86
+},
+{
+"w": "cold",
+"s": 577.94,
+"e": 578.22
+},
+{
+"w": "water",
+"s": 578.3,
+"e": 578.54
+},
+{
+"w": "for",
+"s": 578.64,
+"e": 578.74
+},
+{
+"w": "hours,",
+"s": 578.98,
+"e": 579.44
+},
+{
+"w": "lifting",
+"s": 579.92,
+"e": 580.48
+},
+{
+"w": "and",
+"s": 580.5,
+"e": 580.6
+},
+{
+"w": "stacking.",
+"s": 580.74,
+"e": 581.2
+},
+{
+"w": "He'd",
+"s": 581.84,
+"e": 582.0
+},
+{
+"w": "run",
+"s": 582.06,
+"e": 582.22
+},
+{
+"w": "toward",
+"s": 582.28,
+"e": 582.48
+},
+{
+"w": "trouble",
+"s": 582.56,
+"e": 582.8
+},
+{
+"w": "before,",
+"s": 582.88,
+"e": 583.28
+},
+{
+"w": "the",
+"s": 583.84,
+"e": 583.92
+},
+{
+"w": "day",
+"s": 583.96,
+"e": 584.1
+},
+{
+"w": "he",
+"s": 584.14,
+"e": 584.26
+},
+{
+"w": "carried",
+"s": 584.32,
+"e": 584.6
+},
+{
+"w": "Danny",
+"s": 584.64,
+"e": 584.86
+},
+{
+"w": "Hoffman",
+"s": 584.94,
+"e": 585.32
+},
+{
+"w": "off",
+"s": 585.36,
+"e": 585.48
+},
+{
+"w": "the",
+"s": 585.52,
+"e": 585.62
+},
+{
+"w": "field,",
+"s": 585.68,
+"e": 586.0
+},
+{
+"w": "but",
+"s": 586.66,
+"e": 586.78
+},
+{
+"w": "this",
+"s": 586.84,
+"e": 587.02
+},
+{
+"w": "time,",
+"s": 587.08,
+"e": 587.32
+},
+{
+"w": "the",
+"s": 587.68,
+"e": 587.78
+},
+{
+"w": "trouble",
+"s": 587.84,
+"e": 588.2
+},
+{
+"w": "was",
+"s": 588.32,
+"e": 588.44
+},
+{
+"w": "a",
+"s": 588.5,
+"e": 588.56
+},
+{
+"w": "river.",
+"s": 588.64,
+"e": 588.94
+},
+{
+"w": "He",
+"s": 589.62,
+"e": 589.7
+},
+{
+"w": "came",
+"s": 589.78,
+"e": 589.94
+},
+{
+"w": "out",
+"s": 589.98,
+"e": 590.08
+},
+{
+"w": "of",
+"s": 590.1,
+"e": 590.16
+},
+{
+"w": "the",
+"s": 590.2,
+"e": 590.26
+},
+{
+"w": "water",
+"s": 590.34,
+"e": 590.6
+},
+{
+"w": "with",
+"s": 590.68,
+"e": 590.78
+},
+{
+"w": "pneumonia,",
+"s": 590.82,
+"e": 591.38
+},
+{
+"w": "and",
+"s": 591.92,
+"e": 592.12
+},
+{
+"w": "he",
+"s": 592.24,
+"e": 592.34
+},
+{
+"w": "never",
+"s": 592.5,
+"e": 592.72
+},
+{
+"w": "really",
+"s": 592.86,
+"e": 593.1
+},
+{
+"w": "got",
+"s": 593.14,
+"e": 593.28
+},
+{
+"w": "his",
+"s": 593.32,
+"e": 593.44
+},
+{
+"w": "strength",
+"s": 593.52,
+"e": 593.78
+},
+{
+"w": "back.",
+"s": 593.86,
+"e": 594.14
+},
+{
+"w": "By",
+"s": 594.76,
+"e": 594.9
+},
+{
+"w": "1913,",
+"s": 594.94,
+"e": 595.9
+},
+{
+"w": "he",
+"s": 596.18,
+"e": 596.28
+},
+{
+"w": "had",
+"s": 596.34,
+"e": 596.5
+},
+{
+"w": "tuberculosis.",
+"s": 596.54,
+"e": 597.44
+},
+{
+"w": "He",
+"s": 598.08,
+"e": 598.16
+},
+{
+"w": "went",
+"s": 598.2,
+"e": 598.34
+},
+{
+"w": "to",
+"s": 598.4,
+"e": 598.48
+},
+{
+"w": "a",
+"s": 598.52,
+"e": 598.58
+},
+{
+"w": "sanitarium",
+"s": 598.62,
+"e": 599.38
+},
+{
+"w": "in",
+"s": 599.46,
+"e": 599.6
+},
+{
+"w": "San",
+"s": 599.66,
+"e": 599.82
+},
+{
+"w": "Antonio,",
+"s": 599.88,
+"e": 600.34
+},
+{
+"w": "Texas.",
+"s": 600.46,
+"e": 600.96
+},
+{
+"w": "He",
+"s": 601.64,
+"e": 601.74
+},
+{
+"w": "died",
+"s": 601.8,
+"e": 602.04
+},
+{
+"w": "there",
+"s": 602.08,
+"e": 602.26
+},
+{
+"w": "on",
+"s": 602.76,
+"e": 602.84
+},
+{
+"w": "the",
+"s": 602.88,
+"e": 602.96
+},
+{
+"w": "1st",
+"s": 603.02,
+"e": 603.26
+},
+{
+"w": "of",
+"s": 603.32,
+"e": 603.4
+},
+{
+"w": "April,",
+"s": 603.48,
+"e": 603.84
+},
+{
+"w": "1914,",
+"s": 604.12,
+"e": 605.14
+},
+{
+"w": "at",
+"s": 605.6,
+"e": 605.74
+},
+{
+"w": "37.",
+"s": 605.78,
+"e": 606.44
+},
+{
+"w": "The",
+"s": 607.1,
+"e": 607.18
+},
+{
+"w": "man",
+"s": 607.22,
+"e": 607.42
+},
+{
+"w": "who'd",
+"s": 607.48,
+"e": 607.66
+},
+{
+"w": "followed",
+"s": 607.72,
+"e": 608.0
+},
+{
+"w": "fire",
+"s": 608.12,
+"e": 608.38
+},
+{
+"w": "engines",
+"s": 608.42,
+"e": 608.84
+},
+{
+"w": "all",
+"s": 608.94,
+"e": 609.06
+},
+{
+"w": "his",
+"s": 609.12,
+"e": 609.3
+},
+{
+"w": "life",
+"s": 609.36,
+"e": 609.66
+},
+{
+"w": "ran",
+"s": 609.96,
+"e": 610.14
+},
+{
+"w": "at",
+"s": 610.18,
+"e": 610.34
+},
+{
+"w": "one",
+"s": 610.44,
+"e": 610.58
+},
+{
+"w": "more",
+"s": 610.66,
+"e": 610.82
+},
+{
+"w": "disaster,",
+"s": 610.86,
+"e": 611.42
+},
+{
+"w": "and",
+"s": 612.1,
+"e": 612.18
+},
+{
+"w": "he",
+"s": 612.24,
+"e": 612.36
+},
+{
+"w": "stayed",
+"s": 612.44,
+"e": 612.66
+},
+{
+"w": "in",
+"s": 612.7,
+"e": 612.76
+},
+{
+"w": "the",
+"s": 612.8,
+"e": 612.88
+},
+{
+"w": "water",
+"s": 612.94,
+"e": 613.22
+},
+{
+"w": "until",
+"s": 613.5,
+"e": 613.76
+},
+{
+"w": "it",
+"s": 613.8,
+"e": 613.92
+},
+{
+"w": "got",
+"s": 613.98,
+"e": 614.16
+},
+{
+"w": "him.",
+"s": 614.2,
+"e": 614.34
+},
+{
+"w": "His",
+"s": 614.98,
+"e": 615.16
+},
+{
+"w": "349",
+"s": 615.22,
+"e": 616.4
+},
+{
+"w": "strikeouts",
+"s": 616.52,
+"e": 617.06
+},
+{
+"w": "stayed",
+"s": 617.28,
+"e": 617.48
+},
+{
+"w": "the",
+"s": 617.52,
+"e": 617.6
+},
+{
+"w": "modern",
+"s": 617.72,
+"e": 618.02
+},
+{
+"w": "record",
+"s": 618.1,
+"e": 618.42
+},
+{
+"w": "for",
+"s": 618.46,
+"e": 618.62
+},
+{
+"w": "61",
+"s": 618.76,
+"e": 619.459
+},
+{
+"w": "years,",
+"s": 619.579,
+"e": 619.92
+},
+{
+"w": "until",
+"s": 620.4,
+"e": 620.62
+},
+{
+"w": "Sandy",
+"s": 620.699,
+"e": 620.959
+},
+{
+"w": "Koufax",
+"s": 621.04,
+"e": 621.519
+},
+{
+"w": "broke",
+"s": 621.6,
+"e": 621.8
+},
+{
+"w": "it",
+"s": 621.86,
+"e": 621.94
+},
+{
+"w": "in",
+"s": 622.019,
+"e": 622.12
+},
+{
+"w": "1965.",
+"s": 622.18,
+"e": 623.34
+},
+{
+"w": "He'd",
+"s": 623.94,
+"e": 624.06
+},
+{
+"w": "been",
+"s": 624.1,
+"e": 624.24
+},
+{
+"w": "born",
+"s": 624.3,
+"e": 624.56
+},
+{
+"w": "on",
+"s": 624.62,
+"e": 624.68
+},
+{
+"w": "a",
+"s": 624.72,
+"e": 624.84
+},
+{
+"w": "Friday",
+"s": 624.9,
+"e": 625.22
+},
+{
+"w": "the",
+"s": 625.28,
+"e": 625.36
+},
+{
+"w": "13th,",
+"s": 625.4,
+"e": 626.02
+},
+{
+"w": "and",
+"s": 626.44,
+"e": 626.54
+},
+{
+"w": "he",
+"s": 626.58,
+"e": 626.68
+},
+{
+"w": "died",
+"s": 626.76,
+"e": 627.1
+},
+{
+"w": "on",
+"s": 627.16,
+"e": 627.28
+},
+{
+"w": "April",
+"s": 627.34,
+"e": 627.58
+},
+{
+"w": "Fool's",
+"s": 627.68,
+"e": 627.96
+},
+{
+"w": "Day.",
+"s": 628.02,
+"e": 628.2
+},
+{
+"w": "He",
+"s": 628.86,
+"e": 628.98
+},
+{
+"w": "won",
+"s": 629.02,
+"e": 629.12
+},
+{
+"w": "193",
+"s": 629.32,
+"e": 630.34
+},
+{
+"w": "games",
+"s": 630.44,
+"e": 630.74
+},
+{
+"w": "in",
+"s": 630.78,
+"e": 630.84
+},
+{
+"w": "the",
+"s": 630.88,
+"e": 630.94
+},
+{
+"w": "major",
+"s": 630.98,
+"e": 631.22
+},
+{
+"w": "leagues,",
+"s": 631.3,
+"e": 631.62
+},
+{
+"w": "and",
+"s": 631.96,
+"e": 632.04
+},
+{
+"w": "his",
+"s": 632.06,
+"e": 632.24
+},
+{
+"w": "earned",
+"s": 632.3,
+"e": 632.48
+},
+{
+"w": "run",
+"s": 632.56,
+"e": 632.74
+},
+{
+"w": "average",
+"s": 632.84,
+"e": 633.14
+},
+{
+"w": "over",
+"s": 633.22,
+"e": 633.38
+},
+{
+"w": "his",
+"s": 633.4,
+"e": 633.58
+},
+{
+"w": "whole",
+"s": 633.68,
+"e": 633.86
+},
+{
+"w": "career",
+"s": 633.96,
+"e": 634.34
+},
+{
+"w": "was",
+"s": 634.52,
+"e": 634.72
+},
+{
+"w": "2.16.",
+"s": 634.8,
+"e": 635.92
+},
+{
+"w": "In",
+"s": 636.56,
+"e": 636.64
+},
+{
+"w": "1946,",
+"s": 636.7,
+"e": 637.76
+},
+{
+"w": "Rube",
+"s": 638.16,
+"e": 638.34
+},
+{
+"w": "Waddell",
+"s": 638.38,
+"e": 638.74
+},
+{
+"w": "was",
+"s": 638.82,
+"e": 638.98
+},
+{
+"w": "voted",
+"s": 639.04,
+"e": 639.36
+},
+{
+"w": "into",
+"s": 639.42,
+"e": 639.6
+},
+{
+"w": "the",
+"s": 639.64,
+"e": 639.7
+},
+{
+"w": "Baseball",
+"s": 639.8,
+"e": 640.26
+},
+{
+"w": "Hall",
+"s": 640.34,
+"e": 640.52
+},
+{
+"w": "of",
+"s": 640.56,
+"e": 640.64
+},
+{
+"w": "Fame.",
+"s": 640.74,
+"e": 641.06
+},
+{
+"w": "Which",
+"s": 643.64,
+"e": 643.82
+},
+{
+"w": "one",
+"s": 643.88,
+"e": 643.98
+},
+{
+"w": "is",
+"s": 644.02,
+"e": 644.12
+},
+{
+"w": "the",
+"s": 644.16,
+"e": 644.26
+},
+{
+"w": "strangest,",
+"s": 644.4,
+"e": 645.02
+},
+{
+"w": "do",
+"s": 645.24,
+"e": 645.3
+},
+{
+"w": "you",
+"s": 645.36,
+"e": 645.42
+},
+{
+"w": "think?",
+"s": 645.48,
+"e": 645.76
+},
+{
+"w": "The",
+"s": 646.24,
+"e": 646.34
+},
+{
+"w": "alligator,",
+"s": 646.42,
+"e": 646.88
+},
+{
+"w": "the",
+"s": 647.3,
+"e": 647.42
+},
+{
+"w": "play,",
+"s": 647.46,
+"e": 647.78
+},
+{
+"w": "or",
+"s": 648.08,
+"e": 648.16
+},
+{
+"w": "the",
+"s": 648.2,
+"e": 648.28
+},
+{
+"w": "straw",
+"s": 648.36,
+"e": 648.56
+},
+{
+"w": "hat?",
+"s": 648.62,
+"e": 648.86
+},
+{
+"w": "Tell",
+"s": 649.44,
+"e": 649.58
+},
+{
+"w": "us",
+"s": 649.62,
+"e": 649.74
+},
+{
+"w": "in",
+"s": 649.78,
+"e": 649.86
+},
+{
+"w": "the",
+"s": 649.88,
+"e": 649.94
+},
+{
+"w": "comments.",
+"s": 650.0,
+"e": 650.46
+},
+{
+"w": "Next",
+"s": 651.1,
+"e": 651.36
+},
+{
+"w": "up",
+"s": 651.44,
+"e": 651.6
+},
+{
+"w": "is",
+"s": 651.84,
+"e": 651.96
+},
+{
+"w": "the",
+"s": 652.0,
+"e": 652.1
+},
+{
+"w": "strangest",
+"s": 652.24,
+"e": 652.72
+},
+{
+"w": "things",
+"s": 652.76,
+"e": 653.02
+},
+{
+"w": "that",
+"s": 653.08,
+"e": 653.3
+},
+{
+"w": "ever",
+"s": 653.38,
+"e": 653.6
+},
+{
+"w": "happened",
+"s": 653.68,
+"e": 653.98
+},
+{
+"w": "at",
+"s": 654.02,
+"e": 654.12
+},
+{
+"w": "the",
+"s": 654.16,
+"e": 654.24
+},
+{
+"w": "Olympics,",
+"s": 654.28,
+"e": 654.84
+},
+{
+"w": "including",
+"s": 655.3,
+"e": 655.72
+},
+{
+"w": "a",
+"s": 655.76,
+"e": 655.84
+},
+{
+"w": "marathon",
+"s": 655.92,
+"e": 656.4
+},
+{
+"w": "winner",
+"s": 656.46,
+"e": 656.7
+},
+{
+"w": "who",
+"s": 656.76,
+"e": 656.84
+},
+{
+"w": "was",
+"s": 656.88,
+"e": 657.06
+},
+{
+"w": "kept",
+"s": 657.12,
+"e": 657.38
+},
+{
+"w": "going",
+"s": 657.44,
+"e": 657.76
+},
+{
+"w": "with",
+"s": 657.8,
+"e": 657.92
+},
+{
+"w": "rat",
+"s": 658.08,
+"e": 658.3
+},
+{
+"w": "poison.",
+"s": 658.38,
+"e": 658.86
+}
+],
+"subs": [],
+"sfx": [],
+"text": [],
+"extra": [],
+"subkit": {
+"channel": "sr",
+"film_end": 661.86,
+"pops": [
+188.0,
+514.0
+],
+"P": 52,
+"B": 86,
+"old_subs": [
+110.98
+],
+"voice": "Thanks for watching. Subscribe for the next story. It helps support the channel."
+}
+}
