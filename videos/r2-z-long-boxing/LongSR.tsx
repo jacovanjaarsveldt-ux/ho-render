@@ -44,7 +44,7 @@ const Comp: React.FC<{ s: Shot }> = ({ s }) => {
 const Split: React.FC<{ s: Shot }> = ({ s }) => {
   const t = useT(s);
   const half = (src: string, k: number) => <div style={{ position: "absolute", top: 80, bottom: 170, left: k ? 980 : 80, width: 860, overflow: "hidden", boxShadow: "0 18px 40px rgba(0,0,0,.65)", background: C.ink }}>
-    <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: "contain", transform: `scale(${1 + 0.05 * (k ? 1 - t : t)})` }} /></div>;
+    <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: (s as any).fit === "cover" ? "cover" : "contain", objectPosition: "50% 30%", transform: `scale(${1 + 0.05 * (k ? 1 - t : t)})` }} /></div>;
   return <AbsoluteFill style={{ background: C.ink, overflow: "hidden" }}><Blur src={s.src!} />{half(s.src!, 0)}{half(s.src2!, 1)}</AbsoluteFill>;
 };
 const Vid: React.FC<{ s: Shot }> = ({ s }) => {
@@ -73,7 +73,7 @@ const MapShot: React.FC<{ s: Shot }> = ({ s }) => {
   const fr = useCurrentFrame(); const dur = f(s.b - s.a);
   const [lon0, lat0, lon1, lat1] = s.view!; const latc = (lat0 + lat1) / 2; const kx = Math.cos(latc * Math.PI / 180);
   const z = interpolate(fr, [0, dur], [1, 1.045], clamp);
-  const sx = 1920 / ((lon1 - lon0) * kx), sy = 1080 / (lat1 - lat0); const sc = Math.max(sx, sy);
+  const sx = 1920 / ((lon1 - lon0) * kx), sy = 1080 / (lat1 - lat0); const sc = Math.min(sx, sy);
   const ox = (1920 - (lon1 - lon0) * kx * sc) / 2, oy = (1080 - (lat1 - lat0) * sc) / 2;
   const P = (lon: number, lat: number) => [ox + (lon - lon0) * kx * sc, oy + (lat1 - lat) * sc];
   const step = s.step ?? 1, from = s.from ?? 0;
@@ -139,7 +139,7 @@ const Tent: React.FC<{ s: Shot }> = ({ s }) => {
       <g opacity={k} transform="translate(960,330)"><rect x={-130} y={-70} width={260} height={140} fill="#e8e0d0" stroke="#000" strokeWidth={5} /><text y={16} textAnchor="middle" style={{ ...DISPLAY, fontSize: 42, fill: "#111" } as any}>FILM PLAYS</text></g>
       <polygon points={`900,700 1020,700 1000,400 920,400`} fill={`rgba(243,238,228,${beam * 0.45})`} />
       <g opacity={camK} transform="translate(960,730)"><rect x={-70} y={-40} width={140} height={90} rx={10} fill="#111" stroke={C.cream} strokeWidth={6} /><circle cx={0} cy={-46} r={26} fill="#111" stroke={C.cream} strokeWidth={6} /><circle cx={0} cy={-46} r={10} fill={C.red} />
-        <text x={110} y={20} style={{ ...DISPLAY, fontSize: 44, fill: C.cream } as any}>CAMERA COPIES IT</text></g>
+        <text x={240} y={20} style={{ ...DISPLAY, fontSize: 44, fill: C.cream } as any}>CAMERA COPIES IT</text></g>
     </svg>
     {s.title && <div style={{ position: "absolute", top: 40, left: 0, right: 0, textAlign: "center", ...DISPLAY, fontSize: 64, color: C.cream }}>{s.title}</div>}
   </AbsoluteFill>;

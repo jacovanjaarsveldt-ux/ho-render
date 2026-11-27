@@ -416,12 +416,13 @@
 "a": 127.64,
 "b": 131.49,
 "kind": "split",
-"src": "img/crop/johnson-jeffries_p13_61642f.jpg",
-"src2": "img/crop/johnson-jeffries_p16_d18bdc.jpg",
+"src": "img/crop/johnson-jeffries_p13_bd4647.jpg",
+"src2": "img/crop/johnson-jeffries_p16_f0f0c7.jpg",
 "line": "That plea worked, but it didn't work the way London hoped.",
 "pic": "johnson-jeffries/p13",
 "pic2": "johnson-jeffries/p16",
-"callback": true
+"callback": true,
+"fit": "cover"
 },
 {
 "a": 131.49,
@@ -1936,7 +1937,8 @@
 "line": "By the next day the papers were already printing the death lists next to the fight reports.",
 "pic": "johnson-jeffries/n4_oregonian0706_deathlist",
 "pic2": "johnson-jeffries/n1_oregonian0705_clever",
-"callback": true
+"callback": true,
+"fit": "contain"
 },
 {
 "a": 459.14,
@@ -2783,7 +2785,8 @@
 "line": "The riots were one answer to that, and the law against the film was another, a way to stop people watching Johnson win.",
 "pic": "johnson-jeffries/n2_oregonian0705_riots",
 "pic2": "johnson-jeffries/n5_oregonian0706_banpictures",
-"callback": true
+"callback": true,
+"fit": "contain"
 },
 {
 "a": 681.24,
