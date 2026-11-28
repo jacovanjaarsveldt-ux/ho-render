@@ -1,0 +1,2249 @@
+{
+"end": 632.84,
+"vo_end": 623.84,
+"fps": 30,
+"shots": [
+{
+"a": 0.0,
+"b": 2.28,
+"kind": "clip",
+"src": "clips/c_550c0f8566.mp4"
+},
+{
+"a": 2.28,
+"b": 4.58,
+"kind": "img",
+"src": "img/i_46f7c75936.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 4.58,
+"b": 9.64,
+"kind": "img",
+"src": "img/i_2eb1ec1107.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 9.64,
+"b": 12.3,
+"kind": "img",
+"src": "img/i_24f82a5725.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 12.3,
+"b": 14.72,
+"kind": "clip",
+"src": "clips/c_18148f0674.mp4"
+},
+{
+"a": 14.72,
+"b": 17.8,
+"kind": "clip",
+"src": "clips/c_666e787afc.mp4"
+},
+{
+"a": 17.8,
+"b": 21.1,
+"kind": "img",
+"src": "img/i_7b0a440eae.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 21.1,
+"b": 23.44,
+"kind": "clip",
+"src": "clips/c_bae07e98a5.mp4"
+},
+{
+"a": 23.44,
+"b": 26.06,
+"kind": "clip",
+"src": "clips/c_986c31b98a.mp4"
+},
+{
+"a": 26.06,
+"b": 31.26,
+"kind": "card",
+"card": {
+"t": "2013",
+"sub": "a letter to the San Francisco police, signed with one of their names",
+"style": "doc"
+}
+},
+{
+"a": 31.26,
+"b": 33.86,
+"kind": "clip",
+"src": "clips/c_c1ec0e9dd8.mp4"
+},
+{
+"a": 33.86,
+"b": 37.66,
+"kind": "clip",
+"src": "clips/c_d15caa36c8.mp4"
+},
+{
+"a": 37.66,
+"b": 39.96,
+"kind": "img",
+"src": "img/i_0ad446d6c3.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 39.96,
+"b": 41.74,
+"kind": "img",
+"src": "img/i_7cb89c0c49.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 41.74,
+"b": 45.36,
+"kind": "clip",
+"src": "clips/c_643d396cf8.mp4"
+},
+{
+"a": 45.36,
+"b": 50.92,
+"kind": "img",
+"src": "img/i_e9e268587a.jpg",
+"mv": "hold",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 50.92,
+"b": 55.2,
+"kind": "clip",
+"src": "clips/c_1975ae68b1.mp4"
+},
+{
+"a": 55.2,
+"b": 56.76,
+"kind": "clip",
+"src": "clips/c_9a84a9e667.mp4"
+},
+{
+"a": 56.76,
+"b": 60.82,
+"kind": "clip",
+"src": "clips/c_4f852ed1e0.mp4"
+},
+{
+"a": 60.82,
+"b": 65.04,
+"kind": "img",
+"src": "img/i_00fb6c9ea1.jpg",
+"mv": "hold",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 65.04,
+"b": 68.14,
+"kind": "clip",
+"src": "clips/c_a937383600.mp4"
+},
+{
+"a": 68.14,
+"b": 73.62,
+"kind": "clip",
+"src": "clips/c_a90eec1da4.mp4"
+},
+{
+"a": 73.62,
+"b": 76.86,
+"kind": "img",
+"src": "img/i_06b7495859.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 76.86,
+"b": 80.76,
+"kind": "img",
+"src": "img/i_f93484eb4b.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 80.76,
+"b": 83.06,
+"kind": "clip",
+"src": "clips/c_d6f65272f7.mp4"
+},
+{
+"a": 83.06,
+"b": 85.46,
+"kind": "img",
+"src": "img/i_19b2cc1b03.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 85.46,
+"b": 87.82,
+"kind": "img",
+"src": "img/i_bcee1b5e73.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 87.82,
+"b": 91.08,
+"kind": "img",
+"src": "img/i_97f99cf4d3.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 91.08,
+"b": 95.7,
+"kind": "card",
+"card": {
+"t": "ALLEN WEST",
+"sub": "the fourth man in the plan",
+"style": "doc"
+}
+},
+{
+"a": 95.7,
+"b": 97.76,
+"kind": "clip",
+"src": "clips/c_a74620190c.mp4"
+},
+{
+"a": 97.76,
+"b": 101.04,
+"kind": "img",
+"src": "img/i_a0aa41889e.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 101.04,
+"b": 104.56,
+"kind": "clip",
+"src": "clips/c_8eae92db4c.mp4"
+},
+{
+"a": 104.56,
+"b": 107.74,
+"kind": "clip",
+"src": "clips/c_5b2d5b4298.mp4"
+},
+{
+"a": 107.74,
+"b": 113.3,
+"kind": "img",
+"src": "img/i_fcaf83e222.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 113.3,
+"b": 115.94,
+"kind": "img",
+"src": "img/i_df35cd9470.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 115.94,
+"b": 117.86,
+"kind": "img",
+"src": "img/i_bd4189b8b4.jpg",
+"mv": "pull",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 117.86,
+"b": 119.88,
+"kind": "clip",
+"src": "clips/c_0b17e2f14b.mp4"
+},
+{
+"a": 119.88,
+"b": 122.58,
+"kind": "card",
+"card": {
+"t": "A VACUUM-CLEANER MOTOR",
+"sub": "the drill they built (FBI)",
+"style": "doc"
+}
+},
+{
+"a": 122.58,
+"b": 125.58,
+"kind": "clip",
+"src": "clips/c_b83134b33a.mp4"
+},
+{
+"a": 125.58,
+"b": 127.82,
+"kind": "clip",
+"src": "clips/c_223b380718.mp4"
+},
+{
+"a": 127.82,
+"b": 134.2,
+"kind": "img",
+"src": "img/i_467e06e84d.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 134.2,
+"b": 138.92,
+"kind": "img",
+"src": "img/i_188b13a3ed.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 138.92,
+"b": 141.66,
+"kind": "clip",
+"src": "clips/c_5c3ea1a646.mp4"
+},
+{
+"a": 141.66,
+"b": 143.84,
+"kind": "img",
+"src": "img/i_60fe6f2dd7.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 143.84,
+"b": 147.2,
+"kind": "clip",
+"src": "clips/c_3b41dbfd03.mp4"
+},
+{
+"a": 147.2,
+"b": 150.2,
+"kind": "clip",
+"src": "clips/c_20e42ae46f.mp4"
+},
+{
+"a": 150.2,
+"b": 154.4,
+"kind": "clip",
+"src": "clips/c_20363f49b9.mp4"
+},
+{
+"a": 154.4,
+"b": 156.46,
+"kind": "img",
+"src": "img/i_440e6d5cbf.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 156.46,
+"b": 161.42,
+"kind": "clip",
+"src": "clips/c_52ade9b3ba.mp4"
+},
+{
+"a": 161.42,
+"b": 163.54,
+"kind": "img",
+"src": "img/i_e430e75063.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 163.54,
+"b": 167.68,
+"kind": "img",
+"src": "img/i_d56feac443.jpg",
+"mv": "hold",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 167.68,
+"b": 174.76,
+"kind": "clip",
+"src": "clips/c_feccbc3d43.mp4"
+},
+{
+"a": 174.76,
+"b": 179.34,
+"kind": "card",
+"card": {
+"t": "6 x 14 FEET",
+"sub": "the raft, from more than 50 raincoats (FBI)",
+"style": "number"
+}
+},
+{
+"a": 179.34,
+"b": 183.02,
+"kind": "clip",
+"src": "clips/c_587187cf20.mp4"
+},
+{
+"a": 183.02,
+"b": 187.02,
+"kind": "img",
+"src": "img/i_c32553f2e6.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 187.02,
+"b": 191.18,
+"kind": "img",
+"src": "img/i_3a0fd1a6d5.jpg",
+"mv": "pan",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 191.18,
+"b": 195.34,
+"kind": "img",
+"src": "img/i_eac18c65f2.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 195.34,
+"b": 198.18,
+"kind": "img",
+"src": "img/i_dc76b23f11.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 198.18,
+"b": 200.7,
+"kind": "img",
+"src": "img/i_aa6b02e88c.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 200.7,
+"b": 205.26,
+"kind": "clip",
+"src": "clips/c_1c24bee0c0.mp4"
+},
+{
+"a": 205.26,
+"b": 210.32,
+"kind": "img",
+"src": "img/i_e59bf94f86.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 210.32,
+"b": 211.84,
+"kind": "clip",
+"src": "clips/c_f2beba3f10.mp4"
+},
+{
+"a": 211.84,
+"b": 215.32,
+"kind": "clip",
+"src": "clips/c_3dde799001.mp4"
+},
+{
+"a": 215.32,
+"b": 219.84,
+"kind": "img",
+"src": "img/i_6a883fa582.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 219.84,
+"b": 224.56,
+"kind": "img",
+"src": "img/i_d236ad054a.jpg",
+"mv": "pull",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 224.56,
+"b": 227.72,
+"kind": "clip",
+"src": "clips/c_e557d9ca09.mp4"
+},
+{
+"a": 227.72,
+"b": 231.54,
+"kind": "img",
+"src": "img/i_4d886d310a.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 231.54,
+"b": 236.08,
+"kind": "img",
+"src": "img/i_1cb9af1a6f.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 236.08,
+"b": 239.38,
+"kind": "clip",
+"src": "clips/c_873134f4cd.mp4"
+},
+{
+"a": 239.38,
+"b": 244.06,
+"kind": "clip",
+"src": "clips/c_7e11ff44cf.mp4"
+},
+{
+"a": 244.06,
+"b": 247.72,
+"kind": "img",
+"src": "img/i_0a6a9b572d.jpg",
+"mv": "pan",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 247.72,
+"b": 252.0,
+"kind": "clip",
+"src": "clips/c_2b7f529d17.mp4"
+},
+{
+"a": 252.0,
+"b": 254.14,
+"kind": "img",
+"src": "img/i_cac95430de.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 254.14,
+"b": 258.48,
+"kind": "img",
+"src": "img/i_b17e0689c5.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 258.48,
+"b": 261.06,
+"kind": "clip",
+"src": "clips/c_6a94bba5be.mp4"
+},
+{
+"a": 261.06,
+"b": 262.92,
+"kind": "img",
+"src": "img/i_2fad556037.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 262.92,
+"b": 266.34,
+"kind": "clip",
+"src": "clips/c_7d5c629370.mp4"
+},
+{
+"a": 266.34,
+"b": 269.78,
+"kind": "img",
+"src": "img/i_71749ec3cd.jpg",
+"mv": "pull",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 269.78,
+"b": 273.68,
+"kind": "clip",
+"src": "clips/c_40a34fb3c1.mp4"
+},
+{
+"a": 273.68,
+"b": 277.18,
+"kind": "clip",
+"src": "clips/c_e11dcae525.mp4"
+},
+{
+"a": 277.18,
+"b": 283.06,
+"kind": "clip",
+"src": "clips/c_1444c6da77.mp4"
+},
+{
+"a": 283.06,
+"b": 288.3,
+"kind": "clip",
+"src": "clips/c_99185b1f0f.mp4"
+},
+{
+"a": 288.3,
+"b": 290.16,
+"kind": "clip",
+"src": "clips/c_4970b1e5ec.mp4"
+},
+{
+"a": 290.16,
+"b": 294.64,
+"kind": "img",
+"src": "img/i_b408a01273.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 294.64,
+"b": 298.7,
+"kind": "img",
+"src": "img/i_f16ea9ca87.jpg",
+"mv": "hold",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 298.7,
+"b": 301.68,
+"kind": "clip",
+"src": "clips/c_ea11e84c94.mp4"
+},
+{
+"a": 301.68,
+"b": 304.9,
+"kind": "clip",
+"src": "clips/c_c44ef61b14.mp4"
+},
+{
+"a": 304.9,
+"b": 308.2,
+"kind": "img",
+"src": "img/i_7a8bb7e9fb.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 308.2,
+"b": 311.5,
+"kind": "card",
+"card": {
+"t": "A PACKET SEALED IN RUBBER",
+"sub": "letters and photographs of the Anglins', found in the bay",
+"style": "doc"
+}
+},
+{
+"a": 311.5,
+"b": 315.56,
+"kind": "img",
+"src": "img/i_cc6ff26f07.jpg",
+"mv": "hold",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 315.56,
+"b": 320.38,
+"kind": "img",
+"src": "img/i_8f2ce59ff0.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 320.38,
+"b": 324.84,
+"kind": "clip",
+"src": "clips/c_4e8f11c377.mp4"
+},
+{
+"a": 324.84,
+"b": 327.68,
+"kind": "clip",
+"src": "clips/c_f883178828.mp4"
+},
+{
+"a": 327.68,
+"b": 331.74,
+"kind": "card",
+"card": {
+"t": "A NORWEGIAN FREIGHTER",
+"sub": "six weeks later: a body reported in the ocean beyond the bridge, never recovered",
+"style": "doc"
+}
+},
+{
+"a": 331.74,
+"b": 336.48,
+"kind": "clip",
+"src": "clips/c_b3f5f0f2d9.mp4"
+},
+{
+"a": 336.48,
+"b": 340.54,
+"kind": "clip",
+"src": "clips/c_2d73fa7fc6.mp4"
+},
+{
+"a": 340.54,
+"b": 344.92,
+"kind": "img",
+"src": "img/i_f93f39d5b1.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 344.92,
+"b": 346.82,
+"kind": "clip",
+"src": "clips/c_ac48c673e1.mp4"
+},
+{
+"a": 346.82,
+"b": 350.84,
+"kind": "clip",
+"src": "clips/c_0467cb0250.mp4"
+},
+{
+"a": 350.84,
+"b": 356.22,
+"kind": "img",
+"src": "img/i_4e51bc76df.jpg",
+"mv": "hold",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 356.22,
+"b": 359.82,
+"kind": "clip",
+"src": "clips/c_87b6f55485.mp4"
+},
+{
+"a": 359.82,
+"b": 363.28,
+"kind": "clip",
+"src": "clips/c_b9aa06c245.mp4"
+},
+{
+"a": 363.28,
+"b": 369.14,
+"kind": "clip",
+"src": "clips/c_c3389bbfb8.mp4"
+},
+{
+"a": 369.14,
+"b": 374.3,
+"kind": "img",
+"src": "img/i_3791e686c4.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 374.3,
+"b": 380.8,
+"kind": "clip",
+"src": "clips/c_6f268b6637.mp4"
+},
+{
+"a": 380.8,
+"b": 383.44,
+"kind": "clip",
+"src": "clips/c_f70e2581cd.mp4"
+},
+{
+"a": 383.44,
+"b": 385.74,
+"kind": "clip",
+"src": "clips/c_8987d66f51.mp4"
+},
+{
+"a": 385.74,
+"b": 391.68,
+"kind": "img",
+"src": "img/i_12f2ac8059.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 391.68,
+"b": 397.0,
+"kind": "card",
+"card": {
+"t": "1979",
+"sub": "December 31: the FBI closes its case",
+"style": "number"
+}
+},
+{
+"a": 397.0,
+"b": 399.74,
+"kind": "clip",
+"src": "clips/c_ce3d7a47e1.mp4"
+},
+{
+"a": 399.74,
+"b": 403.5,
+"kind": "clip",
+"src": "clips/c_d8d73ef3f5.mp4"
+},
+{
+"a": 403.5,
+"b": 407.22,
+"kind": "img",
+"src": "img/i_6889a47f42.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 407.22,
+"b": 409.68,
+"kind": "clip",
+"src": "clips/c_246e5f59f8.mp4"
+},
+{
+"a": 409.68,
+"b": 412.96,
+"kind": "img",
+"src": "img/i_bfc7949dd1.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 412.96,
+"b": 419.12,
+"kind": "card",
+"card": {
+"t": "CHRISTMAS CARDS",
+"sub": "no postmark on any envelope the family has shown",
+"style": "doc"
+}
+},
+{
+"a": 419.12,
+"b": 425.54,
+"kind": "img",
+"src": "img/i_a51848447b.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 425.54,
+"b": 431.52,
+"kind": "card",
+"card": {
+"t": "THE BRAZIL PHOTO, 1975",
+"sub": "released by the family in 2015: John and Clarence on a farm, they said",
+"style": "doc"
+}
+},
+{
+"a": 431.52,
+"b": 435.26,
+"kind": "clip",
+"src": "clips/c_32bad6a188.mp4"
+},
+{
+"a": 435.26,
+"b": 442.94,
+"kind": "card",
+"card": {
+"t": "A FORENSIC IMAGING EXPERT",
+"sub": "the faces looked more like the brothers than not",
+"style": "doc"
+}
+},
+{
+"a": 442.94,
+"b": 448.5,
+"kind": "card",
+"card": {
+"t": "A RETIRED US MARSHALS DEPUTY",
+"sub": "not the Anglins, and the family friend a con man",
+"style": "doc"
+}
+},
+{
+"a": 448.5,
+"b": 451.2,
+"kind": "clip",
+"src": "clips/c_e239c813fa.mp4"
+},
+{
+"a": 451.2,
+"b": 458.32,
+"kind": "card",
+"card": {
+"t": "Yes, we all made it that night, but barely!",
+"sub": "letter signed John Anglin, 2013 (CBS News)",
+"style": "quote"
+}
+},
+{
+"a": 458.32,
+"b": 465.48,
+"kind": "clip",
+"src": "clips/c_9fe0faa618.mp4"
+},
+{
+"a": 465.48,
+"b": 470.96,
+"kind": "card",
+"card": {
+"t": "THE LETTER",
+"sub": "Frank Morris died in 2008, Clarence in 2011, it said",
+"style": "doc"
+}
+},
+{
+"a": 470.96,
+"b": 472.74,
+"kind": "clip",
+"src": "clips/c_fec1ff3f2c.mp4"
+},
+{
+"a": 472.74,
+"b": 475.82,
+"kind": "img",
+"src": "img/i_52204d681c.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 475.82,
+"b": 480.78,
+"kind": "clip",
+"src": "clips/c_8d124d17cf.mp4"
+},
+{
+"a": 480.78,
+"b": 485.34,
+"kind": "img",
+"src": "img/i_894e3626e9.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 485.34,
+"b": 487.8,
+"kind": "card",
+"card": {
+"t": "INCONCLUSIVE",
+"sub": "fingerprints, DNA and handwriting (FBI)",
+"style": "number"
+}
+},
+{
+"a": 487.8,
+"b": 495.12,
+"kind": "clip",
+"src": "clips/c_d029a8ca90.mp4"
+},
+{
+"a": 495.12,
+"b": 497.12,
+"kind": "clip",
+"src": "clips/c_b7c856db4c.mp4"
+},
+{
+"a": 497.12,
+"b": 501.5,
+"kind": "img",
+"src": "img/i_3a43249fdb.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 501.5,
+"b": 505.34,
+"kind": "clip",
+"src": "clips/c_d33e699d78.mp4"
+},
+{
+"a": 505.34,
+"b": 511.0,
+"kind": "clip",
+"src": "clips/c_b93c22d207.mp4"
+},
+{
+"a": 511.0,
+"b": 514.74,
+"kind": "clip",
+"src": "clips/c_e91e3ab6b1.mp4"
+},
+{
+"a": 514.74,
+"b": 519.44,
+"kind": "clip",
+"src": "clips/c_8d3214d887.mp4"
+},
+{
+"a": 519.44,
+"b": 522.38,
+"kind": "img",
+"src": "img/i_c93d3c3a25.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 522.38,
+"b": 527.3,
+"kind": "img",
+"src": "img/i_332f7a1f09.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 527.3,
+"b": 529.48,
+"kind": "clip",
+"src": "clips/c_3d8478a229.mp4"
+},
+{
+"a": 529.48,
+"b": 534.52,
+"kind": "clip",
+"src": "clips/c_477e1a24cb.mp4"
+},
+{
+"a": 534.52,
+"b": 539.7,
+"kind": "clip",
+"src": "clips/c_cf373b7c47.mp4"
+},
+{
+"a": 539.7,
+"b": 542.68,
+"kind": "clip",
+"src": "clips/c_6d92afd66a.mp4"
+},
+{
+"a": 542.68,
+"b": 546.46,
+"kind": "img",
+"src": "img/i_c52bd3c988.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 546.46,
+"b": 548.46,
+"kind": "clip",
+"src": "clips/c_9cd1fc5d34.mp4"
+},
+{
+"a": 548.46,
+"b": 554.7,
+"kind": "img",
+"src": "img/i_219ba47f58.jpg",
+"mv": "hold",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 554.7,
+"b": 557.42,
+"kind": "clip",
+"src": "clips/c_ad60582219.mp4"
+},
+{
+"a": 557.42,
+"b": 560.62,
+"kind": "clip",
+"src": "clips/c_f3e1135c4d.mp4"
+},
+{
+"a": 560.62,
+"b": 565.4,
+"kind": "img",
+"src": "img/i_cd9c58dcfb.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 565.4,
+"b": 568.46,
+"kind": "img",
+"src": "img/i_720350929f.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 568.46,
+"b": 572.06,
+"kind": "clip",
+"src": "clips/c_ca5dd1c71e.mp4"
+},
+{
+"a": 572.06,
+"b": 577.56,
+"kind": "clip",
+"src": "clips/c_e42704abe6.mp4"
+},
+{
+"a": 577.56,
+"b": 580.88,
+"kind": "clip",
+"src": "clips/c_c8f7a09c7b.mp4"
+},
+{
+"a": 580.88,
+"b": 583.68,
+"kind": "card",
+"card": {
+"t": "US MARSHALS SERVICE",
+"sub": "the case is still open",
+"style": "doc"
+}
+},
+{
+"a": 583.68,
+"b": 589.54,
+"kind": "card",
+"card": {
+"t": "AGE-PROGRESSED IMAGES, 2022",
+"sub": "what the three might look like as old men (US Marshals)",
+"style": "doc"
+}
+},
+{
+"a": 589.54,
+"b": 591.5,
+"kind": "img",
+"src": "img/i_5a03d43016.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 591.5,
+"b": 596.94,
+"kind": "img",
+"src": "img/i_fa0ad4f3b9.jpg",
+"mv": "hold",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 596.94,
+"b": 599.0,
+"kind": "img",
+"src": "img/i_53704503fb.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 599.0,
+"b": 603.82,
+"kind": "img",
+"src": "img/i_f468bfcefb.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 603.82,
+"b": 609.02,
+"kind": "img",
+"src": "img/i_115d00b2aa.jpg",
+"mv": "pull",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 609.02,
+"b": 614.3,
+"kind": "clip",
+"src": "clips/c_ec19d168ce.mp4"
+},
+{
+"a": 614.3,
+"b": 619.58,
+"kind": "clip",
+"src": "clips/c_f8f017c3bb.mp4"
+},
+{
+"a": 619.58,
+"b": 627.84,
+"kind": "clip",
+"src": "clips/c_ca1b4c6ba8.mp4"
+}
+],
+"chapters": [
+{
+"a": 0.0,
+"b": 2.28,
+"n": "Chapter 1",
+"t": "The head on the floor"
+},
+{
+"a": 33.86,
+"b": 37.36,
+"n": "Chapter 2",
+"t": "The Rock"
+},
+{
+"a": 104.56,
+"b": 107.74,
+"n": "Chapter 3",
+"t": "The holes in the wall"
+},
+{
+"a": 156.46,
+"b": 159.96,
+"n": "Chapter 4",
+"t": "The workshop on the roof"
+},
+{
+"a": 224.56,
+"b": 227.72,
+"n": "Chapter 5",
+"t": "The night of June 11"
+},
+{
+"a": 298.7,
+"b": 301.68,
+"n": "Chapter 6",
+"t": "What the Bay gave back"
+},
+{
+"a": 346.82,
+"b": 350.32,
+"n": "Chapter 7",
+"t": "The case that they drowned"
+},
+{
+"a": 407.22,
+"b": 409.68,
+"n": "Chapter 8",
+"t": "The case that they lived"
+},
+{
+"a": 546.46,
+"b": 548.46,
+"n": "Chapter 9",
+"t": "Our verdict"
+}
+],
+"caps": [
+{
+"a": 0.05,
+"b": 4.61,
+"t": "A guard at Alcatraz reached through the\nbars to give a sleeping prisoner a push,"
+},
+{
+"a": 4.61,
+"b": 8.07,
+"t": "and the man's head rolled off\nthe bed and hit the floor."
+},
+{
+"a": 8.07,
+"b": 11.43,
+"t": "It was soap and plaster\nwith real hair on top,"
+},
+{
+"a": 11.43,
+"b": 14.75,
+"t": "and the guards had been\ncounting it as a man all night."
+},
+{
+"a": 14.75,
+"b": 19.83,
+"t": "Three prisoners were out on San Francisco\nBay on a raft made from more than 50"
+},
+{
+"a": 19.83,
+"b": 21.1,
+"t": "raincoats."
+},
+{
+"a": 21.13,
+"b": 23.44,
+"t": "No body was ever found."
+},
+{
+"a": 23.47,
+"b": 26.09,
+"t": "The FBI decided they'd died out there,"
+},
+{
+"a": 26.09,
+"b": 31.24,
+"t": "and then in 2013, the police got a\nletter signed with one of their names."
+},
+{
+"a": 31.29,
+"b": 33.86,
+"t": "So, did they actually survive?"
+},
+{
+"a": 33.89,
+"b": 37.69,
+"t": "Alcatraz was built to be the\nprison nobody walked out of."
+},
+{
+"a": 37.69,
+"b": 41.57,
+"t": "Al Capone did time there,\nand so did Machine Gun Kelly,"
+},
+{
+"a": 41.57,
+"b": 45.39,
+"t": "and neither of them got off the\nisland until the government let them."
+},
+{
+"a": 45.39,
+"b": 47.81,
+"t": "It sat on a rock in the middle of the bay,"
+},
+{
+"a": 47.81,
+"b": 50.95,
+"t": "at least a mile and a quarter\nfrom the nearest shore."
+},
+{
+"a": 50.95,
+"b": 55.2,
+"t": "The water around it\naverages 50 to 55 degrees,"
+},
+{
+"a": 55.23,
+"b": 59.37,
+"t": "and the currents are strong enough to drag\na swimmer out under the Golden Gate and"
+},
+{
+"a": 59.37,
+"b": 60.85,
+"t": "into the Pacific."
+},
+{
+"a": 60.85,
+"b": 65.07,
+"t": "In 29 years, 36 men tried\nto get off the island,"
+},
+{
+"a": 65.07,
+"b": 68.17,
+"t": "and most of them were caught or shot dead."
+},
+{
+"a": 68.17,
+"b": 73.64,
+"t": "Two drowned, and five more are still\nlisted as missing and presumed drowned."
+},
+{
+"a": 73.65,
+"b": 76.88,
+"t": "Three of those five are\nthe men in this story."
+},
+{
+"a": 76.89,
+"b": 80.59,
+"t": "Frank Morris was a career\ncriminal known for his brains,"
+},
+{
+"a": 80.59,
+"b": 83.08,
+"t": "and he'd broken out of a prison before."
+},
+{
+"a": 83.09,
+"b": 87.01,
+"t": "John and Clarence Anglin were\nbrothers who'd grown up in Florida,"
+},
+{
+"a": 87.01,
+"b": 91.08,
+"t": "and they were in for robbing\na bank in Alabama at gunpoint."
+},
+{
+"a": 91.11,
+"b": 93.49,
+"t": "A fourth prisoner, Allen West,"
+},
+{
+"a": 93.49,
+"b": 95.73,
+"t": "was in on the plan from the start."
+},
+{
+"a": 95.73,
+"b": 97.67,
+"t": "Their cells were close together,"
+},
+{
+"a": 97.67,
+"b": 101.07,
+"t": "and the way out ran through\nthe back wall of each one."
+},
+{
+"a": 101.07,
+"b": 104.58,
+"t": "All they had to dig with was\nwhatever they could scrounge."
+},
+{
+"a": 104.59,
+"b": 107.65,
+"t": "At the back of every cell\nwas a small air vent,"
+},
+{
+"a": 107.65,
+"b": 113.28,
+"t": "and behind it was a narrow utility\ncorridor full of pipes that nobody watched."
+},
+{
+"a": 113.33,
+"b": 117.89,
+"t": "The men started on the concrete around\nthose vents with old saw blades."
+},
+{
+"a": 117.89,
+"b": 119.76,
+"t": "Then they built a drill."
+},
+{
+"a": 119.91,
+"b": 122.61,
+"t": "The motor came out of a\nbroken vacuum cleaner,"
+},
+{
+"a": 122.61,
+"b": 125.61,
+"t": "which is a fairly bold\nthing to run in a prison."
+},
+{
+"a": 125.61,
+"b": 127.85,
+"t": "They worked at it night after night,"
+},
+{
+"a": 127.85,
+"b": 132.71,
+"t": "drilling rows of small holes close together\naround each vent until the whole cover"
+},
+{
+"a": 132.71,
+"b": 134.23,
+"t": "could be lifted out."
+},
+{
+"a": 134.23,
+"b": 138.95,
+"t": "In the daytime, they hid the holes behind\na suitcase or a piece of cardboard."
+},
+{
+"a": 138.95,
+"b": 141.69,
+"t": "It took months, and in all that time,"
+},
+{
+"a": 141.69,
+"b": 143.87,
+"t": "not one guard noticed."
+},
+{
+"a": 143.87,
+"b": 147.23,
+"t": "Now, a hole in the wall only\ngets you into a corridor,"
+},
+{
+"a": 147.23,
+"b": 150.23,
+"t": "and a corridor still\nleaves you on an island."
+},
+{
+"a": 150.23,
+"b": 154.43,
+"t": "So they started on a boat, and they\nbuilt it on top of the cell block,"
+},
+{
+"a": 154.43,
+"b": 156.48,
+"t": "right over the guards' heads."
+},
+{
+"a": 156.49,
+"b": 161.45,
+"t": "Inside the cell house, the top of their\ncell block was a dark space under the roof"
+},
+{
+"a": 161.45,
+"b": 163.57,
+"t": "that the guards couldn't see into."
+},
+{
+"a": 163.57,
+"b": 167.71,
+"t": "The men climbed up there through\nthe corridor and set up a workshop."
+},
+{
+"a": 167.71,
+"b": 171.57,
+"t": "Over the following months, they\ncollected more than 50 raincoats,"
+},
+{
+"a": 171.57,
+"b": 174.79,
+"t": "some stolen and some picked\nup around the prison."
+},
+{
+"a": 174.79,
+"b": 179.37,
+"t": "They turned them into life vests\nand a raft about 6 feet by 14,"
+},
+{
+"a": 179.37,
+"b": 183.05,
+"t": "big enough for three grown\nmen if nobody moved much."
+},
+{
+"a": 183.05,
+"b": 187.05,
+"t": "To seal the seams, they pressed\nthem against the hot steam pipes,"
+},
+{
+"a": 187.05,
+"b": 191.21,
+"t": "and on Alcatraz, that's about as\nclose to a factory as you get."
+},
+{
+"a": 191.21,
+"b": 195.37,
+"t": "For a pump, they turned a musical\ninstrument into a bellows."
+},
+{
+"a": 195.37,
+"b": 198.21,
+"t": "They made paddles out of scraps of wood,"
+},
+{
+"a": 198.21,
+"b": 200.73,
+"t": "and they made the heads so that at night,"
+},
+{
+"a": 200.73,
+"b": 205.29,
+"t": "from the walkway, every bunk would\nlook like it had a man asleep in it."
+},
+{
+"a": 205.29,
+"b": 210.35,
+"t": "The last job was the way out, a\nventilator in the roof above the workshop."
+},
+{
+"a": 210.35,
+"b": 212.73,
+"t": "They worked it loose, and from below,"
+},
+{
+"a": 212.73,
+"b": 215.28,
+"t": "it still looked like it was bolted down."
+},
+{
+"a": 215.35,
+"b": 218.37,
+"t": "By the second week of June 1962,"
+},
+{
+"a": 218.37,
+"b": 219.87,
+"t": "everything was ready."
+},
+{
+"a": 219.87,
+"b": 222.71,
+"t": "Everything except Allen West's vent cover,"
+},
+{
+"a": 222.71,
+"b": 224.59,
+"t": "which was still in his wall."
+},
+{
+"a": 224.59,
+"b": 229.63,
+"t": "On the evening of June 11th, Morris and the\nAnglins pulled out their vent covers and"
+},
+{
+"a": 229.63,
+"b": 231.56,
+"t": "crawled into the corridor."
+},
+{
+"a": 231.57,
+"b": 236.11,
+"t": "Allen West couldn't get his out because\nhe hadn't finished taking it apart."
+},
+{
+"a": 236.11,
+"b": 239.41,
+"t": "By the time he got through,\nthe others were gone."
+},
+{
+"a": 239.41,
+"b": 243.19,
+"t": "So the man who'd helped plan the whole\nthing was still on the island the next"
+},
+{
+"a": 243.19,
+"b": 247.75,
+"t": "morning, and he's the one who\ntold the FBI how it was done."
+},
+{
+"a": 247.75,
+"b": 250.09,
+"t": "The other three climbed\nup to the workshop,"
+},
+{
+"a": 250.09,
+"b": 251.81,
+"t": "pushed out the roof ventilator,"
+},
+{
+"a": 251.81,
+"b": 254.17,
+"t": "and came out on top of the prison."
+},
+{
+"a": 254.17,
+"b": 258.51,
+"t": "They crossed the roof and climbed down a\nsmokestack at the back of the cell house,"
+},
+{
+"a": 258.51,
+"b": 261.09,
+"t": "a stack about 45 feet high."
+},
+{
+"a": 261.09,
+"b": 264.85,
+"t": "They got over the fence and down to\nthe northeast shore of the island,"
+},
+{
+"a": 264.85,
+"b": 269.78,
+"t": "and nobody saw them, which on Alcatraz\nwas supposed to be impossible."
+},
+{
+"a": 269.81,
+"b": 273.71,
+"t": "There, they pumped up the raft\nand pushed off into the dark."
+},
+{
+"a": 273.71,
+"b": 277.04,
+"t": "What they couldn't do\nanything about was the tide."
+},
+{
+"a": 277.21,
+"b": 279.81,
+"t": "The water in the bay was\non the move that night,"
+},
+{
+"a": 279.81,
+"b": 283.09,
+"t": "and it would decide where\na small raft ended up."
+},
+{
+"a": 283.09,
+"b": 286.59,
+"t": "Leave at the wrong time, and the\ncurrent takes you out to sea,"
+},
+{
+"a": 286.59,
+"b": 288.33,
+"t": "past the Golden Gate."
+},
+{
+"a": 288.33,
+"b": 293.55,
+"t": "More than 50 years later, that tide is\nstill the best clue anyone has about where"
+},
+{
+"a": 293.55,
+"b": 294.66,
+"t": "they went."
+},
+{
+"a": 294.67,
+"b": 298.73,
+"t": "The next morning, the guards counted\nthree heads that weren't real."
+},
+{
+"a": 298.73,
+"b": 301.71,
+"t": "Before long, the FBI, the Coast Guard,"
+},
+{
+"a": 301.71,
+"b": 304.93,
+"t": "and the local police were\nall out on the water."
+},
+{
+"a": 304.93,
+"b": 309.41,
+"t": "Within two days, they'd found a packet\nsealed in rubber with the Anglins' letters"
+},
+{
+"a": 309.41,
+"b": 311.48,
+"t": "and photographs inside."
+},
+{
+"a": 311.53,
+"b": 313.87,
+"t": "A paddle turned up off Angel Island,"
+},
+{
+"a": 313.87,
+"b": 315.58,
+"t": "north of Alcatraz."
+},
+{
+"a": 315.59,
+"b": 318.61,
+"t": "Then a life vest washed\nup on Cronkhite Beach,"
+},
+{
+"a": 318.61,
+"b": 320.41,
+"t": "out past the Golden Gate."
+},
+{
+"a": 320.41,
+"b": 325.17,
+"t": "That's the Pacific side, which is exactly\nwhere you'd expect things to end up if the"
+},
+{
+"a": 325.17,
+"b": 327.71,
+"t": "current had swept the raft out to sea."
+},
+{
+"a": 327.71,
+"b": 330.03,
+"t": "About six weeks after the escape,"
+},
+{
+"a": 330.03,
+"b": 334.43,
+"t": "the crew of a Norwegian freighter saw\nwhat they said was a body floating in the"
+},
+{
+"a": 334.43,
+"b": 336.51,
+"t": "ocean beyond the bridge."
+},
+{
+"a": 336.51,
+"b": 338.55,
+"t": "They didn't report it for months,"
+},
+{
+"a": 338.55,
+"b": 340.57,
+"t": "and it was never recovered."
+},
+{
+"a": 340.57,
+"b": 344.95,
+"t": "Bits of rubber turned up too, but\nthey never found the raft itself,"
+},
+{
+"a": 344.95,
+"b": 346.85,
+"t": "and they never found the men."
+},
+{
+"a": 346.85,
+"b": 348.83,
+"t": "The government says they drowned,"
+},
+{
+"a": 348.83,
+"b": 350.87,
+"t": "and it's got a strong case."
+},
+{
+"a": 350.87,
+"b": 355.33,
+"t": "In water that cold, even a strong swimmer\ncan lose the use of his arms and legs"
+},
+{
+"a": 355.33,
+"b": 359.85,
+"t": "fast, and they were crossing\nit at night on a homemade raft."
+},
+{
+"a": 359.85,
+"b": 363.2,
+"t": "The currents around the\nisland had killed men before."
+},
+{
+"a": 363.31,
+"b": 365.77,
+"t": "The Anglins' packet turned up in the bay,"
+},
+{
+"a": 365.77,
+"b": 369.17,
+"t": "and that's not something you'd\nlose if your landing went well."
+},
+{
+"a": 369.17,
+"b": 372.35,
+"t": "And not one of the three\nhas shown his face since,"
+},
+{
+"a": 372.35,
+"b": 374.22,
+"t": "not for certain anyway."
+},
+{
+"a": 374.33,
+"b": 379.63,
+"t": "The FBI looked for 17 years, and it says\nnothing credible ever turned up to show"
+},
+{
+"a": 379.63,
+"b": 383.47,
+"t": "they were alive, in\nAmerica or anywhere else."
+},
+{
+"a": 383.47,
+"b": 385.74,
+"t": "These were career criminals."
+},
+{
+"a": 385.77,
+"b": 389.57,
+"t": "Men like that usually get caught\ndoing the one thing they know,"
+},
+{
+"a": 389.57,
+"b": 391.71,
+"t": "and these three never were."
+},
+{
+"a": 391.71,
+"b": 397.03,
+"t": "On December 31st, 1979,\nthe FBI closed its case."
+},
+{
+"a": 397.03,
+"b": 401.23,
+"t": "It concluded they hadn't survived the\ncrossing and handed the file to the US"
+},
+{
+"a": 401.23,
+"b": 403.53,
+"t": "Marshals, who kept looking."
+},
+{
+"a": 403.53,
+"b": 407.25,
+"t": "But the Anglin brothers' family\nnever believed any of it."
+},
+{
+"a": 407.25,
+"b": 411.89,
+"t": "The family says their mother got Christmas\ncards and roses for years after the"
+},
+{
+"a": 411.89,
+"b": 412.99,
+"t": "escape."
+},
+{
+"a": 412.99,
+"b": 416.25,
+"t": "None of the envelopes they've\nshown has a postmark though,"
+},
+{
+"a": 416.25,
+"b": 419.15,
+"t": "so nobody can say when\nthe cards were sent."
+},
+{
+"a": 419.15,
+"b": 422.03,
+"t": "The handwriting was looked\nat and called theirs,"
+},
+{
+"a": 422.03,
+"b": 424.43,
+"t": "but that only tells you\nwho wrote the cards,"
+},
+{
+"a": 424.43,
+"b": 425.57,
+"t": "not when."
+},
+{
+"a": 425.57,
+"b": 430.75,
+"t": "In 2015, the family went further and\nreleased a photo they said showed John and"
+},
+{
+"a": 430.75,
+"b": 435.29,
+"t": "Clarence on a farm in Brazil in 1975."
+},
+{
+"a": 435.29,
+"b": 437.53,
+"t": "The photo came from a family friend,"
+},
+{
+"a": 437.53,
+"b": 442.97,
+"t": "and a forensic imaging expert said the faces\nlooked more like the brothers than not."
+},
+{
+"a": 442.97,
+"b": 447.53,
+"t": "A retired marshal's deputy who worked the\ncase said the men in the photo weren't the"
+},
+{
+"a": 447.53,
+"b": 451.23,
+"t": "Anglins, and he called\nthe friend a con man."
+},
+{
+"a": 451.23,
+"b": 452.92,
+"t": "Then there's the letter."
+},
+{
+"a": 453.05,
+"b": 458.35,
+"t": "In 2013, the San Francisco Police\ngot a letter signed John Anglin."
+},
+{
+"a": 458.35,
+"b": 461.51,
+"t": "It said he was 83, he had cancer,"
+},
+{
+"a": 461.51,
+"b": 463.87,
+"t": "and all three of them\nhad made it that night,"
+},
+{
+"a": 463.87,
+"b": 465.51,
+"t": "but only just."
+},
+{
+"a": 465.51,
+"b": 470.9,
+"t": "It said Frank Morris died in\n2008 and Clarence in 2011,"
+},
+{
+"a": 470.99,
+"b": 472.77,
+"t": "and it offered a deal."
+},
+{
+"a": 472.77,
+"b": 477.75,
+"t": "If they announced on TV that he'd get\nmedical help and no more than a year in jail,"
+},
+{
+"a": 477.75,
+"b": 480.8,
+"t": "he'd write back and say\nexactly where he was."
+},
+{
+"a": 480.81,
+"b": 483.15,
+"t": "The FBI tested it for fingerprints,"
+},
+{
+"a": 483.15,
+"b": 485.37,
+"t": "DNA, and handwriting."
+},
+{
+"a": 485.37,
+"b": 487.8,
+"t": "The results were inconclusive."
+},
+{
+"a": 487.83,
+"b": 492.33,
+"t": "So the letter could be real, or it\ncould be somebody's idea of a joke,"
+},
+{
+"a": 492.33,
+"b": 495.15,
+"t": "and there's no way to\ntell which from the paper."
+},
+{
+"a": 495.15,
+"b": 497.0,
+"t": "That leaves the tide."
+},
+{
+"a": 497.15,
+"b": 502.81,
+"t": "In 2014, scientists at Delft University in\nthe Netherlands ran a model of the bay's"
+},
+{
+"a": 502.81,
+"b": 505.37,
+"t": "currents for that exact night."
+},
+{
+"a": 505.37,
+"b": 510.11,
+"t": "They set virtual rafts loose from Alcatraz\nat different times and watched where they"
+},
+{
+"a": 510.11,
+"b": 511.03,
+"t": "went."
+},
+{
+"a": 511.03,
+"b": 514.77,
+"t": "Leave too early, and the\ntide carries you out to sea."
+},
+{
+"a": 514.77,
+"b": 518.77,
+"t": "But leave between about 11:00\nand midnight and paddle hard,"
+},
+{
+"a": 518.77,
+"b": 522.41,
+"t": "and you could land near the north\nend of the Golden Gate Bridge."
+},
+{
+"a": 522.41,
+"b": 527.33,
+"t": "And in that same run, the debris floated\nback into the bay towards Angel Island,"
+},
+{
+"a": 527.33,
+"b": 529.51,
+"t": "which is where the paddle was found."
+},
+{
+"a": 529.51,
+"b": 534.54,
+"t": "So that paddle off Angel Island looked\nlike one more sign they'd drowned."
+},
+{
+"a": 534.55,
+"b": 539.73,
+"t": "But it fits a crossing that worked just\nas well if they set off at the right time."
+},
+{
+"a": 539.73,
+"b": 542.71,
+"t": "Nobody knows exactly when they did though."
+},
+{
+"a": 542.71,
+"b": 546.48,
+"t": "The FBI's account only says\nthey left in the evening."
+},
+{
+"a": 546.49,
+"b": 548.4,
+"t": "So, did they make it?"
+},
+{
+"a": 548.49,
+"b": 551.13,
+"t": "On the evidence, they probably didn't,"
+},
+{
+"a": 551.13,
+"b": 554.7,
+"t": "but it's a lot closer than the\nofficial story makes it sound."
+},
+{
+"a": 554.73,
+"b": 557.45,
+"t": "Nothing they left behind proves they died,"
+},
+{
+"a": 557.45,
+"b": 560.65,
+"t": "and the tide model shows\nthe crossing could be done."
+},
+{
+"a": 560.65,
+"b": 565.43,
+"t": "The cards, the photo, and the letter\nare the only signs that they made it,"
+},
+{
+"a": 565.43,
+"b": 568.49,
+"t": "and nobody has been able\nto prove any of them."
+},
+{
+"a": 568.49,
+"b": 572.09,
+"t": "And staying hidden for 60\nyears without one slip,"
+},
+{
+"a": 572.09,
+"b": 575.17,
+"t": "with the FBI and then the\nmarshals looking for you,"
+},
+{
+"a": 575.17,
+"b": 577.59,
+"t": "is a very hard thing to pull off."
+},
+{
+"a": 577.59,
+"b": 580.76,
+"t": "If we had to bet, we'd say the bay won."
+},
+{
+"a": 580.91,
+"b": 583.7,
+"t": "The marshals don't think\nthe bet's settled either."
+},
+{
+"a": 583.71,
+"b": 589.57,
+"t": "In 2022, they put out computer images of\nwhat the three might look like as old men,"
+},
+{
+"a": 589.57,
+"b": 591.53,
+"t": "and the case is still open."
+},
+{
+"a": 591.53,
+"b": 595.67,
+"t": "In 2012, they said they'd keep hunting\nthe three until they're arrested,"
+},
+{
+"a": 595.67,
+"b": 599.03,
+"t": "proven dead, or reach the age of 99."
+},
+{
+"a": 599.03,
+"b": 603.85,
+"t": "Frank Morris would have\nturned 99 in September 2025."
+},
+{
+"a": 603.85,
+"b": 606.69,
+"t": "John Anglin would reach it in 2029,"
+},
+{
+"a": 606.69,
+"b": 609.05,
+"t": "and Clarence in 2030."
+},
+{
+"a": 609.05,
+"b": 614.33,
+"t": "By the marshals' own rule, that keeps\nthe two brothers wanted men until then."
+},
+{
+"a": 614.33,
+"b": 618.75,
+"t": "Our next story is another American\nlandmark with an official number on it,"
+},
+{
+"a": 618.75,
+"b": 622.05,
+"t": "the 96 men who died building Hoover Dam,"
+},
+{
+"a": 622.05,
+"b": 624.44,
+"t": "and the deaths the count left out."
+}
+],
+"subs": [],
+"grain": true,
+"grainOpacity": 0.07,
+"parts": 4,
+"subkit": {
+"channel": "ho",
+"film_end": 627.84,
+"pops": [
+170.0,
+476.0
+],
+"P": 52,
+"B": 90,
+"old_subs": [],
+"voice": "Thanks for watching. Subscribe for more history. It helps support the channel."
+}
+}
