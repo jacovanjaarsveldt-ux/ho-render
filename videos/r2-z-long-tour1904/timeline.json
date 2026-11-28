@@ -99,8 +99,7 @@
 "o": "50% 50%",
 "dir": -1,
 "line": "The papers that say what the first man over the line had really done went missing in 1940.",
-"pic": "a/p108",
-"lbl": "MISSING SINCE 1940"
+"pic": "a/p108"
 },
 {
 "a": 29.52,
@@ -251,7 +250,7 @@
 "y": 898.3,
 "label": "MARSEILLE",
 "at": 0.2,
-"anchor": "b",
+"anchor": "t",
 "red": false,
 "plain": false
 },
@@ -260,7 +259,7 @@
 "y": 865.3,
 "label": "TOULOUSE",
 "at": 0.28,
-"anchor": "b",
+"anchor": "t",
 "red": false,
 "plain": false
 },
@@ -443,13 +442,13 @@
 {
 "a": 99.2,
 "b": 102.2,
-"kind": "img",
-"src": "img/crop/a_p0_030_000_100_075.jpg",
+"kind": "comp",
+"src": "img/a/p2.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": -1,
 "line": "So the next summer they did it all again.",
-"pic": "a/p0"
+"pic": "a/p2"
 },
 {
 "a": 102.2,
@@ -544,7 +543,7 @@
 "y": 898.3,
 "label": "MARSEILLE",
 "at": 0.26,
-"anchor": "b",
+"anchor": "t",
 "red": false,
 "plain": false
 },
@@ -553,7 +552,7 @@
 "y": 865.3,
 "label": "TOULOUSE",
 "at": 0.33999999999999997,
-"anchor": "b",
+"anchor": "t",
 "red": false,
 "plain": false
 },
@@ -972,7 +971,7 @@
 "y": 634.7,
 "label": "LYON",
 "at": 0.0,
-"anchor": "r",
+"anchor": "t",
 "red": false,
 "plain": false
 },
@@ -999,7 +998,7 @@
 "y": 898.3,
 "label": "MARSEILLE",
 "at": 0.55,
-"anchor": "b",
+"anchor": "t",
 "red": false,
 "plain": false
 }
@@ -1040,13 +1039,13 @@
 {
 "a": 208.7,
 "b": 215.62,
-"kind": "comp",
-"src": "img/a/p83.jpg",
+"kind": "img",
+"src": "img/b/p22.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": -1,
 "line": "His fans were waiting at the top, somewhere between one and two hundred of them.",
-"pic": "a/p83"
+"pic": "b/p22"
 },
 {
 "a": 215.62,
@@ -1081,9 +1080,9 @@
 "a": 227.24,
 "b": 229.86,
 "kind": "comp",
-"src": "img/a/p51.jpg",
+"src": "img/crop/a_p51_010_010_048_082.jpg",
 "cam": "push",
-"o": "50% 35%",
+"o": "50% 50%",
 "dir": -1,
 "line": "Garin was hurt in the hand, and his brother C\u00e9sar was hit as well.",
 "pic": "a/p51"
@@ -1148,12 +1147,12 @@
 "a": 251.12,
 "b": 254.9,
 "kind": "img",
-"src": "img/b/p22.jpg",
+"src": "img/crop/b_p21_025_025_100_100.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": -1,
 "line": "The Tour was so angry with Saint-Etienne that it didn't go back there until 1950.",
-"pic": "b/p22"
+"pic": "b/p21"
 },
 {
 "a": 254.9,
@@ -1281,7 +1280,7 @@
 "y": 898.3,
 "label": "MARSEILLE",
 "at": 0.0,
-"anchor": "b",
+"anchor": "t",
 "red": false,
 "plain": false
 },
@@ -1290,7 +1289,7 @@
 "y": 865.3,
 "label": "TOULOUSE",
 "at": 0.0,
-"anchor": "b",
+"anchor": "t",
 "red": false,
 "plain": false
 },
@@ -1427,12 +1426,12 @@
 "a": 316.84,
 "b": 321.4,
 "kind": "comp",
-"src": "img/a/p56.jpg",
+"src": "img/a/p70.jpg",
 "cam": "push",
 "o": "50% 35%",
 "dir": 1,
 "line": "But that wasn't the end of it, because the men who'd seen it didn't forget.",
-"pic": "a/p56"
+"pic": "a/p70"
 },
 {
 "a": 321.4,
@@ -1684,35 +1683,35 @@
 {
 "a": 380.53,
 "b": 386.56,
-"kind": "comp",
-"src": "img/b/p0.jpg",
+"kind": "img",
+"src": "img/b/p18.jpg",
 "cam": "push",
-"o": "50% 40%",
+"o": "50% 50%",
 "dir": -1,
 "line": "The last stage came in on the twenty-fourth of July, in pouring rain.",
-"pic": "b/p0"
+"pic": "b/p18"
 },
 {
 "a": 386.56,
 "b": 391.1,
-"kind": "img",
-"src": "img/b/p1.jpg",
-"cam": "pan",
+"kind": "comp",
+"src": "img/crop/a_p93_015_010_090_090.jpg",
+"cam": "push",
 "o": "50% 50%",
 "dir": 1,
 "line": "It was so wet that they finished it at Ville-d'Avray, just outside Paris, and called off the lap of honour in the stadium.",
-"pic": "b/p1"
+"pic": "a/p93"
 },
 {
 "a": 391.1,
 "b": 393.78,
-"kind": "comp",
-"src": "img/b/p3.jpg",
-"cam": "push",
+"kind": "img",
+"src": "img/b/p1.jpg",
+"cam": "pan",
 "o": "50% 50%",
 "dir": -1,
 "line": "It was so wet that they finished it at Ville-d'Avray, just outside Paris, and called off the lap of honour in the stadium.",
-"pic": "b/p3"
+"pic": "b/p1"
 },
 {
 "a": 393.78,
@@ -1827,7 +1826,7 @@
 "text": "CORNET: NEARLY 3 HOURS BEHIND",
 "at": 0.6,
 "x": 960,
-"y": 930
+"y": 790
 }
 ]
 },
@@ -1998,13 +1997,9 @@
 {
 "a": 485.2,
 "b": 490.32,
-"kind": "img",
-"src": "img/crop/b_p5_010_005_090_048.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": 1,
-"line": "France's cycling union, the body that ran the sport, opened an inquiry.",
-"pic": "b/p5"
+"kind": "card",
+"text": "FRANCE'S CYCLING UNION\nOPENS AN INQUIRY",
+"line": "France's cycling union, the body that ran the sport, opened an inquiry."
 },
 {
 "a": 490.32,
@@ -2049,23 +2044,12 @@
 },
 {
 "a": 497.0,
-"b": 500.66,
-"kind": "img",
-"src": "img/crop/a_p56_000_000_100_060.jpg",
+"b": 503.98,
+"kind": "comp",
+"src": "img/crop/a_p1_000_000_100_055.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": 1,
-"line": "On the thirtieth of November the union gave its verdict, and two days later L'Auto printed a new result.",
-"pic": "a/p56"
-},
-{
-"a": 500.66,
-"b": 503.98,
-"kind": "comp",
-"src": "img/a/p1.png",
-"cam": "push",
-"o": "50% 50%",
-"dir": -1,
 "line": "On the thirtieth of November the union gave its verdict, and two days later L'Auto printed a new result.",
 "pic": "a/p1"
 },
@@ -2076,7 +2060,7 @@
 "src": "img/a/p37.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": 1,
+"dir": -1,
 "line": "It didn't start with Garin.",
 "pic": "a/p37"
 },
@@ -2162,12 +2146,7 @@
 {
 "t": "5  HENRI CORNET",
 "at": 0.0,
-"move": {
-"at": 0.6,
-"to": 0,
-"t": "1  HENRI CORNET"
-},
-"color": "#F3EEE4"
+"color": "#E8B04A"
 }
 ]
 },
@@ -2177,6 +2156,12 @@
 "at": 0.12,
 "x": 960,
 "y": 150
+},
+{
+"text": "NEW WINNER: HENRI CORNET",
+"at": 0.6,
+"x": 960,
+"y": 800
 }
 ]
 },
@@ -2220,7 +2205,7 @@
 "src": "img/crop/a_p11_015_000_085_055.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Garin was banned for two years.",
 "pic": "a/p11"
 },
@@ -2231,7 +2216,7 @@
 "src": "img/crop/a_p40_020_000_080_050.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Pothier, the man in second, was banned for life, though that was later cut to three years.",
 "pic": "a/p40"
 },
@@ -2242,7 +2227,7 @@
 "src": "img/a/p67.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": 1,
+"dir": -1,
 "line": "The man moved up to second was Jean-Baptiste Dortignacq, more than two hours behind.",
 "pic": "a/p67",
 "lbl": "JEAN-BAPTISTE DORTIGNACQ"
@@ -2254,7 +2239,7 @@
 "src": "img/a/p36.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "And the new winner of the 1904 Tour de France was the kid who'd come fifth, Henri Cornet.",
 "pic": "a/p36"
 },
@@ -2262,10 +2247,10 @@
 "a": 538.9,
 "b": 545.78,
 "kind": "comp",
-"src": "img/a/p26.jpg",
+"src": "img/crop/a_p26_008_020_042_090.jpg",
 "cam": "push",
-"o": "50% 30%",
-"dir": 1,
+"o": "50% 50%",
+"dir": -1,
 "line": "He'd been warned too, and one account says it was for taking a lift in a car, but it didn't cost him the win.",
 "pic": "a/p26"
 },
@@ -2309,7 +2294,7 @@
 "src": "img/a/p47.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": 1,
+"dir": -1,
 "line": "Aucouturier was struck off the result as well, but he wasn't banned, and he was back at the Tour the next summer, where he finished second.",
 "pic": "a/p47",
 "lbl": "HIPPOLYTE AUCOUTURIER"
@@ -2321,7 +2306,7 @@
 "src": "img/a/p43.jpg",
 "cam": "push",
 "o": "50% 30%",
-"dir": -1,
+"dir": 1,
 "line": "Aucouturier was struck off the result as well, but he wasn't banned, and he was back at the Tour the next summer, where he finished second.",
 "pic": "a/p43"
 },
@@ -2332,7 +2317,7 @@
 "src": "img/crop/a_p18_015_000_085_060.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Garin said he'd done nothing wrong, and he called the verdict a flagrant injustice.",
 "pic": "a/p18"
 },
@@ -2343,7 +2328,7 @@
 "src": "img/b/p6.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "And the union never said in public exactly what he'd done.",
 "pic": "b/p6"
 },
@@ -2354,7 +2339,7 @@
 "src": "img/crop/a_p104_030_020_090_090.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "So what happened to the evidence?",
 "pic": "a/p104"
 },
@@ -2365,7 +2350,7 @@
 "src": "img/crop/a_p108_000_010_060_090.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The answer should be in the files from the inquiry, the letters and complaints the whole verdict was built on.",
 "pic": "a/p108"
 },
@@ -2376,7 +2361,7 @@
 "src": "img/crop/a_p106_030_010_100_090.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The answer should be in the files from the inquiry, the letters and complaints the whole verdict was built on.",
 "pic": "a/p106"
 },
@@ -2442,12 +2427,6 @@
 "at": 0.0,
 "x": 960,
 "y": 100
-},
-{
-"text": "NEVER SEEN AGAIN",
-"at": 0.72,
-"x": 960,
-"y": 960
 }
 ]
 },
@@ -2468,7 +2447,7 @@
 "src": "img/crop/b_p12_030_010_100_085.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Nobody knows for certain that Garin ever stood on a railway platform in 1904.",
 "pic": "b/p12"
 },
@@ -2479,7 +2458,7 @@
 "src": "img/crop/a_p14_015_000_085_060.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "So for what Garin actually did, there's one place left to look.",
 "pic": "a/p14"
 },
@@ -2516,7 +2495,7 @@
 {
 "text": "GARIN'S GARAGE",
 "at": 0.2,
-"x": 960,
+"x": 700,
 "y": 100
 }
 ]
@@ -2531,20 +2510,27 @@
 "src": "img/a/p20.jpg",
 "cam": "push",
 "o": "50% 40%",
-"dir": 1,
+"dir": -1,
 "line": "He died in 1957.",
 "pic": "a/p20"
 },
 {
 "a": 606.12,
+"b": 609.12,
+"kind": "card",
+"text": "LES WOODLAND,\nCYCLING WRITER",
+"line": "Years later, the cycling writer Les Woodland met a man in Lens who'd known him."
+},
+{
+"a": 609.12,
 "b": 611.32,
 "kind": "comp",
-"src": "img/crop/a_p3_015_010_085_060.jpg",
-"cam": "push",
+"src": "img/crop/a_p20_000_000_100_060.jpg",
+"cam": "pull",
 "o": "50% 50%",
 "dir": -1,
 "line": "Years later, the cycling writer Les Woodland met a man in Lens who'd known him.",
-"pic": "a/p3"
+"pic": "a/p20"
 },
 {
 "a": 611.32,
@@ -2572,7 +2558,7 @@
 "a": 620.0,
 "b": 622.7,
 "kind": "comp",
-"src": "img/crop/a_p3_030_005_070_035.jpg",
+"src": "img/crop/a_p3_025_015_075_047.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": 1,
@@ -2606,12 +2592,12 @@
 "a": 630.24,
 "b": 635.42,
 "kind": "comp",
-"src": "img/crop/a_p14_000_000_100_080.jpg",
-"cam": "pull",
+"src": "img/crop/a_p19_020_000_080_070.jpg",
+"cam": "push",
 "o": "50% 50%",
 "dir": -1,
 "line": "That's one man's memory, told to one writer, a long time after.",
-"pic": "a/p14"
+"pic": "a/p19"
 },
 {
 "a": 635.42,
