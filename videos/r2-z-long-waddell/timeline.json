@@ -380,7 +380,7 @@
 {
 "a": 104.38,
 "b": 108.32,
-"kind": "comp",
+"kind": "small",
 "src": "img/crop/w_c121_876c50.jpg",
 "cam": "push",
 "o": "50% 50%",
@@ -470,7 +470,7 @@
 },
 {
 "a": 128.52,
-"b": 133.38,
+"b": 130.72,
 "kind": "comp",
 "src": "img/crop/w_c016_dc48c8.jpg",
 "cam": "push",
@@ -481,7 +481,7 @@
 "label": "PHILADELPHIA\nATHLETICS, 1902"
 },
 {
-"a": 133.38,
+"a": 130.72,
 "b": 134.94,
 "kind": "card",
 "text": "1900: MACK MANAGES\nWADDELL IN MILWAUKEE",
@@ -764,23 +764,11 @@
 },
 {
 "a": 222.06,
-"b": 226.56,
+"b": 228.7,
 "kind": "card",
 "text": "THE SPORTING NEWS:\n\"THE SOUSEPAW\"",
 "line": "The Sporting News once called him the sousepaw, a joke on southpaw that everyone in baseball understood.",
 "bg": "img/w/c117.jpg"
-},
-{
-"a": 226.56,
-"b": 228.7,
-"kind": "comp",
-"src": "img/crop/w_c117_21732b.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": 1,
-"line": "The Sporting News once called him the sousepaw, a joke on southpaw that everyone in baseball understood.",
-"pic": "w/c117",
-"label": "THEATRE POSTER, 1903"
 },
 {
 "a": 228.7,
@@ -789,7 +777,7 @@
 "src": "img/crop/w_g45_e748dc.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "None of it hurt his pitching.",
 "pic": "w/g45"
 },
@@ -800,7 +788,7 @@
 "src": "img/w/c047.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The next spring he was back, and the next strange story took him into the water with an animal that could have ended his career in one bite.",
 "pic": "w/c047",
 "label": "BOSTON AMERICAN\nLEAGUE GROUNDS, 1903"
@@ -813,7 +801,7 @@
 "mask": false,
 "line": "The next spring he was back, and the next strange story took him into the water with an animal that could have ended his career in one bite.",
 "film": "ALG 70.0-73.7",
-"dir": -1,
+"dir": 1,
 "label": "ALLIGATOR FARM\n1913 FILM"
 },
 {
@@ -831,7 +819,7 @@
 "src": "img/crop/w_c007_6b9292.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The man who led the American League in strikeouts wrestled alligators, and two separate records say so.",
 "pic": "w/c007",
 "label": "RUBE WADDELL"
@@ -844,7 +832,7 @@
 "mask": false,
 "line": "The man who led the American League in strikeouts wrestled alligators, and two separate records say so.",
 "film": "ALG 84.0-88.2",
-"dir": 1,
+"dir": -1,
 "label": "ALLIGATOR FARM\n1913 FILM"
 },
 {
@@ -854,7 +842,7 @@
 "src": "img/crop/w_c103_54bf69.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The story comes in two versions.",
 "pic": "w/c103",
 "label": "ALLIGATOR JOE\nPALM BEACH, 1904"
@@ -866,10 +854,10 @@
 "src": "img/crop/w_c107_3eaad2.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In one, from his SABR biography, he went missing during spring training and was found in a lagoon near Jacksonville, Florida, wrestling an alligator.",
 "pic": "w/c107",
-"label": "ALLIGATOR HUNTER\nPALM BEACH"
+"label": "ALLIGATOR HUNTER\nFLORIDA, 1900s"
 },
 {
 "a": 256.34,
@@ -885,7 +873,7 @@
 "src": "img/crop/w_c110_9f6203.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In one, from his SABR biography, he went missing during spring training and was found in a lagoon near Jacksonville, Florida, wrestling an alligator.",
 "pic": "w/c110",
 "label": "ALLIGATOR FARM\nc.1907"
@@ -897,7 +885,7 @@
 "src": "img/crop/w_c104_8b4d25.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In the other, he did it as a performer, and the Hall of Fame puts it in one line, that Waddell once performed as an alligator wrestler.",
 "pic": "w/c104",
 "label": "AN ALLIGATOR SHOW\nPOSTCARD, 1903"
@@ -916,7 +904,7 @@
 "src": "img/w/c111.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Nobody wrote down the date, the size of the alligator, or who won.",
 "pic": "w/c111",
 "label": "ALLIGATOR FARM\nc.1907"
@@ -929,7 +917,7 @@
 "mask": false,
 "line": "Nobody wrote down the date, the size of the alligator, or who won.",
 "film": "ALG 161.0-162.4",
-"dir": 1
+"dir": -1
 },
 {
 "a": 274.32,
@@ -938,7 +926,7 @@
 "src": "img/crop/w_c140_2627c8.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Either way, Connie Mack's best pitcher was rolling around in the water with an alligator, and his left arm was the most valuable thing the Athletics owned.",
 "pic": "w/c140",
 "label": "CONNIE MACK"
@@ -951,7 +939,7 @@
 "mask": false,
 "line": "Either way, Connie Mack's best pitcher was rolling around in the water with an alligator, and his left arm was the most valuable thing the Athletics owned.",
 "film": "ALG 74.5-77.0",
-"dir": 1
+"dir": -1
 },
 {
 "a": 279.38,
@@ -960,7 +948,7 @@
 "src": "img/crop/w_c004_418609.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Either way, Connie Mack's best pitcher was rolling around in the water with an alligator, and his left arm was the most valuable thing the Athletics owned.",
 "pic": "w/c004"
 },
@@ -971,7 +959,7 @@
 "src": "img/crop/w_c015_b0e1af.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Mack put up with it, because of what that arm could do on a baseball field.",
 "pic": "w/c015"
 },
@@ -983,7 +971,7 @@
 "mask": false,
 "line": "And on some days it could do something nobody else would even try.",
 "film": "BALL 28.5-32.5",
-"dir": -1,
+"dir": 1,
 "label": "BASEBALL\n1898 FILM"
 },
 {
@@ -1001,7 +989,7 @@
 "src": "img/crop/w_c014_113905.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In exhibition games, Waddell sometimes waved his fielders off the field and then struck out the side with nobody behind him.",
 "pic": "w/c014",
 "label": "RUBE WADDELL"
@@ -1013,7 +1001,7 @@
 "src": "img/crop/w_c048_26194e.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In exhibition games, Waddell sometimes waved his fielders off the field and then struck out the side with nobody behind him.",
 "pic": "w/c048",
 "label": "A BALLPARK, BOSTON 1903"
@@ -1026,7 +1014,7 @@
 "mask": false,
 "line": "Exhibition games were extra games teams played for the money, against local sides and minor league clubs, and they didn't count.",
 "film": "BALL 15.5-18.4",
-"dir": -1,
+"dir": 1,
 "label": "BASEBALL\n1898 FILM"
 },
 {
@@ -1037,7 +1025,7 @@
 "mask": false,
 "line": "Exhibition games were extra games teams played for the money, against local sides and minor league clubs, and they didn't count.",
 "film": "BALL 18.4-21.3",
-"dir": 1
+"dir": -1
 },
 {
 "a": 309.62,
@@ -1046,7 +1034,7 @@
 "src": "img/w/c036.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Exhibition games were extra games teams played for the money, against local sides and minor league clubs, and they didn't count.",
 "pic": "w/c036",
 "label": "A BALLPARK, 1907"
@@ -1058,7 +1046,7 @@
 "src": "img/crop/w_c011_17fb45.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "So he could do what he liked.",
 "pic": "w/c011"
 },
@@ -1069,7 +1057,7 @@
 "src": "img/w/c046.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He'd call his teammates in, leave only the catcher, and pitch to three batters with an empty field at his back.",
 "pic": "w/c046",
 "label": "HUNTINGTON AVENUE\nGROUNDS, BOSTON"
@@ -1085,10 +1073,10 @@
 "a": 320.1,
 "b": 324.68,
 "kind": "comp",
-"src": "img/crop/w_c046_1c3672.jpg",
+"src": "img/crop/w_c046_99898a.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "If any of them had hit the ball, it would have rolled all the way to the fence.",
 "pic": "w/c046"
 },
@@ -1107,7 +1095,7 @@
 "src": "img/crop/w_c013_2382fa.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In league games he had other ways to embarrass hitters.",
 "pic": "w/c013"
 },
@@ -1134,7 +1122,7 @@
 "src": "img/crop/w_c014_3c6ac2.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He pitched three hundred and eighty-three innings that year, about twice what a top starter throws today.",
 "pic": "w/c014"
 },
@@ -1152,7 +1140,7 @@
 "src": "img/w/c021.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "That same spring he'd been on the wrong end of the most famous game of the year.",
 "pic": "w/c021",
 "label": "CY YOUNG"
@@ -1164,7 +1152,7 @@
 "src": "img/w/c022.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "On the fifth of May 1904, Cy Young threw a perfect game against the Athletics, and the last man he got out was the other pitcher, Rube Waddell.",
 "pic": "w/c022",
 "label": "CY YOUNG"
@@ -1191,7 +1179,7 @@
 "src": "img/crop/w_c015_753f5e.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Two months later a fastball knocked his teammate Danny Hoffman out cold, and Waddell was the one who picked him up and carried him off the field.",
 "pic": "w/c015"
 },
@@ -1202,7 +1190,7 @@
 "src": "img/crop/w_c047_7977a4.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Hoffman lived, and he played another seven seasons.",
 "pic": "w/c047"
 },
@@ -1213,7 +1201,7 @@
 "src": "img/crop/w_c142_df56b5.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Waddell got his chance at Cy Young the next summer, and neither of them would come out of the game.",
 "pic": "w/c142",
 "label": "CY YOUNG"
@@ -1225,7 +1213,7 @@
 "src": "img/crop/w_c009_e2d74e.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Waddell got his chance at Cy Young the next summer, and neither of them would come out of the game.",
 "pic": "w/c009"
 },
@@ -1263,7 +1251,7 @@
 "src": "img/w/c023.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Cy Young was the most famous pitcher in the game, and he was thirty-eight.",
 "pic": "w/c023",
 "label": "CY YOUNG, 1905"
@@ -1312,7 +1300,7 @@
 "src": "img/w/c050.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "It was a holiday doubleheader at the Huntington Avenue Grounds in Boston.",
 "pic": "w/c050",
 "label": "HUNTINGTON AVENUE\nGROUNDS, BOSTON"
@@ -1324,7 +1312,7 @@
 "src": "img/w/c051.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In the morning game Waddell came in at the end to get the last outs, and the win went to him.",
 "pic": "w/c051",
 "label": "HUNTINGTON AVENUE\nGROUNDS"
@@ -1336,7 +1324,7 @@
 "src": "img/crop/w_c007_e7b3da.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Then he started the afternoon game.",
 "pic": "w/c007"
 },
@@ -1347,7 +1335,7 @@
 "src": "img/crop/w_c143_bdd716.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Cy Young started for Boston, and for Waddell it was already the second game of the day.",
 "pic": "w/c143",
 "label": "CY YOUNG"
@@ -1359,7 +1347,7 @@
 "src": "img/crop/w_c048_4817df.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "They went nine innings, then twelve, then fifteen, and neither man came out.",
 "pic": "w/c048",
 "label": "HUNTINGTON AVENUE\nGROUNDS",
@@ -1379,7 +1367,7 @@
 "src": "img/crop/w_c049_458536.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "They went nine innings, then twelve, then fifteen, and neither man came out.",
 "pic": "w/c049",
 "over": "15"
@@ -1415,7 +1403,7 @@
 "src": "img/crop/w_s116_487b48.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "That season he led the league in wins, in strikeouts and in earned run average, and the Athletics were on their way to the World Series.",
 "pic": "w/s116",
 "label": "SPALDING'S GUIDE, 1906"
@@ -1427,7 +1415,7 @@
 "src": "img/w/c056.png",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He never pitched in it.",
 "pic": "w/c056",
 "label": "1905 WORLD SERIES\nPROGRAMME"
@@ -1440,7 +1428,7 @@
 "mask": false,
 "line": "Two months after the long game, at a railway station, a straw hat got in the way.",
 "film": "PHX 25.5-28.1",
-"dir": -1,
+"dir": 1,
 "label": "EXPRESS TRAIN\n1897 FILM"
 },
 {
@@ -1451,7 +1439,7 @@
 "mask": false,
 "line": "Two months after the long game, at a railway station, a straw hat got in the way.",
 "film": "PHX 28.1-30.7",
-"dir": 1
+"dir": -1
 },
 {
 "a": 445.47,
@@ -1476,7 +1464,7 @@
 "src": "img/crop/w_c006_ed957b.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In September 1905 the best pitcher on the best team in the American League hurt his shoulder over a straw hat, or at least that's what his team said.",
 "pic": "w/c006",
 "label": "RUBE WADDELL\nSEPTEMBER 1905"
@@ -1488,7 +1476,7 @@
 "src": "img/crop/w_c140_d69d73.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Back then men wore straw hats in summer and switched to felt on the first of September.",
 "pic": "w/c140",
 "label": "A STRAW BOATER"
@@ -1500,7 +1488,7 @@
 "src": "img/crop/w_c044_419aba.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Anyone still in straw after that was fair game.",
 "pic": "w/c044",
 "label": "STRAW HATS IN THE\nCROWD, PHILADELPHIA"
@@ -1569,7 +1557,7 @@
 "src": "img/w/c083.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "On the eighth of September, on the way back from Boston, the Athletics' train stopped at Providence, and pitcher Andy Coakley got on still wearing his straw hat.",
 "pic": "w/c083",
 "label": "A RAILROAD STATION\nc.1905"
@@ -1588,7 +1576,7 @@
 "src": "img/crop/w_c083_05403c.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Waddell went for it.",
 "pic": "w/c083"
 },
@@ -1607,7 +1595,7 @@
 "src": "img/crop/w_c015_e93fc1.jpg",
 "cam": "pull",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He barely pitched again that season.",
 "pic": "w/c015"
 },
@@ -1642,7 +1630,7 @@
 "src": "img/w/c017.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The Athletics went into the World Series against the New York Giants without him, and they lost in five games.",
 "pic": "w/c017",
 "label": "MACK AND THE ATHLETICS\n1905 WORLD SERIES"
@@ -1654,7 +1642,7 @@
 "src": "img/w/c149.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The Athletics went into the World Series against the New York Giants without him, and they lost in five games.",
 "pic": "w/c149",
 "label": "NEW YORK GIANTS\n1905"
@@ -1666,7 +1654,7 @@
 "src": "img/w/c054.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Not everybody believed the straw hat story, even then.",
 "pic": "w/c054",
 "label": "1905 WORLD SERIES"
@@ -1678,7 +1666,7 @@
 "src": "img/crop/w_c140_69e771.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "A Philadelphia writer reported that Connie Mack and most of the players thought Waddell was faking.",
 "pic": "w/c140",
 "label": "CONNIE MACK"
@@ -1697,7 +1685,7 @@
 "src": "img/crop/w_c053_4817df.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Others said gamblers in New York had paid him to stay out of the Series.",
 "pic": "w/c053",
 "label": "POLO GROUNDS\n1905 WORLD SERIES"
@@ -1716,7 +1704,7 @@
 "src": "img/crop/w_c008_c89cd7.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Waddell said he really was hurt, and nobody ever proved otherwise.",
 "pic": "w/c008"
 },
@@ -1727,7 +1715,7 @@
 "src": "img/crop/w_c158_47cf1b.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Before the 1908 season, Mack sold him to the St. Louis Browns.",
 "pic": "w/c158",
 "label": "ST. LOUIS BROWNS\n1908"
@@ -1739,7 +1727,7 @@
 "src": "img/crop/w_c011_fbbe78.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "That July, pitching for St. Louis against his old team, he struck out sixteen Athletics in one game.",
 "pic": "w/c011",
 "label": "RUBE WADDELL\nST. LOUIS"
@@ -1758,7 +1746,7 @@
 "src": "img/crop/w_c064_72fb21.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He was four years from the river.",
 "pic": "w/c064",
 "label": "HICKMAN, KENTUCKY\nINSURANCE MAP, 1905"
@@ -1778,7 +1766,7 @@
 "src": "img/crop/w_c008_b48dbc.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In 1912 Rube Waddell stood for hours in icy floodwater, stacking sandbags to save a town in Kentucky, and it cost him his life.",
 "pic": "w/c008",
 "label": "RUBE WADDELL, 1909"
@@ -1790,7 +1778,7 @@
 "src": "img/crop/w_c063_926e95.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In 1912 Rube Waddell stood for hours in icy floodwater, stacking sandbags to save a town in Kentucky, and it cost him his life.",
 "pic": "w/c063"
 },
@@ -1801,7 +1789,7 @@
 "src": "img/w/c004.jpg",
 "cam": "pull",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "By then the big leagues were done with him.",
 "pic": "w/c004"
 },
@@ -1840,7 +1828,7 @@
 "src": "img/w/c038.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In 1911 he still won twenty games for Joe Cantillon's Minneapolis Millers.",
 "pic": "w/c038",
 "label": "MINNEAPOLIS MILLERS\n1908"
@@ -1852,7 +1840,7 @@
 "src": "img/crop/w_c040_e0c03e.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In 1911 he still won twenty games for Joe Cantillon's Minneapolis Millers.",
 "pic": "w/c040",
 "label": "JOE CANTILLON"
@@ -1913,7 +1901,7 @@
 "src": "img/crop/w_c074_94ba77.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In the spring of 1912 the river rose, and the water came for the town.",
 "pic": "w/c074",
 "label": "MISSISSIPPI BASIN\nFLOOD REPORT, 1913"
@@ -1925,7 +1913,7 @@
 "src": "img/w/c071.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In the spring of 1912 the river rose, and the water came for the town.",
 "pic": "w/c071",
 "label": "MISSISSIPPI FLOOD\n1912, BATON ROUGE"
@@ -1937,7 +1925,7 @@
 "src": "img/w/c066.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The men of Hickman piled sandbags on the levee to hold it back, and Waddell went down and joined them.",
 "pic": "w/c066",
 "label": "MISSISSIPPI FLOOD\n1912, VICKSBURG"
@@ -1949,7 +1937,7 @@
 "src": "img/crop/w_c065_8754eb.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The men of Hickman piled sandbags on the levee to hold it back, and Waddell went down and joined them.",
 "pic": "w/c065",
 "label": "MISSISSIPPI FLOOD\n1912, LOUISIANA"
@@ -1961,7 +1949,7 @@
 "src": "img/crop/w_c063_8198d2.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He stood in the cold water for hours, lifting and stacking.",
 "pic": "w/c063"
 },
@@ -1972,7 +1960,7 @@
 "src": "img/w/c068.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He stood in the cold water for hours, lifting and stacking.",
 "pic": "w/c068",
 "label": "MISSISSIPPI FLOOD\n1912, LOUISIANA"
@@ -1981,10 +1969,10 @@
 "a": 581.76,
 "b": 586.76,
 "kind": "comp",
-"src": "img/crop/w_c003_39673e.jpg",
+"src": "img/w/c003.jpeg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He'd run toward trouble before, the day he carried Danny Hoffman off the field, but this time the trouble was a river.",
 "pic": "w/c003"
 },
@@ -1995,7 +1983,7 @@
 "src": "img/w/c076.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He'd run toward trouble before, the day he carried Danny Hoffman off the field, but this time the trouble was a river.",
 "pic": "w/c076",
 "label": "A BROKEN LEVEE\n1913"
@@ -2007,7 +1995,7 @@
 "src": "img/w/c067.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He came out of the water with pneumonia, and he never really got his strength back.",
 "pic": "w/c067",
 "label": "MISSISSIPPI FLOOD\n1912, LOUISIANA"
@@ -2019,7 +2007,7 @@
 "src": "img/w/c133.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "By 1913 he had tuberculosis.",
 "pic": "w/c133",
 "label": "A SANITARIUM\n1910"
@@ -2076,7 +2064,7 @@
 "src": "img/crop/w_c077_ed9fe7.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He went to a sanitarium in San Antonio, Texas.",
 "pic": "w/c077",
 "label": "SAN ANTONIO\nc.1910"
@@ -2088,7 +2076,7 @@
 "src": "img/crop/w_c082_54bf69.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He died there on the first of April 1914, at thirty-seven.",
 "pic": "w/c082",
 "label": "SAN ANTONIO"
@@ -2129,7 +2117,7 @@
 "mask": false,
 "line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
 "film": "MON 52.0-57.0",
-"dir": -1,
+"dir": 1,
 "label": "FIRE ENGINES\n1900s FILM"
 },
 {
@@ -2140,7 +2128,7 @@
 "mask": false,
 "line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
 "film": "EHE2 5.0-6.4",
-"dir": 1
+"dir": -1
 },
 {
 "a": 613.42,
@@ -2149,7 +2137,7 @@
 "src": "img/crop/w_c009_b8ad1b.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
 "pic": "w/c009"
 },
@@ -2168,7 +2156,7 @@
 "src": "img/crop/w_c005_ec37d2.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "His three hundred and forty-nine strikeouts stayed the modern record for sixty-one years, until Sandy Koufax broke it in 1965.",
 "pic": "w/c005"
 },
@@ -2179,7 +2167,7 @@
 "src": "img/crop/w_c001_c24237.jpg",
 "cam": "pull",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He'd been born on a Friday the thirteenth, and he died on April Fools' Day.",
 "pic": "w/c001"
 },
@@ -2205,7 +2193,7 @@
 "src": "img/crop/w_c029_c5fadc.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He won a hundred and ninety-three games in the major leagues, and his earned run average over his whole career was two point one six.",
 "pic": "w/c029"
 },
@@ -2216,7 +2204,7 @@
 "src": "img/w/c011.jpg",
 "cam": "pull",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In 1946 Rube Waddell was voted into the Baseball Hall of Fame.",
 "pic": "w/c011",
 "label": "RUBE WADDELL\n1876-1914"
@@ -2228,7 +2216,7 @@
 "src": "img/crop/w_c008_da78b1.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Which one is the strangest, do you think, the alligator, the play or the straw hat?",
 "pic": "w/c008"
 },
@@ -2240,7 +2228,7 @@
 "mask": false,
 "line": "Which one is the strangest, do you think, the alligator, the play or the straw hat?",
 "film": "ALG 150.0-153.2",
-"dir": 1
+"dir": -1
 },
 {
 "a": 649.36,
@@ -2249,7 +2237,7 @@
 "src": "img/crop/w_c014_113905.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Tell us in the comments.",
 "pic": "w/c014"
 },
