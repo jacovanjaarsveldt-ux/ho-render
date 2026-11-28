@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Img, OffthreadVideo, Sequence, staticFile, useCurrentFrame, interpolate, spring, Easing, continueRender, delayRender, registerRoot, Composition } from "remotion";
 import TL from "./timeline.json";
+import { withSubkit } from "./SubscribeKit";
 
 // SportsRoom long 4 (tour1904; from the racing long), 16:9 1920x1080. Built by tools/build_tl.py from the voice word timings and shotlist.py. Based on the Olympics long's LongSR.tsx.
 // Shot kinds: img (full-frame still, one slow eased move), comp (whole picture on a blurred copy, for portraits and small files), film (archive clip, pre-cut),
@@ -250,4 +251,5 @@ const Film: React.FC = () => {
     <Captions />
   </AbsoluteFill>;
 };
-registerRoot(() => <Composition id="Long" component={Film} durationInFrames={f((TL as any).end)} fps={FPS} width={1920} height={1080} />);
+const FilmSK = withSubkit(Film, TL);
+registerRoot(() => <Composition id="Long" component={FilmSK} durationInFrames={f((TL as any).end)} fps={FPS} width={1920} height={1080} />);

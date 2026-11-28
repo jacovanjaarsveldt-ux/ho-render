@@ -1,5 +1,5 @@
 {
-"end": 692.9,
+"end": 697.9,
 "vo_end": 688.496,
 "shots": [
 {
@@ -1298,7 +1298,7 @@
 "y": 840.5,
 "label": "NIMES: STONES, NAILS, GLASS",
 "at": 0.35,
-"anchor": "r",
+"anchor": "l",
 "red": true,
 "plain": false
 }
@@ -12603,9 +12603,7 @@
 "e": 688.496
 }
 ],
-"subs": [
-114.34
-],
+"subs": [],
 "sfx": [],
 "music": [
 {
@@ -12647,5 +12645,19 @@
 ],
 "text": [],
 "extra": [],
-"stillScale": 0.5
+"stillScale": 0.5,
+"subkit": {
+"channel": "sr",
+"film_end": 692.9,
+"pops": [
+156.0,
+446.5
+],
+"P": 52,
+"B": 86,
+"old_subs": [
+114.34
+],
+"voice": "Thanks for watching. Subscribe for the next story. It helps support the channel."
+}
 }
