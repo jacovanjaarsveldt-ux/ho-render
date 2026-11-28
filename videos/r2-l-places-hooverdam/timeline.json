@@ -1,0 +1,2243 @@
+{
+"end": 650.48,
+"vo_end": 641.48,
+"fps": 30,
+"shots": [
+{
+"a": 0.0,
+"b": 2.92,
+"kind": "clip",
+"src": "clips/c_7e415b857a.mp4"
+},
+{
+"a": 2.92,
+"b": 8.48,
+"kind": "clip",
+"src": "clips/c_0cb664b343.mp4"
+},
+{
+"a": 8.48,
+"b": 10.52,
+"kind": "clip",
+"src": "clips/c_33842627df.mp4"
+},
+{
+"a": 10.52,
+"b": 13.84,
+"kind": "clip",
+"src": "clips/c_cea68d0464.mp4"
+},
+{
+"a": 13.84,
+"b": 16.18,
+"kind": "img",
+"src": "img/i_75085323f2.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 16.18,
+"b": 19.96,
+"kind": "img",
+"src": "img/i_82211bb241.jpg",
+"mv": "pull",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 19.96,
+"b": 22.54,
+"kind": "card",
+"card": {
+"t": "96",
+"sub": "official deaths building Hoover Dam (Bureau of Reclamation)",
+"style": "number"
+}
+},
+{
+"a": 22.54,
+"b": 26.74,
+"kind": "clip",
+"src": "clips/c_1bd8371392.mp4"
+},
+{
+"a": 26.74,
+"b": 33.68,
+"kind": "clip",
+"src": "clips/c_68cfba2f47.mp4"
+},
+{
+"a": 33.68,
+"b": 37.2,
+"kind": "clip",
+"src": "clips/c_54d690b036.mp4"
+},
+{
+"a": 37.2,
+"b": 39.3,
+"kind": "clip",
+"src": "clips/c_35cd5d1e98.mp4"
+},
+{
+"a": 39.3,
+"b": 43.34,
+"kind": "img",
+"src": "img/i_e61ed571b7.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 43.34,
+"b": 46.58,
+"kind": "img",
+"src": "img/i_f77345bf07.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 46.58,
+"b": 51.44,
+"kind": "clip",
+"src": "clips/c_abe8e96f53.mp4"
+},
+{
+"a": 51.44,
+"b": 57.52,
+"kind": "clip",
+"src": "clips/c_3330bb7635.mp4"
+},
+{
+"a": 57.52,
+"b": 64.6,
+"kind": "clip",
+"src": "clips/c_4260359bc5.mp4"
+},
+{
+"a": 64.6,
+"b": 66.68,
+"kind": "clip",
+"src": "clips/c_d77719728a.mp4"
+},
+{
+"a": 66.68,
+"b": 69.5,
+"kind": "img",
+"src": "img/i_1cb4547369.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 69.5,
+"b": 72.7,
+"kind": "img",
+"src": "img/i_4301c9a1dc.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 72.7,
+"b": 76.18,
+"kind": "img",
+"src": "img/i_019a3ebd65.jpg",
+"mv": "pan",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 76.18,
+"b": 81.0,
+"kind": "card",
+"card": {
+"t": "RAGTOWN",
+"sub": "the camp on the river flats below Black Canyon, 1931",
+"style": "doc"
+}
+},
+{
+"a": 81.0,
+"b": 88.14,
+"kind": "clip",
+"src": "clips/c_c8a11d5bf6.mp4"
+},
+{
+"a": 88.14,
+"b": 93.34,
+"kind": "img",
+"src": "img/i_5a71312ef8.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 93.34,
+"b": 97.5,
+"kind": "clip",
+"src": "clips/c_e77126d801.mp4"
+},
+{
+"a": 97.5,
+"b": 100.72,
+"kind": "clip",
+"src": "clips/c_6670d2e515.mp4"
+},
+{
+"a": 100.72,
+"b": 105.86,
+"kind": "clip",
+"src": "clips/c_0e188d65bb.mp4"
+},
+{
+"a": 105.86,
+"b": 111.52,
+"kind": "card",
+"card": {
+"t": "INDUSTRIAL FATALITIES",
+"sub": "not counted: deaths from heat, pneumonia or heart trouble (Bureau of Reclamation)",
+"style": "doc"
+}
+},
+{
+"a": 111.52,
+"b": 114.76,
+"kind": "clip",
+"src": "clips/c_0fd6990bf8.mp4"
+},
+{
+"a": 114.76,
+"b": 117.78,
+"kind": "clip",
+"src": "clips/c_a126ccfff1.mp4"
+},
+{
+"a": 117.78,
+"b": 120.9,
+"kind": "img",
+"src": "img/i_dc1a225916.jpg",
+"mv": "pan",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 120.9,
+"b": 123.4,
+"kind": "clip",
+"src": "clips/c_625da77005.mp4"
+},
+{
+"a": 123.4,
+"b": 126.98,
+"kind": "clip",
+"src": "clips/c_7020b371ec.mp4"
+},
+{
+"a": 126.98,
+"b": 131.12,
+"kind": "clip",
+"src": "clips/c_f9661ae554.mp4"
+},
+{
+"a": 131.12,
+"b": 134.72,
+"kind": "clip",
+"src": "clips/c_34adc87e7a.mp4"
+},
+{
+"a": 134.72,
+"b": 137.32,
+"kind": "img",
+"src": "img/i_e7ba804beb.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 137.32,
+"b": 141.88,
+"kind": "card",
+"card": {
+"t": "J.G. (JOHN GREGORY) TIERNEY",
+"sub": "Bureau of Reclamation surveyor, lost in the Colorado on 20 December while surveying for the dam site",
+"style": "doc"
+}
+},
+{
+"a": 141.88,
+"b": 146.6,
+"kind": "clip",
+"src": "clips/c_c54f3fd945.mp4"
+},
+{
+"a": 146.6,
+"b": 152.2,
+"kind": "clip",
+"src": "clips/c_f81ef9a44e.mp4"
+},
+{
+"a": 152.2,
+"b": 154.42,
+"kind": "clip",
+"src": "clips/c_14b8ef3dd9.mp4"
+},
+{
+"a": 154.42,
+"b": 156.88,
+"kind": "img",
+"src": "img/i_50de8bcd19.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 156.88,
+"b": 160.12,
+"kind": "img",
+"src": "img/i_bd125bc726.jpg",
+"mv": "pan",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 160.12,
+"b": 165.04,
+"kind": "clip",
+"src": "clips/c_5d2840159d.mp4"
+},
+{
+"a": 165.04,
+"b": 170.04,
+"kind": "img",
+"src": "img/i_53fd15da3a.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 170.04,
+"b": 173.46,
+"kind": "clip",
+"src": "clips/c_d102d6cc39.mp4"
+},
+{
+"a": 173.46,
+"b": 177.32,
+"kind": "clip",
+"src": "clips/c_9151be6574.mp4"
+},
+{
+"a": 177.32,
+"b": 180.8,
+"kind": "clip",
+"src": "clips/c_5f12ba1d19.mp4"
+},
+{
+"a": 180.8,
+"b": 186.04,
+"kind": "img",
+"src": "img/i_202744d8b1.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 186.04,
+"b": 191.56,
+"kind": "clip",
+"src": "clips/c_b0b20194ee.mp4"
+},
+{
+"a": 191.56,
+"b": 196.78,
+"kind": "img",
+"src": "img/i_def0bba865.jpg",
+"mv": "pull",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 196.78,
+"b": 199.66,
+"kind": "clip",
+"src": "clips/c_f151cf8187.mp4"
+},
+{
+"a": 199.66,
+"b": 204.4,
+"kind": "img",
+"src": "img/i_8733fd33ae.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 204.4,
+"b": 209.56,
+"kind": "clip",
+"src": "clips/c_1df3e34f78.mp4"
+},
+{
+"a": 209.56,
+"b": 214.02,
+"kind": "clip",
+"src": "clips/c_1854a767be.mp4"
+},
+{
+"a": 214.02,
+"b": 216.9,
+"kind": "img",
+"src": "img/i_2c5540754f.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 216.9,
+"b": 220.04,
+"kind": "img",
+"src": "img/i_efdc8639dd.jpg",
+"mv": "pull",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 220.04,
+"b": 223.6,
+"kind": "clip",
+"src": "clips/c_ee9c9a24b3.mp4"
+},
+{
+"a": 223.6,
+"b": 228.04,
+"kind": "clip",
+"src": "clips/c_c1462593ee.mp4"
+},
+{
+"a": 228.04,
+"b": 232.6,
+"kind": "img",
+"src": "img/i_f303854af2.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 232.6,
+"b": 235.12,
+"kind": "img",
+"src": "img/i_82a7f41eb8.jpg",
+"mv": "push",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 235.12,
+"b": 238.66,
+"kind": "clip",
+"src": "clips/c_482faba3d6.mp4"
+},
+{
+"a": 238.66,
+"b": 243.36,
+"kind": "clip",
+"src": "clips/c_8e9fd08908.mp4"
+},
+{
+"a": 243.36,
+"b": 246.86,
+"kind": "clip",
+"src": "clips/c_3282ad2be9.mp4"
+},
+{
+"a": 246.86,
+"b": 249.92,
+"kind": "clip",
+"src": "clips/c_ee294625e3.mp4"
+},
+{
+"a": 249.92,
+"b": 254.96,
+"kind": "clip",
+"src": "clips/c_5c2ca585be.mp4"
+},
+{
+"a": 254.96,
+"b": 258.54,
+"kind": "clip",
+"src": "clips/c_4d975e69ba.mp4"
+},
+{
+"a": 258.54,
+"b": 261.16,
+"kind": "clip",
+"src": "clips/c_059378bfd0.mp4"
+},
+{
+"a": 261.16,
+"b": 267.04,
+"kind": "card",
+"card": {
+"t": "140\u00b0F",
+"sub": "inside the diversion tunnels (Reclamation history)",
+"style": "number"
+}
+},
+{
+"a": 267.04,
+"b": 271.98,
+"kind": "img",
+"src": "img/i_b52fec8ac2.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 271.98,
+"b": 275.24,
+"kind": "clip",
+"src": "clips/c_c243440f3d.mp4"
+},
+{
+"a": 275.24,
+"b": 277.48,
+"kind": "img",
+"src": "img/i_32c67f2eeb.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": 1
+},
+{
+"a": 277.48,
+"b": 281.26,
+"kind": "clip",
+"src": "clips/c_00d88c5c9b.mp4"
+},
+{
+"a": 281.26,
+"b": 284.06,
+"kind": "clip",
+"src": "clips/c_2f09a44f7c.mp4"
+},
+{
+"a": 284.06,
+"b": 288.18,
+"kind": "img",
+"src": "img/i_0a4d18700f.jpg",
+"mv": "pull",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 288.18,
+"b": 294.72,
+"kind": "card",
+"card": {
+"t": "SIX COMPANIES v. STINSON",
+"sub": "April 1932: the federal court grants the company a temporary injunction",
+"style": "doc"
+}
+},
+{
+"a": 294.72,
+"b": 297.34,
+"kind": "img",
+"src": "img/i_53af059571.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 297.34,
+"b": 302.6,
+"kind": "clip",
+"src": "clips/c_bc90a0cad7.mp4"
+},
+{
+"a": 302.6,
+"b": 308.4,
+"kind": "img",
+"src": "img/i_b2936a7883.jpg",
+"mv": "hold",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 308.4,
+"b": 312.24,
+"kind": "clip",
+"src": "clips/c_640543a2d7.mp4"
+},
+{
+"a": 312.24,
+"b": 318.18,
+"kind": "card",
+"card": {
+"t": "7 MEN",
+"sub": "Six Companies workers dead of pneumonia in December 1932",
+"style": "number"
+}
+},
+{
+"a": 318.18,
+"b": 321.5,
+"kind": "clip",
+"src": "clips/c_092dacd383.mp4"
+},
+{
+"a": 321.5,
+"b": 324.6,
+"kind": "card",
+"card": {
+"t": "GAS",
+"sub": "what the tunnel workers called it",
+"style": "number"
+}
+},
+{
+"a": 324.6,
+"b": 327.8,
+"kind": "clip",
+"src": "clips/c_3083b4df7f.mp4"
+},
+{
+"a": 327.8,
+"b": 332.02,
+"kind": "clip",
+"src": "clips/c_a9ce799c69.mp4"
+},
+{
+"a": 332.02,
+"b": 335.68,
+"kind": "card",
+"card": {
+"t": "DANGERS ON THE JOB",
+"sub": "heat, thirst, electrocution and carbon monoxide poisoning (PBS American Experience)",
+"style": "doc"
+}
+},
+{
+"a": 335.68,
+"b": 339.14,
+"kind": "img",
+"src": "img/i_e26c843e8a.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 339.14,
+"b": 342.52,
+"kind": "clip",
+"src": "clips/c_4b7a9ed4f8.mp4"
+},
+{
+"a": 342.52,
+"b": 346.0,
+"kind": "img",
+"src": "img/i_f6cb684a48.jpg",
+"mv": "pan",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 346.0,
+"b": 349.04,
+"kind": "img",
+"src": "img/i_9d1500556c.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 349.04,
+"b": 352.02,
+"kind": "clip",
+"src": "clips/c_e27c5db3b9.mp4"
+},
+{
+"a": 352.02,
+"b": 354.2,
+"kind": "clip",
+"src": "clips/c_7b891e1d89.mp4"
+},
+{
+"a": 354.2,
+"b": 357.68,
+"kind": "img",
+"src": "img/i_9ac0a5f848.jpg",
+"mv": "pull",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 357.68,
+"b": 360.88,
+"kind": "clip",
+"src": "clips/c_48be774068.mp4"
+},
+{
+"a": 360.88,
+"b": 363.82,
+"kind": "img",
+"src": "img/i_02c31d35bf.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 363.82,
+"b": 369.06,
+"kind": "clip",
+"src": "clips/c_a3029b7442.mp4"
+},
+{
+"a": 369.06,
+"b": 371.46,
+"kind": "img",
+"src": "img/i_6b2d2d6a93.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 371.46,
+"b": 376.5,
+"kind": "clip",
+"src": "clips/c_639ef3d379.mp4"
+},
+{
+"a": 376.5,
+"b": 380.74,
+"kind": "card",
+"card": {
+"t": "42",
+"sub": "pneumonia deaths, 1931 to 1935: not in the official 96",
+"style": "number"
+}
+},
+{
+"a": 380.74,
+"b": 383.84,
+"kind": "img",
+"src": "img/i_7d770c2df6.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 383.84,
+"b": 390.44,
+"kind": "clip",
+"src": "clips/c_1ac3cd27b5.mp4"
+},
+{
+"a": 390.44,
+"b": 396.9,
+"kind": "clip",
+"src": "clips/c_e76d0a7759.mp4"
+},
+{
+"a": 396.9,
+"b": 399.4,
+"kind": "clip",
+"src": "clips/c_8756bd48b6.mp4"
+},
+{
+"a": 399.4,
+"b": 403.02,
+"kind": "clip",
+"src": "clips/c_bd08609966.mp4"
+},
+{
+"a": 403.02,
+"b": 406.88,
+"kind": "img",
+"src": "img/i_3e6562807e.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 406.88,
+"b": 410.38,
+"kind": "img",
+"src": "img/i_e905280089.jpg",
+"mv": "pull",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 410.38,
+"b": 412.52,
+"kind": "clip",
+"src": "clips/c_a941fe965d.mp4"
+},
+{
+"a": 412.52,
+"b": 414.32,
+"kind": "clip",
+"src": "clips/c_dc63e79f9e.mp4"
+},
+{
+"a": 414.32,
+"b": 419.6,
+"kind": "img",
+"src": "img/i_e4c5e7a70f.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": -1
+},
+{
+"a": 419.6,
+"b": 423.9,
+"kind": "clip",
+"src": "clips/c_5c9897ff56.mp4"
+},
+{
+"a": 423.9,
+"b": 426.36,
+"kind": "clip",
+"src": "clips/c_78ac572fb6.mp4"
+},
+{
+"a": 426.36,
+"b": 430.02,
+"kind": "card",
+"card": {
+"t": "580 MILES",
+"sub": "of cooling pipe, with ice water inside",
+"style": "number"
+}
+},
+{
+"a": 430.02,
+"b": 433.42,
+"kind": "clip",
+"src": "clips/c_3baeb35f6b.mp4"
+},
+{
+"a": 433.42,
+"b": 436.64,
+"kind": "clip",
+"src": "clips/c_201dff1406.mp4"
+},
+{
+"a": 436.64,
+"b": 439.62,
+"kind": "img",
+"src": "img/i_30b5731f16.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 439.62,
+"b": 443.72,
+"kind": "img",
+"src": "img/i_6f17b7f699.jpg",
+"mv": "hold",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 443.72,
+"b": 446.44,
+"kind": "clip",
+"src": "clips/c_b8886d22d6.mp4"
+},
+{
+"a": 446.44,
+"b": 450.3,
+"kind": "clip",
+"src": "clips/c_43b9259d52.mp4"
+},
+{
+"a": 450.3,
+"b": 454.22,
+"kind": "clip",
+"src": "clips/c_c8f78e030b.mp4"
+},
+{
+"a": 454.22,
+"b": 458.56,
+"kind": "clip",
+"src": "clips/c_36cb3af995.mp4"
+},
+{
+"a": 458.56,
+"b": 463.3,
+"kind": "clip",
+"src": "clips/c_2e1a18a073.mp4"
+},
+{
+"a": 463.3,
+"b": 467.98,
+"kind": "clip",
+"src": "clips/c_3e809a17e7.mp4"
+},
+{
+"a": 467.98,
+"b": 472.36,
+"kind": "img",
+"src": "img/i_541c8672bd.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 472.36,
+"b": 475.3,
+"kind": "img",
+"src": "img/i_3e0d2fafe9.jpg",
+"mv": "pull",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 475.3,
+"b": 477.94,
+"kind": "card",
+"card": {
+"t": "No one is buried in Hoover Dam.",
+"sub": "Bureau of Reclamation",
+"style": "quote"
+}
+},
+{
+"a": 477.94,
+"b": 481.84,
+"kind": "clip",
+"src": "clips/c_e6b5e9bf96.mp4"
+},
+{
+"a": 481.84,
+"b": 487.56,
+"kind": "card",
+"card": {
+"t": "JAMESON",
+"sub": "killed by a slide of concrete and debris, November 1933",
+"style": "doc"
+}
+},
+{
+"a": 487.56,
+"b": 493.66,
+"kind": "clip",
+"src": "clips/c_9f2b09875e.mp4"
+},
+{
+"a": 493.66,
+"b": 496.46,
+"kind": "clip",
+"src": "clips/c_b639fec0ff.mp4"
+},
+{
+"a": 496.46,
+"b": 500.1,
+"kind": "clip",
+"src": "clips/c_a0a55baef9.mp4"
+},
+{
+"a": 500.1,
+"b": 503.88,
+"kind": "clip",
+"src": "clips/c_abf25eb126.mp4"
+},
+{
+"a": 503.88,
+"b": 507.68,
+"kind": "clip",
+"src": "clips/c_6e3a5c452f.mp4"
+},
+{
+"a": 507.68,
+"b": 509.74,
+"kind": "clip",
+"src": "clips/c_dff4096c5d.mp4"
+},
+{
+"a": 509.74,
+"b": 516.24,
+"kind": "clip",
+"src": "clips/c_fb751f9370.mp4"
+},
+{
+"a": 516.24,
+"b": 521.34,
+"kind": "clip",
+"src": "clips/c_fe16154f23.mp4"
+},
+{
+"a": 521.34,
+"b": 524.42,
+"kind": "img",
+"src": "img/i_b7d35e955c.jpg",
+"mv": "pull",
+"o": "40% 50%",
+"dir": 1
+},
+{
+"a": 524.42,
+"b": 529.48,
+"kind": "card",
+"card": {
+"t": "PATRICK W. TIERNEY",
+"sub": "fell from an intake tower, 20 December 1935",
+"style": "doc"
+}
+},
+{
+"a": 529.48,
+"b": 532.62,
+"kind": "img",
+"src": "img/i_f834aa50c6.jpg",
+"mv": "push",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 532.62,
+"b": 534.88,
+"kind": "clip",
+"src": "clips/c_b1a9d3bf9b.mp4"
+},
+{
+"a": 534.88,
+"b": 538.48,
+"kind": "clip",
+"src": "clips/c_c358b03d8d.mp4"
+},
+{
+"a": 538.48,
+"b": 541.94,
+"kind": "img",
+"src": "img/i_0d05cc4429.jpg",
+"mv": "pan",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 541.94,
+"b": 545.28,
+"kind": "card",
+"card": {
+"t": "20 DECEMBER",
+"sub": "J.G. Tierney, the surveyor, and Patrick W. Tierney, 1935",
+"style": "number"
+}
+},
+{
+"a": 545.28,
+"b": 548.06,
+"kind": "clip",
+"src": "clips/c_016f2c14d5.mp4"
+},
+{
+"a": 548.06,
+"b": 551.58,
+"kind": "clip",
+"src": "clips/c_68ec5a9349.mp4"
+},
+{
+"a": 551.58,
+"b": 555.08,
+"kind": "clip",
+"src": "clips/c_8920abaa46.mp4"
+},
+{
+"a": 555.08,
+"b": 559.1,
+"kind": "clip",
+"src": "clips/c_5b78e3ba35.mp4"
+},
+{
+"a": 559.1,
+"b": 562.66,
+"kind": "clip",
+"src": "clips/c_09a9a65c03.mp4"
+},
+{
+"a": 562.66,
+"b": 568.56,
+"kind": "card",
+"card": {
+"t": "21,000",
+"sub": "men worked on the dam over the whole job",
+"style": "number"
+}
+},
+{
+"a": 568.56,
+"b": 571.04,
+"kind": "clip",
+"src": "clips/c_8905d3ced2.mp4"
+},
+{
+"a": 571.04,
+"b": 574.82,
+"kind": "img",
+"src": "img/i_87dfc384a6.jpg",
+"mv": "push",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 574.82,
+"b": 577.7,
+"kind": "img",
+"src": "img/i_c7310178ac.jpg",
+"mv": "pull",
+"o": "40% 50%",
+"dir": -1
+},
+{
+"a": 577.7,
+"b": 580.82,
+"kind": "clip",
+"src": "clips/c_976b79b046.mp4"
+},
+{
+"a": 580.82,
+"b": 587.54,
+"kind": "img",
+"src": "img/i_d43e1b334f.jpg",
+"mv": "hold",
+"o": "50% 50%",
+"dir": -1
+},
+{
+"a": 587.54,
+"b": 590.62,
+"kind": "clip",
+"src": "clips/c_40c27aa5f8.mp4"
+},
+{
+"a": 590.62,
+"b": 594.28,
+"kind": "clip",
+"src": "clips/c_c0f9613b94.mp4"
+},
+{
+"a": 594.28,
+"b": 597.6,
+"kind": "clip",
+"src": "clips/c_82dd860fc7.mp4"
+},
+{
+"a": 597.6,
+"b": 601.8,
+"kind": "img",
+"src": "img/i_0b493b7b86.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 601.8,
+"b": 604.56,
+"kind": "img",
+"src": "img/i_d84c1f994c.jpg",
+"mv": "pull",
+"o": "50% 50%",
+"dir": 1
+},
+{
+"a": 604.56,
+"b": 607.58,
+"kind": "clip",
+"src": "clips/c_bb763b4630.mp4"
+},
+{
+"a": 607.58,
+"b": 611.8,
+"kind": "img",
+"src": "img/i_d4e416f1d0.jpg",
+"mv": "hold",
+"o": "55% 55%",
+"dir": 1
+},
+{
+"a": 611.8,
+"b": 615.14,
+"kind": "clip",
+"src": "clips/c_ba699efdf4.mp4"
+},
+{
+"a": 615.14,
+"b": 622.12,
+"kind": "card",
+"card": {
+"t": "They died to make the desert bloom.",
+"sub": "memorial plaque at Hoover Dam",
+"style": "quote"
+}
+},
+{
+"a": 622.12,
+"b": 626.76,
+"kind": "clip",
+"src": "clips/c_b5b30a3c68.mp4"
+},
+{
+"a": 626.76,
+"b": 629.34,
+"kind": "img",
+"src": "img/i_72ddd0dcce.jpg",
+"mv": "push",
+"o": "45% 40%",
+"dir": 1
+},
+{
+"a": 629.34,
+"b": 632.74,
+"kind": "img",
+"src": "img/i_97973427da.jpg",
+"mv": "pan",
+"o": "55% 55%",
+"dir": -1
+},
+{
+"a": 632.74,
+"b": 636.1,
+"kind": "clip",
+"src": "clips/c_52eb04911e.mp4"
+},
+{
+"a": 636.1,
+"b": 639.16,
+"kind": "img",
+"src": "img/i_56c1a34f41.jpg",
+"mv": "push",
+"o": "60% 45%",
+"dir": -1
+},
+{
+"a": 639.16,
+"b": 645.48,
+"kind": "clip",
+"src": "clips/c_390904f35b.mp4"
+}
+],
+"chapters": [
+{
+"a": 0.0,
+"b": 2.8,
+"n": "Chapter 1",
+"t": "Ninety-six"
+},
+{
+"a": 37.2,
+"b": 39.3,
+"n": "Chapter 2",
+"t": "Black Canyon, 1931"
+},
+{
+"a": 126.98,
+"b": 130.48,
+"n": "Chapter 3",
+"t": "The first name on the list"
+},
+{
+"a": 170.04,
+"b": 173.46,
+"n": "Chapter 4",
+"t": "The strike"
+},
+{
+"a": 223.6,
+"b": 227.1,
+"n": "Chapter 5",
+"t": "The tunnels"
+},
+{
+"a": 297.34,
+"b": 300.84,
+"n": "Chapter 6",
+"t": "Pneumonia"
+},
+{
+"a": 390.44,
+"b": 393.94,
+"n": "Chapter 7",
+"t": "Into the concrete"
+},
+{
+"a": 493.66,
+"b": 496.46,
+"n": "Chapter 8",
+"t": "The twentieth of December"
+},
+{
+"a": 551.58,
+"b": 555.08,
+"n": "Chapter 9",
+"t": "The real number"
+}
+],
+"caps": [
+{
+"a": 0.03,
+"b": 5.19,
+"t": "At Hoover Dam, 42 deaths were written\ndown as pneumonia in one of the hottest"
+},
+{
+"a": 5.19,
+"b": 6.88,
+"t": "deserts in America."
+},
+{
+"a": 6.89,
+"b": 11.25,
+"t": "Men who worked in the tunnels said it wasn't\npneumonia at all and blamed the exhaust"
+},
+{
+"a": 11.25,
+"b": 13.87,
+"t": "from the gasoline trucks\nrunning down there."
+},
+{
+"a": 13.87,
+"b": 16.21,
+"t": "And because it went down as an illness,"
+},
+{
+"a": 16.21,
+"b": 19.99,
+"t": "not one of those 42 is in\nthe official death count."
+},
+{
+"a": 19.99,
+"b": 22.38,
+"t": "That count says 96."
+},
+{
+"a": 22.57,
+"b": 26.72,
+"t": "People still swear there are\nmen buried inside the concrete,"
+},
+{
+"a": 26.77,
+"b": 30.53,
+"t": "and there's a father and son who\nboth died working on this dam,"
+},
+{
+"a": 30.53,
+"b": 33.7,
+"t": "years apart, but on the\nsame day of the year."
+},
+{
+"a": 33.71,
+"b": 37.18,
+"t": "So, how many people did\nHoover Dam really kill?"
+},
+{
+"a": 37.23,
+"b": 43.37,
+"t": "In the summer of 1931, the temperature\nat Black Canyon went past 120 degrees,"
+},
+{
+"a": 43.37,
+"b": 46.58,
+"t": "and whole families were\nliving down there in tents."
+},
+{
+"a": 46.61,
+"b": 50.0,
+"t": "America was two years\ninto the Great Depression,"
+},
+{
+"a": 50.01,
+"b": 54.23,
+"t": "and the government was about to build\nthe biggest dam anyone had tried on the"
+},
+{
+"a": 54.23,
+"b": 57.55,
+"t": "Colorado River between Nevada and Arizona."
+},
+{
+"a": 57.55,
+"b": 63.13,
+"t": "The job went to a group of builders who\ncalled themselves Six Companies for about 49"
+},
+{
+"a": 63.13,
+"b": 64.6,
+"t": "million dollars."
+},
+{
+"a": 64.63,
+"b": 66.71,
+"t": "Men came looking for that work,"
+},
+{
+"a": 66.71,
+"b": 69.53,
+"t": "many of them before there\nwas anywhere to live,"
+},
+{
+"a": 69.53,
+"b": 74.09,
+"t": "so they camped on the river flats with\ntheir wives and children in tents and shacks"
+},
+{
+"a": 74.09,
+"b": 76.21,
+"t": "made of whatever they could find."
+},
+{
+"a": 76.21,
+"b": 81.03,
+"t": "People called it Ragtown, which tells you\nmost of what you need to know about it."
+},
+{
+"a": 81.03,
+"b": 84.71,
+"t": "The government was building a proper\ntown for them up on the plateau,"
+},
+{
+"a": 84.71,
+"b": 88.17,
+"t": "Boulder City, and it would\ntake months to finish."
+},
+{
+"a": 88.17,
+"b": 90.59,
+"t": "Between late June and late July,"
+},
+{
+"a": 90.59,
+"b": 93.37,
+"t": "16 people died of heat prostration,"
+},
+{
+"a": 93.37,
+"b": 97.53,
+"t": "and two of them were women who lived\nthere and didn't work on the dam."
+},
+{
+"a": 97.53,
+"b": 100.68,
+"t": "None of those 16 are in the 96."
+},
+{
+"a": 100.75,
+"b": 103.84,
+"t": "That's the first thing to know\nabout the official number."
+},
+{
+"a": 103.95,
+"b": 108.59,
+"t": "The Bureau of Reclamation says its industrial\nfatalities don't include deaths from"
+},
+{
+"a": 108.59,
+"b": 111.52,
+"t": "heat, pneumonia, or heart trouble."
+},
+{
+"a": 111.55,
+"b": 114.79,
+"t": "So, a man who fell off\nthe canyon wall counted,"
+},
+{
+"a": 114.79,
+"b": 117.81,
+"t": "and a man who collapsed\nin the heat didn't."
+},
+{
+"a": 117.81,
+"b": 120.88,
+"t": "So, what else isn't in the 96?"
+},
+{
+"a": 120.93,
+"b": 124.63,
+"t": "The bureau's own tables are\nstill online year by year,"
+},
+{
+"a": 124.63,
+"b": 126.98,
+"t": "so we can count the rest ourselves."
+},
+{
+"a": 127.01,
+"b": 131.15,
+"t": "There's a longer list\ntoo, with 112 names on it."
+},
+{
+"a": 131.15,
+"b": 134.09,
+"t": "That one starts years before 1931,"
+},
+{
+"a": 134.09,
+"b": 137.28,
+"t": "with the men who went looking\nfor a place to put the dam."
+},
+{
+"a": 137.35,
+"b": 141.91,
+"t": "One of them was a reclamation\nsurveyor named John Gregory Tierney."
+},
+{
+"a": 141.91,
+"b": 144.47,
+"t": "He was working from a\nbarge on the Colorado,"
+},
+{
+"a": 144.47,
+"b": 150.02,
+"t": "testing the rock for a dam site when he\nwent into the river in a flood and drowned."
+},
+{
+"a": 150.05,
+"b": 152.23,
+"t": "That was the 20th of December,"
+},
+{
+"a": 152.23,
+"b": 154.36,
+"t": "and the river kept his body."
+},
+{
+"a": 154.45,
+"b": 156.9,
+"t": "He left a son named Patrick."
+},
+{
+"a": 156.91,
+"b": 162.01,
+"t": "Tierney's death isn't in the 96 because\nthat count only starts once the dam itself"
+},
+{
+"a": 162.01,
+"b": 165.07,
+"t": "was being built, years after he died."
+},
+{
+"a": 165.07,
+"b": 170.07,
+"t": "And when it was being built, the men who\nhad it worst were the ones underground."
+},
+{
+"a": 170.07,
+"b": 176.35,
+"t": "On August 7th, 1931, Six Companies moved a\ngroup of tunnel workers to jobs that paid"
+},
+{
+"a": 176.35,
+"b": 177.35,
+"t": "less."
+},
+{
+"a": 177.35,
+"b": 180.83,
+"t": "Within hours, the whole\nwork force walked out."
+},
+{
+"a": 180.83,
+"b": 185.25,
+"t": "They put together a list, and you can hear\nwhat the job was like in what they asked"
+},
+{
+"a": 185.25,
+"b": 186.07,
+"t": "for."
+},
+{
+"a": 186.07,
+"b": 188.21,
+"t": "They wanted clean drinking water,"
+},
+{
+"a": 188.21,
+"b": 191.59,
+"t": "ice water in that heat, and flush toilets."
+},
+{
+"a": 191.59,
+"b": 195.47,
+"t": "They also wanted the company\nto obey the state mining laws,"
+},
+{
+"a": 195.47,
+"b": 199.69,
+"t": "and one of those laws banned\ngasoline engines underground."
+},
+{
+"a": 199.69,
+"b": 202.07,
+"t": "The company said no to all of it,"
+},
+{
+"a": 202.07,
+"b": 204.43,
+"t": "and the strikers knew\nwhere that left them."
+},
+{
+"a": 204.43,
+"b": 206.95,
+"t": "A quarter of the country was out of work,"
+},
+{
+"a": 206.95,
+"b": 209.59,
+"t": "so every one of them could be replaced."
+},
+{
+"a": 209.59,
+"b": 211.7,
+"t": "They didn't hold out for long."
+},
+{
+"a": 211.85,
+"b": 214.0,
+"t": "They did win a few things."
+},
+{
+"a": 214.05,
+"b": 216.93,
+"t": "There were more lights\nand more water on the job,"
+},
+{
+"a": 216.93,
+"b": 220.06,
+"t": "and the houses in Boulder\nCity went up faster."
+},
+{
+"a": 220.07,
+"b": 223.63,
+"t": "But the pay cut stayed,\nand so did the trucks."
+},
+{
+"a": 223.63,
+"b": 228.06,
+"t": "Before they could pour a dam, they\nhad to move the river out of the way,"
+},
+{
+"a": 228.07,
+"b": 231.19,
+"t": "so they blasted four tunnels\nthrough the canyon walls,"
+},
+{
+"a": 231.19,
+"b": 235.15,
+"t": "two on each side, each one 56 feet across."
+},
+{
+"a": 235.15,
+"b": 238.64,
+"t": "Put together, they ran\nfor more than three miles."
+},
+{
+"a": 238.69,
+"b": 243.39,
+"t": "Men drilled the rock face from big rigs\non the backs of trucks called jumbos,"
+},
+{
+"a": 243.39,
+"b": 246.86,
+"t": "with a whole bank of drills\nhammering away at once."
+},
+{
+"a": 246.89,
+"b": 249.95,
+"t": "Then they set the charges,\nand after each blast,"
+},
+{
+"a": 249.95,
+"b": 252.97,
+"t": "the trucks came in to\nhaul out the broken rock."
+},
+{
+"a": 252.97,
+"b": 258.57,
+"t": "Those trucks ran on gasoline inside the\ntunnels with the engines going all day."
+},
+{
+"a": 258.57,
+"b": 261.19,
+"t": "Nobody was opening a window down there."
+},
+{
+"a": 261.19,
+"b": 265.36,
+"t": "Reclamation's history of the tunnels\nsays temperatures in there reached"
+},
+{
+"a": 265.55,
+"b": 267.07,
+"t": "140 degrees."
+},
+{
+"a": 267.07,
+"b": 272.53,
+"t": "In November 1931, Nevada's inspector of\nmines ordered Six Companies to get the"
+},
+{
+"a": 272.53,
+"b": 274.5,
+"t": "gasoline trucks out."
+},
+{
+"a": 274.51,
+"b": 277.51,
+"t": "Six Companies went to\nfederal court instead."
+},
+{
+"a": 277.51,
+"b": 282.31,
+"t": "It argued that a state law didn't fit a\nfederal project and that its blowers kept"
+},
+{
+"a": 282.31,
+"b": 287.11,
+"t": "the tunnel air safe, which is a strange\nthing to go to court for when you think"
+},
+{
+"a": 287.11,
+"b": 288.14,
+"t": "about it."
+},
+{
+"a": 288.21,
+"b": 293.11,
+"t": "In April 1932, the court sided with\nthe company for the time being,"
+},
+{
+"a": 293.11,
+"b": 294.75,
+"t": "and the trucks stayed."
+},
+{
+"a": 294.75,
+"b": 297.37,
+"t": "By then, men were getting sick."
+},
+{
+"a": 297.37,
+"b": 304.4,
+"t": "Between 1931 and 1935, the bureau's\ntables list 42 deaths from pneumonia."
+},
+{
+"a": 304.53,
+"b": 310.95,
+"t": "21 of them came in 1931 and 1932 while the\ntunnels were being dug and in the weeks"
+},
+{
+"a": 310.95,
+"b": 312.27,
+"t": "just after."
+},
+{
+"a": 312.27,
+"b": 315.39,
+"t": "The worst month was December 1932,"
+},
+{
+"a": 315.39,
+"b": 318.21,
+"t": "when seven Six Companies men died."
+},
+{
+"a": 318.21,
+"b": 320.69,
+"t": "The company's doctors called it pneumonia,"
+},
+{
+"a": 320.69,
+"b": 322.93,
+"t": "but the workers had another word for it,"
+},
+{
+"a": 322.93,
+"b": 324.63,
+"t": "and that was gas."
+},
+{
+"a": 324.63,
+"b": 328.55,
+"t": "They said it was carbon monoxide from\nthe truck engines and that calling it"
+},
+{
+"a": 328.55,
+"b": 332.04,
+"t": "pneumonia kept the company\nclear of any blame."
+},
+{
+"a": 332.05,
+"b": 335.71,
+"t": "Carbon monoxide poisoning was\na known danger on that job,"
+},
+{
+"a": 335.71,
+"b": 339.17,
+"t": "just like heat, thirst, and electrocution."
+},
+{
+"a": 339.17,
+"b": 343.71,
+"t": "And this was the same exhaust Nevada had\ntried to ban from the same trucks the"
+},
+{
+"a": 343.71,
+"b": 346.03,
+"t": "company had gone to court to keep."
+},
+{
+"a": 346.03,
+"b": 349.07,
+"t": "The bureau's tables\nnever mention gas at all,"
+},
+{
+"a": 349.07,
+"b": 352.04,
+"t": "only pneumonia, year after year."
+},
+{
+"a": 352.05,
+"b": 354.23,
+"t": "Now, to be fair to the company,"
+},
+{
+"a": 354.23,
+"b": 357.71,
+"t": "nobody has ever proved\nit was carbon monoxide."
+},
+{
+"a": 357.71,
+"b": 360.91,
+"t": "Pneumonia was a real killer in the 1930s,"
+},
+{
+"a": 360.91,
+"b": 363.85,
+"t": "years before there were\nantibiotics to treat it,"
+},
+{
+"a": 363.85,
+"b": 368.17,
+"t": "and more than half of the 42 died after\nthe river was already running through those"
+},
+{
+"a": 368.17,
+"b": 369.09,
+"t": "tunnels."
+},
+{
+"a": 369.09,
+"b": 371.49,
+"t": "So the trucks can't explain all of them."
+},
+{
+"a": 371.49,
+"b": 373.89,
+"t": "What we can check is the bookkeeping,"
+},
+{
+"a": 373.89,
+"b": 376.53,
+"t": "and it's all in the bureau's own tables."
+},
+{
+"a": 376.53,
+"b": 380.77,
+"t": "Pneumonia didn't count, so\nwhatever killed those 42 people,"
+},
+{
+"a": 380.77,
+"b": 383.82,
+"t": "the official number stayed at 96."
+},
+{
+"a": 383.87,
+"b": 387.45,
+"t": "And there's one more story about\nthis dam that everybody knows,"
+},
+{
+"a": 387.45,
+"b": 390.47,
+"t": "which is that men are\nburied in the concrete."
+},
+{
+"a": 390.47,
+"b": 395.39,
+"t": "Before any concrete went in, the canyon\nwalls had to be cleaned off by men called"
+},
+{
+"a": 395.39,
+"b": 396.86,
+"t": "high scalers."
+},
+{
+"a": 396.93,
+"b": 399.43,
+"t": "They hung on ropes hundreds of feet up,"
+},
+{
+"a": 399.43,
+"b": 403.0,
+"t": "knocking off loose rock\nwith bars and jackhammers."
+},
+{
+"a": 403.05,
+"b": 406.91,
+"t": "Falling rock and debris killed\n20 men over the whole job,"
+},
+{
+"a": 406.91,
+"b": 410.41,
+"t": "and that doesn't count the tools\nand machinery that came down too."
+},
+{
+"a": 410.41,
+"b": 414.35,
+"t": "Then came the concrete, and that's\nwhere the legend comes from."
+},
+{
+"a": 414.35,
+"b": 415.8,
+"t": "The dam stands"
+},
+{
+"a": 415.91,
+"b": 419.63,
+"t": "726 feet from the bedrock\nto the road on top,"
+},
+{
+"a": 419.63,
+"b": 423.93,
+"t": "and there's three and a quarter\nmillion cubic yards of concrete in it."
+},
+{
+"a": 423.93,
+"b": 429.45,
+"t": "It gave off so much heat as it set that\nthey ran more than 580 miles of pipe through"
+},
+{
+"a": 429.45,
+"b": 433.45,
+"t": "it with ice water inside\njust to cool it down."
+},
+{
+"a": 433.45,
+"b": 438.57,
+"t": "With that much concrete, it's easy to\nbelieve a man could vanish inside and nobody"
+},
+{
+"a": 438.57,
+"b": 439.65,
+"t": "would know."
+},
+{
+"a": 439.65,
+"b": 443.75,
+"t": "But the dam went up as hundreds\nof separate blocks side by side,"
+},
+{
+"a": 443.75,
+"b": 446.47,
+"t": "a bit like a giant set of building bricks."
+},
+{
+"a": 446.47,
+"b": 450.33,
+"t": "They filled each one from buckets\nthat held eight cubic yards,"
+},
+{
+"a": 450.33,
+"b": 454.25,
+"t": "and the buckets came down on\ncables strung across the canyon."
+},
+{
+"a": 454.25,
+"b": 458.59,
+"t": "Every bucket raised the level by\nsomewhere between two and six inches,"
+},
+{
+"a": 458.59,
+"b": 463.24,
+"t": "and a crew of men called puddlers\nstamped it into place with their boots."
+},
+{
+"a": 463.33,
+"b": 468.41,
+"t": "So a man who fell in would have been lying\nin a few inches of wet concrete in front"
+},
+{
+"a": 468.41,
+"b": 470.32,
+"t": "of half a dozen people."
+},
+{
+"a": 470.37,
+"b": 472.34,
+"t": "Somebody would have noticed."
+},
+{
+"a": 472.39,
+"b": 475.18,
+"t": "The bureau has a short answer to that one."
+},
+{
+"a": 475.33,
+"b": 477.97,
+"t": "No one is buried in Hoover Dam."
+},
+{
+"a": 477.97,
+"b": 483.57,
+"t": "The nearest thing happened in November\n1933 when a worker named Jameson was killed"
+},
+{
+"a": 483.57,
+"b": 487.59,
+"t": "by a slide of concrete and\ndebris in the middle of the dam."
+},
+{
+"a": 487.59,
+"b": 490.23,
+"t": "The bureau lists him\nas killed in the slide,"
+},
+{
+"a": 490.23,
+"b": 493.69,
+"t": "not missing, and it\nsays nobody is in there."
+},
+{
+"a": 493.69,
+"b": 499.51,
+"t": "On September 30th, 1935, President Franklin\nRoosevelt stood on top of the finished"
+},
+{
+"a": 499.51,
+"b": 503.88,
+"t": "dam and dedicated it in front\nof a crowd of thousands."
+},
+{
+"a": 503.91,
+"b": 508.59,
+"t": "Four years earlier, this had been a river\nat the bottom of a canyon with a tent camp"
+},
+{
+"a": 508.59,
+"b": 509.77,
+"t": "beside it."
+},
+{
+"a": 509.77,
+"b": 512.71,
+"t": "The contract gave Six\nCompanies seven years,"
+},
+{
+"a": 512.71,
+"b": 516.27,
+"t": "and they finished the whole\njob more than two years early."
+},
+{
+"a": 516.27,
+"b": 519.21,
+"t": "But there was still work\nto do on the intake towers,"
+},
+{
+"a": 519.21,
+"b": 524.45,
+"t": "the four tall concrete towers that feed\nwater from the lake to the turbines."
+},
+{
+"a": 524.45,
+"b": 530.53,
+"t": "On the 20th of December 1935, a man named\nPatrick Tierney fell from one of those"
+},
+{
+"a": 530.53,
+"b": 532.64,
+"t": "towers and was killed."
+},
+{
+"a": 532.65,
+"b": 534.76,
+"t": "He was the surveyor's son."
+},
+{
+"a": 534.91,
+"b": 538.51,
+"t": "His father is one of the first\ntwo names on that long list,"
+},
+{
+"a": 538.51,
+"b": 541.97,
+"t": "and Patrick is the last\nname in the bureau's tables."
+},
+{
+"a": 541.97,
+"b": 545.3,
+"t": "They died on the same date, years apart."
+},
+{
+"a": 545.31,
+"b": 548.09,
+"t": "Patrick's fall went into\nthe accident tables,"
+},
+{
+"a": 548.09,
+"b": 551.58,
+"t": "but his father died too\nearly to be in the 96."
+},
+{
+"a": 551.61,
+"b": 555.06,
+"t": "So how many people did\nHoover Dam really kill?"
+},
+{
+"a": 555.11,
+"b": 559.13,
+"t": "In June 1934, when the\njob was at its busiest,"
+},
+{
+"a": 559.13,
+"b": 562.69,
+"t": "more than 5,000 men a\nday were working on it."
+},
+{
+"a": 562.69,
+"b": 566.31,
+"t": "Over the whole job, it was about 21,000."
+},
+{
+"a": 566.31,
+"b": 571.07,
+"t": "96 out of 21,000 sounds almost\nsafe for work like that,"
+},
+{
+"a": 571.07,
+"b": 574.23,
+"t": "and that's partly why the\nnumber has lasted so long."
+},
+{
+"a": 574.23,
+"b": 577.73,
+"t": "96 is true, but only if the question is,"
+},
+{
+"a": 577.73,
+"b": 580.85,
+"t": "how many workers died in\naccidents on the site?"
+},
+{
+"a": 580.85,
+"b": 585.33,
+"t": "Add the heat deaths of 1931\nand the 42 pneumonia deaths,"
+},
+{
+"a": 585.33,
+"b": 587.57,
+"t": "and you're past 150."
+},
+{
+"a": 587.57,
+"b": 591.53,
+"t": "And that's before you count the men who\ndied of heart trouble or the ones who got"
+},
+{
+"a": 591.53,
+"b": 594.28,
+"t": "sick and went home to die somewhere else."
+},
+{
+"a": 594.31,
+"b": 597.63,
+"t": "Were the pneumonia deaths\nreally carbon monoxide?"
+},
+{
+"a": 597.63,
+"b": 601.83,
+"t": "We can't prove it, and the\nbureau's own records never say so."
+},
+{
+"a": 601.83,
+"b": 604.59,
+"t": "But the men who breathed that air said so,"
+},
+{
+"a": 604.59,
+"b": 607.61,
+"t": "and the company fought to\nkeep the trucks that made it."
+},
+{
+"a": 607.61,
+"b": 613.51,
+"t": "Our verdict is that about 150 people died\nbuilding Hoover Dam or living beside it,"
+},
+{
+"a": 613.51,
+"b": 615.12,
+"t": "not 96."
+},
+{
+"a": 615.17,
+"b": 618.37,
+"t": "There's a plaque at the dam for\nthe men who died building it,"
+},
+{
+"a": 618.37,
+"b": 622.15,
+"t": "and it says, \"They died\nto make the desert bloom.\""
+},
+{
+"a": 622.15,
+"b": 625.94,
+"t": "It was put up for the 96\nmen in the official count."
+},
+{
+"a": 626.05,
+"b": 629.37,
+"t": "The 42 in the pneumonia\ncolumn aren't part of that,"
+},
+{
+"a": 629.37,
+"b": 631.37,
+"t": "and none of them are in the concrete,"
+},
+{
+"a": 631.37,
+"b": 632.77,
+"t": "whatever you've heard."
+},
+{
+"a": 632.77,
+"b": 636.13,
+"t": "Our next story is a different\nkind of American landmark,"
+},
+{
+"a": 636.13,
+"b": 641.27,
+"t": "the prison on a rock in San Francisco Bay\nand the three men who might have got off"
+},
+{
+"a": 641.27,
+"b": 642.27,
+"t": "it."
+}
+],
+"subs": [],
+"grain": true,
+"grainOpacity": 0.07,
+"parts": 4,
+"subkit": {
+"channel": "ho",
+"film_end": 645.48,
+"pops": [
+181.0,
+469.0
+],
+"P": 52,
+"B": 90,
+"old_subs": [],
+"voice": "Thanks for watching. Subscribe for more history. It helps support the channel."
+}
+}
