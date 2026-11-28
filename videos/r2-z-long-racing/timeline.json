@@ -1,5 +1,5 @@
 {
-"end": 760.04,
+"end": 765.04,
 "vo_end": 755.64,
 "shots": [
 {
@@ -14870,10 +14870,7 @@
 "e": 755.64
 }
 ],
-"subs": [
-94.26,
-752.66
-],
+"subs": [],
 "sfx": [],
 "music": [
 {
@@ -14915,5 +14912,20 @@
 ],
 "text": [],
 "extra": [],
-"stillScale": 0.5
+"stillScale": 0.5,
+"subkit": {
+"channel": "sr",
+"film_end": 760.04,
+"pops": [
+169.0,
+453.0
+],
+"P": 52,
+"B": 86,
+"old_subs": [
+94.26,
+752.66
+],
+"voice": "Thanks for watching. Subscribe for the next story. It helps support the channel."
+}
 }
