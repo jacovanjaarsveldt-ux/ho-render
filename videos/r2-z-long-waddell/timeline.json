@@ -27,10 +27,10 @@
 "a": 4.98,
 "b": 6.92,
 "kind": "vid",
-"src": "film/9648d818f9.mp4",
+"src": "film/ed9917af88.mp4",
 "mask": false,
 "line": "He wrestled an alligator, he toured the country in a play, playing himself, and he may have missed a World Series because of a straw hat.",
-"film": "ALG 80.0-81.9",
+"film": "ALG 92.6-94.5",
 "dir": -1,
 "label": "ALLIGATOR FARM\n1913 FILM"
 },
@@ -207,7 +207,7 @@
 "a": 52.5,
 "b": 56.86,
 "kind": "comp",
-"src": "img/crop/w_c089_194d95.jpg",
+"src": "img/crop/w_c089_c24fa7.jpg",
 "cam": "pan",
 "o": "50% 50%",
 "dir": -1,
@@ -381,7 +381,7 @@
 "a": 104.38,
 "b": 108.32,
 "kind": "comp",
-"src": "img/w/c121.jpg",
+"src": "img/crop/w_c121_876c50.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": -1,
@@ -470,7 +470,7 @@
 },
 {
 "a": 128.52,
-"b": 134.94,
+"b": 133.38,
 "kind": "comp",
 "src": "img/crop/w_c016_dc48c8.jpg",
 "cam": "push",
@@ -479,6 +479,13 @@
 "line": "Mack knew exactly what he was getting, because he'd had Waddell for part of 1900, managing Milwaukee.",
 "pic": "w/c016",
 "label": "PHILADELPHIA\nATHLETICS, 1902"
+},
+{
+"a": 133.38,
+"b": 134.94,
+"kind": "card",
+"text": "1900: MACK MANAGES\nWADDELL IN MILWAUKEE",
+"line": "Mack knew exactly what he was getting, because he'd had Waddell for part of 1900, managing Milwaukee."
 },
 {
 "a": 134.94,
@@ -495,7 +502,7 @@
 "src": "img/crop/w_c013_c517f8.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The problem was that in the spring of 1902 Waddell was pitching in California, for a Los Angeles team called the Looloos.",
 "pic": "w/c013",
 "label": "RUBE WADDELL\nLOS ANGELES, 1902"
@@ -507,7 +514,7 @@
 "src": "img/crop/w_c126_9f5b77.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The problem was that in the spring of 1902 Waddell was pitching in California, for a Los Angeles team called the Looloos.",
 "pic": "w/c126",
 "label": "LOS ANGELES, 1903-05"
@@ -519,7 +526,7 @@
 "src": "img/crop/w_c119_93d64b.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "So Mack went to the Pinkerton Detective Agency, the most famous detectives in America, and two of them were sent to fetch him.",
 "pic": "w/c119"
 },
@@ -548,6 +555,7 @@
 "lat": 39.95,
 "step": 1,
 "hi": true,
+"dx": -24,
 "dy": -24
 }
 ],
@@ -574,7 +582,7 @@
 "mask": false,
 "line": "Their job was to find him and make sure he got all the way east.",
 "film": "OVL 13.0-17.0",
-"dir": -1,
+"dir": 1,
 "label": "A TRAIN ARRIVES\n1897 FILM"
 },
 {
@@ -585,31 +593,20 @@
 "mask": false,
 "line": "It took them until the end of June.",
 "film": "PHX 13.0-15.5",
-"dir": 1,
+"dir": -1,
 "label": "EXPRESS TRAIN\n1897 FILM"
 },
 {
 "a": 161.12,
-"b": 164.6,
-"kind": "img",
-"src": "img/crop/w_c045_e93fc1.jpg",
-"cam": "pan",
-"o": "50% 50%",
-"dir": -1,
-"line": "On the first of July, in his first week with the Athletics, he struck out the side on nine pitches, the first time anyone had done that in the American League.",
-"pic": "w/c045",
-"label": "COLUMBIA PARK\nPHILADELPHIA"
-},
-{
-"a": 164.6,
 "b": 167.24,
 "kind": "comp",
 "src": "img/w/c042.jpg",
-"cam": "push",
+"cam": "pan",
 "o": "50% 50%",
 "dir": 1,
 "line": "On the first of July, in his first week with the Athletics, he struck out the side on nine pitches, the first time anyone had done that in the American League.",
-"pic": "w/c042"
+"pic": "w/c042",
+"label": "COLUMBIA PARK\nPHILADELPHIA"
 },
 {
 "a": 167.24,
@@ -632,22 +629,11 @@
 },
 {
 "a": 175.06,
-"b": 176.88,
+"b": 179.12,
 "kind": "card",
 "text": "1902\n24 WINS  210 STRIKEOUTS\nPENNANT",
 "line": "He led the league in strikeouts, and the Athletics won the pennant.",
-"bg": "img/w/c044.jpg"
-},
-{
-"a": 176.88,
-"b": 179.12,
-"kind": "comp",
-"src": "img/w/c044.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": 1,
-"line": "He led the league in strikeouts, and the Athletics won the pennant.",
-"pic": "w/c044"
+"bg": "img/w/c029.jpg"
 },
 {
 "a": 179.12,
@@ -656,7 +642,7 @@
 "src": "img/w/c118.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Mack had his pitcher, and a year later he lost him to the theatre.",
 "pic": "w/c118",
 "label": "A NEW YORK THEATRE\n1903"
@@ -676,7 +662,7 @@
 "src": "img/w/c015.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "When his 1903 season ended, the most feared strikeout pitcher in baseball went on tour in a stage melodrama, and the part he played was himself.",
 "pic": "w/c015",
 "label": "PHILADELPHIA\nATHLETICS, 1903"
@@ -688,7 +674,7 @@
 "src": "img/crop/w_c116_ce4b84.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "When his 1903 season ended, the most feared strikeout pitcher in baseball went on tour in a stage melodrama, and the part he played was himself.",
 "pic": "w/c116",
 "label": "A STAGE MELODRAMA\nPOSTER, 1903"
@@ -700,7 +686,7 @@
 "src": "img/crop/w_g76_a3ef52.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "When his 1903 season ended, the most feared strikeout pitcher in baseball went on tour in a stage melodrama, and the part he played was himself.",
 "pic": "w/g76",
 "label": "REACH'S GUIDE, 1904"
@@ -728,7 +714,7 @@
 "src": "img/crop/w_c115_5c5560.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He'd just struck out three hundred and two batters, the most in the short history of the American League, so people knew the name on the poster.",
 "pic": "w/c115",
 "label": "THEATRE POSTER, 1904"
@@ -740,7 +726,7 @@
 "src": "img/crop/w_c114_cd52d7.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "What they got was not much of an actor.",
 "pic": "w/c114"
 },
@@ -770,21 +756,11 @@
 },
 {
 "a": 216.9,
-"b": 219.48,
-"kind": "img",
-"src": "img/crop/w_c118_471fdb.jpg",
-"cam": "pan",
-"o": "50% 50%",
-"dir": -1,
-"line": "He ended up where he often did in the winter, behind a bar, mixing drinks.",
-"pic": "w/c118"
-},
-{
-"a": 219.48,
 "b": 222.06,
 "kind": "card",
 "text": "WINTERS:\nBEHIND A BAR,\nMIXING DRINKS",
-"line": "He ended up where he often did in the winter, behind a bar, mixing drinks."
+"line": "He ended up where he often did in the winter, behind a bar, mixing drinks.",
+"bg": "img/w/c118.jpg"
 },
 {
 "a": 222.06,
@@ -798,7 +774,7 @@
 "a": 226.56,
 "b": 228.7,
 "kind": "comp",
-"src": "img/crop/w_c117_b2044e.jpg",
+"src": "img/crop/w_c117_21732b.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": 1,
@@ -905,12 +881,14 @@
 {
 "a": 259.34,
 "b": 261.18,
-"kind": "vid",
-"src": "film/ee44f1d53a.mp4",
-"mask": false,
+"kind": "comp",
+"src": "img/crop/w_c110_9f6203.jpg",
+"cam": "push",
+"o": "50% 50%",
+"dir": 1,
 "line": "In one, from his SABR biography, he went missing during spring training and was found in a lagoon near Jacksonville, Florida, wrestling an alligator.",
-"film": "ALG 90.5-92.3",
-"dir": 1
+"pic": "w/c110",
+"label": "ALLIGATOR FARM\nc.1907"
 },
 {
 "a": 261.18,
@@ -1031,14 +1009,14 @@
 {
 "a": 300.58,
 "b": 303.8,
-"kind": "img",
-"src": "img/w/c048.jpg",
-"cam": "pan",
+"kind": "comp",
+"src": "img/crop/w_c048_26194e.jpg",
+"cam": "push",
 "o": "50% 50%",
 "dir": 1,
 "line": "In exhibition games, Waddell sometimes waved his fielders off the field and then struck out the side with nobody behind him.",
 "pic": "w/c048",
-"label": "A BALLPARK, 1903"
+"label": "A BALLPARK, BOSTON 1903"
 },
 {
 "a": 303.8,
@@ -1094,7 +1072,7 @@
 "dir": -1,
 "line": "He'd call his teammates in, leave only the catcher, and pitch to three batters with an empty field at his back.",
 "pic": "w/c046",
-"label": "AN EMPTY OUTFIELD\nBOSTON"
+"label": "HUNTINGTON AVENUE\nGROUNDS, BOSTON"
 },
 {
 "a": 316.48,
@@ -1126,12 +1104,12 @@
 "a": 329.92,
 "b": 333.64,
 "kind": "comp",
-"src": "img/crop/w_c004_c24237.jpg",
+"src": "img/crop/w_c013_2382fa.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": -1,
 "line": "In league games he had other ways to embarrass hitters.",
-"pic": "w/c004"
+"pic": "w/c013"
 },
 {
 "a": 333.64,
@@ -1366,7 +1344,7 @@
 "a": 409.44,
 "b": 414.86,
 "kind": "comp",
-"src": "img/w/c143.jpg",
+"src": "img/crop/w_c143_bdd716.jpg",
 "cam": "push",
 "o": "50% 50%",
 "dir": 1,
@@ -1377,27 +1355,22 @@
 {
 "a": 414.86,
 "b": 416.66,
-"kind": "img",
-"src": "img/w/c052.jpg",
-"cam": "pan",
+"kind": "comp",
+"src": "img/crop/w_c048_4817df.jpg",
+"cam": "push",
 "o": "50% 50%",
 "dir": -1,
 "line": "They went nine innings, then twelve, then fifteen, and neither man came out.",
-"pic": "w/c052",
+"pic": "w/c048",
 "label": "HUNTINGTON AVENUE\nGROUNDS",
 "over": "9"
 },
 {
 "a": 416.66,
 "b": 417.84,
-"kind": "comp",
-"src": "img/crop/w_c048_b48dbc.jpg",
-"cam": "pan",
-"o": "50% 50%",
-"dir": 1,
-"line": "They went nine innings, then twelve, then fifteen, and neither man came out.",
-"pic": "w/c048",
-"over": "12"
+"kind": "card",
+"text": "12",
+"line": "They went nine innings, then twelve, then fifteen, and neither man came out."
 },
 {
 "a": 417.84,
@@ -1640,7 +1613,7 @@
 },
 {
 "a": 486.88,
-"b": 489.94,
+"b": 492.44,
 "kind": "tl",
 "upto": 1,
 "from": -1,
@@ -1655,23 +1628,12 @@
 ],
 [
 "OCTOBER",
-"GIANTS WIN\nTHE SERIES 4-1"
+"GIANTS WIN\nIN FIVE"
 ]
 ],
 "title": "1905",
 "line": "He came back for two games in relief at the very end, and he was no good in either of them.",
 "mid": "ws"
-},
-{
-"a": 489.94,
-"b": 492.44,
-"kind": "comp",
-"src": "img/crop/w_c044_ba720b.jpg",
-"cam": "pan",
-"o": "50% 50%",
-"dir": -1,
-"line": "He came back for two games in relief at the very end, and he was no good in either of them.",
-"pic": "w/c044"
 },
 {
 "a": 492.44,
@@ -1680,7 +1642,7 @@
 "src": "img/w/c017.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The Athletics went into the World Series against the New York Giants without him, and they lost in five games.",
 "pic": "w/c017",
 "label": "MACK AND THE ATHLETICS\n1905 WORLD SERIES"
@@ -1692,7 +1654,7 @@
 "src": "img/w/c149.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The Athletics went into the World Series against the New York Giants without him, and they lost in five games.",
 "pic": "w/c149",
 "label": "NEW YORK GIANTS\n1905"
@@ -1704,7 +1666,7 @@
 "src": "img/w/c054.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Not everybody believed the straw hat story, even then.",
 "pic": "w/c054",
 "label": "1905 WORLD SERIES"
@@ -1716,7 +1678,7 @@
 "src": "img/crop/w_c140_69e771.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "A Philadelphia writer reported that Connie Mack and most of the players thought Waddell was faking.",
 "pic": "w/c140",
 "label": "CONNIE MACK"
@@ -1731,11 +1693,11 @@
 {
 "a": 508.82,
 "b": 511.5,
-"kind": "img",
-"src": "img/w/c053.jpg",
-"cam": "pan",
+"kind": "comp",
+"src": "img/crop/w_c053_4817df.jpg",
+"cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Others said gamblers in New York had paid him to stay out of the Series.",
 "pic": "w/c053",
 "label": "POLO GROUNDS\n1905 WORLD SERIES"
@@ -1743,14 +1705,9 @@
 {
 "a": 511.5,
 "b": 513.44,
-"kind": "comp",
-"src": "img/w/c148.jpg",
-"cam": "push",
-"o": "50% 50%",
-"dir": 1,
-"line": "Others said gamblers in New York had paid him to stay out of the Series.",
-"pic": "w/c148",
-"label": "NEW YORK GIANTS, 1905"
+"kind": "card",
+"text": "A RUMOUR\nNEVER PROVED",
+"line": "Others said gamblers in New York had paid him to stay out of the Series."
 },
 {
 "a": 513.44,
@@ -1759,7 +1716,7 @@
 "src": "img/crop/w_c008_c89cd7.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "Waddell said he really was hurt, and nobody ever proved otherwise.",
 "pic": "w/c008"
 },
@@ -1770,7 +1727,7 @@
 "src": "img/crop/w_c158_47cf1b.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Before the 1908 season, Mack sold him to the St. Louis Browns.",
 "pic": "w/c158",
 "label": "ST. LOUIS BROWNS\n1908"
@@ -1782,7 +1739,7 @@
 "src": "img/crop/w_c011_fbbe78.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "That July, pitching for St. Louis against his old team, he struck out sixteen Athletics in one game.",
 "pic": "w/c011",
 "label": "RUBE WADDELL\nST. LOUIS"
@@ -1801,7 +1758,7 @@
 "src": "img/crop/w_c064_72fb21.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He was four years from the river.",
 "pic": "w/c064",
 "label": "HICKMAN, KENTUCKY\nINSURANCE MAP, 1905"
@@ -1821,7 +1778,7 @@
 "src": "img/crop/w_c008_b48dbc.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In 1912 Rube Waddell stood for hours in icy floodwater, stacking sandbags to save a town in Kentucky, and it cost him his life.",
 "pic": "w/c008",
 "label": "RUBE WADDELL, 1909"
@@ -1833,7 +1790,7 @@
 "src": "img/crop/w_c063_926e95.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In 1912 Rube Waddell stood for hours in icy floodwater, stacking sandbags to save a town in Kentucky, and it cost him his life.",
 "pic": "w/c063"
 },
@@ -1844,7 +1801,7 @@
 "src": "img/w/c004.jpg",
 "cam": "pull",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "By then the big leagues were done with him.",
 "pic": "w/c004"
 },
@@ -1883,7 +1840,7 @@
 "src": "img/w/c038.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In 1911 he still won twenty games for Joe Cantillon's Minneapolis Millers.",
 "pic": "w/c038",
 "label": "MINNEAPOLIS MILLERS\n1908"
@@ -1895,7 +1852,7 @@
 "src": "img/crop/w_c040_e0c03e.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In 1911 he still won twenty games for Joe Cantillon's Minneapolis Millers.",
 "pic": "w/c040",
 "label": "JOE CANTILLON"
@@ -1956,7 +1913,7 @@
 "src": "img/crop/w_c074_94ba77.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "In the spring of 1912 the river rose, and the water came for the town.",
 "pic": "w/c074",
 "label": "MISSISSIPPI BASIN\nFLOOD REPORT, 1913"
@@ -1968,7 +1925,7 @@
 "src": "img/w/c071.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In the spring of 1912 the river rose, and the water came for the town.",
 "pic": "w/c071",
 "label": "MISSISSIPPI FLOOD\n1912, BATON ROUGE"
@@ -1980,7 +1937,7 @@
 "src": "img/w/c066.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The men of Hickman piled sandbags on the levee to hold it back, and Waddell went down and joined them.",
 "pic": "w/c066",
 "label": "MISSISSIPPI FLOOD\n1912, VICKSBURG"
@@ -1988,14 +1945,14 @@
 {
 "a": 574.74,
 "b": 577.16,
-"kind": "img",
-"src": "img/crop/w_c063_5c5560.jpg",
+"kind": "comp",
+"src": "img/crop/w_c065_8754eb.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "The men of Hickman piled sandbags on the levee to hold it back, and Waddell went down and joined them.",
-"pic": "w/c063",
-"label": "HICKMAN, 1912"
+"pic": "w/c065",
+"label": "MISSISSIPPI FLOOD\n1912, LOUISIANA"
 },
 {
 "a": 577.16,
@@ -2004,7 +1961,7 @@
 "src": "img/crop/w_c063_8198d2.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He stood in the cold water for hours, lifting and stacking.",
 "pic": "w/c063"
 },
@@ -2015,30 +1972,30 @@
 "src": "img/w/c068.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He stood in the cold water for hours, lifting and stacking.",
 "pic": "w/c068",
 "label": "MISSISSIPPI FLOOD\n1912, LOUISIANA"
 },
 {
 "a": 581.76,
-"b": 586.58,
+"b": 586.76,
 "kind": "comp",
 "src": "img/crop/w_c003_39673e.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He'd run toward trouble before, the day he carried Danny Hoffman off the field, but this time the trouble was a river.",
 "pic": "w/c003"
 },
 {
-"a": 586.58,
+"a": 586.76,
 "b": 589.54,
 "kind": "img",
 "src": "img/w/c076.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He'd run toward trouble before, the day he carried Danny Hoffman off the field, but this time the trouble was a river.",
 "pic": "w/c076",
 "label": "A BROKEN LEVEE\n1913"
@@ -2050,7 +2007,7 @@
 "src": "img/w/c067.jpg",
 "cam": "pan",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He came out of the water with pneumonia, and he never really got his strength back.",
 "pic": "w/c067",
 "label": "MISSISSIPPI FLOOD\n1912, LOUISIANA"
@@ -2062,7 +2019,7 @@
 "src": "img/w/c133.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "By 1913 he had tuberculosis.",
 "pic": "w/c133",
 "label": "A SANITARIUM\n1910"
@@ -2119,7 +2076,7 @@
 "src": "img/crop/w_c077_ed9fe7.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He went to a sanitarium in San Antonio, Texas.",
 "pic": "w/c077",
 "label": "SAN ANTONIO\nc.1910"
@@ -2131,7 +2088,7 @@
 "src": "img/crop/w_c082_54bf69.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He died there on the first of April 1914, at thirty-seven.",
 "pic": "w/c082",
 "label": "SAN ANTONIO"
@@ -2172,7 +2129,7 @@
 "mask": false,
 "line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
 "film": "MON 52.0-57.0",
-"dir": 1,
+"dir": -1,
 "label": "FIRE ENGINES\n1900s FILM"
 },
 {
@@ -2183,7 +2140,7 @@
 "mask": false,
 "line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
 "film": "EHE2 5.0-6.4",
-"dir": -1
+"dir": 1
 },
 {
 "a": 613.42,
@@ -2192,7 +2149,7 @@
 "src": "img/crop/w_c009_b8ad1b.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "The man who'd followed fire engines all his life ran at one more disaster, and he stayed in the water until it got him.",
 "pic": "w/c009"
 },
@@ -2211,18 +2168,18 @@
 "src": "img/crop/w_c005_ec37d2.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "His three hundred and forty-nine strikeouts stayed the modern record for sixty-one years, until Sandy Koufax broke it in 1965.",
 "pic": "w/c005"
 },
 {
 "a": 623.86,
 "b": 626.36,
-"kind": "small",
-"src": "img/w/c001.jpg",
-"cam": "push",
+"kind": "comp",
+"src": "img/crop/w_c001_c24237.jpg",
+"cam": "pull",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "He'd been born on a Friday the thirteenth, and he died on April Fools' Day.",
 "pic": "w/c001"
 },
@@ -2248,7 +2205,7 @@
 "src": "img/crop/w_c029_c5fadc.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "He won a hundred and ninety-three games in the major leagues, and his earned run average over his whole career was two point one six.",
 "pic": "w/c029"
 },
@@ -2259,7 +2216,7 @@
 "src": "img/w/c011.jpg",
 "cam": "pull",
 "o": "50% 50%",
-"dir": -1,
+"dir": 1,
 "line": "In 1946 Rube Waddell was voted into the Baseball Hall of Fame.",
 "pic": "w/c011",
 "label": "RUBE WADDELL\n1876-1914"
@@ -2271,7 +2228,7 @@
 "src": "img/crop/w_c008_da78b1.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Which one is the strangest, do you think, the alligator, the play or the straw hat?",
 "pic": "w/c008"
 },
@@ -2283,7 +2240,7 @@
 "mask": false,
 "line": "Which one is the strangest, do you think, the alligator, the play or the straw hat?",
 "film": "ALG 150.0-153.2",
-"dir": -1
+"dir": 1
 },
 {
 "a": 649.36,
@@ -2292,7 +2249,7 @@
 "src": "img/crop/w_c014_113905.jpg",
 "cam": "push",
 "o": "50% 50%",
-"dir": 1,
+"dir": -1,
 "line": "Tell us in the comments.",
 "pic": "w/c014"
 },
@@ -4303,7 +4260,7 @@
 "e": 145.72
 },
 {
-"w": "Lulus.",
+"w": "Looloos.",
 "s": 145.78,
 "e": 146.32
 },
@@ -4873,7 +4830,7 @@
 "e": 182.64
 },
 {
-"w": "theater.",
+"w": "theatre.",
 "s": 182.68,
 "e": 183.02
 },
@@ -5408,7 +5365,7 @@
 "e": 223.92
 },
 {
-"w": "Southpaw,",
+"w": "sousepaw,",
 "s": 224.0,
 "e": 224.58
 },
@@ -5773,8 +5730,13 @@
 "e": 252.96
 },
 {
-"w": "autobiography,",
+"w": "SABR",
 "s": 253.1,
+"e": 253.51
+},
+{
+"w": "biography,",
+"s": 253.51,
 "e": 253.92
 },
 {
