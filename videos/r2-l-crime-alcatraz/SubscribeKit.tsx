@@ -195,7 +195,7 @@ export const EndCard: React.FC<{ ch: Ch; bg: React.ReactNode; P?: number; B?: nu
   };
   const markIn = (() => { const s = spring({ frame: fr - 6, fps, config: { damping: 200, stiffness: 120 } }); return { opacity: s, transform: `scale(${0.9 + 0.1 * s})` }; })();
   const geo: PairGeo = ho ? { bw: 360, bh: 72, gap: 20, r: 36, font: 28 } : { bw: 380, bh: 80, gap: 20, r: 4, font: 40 };
-  const bx = ho ? 274 : 160, by = ho ? 660 : 630;
+  const bx = ho ? 734 : 720, by = ho ? 660 : 630; // centred: no Watch next box (Jaco 28 Nov)
   const cur = useCursor(fr, P - 26, P, B, [900, 900], [bx + geo.bw / 2, by + geo.bh / 2], [bx + geo.bw + geo.gap + geo.bh / 2, by + geo.bh / 2]);
   const txt = (x: number, base: number, size: number, extra: React.CSSProperties, children: React.ReactNode, at: number, center = false) => (
     <div style={{ position: "absolute", left: center ? x - 600 : x, width: center ? 1200 : undefined, top: base - size * 0.8, textAlign: center ? "center" : "left", fontSize: size, lineHeight: 1, whiteSpace: "nowrap", ...extra, ...ent(at) }}>{children}</div>
@@ -208,23 +208,19 @@ export const EndCard: React.FC<{ ch: Ch; bg: React.ReactNode; P?: number; B?: nu
         : <div style={{ position: "absolute", left: 0, top: 0, width: 12, height: 1080 * interpolate(fr, [0, 12], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) }), background: SR.red }} />}
       {ho ? (
         <>
-          <div style={{ position: "absolute", left: 390, top: 250, ...markIn }}><Crest size={220} t={fr - 6} /></div>
-          {txt(500, 560, 44, { fontFamily: "Cinzel", fontWeight: 900, letterSpacing: "0.06em", color: HO.cream }, "HISTORY OUTSCALED", 14, true)}
-          {txt(500, 610, 26, { fontFamily: "Archivo", fontWeight: 800, color: HO.gold }, "Thanks for watching", 18, true)}
+          <div style={{ position: "absolute", left: 850, top: 250, ...markIn }}><Crest size={220} t={fr - 6} /></div>
+          {txt(960, 560, 44, { fontFamily: "Cinzel", fontWeight: 900, letterSpacing: "0.06em", color: HO.cream }, "HISTORY OUTSCALED", 14, true)}
+          {txt(960, 610, 26, { fontFamily: "Archivo", fontWeight: 800, color: HO.gold }, "Thanks for watching", 18, true)}
           <div style={{ position: "absolute", left: bx, top: by, ...ent(24) }}><Pair ch="ho" fr={fr} C={P} B={B} g={geo} /></div>
-          {txt(500, 790, 24, { fontFamily: "Archivo", fontWeight: 800, color: "rgba(244,235,216,.7)" }, "Subscribing helps support the channel", 36, true)}
-          {txt(1080, 276, 26, { fontFamily: "Cinzel", fontWeight: 700, letterSpacing: "0.12em", color: HO.gold }, "WATCH NEXT", 30)}
-          <div style={{ position: "absolute", left: 1080, top: 300, width: 720, height: 405, borderRadius: 12, boxSizing: "border-box", border: "1.5px solid rgba(214,174,98,.45)", background: "rgba(27,37,71,.45)", boxShadow: "0 18px 50px rgba(0,0,0,.35)", ...ent(32) }} />
+          {txt(960, 790, 24, { fontFamily: "Archivo", fontWeight: 800, color: "rgba(244,235,216,.7)" }, "Subscribing helps support the channel", 36, true)}
         </>
       ) : (
         <>
-          <div style={{ position: "absolute", left: 160, top: 230, ...markIn }}><SRMark size={200} /></div>
-          {txt(160, 480, 30, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.08em", color: "rgba(243,238,228,.8)" }, "THANKS FOR WATCHING", 14)}
-          {txt(160, 585, 96, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.01em", color: SR.cream }, <>SPORTS<span style={{ color: SR.red }}>ROOM</span></>, 18)}
+          <div style={{ position: "absolute", left: 860, top: 230, ...markIn }}><SRMark size={200} /></div>
+          {txt(960, 480, 30, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.08em", color: "rgba(243,238,228,.8)" }, "THANKS FOR WATCHING", 14, true)}
+          {txt(960, 585, 96, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.01em", color: SR.cream }, <>SPORTS<span style={{ color: SR.red }}>ROOM</span></>, 18, true)}
           <div style={{ position: "absolute", left: bx, top: by, ...ent(24) }}><Pair ch="sr" fr={fr} C={P} B={B} g={geo} /></div>
-          {txt(160, 770, 28, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.04em", color: "rgba(243,238,228,.75)" }, "SUBSCRIBING HELPS SUPPORT THE CHANNEL", 36)}
-          {txt(1040, 272, 36, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.04em", color: SR.cream }, <>WATCH NEXT<div style={{ width: 120, height: 4, background: SR.red, marginTop: 8 }} /></>, 30)}
-          <div style={{ position: "absolute", left: 1040, top: 300, width: 760, height: 428, borderRadius: 4, background: "rgba(28,25,22,.6)", boxShadow: `inset 6px 0 0 ${SR.red}, inset 0 0 0 2px rgba(243,238,228,.16), 0 18px 50px rgba(0,0,0,.35)`, ...ent(32) }} />
+          {txt(960, 770, 28, { fontFamily: "Anton, Impact, sans-serif", letterSpacing: "0.04em", color: "rgba(243,238,228,.75)" }, "SUBSCRIBING HELPS SUPPORT THE CHANNEL", 36, true)}
         </>
       )}
       <div style={{ position: "absolute", left: cur.x - 3, top: cur.y - 1, opacity: cur.op, transform: `scale(${cur.sc})`, transformOrigin: "3px 1px" }}><Cursor h={42} /></div>
