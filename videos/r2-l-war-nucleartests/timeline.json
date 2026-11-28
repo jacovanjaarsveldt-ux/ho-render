@@ -1,5 +1,5 @@
 {
-"end": 671.17,
+"end": 676.17,
 "vo_end": 670.168,
 "fps": 30,
 "shots": [
@@ -2285,5 +2285,17 @@
 "subs": [],
 "grain": true,
 "grainOpacity": 0.07,
-"parts": 4
+"parts": 4,
+"subkit": {
+"channel": "ho",
+"film_end": 671.17,
+"pops": [
+162.0,
+476.5
+],
+"P": 52,
+"B": 90,
+"old_subs": [],
+"voice": "Thanks for watching. Subscribe for more history. It helps support the channel."
+}
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Img, OffthreadVideo, Sequence, staticFile, useCurrentFrame, interpolate, Easing, continueRender, delayRender, registerRoot, Composition, random } from "remotion";
 import TL from "./timeline.json";
+import { withSubkit } from "./SubscribeKit";
 import { SubscribePopup } from "./EndCard";
 
 // History Outscaled long (16:9, 1920x1080, 30 fps) from REAL archive material only (26 Nov 2026).
@@ -104,8 +105,9 @@ const Film: React.FC = () => (
 
 // Part k of n renders frames [k*L, min(DUR,(k+1)*L)) of the same film.
 const NP = Math.max(1, T.parts ?? 3); const L = Math.ceil(DUR / NP);
-const Part: React.FC<{ k: number }> = ({ k }) => <Sequence from={-k * L}><Film /></Sequence>;
+const FilmSK = withSubkit(Film, TL);
+const Part: React.FC<{ k: number }> = ({ k }) => <Sequence from={-k * L}><FilmSK /></Sequence>;
 registerRoot(() => <>
-  <Composition id="Long" component={Film} durationInFrames={DUR} fps={FPS} width={1920} height={1080} />
+  <Composition id="Long" component={FilmSK} durationInFrames={DUR} fps={FPS} width={1920} height={1080} />
   {Array.from({ length: NP }, (_, k) => <Composition key={k} id={`LongP${k + 1}`} component={Part} defaultProps={{ k }} durationInFrames={Math.min(L, DUR - k * L)} fps={FPS} width={1920} height={1080} />)}
 </>);
